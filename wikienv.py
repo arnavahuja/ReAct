@@ -4,6 +4,8 @@ import time
 import gym
 import requests
 from bs4 import BeautifulSoup
+from google import genai
+from google.genai import types
 
 # import wikipedia
 
@@ -34,6 +36,7 @@ class WikiEnv(gym.Env):
     self.observation_space = self.action_space = textSpace()
     self.search_time = 0
     self.num_searches = 0
+    self.gemini_client = genai.Client(api_key="AIzaSyDllHzP_AkDu2fqOQbzvJZ7QvAY5OZtx0A")
     
   def _get_obs(self):
     return self.obs
@@ -95,6 +98,17 @@ class WikiEnv(gym.Env):
     #     break
     # return ret
 
+  def gemini_llm(self, prompt):
+      response = self.gemini_client.models.generate_content(model="gemini-2.5-flash", contents=prompt, config=types.GenerateContentConfig(thinking_config=types.ThinkingConfig(thinking_budget=0)))
+      return response.text
+    
+  def guess_step(self, entity):
+      prompt_wrap = "Image you are wikipedia and give me information about {} in less than 1000 words. Just give me the information and nothing else".format(entity)
+      prompt_wrap = "Give me information about {} in less than 1000 words.".format(entity)
+      llm_response = self.gemini_llm(prompt_wrap)
+      self.page = llm_response
+      self.obs = self.get_page_obs(self.page)
+
   def search_step(self, entity):
     entity_ = entity.replace(" ", "+")
     search_url = f"https://en.wikipedia.org/w/index.php?search={entity_}"
@@ -133,7 +147,8 @@ class WikiEnv(gym.Env):
       entity = action[len("search["):-1]
       # entity_ = entity.replace(" ", "_")
       # search_url = f"https://en.wikipedia.org/wiki/{entity_}"
-      self.search_step(entity)
+      self.guess_step(entity)
+    #   self.search_step(entity)
     elif action.startswith("lookup[") and action.endswith("]"):
       keyword = action[len("lookup["):-1]
       if self.lookup_keyword != keyword:  # reset lookup
