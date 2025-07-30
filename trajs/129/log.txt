@@ -1,0 +1,60 @@
+INFO 129 Question: At what venue was the January 2, 2012 game featured the University of Louisville team?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[University of Louisville team January 2 2012 game]
+Action 1: Search[University of Louisville team January 2 2012 game]
+Observation 1: Could not find University of Louisville team January 2 2012 game. Similar: ['Louisville Cardinals', 'Louisville Cardinals football', "Louisville Cardinals men's basketball", 'Louisville, Kentucky', '2012 Louisville Cardinals football team'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[University of Louisville team January 2, 2012 game]
+Action 1: Search[University of Louisville team January 2, 2012 game]
+Observation 1: **2011–12 NCAA Division I men's basketball season**. | **Game** | **Date** | **Venue** | **Location** | **Result** | **Attendance** |. |---|---|---|---|---|---|. | No. 16 Georgetown Hoyas vs.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Louisville Cardinals]
+Action 2: Search[Louisville Cardinals]
+Observation 2: The Louisville Cardinals (also known as the Cards) are the NCAA athletic teams representing the University of Louisville. The Cardinals teams play in the Atlantic Coast Conference, beginning in the 2014 season. While playing in the Big East Conference from 2005 through 2013, the Cardinals captured 17 regular season Big East titles and 33 Big East Tournament titles totaling 50 Big East Championships across all sports. On November 28, 2012, Louisville received and accepted an invitation to join the Atlantic Coast Conference and became a participating member in all sports in 2014.[3] In 2016, Lamar Jackson won the school its first Heisman Trophy.. Since 2000 Louisville is the only NCAA team to win a BCS bowl game; to appear in the NCAA Division I men's basketball Final Four, the College World Series, and the NCAA Division I women's basketball Final Four; and to finish as runner-up in the Men's soccer College Cup.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[University of Louisville January 2, 2012]
+Action 2: Search[University of Louisville January 2, 2012]
+Observation 2: The **Louisville Cardinals** are the athletic teams representing the University of Louisville, located in Louisville, Kentucky. As a member of the National Collegiate Athletic Association (NCAA) Division I, the Cardinals compete primarily in the Atlantic Coast Conference (ACC). The university's official colors are red and black, and their mascot is "Louie the Cardinal.". **Overview and Affiliation:**. *   **University:** University of Louisville.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[2012 Louisville Cardinals men's basketball season]
+Action 3: Search[2012 Louisville Cardinals men's basketball season]
+Observation 3: Could not find 2012 Louisville Cardinals men's basketball season. Similar: ['Louisville Cardinals', "2012–13 Louisville Cardinals men's basketball team", "Louisville Cardinals men's basketball", "1985–86 Louisville Cardinals men's basketball team", "2013–14 Louisville Cardinals men's basketball team"].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Louisville Cardinals January 2 2012 game]
+Action 3: Search[Louisville Cardinals January 2 2012 game]
+Observation 3: **2011–12 Louisville Cardinals men's basketball team**. The 2011–12 Louisville Cardinals men's basketball team represented the University of Louisville during the 2011–12 NCAA Division I men's basketball season. The team was coached by Rick Pitino in his 11th season at Louisville, and played their home games at the KFC Yum! Center in Louisville, Kentucky, as members of the Big East Conference.. The Cardinals finished the regular season with a 22–9 overall record, and 10–8 in Big East conference play, tying for 7th place. They were ranked as high as #4 in the AP Poll early in the season, but dropped out of the top 25 after some inconsistent play, including a stretch where they lost 5 of 6 games in February..
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[2011–12 Louisville Cardinals men's basketball team]
+Action 4: Search[2011–12 Louisville Cardinals men's basketball team]
+Observation 4: The 2011–12 Louisville Cardinals men's basketball team represented the University of Louisville during the 2011–12 NCAA Division I men's basketball season, Louisville's 98th season of intercollegiate competition. The Cardinals competed in the Big East Conference and were coached by Rick Pitino, who was in his 11th season. The team played their home games on Denny Crum Court at the KFC Yum! Center. The Cardinals finished the season with a record of 30–10, 10–8 to finish in sixth place in Big East play. They defeated Seton Hall, Marquette, and Notre Dame to advance to the Big East tournament championship.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[January 2, 2012]
+Action 4: Lookup[January 2, 2012]
+Observation 4: The **2011–12 Louisville Cardinals men's basketball team** represented the University of Louisville during the 2011–12 NCAA Division I men's basketball season. The Cardinals were coached by Rick Pitino, who was in his eleventh season at Louisville. The team played its home games at the KFC Yum! Center in Louisville, Kentucky, and was a member of the Big East Conference.. **Season Summary:**. The Cardinals finished the regular season with a 22–9 overall record and a 10–8 record in Big East play, tying for seventh place.
+
+
+
+STEP: 5
+

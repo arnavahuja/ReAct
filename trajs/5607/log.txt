@@ -1,0 +1,67 @@
+INFO 5607 Question: Love Thy Neighbor starred an AMerican actor who was best known for his role as Jack Tripper on what sitcom?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Love Thy Neighbor]
+Action 1: Search[Love Thy Neighbor]
+Observation 1: Love Thy Neighbor or Love Thy Neighbour may also refer to:. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us. HelpLearn to editCommunity portalRecent changesUpload fileSpecial pages. Donate. Create account.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Love Thy Neighbor]
+Action 1: Search[Love Thy Neighbor]
+Observation 1: **Love Thy Neighbor** is a British sitcom that was broadcast on ITV from 1972 to 1976. Created by Vince Powell and Harry Driver, it was produced by Thames Television.. The series centres on the lives of two couples: Eddie and Joan Booth, who are white, and Bill and Barbie Reynolds, who are black and have recently moved in next door. The main premise of the show revolves around the racial prejudice and cultural misunderstandings between the two households, particularly Eddie's open bigotry and Bill's attempts to counter it with equal measures of wit and frustration.. **Main Characters:**.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Jack Tripper]
+Action 2: Search[Jack Tripper]
+Observation 2: Jack Tripper is a fictional character on the sitcom Three's Company, which is based upon the character Robin Tripp from Man About the House created by Brian Cooke and Johnnie Mortimer. Jack was played by the actor John Ritter.[1][2][3]. Janet, another character in the show, reasoned with the landlord, Stanley Roper who lived downstairs and he agreed that Jack could stay because Janet told Mr. Roper that Jack was gay, without Jack's knowledge. Jack was, however, actually straight (the comedy stemming from having to "play gay" provided much of the story for the sitcom).[4] Jack is something of a ladies' man, but is also kind-hearted, loyal, and protective of the women he lives with.[5].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Jack Tripper]
+Action 2: Search[Jack Tripper]
+Observation 2: **Jack Tripper** is a fictional character and the protagonist of the American sitcom *Three's Company* (1977–1984), and its short-lived spin-off *Three's a Crowd* (1984–1985). He was portrayed by John Ritter.. **Character Biography**. Jack Tripper is a charming, somewhat clumsy, and good-natured aspiring chef. He is initially introduced as a culinary school student living in Santa Monica, California.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[John Ritter]
+Action 3: Search[John Ritter]
+Observation 3: Johnathan Southworth Ritter[1][2] (September 17, 1948 – September 11, 2003) was an American comedian and actor. He was a son of the singing cowboy star Tex Ritter and the father of actors Jason and Tyler Ritter. He is best known for playing Jack Tripper on the ABC sitcom Three's Company (1977–1984), and received a Primetime Emmy Award and a Golden Globe Award for the role in 1984. Ritter briefly reprised the role on the spin-off Three's a Crowd, which aired for one season, producing 22 episodes before its cancellation in 1985.. He appeared in over 100 films and television series combined and performed on Broadway, with roles including adult Ben Hanscom in It (1990), Problem Child (1990), Problem Child 2 (1991), a dramatic turn in Sling Blade (1996), and Bad Santa in 2003 (his final live action film, which was dedicated to his memory).
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[John Ritter]
+Action 3: Search[John Ritter]
+Observation 3: **John Ritter** (1948–2003). *   **Born:** Jonathan Southworth Ritter; September 17, 1948, Burbank, California, U.S.. *   **Died:** September 11, 2003 (aged 54), Burbank, California, U.S.. *   **Cause of death:** Aortic dissection. *   **Resting Place:** Forest Lawn Memorial Park (Hollywood Hills).
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[Three's Company]
+Action 4: Finish[Three's Company]
+Observation 4: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[Three's Company]
+Action 4: Finish[Three's Company]
+Observation 4: **John Ritter** (1948–2003). *   **Born:** Jonathan Southworth Ritter; September 17, 1948, Burbank, California, U.S.. *   **Died:** September 11, 2003 (aged 54), Burbank, California, U.S.. *   **Cause of death:** Aortic dissection. *   **Resting Place:** Forest Lawn Memorial Park (Hollywood Hills).
+
+
+
+INFO {'steps': 7, 'answer': "Three's Company", 'gt_answer': "Three's Company", 'question_idx': 5607, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 1 
+Number of steps: 1 
+Average reward: 1.0 
+Average time 30.135209798812866
+
+-------------------------------------------------------
+

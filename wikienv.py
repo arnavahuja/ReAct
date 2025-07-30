@@ -6,7 +6,8 @@ import requests
 from bs4 import BeautifulSoup
 from google import genai
 from google.genai import types
-
+import constants as Constants
+import openai
 # import wikipedia
 
 def clean_str(p):
@@ -36,7 +37,8 @@ class WikiEnv(gym.Env):
     self.observation_space = self.action_space = textSpace()
     self.search_time = 0
     self.num_searches = 0
-    self.gemini_client = genai.Client(api_key="AIzaSyDllHzP_AkDu2fqOQbzvJZ7QvAY5OZtx0A")
+    self.gemini_client = genai.Client(Constants.gemini_api_key)
+    self.sim_obs = None
     
   def _get_obs(self):
     return self.obs
@@ -88,24 +90,28 @@ class WikiEnv(gym.Env):
       sentences += p.split('. ')
     sentences = [s.strip() + '.' for s in sentences if s.strip()]
     return ' '.join(sentences[:5])
-
-    # ps = page.split("\n")
-    # ret = ps[0]
-    # for i in range(1, len(ps)):
-    #   if len((ret + ps[i]).split(" ")) <= 50:
-    #     ret += ps[i]
-    #   else:
-    #     break
-    # return ret
+  
+  def openai_llm(prompt):
+        response = openai.Completion.create(
+        model=Constants.openai_model_name,
+        prompt=prompt,
+        temperature=0,
+        max_tokens=100,
+        top_p=1,
+        frequency_penalty=0.0,
+        presence_penalty=0.0,
+        )
+        return response["choices"][0]["text"]
 
   def gemini_llm(self, prompt):
-      response = self.gemini_client.models.generate_content(model="gemini-2.5-flash", contents=prompt, config=types.GenerateContentConfig(thinking_config=types.ThinkingConfig(thinking_budget=0)))
+      response = self.gemini_client.models.generate_content(model=Constants.gemini_guess_model_name, contents=prompt) #, config=types.GenerateContentConfig(max_output_tokens=m_tokens))
       return response.text
     
-  def guess_step(self, entity):
-      prompt_wrap = "Image you are wikipedia and give me information about {} in less than 1000 words. Just give me the information and nothing else".format(entity)
-      prompt_wrap = "Give me information about {} in less than 1000 words.".format(entity)
+  def guess_step(self, entity, simulate=False):
+      prompt_wrap = Constants.guess_step_prompt.format(entity)
       llm_response = self.gemini_llm(prompt_wrap)
+      if simulate:
+        self.sim_obs = self.get_page_obs(llm_response)
       self.page = llm_response
       self.obs = self.get_page_obs(self.page)
 
@@ -135,7 +141,7 @@ class WikiEnv(gym.Env):
         self.obs = self.get_page_obs(self.page)
         self.lookup_keyword = self.lookup_list = self.lookup_cnt = None
   
-  def step(self, action):
+  def step(self, action, step_type="wiki"):
     reward = 0
     done = False
     action = action.strip()
@@ -145,10 +151,14 @@ class WikiEnv(gym.Env):
     
     if action.startswith("search[") and action.endswith("]"):
       entity = action[len("search["):-1]
-      # entity_ = entity.replace(" ", "_")
-      # search_url = f"https://en.wikipedia.org/wiki/{entity_}"
-      self.guess_step(entity)
-    #   self.search_step(entity)
+      if step_type == "wiki":
+        self.search_step(entity)
+      elif step_type == "guess":
+        self.guess_step(entity)
+      elif step_type == "simulate":
+        self.guess_step(entity, simulate=True)
+      else:
+        raise ValueError("Run is not valid. Step type needs to be wiki or guess")
     elif action.startswith("lookup[") and action.endswith("]"):
       keyword = action[len("lookup["):-1]
       if self.lookup_keyword != keyword:  # reset lookup

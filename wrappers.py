@@ -20,7 +20,7 @@ FEVER_SPLIT_FILE = {
 }
 
 
-class HistoryWrapper(gym.ObservationWrapper):
+class HistoryWrapper(gym.Wrapper):
   def __init__(self, env, obs_format, prompt=None):
     super().__init__(env)
     assert obs_format in ["obs", "history"]
@@ -28,7 +28,12 @@ class HistoryWrapper(gym.ObservationWrapper):
       assert hasattr(self.env, "traj")
     self.obs_format = obs_format
     self.prompt = prompt if prompt is not None else ""
-
+    self.normal_trajectory_dict = {"prompt": "", "observations": [], "thoughts": [], "actions": []}
+    self.sim_trajectory_dict = {"prompt": "", "observations": [], "thoughts": [], "actions": []}
+  
+  def step(self, action, step_type="wiki"):
+    return self.env.step(action, step_type)
+  
   def observation(self, obs):
     if self.obs_format == "obs":
       return obs
@@ -37,6 +42,31 @@ class HistoryWrapper(gym.ObservationWrapper):
       for i, (o, a) in enumerate(zip(self.env.traj["observations"][1:], self.env.traj["actions"]), 1):
         observation += f"Action {i}: {a}\nObservation {i}: {o}\n\n"
       return self.prompt + observation
+    
+  def update_traj_dict_records(self, thought, action, observation, sim=False):
+    if sim:
+      self.sim_trajectory_dict["thoughts"].append(thought)
+      self.sim_trajectory_dict["actions"].append(action)
+      self.sim_trajectory_dict["observations"].append(observation)
+    else:
+      self.normal_trajectory_dict["thoughts"].append(thought)
+      self.normal_trajectory_dict["actions"].append(action)
+      self.normal_trajectory_dict["observations"].append(observation)      
+
+  def observation_dict(self, obs=None):
+    obs_dict = {}
+    obs_dict["prompt"] = self.prompt
+    obs_dict["observations"] = []
+    obs_dict["actions"] = []
+    obs_dict["thoughts"] = []
+    if self.obs_format == "obs":
+      return obs
+    elif self.obs_format == "history":
+      for i, (o, a) in enumerate(zip(self.env.traj["observations"][1:], self.env.traj["actions"]), 1):
+        obs_dict["observations"].append(o)
+        obs_dict["actions"].append(a)
+    return obs_dict
+    
     
 
 def normalize_answer(s):
@@ -123,9 +153,9 @@ class HotPotQAWrapper(gym.Wrapper):
       return {'reward': em, 'em': em, 'f1': f1}
     return {'reward': 0, 'em': 0, 'f1': 0}
 
-  def step(self, action):
+  def step(self, action, step_type="wiki"):
     # TODO: first step obs does not have question. 
-    obs, _, done, info = self.env.step(action)
+    obs, _, done, info = self.env.step(action, step_type)
     reward = self.get_reward(info)
     if done:
       obs = f"Episode finished, reward = {reward}\n"
@@ -217,8 +247,8 @@ class LoggingWrapper(gym.Wrapper):
     self.traj = {"observations": [observation], "actions": []}
     return output
 
-  def step(self, action):
-    obs, reward, done, info = self.env.step(action)
+  def step(self, action, step_type="wiki"):
+    obs, reward, done, info = self.env.step(action, step_type)
     self.traj["observations"].append(obs)
     self.traj["actions"].append(action)
     if done:

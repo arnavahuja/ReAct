@@ -1,0 +1,53 @@
+INFO 3023 Question: New Hampshire Route 124 runs between two regions, one of which is found in Cheshire County, New Hampshire, United States with the population of about 2000 and is named what?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[New Hampshire Route 124]
+Action 1: Search[New Hampshire Route 124]
+Observation 1: New Hampshire Route 124 (abbreviated NH 124) is a 28.083-mile-long (45.195 km) east–west highway in southern New Hampshire, United States. It runs from Marlborough to the Massachusetts border.. The western terminus of NH 124 is in Marlborough at New Hampshire Route 101. The road continues through Marlborough, a short section of Troy and enters the northwestern part of Jaffrey. The road skirts the southern slopes of Mount Monadnock, across Jaffrey, and into Sharon.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[New Hampshire Route 124]
+Action 1: Search[New Hampshire Route 124]
+Observation 1: **New Hampshire Route 124** (abbreviated **NH 124**) is a 24.38-mile-long (39.24 km) east–west state highway in southern New Hampshire. It runs from an intersection with New Hampshire Route 12 in Fitzwilliam to an intersection with New Hampshire Route 101 in Exeter.. ## Route Description. NH 124 begins in Fitzwilliam at NH 12, just north of the Massachusetts state line. It travels generally eastward through Rindge, where it intersects U.S.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Marlborough, New Hampshire]
+Action 2: Search[Marlborough, New Hampshire]
+Observation 2: Marlborough is a town in Cheshire County, New Hampshire, United States. The population was 2,096 at the 2020 census.[2] The town is home to the Kensan-Devan Wildlife Sanctuary at Meetinghouse Pond.. The primary settlement in town, where 1,066 people resided at the 2020 census, is defined as the Marlborough census-designated place (CDP) and is located at the junction of New Hampshire routes 101 and 124.. First granted as "Monadnock No. 5" in 1752 by Governor Benning Wentworth, this was one of the fort towns originally known only by a number.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Fitzwilliam, New Hampshire]
+Action 2: Search[Fitzwilliam, New Hampshire]
+Observation 2: **Marlborough, New Hampshire**. **Marlborough** is a town in Cheshire County, New Hampshire, United States. As of the 2020 census, the town population was 2,096. Marlborough is situated in the southwestern part of the state, approximately 5 miles (8 km) east of Keene.. ---.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Marlborough]
+Action 3: Finish[Marlborough]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Marlborough]
+Action 3: Finish[Marlborough]
+Observation 3: **Marlborough, New Hampshire**. **Marlborough** is a town in Cheshire County, New Hampshire, United States. As of the 2020 census, the town population was 2,096. Marlborough is situated in the southwestern part of the state, approximately 5 miles (8 km) east of Keene.. ---.
+
+
+
+INFO {'steps': 5, 'answer': 'Marlborough', 'gt_answer': 'Marlborough', 'question_idx': 3023, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 1 
+Number of steps: 1 
+Average reward: 1.0 
+Average time 27.023051738739014
+
+INFO -----------
+

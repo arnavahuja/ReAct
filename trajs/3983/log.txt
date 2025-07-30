@@ -1,0 +1,53 @@
+INFO 3983 Question: Edmundas Malūkas was the former mayor of the lake resort how far west of the capital of Lithuania?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Edmundas Malūkas]
+Action 1: Search[Edmundas Malūkas]
+Observation 1: Edmundas Zenonas Malūkas (born 15  April 1945) is a Lithuanian writer, published author[1][2] and politician. He is also the former mayor of Trakai, a historic city and lake resort in Lithuania.. Edmundas Malūkas is one of the most critically acclaimed and commercially successful Lithuanian writers of his generation. His first four novels were bestsellers, and more than 492,000 copies of his books are in print. He also writes screenplays for motion pictures and television shows..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Edmundas Malūkas]
+Action 1: Search[Edmundas Malūkas]
+Observation 1: **Edmundas Malūkas** (born October 10, 1957) is a Lithuanian politician and former high-ranking police officer.. Malūkas was born in Šiauliai, Lithuanian SSR, Soviet Union. He pursued a career in law enforcement, serving for many years and eventually rising to the position of Chief Commissioner of the Vilnius County Police Headquarters, one of the most significant police commands in Lithuania.. After his career in policing, Malūkas entered politics. He was elected as a Member of the Seimas, the Lithuanian Parliament, serving two non-consecutive terms: from 2004 to 2008 and again from 2012 to 2016.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Trakai]
+Action 2: Search[Trakai]
+Observation 2: Trakai (Trakaiⓘ; see names section for alternative and historic names) is a city and lake resort in Lithuania. It lies 28 kilometres (17 miles) west of Vilnius, the capital of Lithuania or just 7 kilometres (4 miles) from the administrative limits of the Lithuanian capital city. Because of its proximity to Vilnius, Trakai is a popular tourist destination. Trakai is the administrative centre of Trakai district municipality. The city is inhabited by 5,357[2] people, according to 2007 estimates.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[mayor]
+Action 2: Lookup[mayor]
+Observation 2: **Trakai** is a historic city and lake resort in Lithuania, located 28 kilometres (17 mi) west of the capital Vilnius. It is situated in the Dzūkija region, within the Trakai Historical National Park, and is renowned for its picturesque setting amidst numerous lakes.. **History**. The first settlements in the area date back to the first millennium CE. The town, as it is known today, began to form in the 13th century.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[28 kilometers]
+Action 3: Finish[28 kilometers]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[28 kilometres (17 mi) west]
+Action 3: Finish[28 kilometres (17 mi) west]
+Observation 3: **Trakai** is a historic city and lake resort in Lithuania, located 28 kilometres (17 mi) west of the capital Vilnius. It is situated in the Dzūkija region, within the Trakai Historical National Park, and is renowned for its picturesque setting amidst numerous lakes.. **History**. The first settlements in the area date back to the first millennium CE. The town, as it is known today, began to form in the 13th century.
+
+
+
+INFO {'steps': 5, 'answer': '28 kilometers', 'gt_answer': '28 km', 'question_idx': 3983, 'reward': False, 'em': False, 'f1': 0.5}
+
+INFO Sum of rewards: 0 
+Number of steps: 2 
+Average reward: 0.0 
+Average time 77.23344504833221
+
+INFO -----------
+
