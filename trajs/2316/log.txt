@@ -1,0 +1,53 @@
+INFO 2316 Question: Who was from farther west, Max Neufeld or Eduard Zahariev?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Max Neufeld]
+Action 1: Search[Max Neufeld]
+Observation 1: Max Neufeld (13 February 1887 – 2 December 1967) was an Austrian film director, actor and screenwriter.[1] He directed 70 films between 1919 and 1957. He directed the 1934 film The Song of the Sun, which starred Vittorio De Sica.[2]. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us. HelpLearn to editCommunity portalRecent changesUpload fileSpecial pages. Donate.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Max Neufeld]
+Action 1: Search[Max Neufeld]
+Observation 1: **Max Neufeld** (13 February 1887 – 12 December 1967) was an Austrian film director, screenwriter, and actor. He was one of the most prolific figures in Austrian cinema, directing 94 films over a career spanning nearly four decades, and also appeared in 13 films as an actor.. ### Biography. Born in Guntersdorf, Austria-Hungary (now Austria), Neufeld began his career in the burgeoning Austrian film industry in the early 20th century. He made his acting debut in 1919 and continued to appear in films until 1922.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Eduard Zahariev]
+Action 2: Search[Eduard Zahariev]
+Observation 2: Eduard Zahariev (Bulgarian: Едуард Захариев; 1 July 1938 – 26 June 1996) was a Bulgarian film director and screenwriter.. Being among the prominent Bulgarian film directors from the last decades of the 20th century, Zahariev directed 15 films between 1962 and 1996, most notably The Hare Census (1973), Villa Zone (1975), Manly Times (1977), Almost a Love Story (1980), Elegy (1982) and My Darling, My Darling (1986) which was entered into the 36th Berlin International Film Festival.[1]. His movie Villa Zone (1975) won a Special Prize of the Jury at the Karlovy Vary International Film Festival[2] and the film Belated Full Moon (1996) was nominated for Crystal Globe award at the same festival.[2]. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us. HelpLearn to editCommunity portalRecent changesUpload fileSpecial pages.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Eduard Zahariev]
+Action 2: Search[Eduard Zahariev]
+Observation 2: **Eduard Zahariev** (Bulgarian: Едуард Захариев) (1 July 1938 – 15 August 1996) was a Bulgarian film director and screenwriter. He is considered one of the leading figures of Bulgarian cinema during the 1970s and 1980s, known for his distinctive style that often combined social commentary with subtle humor and a focus on the lives of ordinary people.. Born in Sofia, Bulgaria, Zahariev graduated from the Krastyo Sarafov National Academy for Theatre and Film Arts (NATFA) with a degree in film directing. He began his career directing short films and documentaries before moving into feature films.. His work is characterized by its psychological depth, realistic portrayal of everyday life under socialism, and a certain melancholy interspersed with ironic observations.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Max Neufeld]
+Action 3: Finish[Max Neufeld]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Max Neufeld]
+Action 3: Finish[Max Neufeld]
+Observation 3: **Eduard Zahariev** (Bulgarian: Едуард Захариев) (1 July 1938 – 15 August 1996) was a Bulgarian film director and screenwriter. He is considered one of the leading figures of Bulgarian cinema during the 1970s and 1980s, known for his distinctive style that often combined social commentary with subtle humor and a focus on the lives of ordinary people.. Born in Sofia, Bulgaria, Zahariev graduated from the Krastyo Sarafov National Academy for Theatre and Film Arts (NATFA) with a degree in film directing. He began his career directing short films and documentaries before moving into feature films.. His work is characterized by its psychological depth, realistic portrayal of everyday life under socialism, and a certain melancholy interspersed with ironic observations.
+
+
+
+INFO {'steps': 5, 'answer': 'Max Neufeld', 'gt_answer': 'Max Neufeld', 'question_idx': 2316, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 3 
+Number of steps: 7 
+Average reward: 0.42857142857142855 
+Average time 102.14658410208565
+
+-------------------------------------------------------
+

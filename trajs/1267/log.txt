@@ -1,0 +1,67 @@
+INFO 1267 Question: Where did the father of Edward Garrison Walker live when he wrote "An Appeal to the Coloured Citizens of the World"?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Edward Garrison Walker]
+Action 1: Search[Edward Garrison Walker]
+Observation 1: Could not find Edward Garrison Walker. Similar: ['Edward G. Walker', 'African-American officeholders in the United States, 1789–1866', 'Shadrach Minkins', 'Fort A.P. Hill (redirect from Fort Walker, Virginia)', 'David Walker (abolitionist)'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Edward Garrison Walker]
+Action 1: Search[Edward Garrison Walker]
+Observation 1: **Edward Garrison Walker** (July 4, 1830 – January 13, 1901) was a pioneering African American attorney and politician in Massachusetts. He is notable for being one of the first African American lawyers admitted to the bar in Massachusetts, and one of the first two African Americans elected to a state legislature in the United States.. **Early Life and Education**. Born in Boston, Massachusetts, on July 4, 1830, Edward G. Walker was the son of Eliza Walker.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[David Walker (abolitionist)]
+Action 2: Search[David Walker (abolitionist)]
+Observation 2: David Walker (September 28, 1796 – August 6, 1830)[a] was an American abolitionist, writer,  and anti-slavery activist. Though his father was enslaved, his mother was free; therefore, he was free as well (partus sequitur ventrem). In 1829, while living in Boston, Massachusetts, with the assistance of the African Grand Lodge (later named Prince Hall Grand Lodge, Jurisdiction of Massachusetts), he published An Appeal to the Colored Citizens of the World,[4] a call for black unity and a fight against slavery.. The Appeal brought attention to the abuses and inequities of slavery and the responsibility of individuals to act according to religious and political principles. At the time, some people were aghast and fearful of the reaction that the pamphlet would provoke.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[An Appeal to the Coloured Citizens of the World]
+Action 2: Search[An Appeal to the Coloured Citizens of the World]
+Observation 2: **David Walker** (c. 1796 or 1797 – June 28, 1830) was an outspoken African-American abolitionist, writer, and anti-slavery activist. Born a free Black man in Wilmington, North Carolina, he later moved to Boston, Massachusetts, where he became a prominent figure in the city's Black community and a leading voice against slavery and racial discrimination.. **Early Life and Migration:**. Little is definitively known about Walker's early life.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Edward G. Walker]
+Action 3: Search[Edward G. Walker]
+Observation 3: Edward Garrison Walker (1830–1901), also Edwin Garrison Walker,  was an African American artisan in Boston who became an attorney; in 1861, he became one of the first black men to pass the Massachusetts bar. In 1866 he and Charles Lewis Mitchell were the first two African Americans elected to the Massachusetts state legislature. Walker was the son of Eliza and David Walker, the militant abolitionist and author of An Appeal to the Colored Citizens of the World (1829).. Edward Garrison Walker was born in Edgefield, South Carolina in 1830 to Eliza Walker,[nb 1] the widow of David Walker, who had died in early August 1830.[nb 2] At the time when the couple was expecting the birth of Edward, they already had a daughter named Lydia Ann. In 1830 a tuberculosis epidemic in Boston took the lives of Lydia Ann on July 30 and her father David on August 6.[6] David had collapsed and died at the entrance to his store.[7] He was a free black man from Wilmington, North Carolina who had settled in Boston about 1825, where he became a prominent abolitionist..
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[An Appeal to the Coloured Citizens of the World]
+Action 3: Lookup[An Appeal to the Coloured Citizens of the World]
+Observation 3: **Edward G. Walker** was an American politician. He is primarily known for his service in the Maryland House of Delegates.. **Career**. Walker represented Baltimore City in the Maryland House of Delegates.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[Boston, Massachusetts]
+Action 4: Finish[Boston, Massachusetts]
+Observation 4: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 4: The question asks where the father of Edward Garrison Walker lived when he wrote "An Appeal to the Coloured Citizens of the World". My search for "Edward Garrison Walker" led to similar names including "David Walker (abolitionist)". My search for "David Walker (abolitionist)" confirmed that he wrote "An Appeal to the Colored Citizens of the World" and lived in Boston, Massachusetts at the time. Therefore, if David Walker is the father, the answer is Boston, Massachusetts. The question implies that the father *did* write this book. Given that David Walker is the person known for writing this book, it's highly probable he is the father referred to, and the question is testing the ability to connect the book to its author and then identify where that author lived.
+Action 4: Finish[Boston, Massachusetts]
+Observation 4: **Edward G. Walker** was an American politician. He is primarily known for his service in the Maryland House of Delegates.. **Career**. Walker represented Baltimore City in the Maryland House of Delegates.
+
+
+
+INFO {'steps': 7, 'answer': 'Boston, Massachusetts', 'gt_answer': 'Boston', 'question_idx': 1267, 'reward': False, 'em': False, 'f1': 0.6666666666666666}
+
+INFO Sum of rewards: 2 
+Number of steps: 5 
+Average reward: 0.4 
+Average time 102.93469133377076
+
+-------------------------------------------------------
+

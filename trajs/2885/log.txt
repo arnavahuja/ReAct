@@ -1,0 +1,81 @@
+INFO 2885 Question: Which one between Milium and Eucommia lives more widely spread across the world?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Milium]
+Action 1: Search[Milium]
+Observation 1: Could not find [Milium]. Similar: ['Milium (dermatology)', 'Miliaria (redirect from Colloid milium)', 'Milium', 'Sorghum (redirect from Milium bicolor)', 'Cynodon dactylon (redirect from Milium dactylon)'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Milium]
+Action 1: Search[Milium]
+Observation 1: **Milium** (plural: **Milia**) is a common, benign skin condition characterized by small, dome-shaped white or yellowish cysts, typically measuring 1–2 mm in diameter. They are a type of keratin cyst and are often found on the face, particularly around the eyes, nose, and cheeks, but can appear on any part of the body. Milia are harmless and usually do not cause any discomfort or pain, though some individuals may find them cosmetically undesirable.. ## Types. Milia are broadly classified into two main types:.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Milium]
+Action 2: Search[Milium]
+Observation 2: Could not find [Milium]. Similar: ['Milium (dermatology)', 'Milium', 'Sorghum (redirect from Milium bicolor)', 'Miliaria (redirect from Colloid milium)', 'Cynodon dactylon (redirect from Milium dactylon)'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Eucommia]
+Action 2: Search[Eucommia]
+Observation 2: **Milium** (plural: **Milia**) are small, dome-shaped, pearly white or yellowish cysts found on the skin. They are typically 1–2 mm in diameter and are filled with keratin, a protein found in skin, hair, and nails. Milia are benign, asymptomatic, and common in people of all ages.. ### Classification. Milia are generally classified into primary and secondary types, with some less common variants:.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Milium (plant)]
+Action 3: Search[Milium (plant)]
+Observation 3: Milium (vernacular name milletgrass) is a genus of Eurasian, North American, and North African plants in the grass family.[4][5][6][7]. Many species once included in Milium but now considered better suited to other genera: Achnatherum, Aeluropus, Agrostis, Airopsis, Alloteropsis, Amphicarpum, Aniselytron, Anthaenantia, Antinoria, Apera, Arundinella, Axonopus, Brachiaria, Cynodon, Digitaria, Echinochloa, Eriochloa, Eriocoma, Gastridium, Homolepis, Ichnanthus, Isachne, Luziola, Muhlenbergia, Nassella, Oplismenus, Oryzopsis, Panicum, Paspalum, Pentameris, Piptatherum, Piptochaetium, Poa, Polypogon, Sorghum, Sporobolus, Trachypogon, Tricholaena, Triplachne, Zingeria and Zoysia.[3]. This Pooideae article is a stub. You can help Wikipedia by expanding it.. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Milium (plant)]
+Action 3: Search[Milium (plant)]
+Observation 3: **Milium (plant)**. **Milium** is a genus of flowering plants in the grass family Poaceae, subfamily Panicoideae. These grasses are commonly known as millet grass or wood millet, distinguishing them from other genera also referred to as "millet" (e.g., *Panicum*, *Setaria*). The genus comprises several species native to temperate regions of the Northern Hemisphere.. **Scientific Classification**.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Eucommia]
+Action 4: Search[Eucommia]
+Observation 4: Eucommia  is a genus of small trees now native to China, with a fossil record that shows a much wider distribution. The single living species, Eucommia ulmoides, is near threatened in the wild, but is widely cultivated in China for its bark, and is highly valued in herbology such as traditional Chinese medicine.[4]. Modern Eucommia trees grow to about 15 m tall. The leaves are deciduous, arranged alternately, simple ovate with an acuminate tip, 8–16 cm (3.1–6.3 in) long, and with a serrated margin. If a leaf is torn across, strands of latex exude from the leaf veins and solidify into rubber and hold the two parts of the leaf together.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[Eucommia]
+Action 4: Search[Eucommia]
+Observation 4: **Eucommia** is a genus of flowering plants in the family Eucommiaceae. It comprises a single extant species, *Eucommia ulmoides*, commonly known as **gutta-percha tree** or **Du Zhong** (Chinese: 杜仲). It is native to China. The genus also includes several extinct species known from the fossil record, indicating a much wider prehistoric distribution in Eurasia and North America.. **Taxonomy and Classification:**.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Finish[Milium]
+Action 5: Finish[Milium]
+Observation 5: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Finish[Milium]
+Action 5: Finish[Milium]
+Observation 5: **Eucommia** is a genus of flowering plants in the family Eucommiaceae. It comprises a single extant species, *Eucommia ulmoides*, commonly known as **gutta-percha tree** or **Du Zhong** (Chinese: 杜仲). It is native to China. The genus also includes several extinct species known from the fossil record, indicating a much wider prehistoric distribution in Eurasia and North America.. **Taxonomy and Classification:**.
+
+
+
+INFO {'steps': 9, 'answer': 'Milium', 'gt_answer': 'Milium', 'question_idx': 2885, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 1 
+Number of steps: 4 
+Average reward: 0.25 
+Average time 96.24345827102661
+
+-------------------------------------------------------
+

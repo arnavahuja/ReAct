@@ -1,0 +1,39 @@
+INFO 1477 Question: What city is the flying component of the United States Air Force 432d Wing stationed in
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[432d Wing]
+Action 1: Search[432d Wing]
+Observation 1: The 432nd Wing is a United States Air Force unit assigned to Air Combat Command at Creech Air Force Base near Indian Springs, Nevada. It flies General Atomics MQ-9 Reaper and RQ-170 Sentinel Unmanned aerial vehicles.. The group operates unmanned reconnaissance aircraft which provide real-time reconnaissance, surveillance, and precision attack against fixed and time-critical targets. The 432nd Air Expeditionary Wing is a provisional unit assigned to Air Combat Command and is the designation for components of the 432nd Wing when deployed into combat areas as part of the Global War on Terror.[4]. The wing is the first United States Air Force wing dedicated to unmanned aircraft systems: MQ-9 Reaper and RQ-170 Sentinel.[5] The wing stood up 1 May 2007 at Creech Air Force Base, Nevada.[6][7] The wing has dual reporting responsibilities to Ninth Air Force and U.S.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[United States Air Force 432d Wing]
+Action 1: Search[United States Air Force 432d Wing]
+Observation 1: The **432d Wing (432 WG)** is a United States Air Force unit assigned to the Sixteenth Air Force, Air Combat Command (ACC). It is stationed at Creech Air Force Base, Nevada, and is the USAF's lead organization for Remotely Piloted Aircraft (RPA) operations.. **Overview**. The 432d Wing is responsible for conducting global intelligence, surveillance, and reconnaissance (ISR) and precision strike operations using remotely piloted aircraft. Its primary aircraft is the MQ-9 Reaper, which it operates in continuous combat air patrols (CAPs) worldwide.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[Indian Springs, Nevada]
+Action 2: Finish[Indian Springs, Nevada]
+Observation 2: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Creech Air Force Base]
+Action 2: Search[Creech Air Force Base]
+Observation 2: The **432d Wing (432 WG)** is a United States Air Force unit assigned to the Sixteenth Air Force, Air Combat Command (ACC). It is stationed at Creech Air Force Base, Nevada, and is the USAF's lead organization for Remotely Piloted Aircraft (RPA) operations.. **Overview**. The 432d Wing is responsible for conducting global intelligence, surveillance, and reconnaissance (ISR) and precision strike operations using remotely piloted aircraft. Its primary aircraft is the MQ-9 Reaper, which it operates in continuous combat air patrols (CAPs) worldwide.
+
+
+
+INFO {'steps': 3, 'answer': 'Indian Springs, Nevada', 'gt_answer': 'Clark County', 'question_idx': 1477, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 0 
+Number of steps: 1 
+Average reward: 0.0 
+Average time 92.85077977180481
+
+-------------------------------------------------------
+

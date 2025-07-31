@@ -1,0 +1,109 @@
+INFO 6904 Question: Which was built first Woolworth Building or 1 New York Plaza?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Woolworth Building]
+Action 1: Search[Woolworth Building]
+Observation 1: The Woolworth Building is a 792-foot-tall (241 m) residential building and early skyscraper at 233 Broadway in the Tribeca neighborhood of Lower Manhattan in New York City. Designed by Cass Gilbert, it was the tallest building in the world from 1913 to 1929, and it remains one of the United States' 100 tallest buildings as of 2024[update].. The Woolworth Building is bounded by Broadway and City Hall Park to its east, Park Place to its north, and Barclay Street to its south. It consists of a 30-story base topped by a 30-story tower. Its facade is mostly clad with architectural terracotta, though the lower portions are limestone, and it features thousands of windows.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Woolworth Building]
+Action 1: Search[Woolworth Building]
+Observation 1: The Woolworth Building is an early American skyscraper located at 233 Broadway in the Tribeca neighborhood of Manhattan, New York City.. *   **Location:** 233 Broadway, Manhattan, New York City, United States. *   **Coordinates:** 40°42′44″N 74°00′23″W. *   **Status:** Completed. *   **Current Use:** Office, Residential (upper floors converted to condominiums).
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Lookup[built]
+Action 2: Lookup[built]
+Observation 2: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[Completed]
+Action 2: Lookup[Completed]
+Observation 2: The Woolworth Building is an early American skyscraper located at 233 Broadway in the Tribeca neighborhood of Manhattan, New York City.. *   **Location:** 233 Broadway, Manhattan, New York City, United States. *   **Coordinates:** 40°42′44″N 74°00′23″W. *   **Status:** Completed. *   **Current Use:** Office, Residential (upper floors converted to condominiums).
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[1 New York Plaza]
+Action 3: Search[1 New York Plaza]
+Observation 3: 1 New York Plaza is an office building in the Financial District of Manhattan in New York City, at the intersection of South and Whitehall Streets near South Ferry. The building, measuring 640 feet (200 m) tall with 50 floors, is the southernmost skyscraper in Lower Manhattan. It was designed by William Lescaze & Assocs. and Kahn & Jacobs, and developed by Sol Atlas and John P. McGrath.[1].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[1 New York Plaza]
+Action 3: Search[1 New York Plaza]
+Observation 3: **1 New York Plaza** is a skyscraper located in the Financial District of Lower Manhattan, New York City. Completed in 1969, it stands at 50 stories and serves primarily as an office building.. ### History. The development of 1 New York Plaza was part of a larger initiative to revitalize Lower Manhattan in the 1960s. The site was previously occupied by obsolete piers and waterfront structures.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Lookup[built]
+Action 4: Lookup[built]
+Observation 4: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[Woolworth Building]
+Action 4: Finish[Woolworth Building]
+Observation 4: **1 New York Plaza** is a skyscraper located in the Financial District of Lower Manhattan, New York City. Completed in 1969, it stands at 50 stories and serves primarily as an office building.. ### History. The development of 1 New York Plaza was part of a larger initiative to revitalize Lower Manhattan in the 1960s. The site was previously occupied by obsolete piers and waterfront structures.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[Woolworth Building]
+Action 5: Search[Woolworth Building]
+Observation 5: The Woolworth Building is a 792-foot-tall (241 m) residential building and early skyscraper at 233 Broadway in the Tribeca neighborhood of Lower Manhattan in New York City. Designed by Cass Gilbert, it was the tallest building in the world from 1913 to 1929, and it remains one of the United States' 100 tallest buildings as of 2024[update].. The Woolworth Building is bounded by Broadway and City Hall Park to its east, Park Place to its north, and Barclay Street to its south. It consists of a 30-story base topped by a 30-story tower. Its facade is mostly clad with architectural terracotta, though the lower portions are limestone, and it features thousands of windows.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Finish[Woolworth Building]
+Action 5: Finish[Woolworth Building]
+Observation 5: The **Woolworth Building** is an early American skyscraper designed by architect Cass Gilbert, located at 233 Broadway in the Tribeca neighborhood of Manhattan, New York City. Upon its completion in 1913, it was the tallest building in the world, a title it held until 1930.. **History and Construction:**. *   **Commissioning:** The building was commissioned by Frank Woolworth, the founder of the F.W. Woolworth Company, to serve as the new headquarters for his successful five-and-dime retail empire..
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Search[1 New York Plaza]
+Action 6: Search[1 New York Plaza]
+Observation 6: 1 New York Plaza is an office building in the Financial District of Manhattan in New York City, at the intersection of South and Whitehall Streets near South Ferry. The building, measuring 640 feet (200 m) tall with 50 floors, is the southernmost skyscraper in Lower Manhattan. It was designed by William Lescaze & Assocs. and Kahn & Jacobs, and developed by Sol Atlas and John P. McGrath.[1].
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Search[1 New York Plaza]
+Action 6: Search[1 New York Plaza]
+Observation 6: **1 New York Plaza** is a 50-story office building located in the Financial District of Manhattan, New York City. Situated at the southeastern tip of Manhattan Island, the building occupies a full city block bounded by Water Street to the west, Old Slip to the north, Front Street to the east, and Whitehall Street to the south.. **General information**. *   **Location:** 1 New York Plaza, Financial District, Manhattan, New York City, United States. *   **Coordinates:** 40°42′12″N 74°00′38″W﻿ / ﻿40.70333°N 74.01056°W.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Search[1 New York Plaza]
+Action 7: Search[1 New York Plaza]
+Observation 7: 1 New York Plaza is an office building in the Financial District of Manhattan in New York City, at the intersection of South and Whitehall Streets near South Ferry. The building, measuring 640 feet (200 m) tall with 50 floors, is the southernmost skyscraper in Lower Manhattan. It was designed by William Lescaze & Assocs. and Kahn & Jacobs, and developed by Sol Atlas and John P. McGrath.[1].
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Search[Woolworth Building]
+Action 7: Search[Woolworth Building]
+Observation 7: **1 New York Plaza**. **Location:** Financial District, Lower Manhattan, New York City, United States. **Address:** 1 New York Plaza, New York, NY 10004. **Coordinates:** 40°42′11″N 74°00′38″W. **General Information**.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'Woolworth Building', 'question_idx': 6904, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 2 
+Number of steps: 4 
+Average reward: 0.5 
+Average time 103.45199376344681
+
+-------------------------------------------------------
+

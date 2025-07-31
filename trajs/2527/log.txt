@@ -1,0 +1,95 @@
+INFO 2527 Question: What term is the current chairman of Prince William County serving?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Prince William County]
+Action 1: Search[Prince William County]
+Observation 1: Prince William County lies beside the Potomac River in the Commonwealth of Virginia. At the 2020 census, the population was 482,204,[1] making it Virginia's second most populous county. The county seat is the independent city of Manassas.[2] A part of Northern Virginia, Prince William County is part of the Washington metropolitan area. In 2020, it had the 24th highest income of any county in the United States.[3]. At the time of European colonization, the native tribes of the area that would become Prince William County were the Doeg, an Algonquian-speaking sub-group of the Powhatan tribal confederation.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Prince William County chairman]
+Action 1: Search[Prince William County chairman]
+Observation 1: **Prince William County, Virginia**. Prince William County is a county located in the Commonwealth of Virginia, in the United States. As of 2020, its population was 482,204, making it the second-most populous county in Virginia. The county seat is Manassas, an independent city that is geographically located within the county but is not politically part of it. Prince William County is part of the Washington-Arlington-Alexandria, DC-VA-MD-WV Metropolitan Statistical Area..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Lookup[chairman]
+Action 2: Lookup[chairman]
+Observation 2: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[chairman of Prince William County]
+Action 2: Search[chairman of Prince William County]
+Observation 2: **Prince William County, Virginia**. Prince William County is a county located in the Commonwealth of Virginia, in the United States. As of 2020, its population was 482,204, making it the second-most populous county in Virginia. The county seat is Manassas, an independent city that is geographically located within the county but is not politically part of it. Prince William County is part of the Washington-Arlington-Alexandria, DC-VA-MD-WV Metropolitan Statistical Area..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Prince William County Board of County Supervisors]
+Action 3: Search[Prince William County Board of County Supervisors]
+Observation 3: Could not find Prince William County Board of County Supervisors. Similar: ['Prince William Board of County Supervisors', 'Prince William County, Virginia', 'Prince William County Public Schools', 'Board of supervisors', 'Prince George County, Virginia'].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Prince William County Board of County Supervisors]
+Action 3: Search[Prince William County Board of County Supervisors]
+Observation 3: The **Prince William County Board of County Supervisors** is the legislative and policy-making body for Prince William County, Virginia, one of the most populous counties in the Commonwealth. It is responsible for the county's budget, ordinances, land use, and the provision of public services to its residents.. ### Composition and Elections. The Board of County Supervisors consists of eight members:. *   **Seven members** elected from specific magisterial districts within the county..
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Prince William Board of County Supervisors]
+Action 4: Search[Prince William Board of County Supervisors]
+Observation 4: The Prince William Board of County Supervisors is the policy-making body for the government of Prince William County, Virginia. The county is divided into seven magisterial districts: Brentsville, Coles, Gainesville, Neabsco, Occoquan, Potomac, and Woodbridge. The magisterial districts each elect one supervisor to the Board of Supervisors. There is also a Chairman elected by the county at-large, bringing total Board membership to 8. A Vice-Chairman and a Chairman Pro-Tem are selected by the Board from amongst its membership.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[chairman]
+Action 4: Lookup[chairman]
+Observation 4: The **Prince William Board of County Supervisors** is the legislative and policy-making body of Prince William County, Virginia, United States. It is responsible for governing the county, setting local tax rates, adopting ordinances, approving the county budget, and overseeing county departments and services.. The Board consists of eight members: a Chair, who is elected county-wide (at-large), and seven Supervisors, each representing one of the county's seven magisterial districts. All members are elected to four-year terms in the general election held in November of odd-numbered years.. ## Powers and Responsibilities.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Lookup[term]
+Action 5: Lookup[term]
+Observation 5: (Result 1 / 1) All members are elected to four-year terms in the general election held in November of odd-numbered years..
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Finish[four-year term]
+Action 5: Finish[four-year term]
+Observation 5: The **Prince William Board of County Supervisors** is the legislative and policy-making body of Prince William County, Virginia, United States. It is responsible for governing the county, setting local tax rates, adopting ordinances, approving the county budget, and overseeing county departments and services.. The Board consists of eight members: a Chair, who is elected county-wide (at-large), and seven Supervisors, each representing one of the county's seven magisterial districts. All members are elected to four-year terms in the general election held in November of odd-numbered years.. ## Powers and Responsibilities.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Finish[four-year term]
+Action 6: Finish[four-year term]
+Observation 6: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Finish[four-year term]
+Action 6: Finish[four-year term]
+Observation 6: The **Prince William Board of County Supervisors** is the legislative and policy-making body of Prince William County, Virginia, United States. It is responsible for governing the county, setting local tax rates, adopting ordinances, approving the county budget, and overseeing county departments and services.. The Board consists of eight members: a Chair, who is elected county-wide (at-large), and seven Supervisors, each representing one of the county's seven magisterial districts. All members are elected to four-year terms in the general election held in November of odd-numbered years.. ## Powers and Responsibilities.
+
+
+
+INFO {'steps': 11, 'answer': 'four-year term', 'gt_answer': 'fourth term', 'question_idx': 2527, 'reward': False, 'em': False, 'f1': 0.5}
+
+INFO Sum of rewards: 0 
+Number of steps: 1 
+Average reward: 0.0 
+Average time 199.664541721344
+
+-------------------------------------------------------
+

@@ -1,0 +1,53 @@
+INFO 2359 Question: In between Hymenosporum and Agrostemma which one is closely related to the widespread genus Pittosporum?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Hymenosporum]
+Action 1: Search[Hymenosporum]
+Observation 1: Hymenosporum is a monotypic genus of trees in the family Pittosporaceae. The sole included species is Hymenosporum flavum, commonly known as native frangipani, found in the rainforests and wet sclerophyll forests of New Guinea, Queensland and New South Wales. Despite its common name, it is not closely related to the frangipani, but is related to the widespread genus Pittosporum.. Hymenosporum flavum is a semi-deciduous tree up to 25 m (82 ft) high and a trunk diameter (DBH) to 45 cm (18 in).[4][5] The obovate leaves are simple, alternate, glossy green above and lighter below. They measure up to 13 cm (5.1 in) long by 4.5 cm (1.8 in) wide.[4][5][6] and are clustered towards the ends of the branches in pseudo-whorls.[4][5].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Pittosporum]
+Action 1: Search[Pittosporum]
+Observation 1: # Hymenosporum. ***Hymenosporum*** is a genus of flowering plants in the family Pittosporaceae, native to eastern Australia and New Guinea. The most well-known species, and often the one referred to simply as "Hymenosporum," is ***Hymenosporum flavum***, commonly known as the **Native Frangipani** or **Australian Frangipani**.. ## Description. *Hymenosporum flavum* is typically a small to medium-sized tree, growing 8 to 15 meters tall in cultivation, but can reach up to 20 meters in its natural habitat.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Agrostemma]
+Action 2: Search[Agrostemma]
+Observation 2: Agrostemma is a genus of annual plants in the family Caryophyllaceae, containing the species known as corncockles. Its best-known member is A. githago, the common corncockle, which is a native of Europe.[1] The species is a weed of cereals and other crops, probably with a centre of origin in the eastern Mediterranean.[2] It occurs as a weed worldwide, but is declining in its native range because of improved seed cleaning.[citation needed] Corncockle is an attractive plant, and its seeds are still commercially available to gardeners.. (Agrostemma gracile is a synonym of Agrostemma brachyloba [3]). This Caryophyllaceae article is a stub.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Agrostemma]
+Action 2: Search[Agrostemma]
+Observation 2: **_Agrostemma_**. | Kingdom | Plantae |. | :------ | :-------- |. | Clade   | Tracheophytes |. | Clade   | Angiosperms |.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Hymenosporum]
+Action 3: Finish[Hymenosporum]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Hymenosporum]
+Action 3: Finish[Hymenosporum]
+Observation 3: **_Agrostemma_**. | Kingdom | Plantae |. | :------ | :-------- |. | Clade   | Tracheophytes |. | Clade   | Angiosperms |.
+
+
+
+INFO {'steps': 5, 'answer': 'Hymenosporum', 'gt_answer': 'Hymenosporum flavum', 'question_idx': 2359, 'reward': False, 'em': False, 'f1': 0.6666666666666666}
+
+INFO Sum of rewards: 0 
+Number of steps: 1 
+Average reward: 0.0 
+Average time 160.51656889915466
+
+-------------------------------------------------------
+

@@ -1,0 +1,53 @@
+INFO 4948 Question: In what year was the singer whose second remix album was "Hannah Montana Hits Remixed" born?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Hannah Montana Hits Remixed]
+Action 1: Search[Hannah Montana Hits Remixed]
+Observation 1: Hannah Montana Hits Remixed is the second remix album by American pop recording artist Miley Cyrus, in the role of the character Hannah Montana. It was the fifth Hannah Montana album released on August 19, 2008, exclusively at American Walmart stores. The album features singles from both of the previous television soundtracks, Hannah Montana and Hannah Montana 2. Several writers and producers worked on the songs, mainly Matthew Gerrard and Robbie Nevil. The album peaked at number one hundred-three in Billboard 200 and at four in Top Kid Audio.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Hannah Montana Hits Remixed]
+Action 1: Search[Hannah Montana Hits Remixed]
+Observation 1: **Hannah Montana Hits Remixed**. **Hannah Montana Hits Remixed** is a remix album by the fictional character Hannah Montana, portrayed by Miley Cyrus. It was released on August 19, 2008, by Walt Disney Records. The album features remixed versions of popular songs from the *Hannah Montana* television series soundtracks and Cyrus's solo albums as Hannah Montana.. **Background and Release**.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Miley Cyrus]
+Action 2: Search[Miley Cyrus]
+Observation 2: Miley Ray Cyrus (/ˈmaɪli ˈsaɪrəs/ MY-lee SY-rəs, born Destiny Hope Cyrus, November 23, 1992) is an American singer, songwriter, and actress. Regarded as a pop icon, Cyrus has been recognized for her evolving artistry and image reinventions. The daughter of singer Billy Ray Cyrus, she was an established child star before developing a successful entertainment career as an adult. Cyrus emerged as a teen idol as the title character in the Disney Channel television series Hannah Montana (2006–2011), growing a profitable franchise and achieving two number-one soundtracks on the Billboard charts.. Cyrus's solo career started with the US number-one pop rock albums Meet Miley Cyrus (2007) and Breakout (2008).
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Miley Cyrus]
+Action 2: Search[Miley Cyrus]
+Observation 2: **Miley Ray Cyrus** (born Destiny Hope Cyrus; November 23, 1992) is an American singer, songwriter, and actress. Known for her distinctive raspy voice, her music incorporates a range of styles, including pop, country pop, hip hop, experimental, and rock. She has been recognized for her frequent artistic reinventions and visual imagery.. **Early Life**. Miley Cyrus was born Destiny Hope Cyrus in Franklin, Tennessee, to Tish Cyrus (née Finley) and country singer Billy Ray Cyrus.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[1992]
+Action 3: Finish[1992]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[1992]
+Action 3: Finish[1992]
+Observation 3: **Miley Ray Cyrus** (born Destiny Hope Cyrus; November 23, 1992) is an American singer, songwriter, and actress. Known for her distinctive raspy voice, her music incorporates a range of styles, including pop, country pop, hip hop, experimental, and rock. She has been recognized for her frequent artistic reinventions and visual imagery.. **Early Life**. Miley Cyrus was born Destiny Hope Cyrus in Franklin, Tennessee, to Tish Cyrus (née Finley) and country singer Billy Ray Cyrus.
+
+
+
+INFO {'steps': 5, 'answer': '1992', 'gt_answer': '1992', 'question_idx': 4948, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 1 
+Number of steps: 1 
+Average reward: 1.0 
+Average time 175.04272079467773
+
+-------------------------------------------------------
+

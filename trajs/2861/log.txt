@@ -1,0 +1,39 @@
+INFO 2861 Question: The Look of Love" is a popular song which appeared in the 1967 spoof James Bond film "Casino Royale", a film based on the novel of the same name by which author?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Casino Royale (novel)]
+Action 1: Search[Casino Royale (novel)]
+Observation 1: Casino Royale is the first novel by the British author Ian Fleming. Published in 1953, it is the first James Bond book, and it paved the way for a further eleven novels and two short story collections by Fleming, followed by numerous continuation Bond novels by other authors.. The story concerns the British secret agent James Bond, gambling at the casino in Royale-les-Eaux to try to bankrupt Le Chiffre, the treasurer of a French union and a member of the Soviet secret service. Bond is supported in his endeavours by Vesper Lynd, a member of his own service, as well as Felix Leiter of the CIA and René Mathis of the French Deuxième Bureau. Fleming used his wartime experiences as a member of the Naval Intelligence Division, and the people he met during his work, to provide plot elements; the character of Bond also reflected many of Fleming's personal tastes.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Casino Royale]
+Action 1: Search[Casino Royale]
+Observation 1: ## Casino Royale (novel). **Casino Royale** is the debut novel by British author Ian Fleming, featuring the fictional British Secret Service agent James Bond. Published on 13 April 1953 by Jonathan Cape, it was Fleming's first book and marked the beginning of the highly successful James Bond series.. ### Plot Summary. The novel opens with James Bond, a British Secret Service agent, dispatched to the Royale-les-Eaux casino in France.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[Ian Fleming]
+Action 2: Finish[Ian Fleming]
+Observation 2: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Finish[Ian Fleming]
+Action 2: Finish[Ian Fleming]
+Observation 2: ## Casino Royale (novel). **Casino Royale** is the debut novel by British author Ian Fleming, featuring the fictional British Secret Service agent James Bond. Published on 13 April 1953 by Jonathan Cape, it was Fleming's first book and marked the beginning of the highly successful James Bond series.. ### Plot Summary. The novel opens with James Bond, a British Secret Service agent, dispatched to the Royale-les-Eaux casino in France.
+
+
+
+INFO {'steps': 3, 'answer': 'Ian Fleming', 'gt_answer': 'Ian Fleming', 'question_idx': 2861, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 1 
+Number of steps: 3 
+Average reward: 0.3333333333333333 
+Average time 116.28235944112141
+
+-------------------------------------------------------
+

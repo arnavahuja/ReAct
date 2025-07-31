@@ -1,0 +1,39 @@
+INFO 373 Question: which is traditionally drunk before retiring to bed, Hot toddy or Kir?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Hot toddy]
+Action 1: Search[Hot toddy]
+Observation 1: A hot toddy, also known as hot whiskey in Ireland,[1][2] and occasionally called southern cough syrup[3] within the Southern United States, is typically a mixed drink made of liquor and water with honey (or in some recipes, sugar), lemon, and spices, and served hot.[4]  Recipes vary, and hot toddy is traditionally drunk as a nightcap before retiring for the night, in wet or cold weather,  or to relieve the symptoms of the cold and flu. In How to Drink, Victoria Moore describes the drink as "the vitamin C for health, the honey to soothe, the alcohol to numb."[5][6]. A hot toddy is a mixture of a spirit (usually whisky), hot water, and honey (or, in some recipes, sugar). In Canada, maple syrup may be used. Additional ingredients such as cloves, a lemon slice or cinnamon (in stick or ground form) are often also added.[7][8].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Hot toddy]
+Action 1: Search[Hot toddy]
+Observation 1: **Hot Toddy**. A **Hot Toddy** is a mixed alcoholic drink composed of a spirit (usually whisky, rum, or brandy), hot water, honey (or, less commonly, sugar or maple syrup), and spices (such as cinnamon, nutmeg, or star anise), and often a slice or wedge of lemon. It is traditionally consumed before bedtime, or in cold weather, or as a home remedy for the common cold or flu.. ### Etymology and History. The origin of the name "toddy" is often attributed to India.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[Hot toddy]
+Action 2: Finish[Hot toddy]
+Observation 2: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Kir]
+Action 2: Search[Kir]
+Observation 2: **Hot Toddy**. A **Hot Toddy** is a mixed alcoholic drink composed of a spirit (usually whisky, rum, or brandy), hot water, honey (or, less commonly, sugar or maple syrup), and spices (such as cinnamon, nutmeg, or star anise), and often a slice or wedge of lemon. It is traditionally consumed before bedtime, or in cold weather, or as a home remedy for the common cold or flu.. ### Etymology and History. The origin of the name "toddy" is often attributed to India.
+
+
+
+INFO {'steps': 3, 'answer': 'Hot toddy', 'gt_answer': 'Hot toddy', 'question_idx': 373, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 2 
+Number of steps: 3 
+Average reward: 0.6666666666666666 
+Average time 81.28917320569356
+
+-------------------------------------------------------
+

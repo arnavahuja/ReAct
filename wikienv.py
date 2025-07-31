@@ -37,7 +37,7 @@ class WikiEnv(gym.Env):
     self.observation_space = self.action_space = textSpace()
     self.search_time = 0
     self.num_searches = 0
-    self.gemini_client = genai.Client(Constants.gemini_api_key)
+    self.gemini_client = genai.Client(api_key=Constants.gemini_api_key)
     self.sim_obs = None
     
   def _get_obs(self):

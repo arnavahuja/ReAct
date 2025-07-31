@@ -23,7 +23,7 @@ class HotPotQARun:
         self.env = self.get_env()
         self.simulation_observations_dict = {}
         self.current_index = None
-        self.base_path = "./trajs"
+        self.base_traj_path = "./trajs"
 
     def get_env(self):
         env = wikienv.WikiEnv()
@@ -42,7 +42,7 @@ class HotPotQARun:
         print(text)
 
         if save_log:
-            log_path = join(self.base_path, str(self.current_index), "log.txt")
+            log_path = join(self.base_traj_path, str(self.current_index), "log.txt")
             Utils.append_file(text, log_path)
 
 
@@ -186,13 +186,12 @@ class HotPotQARun:
         prompt_dict = Utils.read_json(prompt_path)
         webthink_examples = prompt_dict['webthink_simple6']
         webthink_prompt = Utils.join_prompt(Constants.react_instruction, webthink_examples, Constants.prompt_instruction)
-
         rewards = []
         infos = []
         old_time = time.time()
         for i in idxs[:Constants.n_samples_to_run]:
             self.current_index = i
-            current_dir_path = join(self.base_path, str(self.current_index))
+            current_dir_path = join(self.base_traj_path, str(self.current_index))
             log_path = join(current_dir_path, "log.txt")
             if skip_done:
                 if os.path.exists(log_path):
@@ -203,6 +202,7 @@ class HotPotQARun:
                 r, info = self.webthink(i, prompt=webthink_prompt, to_print=True, n=Constants.n_steps_to_run, simulate=webthink_simulate)
             except ClientError as e:
                 self.log("info", "Client Error!! Sleeping for 30 seconds...", save_log=False)
+                self.log("error",e,save_log=False)
                 Utils.delete_dir(current_dir_path, nested=True)
                 time.sleep(30)
                 continue
@@ -216,7 +216,7 @@ class HotPotQARun:
             self.log("info", "Sum of rewards:", sum(rewards),"\nNumber of steps:", len(rewards), "\nAverage reward:", sum(rewards) / len(rewards), "\nAverage time", (time.time() - old_time) / len(rewards))
             self.log('-------------------------------------------------------')
 
-            save_dir = join(self.base_path, str(i))
+            save_dir = join(self.base_traj_path, str(i))
 
             normal_observations_dict = self.env.normal_trajectory_dict
             sim_observations_dict = self.env.sim_trajectory_dict
@@ -232,5 +232,5 @@ if __name__=="__main__":
     hotpotqa_wiki_runner = HotPotQARun()
     hotpotqa_wiki_runner.run(webthink_simulate=True, skip_done=True)
 
-    avg_actions_metric, n_samples = Metrics.get_avg_metric("./trajs")
+    avg_actions_metric, n_samples = Metrics.get_action_specific_avg_metric(hotpotqa_wiki_runner.base_traj_path)
     print("AVERAGE METRIC:", avg_actions_metric, f"for {n_samples} observations")
