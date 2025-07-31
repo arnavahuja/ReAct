@@ -1,31 +1,48 @@
-# ReAct Prompting
+# LLM-Based Guessing to Mitigate API Latency
 
-GPT-3 prompting code for ICLR 2023 paper [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629).
+This project extends the ReAct prompting framework by introducing a novel strategy: **speculative action guessing** using LLMs to reduce end-to-end latency in tool-augmented reasoning.
 
-To use ReAct for more tasks, consider trying [LangChain's zero-shot ReAct Agent](https://python.langchain.com/docs/modules/agents/agent_types/react.html).
+Instead of blocking computation while waiting for slow API responses (e.g., Wikipedia queries), we *guess* the likely result using an LLM and continue forward execution speculatively. If the guess proves correct, we gain speedup; if not, we can roll back and recompute based on the real API output.
+
+## Motivation
+
+When API calls are the primary bottleneck, compute resources can be leveraged to *trade latency for inference*. This design enables:
+
+- Reduced waiting time in pipelines reliant on external APIs
+- Smarter anticipation of next actions when results are weakly coupled to previous actions
+- Execution of multiple guesses in parallel to increase robustness
+
+## Potential Applications
+
+- General tool-using agents (e.g., ReAct agents)
+- Dependency installation optimization (e.g., pre-fetching Python packages)
+- Chatbots (speculatively prepare summaries or responses)
+- Search assistants (guess likely queries before user finishes input)
+- Simulation platforms (predict human/agent behavior using LLMs)
+- Persona simulation (human is treated as a delayed API)
+- Predicting API responses (e.g., using tools like [veris.ai](https://veris.ai))
+
+## Features
+
+- LLM-powered speculative reasoning
+- Parallel guess execution
+- Optional LLM self-assessment on guess quality
+- Historical learning of guess reliability for cost-speed tradeoff
+- Seamless integration into ReAct-style agent workflows
 
 ## Setup
-You need to first have an OpenAI API key and store it in the environment variable ``OPENAI_API_KEY`` (see [here](https://help.openai.com/en/articles/5112595-best-practices-for-api-key-safety)).
 
-Package requirement: ``openai``, and install ``alfworld`` following instructions [here](https://github.com/alfworld/alfworld).
+1. Set your OpenAI API key and Gemini API key in the constants.py file
+
+2. Install dependencies:
+   ```bash
+   pip install openai
+   ```
 
 ## Experiments
-Run ``{hotpotqa,fever,alfworld,webshop}.ipynb``. As HotpotQA and FEVER have large validation sets, we only run 500 random examples (see notebooks). We find PaLM and GPT-3 are better at different tasks.
+
+Run the file:`hotpotqa_guess.py`
+You can alter the parameters of this run in the constants.py file.
 
 
-|                    | HotpotQA (500 random dev, EM) | FEVER (500 random dev, EM) | AlfWorld (success rate) | WebShop  (success rate) |
-|--------------------|-------------------------------|----------------------------|-------------------------|-------------------------|
-| PaLM-540B (paper)  | 29.4                          | 62.2                       | 70.9                    | 40                      |
-| GPT-3 (davinci-002) | 30.4                          | 54                         | 78.4                    | 35.8                    |
-
-## Citation
-
-```bibtex
-@inproceedings{yao2023react,
-  title = {{ReAct}: Synergizing Reasoning and Acting in Language Models},
-  author = {Yao, Shunyu and Zhao, Jeffrey and Yu, Dian and Du, Nan and Shafran, Izhak and Narasimhan, Karthik and Cao, Yuan},
-  booktitle = {International Conference on Learning Representations (ICLR) },
-  year = {2023},
-  html = {https://arxiv.org/abs/2210.03629},
-}
-```
+These experiments include speculative guessing of intermediate API/tool outputs. Comparisons are made between original ReAct framework with wikipedia call and speculative call.
