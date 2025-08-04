@@ -1,0 +1,81 @@
+INFO 3175 Question: The title Grigory Drozd lost in May 2016 was won by a boxer who made his acting debut in what film?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Grigory Drozd]
+Action 1: Search[Grigory Drozd]
+Observation 1: Grigory Anatolyevich Drozd (Russian: Григорий Анатольевич Дрозд; born 26 August 1979) is a Russian former professional boxer. He held the World Boxing Council (WBC) cruiserweight title from 2014 to 2016,[1] and the European cruiserweight title from 2013 to 2014.. Drozd only fought three amateur fights, winning all of them. His manager is Dietmar Poszwa.. Drozd faced Darnell Wilson on July 2, 2009 at the Krylatskoye Sports Palace in Moscow, winning the fight in the tenth round..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Grigory Drozd]
+Action 1: Search[Grigory Drozd]
+Observation 1: **Grigory Anatolyevich Drozd** (Russian: Григорий Анатольевич Дрозд; born August 26, 1979) is a Russian former professional boxer. He held the WBC cruiserweight title from 2014 to 2016 and the European cruiserweight title from 2013 to 2014.. **Early Life and Career:**. Born in Prokopievsk, Kemerovo Oblast, Soviet Union, Drozd began his professional boxing career in 2001. He quickly established himself as a formidable contender in the cruiserweight division, known for his aggressive style and punching power..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Lookup[2016]
+Action 2: Lookup[2016]
+Observation 2: (Result 1 / 2) He held the WBC cruiserweight title from 2014 to 2016 and the European cruiserweight title from 2013 to 2014..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[lost]
+Action 2: Lookup[lost]
+Observation 2: **Grigory Anatolyevich Drozd** (Russian: Григорий Анатольевич Дрозд; born August 26, 1979) is a Russian former professional boxer. He held the WBC cruiserweight title from 2014 to 2016 and the European cruiserweight title from 2013 to 2014.. **Early Life and Career:**. Born in Prokopievsk, Kemerovo Oblast, Soviet Union, Drozd began his professional boxing career in 2001. He quickly established himself as a formidable contender in the cruiserweight division, known for his aggressive style and punching power..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[WBC cruiserweight title 2016]
+Action 3: Search[WBC cruiserweight title 2016]
+Observation 3: Could not find WBC cruiserweight title 2016. Similar: ['List of WBC world champions', 'Tony Bellew (category World cruiserweight boxing champions)', 'List of world cruiserweight boxing champions', 'Mairis Briedis (category Cruiserweight boxers)', 'Michał Cieślak (boxer) (category Cruiserweight boxers)'].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[lost]
+Action 3: Lookup[lost]
+Observation 3: **WBC Cruiserweight Title in 2016**. The World Boxing Council (WBC) cruiserweight title in 2016 saw a significant change in championship status, culminating in a highly anticipated vacant title fight.. **Background**. Entering 2016, Grigory Drozd of Russia was the reigning WBC Cruiserweight Champion. However, Drozd suffered a hand injury in late 2015, which prevented him from making a mandatory defense.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Tony Bellew]
+Action 4: Search[Tony Bellew]
+Observation 4: Anthony Lewis Bellew (born 30 November 1982) is an English former professional boxer who competed from 2007 to 2018, and has since worked as a boxing analyst and commentator. He held the WBC cruiserweight title from 2016 to 2017. At regional level, he held the British and Commonwealth light-heavyweight titles between 2010 and 2014, the European cruiserweight title from 2015 to 2016. As an amateur, he is a three-time ABA heavyweight champion.[2] He portrayed antagonist boxer Ricky Conlan in the films Creed and Creed III.. Anthony Lewis Bellew was born in the Toxteth area of Liverpool on 30 November 1982.[3] Bellew's father was white, while his mother was biracial, with both African and European ancestry.[4][5] He first lived on Mulgrave Street in Toxteth, later moving to Smithdown Road in nearby Wavertree.[6].
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[WBC Cruiserweight Champion 2016]
+Action 4: Search[WBC Cruiserweight Champion 2016]
+Observation 4: **Anthony "Tony" Bellew** (born 30 November 1982) is a British former professional boxer who competed from 2007 to 2018. He held the WBC cruiserweight title from 2016 to 2017, and at regional level, the Commonwealth light-heavyweight title twice between 2010 and 2014, and the British light-heavyweight title in 2011. Known for his aggressive fighting style, punching power, and charismatic personality, Bellew transcended the sport with his high-profile bouts and media presence.. ### Early Life and Amateur Career. Born in Toxteth, Liverpool, England, Bellew began boxing at the age of nine.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Finish[Creed]
+Action 5: Finish[Creed]
+Observation 5: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Lookup[acting debut]
+Action 5: Lookup[acting debut]
+Observation 5: **Anthony "Tony" Bellew** (born 30 November 1982) is a British former professional boxer who competed from 2007 to 2018. He held the WBC cruiserweight title from 2016 to 2017, and at regional level, the Commonwealth light-heavyweight title twice between 2010 and 2014, and the British light-heavyweight title in 2011. Known for his aggressive fighting style, punching power, and charismatic personality, Bellew transcended the sport with his high-profile bouts and media presence.. ### Early Life and Amateur Career. Born in Toxteth, Liverpool, England, Bellew began boxing at the age of nine.
+
+
+
+INFO {'steps': 9, 'answer': 'Creed', 'gt_answer': '"Creed"', 'question_idx': 3175, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 3 
+Number of steps: 10 
+Average reward: 0.3 
+Average time 175.4759532213211
+
+-------------------------------------------------------
+

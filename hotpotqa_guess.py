@@ -201,15 +201,15 @@ class HotPotQARun:
             try:
                 r, info = self.webthink(i, prompt=webthink_prompt, to_print=True, n=Constants.n_steps_to_run, simulate=webthink_simulate)
             except ClientError as e:
-                self.log("info", "Client Error!! Sleeping for 30 seconds...", save_log=False)
+                self.log("info", f"Client Error!! Sleeping for {Constants.client_error_sleep_time} seconds...", save_log=False)
                 self.log("error",e,save_log=False)
                 Utils.delete_dir(current_dir_path, nested=True)
-                time.sleep(30)
+                time.sleep(Constants.client_error_sleep_time)
                 continue
             except ServerError as e:
-                self.log("info", "Server Error!! Sleeping for 60 seconds...", save_log=False)
+                self.log("info", f"Server Error!! Sleeping for {Constants.server_error_sleep_time} seconds...", save_log=False)
                 Utils.delete_dir(current_dir_path, nested=True)
-                time.sleep(60)
+                time.sleep(Constants.server_error_sleep_time)
                 continue
             rewards.append(info['em'])
             infos.append(info)

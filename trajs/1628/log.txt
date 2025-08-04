@@ -1,0 +1,67 @@
+INFO 1628 Question: Which head coach has led their team for a longer period of time, Tim Cluess or Steve Prohm?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Tim Cluess]
+Action 1: Search[Tim Cluess]
+Observation 1: Timothy Michael Cluess (born March 9, 1959) is an American college basketball coach who most recently was the head men's basketball coach at Iona College. He is also a former head coach of Long Island University–C.W. Post.. Born in Queens, New York, Cluess played college basketball at St. John's (1979–81)[1][2] and Hofstra (1982–83).[3].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Tim Cluess]
+Action 1: Search[Tim Cluess]
+Observation 1: **Tim Cluess** is an American former college basketball coach, best known for his highly successful tenure as the head coach of the Iona Gaels men's basketball team from 2010 to 2020.. **Early Life and Playing Career:**. Cluess played college basketball at both St. John's University and Hofstra University.. **Coaching Career:**.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Lookup[coach]
+Action 2: Lookup[coach]
+Observation 2: (Result 1 / 6) **Tim Cluess** is an American former college basketball coach, best known for his highly successful tenure as the head coach of the Iona Gaels men's basketball team from 2010 to 2020..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Steve Prohm]
+Action 2: Search[Steve Prohm]
+Observation 2: **Tim Cluess** is an American former college basketball coach, best known for his highly successful tenure as the head coach of the Iona Gaels men's basketball team from 2010 to 2020.. **Early Life and Playing Career:**. Cluess played college basketball at both St. John's University and Hofstra University.. **Coaching Career:**.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Steve Prohm]
+Action 3: Search[Steve Prohm]
+Observation 3: Steven Marshall Prohm (born July 12, 1974) is an American basketball coach who most recently served as the head coach at Murray State University from 2022 to 2025. Previously, he was the head coach at Iowa State University, a position he had held from 2015 to 2021. Prohm served in the same capacity at Murray State from 2011 to 2015.. A native of Vienna, Virginia, Prohm's family later moved to Dalton, Georgia, where Prohm attended high school at Northwest Whitfield High School in Tunnel Hill, Georgia and lettered in basketball for three years, graduating in 1992.[1][2]. He started college at Oglethorpe University in Atlanta where he played NCAA Division III basketball.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Steve Prohm]
+Action 3: Search[Steve Prohm]
+Observation 3: **Steve Prohm** (born October 17, 1974) is an American college basketball coach who is currently the head coach of the Murray State Racers of the Missouri Valley Conference (MVC). He previously served as the head coach for the Iowa State Cyclones from 2015 to 2021 and had a prior stint as head coach for the Murray State Racers from 2011 to 2015.. **Coaching Career Highlights:**. *   **Murray State Racers (2011–2015):**. *   In his first tenure at Murray State, Prohm quickly established the Racers as a dominant force in the Ohio Valley Conference (OVC)..
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[Steve Prohm]
+Action 4: Finish[Steve Prohm]
+Observation 4: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[They coached for the same period of time.]
+Action 4: Finish[They coached for the same period of time.]
+Observation 4: **Steve Prohm** (born October 17, 1974) is an American college basketball coach who is currently the head coach of the Murray State Racers of the Missouri Valley Conference (MVC). He previously served as the head coach for the Iowa State Cyclones from 2015 to 2021 and had a prior stint as head coach for the Murray State Racers from 2011 to 2015.. **Coaching Career Highlights:**. *   **Murray State Racers (2011–2015):**. *   In his first tenure at Murray State, Prohm quickly established the Racers as a dominant force in the Ohio Valley Conference (OVC)..
+
+
+
+INFO {'steps': 7, 'answer': 'Steve Prohm', 'gt_answer': 'Tim Cluess', 'question_idx': 1628, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 0 
+Number of steps: 4 
+Average reward: 0.0 
+Average time 156.1208050251007
+
+-------------------------------------------------------
+

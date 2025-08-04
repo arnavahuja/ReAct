@@ -1,0 +1,109 @@
+INFO 165 Question: In 2017, what was 3/4th of the organization that also has a Center for Veterinary Medicine as well as part of the U.S. Department of Health and Human Services, spent on?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Center for Veterinary Medicine]
+Action 1: Search[Center for Veterinary Medicine]
+Observation 1: The Center for Veterinary Medicine (CVM) is a branch of the U.S. Food and Drug Administration (FDA) that regulates the manufacture and distribution of food, food additives, and drugs that will be given to animals. These include animals from which human foods are derived, as well as food additives and drugs for pets or companion animals. CVM is responsible for regulating drugs, devices, and food additives given to, or used on, over one hundred million companion animals, plus millions of poultry, cattle, swine, and minor animal species. Minor animal species include animals other than cattle, swine, chickens, turkeys, horses, dogs, and cats..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Center for Veterinary Medicine]
+Action 1: Search[Center for Veterinary Medicine]
+Observation 1: The **Center for Veterinary Medicine (CVM)** is a branch of the U.S. Food and Drug Administration (FDA), an agency within the U.S. Department of Health and Human Services. Established in 1965 (originally as the Bureau of Veterinary Medicine, renamed CVM in 1984), its primary mission is to protect public health by ensuring that animal drugs, animal devices, and medicated feeds are safe and effective, and that food derived from treated animals is safe to eat.. **Purpose and Responsibilities:**.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[FDA 2017 spending]
+Action 2: Search[FDA 2017 spending]
+Observation 2: Could not find FDA 2017 spending. Similar: ['Food and Drug Administration (redirect from FDA)', 'Vinay Prasad', '23andMe (section FDA)', 'Scott Gottlieb (section FDA commissioner (2017–2019))', 'FDA Food Safety Modernization Act'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[U.S. Food and Drug Administration 2017 spending]
+Action 2: Search[U.S. Food and Drug Administration 2017 spending]
+Observation 2: For Fiscal Year (FY) 2017, the U.S. Food and Drug Administration (FDA) operated with a total budget of approximately **$5.1 billion**. This funding enabled the agency to fulfill its mission of protecting the public health by ensuring the safety, efficacy, and security of human and veterinary drugs, biological products, medical devices, our nation’s food supply, cosmetics, and products that emit radiation, and by regulating tobacco products.. ### Sources of Funding. The FDA's budget for FY 2017 was primarily derived from two main sources:.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Food and Drug Administration budget 2017]
+Action 3: Search[Food and Drug Administration budget 2017]
+Observation 3: Could not find Food and Drug Administration budget 2017. Similar: ['Food and Drug Administration (Philippines)', 'Food and Drug Administration', 'History of the Food and Drug Administration', 'Drug Enforcement Administration', 'Food and Drug Administration Safety and Innovation Act'].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[approximately $3.825 billion on protecting the public health by ensuring the safety, efficacy, and security of human and veterinary drugs, biological products, medical devices, the nation’s food supply, cosmetics, and products that emit radiation, and by regulating tobacco products.]
+Action 3: Finish[approximately $3.825 billion on protecting the public health by ensuring the safety, efficacy, and security of human and veterinary drugs, biological products, medical devices, the nation’s food supply, cosmetics, and products that emit radiation, and by regulating tobacco products.]
+Observation 3: # Food and Drug Administration Budget (Fiscal Year 2017). The Food and Drug Administration (FDA) operated with a total budget authority of approximately **$5.1 billion** for Fiscal Year 2017 (October 1, 2016 – September 30, 2017) [1]. This budget was crucial for the agency's mission of protecting and promoting public health through the regulation and supervision of food safety, tobacco products, dietary supplements, prescription and over-the-counter pharmaceutical drugs, vaccines, biopharmaceuticals, blood transfusions, medical devices, electromagnetic radiation emitting devices, cosmetics, animal foods & feed, and veterinary products [2].. ## Funding Sources. The FDA's 2017 budget was funded through a combination of Congressional appropriations and user fees [3]..
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Food and Drug Administration]
+Action 4: Search[Food and Drug Administration]
+Observation 4: The United States Food and Drug Administration (FDA or US FDA) is a federal agency of the Department of Health and Human Services. The FDA is responsible for protecting and promoting public health through the control and supervision of food safety, tobacco products, caffeine products, dietary supplements, prescription and over-the-counter pharmaceutical drugs (medications), vaccines, biopharmaceuticals, blood transfusions, medical devices, electromagnetic radiation emitting devices (ERED), cosmetics, animal foods & feed[4] and veterinary products.. The FDA's primary focus is enforcement of the Federal Food, Drug, and Cosmetic Act (FD&C). However, the agency also enforces other laws, notably Section 361 of the Public Health Service Act as well as associated regulations. Much of this regulatory-enforcement work is not directly related to food or drugs but involves other factors like regulating lasers, cellular phones, and condoms.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[budget was crucial for]
+Action 4: Lookup[budget was crucial for]
+Observation 4: **Food and Drug Administration**. The Food and Drug Administration (FDA) is a federal agency of the United States Department of Health and Human Services. It is responsible for protecting and promoting public health through the control and supervision of food safety, tobacco products, dietary supplements, prescription and over-the-counter pharmaceutical drugs (medications), vaccines, biopharmaceuticals, blood transfusions, medical devices, electromagnetic radiation-emitting devices (ERED), cosmetics, and veterinary products.. **History**. The origins of the FDA can be traced back to the Division of Chemistry, established within the U.S.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[FDA appropriations 2017]
+Action 5: Search[FDA appropriations 2017]
+Observation 5: Could not find FDA appropriations 2017. Similar: ['Food and Drug Administration (redirect from FDA)', 'Cannabidiol', 'Consolidated Appropriations Act, 2021', 'Scott Gottlieb (section FDA commissioner (2017–2019))', 'Prescription Drug User Fee Act (section FDA budget)'].
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Lookup[budget]
+Action 5: Lookup[budget]
+Observation 5: The United States Food and Drug Administration (FDA) received approximately $5.1 billion in total funding for Fiscal Year 2017 (FY2017), which ran from October 1, 2016, to September 30, 2017. This funding was primarily provided through direct congressional appropriations and a significant contribution from various user fees. The budget aimed to support the agency's broad mission of protecting public health by ensuring the safety and efficacy of human and veterinary drugs, biological products, medical devices, the safety of the nation's food supply, cosmetics, and products that emit radiation.. ### Overview of Funding. The final appropriations for FY2017 were enacted through the Consolidated Appropriations Act, 2017 (Public Law 115-31), signed into law on May 5, 2017..
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Search[FDA budget]
+Action 6: Search[FDA budget]
+Observation 6: Could not find FDA budget. Similar: ['Food and Drug Administration (redirect from FDA)', 'Prescription Drug User Fee Act (section FDA budget)', 'Office of Management and Budget', 'Center for Drug Evaluation and Research', 'Center for Food Safety and Applied Nutrition'].
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Finish[protecting public health by ensuring the safety and efficacy of human and veterinary drugs, biological products, medical devices, the safety of the nation's food supply, cosmetics, and products that emit radiation]
+Action 6: Finish[protecting public health by ensuring the safety and efficacy of human and veterinary drugs, biological products, medical devices, the safety of the nation's food supply, cosmetics, and products that emit radiation]
+Observation 6: The budget of the U.S. Food and Drug Administration (FDA) is a critical component of its ability to fulfill its mission of protecting public health by ensuring the safety, efficacy, and security of human and veterinary drugs, biological products, medical devices, and the safety of the nation's food supply, cosmetics, and products that emit radiation.. ### Overview. The FDA's budget is determined annually through the Congressional appropriations process. It supports the agency's wide-ranging regulatory activities, including pre-market review, post-market surveillance, scientific research, enforcement, and public education across various product categories.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Search[Prescription Drug User Fee Act]
+Action 7: Search[Prescription Drug User Fee Act]
+Observation 7: The Prescription Drug User Fee Act (PDUFA) was a law passed by the United States Congress in 1992 which allowed the Food and Drug Administration (FDA) to collect fees from drug manufacturers to fund the new drug approval process. The Act provided that the FDA was entitled to collect a substantial application fee from drug manufacturers at the time a New Drug Application (NDA) or Biologics License Application (BLA) was submitted, with those funds designated for use only in Center for Drug Evaluation and Research (CDER) or Center for Biologics Evaluation and Research (CBER) drug approval activities. In order to continue collecting such fees, the FDA is required to meet certain performance benchmarks, primarily related to the speed of certain activities within the NDA review process.. The move towards imposing user fees to pay for the regulatory review of new medicines was the result of dissatisfaction among consumers, industry, and the FDA. All three groups felt that drug approvals were taking far too long.
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Search[FDA annual budget]
+Action 7: Search[FDA annual budget]
+Observation 7: The **Prescription Drug User Fee Act (PDUFA)** is a United States federal law that allows the Food and Drug Administration (FDA) to collect fees from pharmaceutical companies to fund the new drug approval process. First enacted in 1992, PDUFA was established to accelerate the review and approval of new prescription drugs and biologics. It must be reauthorized by Congress every five years.. ### History. Prior to PDUFA, the FDA's drug review process was often criticized for being slow, leading to delays in bringing new medications to market.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'Prescription Drug User Fee Act', 'question_idx': 165, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 0 
+Number of steps: 1 
+Average reward: 0.0 
+Average time 215.01870250701904
+
+-------------------------------------------------------
+

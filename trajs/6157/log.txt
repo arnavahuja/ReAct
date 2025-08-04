@@ -1,0 +1,109 @@
+INFO 6157 Question: Where do both the New Jersey Devils and the Seton Hall Pirates play?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[New Jersey Devils]
+Action 1: Search[New Jersey Devils]
+Observation 1: The New Jersey Devils are a professional ice hockey team based in Newark, New Jersey. The Devils compete in the National Hockey League (NHL) as a member of the Metropolitan Division in the Eastern Conference. The club was founded as the Kansas City Scouts in Kansas City, Missouri, in 1974. The Scouts moved to Denver in 1976 and became the Colorado Rockies. In 1982, they moved to East Rutherford, New Jersey, and took their current name, which is derived from the legendary Jersey Devil creature.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[New Jersey Devils]
+Action 1: Search[New Jersey Devils]
+Observation 1: The New Jersey Devils are a professional ice hockey team based in Newark, New Jersey. They are members of the Metropolitan Division of the Eastern Conference of the National Hockey League (NHL). The team plays its home games at the Prudential Center.. **Franchise History**. The Devils franchise began as the **Kansas City Scouts** in 1974, one of two expansion teams to join the NHL that season.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Lookup[play]
+Action 2: Lookup[play]
+Observation 2: (Result 1 / 8) The team plays its home games at the Prudential Center..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Seton Hall Pirates]
+Action 2: Search[Seton Hall Pirates]
+Observation 2: The New Jersey Devils are a professional ice hockey team based in Newark, New Jersey. They are members of the Metropolitan Division of the Eastern Conference of the National Hockey League (NHL). The team plays its home games at the Prudential Center.. **Franchise History**. The Devils franchise began as the **Kansas City Scouts** in 1974, one of two expansion teams to join the NHL that season.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Seton Hall Pirates]
+Action 3: Search[Seton Hall Pirates]
+Observation 3: The Seton Hall Pirates are the intercollegiate athletic sports teams representing Seton Hall University, located in South Orange, New Jersey. The Pirates compete as a member of the NCAA Division I level (non-football sub-level), primarily competing in the Big East Conference for all sports since the 1979–80 season.[3][4][5]. Men's sports include baseball, basketball, cross country, golf, soccer and swimming & diving, while women's sports include basketball, cross country, golf, soccer, softball, swimming & diving, tennis and volleyball. Seton Hall canceled football (which was played in Division III) in 1982.[6][7]. The university's athletic director is Bryan Felt.[8] The program's mascot is The Pirate[9] and colors are blue, gray, and white.[10].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Seton Hall Pirates]
+Action 3: Search[Seton Hall Pirates]
+Observation 3: The **Seton Hall Pirates** are the athletic teams that represent Seton Hall University, located in South Orange, New Jersey. A member of the National Collegiate Athletic Association (NCAA) Division I, Seton Hall primarily competes in the Big East Conference. The university sponsors 14 varsity intercollegiate teams.. **Overview**. Seton Hall University has a long and storied athletic history, dating back to the late 19th century.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Lookup[play]
+Action 4: Lookup[play]
+Observation 4: (Result 1 / 4) The team regularly competes for Big East titles and has produced many professional players.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[play]
+Action 4: Lookup[play]
+Observation 4: The **Seton Hall Pirates** are the athletic teams that represent Seton Hall University, located in South Orange, New Jersey. A member of the National Collegiate Athletic Association (NCAA) Division I, Seton Hall primarily competes in the Big East Conference. The university sponsors 14 varsity intercollegiate teams.. **Overview**. Seton Hall University has a long and storied athletic history, dating back to the late 19th century.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Lookup[home games]
+Action 5: Lookup[home games]
+Observation 5: (Result 1 / 3) The Pirates compete in the Big East Conference and play their home games at Owen T.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Search[Seton Hall Pirates home games]
+Action 5: Search[Seton Hall Pirates home games]
+Observation 5: The **Seton Hall Pirates** are the athletic teams that represent Seton Hall University, located in South Orange, New Jersey. A member of the National Collegiate Athletic Association (NCAA) Division I, Seton Hall primarily competes in the Big East Conference. The university sponsors 14 varsity intercollegiate teams.. **Overview**. Seton Hall University has a long and storied athletic history, dating back to the late 19th century.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Lookup[Owen T.]
+Action 6: Lookup[Owen T.]
+Observation 6: (Result 1 / 2) The Pirates compete in the Big East Conference and play their home games at Owen T.
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Search[Prudential Center]
+Action 6: Search[Prudential Center]
+Observation 6: The **Seton Hall Pirates** are the athletic teams that represent Seton Hall University, located in South Orange, New Jersey. A member of the National Collegiate Athletic Association (NCAA) Division I, Seton Hall primarily competes in the Big East Conference. The university sponsors 14 varsity intercollegiate teams.. **Overview**. Seton Hall University has a long and storied athletic history, dating back to the late 19th century.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Search[Seton Hall Pirates basketball]
+Action 7: Search[Seton Hall Pirates basketball]
+Observation 7: Could not find Seton Hall Pirates basketball. Similar: ['Seton Hall Pirates', "Seton Hall Pirates men's basketball", 'Jordan Walker (basketball)', 'Seton Hall University', "1988–89 Seton Hall Pirates men's basketball team"].
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Search[Seton Hall Pirates basketball arena]
+Action 7: Search[Seton Hall Pirates basketball arena]
+Observation 7: The Seton Hall Pirates men's basketball team represents Seton Hall University in NCAA Division I college basketball. The team competes in the Big East Conference and plays its home games at the Prudential Center in Newark, New Jersey, though some on-campus games may be played at Walsh Gymnasium in South Orange.. **History and Overview:**. Seton Hall's basketball program has a long and storied history, dating back to its first season in 1906. The Pirates were a founding member of the original Big East Conference in 1979 and have remained in the reconfigured Big East since its formation in 2013.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'Prudential Center', 'question_idx': 6157, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 0 
+Number of steps: 3 
+Average reward: 0.0 
+Average time 189.31489515304565
+
+-------------------------------------------------------
+

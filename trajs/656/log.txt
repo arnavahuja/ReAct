@@ -1,0 +1,95 @@
+INFO 656 Question: What former nose tackle announced ESPN College Football Friday Primetime in 2017?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[ESPN College Football Friday Primetime]
+Action 1: Search[ESPN College Football Friday Primetime]
+Observation 1: Could not find ESPN College Football Friday Primetime. Similar: ['ESPN College Football Primetime', 'ESPN College Football', 'List of ESPN personalities', 'Molly McGrath (category ESPN people)', 'Andre Ware (category All-American college football players)'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[ESPN College Football Friday Primetime]
+Action 1: Search[ESPN College Football Friday Primetime]
+Observation 1: **ESPN College Football Friday Primetime** refers to the practice by the **ESPN** family of networks of broadcasting **NCAA Division I Football Bowl Subdivision (FBS)** college football games on Friday evenings during the regular season. Unlike programs such as *Monday Night Football*, "Friday Primetime" is not a specific, named television series with a fixed broadcast team or specific show format, but rather a designation for the slot in which various games are aired.. ### Overview. ESPN's commitment to college football extends beyond the traditional Saturday schedule, with Friday nights serving as a significant component of its extensive coverage. This slot allows for greater exposure for teams and conferences, providing an additional day for high-profile matchups to be showcased..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[ESPN College Football Primetime]
+Action 2: Search[ESPN College Football Primetime]
+Observation 2: ESPN College Football Primetime may refer to one of several shows produced by ESPN:. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us. HelpLearn to editCommunity portalRecent changesUpload fileSpecial pages. Donate. Create account.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[announced]
+Action 2: Lookup[announced]
+Observation 2: **ESPN College Football Primetime**. **ESPN College Football Primetime** refers to the designation of the premier, high-profile college football game broadcast by ESPN and its family of networks, typically on Saturday nights. While not a standalone program title in the vein of *Monday Night Football*, it represents ESPN's marquee weekly college football matchup, often featuring top-ranked teams, rivalry games, or contests with significant national championship implications. These games serve as a cornerstone of ESPN's extensive college football coverage, culminating the network's Saturday broadcasts.. **History and Evolution**.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Booger McFarland]
+Action 3: Search[Booger McFarland]
+Observation 3: Anthony Darelle "Booger" McFarland (born December 18, 1977) is an American former professional football player who was a defensive tackle in the National Football League (NFL). He played college football at Louisiana State University and was drafted by the Tampa Bay Buccaneers in the first round of the 1999 NFL draft.[1] McFarland also played for the Indianapolis Colts, and won two Super Bowl rings in his career: one with the Buccaneers (Super Bowl XXXVII) and another with the Colts (Super Bowl XLI). He was an analyst for Monday Night Football in 2018 and 2019, before joining as a pregame analyst on Monday Night Countdown in 2020.. McFarland and his two siblings grew up in Winnsboro, Louisiana.[2] He attended Winnsboro High School, where he was an All-State lineman for the Wildcats.[3][4]. McFarland received the nickname "Booger" as a child, saying "I was a bad kid, getting into a lot of wild stuff.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[ESPN College Football announcers 2017]
+Action 3: Search[ESPN College Football announcers 2017]
+Observation 3: **Anthony Darelle "Booger" McFarland Jr.** (born December 18, 1977) is an American former professional football player who was a defensive tackle for nine seasons in the National Football League (NFL) and is currently a football analyst for ESPN.. **Early Life and College**. McFarland was born in Winnsboro, Louisiana. He attended Louisiana State University (LSU), where he played college football for the LSU Tigers. As a senior in 1998, he was a first-team All-Southeastern Conference (SEC) selection..
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Lookup[College Football]
+Action 4: Lookup[College Football]
+Observation 4: (Result 1 / 2) He attended Louisiana State University (LSU), where he played college football for the LSU Tigers.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[ESPN College Football Friday Primetime]
+Action 4: Lookup[ESPN College Football Friday Primetime]
+Observation 4: **Anthony Darelle "Booger" McFarland Jr.** (born December 18, 1977) is an American former professional football player who was a defensive tackle for nine seasons in the National Football League (NFL) and is currently a football analyst for ESPN.. **Early Life and College**. McFarland was born in Winnsboro, Louisiana. He attended Louisiana State University (LSU), where he played college football for the LSU Tigers. As a senior in 1998, he was a first-team All-Southeastern Conference (SEC) selection..
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Lookup[2017]
+Action 5: Lookup[2017]
+Observation 5: (Result 1 / 1) In 2017, he began contributing to ESPN's NFL coverage, including "Monday Night Countdown" and "NFL Primetime." In 2018, McFarland was named a color commentator for ESPN's *Monday Night Football*, initially working from a sideline "Booger Mobile" before moving to the broadcast booth.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Lookup[analyst]
+Action 5: Lookup[analyst]
+Observation 5: **Anthony Darelle "Booger" McFarland Jr.** (born December 18, 1977) is an American former professional football player who was a defensive tackle for nine seasons in the National Football League (NFL) and is currently a football analyst for ESPN.. **Early Life and College**. McFarland was born in Winnsboro, Louisiana. He attended Louisiana State University (LSU), where he played college football for the LSU Tigers. As a senior in 1998, he was a first-team All-Southeastern Conference (SEC) selection..
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: I have identified Booger McFarland as a former defensive tackle (which includes nose tackle) who began contributing to ESPN's coverage in 2017. The provided text for Booger McFarland's 2017 role specifically mentions "ESPN's NFL coverage, including "Monday Night Countdown" and "NFL Primetime"". The question asks about "ESPN College Football Friday Primetime". There is a discrepancy between "NFL Primetime" and "College Football Friday Primetime". However, I have not found any other former nose tackle associated with ESPN and 2017. Given that Booger McFarland fits most of the criteria (former nose tackle, ESPN, 2017, announcer) and no other candidate is apparent from the searches, it is highly probable he is the intended answer, despite the slight mismatch in the specific type of "Primetime" show mentioned. It's possible the article simplifies his roles or the show names are similar enough.
+Action 6: Finish[Booger McFarland]
+Observation 6: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Lookup[analyst]
+Action 6: Lookup[analyst]
+Observation 6: **Anthony Darelle "Booger" McFarland Jr.** (born December 18, 1977) is an American former professional football player who was a defensive tackle for nine seasons in the National Football League (NFL) and is currently a football analyst for ESPN.. **Early Life and College**. McFarland was born in Winnsboro, Louisiana. He attended Louisiana State University (LSU), where he played college football for the LSU Tigers. As a senior in 1998, he was a first-team All-Southeastern Conference (SEC) selection..
+
+
+
+INFO {'steps': 11, 'answer': 'Booger McFarland', 'gt_answer': 'Dusty Dvoracek', 'question_idx': 656, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 0 
+Number of steps: 2 
+Average reward: 0.0 
+Average time 301.1685253381729
+
+-------------------------------------------------------
+

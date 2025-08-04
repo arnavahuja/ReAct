@@ -1,0 +1,67 @@
+INFO 3735 Question: Where did the free agent quarterback acquired for the 2015 Buffalo Bills season play college football at?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[2015 Buffalo Bills season quarterback free agent]
+Action 1: Search[2015 Buffalo Bills season quarterback free agent]
+Observation 1: Could not find 2015 Buffalo Bills season quarterback free agent. Similar: ['2015 Buffalo Bills season', 'Kyle Allen (American football) (redirect from Kyle Allen (quarterback))', 'Josh Allen (redirect from Josh Allen (quarterback))', 'Jim Kelly (redirect from Jim Kelly (quarterback))', 'Josh Johnson (quarterback)'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[2015 Buffalo Bills season free agent quarterback]
+Action 1: Search[2015 Buffalo Bills season free agent quarterback]
+Observation 1: **Tyrod Taylor (Buffalo Bills, 2015 Season)**. **Tyrod Taylor** (born August 3, 1989) is an American football quarterback who played for the Buffalo Bills from 2015 to 2017. He was a significant free agent acquisition for the Bills prior to their 2015 season, ultimately winning the starting quarterback job.. **Early Career and Free Agency**. Prior to joining the Buffalo Bills, Taylor was drafted by the Baltimore Ravens in the sixth round of the 2011 NFL Draft.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[2015 Buffalo Bills season]
+Action 2: Search[2015 Buffalo Bills season]
+Observation 2: The 2015 season was the Buffalo Bills' 46th in the National Football League (NFL), their 56th overall, their third under the leadership of general manager Doug Whaley and their first under head coach Rex Ryan. It was also their first full season under the ownership of Terry and Kim Pegula (who also own the Buffalo Sabres), having purchased the Bills partway through 2014 after the death of longtime owner Ralph Wilson that March at the age of 95.. The Bills began their season with an open competition for the starting quarterback position after Kyle Orton, the starter for most of the 2014 campaign, retired during the offseason, so the team acquired free agent Tyrod Taylor, a former backup quarterback of the Baltimore Ravens, who won the competition over incumbent second-string quarterback EJ Manuel and trade acquisition Matt Cassel, the latter of whom the team later traded along with a seventh-round pick in 2017 to the Dallas Cowboys, in exchange for a fifth-round draft pick in 2017.. Despite Ryan's bold prediction of the Bills making the playoffs at his introductory press conference, the Bills were unable to do so in their first season with Ryan as head coach, finishing with a record of 8-8 (the team’s first since 2002), making it the 16th straight season without a playoff appearance, which became the longest active in major professional sports after Major League Baseball’s Toronto Blue Jays broke their 22-year playoff drought on September 25, 2015.[1]. The Bills made headlines when they hired a new head coach in Rex Ryan, who signed a five-year, $27.5 million contract on January 12, 2015 after having previously spent the past six seasons coaching the division-rival New York Jets.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Tyrod Taylor college football]
+Action 2: Search[Tyrod Taylor college football]
+Observation 2: The 2015 Buffalo Bills season was the franchise's 56th season in the National Football League, their 46th in Ralph Wilson Stadium, and their first under head coach Rex Ryan. The team finished the season with an 8–8 record, failing to qualify for the playoffs for the 16th consecutive season.. **Season summary**. Following an unexpected 9–7 campaign in 2014 under Doug Marrone, who resigned shortly after the season, the Bills hired former New York Jets head coach Rex Ryan to lead the team. Ryan's hiring brought high expectations, especially with the addition of high-profile players like running back LeSean McCoy (acquired via trade from the Philadelphia Eagles) and wide receiver Percy Harvin (signed as a free agent)..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Tyrod Taylor]
+Action 3: Search[Tyrod Taylor]
+Observation 3: Tyrod Di'allo Taylor[1] (born August 3, 1989) is an American professional football quarterback for the New York Jets of the National Football League (NFL). He played college football for the Virginia Tech Hokies and was selected by the Baltimore Ravens in the sixth round of the 2011 NFL draft.. At Baltimore, he served as the backup to starting quarterback Joe Flacco, including during the Ravens' Super Bowl XLVII victory over the San Francisco 49ers. Taylor was signed by the Buffalo Bills as a free agent in 2015, taking over the starting quarterback duties that season and earning a Pro Bowl appearance. In 2017, he helped the Bills make their first playoff berth in 18 years.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[quarterback]
+Action 3: Lookup[quarterback]
+Observation 3: **Tyrod Taylor**. Tyrod Taylor (born August 3, 1989) is an American professional football quarterback for the Philadelphia Eagles of the National Football League (NFL). He played college football for the Virginia Tech Hokies, where he was a four-year starter and led the team to two ACC Championship Game victories. Taylor was selected by the Baltimore Ravens in the sixth round of the 2011 NFL Draft.. **Early Life and High School**.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[Virginia Tech Hokies]
+Action 4: Finish[Virginia Tech Hokies]
+Observation 4: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[Virginia Tech Hokies]
+Action 4: Finish[Virginia Tech Hokies]
+Observation 4: **Tyrod Taylor**. Tyrod Taylor (born August 3, 1989) is an American professional football quarterback for the Philadelphia Eagles of the National Football League (NFL). He played college football for the Virginia Tech Hokies, where he was a four-year starter and led the team to two ACC Championship Game victories. Taylor was selected by the Baltimore Ravens in the sixth round of the 2011 NFL Draft.. **Early Life and High School**.
+
+
+
+INFO {'steps': 7, 'answer': 'Virginia Tech Hokies', 'gt_answer': 'Virginia Tech', 'question_idx': 3735, 'reward': False, 'em': False, 'f1': 0.8}
+
+INFO Sum of rewards: 3 
+Number of steps: 8 
+Average reward: 0.375 
+Average time 200.01510280370712
+
+-------------------------------------------------------
+

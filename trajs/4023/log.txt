@@ -1,0 +1,53 @@
+INFO 4023 Question: Are Robert Philibosian and David Ignatius both politicians?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Robert Philibosian]
+Action 1: Search[Robert Philibosian]
+Observation 1: Robert Harry Philibosian (September 29, 1940 – November 13, 2023) was an American politician. He was appointed Los Angeles County District Attorney in 1981 when his predecessor John Van de Kamp was elected Attorney General of California. Philibosian served as district attorney until 1984 when he was defeated in countywide election by Ira Reiner. He received his B.A. degree in history from Stanford University and his J.D.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Robert Philibosian]
+Action 1: Search[Robert Philibosian]
+Observation 1: **Robert Philibosian** is a name that refers to one or more individuals.. As of current public records and widely accessible biographical sources, there is no single prominent figure named Robert Philibosian whose life or works are extensively documented in a manner typically warranting a dedicated Wikipedia entry. The name may be associated with individuals across various fields and private capacities, but specific notable achievements or public profiles are not widely consolidated in general reference works..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[David Ignatius]
+Action 2: Search[David Ignatius]
+Observation 2: David Reynolds Ignatius (born May 26, 1950) is an American journalist and novelist. He is an associate editor and columnist for The Washington Post. He has written eleven novels, including Body of Lies, which director Ridley Scott adapted into a film. He is a former adjunct lecturer at the Kennedy School of Government at Harvard University and was a Senior Fellow to the Future of Diplomacy Program from 2017 to 2022.[1]. Ignatius was born in Cambridge, Massachusetts.[2] His parents are Nancy Sharpless (née Weiser) and Paul Robert Ignatius, a former Secretary of the Navy (1967–69), president of The Washington Post, and former president of the Air Transport Association.[3][4] He is of Armenian descent on his father's side, with ancestors from Harput, Elazığ, Turkey;[5][6] his mother, a descendant of Puritan minister Cotton Mather, is of German and English descent.[7].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[David Ignatius]
+Action 2: Search[David Ignatius]
+Observation 2: **David R. Ignatius** (born May 26, 1950) is an American journalist and novelist. He is an associate editor and columnist for *The Washington Post*. His twice-weekly column focuses on foreign affairs, international relations, and intelligence matters, drawing on a long career covering the Middle East and global politics. He is also known for his espionage thrillers, several of which have been adapted into films..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[No]
+Action 3: Finish[No]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[No]
+Action 3: Finish[No]
+Observation 3: **David R. Ignatius** (born May 26, 1950) is an American journalist and novelist. He is an associate editor and columnist for *The Washington Post*. His twice-weekly column focuses on foreign affairs, international relations, and intelligence matters, drawing on a long career covering the Middle East and global politics. He is also known for his espionage thrillers, several of which have been adapted into films..
+
+
+
+INFO {'steps': 5, 'answer': 'No', 'gt_answer': 'no', 'question_idx': 4023, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 1 
+Number of steps: 4 
+Average reward: 0.25 
+Average time 197.05151146650314
+
+-------------------------------------------------------
+

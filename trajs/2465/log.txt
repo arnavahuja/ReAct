@@ -1,0 +1,67 @@
+INFO 2465 Question: The arena in which the Adelaide Adrenaline play is also home to the world's first what?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Adelaide Adrenaline]
+Action 1: Search[Adelaide Adrenaline]
+Observation 1: The Adelaide Adrenaline is a semi-professional ice hockey team based in Adelaide, South Australia. The team is a member of the Australian Ice Hockey League (AIHL). The team was founded in 2008 as the Adelaide A's to replace the defunct Adelaide Avalanche who folded mid-season. The team plays its home games at the IceArenA, located in the suburb of Thebarton. The Adrenaline are one time Goodall Cup champions from 2009..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Adelaide Adrenaline]
+Action 1: Search[Adelaide Adrenaline]
+Observation 1: **Adelaide Adrenaline** is an Australian ice hockey team based in Adelaide, South Australia. The team competes in the Australian Ice Hockey League (AIHL), the premier ice hockey competition in Australia.. **History**. The Adelaide Adrenaline was founded in 2008, emerging from the remnants of the former Adelaide Avalanche, a prominent AIHL team that had folded due to financial difficulties. The new franchise quickly established itself in the league, maintaining Adelaide's representation in national ice hockey.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[IceArenA]
+Action 2: Search[IceArenA]
+Observation 2: Could not find IceArenA. Similar: ['Ice Arena (Adelaide)', 'Adelaide Adrenaline (category Australian Ice Hockey League teams)', 'List of sports venues in Australia', 'National Hockey Super League (category Ice hockey leagues in Australia)', '2006 AIHL season (redirect from 2006 Australian Ice Hockey League season)'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Adelaide Adrenaline home arena]
+Action 2: Search[Adelaide Adrenaline home arena]
+Observation 2: The **IceArenA**, formerly known as the Tooheys Ice Arena, is an ice sports and public skating facility located in Thebarton, an inner-western suburb of Adelaide, South Australia. Opened in 1981, it is South Australia's premier ice sports venue, serving as a hub for various ice disciplines and recreational activities.. ### History. The facility first opened its doors in 1981, providing the first purpose-built, year-round ice rink in South Australia. For a significant period, it operated under the naming rights of Tooheys, becoming known as the Tooheys Ice Arena.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Ice Arena (Adelaide)]
+Action 3: Search[Ice Arena (Adelaide)]
+Observation 3: The Ice Arena (stylised as IceArenA), formerly Snowdome and Mt Thebarton Snow and Ice, is an ice sports and public skate centre,   located in Thebarton, Adelaide, South Australia. The centre is the home of the Ice Factor Foundation Inc and the ice sports associations (SAISA, IHSA, and BASA), and their respective clubs, including Adelaide Adrenaline (AIHL), Adelaide Rush (AWIHL), and Adelaide Generals (AJIHL).. The centre first opened in 1981 as the Ice Arena with a full size skating rink surrounded by a speed skating track.. In late 1987, the centre closed for the construction of the world's first indoor ski slope and reopened in 1988 as Mt Thebarton Snow and Ice, featuring what was reported to be the world's first indoor ski slope on artificial snow. To accommodate the new structure supporting the ski slope and to make room for the bottom of the slope, the concentric skating rink concept was abandoned and replaced by two ice skating rinks (one large 56×26m rink and one smaller 30×15m surface).[1] The centre underwent a further name change to Snowdome Adelaide..
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[world's first]
+Action 3: Lookup[world's first]
+Observation 3: The **Ice Arena (Adelaide)**, also known as the **Adelaide Ice Arena**, is an ice sports and public skating facility located in Thebarton, a western suburb of Adelaide, South Australia. Opened in 1981, it serves as the primary venue for ice hockey, figure skating, speed skating, and public ice skating sessions in South Australia.. ==History==. The Ice Arena (Adelaide) commenced operations in 1981, providing the first purpose-built ice sports facility of its kind in Adelaide following the closure of earlier, smaller rinks. Its establishment was crucial for the development of ice sports within the state..
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[indoor ski slope on artificial snow]
+Action 4: Finish[indoor ski slope on artificial snow]
+Observation 4: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[world's first]
+Action 4: Lookup[world's first]
+Observation 4: The **Ice Arena (Adelaide)**, also known as the **Adelaide Ice Arena**, is an ice sports and public skating facility located in Thebarton, a western suburb of Adelaide, South Australia. Opened in 1981, it serves as the primary venue for ice hockey, figure skating, speed skating, and public ice skating sessions in South Australia.. ==History==. The Ice Arena (Adelaide) commenced operations in 1981, providing the first purpose-built ice sports facility of its kind in Adelaide following the closure of earlier, smaller rinks. Its establishment was crucial for the development of ice sports within the state..
+
+
+
+INFO {'steps': 7, 'answer': 'indoor ski slope on artificial snow', 'gt_answer': 'indoor ski slope', 'question_idx': 2465, 'reward': False, 'em': False, 'f1': 0.6666666666666666}
+
+INFO Sum of rewards: 0 
+Number of steps: 3 
+Average reward: 0.0 
+Average time 215.62650259335837
+
+-------------------------------------------------------
+

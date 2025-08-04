@@ -1,0 +1,39 @@
+INFO 6950 Question: What German is Arthur Wesley Wheen best known for translating?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Arthur Wesley Wheen]
+Action 1: Search[Arthur Wesley Wheen]
+Observation 1: Arthur Wesley Wheen, MM & Two Bars (9 February 1897 – 15 March 1971) was an Australian soldier, translator and museum librarian. He is best known for translating the works of Erich Maria Remarque into English, beginning with the classic war novel All Quiet on the Western Front in 1929.. He was the son of Clara and Harold Wheen, who was a Wesleyan Minister. His father was transferred to Sydney in 1910, where young Arthur attended Gordon Public School and Sydney Boys High School. In 1915, he won admission to Sydney Teachers College and later attended the University of Sydney, where he studied the fine arts.[1].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Arthur Wesley Wheen]
+Action 1: Search[Arthur Wesley Wheen]
+Observation 1: **Arthur Wesley Wheen**. No widely documented public figure, historical individual, or subject with a prominent public profile named Arthur Wesley Wheen is extensively featured in historical records, biographical databases, or public archives that would typically warrant a dedicated Wikipedia entry. The name does not appear to be associated with any notable public achievements, works, or historical events that are broadly recognized or cataloged in common biographical sources..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[All Quiet on the Western Front]
+Action 2: Finish[All Quiet on the Western Front]
+Observation 2: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Finish[Information not found]
+Action 2: Finish[Information not found]
+Observation 2: **Arthur Wesley Wheen**. No widely documented public figure, historical individual, or subject with a prominent public profile named Arthur Wesley Wheen is extensively featured in historical records, biographical databases, or public archives that would typically warrant a dedicated Wikipedia entry. The name does not appear to be associated with any notable public achievements, works, or historical events that are broadly recognized or cataloged in common biographical sources..
+
+
+
+INFO {'steps': 3, 'answer': 'All Quiet on the Western Front', 'gt_answer': 'best known for translating the work of Erich Maria Remarque', 'question_idx': 6950, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 1 
+Number of steps: 4 
+Average reward: 0.25 
+Average time 79.61015039682388
+
+-------------------------------------------------------
+

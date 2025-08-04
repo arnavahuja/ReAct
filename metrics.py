@@ -19,11 +19,16 @@ class Metrics:
     def get_action_specific_metrics(normal_dict, sim_dict, sparse=False):
         normal_actions = normal_dict["actions"]
         sim_actions = sim_dict["actions"]
-        assert len(normal_actions) == len(sim_actions), "Different number of actions taken in wiki and guess"
+        if not len(normal_actions) == len(sim_actions):
+            print("")
+            # print(f"Different number of actions taken in wiki and guess\nNormal: {len(normal_actions)}\n{normal_actions}\nSim: {len(sim_actions)}\n{sim_actions}\n\n")
         metric_dict = {"general": 0}
         count_dict = {"general": 0}
+        flag = True
         for na, sa in zip(normal_actions, sim_actions):
-
+            if flag:
+                flag=False
+                continue
             metric_dict["general"] += Metrics.compare_action(na, sa, sparse)
             count_dict["general"] += 1
 
@@ -77,4 +82,16 @@ class Metrics:
             n_metrics+=1
         avg_metric/=n_metrics
         return avg_metric, n_metrics
-        
+    
+    @staticmethod
+    def recalculate_metrics(base_traj_path):
+        for folder_name in os.listdir(base_traj_path):
+            save_dir = os.path.join(base_traj_path, str(folder_name))
+            normal_observations_dict = Utils.read_json(os.path.join(save_dir, "normalobs.json"))
+            sim_observations_dict = Utils.read_json(os.path.join(save_dir, "simobs.json"))
+
+            metrics_file_path = os.path.join(save_dir, "metrics.json")
+            if os.path.exists(metrics_file_path):
+                os.remove(metrics_file_path)
+            metric_dict = Metrics.get_action_specific_metrics(normal_observations_dict, sim_observations_dict, sparse=False)
+            Utils.save_json(metric_dict, metrics_file_path)

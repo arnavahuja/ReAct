@@ -1,0 +1,67 @@
+INFO 3623 Question: Which rebellion did Sir John Wedderburn and Charles Edward Stuart fight for that ended with defeat at the Battle of Culloden?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Battle of Culloden]
+Action 1: Search[Battle of Culloden]
+Observation 1: The Battle of Culloden[a] took place on 16 April 1746, near Inverness in the Scottish Highlands. A Jacobite army under Charles Edward Stuart was decisively defeated by a British government force commanded by the Duke of Cumberland, thereby ending the Jacobite rising of 1745.. Charles landed in Scotland in July 1745, seeking to restore his father James Francis Edward Stuart to the British throne. He quickly won control of large parts of Scotland, and an invasion of England reached as far south as Derby before being forced to turn back. However, by April 1746, the Jacobites were short of supplies, facing a superior and better equipped opponent..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Charles Edward Stuart]
+Action 1: Search[Charles Edward Stuart]
+Observation 1: **Battle of Culloden**. The Battle of Culloden (Scottish Gaelic: *Blàr Chùil Lodair*) was the final confrontation of the Jacobite Rising of 1745. It took place on 16 April 1746 near Inverness in the Scottish Highlands.. **Date:** 16 April 1746. **Location:** Drummossie Moor, near Inverness, Scotland.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Sir John Wedderburn]
+Action 2: Search[Sir John Wedderburn]
+Observation 2: Could not find Sir John Wedderburn. Similar: ['William Wedderburn', 'John Wedderburn of Ballindean', 'Robert Wedderburn (radical)', 'John Wedderburn', 'Sir John Wedderburn, 5th Baronet of Blackness'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Charles Edward Stuart]
+Action 2: Search[Charles Edward Stuart]
+Observation 2: **Sir John Wedderburn of Blackness, 6th Baronet** (1704 – 28 November 1746) was a Scottish landowner who became a prominent Jacobite. He was executed for treason following the defeat of the Jacobite Rising of 1745.. ### Early Life and Family. Born in 1704, John Wedderburn was the son of Sir Alexander Wedderburn, 5th Baronet of Blackness, and his wife, Katherine Scott. The Wedderburns of Blackness were an ancient Scottish family with a baronetcy dating back to 1704 (though the first baronet, also John, died without issue, and the title passed to a cousin, Alexander).
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Sir John Wedderburn, 5th Baronet of Blackness]
+Action 3: Search[Sir John Wedderburn, 5th Baronet of Blackness]
+Observation 3: Sir John Wedderburn, 5th Baronet of Blackness, (1704–1746) was a Perthshire gentleman who joined the 1745 rebellion of Charles Edward Stuart. He was captured at the Battle of Culloden, taken to London, and convicted of treason. He was hanged, his estates were forfeit to the Crown, and his family was attainted. The Blackness in his title is Blackness House in Dundee[1] rather than Blackness in Lothian just west of Edinburgh. His son John Wedderburn of Ballindean fled after his father's death to Jamaica, where he re-established the family's fortunes via slave sugar, and eventually regained his father's title..
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Jacobite Rising of 1745]
+Action 3: Finish[Jacobite Rising of 1745]
+Observation 3: **Sir John Wedderburn, 5th Baronet of Blackness** (21 February 1729 – 13 July 1803) was a Scottish landowner and the claimant to the forfeited baronetcy of Blackness. He is primarily known for his successful efforts to have his family's title and estates restored after they were attainted due to his father's involvement in the Jacobite Rising of 1745.. **Early Life and Family**. John Wedderburn was born on 21 February 1729, the son of Sir John Wedderburn, 4th Baronet of Blackness, and his wife, Jean Fullerton. His father was a staunch Jacobite who had participated in the 1745 rising, serving as a receiver of excise and cess for Prince Charles Edward Stuart.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[Jacobite rising of 1745]
+Action 4: Finish[Jacobite rising of 1745]
+Observation 4: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[Jacobite rising of 1745]
+Action 4: Finish[Jacobite rising of 1745]
+Observation 4: **Sir John Wedderburn, 5th Baronet of Blackness** (21 February 1729 – 13 July 1803) was a Scottish landowner and the claimant to the forfeited baronetcy of Blackness. He is primarily known for his successful efforts to have his family's title and estates restored after they were attainted due to his father's involvement in the Jacobite Rising of 1745.. **Early Life and Family**. John Wedderburn was born on 21 February 1729, the son of Sir John Wedderburn, 4th Baronet of Blackness, and his wife, Jean Fullerton. His father was a staunch Jacobite who had participated in the 1745 rising, serving as a receiver of excise and cess for Prince Charles Edward Stuart.
+
+
+
+INFO {'steps': 7, 'answer': 'Jacobite rising of 1745', 'gt_answer': 'the unsuccessful Jacobite uprising of 1745', 'question_idx': 3623, 'reward': False, 'em': False, 'f1': 0.6666666666666665}
+
+INFO Sum of rewards: 0 
+Number of steps: 1 
+Average reward: 0.0 
+Average time 159.95159721374512
+
+-------------------------------------------------------
+

@@ -1,0 +1,39 @@
+INFO 4164 Question: Broadbent Arena and Freedom Hall are landmarks of which U.S. city?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Broadbent Arena]
+Action 1: Search[Broadbent Arena]
+Observation 1: Broadbent Arena is a 6,600 seat multi-purpose arena[1] in Louisville, Kentucky. It was home to the Louisville Icehawks and Louisville RiverFrogs ECHL teams. The arena, along with Cardinal Stadium and Freedom Hall, is located on the grounds of the Kentucky Exposition Center in Louisville. The arena is used for equestrian events, and other fairground type activities. In January 2021, the arena was used as a major distribution site for COVID-19 vaccines..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Broadbent Arena]
+Action 1: Search[Broadbent Arena]
+Observation 1: **Broadbent Arena** is an indoor arena located in Louisville, Kentucky, United States. It is an integral part of the Kentucky Exposition Center complex, which also includes the larger Freedom Hall.. The arena is primarily used for a wide variety of events, including equestrian shows, rodeos, concerts, monster truck rallies, circuses, trade shows, and other entertainment events. It is particularly known for its versatility and its ability to accommodate events requiring a dirt floor, which makes it suitable for livestock and equestrian competitions.. **History**.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[Louisville]
+Action 2: Finish[Louisville]
+Observation 2: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Finish[Louisville, Kentucky]
+Action 2: Finish[Louisville, Kentucky]
+Observation 2: **Broadbent Arena** is an indoor arena located in Louisville, Kentucky, United States. It is an integral part of the Kentucky Exposition Center complex, which also includes the larger Freedom Hall.. The arena is primarily used for a wide variety of events, including equestrian shows, rodeos, concerts, monster truck rallies, circuses, trade shows, and other entertainment events. It is particularly known for its versatility and its ability to accommodate events requiring a dirt floor, which makes it suitable for livestock and equestrian competitions.. **History**.
+
+
+
+INFO {'steps': 3, 'answer': 'Louisville', 'gt_answer': 'Louisville', 'question_idx': 4164, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 4 
+Number of steps: 9 
+Average reward: 0.4444444444444444 
+Average time 187.20179594887628
+
+-------------------------------------------------------
+

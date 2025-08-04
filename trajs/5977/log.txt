@@ -1,0 +1,53 @@
+INFO 5977 Question: Who was the great grandfather of Franklin Seaver Pratt's wife?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Franklin Seaver Pratt]
+Action 1: Search[Franklin Seaver Pratt]
+Observation 1: Franklin Seaver Pratt (November 1, 1829 – January 11, 1894), also known as Franklyn or Frank S. Pratt, was an American businessman, public servant and diplomat of the Kingdom of Hawaii. He served as the Hawaiian consul for the Pacific States of California, Nevada, Oregon, and Washington around the time of the overthrow of the Kingdom of Hawaii in 1893. Pratt married Elizabeth Kekaʻaniau Laʻanui, a member of Hawaiian nobility, and he defended her claims to the Hawaiian crown lands during the overthrow. He died shortly after his return to Hawaii..
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to find out who Franklin Seaver Pratt's wife was, and then find her great grandfather.
+Action 1: Search[Franklin Seaver Pratt]
+Observation 1: **Franklin Seaver Pratt** is not a widely documented historical or public figure. No significant biographical information, such as birth and death dates, nationality, profession, or notable achievements, is readily available in general reference works, academic databases, or widely accessible public archives that typically serve as sources for encyclopedic entries. Consequently, there is no established Wikipedia article or public profile detailing an individual by this name..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Elizabeth Kekaʻaniau Laʻanui]
+Action 2: Search[Elizabeth Kekaʻaniau Laʻanui]
+Observation 2: Elizabeth Kekaʻaniau Laʻanui Pratt, full name Elizabeth Kekaʻaniauokalani Kalaninuiohilaukapu Kekaikuihala Laʻanui Pratt[1] (September 11, 1834 – December 20, 1928), was a Hawaiian high chiefess (aliʻi) and great-grandniece of Kamehameha I, being a great-granddaughter of Kalokuokamaile, the older brother of Kamehameha I, founder of the Kingdom of Hawaii. She was the daughter of Gideon Peleʻioholani Laʻanui and Theresa Owana Kaheiheimalie Rives.. At a young age, Kekaʻaniau was chosen to attend the Chiefs' Children's School (later renamed the Royal School) taught by American missionaries and declared eligible to succeed to the Hawaiian throne by King Kamehameha III. She married American businessman Franklin Seaver Pratt and became known as Mrs. Pratt.
+
+SIMULATION TRAJECTORY:
+ Thought 2: The search for "Franklin Seaver Pratt" yielded no results, indicating that this individual is not a widely documented figure on Wikipedia. Without information on Franklin Seaver Pratt, I cannot identify his wife, and therefore cannot find her great-grandfather. This question cannot be answered with the available resources.
+Action 2: Finish[The information about Franklin Seaver Pratt is not available on Wikipedia, so I cannot find his wife or her great-grandfather.]
+Observation 2: **Elizabeth Kekaʻaniau Laʻanui Pratt** (September 11, 1834 – December 29, 1918) was a Hawaiian high chiefess, scholar, and philanthropist. She was the last surviving member of the royal family of the Kamehameha Dynasty by birth and a cousin of King Kalākaua and Queen Liliʻuokalani. She is best known for her genealogical work, published posthumously as *Royal Family of Hawaii*, and for her significant contributions to education and the preservation of Hawaiian culture during a period of great change for the Hawaiian Kingdom and later the Territory of Hawaii.. ### Early Life and Education. Elizabeth Kekaʻaniau Laʻanui was born on September 11, 1834, in Honolulu, then part of the Kingdom of Hawaii.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Kalokuokamaile]
+Action 3: Finish[Kalokuokamaile]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[genealogical]
+Action 3: Lookup[genealogical]
+Observation 3: **Elizabeth Kekaʻaniau Laʻanui Pratt** (September 11, 1834 – December 29, 1918) was a Hawaiian high chiefess, scholar, and philanthropist. She was the last surviving member of the royal family of the Kamehameha Dynasty by birth and a cousin of King Kalākaua and Queen Liliʻuokalani. She is best known for her genealogical work, published posthumously as *Royal Family of Hawaii*, and for her significant contributions to education and the preservation of Hawaiian culture during a period of great change for the Hawaiian Kingdom and later the Territory of Hawaii.. ### Early Life and Education. Elizabeth Kekaʻaniau Laʻanui was born on September 11, 1834, in Honolulu, then part of the Kingdom of Hawaii.
+
+
+
+INFO {'steps': 5, 'answer': 'Kalokuokamaile', 'gt_answer': 'Kalokuokamaile', 'question_idx': 5977, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 1 
+Number of steps: 2 
+Average reward: 0.5 
+Average time 119.09756851196289
+
+-------------------------------------------------------
+

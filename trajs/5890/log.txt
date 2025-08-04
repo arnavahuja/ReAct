@@ -1,0 +1,67 @@
+INFO 5890 Question: What star of Two and a Half Men won two young artist and TV-land awards for his character?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Two and a Half Men cast]
+Action 1: Search[Two and a Half Men cast]
+Observation 1: Could not find Two and a Half Men cast. Similar: ['Two and a Half Men', 'List of Two and a Half Men characters', 'List of Two and a Half Men episodes', 'Two and a Half Men season 10', 'Two and a Half Men season 4'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Two and a Half Men]
+Action 1: Search[Two and a Half Men]
+Observation 1: Here is information about the cast of *Two and a Half Men* in a Wikipedia-style format:. ***. The following is a list of the main and significant recurring cast members who appeared in the American television sitcom *Two and a Half Men*, which aired from 2003 to 2015.. ### Main Cast. *   **Charlie Harper** (played by Charlie Sheen).
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Two and a Half Men]
+Action 2: Search[Two and a Half Men]
+Observation 2: Two and a Half Men is an American television sitcom, created by Chuck Lorre and Lee Aronsohn, that aired on CBS for 12 seasons from September 22, 2003 to February 19, 2015. The series originally starred Charlie Sheen as Charlie Harper, a hedonistic jingle writer, alongside Jon Cryer as his uptight brother Alan and Angus T. Jones as Alan's son Jake. Supporting roles were played by Holland Taylor, Marin Hinkle, Conchata Ferrell, and Melanie Lynskey.. In February 2011, CBS halted production for the rest of the eighth season after Sheen entered drug rehabilitation and made disparaging comments about Lorre.[1] Sheen's contract was terminated the following month.[2] Ashton Kutcher was then hired for the ninth season onward to star as Walden Schmidt, a billionaire who buys Charlie's house after Charlie’s death.[3].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Two and a Half Men]
+Action 2: Search[Two and a Half Men]
+Observation 2: **Two and a Half Men** is an American television sitcom that originally aired on CBS for twelve seasons from September 22, 2003, to February 19, 2015. Created by Chuck Lorre and Lee Aronsohn, the series initially starred Charlie Sheen, Jon Cryer, and Angus T. Jones, and centered on the lives of a hedonistic jingle writer, his uptight chiropractor brother, and his brother's slacker son. Following Sheen's departure in 2011, Ashton Kutcher joined the cast as a new character, introducing a new dynamic to the show.. **Premise**.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Angus T. Jones]
+Action 3: Search[Angus T. Jones]
+Observation 3: Angus Turner Jones[2] (born October 8, 1993) is an American actor. After making his film debut in Simpatico (1999), he followed with a starring role in See Spot Run (2001) and supporting roles in The Rookie (2002) and Bringing Down the House (2003).. Jones gained mainstream recognition with his lead role as Jake Harper on the CBS sitcom Two and a Half Men (2003–2013), for which he won two Young Artist Awards and a TV Land Award.. In November 2012, Jones openly criticized Two and a Half Men, which led to his character being downgraded to a recurring status for the show's eleventh season. He officially left the show in March 2014, although he returned for its finale in February 2015..
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Angus T. Jones]
+Action 3: Search[Angus T. Jones]
+Observation 3: **Angus T. Jones** (born October 8, 1993) is an American former actor. He is best known for his role as Jake Harper in the CBS sitcom *Two and a Half Men*, for which he was once the highest-paid child actor in television.. **Early Life and Career**. Angus Turner Jones was born in Austin, Texas.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[Angus T. Jones]
+Action 4: Finish[Angus T. Jones]
+Observation 4: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[awards]
+Action 4: Lookup[awards]
+Observation 4: **Angus T. Jones** (born October 8, 1993) is an American former actor. He is best known for his role as Jake Harper in the CBS sitcom *Two and a Half Men*, for which he was once the highest-paid child actor in television.. **Early Life and Career**. Angus Turner Jones was born in Austin, Texas.
+
+
+
+INFO {'steps': 7, 'answer': 'Angus T. Jones', 'gt_answer': 'Angus Turner Jones', 'question_idx': 5890, 'reward': False, 'em': False, 'f1': 0.6666666666666666}
+
+INFO Sum of rewards: 6 
+Number of steps: 10 
+Average reward: 0.6 
+Average time 95.42376482486725
+
+-------------------------------------------------------
+

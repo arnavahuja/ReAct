@@ -1,7 +1,7 @@
 import os
 import json
 import shutil
-
+import constants as Constants
 
 class Utils:
 
@@ -63,3 +63,15 @@ class Utils:
                     shutil.rmtree(path)
                 else:
                     raise e
+    
+    @staticmethod
+    def check_dir(dir_path):
+        for file_name in Constants.trajectory_filenames:
+            path = os.path.join(dir_path, file_name)
+            if not os.path.exists(path):
+                print(f"{dir_path} does not have {file_name} file")
+    
+    @staticmethod
+    def check_all_dirs(base_path):
+        for direc in os.listdir(base_path):
+            Utils.check_dir(os.path.join(base_path, direc))

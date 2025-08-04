@@ -1,0 +1,81 @@
+INFO 4302 Question: St Anne's Academy is an 11–18 mixed comprehensive academy is located in a town that had how many inhabitants in 2011 ?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[St Anne's Academy]
+Action 1: Search[St Anne's Academy]
+Observation 1: St Anne's Academy is an 11–16 mixed comprehensive academy in Middleton area of the Metropolitan Borough of Rochdale in Greater Manchester, United Kingdom.[1]  The school has specialist status in Teaching and Learning.[2] The school has 800 students on roll,[3]. St Anne's Academy opened in September 2007 replacing The Queen Elizabeth School that in turn was previously Hollin High School. The school  has a capacity of up to 900 places.[1][4] The academy is jointly supported by the Church of England Diocese of Manchester, and David and Anne Crossland.[3][5] In 2007 the Academy received £17.6 million to build additional and refurbish existing buildings. The project was funded by the Church of England, private backers David and Anne Crossland, founders of Airtours Travel and the Government's Building Schools for the future programme. The work was completed summer 2012.[5].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[St Anne's Academy]
+Action 1: Search[St Anne's Academy]
+Observation 1: **St. Anne's Academy** is a name shared by several educational institutions, primarily historical and often Catholic, around the world. The most notable and well-documented institution under this exact name, with a dedicated Wikipedia entry, is **St. Anne's Academy (Victoria, British Columbia)**.. ---.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Middleton]
+Action 2: Search[Middleton]
+Observation 2: Could not find [Middleton]. Similar: ['Middleton', 'Catherine, Princess of Wales (redirect from Catherine Elizabeth Middleton)', 'South Middleton', 'Ant Middleton', 'Khris Middleton'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[St Anne's Academy (United Kingdom)]
+Action 2: Search[St Anne's Academy (United Kingdom)]
+Observation 2: **Middleton** is a common place name found in various countries, deriving from the Old English *middel-tun*, meaning "middle farm" or "middle settlement," typically indicating its central location between other communities.. One of the most prominent towns named Middleton is located in **Greater Manchester, England**. This entry primarily focuses on that town, with a brief note on other notable locations sharing the name.. ---. **Middleton, Greater Manchester**.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Middleton]
+Action 3: Search[Middleton]
+Observation 3: Could not find [Middleton]. Similar: ['Middleton', 'Catherine, Princess of Wales (redirect from Catherine Elizabeth Middleton)', 'South Middleton', 'Middleton, Ohio', 'Ant Middleton'].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Middleton, Greater Manchester population 2011]
+Action 3: Search[Middleton, Greater Manchester population 2011]
+Observation 3: **Middleton** is a market town in the Metropolitan Borough of Rochdale, Greater Manchester, England, situated on the River Irk, 4.4 miles (7.1 km) south-west of Rochdale and 4.7 miles (7.5 km) north-east of Manchester city centre. Historically part of Lancashire, Middleton's location on the southern edge of the South Pennines and its proximity to major urban centres have shaped its development.. ## History. The name "Middleton" is derived from the Old English *middel* "middle" and *tūn* "farm, settlement," suggesting its central position between other settlements. Evidence of Roman occupation has been found in the area, particularly at a site known as "Rye Field.".
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Middleton, Greater Manchester]
+Action 4: Search[Middleton, Greater Manchester]
+Observation 4: Middleton is a town in the Metropolitan Borough of Rochdale, Greater Manchester, England,[1] on the River Irk. It is 5 miles (8.0 km) southwest of Rochdale and 5 miles (8.0 km) northeast of Manchester. Middleton had a population of 42,972 at the 2011 Census.[2] It lies on the northern edge of Manchester, with Blackley to the south and Moston to the south east.. Historically part of Lancashire, Middleton's name comes from it being the centre of several circumjacent settlements. It was an ecclesiastical parish of the hundred of Salford, ruled by aristocratic families.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[inhabitants]
+Action 4: Lookup[inhabitants]
+Observation 4: ## Middleton, Greater Manchester. **Middleton** is a town in the Metropolitan Borough of Rochdale, Greater Manchester, England, located on the River Irk, 4.4 miles (7.1 km) southwest of Rochdale and 6.5 miles (10.5 km) northeast of Manchester city centre.. ### History. Middleton's origins date back to the Anglo-Saxon period, with its name deriving from "Middel-tun," meaning "middle farm or settlement." It was first recorded in the Domesday Book of 1086 as *"Mideltone."* For centuries, Middleton remained a small market town and agricultural community. Its historical development was influenced by its proximity to the ancient main road between Manchester and Yorkshire..
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Finish[42,972]
+Action 5: Finish[42,972]
+Observation 5: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Lookup[population]
+Action 5: Lookup[population]
+Observation 5: ## Middleton, Greater Manchester. **Middleton** is a town in the Metropolitan Borough of Rochdale, Greater Manchester, England, located on the River Irk, 4.4 miles (7.1 km) southwest of Rochdale and 6.5 miles (10.5 km) northeast of Manchester city centre.. ### History. Middleton's origins date back to the Anglo-Saxon period, with its name deriving from "Middel-tun," meaning "middle farm or settlement." It was first recorded in the Domesday Book of 1086 as *"Mideltone."* For centuries, Middleton remained a small market town and agricultural community. Its historical development was influenced by its proximity to the ancient main road between Manchester and Yorkshire..
+
+
+
+INFO {'steps': 9, 'answer': '42,972', 'gt_answer': '42,972', 'question_idx': 4302, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 2 
+Number of steps: 6 
+Average reward: 0.3333333333333333 
+Average time 150.53992354869843
+
+-------------------------------------------------------
+

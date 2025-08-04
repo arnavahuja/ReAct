@@ -1,0 +1,67 @@
+INFO 5252 Question: What was the breakthrough role for the English Actor starring in Feed the Beast
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Feed the Beast]
+Action 1: Search[Feed the Beast]
+Observation 1: Could not find [Feed the Beast]. Similar: ['Feed the Beast', 'Feed the Beast (Kim Petras album)', 'Feed the Beast World Tour', 'Kim Petras (category German expatriates in the United States)', 'Feed the Beast (TV series)'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Feed the Beast]
+Action 1: Search[Feed the Beast]
+Observation 1: **Feed the Beast** (often abbreviated as **FTB**) is a prominent brand and community primarily associated with highly curated and complex *modpacks* for the video game **Minecraft**. It originated as a specific *adventure map* for the game and later evolved into a comprehensive collection of *Minecraft mods* bundled together, designed to provide enhanced, thematic, and often more challenging gameplay experiences.. ### History. *   **Origins:** The name "Feed the Beast" first emerged in late 2011/early 2012 as an *adventure map* created by a team of *Minecraft* developers. This map featured custom challenges and puzzles, requiring players to use specific *Minecraft mods* for an optimal experience..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Feed the Beast (TV series)]
+Action 2: Search[Feed the Beast (TV series)]
+Observation 2: Feed the Beast is an American crime drama television series based on the Danish series Bankerot by Kim Fupz Aakeson and adapted by Clyde Phillips for AMC, starring David Schwimmer and Jim Sturgess. The series premiered on June 5, 2016, on AMC.[1] On September 2, 2016, AMC canceled the show after one season.[2]. Tommy Moran and Dion Patras are like brothers. Dion is unable to stay out of trouble and Tommy is unable to move past it. For two friends on the brink of losing everything, a dusty pipe dream of opening an upscale Greek restaurant in their hometown of the Bronx is all they have left to turn their lives around.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Feed the Beast TV series]
+Action 2: Search[Feed the Beast TV series]
+Observation 2: **Feed the Beast** is an American drama television series based on the Danish series *Klovn*. The series premiered on May 31, 2016, on AMC. It was developed by Clyde Phillips and stars David Schwimmer and Jim Sturgess as two friends who attempt to open a high-end restaurant in the Bronx. The series was canceled after one season.. | Category             | Information                                                                 |.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Jim Sturgess]
+Action 3: Search[Jim Sturgess]
+Observation 3: James Anthony Sturgess[2] (born 16 May 1978)[3][4][5] is an English actor and singer-songwriter. His first major role was as Jude in the musical romance drama film Across the Universe (2007). He played the male lead role of Ben Campbell in 21 (2008), Gavin Kossef in Crossing Over (2009), The Way Back (2010), and co-starred in the epic science fiction film Cloud Atlas (2012).. Other credits include Stonehearst Asylum (2013), London Fields (2014), Close to the Enemy (2016), Feed the Beast (2016), Geostorm (2017), Kidnapping Freddy Heineken (2018), and JT LeRoy (2018), Berlin, I Love You (2019), The Other Me (2022), and Alone Together (2022).. Sturgess was born in Wandsworth, London, but grew up in Farnham, Surrey,[6] where he attended Frensham Heights School.[6] He spent most of his youth skateboarding, and listening to hip-hop.[6] He started his first band when he was about 15 years old, playing gigs in and around his local area.[4] His first acting experience came in a local theatre group, after a successful audition for a part in a play.[6].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Jim Sturgess]
+Action 3: Search[Jim Sturgess]
+Observation 3: **Jim Sturgess** (born 16 May 1978) is an English actor and musician. He rose to prominence with his roles in the musical romance film *Across the Universe* (2007) and the blackjack drama *21* (2008).. **Early Life and Education**. James Anthony Sturgess was born in London, England, and grew up in Farnham, Surrey. His father was a property developer and his mother was a teacher.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[Across the Universe]
+Action 4: Finish[Across the Universe]
+Observation 4: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[Across the Universe (2007) and 21 (2008)]
+Action 4: Finish[Across the Universe (2007) and 21 (2008)]
+Observation 4: **Jim Sturgess** (born 16 May 1978) is an English actor and musician. He rose to prominence with his roles in the musical romance film *Across the Universe* (2007) and the blackjack drama *21* (2008).. **Early Life and Education**. James Anthony Sturgess was born in London, England, and grew up in Farnham, Surrey. His father was a property developer and his mother was a teacher.
+
+
+
+INFO {'steps': 7, 'answer': 'Across the Universe', 'gt_answer': 'Jude', 'question_idx': 5252, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 0 
+Number of steps: 1 
+Average reward: 0.0 
+Average time 154.71430897712708
+
+-------------------------------------------------------
+
