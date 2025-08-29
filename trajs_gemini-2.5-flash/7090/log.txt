@@ -1,0 +1,67 @@
+INFO 7090 Question: Which minor role did this New Zealand storyboard artist play in the film "King Kong" who will direct the film based on the novel by Philip Reeve?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Mortal Engines film director]
+Action 1: Search[Mortal Engines film director]
+Observation 1: Could not find Mortal Engines film director. Similar: ['Mortal Engines (film)', 'Mortal Kombat', 'Hester Shaw (category Mortal Engines)', 'Mortal Engines Quartet', 'Mortal Engines (soundtrack)'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[film based on novel by Philip Reeve]
+Action 1: Search[film based on novel by Philip Reeve]
+Observation 1: **Christian Rivers** (born c. 1974) is a New Zealand film director, visual effects artist, storyboard artist, and animator. He is best known for his long-standing collaboration with filmmaker Peter Jackson, having worked on numerous projects with him.. **Career:**. Rivers began his career in the film industry working with Peter Jackson on his early films, starting with *Braindead* (also known as *Dead Alive*) in 1992.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Mortal Engines (film)]
+Action 2: Search[Mortal Engines (film)]
+Observation 2: Mortal Engines is a 2018 post-apocalyptic steampunk film, based on the 2001 novel. Directed by Christian Rivers and written by Fran Walsh, Philippa Boyens, and Peter Jackson, it stars Hera Hilmar, Robert Sheehan, Hugo Weaving, Jihae, Ronan Raftery, Leila George, Patrick Malahide, and Stephen Lang. An American–New Zealand co-production, the film is set in a post-apocalyptic world where entire cities have been mounted on wheels and motorised, and practice municipal Darwinism.. Jackson purchased the rights to the book in 2009, but the film languished for several years before being officially announced in 2016. Jackson picked Rivers, who won an Academy Award for Best Visual Effects for his work on Jackson's King Kong, to make his feature-length directorial debut with the project, and also brought on several members of his production teams from The Lord of the Rings and The Hobbit film trilogies.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[King Kong]
+Action 2: Lookup[King Kong]
+Observation 2: # Mortal Engines (film). ***. **Mortal Engines** is a 2018 post-apocalyptic adventure film directed by Christian Rivers and written by Fran Walsh, Philippa Boyens, and Peter Jackson. It is based on the 2001 novel of the same name by Philip Reeve, the first book in the *Mortal Engines Quartet* series. The film was produced by Jackson, Walsh, and Boyens, alongside Zane Weiner, Amanda Walker, and Deborah Forte..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Christian Rivers]
+Action 3: Search[Christian Rivers]
+Observation 3: Christian Rivers is a New Zealand storyboard artist, visual effects supervisor, special effects technician, and director. He first met Peter Jackson as a 17-year-old,[1] and storyboarded all of Jackson's films since Braindead. He made his directing debut in the film adaptation of Mortal Engines,[2] and planning a remake of The Dam Busters,[3] both produced by Peter Jackson.. Rivers started his career by storyboarding Peter Jackson's Braindead right after finishing high school. He has since then continued to work for Jackson on storyboards, special effects, visual effects and splinter unit directing on The Hobbit trilogy.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Christian Rivers]
+Action 3: Search[Christian Rivers]
+Observation 3: **Christian Rivers** is a New Zealand visual effects supervisor, animator, concept artist, and film director. He is best known for his long-standing collaboration with filmmaker Peter Jackson, particularly through his work at Weta Digital.. Rivers played a pivotal role in the visual effects for *The Lord of the Rings* film trilogy, serving as a senior animation supervisor. He won an Academy Award for Best Visual Effects for his work on Jackson's 2005 film *King Kong*. His contributions also extended to *The Hobbit* trilogy and *Avatar*..
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[visual effects]
+Action 4: Finish[visual effects]
+Observation 4: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[Christian Rivers cameo King Kong]
+Action 4: Search[Christian Rivers cameo King Kong]
+Observation 4: **Christian Rivers** is a New Zealand visual effects supervisor, animator, concept artist, and film director. He is best known for his long-standing collaboration with filmmaker Peter Jackson, particularly through his work at Weta Digital.. Rivers played a pivotal role in the visual effects for *The Lord of the Rings* film trilogy, serving as a senior animation supervisor. He won an Academy Award for Best Visual Effects for his work on Jackson's 2005 film *King Kong*. His contributions also extended to *The Hobbit* trilogy and *Avatar*..
+
+
+
+INFO {'steps': 7, 'answer': 'visual effects', 'gt_answer': 'Gondorian soldier', 'question_idx': 1654, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 0 
+Number of steps: 1 
+Average reward: 0.0 
+Average time 51.058990240097046
+
+-------------------------------------------------------
+

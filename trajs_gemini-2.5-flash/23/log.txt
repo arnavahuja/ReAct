@@ -1,0 +1,53 @@
+INFO 23 Question: Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Badly Drawn Boy]
+Action 1: Search[Badly Drawn Boy]
+Observation 1: Damon Michael Gough (born 2 October 1969), known by the stage name Badly Drawn Boy, is an English indie singer-songwriter and multi-instrumentalist.. Gough chose his stage name from a character in the show The Magic Ball,[1] which he saw on TV at a party in Trafford, Greater Manchester, in 1995. Before he thought of using this name he made some business cards, each one unique, with a printed picture of a drawing by his nephew and a small collage by Gough.. At the Generation X bar in Manchester, Gough met Andy Votel, who was DJing that night. Gough was there to attend friends Scott Abraham and Damon Hayhurst's contributions to an exhibition by the Space Monkey Clothing Company.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Badly Drawn Boy]
+Action 1: Search[Badly Drawn Boy]
+Observation 1: **Badly Drawn Boy** is the stage name of English indie singer-songwriter **Damon Gough** (born 2 October 1969). Hailing from Bolton, Greater Manchester, he is known for his unique blend of lo-fi indie pop, folk, and alternative rock, often characterized by introspective lyrics, diverse instrumentation, and his distinctive vocal style. He is also easily recognizable by the woolly hat he frequently wears.. **Early Life and Career:**. Gough began his musical journey in the mid-1990s, initially performing in local clubs and releasing limited-edition singles.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Wolf Alice]
+Action 2: Search[Wolf Alice]
+Observation 2: Wolf Alice are an English rock band from London. Formed in 2010 as an acoustic duo made up of singer Ellie Rowsell and guitarist Joff Oddie, Wolf Alice have also featured bassist Theo Ellis and drummer Joel Amey since 2012.. Wolf Alice played their first gig at Highbury Garage in December 2010 supporting April in the Shade, after Rowsell and Oddie met the band at an open mic at the Hope and Anchor in Islington. They released their debut single "Fluffy" in February 2013 and followed it with "Bros" in May. They released their debut EP Blush in October, and its follow-up Creature Songs in May 2014.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Wolf Alice]
+Action 2: Search[Wolf Alice]
+Observation 2: **Wolf Alice** is an English alternative rock band from London, formed in 2010. The band consists of Ellie Rowsell (vocals, guitar), Joff Oddie (guitars, vocals), Theo Ellis (bass), and Joel Amey (drums, vocals).. ### History. Wolf Alice was formed in 2010 by Ellie Rowsell and Joff Oddie. Initially, the band was more folk-oriented, but their sound evolved with the addition of Joel Amey and Theo Ellis, incorporating elements of grunge and alternative rock.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Badly Drawn Boy]
+Action 3: Finish[Badly Drawn Boy]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Badly Drawn Boy]
+Action 3: Finish[Badly Drawn Boy]
+Observation 3: **Wolf Alice** is an English alternative rock band from London, formed in 2010. The band consists of Ellie Rowsell (vocals, guitar), Joff Oddie (guitars, vocals), Theo Ellis (bass), and Joel Amey (drums, vocals).. ### History. Wolf Alice was formed in 2010 by Ellie Rowsell and Joff Oddie. Initially, the band was more folk-oriented, but their sound evolved with the addition of Joel Amey and Theo Ellis, incorporating elements of grunge and alternative rock.
+
+
+
+INFO {'steps': 5, 'answer': 'Badly Drawn Boy', 'gt_answer': 'Badly Drawn Boy', 'question_idx': 23, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 1 
+Number of steps: 3 
+Average reward: 0.3333333333333333 
+Average time 111.89591805140178
+
+-------------------------------------------------------
+

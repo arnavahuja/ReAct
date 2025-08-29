@@ -1,0 +1,56 @@
+INFO 2038 Question: Which Avalanche happened first, Rigopiano avalanche or 1999 Galtür avalanche ?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Rigopiano avalanche]
+Action 1: Search[Rigopiano avalanche]
+Observation 1: On the afternoon of 18 January 2017, a major avalanche occurred on Gran Sasso d'Italia massif, one of the mountains above Rigopiano, impacting and destroying the four-star Hotel Rigopiano in Farindola, Abruzzo.[2] The impact killed twenty-nine people and injured eleven others, making the avalanche the deadliest in Italy since the White Friday avalanches in 1916, and the deadliest avalanche in Europe since the Galtür avalanche in 1999.[3]. Two causal factors for the avalanche of 2017 include a series of earthquakes that struck the region earlier in the day and the record snowfall which occurred in the region for days prior to the avalanche.[4]. It was reported that shortly after a series of earthquakes hit the region, many guests of the four-star Hotel Rigopiano were gathered on the ground floor awaiting evacuation when the avalanche struck at 16:48 local time on 18 January.[1][5] At the time, there were forty people in the hotel including twenty-eight guests and twelve employees.[citation needed] Upon impact, the avalanche caused part of the roof of the hotel to collapse, and moved it 10 metres (33 ft) down the mountain.[6] Italian authorities estimated that the avalanche weighed between 40,000 and 60,000 tonnes when it hit the hotel and that the weight of the snow increased to 120,000 tonnes as the snow and ice pressing down on the building became heavier.[7] Upon impact to the hotel the speed was around 100 km/h (62 mph).[8]. The avalanche largely destroyed the hotel,[9] killing twenty-nine people.[10] A total of eleven people were rescued following the avalanche, including two who survived the avalanche because they were standing outside when the avalanche hit.[11][12] The survivors trapped inside the hotel, sheltered by lofts that had not collapsed, were located around 12:00 on 20 January, over 30 hours after the avalanche.[13]. Overall, five adults and four children trapped below the ruins and the snow were rescued, the last ones after 58 hours, having survived on frozen snow.[14] Ten out of the eleven people rescued received minor injuries related to hypothermia.[15][16] The eleventh person also received a compression injury to his upper arm, which he underwent surgery for.[17] On 23 January, rescuers recovered a twelfth body, but also located three puppies alive under the snow, indicating that the twenty-two people missing may have still been alive.[18] However, it was later revealed that no one else had survived the avalanche.[10] One of the victims, as reported from a text message in her smartphone, survived for more than 40 hours.[citation needed].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Rigopiano avalanche]
+Action 1: Search[Rigopiano avalanche]
+Observation 1: The **Rigopiano avalanche** was a major natural disaster that occurred on January 18, 2017, when an avalanche struck and largely destroyed the Hotel Rigopiano, a four-star spa resort located in Farindola, Abruzzo, Italy, within the Gran Sasso e Monti della Laga National Park. The event, precipitated by exceptionally heavy snowfall and a series of powerful earthquakes, resulted in the deaths of 29 people and the rescue of 11 survivors, marking one of Italy's deadliest avalanche incidents.. ### Background and Precursors. **Hotel Rigopiano:** The hotel was situated at approximately 1,200 meters (3,900 ft) above sea level on the eastern slopes of Gran Sasso. It was a popular destination, particularly for winter tourism..
+
+
+
+STEP: 2
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[1999 Galtür avalanche]
+Action 2: Search[1999 Galtür avalanche]
+Observation 2: The Galtür avalanche occurred on 23 February 1999 in the Alpine village of Galtür, Austria. At 50 m (160 ft) high and traveling at 290 km/h (180 mph), the powder avalanche overturned cars, destroyed buildings and buried 57 people. By the time rescue crews managed to arrive, 31 people had died. It was considered the worst Alpine avalanche in 40 years.[1] Three major weather systems originating from the Atlantic accounted for large snowfalls totaling around four meters in the area. Freeze-thaw conditions created a weak layer on top of an existing snow pack; further snow was then deposited on top.
+
+SIMULATION TRAJECTORY:
+ Thought 2: None
+Action 2: Lookup[Galtür avalanche]
+Observation 2: The Galtür avalanche was a catastrophic snow slide that struck the village of Galtür in the Paznaun Valley of Tyrol, Austria, on February 23, 1999. It was one of the deadliest avalanches in Austrian history and part of a series of avalanches that affected the Alps during the winter of 1999.. **Date:** February 23, 1999. **Location:** Galtür, Tyrol, Austria (Austrian Alps). **Type:** Dry slab avalanche, specifically a large, fast-moving powder avalanche..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: The Rigopiano avalanche happened on 18 January 2017, while the 1999 Galtür avalanche occurred on 23 February 1999. The Rigopiano avalanche happened first.
+Action 3: Finish[Rigopiano avalanche]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Rigopiano avalanche]
+Action 3: Finish[Rigopiano avalanche]
+Observation 3: The Galtür avalanche was a catastrophic snow slide that struck the village of Galtür in the Paznaun Valley of Tyrol, Austria, on February 23, 1999. It was one of the deadliest avalanches in Austrian history and part of a series of avalanches that affected the Alps during the winter of 1999.. **Date:** February 23, 1999. **Location:** Galtür, Tyrol, Austria (Austrian Alps). **Type:** Dry slab avalanche, specifically a large, fast-moving powder avalanche..
+
+
+
+INFO {'steps': 5, 'answer': 'Rigopiano avalanche', 'gt_answer': 'The Galtür avalanche', 'question_idx': 5856, 'reward': False, 'em': False, 'f1': 0.5}
+
+INFO Sum of rewards: 1 
+Number of steps: 9 
+Average reward: 0.1111111111111111 
+Average time 52.323811795976425
+
+-------------------------------------------------------
+

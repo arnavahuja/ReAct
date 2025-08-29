@@ -1,0 +1,67 @@
+INFO 1477 Question: The organization that Nicolae Titulescu served two terms as president was founded on what date?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Nicolae Titulescu]
+Action 1: Search[Nicolae Titulescu]
+Observation 1: Nicolae Titulescu (Romanian pronunciation: [nikoˈla.e tituˈlesku]; 4 March 1882 – 17 March 1941) was a Romanian politician and diplomat, at various times ambassador, finance minister, and foreign minister, and for two terms served as president of the General Assembly of the League of Nations (1930–32).. Nicolae Titulescu was born on 4 March 1882 in Craiova, the son of a solicitor. He grew up at his father's estate in Titulești, a commune in Romania that was later named after him. Upon graduating with honours in 1900 from the Carol I High School in Craiova, Titulescu studied law in Paris, obtaining his doctorate with the thesis Essai sur une théorie des droits éventuels. In 1905, Titulescu returned to Romania as a professor of law at the University of Iași, and in 1907 he moved to Bucharest..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Nicolae Titulescu]
+Action 1: Search[Nicolae Titulescu]
+Observation 1: **Nicolae Titulescu** (March 4, 1882 – March 17, 1941) was a prominent Romanian diplomat, jurist, and politician, widely regarded as one of Romania's most influential figures in interwar international relations. He served multiple terms as Romania's Minister of Foreign Affairs and was twice elected President of the League of Nations Assembly, advocating strongly for collective security, the sanctity of international law, and the preservation of the post-World War I territorial status quo.. **Early Life and Education**. Nicolae Titulescu was born in Craiova, Romania, the son of Ion Titulescu, a lawyer and prefect of Dolj County. He displayed exceptional intellectual abilities from a young age.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[General Assembly of the League of Nations]
+Action 2: Search[General Assembly of the League of Nations]
+Observation 2: Could not find General Assembly of the League of Nations. Similar: ['President of the United Nations General Assembly', 'United Nations General Assembly Resolution 3379', 'United Nations General Assembly', 'United Nations General Assembly observers', 'List of leaders of the League of Nations'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[League of Nations Assembly]
+Action 2: Search[League of Nations Assembly]
+Observation 2: The **General Assembly of the League of Nations** was the primary deliberative body of the League of Nations, an intergovernmental organization founded in 1920 after World War I, dedicated to promoting international cooperation and achieving peace and security. It served as a forum for all member states to discuss and recommend action on a wide range of international issues.. ### Purpose and Role. The General Assembly was designed to be a "parliament of nations," providing a platform for multilateral diplomacy and the peaceful resolution of international disputes. Its main functions included:.
+
+
+
+STEP: 3
+
+ERROR Action not found in None 
+Retrying to get action...
+
+STEP: 4
+
+ERROR Action not found in None 
+Retrying to get action...
+
+STEP: 5
+
+ERROR Action not found in None 
+Retrying to get action...
+
+STEP: 6
+
+ERROR Action not found in None 
+Retrying to get action...
+
+ERROR Action not found in None 
+Retrying to get action...
+
+STEP: 7
+
+ERROR Action not found in None 
+Retrying to get action...
+
+INFO {'steps': 5, 'answer': '', 'gt_answer': '10 January 1920', 'question_idx': 2820, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 1 
+Number of steps: 5 
+Average reward: 0.2 
+Average time 63.626423835754395
+
+-------------------------------------------------------
+

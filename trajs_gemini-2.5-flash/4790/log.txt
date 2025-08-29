@@ -1,0 +1,53 @@
+INFO 4790 Question: Who was the final champion of the Thailand Masters that was from Hong Kong?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Thailand Masters]
+Action 1: Search[Thailand Masters]
+Observation 1: The Thailand Masters was a professional snooker tournament. Previously known as Asian Open and Thailand Open, it was a ranking tournament from 1989/90 to 2001/02. An event called the Thailand Masters also formed part of the World Series in 1991/92, with Steve Davis beating Stephen Hendry 6–3. The final champion was Marco Fu.. The Thailand Masters was first held in the 1983/1984 season.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Thailand Masters]
+Action 1: Search[Thailand Masters]
+Observation 1: The **Thailand Masters** is an annual badminton tournament held in Thailand. It is part of the Badminton World Federation (BWF) World Tour, categorized as a Super 300 event. The tournament is officially known as the **Princess Sirivannavari Thailand Masters** in honor of Princess Sirivannavari Nariratana Rajakanya, who has been instrumental in promoting badminton in Thailand.. | Attribute           | Details                                                         |. | :------------------ | :-------------------------------------------------------------- |.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Marco Fu]
+Action 2: Search[Marco Fu]
+Observation 2: Marco Fu Ka-chun (Chinese: 傅家俊;[2][3] born 8 January 1978) is a Hong Kong professional snooker player. He is a three-time ranking event winner, having won the 2007 Grand Prix, the 2013 Australian Goldfields Open and the 2016 Scottish Open. He has been a runner-up at two Triple Crown events, at the 2008 UK Championship and the 2011 Masters. In addition, Fu has reached the semi-finals of the World Championship twice—in 2006 and in 2016.. Fu reached a career-high ranking of fifth in the world in 2017.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[champion]
+Action 2: Lookup[champion]
+Observation 2: **Marco Fu Ka-chun** (born 8 January 1978) is a professional snooker player from Hong Kong. He is a multiple ranking event winner and has been ranked as high as number 5 in the world.. ### Early life and amateur career. Born in Hong Kong, Fu moved to Vancouver, Canada, at the age of 12. He developed his snooker skills there and achieved considerable success as an amateur.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Marco Fu]
+Action 3: Finish[Marco Fu]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Marco Fu]
+Action 3: Finish[Marco Fu]
+Observation 3: **Marco Fu Ka-chun** (born 8 January 1978) is a professional snooker player from Hong Kong. He is a multiple ranking event winner and has been ranked as high as number 5 in the world.. ### Early life and amateur career. Born in Hong Kong, Fu moved to Vancouver, Canada, at the age of 12. He developed his snooker skills there and achieved considerable success as an amateur.
+
+
+
+INFO {'steps': 5, 'answer': 'Marco Fu', 'gt_answer': 'Marco Fu', 'question_idx': 4790, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 1 
+Number of steps: 3 
+Average reward: 0.3333333333333333 
+Average time 89.60511533419292
+
+-------------------------------------------------------
+

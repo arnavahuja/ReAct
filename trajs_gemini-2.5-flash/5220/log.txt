@@ -1,0 +1,67 @@
+INFO 5220 Question: Seth MacFarlane was the creator of the two animated short films that were created while studying at what college?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Seth MacFarlane]
+Action 1: Search[Seth MacFarlane]
+Observation 1: Seth Woodbury MacFarlane (/məkˈfɑːrlɪn/; born October 26, 1973) is an American actor, animator, writer, producer, director, comedian, and singer. He is best known as the creator and star of the television series Family Guy (since 1999) and The Orville (2017–2022), and co-creator of the television series American Dad! (since 2005) and The Cleveland Show (2009–2013). He also co-wrote, co-produced, directed, and starred in the films Ted (2012) and its sequel Ted 2 (2015), and A Million Ways to Die in the West (2014).. MacFarlane is a graduate of the Rhode Island School of Design (RISD), where he studied animation.[1] He was recruited to Hollywood as an animator and writer for Hanna-Barbera's television series Johnny Bravo, Cow and Chicken and Dexter's Laboratory, During this time, he created the animated short Larry & Steve—a loose precursor of Family Guy—for What a Cartoon!. In 2008, he created the online series Seth MacFarlane's Cavalcade of Cartoon Comedy.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Seth MacFarlane]
+Action 1: Search[Seth MacFarlane]
+Observation 1: **Seth MacFarlane** (born October 26, 1973) is an American actor, animator, writer, director, producer, comedian, and singer. He is best known as the creator of the animated television series *Family Guy* (1999–present), *American Dad!* (2005–present), and *The Cleveland Show* (2009–2013). MacFarlane is also the co-creator and star of the science fiction comedy-drama series *The Orville* (2017–present) and has achieved success as a feature film director with *Ted* (2012) and *Ted 2* (2015).. **Early Life and Education**. Seth Woodbury MacFarlane was born in Kent, Connecticut, to Ronald Milton MacFarlane and Ann Perry (née Sager).
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The current observation states that Seth MacFarlane graduated from the Rhode Island School of Design (RISD) where he studied animation. However, it mentions "Larry & Steve" was created "during this time" but in the context of working for Hanna-Barbera, not specifically while *studying*. The question asks about *two* animated short films created *while studying* at a college. The current passage doesn't explicitly state he made two films while studying at RISD. I need to find information linking specific short films to his time as a student.
+Action 2: Search[Seth MacFarlane Rhode Island School of Design short films]
+Observation 2: Could not find Seth MacFarlane Rhode Island School of Design short films. Similar: ['Seth MacFarlane', 'Rhode Island School of Design', 'The Life of Larry and Larry & Steve', 'Family Guy (redirect from Quahog rhode island)', 'Fuzzy Door Productions (category Film production companies of the United States)'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[college]
+Action 2: Lookup[college]
+Observation 2: **Seth MacFarlane's Rhode Island School of Design Short Films**. Seth MacFarlane, the American animator, writer, director, producer, actor, and singer, honed his skills and developed the foundational concepts for his future acclaimed work, most notably *Family Guy*, during his time at the Rhode Island School of Design (RISD). MacFarlane graduated from RISD in 1995 with a Bachelor of Fine Arts degree in film and animation. His senior thesis project consisted of several animated short films that directly showcased his burgeoning comedic style and character prototypes.. **Overview**.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[The Life of Larry]
+Action 3: Search[The Life of Larry]
+Observation 3: The Life of Larry and Larry & Steve are two animated short films created by Seth MacFarlane in the mid-1990s that eventually led to the development of the animated sitcom Family Guy. He originally created The Life of Larry as a thesis film in 1995 while attending the Rhode Island School of Design.[1][2] His professor at RISD submitted MacFarlane's cartoon to Hanna-Barbera, where he was hired a year later.[3]. Later that year, MacFarlane created a sequel to The Life of Larry called Larry & Steve that features the main character of his first film, the middle-aged Larry, and an intellectual dog named Steve. MacFarlane was also hired as a writer for Disney's Jungle Cubs. The short was broadcast as one of Cartoon Network's World Premiere Toons in 1997.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Rhode Island School of Design]
+Action 3: Finish[Rhode Island School of Design]
+Observation 3: **The Life of Larry** is an animated short film created by Seth MacFarlane in 1995. It is notable as the conceptual predecessor to the highly successful animated television series, *Family Guy*. A follow-up short, *Larry & Steve*, was produced in 1996.. | **The Life of Larry** |. | :------------------ |.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[Rhode Island School of Design]
+Action 4: Finish[Rhode Island School of Design]
+Observation 4: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[Rhode Island School of Design]
+Action 4: Search[Rhode Island School of Design]
+Observation 4: **The Life of Larry** is an animated short film created by Seth MacFarlane in 1995. It is notable as the conceptual predecessor to the highly successful animated television series, *Family Guy*. A follow-up short, *Larry & Steve*, was produced in 1996.. | **The Life of Larry** |. | :------------------ |.
+
+
+
+INFO {'steps': 7, 'answer': 'Rhode Island School of Design', 'gt_answer': 'Rhode Island School of Design', 'question_idx': 5220, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 2 
+Number of steps: 6 
+Average reward: 0.3333333333333333 
+Average time 149.95724821090698
+
+-------------------------------------------------------
+

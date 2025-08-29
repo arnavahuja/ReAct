@@ -1,0 +1,67 @@
+INFO 2195 Question: Command and Control was a book that discusses the 1980 incident in what state?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Command and Control]
+Action 1: Search[Command and Control]
+Observation 1: Command and control (abbr. C2) is a "set of organizational and technical attributes and processes ... [that] employs human, physical, and information resources to solve problems and accomplish missions" to achieve the goals of an organization or enterprise, according to  a 2015 definition by military scientists Marius Vassiliou, David S. Alberts, and Jonathan R. Agre.[1][2] The term often refers to a military system..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Command and Control]
+Action 1: Search[Command and Control]
+Observation 1: **Command and Control**. **Command and Control (C2)** refers to the exercise of authority and direction by a properly designated commander over assigned and attached forces in the accomplishment of the mission. More broadly, C2 encompasses the overall system of facilities, equipment, communications, procedures, and personnel essential for a commander to plan, direct, and control operations of assigned and attached forces pursuant to the accomplishment of the mission. It is a critical function in military operations, disaster response, and complex organizational management, enabling effective decision-making, coordination, and resource allocation.. **Overview**.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Command and Control (book)]
+Action 2: Search[Command and Control (book)]
+Observation 2: Command and Control: Nuclear Weapons, the Damascus Accident, and the Illusion of Safety is a 2013 nonfiction book by Eric Schlosser about the history of nuclear weapons systems and accidents involving nuclear weapons in the United States.[1] Incidents Schlosser discusses in the book include the 1980 Damascus Titan missile explosion, the 1966 Palomares B-52 crash, and the 1961 Goldsboro B-52 crash.[2][3] It was a finalist for the 2014 Pulitzer Prize for History.[4] A documentary film based on the book aired as an episode of American Experience on PBS in early 2017.[5]. A review in The New York Times described it as a "disquieting but riveting" book and Schlosser as a "better reporter than policy analyst".[6]. Speaking of the book, domestic security adviser Lee H. Hamilton said, "The lesson of this powerful and disturbing book is that the world's nuclear arsenals are not as safe as they should be. We should take no comfort in our skill and good fortune in preventing a nuclear catastrophe, but urgently extend our maximum effort to assure that a nuclear weapon does not go off by accident, mistake, or miscalculation."[7].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Command and Control (book)]
+Action 2: Search[Command and Control (book)]
+Observation 2: **Command and Control: Nuclear Weapons, the Damascus Accident, and the Illusion of Safety**. *Command and Control: Nuclear Weapons, the Damascus Accident, and the Illusion of Safety* is a 2013 non-fiction book by American investigative journalist Eric Schlosser. The book meticulously explores the history of nuclear weapons safety, accidents, and near-misses within the United States, focusing prominently on the 1980 Damascus Titan II missile explosion.. **Summary**. The book interweaves two primary narratives: a minute-by-minute account of the 1980 Damascus accident in Arkansas, where a dropped wrench led to a Titan II missile exploding and releasing a nuclear warhead; and a broader, chronological history of the design, deployment, and safety protocols of the American nuclear arsenal since the Cold War.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Damascus Titan missile explosion]
+Action 3: Search[Damascus Titan missile explosion]
+Observation 3: The Damascus Titan missile explosion (also called the Damascus accident[1]) was a 1980 U.S. nuclear weapons incident involving a Titan II Intercontinental Ballistic Missile (ICBM). The incident occurred on September 18–19, 1980, at Missile Complex 374-7 in rural Arkansas when a U.S. Air Force LGM-25C Titan II ICBM loaded with a 9-megaton W-53 nuclear warhead experienced a liquid fuel explosion inside its silo.[2]. The incident began with a fuel leak at 6:30 p.m.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Arkansas]
+Action 3: Finish[Arkansas]
+Observation 3: **1980 Damascus Titan II missile explosion**. The **1980 Damascus Titan II missile explosion** was a serious incident that occurred on September 19, 1980, at a Titan II intercontinental ballistic missile (ICBM) silo north of Damascus, Arkansas, United States. The accident involved a liquid-fueled missile carrying a W53 thermonuclear warhead.. **Background**. The Titan II was the largest ICBM deployed by the United States during the Cold War.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[Arkansas]
+Action 4: Finish[Arkansas]
+Observation 4: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[Arkansas]
+Action 4: Finish[Arkansas]
+Observation 4: **1980 Damascus Titan II missile explosion**. The **1980 Damascus Titan II missile explosion** was a serious incident that occurred on September 19, 1980, at a Titan II intercontinental ballistic missile (ICBM) silo north of Damascus, Arkansas, United States. The accident involved a liquid-fueled missile carrying a W53 thermonuclear warhead.. **Background**. The Titan II was the largest ICBM deployed by the United States during the Cold War.
+
+
+
+INFO {'steps': 7, 'answer': 'Arkansas', 'gt_answer': 'Arkansas', 'question_idx': 2195, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 6 
+Number of steps: 9 
+Average reward: 0.6666666666666666 
+Average time 83.44811500443353
+
+-------------------------------------------------------
+

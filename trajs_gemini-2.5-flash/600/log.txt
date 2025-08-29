@@ -1,0 +1,39 @@
+INFO 600 Question: The song Arizona was recorded by Paul Revere and Mark Lindsay but who wrote the song?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Arizona (song)]
+Action 1: Search[Arizona (song)]
+Observation 1: "Arizona" is a song written by Kenny Young and recorded in 1969 by Mark Lindsay, a solo effort while still lead singer for Paul Revere and the Raiders. Lindsay was backed by L.A. session musicians from the Wrecking Crew.[1] The single peaked at number 10 on the Billboard Hot 100 chart on 14 February 1970 and was awarded a RlAA Gold Disc in April 1970.[2] A version by the British band The Family Dogg was also released in 1969.. The song's title, "Arizona", refers to the singer's girlfriend, whom he considers innocent and naïve. The singer wistfully describes Arizona's idealism and lifestyle, which he considers absurd and immature ("you're acting like a teeny bopper runaway child").
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Arizona (song)]
+Action 1: Search[Arizona (song)]
+Observation 1: **Arizona** is a 1969 song written by Kenny Young and performed by American singer Mark Lindsay. It was Lindsay's first major solo hit following his extensive work as the lead vocalist of the rock band Paul Revere & The Raiders. The song became a significant chart success, peaking in the Top 10 on the *Billboard* Hot 100 in early 1970.. **Background and Composition**. By the late 1960s, Paul Revere & The Raiders' chart dominance had begun to wane, prompting lead singer Mark Lindsay to explore a solo career, though he remained with the band for some time.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[Kenny Young]
+Action 2: Finish[Kenny Young]
+Observation 2: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Finish[Kenny Young]
+Action 2: Finish[Kenny Young]
+Observation 2: **Arizona** is a 1969 song written by Kenny Young and performed by American singer Mark Lindsay. It was Lindsay's first major solo hit following his extensive work as the lead vocalist of the rock band Paul Revere & The Raiders. The song became a significant chart success, peaking in the Top 10 on the *Billboard* Hot 100 in early 1970.. **Background and Composition**. By the late 1960s, Paul Revere & The Raiders' chart dominance had begun to wane, prompting lead singer Mark Lindsay to explore a solo career, though he remained with the band for some time.
+
+
+
+INFO {'steps': 3, 'answer': 'Kenny Young', 'gt_answer': 'Kenny Young', 'question_idx': 600, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 3 
+Number of steps: 6 
+Average reward: 0.5 
+Average time 86.94248644510905
+
+-------------------------------------------------------
+

@@ -1,0 +1,39 @@
+INFO 1248 Question: What was the name of Kalyanji Virji Shah's brother who won the Filmfare Award for Best Music Director?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Kalyanji Virji Shah]
+Action 1: Search[Kalyanji Virji Shah]
+Observation 1: Kalyanji Virji Shah (30 June 1928 – 24 August 2000) was the Kalyanji of the Kalyanji-Anandji duo. He and his brother Anandji Virji Shah have been famous Indian film musicians, and won the 1975 Filmfare Award for Best Music Director, for Kora Kagaz.[1][2]  He is a recipient of the civilian honour of Padma Shri (1992),[3] India's fourth-highest civilian honour.. Kalyanji was born to Virji Shah, a Kutchi businessman in Kundrodi, Kutch, Gujarat, who migrated from Kutch to Mumbai to start a Kirana (provision store). His younger brother and his wife are the husband and wife duo Babla & Kanchan.. He and his brothers began to learn music from a music teacher, who actually knew no music but taught them in lieu of paying his bills to their father.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Kalyanji Virji Shah]
+Action 1: Search[Kalyanji Virji Shah]
+Observation 1: **Kalyanji Virji Shah** (Gujarati: કલ્યાણજી વિરજી શાહ; 4 August 1928 – 24 August 2000) was an Indian music director, who was one half of the famous Kalyanji-Anandji duo. He, along with his younger brother Anandji Virji Shah, composed music for over 250 films in the Hindi cinema industry, making them one of the most prolific and successful music director duos of their time.. ### Early Life and Background. Kalyanji Virji Shah was born on August 4, 1928, in Kundrodi, a village in Gujarat, India. His family hailed from the Kutch district.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[Anandji Virji Shah]
+Action 2: Finish[Anandji Virji Shah]
+Observation 2: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[Filmfare Award]
+Action 2: Lookup[Filmfare Award]
+Observation 2: **Kalyanji Virji Shah** (Gujarati: કલ્યાણજી વિરજી શાહ; 4 August 1928 – 24 August 2000) was an Indian music director, who was one half of the famous Kalyanji-Anandji duo. He, along with his younger brother Anandji Virji Shah, composed music for over 250 films in the Hindi cinema industry, making them one of the most prolific and successful music director duos of their time.. ### Early Life and Background. Kalyanji Virji Shah was born on August 4, 1928, in Kundrodi, a village in Gujarat, India. His family hailed from the Kutch district.
+
+
+
+INFO {'steps': 3, 'answer': 'Anandji Virji Shah', 'gt_answer': 'Anandji Virji Shah', 'question_idx': 1248, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 4 
+Number of steps: 8 
+Average reward: 0.5 
+Average time 95.41266334056854
+
+-------------------------------------------------------
+

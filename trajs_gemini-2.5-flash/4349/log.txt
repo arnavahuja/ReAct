@@ -1,0 +1,67 @@
+INFO 4349 Question: The 2003 South Australian National Football League Grand Final saw the Central District Bulldogs defeat a football club whose home base is currently known as what?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[2003 South Australian National Football League Grand Final]
+Action 1: Search[2003 South Australian National Football League Grand Final]
+Observation 1: The 2003 South Australian National Football League (SANFL) Grand Final saw the Central District Bulldogs defeat West Adelaide by 34 points to claim the club's third premiership victory.. The match was played on Sunday 5 October 2003 at Football Park in front of a crowd of 28,199.[1]. This Australian rules football competition-related article is a stub. You can help Wikipedia by expanding it.. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[2003 South Australian National Football League Grand Final]
+Action 1: Search[2003 South Australian National Football League Grand Final]
+Observation 1: The 2003 SANFL Grand Final was an Australian rules football match played at AAMI Stadium (now Football Park) on Sunday, 28 September 2003, to determine the premiership winner of the 2003 SANFL season. The match was contested by the Central District Bulldogs and the West Adelaide Bloods.. Central District, who had been the dominant side of the early 2000s, won the match by 21 points, securing their third premiership in four years and their third overall in the SANFL.. ---. ### 2003 SANFL Grand Final.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[West Adelaide]
+Action 2: Search[West Adelaide]
+Observation 2: Could not find [West Adelaide]. Similar: ['West Adelaide', 'West Adelaide SC', 'West Adelaide Football Club', 'West Adelaide Bearcats', 'Adelaide'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[West Adelaide Bloods]
+Action 2: Search[West Adelaide Bloods]
+Observation 2: **West Adelaide** refers to several distinct entities primarily located within the metropolitan area of Adelaide, South Australia. The most prominent uses of the name refer to two major sporting clubs and a suburb.. ---. ### West Adelaide Football Club. **West Adelaide Football Club**, commonly known as **The Bloods**, is an Australian rules football club that competes in the South Australian National Football League (SANFL)..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[West Adelaide Football Club]
+Action 3: Search[West Adelaide Football Club]
+Observation 3: West Adelaide Football Club is an Australian rules football club in the South Australian National Football League (SANFL). Nicknamed the Bloods and commonly known as the Westies, the club's home base is Richmond Oval (currently known as Hisense Stadium under a sponsorship agreement). The Oval is located in Richmond, an inner-western suburb of Adelaide.. The club has won nine SANFL premierships, the most recent coming in 2015 – breaking a thirty-two-year premiership drought dating back to 1983; the second longest in the SANFL.. The Football club was formed in 1892 and adopted magenta and white as their colours.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[home base]
+Action 3: Lookup[home base]
+Observation 3: **West Adelaide Football Club**. The **West Adelaide Football Club**, commonly known as "the Bloods," is an Australian rules football club based in Richmond, an inner-western suburb of Adelaide, South Australia. Established in 1878, West Adelaide is one of the oldest and most historically significant clubs in the South Australian National Football League (SANFL), where it competes in the league's premier competition. The club plays its home games at Hisense Stadium (formerly Richmond Oval).. | **Club details** | |.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[Hisense Stadium]
+Action 4: Finish[Hisense Stadium]
+Observation 4: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[Hisense Stadium]
+Action 4: Finish[Hisense Stadium]
+Observation 4: **West Adelaide Football Club**. The **West Adelaide Football Club**, commonly known as "the Bloods," is an Australian rules football club based in Richmond, an inner-western suburb of Adelaide, South Australia. Established in 1878, West Adelaide is one of the oldest and most historically significant clubs in the South Australian National Football League (SANFL), where it competes in the league's premier competition. The club plays its home games at Hisense Stadium (formerly Richmond Oval).. | **Club details** | |.
+
+
+
+INFO {'steps': 7, 'answer': 'Hisense Stadium', 'gt_answer': 'City Mazda Stadium', 'question_idx': 4349, 'reward': False, 'em': False, 'f1': 0.4}
+
+INFO Sum of rewards: 0 
+Number of steps: 2 
+Average reward: 0.0 
+Average time 166.81533539295197
+
+-------------------------------------------------------
+

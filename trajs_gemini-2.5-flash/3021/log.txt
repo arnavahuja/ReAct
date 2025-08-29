@@ -1,0 +1,53 @@
+INFO 3021 Question: The Russian route M9 forms a part of what European route that has a length of about 5320 km?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Russian route M9]
+Action 1: Search[Russian route M9]
+Observation 1: The Russian route M9, also known as the Baltic Highway, is a 610 km-long trunk road that leads from Moscow through Volokolamsk to Russia's border with Latvia. The road runs north of Moscow across the towns of Krasnogorsk, Istra, Volokolamsk, Zubtsov, Rzhev, Velikiye Luki, and Sebezh, ending up at the state border. It passes Moscow, Tver, and Pskov Oblasts. The highway forms a part of the European route E22 which continues across the border to Rēzekne and Riga.[1]. In Moscow, the highway follows Zvenigorodskoe Shosse, Mnevniki Street, and Marshala Zhukova Avenue before crossing with Moscow Ring Road.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Russian route M9]
+Action 1: Search[Russian route M9]
+Observation 1: **Federal Highway M9 "Baltia"**. **M9 "Baltia"** (Russian: Федеральная автомобильная дорога М9 «Балтия») is a federal highway in Russia that connects Moscow with the Russian-Latvian border. The highway is also part of European route E22. Its official designation is M9, and it is commonly known by its name "Baltia," reflecting its direction towards the Baltic states.. **Route Description**.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[European route E22]
+Action 2: Search[European route E22]
+Observation 2: European route E22 is one of the longest European routes. It has a length of about 5,320 km (3,310 mi).[1] Many of the E-roads have been extended into Asia since the year 2000; the E22 was extended on 24 June 2002.. Port of Holyhead  (53°18′34″N 4°37′44″W﻿ / ﻿53.3094°N 4.6289°W﻿ / 53.3094; -4.6289). Port of Immingham  (53°37′38″N 0°11′27″W﻿ / ﻿53.62718°N 0.19097°W﻿ / 53.62718; -0.19097). Amsterdam  (52°22′N 4°54′E﻿ / ﻿52.367°N 4.900°E﻿ / 52.367; 4.900).
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[European route E22]
+Action 2: Lookup[European route E22]
+Observation 2: The European route E22 is a proposed or historically considered designation within the international E-road network. However, as of the current official list maintained by the United Nations Economic Commission for Europe (UNECE) under the European Agreement on Main International Traffic Arteries (AGR), there is no designated European route E22.. ### Overview. *   **Designation:** European route E22 (non-existent in current official AGR). *   **Purpose:** The E-road network is a series of roads in Europe and parts of Asia, identified by the letter "E" and followed by a number, which are part of an international network of main arteries..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[European route E22]
+Action 3: Finish[European route E22]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[European route E22 length]
+Action 3: Search[European route E22 length]
+Observation 3: The European route E22 is a proposed or historically considered designation within the international E-road network. However, as of the current official list maintained by the United Nations Economic Commission for Europe (UNECE) under the European Agreement on Main International Traffic Arteries (AGR), there is no designated European route E22.. ### Overview. *   **Designation:** European route E22 (non-existent in current official AGR). *   **Purpose:** The E-road network is a series of roads in Europe and parts of Asia, identified by the letter "E" and followed by a number, which are part of an international network of main arteries..
+
+
+
+INFO {'steps': 5, 'answer': 'European route E22', 'gt_answer': 'European route E 22', 'question_idx': 3021, 'reward': False, 'em': False, 'f1': 0.5714285714285715}
+
+INFO Sum of rewards: 0 
+Number of steps: 3 
+Average reward: 0.0 
+Average time 73.29150374730428
+
+-------------------------------------------------------
+

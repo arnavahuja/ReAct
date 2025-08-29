@@ -73,15 +73,21 @@ class Metrics:
     
     @staticmethod
     def get_action_specific_avg_metric(dir_path):
-        avg_metric = 0
+        avg_metrics_dict = {"general":0, "Search":0, "Lookup":0, "Finish":0}
+        metric_names = ["general", "Search", "Lookup", "Finish"]
         n_metrics = 0
         for direc in os.listdir(dir_path):
-            metrics_dict = Utils.read_json(os.path.join(dir_path, direc, "metrics.json"))
-            metric = metrics_dict["general"]
-            avg_metric += metric
+            try:
+                metrics_dict = Utils.read_json(os.path.join(dir_path, direc, "metrics.json"))
+            except FileNotFoundError:
+                continue
+            for metric in metric_names:
+                avg_metrics_dict[metric] += metrics_dict.get(metric, 0)
             n_metrics+=1
-        avg_metric/=n_metrics
-        return avg_metric, n_metrics
+        
+        for key in avg_metrics_dict.keys():
+            avg_metrics_dict[key]/=n_metrics
+        return avg_metrics_dict, n_metrics
     
     @staticmethod
     def recalculate_metrics(base_traj_path):

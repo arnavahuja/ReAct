@@ -119,7 +119,10 @@ class WikiEnv(gym.Env):
     entity_ = entity.replace(" ", "+")
     search_url = f"https://en.wikipedia.org/w/index.php?search={entity_}"
     old_time = time.time()
-    response_text = requests.get(search_url).text
+    requests_headers = {
+        "User-Agent": "React/1.0"
+    }
+    response_text = requests.get(search_url, headers=requests_headers).text
     self.search_time += time.time() - old_time
     self.num_searches += 1
     soup = BeautifulSoup(response_text, features="html.parser")

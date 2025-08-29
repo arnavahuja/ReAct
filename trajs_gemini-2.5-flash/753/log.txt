@@ -1,0 +1,53 @@
+INFO 753 Question: What church was the college Marjorie Hass is the 20th president of formerly affiliated with?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Marjorie Hass]
+Action 1: Search[Marjorie Hass]
+Observation 1: Marjorie Hass is an American academic who serves as the President of the Council of Independent Colleges. She served as the 20th president of Rhodes College in Memphis, TN[1] from July 2017 to June 2021. She also served as president of Austin College in Sherman, TX from July 2009 to June 2017.[2] Earlier at Muhlenberg College in Allentown, PA, she headed the Center for Ethics.. This biography of an American academic administrator born in the 20th century is a stub. You can help Wikipedia by expanding it..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Marjorie Hass]
+Action 1: Search[Marjorie Hass]
+Observation 1: **Marjorie Hass** (born 1960) is an American academic administrator and philosopher. She served as the 17th president of Wellesley College from 2007 to 2016 and as the 7th president of Rhodes College from 2017 to 2022. Her academic background is in philosophy, specializing in epistemology and the philosophy of language.. **Early Life and Education**. Marjorie Hass was born in 1960.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Rhodes College]
+Action 2: Search[Rhodes College]
+Observation 2: Rhodes College is a private liberal arts college in Memphis, Tennessee, United States. Historically affiliated with the Presbyterian Church (USA), it is a member of the Associated Colleges of the South and is accredited by the Southern Association of Colleges and Schools. Rhodes enrolls about 2,000 students, and its Collegiate Gothic campus sits on a 123-acre wooded site in Memphis' historic Midtown neighborhood.. The early origins of Rhodes can be traced to the mid-1830s and the establishment of the all-male "Montgomery Academy" on the outskirts of Clarksville, Tennessee.[4] The city's flourishing tobacco market and profitable river port made Clarksville one of the fastest-growing cities in the then-western United States and quickly led to calls to turn the modest "log college" into a proper university.[4] In 1848, the Tennessee General Assembly authorized the conveyance of the academy's property for the establishment of the "Masonic University of Tennessee".[4]. In 1855, control of the university passed to the Presbyterian Church, and it was renamed "Stewart College" in honor of its president and benefactor, William M.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[20th president]
+Action 2: Lookup[20th president]
+Observation 2: Rhodes College is a private liberal arts college in Memphis, Tennessee. Founded in 1848, it is historically affiliated with the Presbyterian Church (USA).. **History**. Rhodes College was originally chartered in 1848 as the Masonic University of Tennessee in Clarksville. After the Civil War, it was rechartered in 1875 as Stewart College, and then in 1879, it became Southwestern Presbyterian University.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Presbyterian Church (USA)]
+Action 3: Finish[Presbyterian Church (USA)]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Presbyterian Church (USA)]
+Action 3: Finish[Presbyterian Church (USA)]
+Observation 3: Rhodes College is a private liberal arts college in Memphis, Tennessee. Founded in 1848, it is historically affiliated with the Presbyterian Church (USA).. **History**. Rhodes College was originally chartered in 1848 as the Masonic University of Tennessee in Clarksville. After the Civil War, it was rechartered in 1875 as Stewart College, and then in 1879, it became Southwestern Presbyterian University.
+
+
+
+INFO {'steps': 5, 'answer': 'Presbyterian Church (USA)', 'gt_answer': 'Presbyterian Church', 'question_idx': 753, 'reward': False, 'em': False, 'f1': 0.8}
+
+INFO Sum of rewards: 1 
+Number of steps: 5 
+Average reward: 0.2 
+Average time 153.75568761825562
+
+-------------------------------------------------------
+

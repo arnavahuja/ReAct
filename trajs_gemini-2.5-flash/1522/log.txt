@@ -1,0 +1,39 @@
+INFO 1522 Question: When was the track from which a sample was featured in "Take Me to the Clouds Above" released?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Take Me to the Clouds Above]
+Action 1: Search[Take Me to the Clouds Above]
+Observation 1: "Take Me to the Clouds Above" is a song by British dance group LMC and Irish rock band U2. The song interpolates Whitney Houston's 1986 hit "How Will I Know" (using only the first four lines) and samples U2's 1987 hit "With or Without You" (hence the credit). The vocals in the song were performed by Rachel McFarlane.[2]. Released on 26 January 2004, "Take Me to the Clouds Above" peaked at number one on the UK Singles Chart for two weeks in February 2004. It became a worldwide hit as well, topping several dance charts and entering the top 20 in 10 other countries.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Take Me to the Clouds Above]
+Action 1: Search[Take Me to the Clouds Above]
+Observation 1: **Take Me to the Clouds Above**. "Take Me to the Clouds Above" is a dance song by the British electronic music trio LMC. Released in 2003, the track is notable for its prominent use of samples from two iconic songs: U2's 1987 hit "With or Without You" and the Bee Gees' 1977 single "How Deep Is Your Love.". **Background and Composition**. LMC, an acronym for Lee Monteverde, Matt Cadman, and Rob Evans, crafted "Take Me to the Clouds Above" by blending instantly recognizable elements from different musical genres.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[1987]
+Action 2: Finish[1987]
+Observation 2: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Finish[1987 (With or Without You) and 1977 (How Deep Is Your Love)]
+Action 2: Finish[1987 (With or Without You) and 1977 (How Deep Is Your Love)]
+Observation 2: **Take Me to the Clouds Above**. "Take Me to the Clouds Above" is a dance song by the British electronic music trio LMC. Released in 2003, the track is notable for its prominent use of samples from two iconic songs: U2's 1987 hit "With or Without You" and the Bee Gees' 1977 single "How Deep Is Your Love.". **Background and Composition**. LMC, an acronym for Lee Monteverde, Matt Cadman, and Rob Evans, crafted "Take Me to the Clouds Above" by blending instantly recognizable elements from different musical genres.
+
+
+
+INFO {'steps': 3, 'answer': '1987', 'gt_answer': '16 March 1987', 'question_idx': 1522, 'reward': False, 'em': False, 'f1': 0.5}
+
+INFO Sum of rewards: 2 
+Number of steps: 9 
+Average reward: 0.2222222222222222 
+Average time 169.6655253569285
+
+-------------------------------------------------------
+

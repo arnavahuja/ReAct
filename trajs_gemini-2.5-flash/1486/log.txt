@@ -1,0 +1,67 @@
+INFO 1486 Question: What publisher published Anthony Doerr's Pulitzer Prize fiction novel?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Anthony Doerr]
+Action 1: Search[Anthony Doerr]
+Observation 1: Anthony Doerr is an American author of novels and short stories. He gained widespread recognition for his 2014 novel All the Light We Cannot See, which won the Pulitzer Prize for Fiction.. Doerr grew up in Cleveland, Ohio,[1] He attended University School in Hunting Valley, an eastern Cleveland suburb, graduating in 1991. He majored in history at Bowdoin College in Brunswick, Maine southwest of Augusta, graduating in 1995. He earned an MFA from Bowling Green State University in Bowling Green.[2].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Anthony Doerr]
+Action 1: Search[Anthony Doerr]
+Observation 1: **Anthony Doerr** (born October 27, 1973) is an American author of novels and short stories. He is best known for his 2014 novel *All the Light We Cannot See*, which won the Pulitzer Prize for Fiction, and for his 2021 novel *Cloud Cuckoo Land*, which was a finalist for the National Book Award.. **Early Life and Education**. Anthony Doerr was born and raised in Cleveland, Ohio. He graduated from University School in Shaker Heights, Ohio, in 1991.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[All the Light We Cannot See]
+Action 2: Search[All the Light We Cannot See]
+Observation 2: All the Light We Cannot See is a 2014 war novel by American author Anthony Doerr. The novel is set during World War II. It revolves around the characters Marie-Laure LeBlanc, a blind French girl who takes refuge in her great-uncle's house in Saint-Malo after Paris is invaded by Nazi Germany, and Werner Pfennig, a bright German boy who is accepted into a military school because of his skills in radio technology. The book alternates between paralleling chapters depicting Marie-Laure and Werner,  framed with a nonlinear structure. The novel has a lyrical writing style, with critics noting extensive sensory details.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[publisher]
+Action 2: Lookup[publisher]
+Observation 2: **All the Light We Cannot See**. *All the Light We Cannot See* is a 2014 historical fiction novel written by American author Anthony Doerr. The novel is set in World War II-era Europe and follows the parallel stories of a blind French girl and a young German orphan boy whose paths eventually cross in the occupied French city of Saint-Malo. It received widespread critical acclaim and was awarded the 2015 Pulitzer Prize for Fiction and the Andrew Carnegie Medal for Excellence in Fiction.. **Author:** Anthony Doerr.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Lookup[publisher]
+Action 3: Lookup[publisher]
+Observation 3: (Result 1 / 1) **Publisher:** Scribner.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[publisher]
+Action 3: Lookup[publisher]
+Observation 3: **All the Light We Cannot See**. *All the Light We Cannot See* is a 2014 historical fiction novel written by American author Anthony Doerr. The novel is set in World War II-era Europe and follows the parallel stories of a blind French girl and a young German orphan boy whose paths eventually cross in the occupied French city of Saint-Malo. It received widespread critical acclaim and was awarded the 2015 Pulitzer Prize for Fiction and the Andrew Carnegie Medal for Excellence in Fiction.. **Author:** Anthony Doerr.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[Scribner]
+Action 4: Finish[Scribner]
+Observation 4: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[All the Light We Cannot See publisher]
+Action 4: Search[All the Light We Cannot See publisher]
+Observation 4: **All the Light We Cannot See**. *All the Light We Cannot See* is a 2014 historical fiction novel written by American author Anthony Doerr. The novel is set in World War II-era Europe and follows the parallel stories of a blind French girl and a young German orphan boy whose paths eventually cross in the occupied French city of Saint-Malo. It received widespread critical acclaim and was awarded the 2015 Pulitzer Prize for Fiction and the Andrew Carnegie Medal for Excellence in Fiction.. **Author:** Anthony Doerr.
+
+
+
+INFO {'steps': 7, 'answer': 'Scribner', 'gt_answer': 'Scribner', 'question_idx': 1486, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 4 
+Number of steps: 7 
+Average reward: 0.5714285714285714 
+Average time 93.04569588388715
+
+-------------------------------------------------------
+

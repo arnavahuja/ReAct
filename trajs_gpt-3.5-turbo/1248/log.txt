@@ -1,0 +1,64 @@
+INFO 1248 Question: The Argentine National Anthem was adopted 3 years after which event that led to the removal of Viceroy Baltasar Hildalgo de Cisneros?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to search for the event that led to the removal of Viceroy Baltasar Hildalgo de Cisneros, then find out what happened 3 years after that event that led to the adoption of the Argentine National Anthem.
+Action 1: Search[removal of Viceroy Baltasar Hildalgo de Cisneros]
+Observation 1: Could not find removal of Viceroy Baltasar Hildalgo de Cisneros. Similar: ['Baltasar Hidalgo de Cisneros', 'May Revolution (redirect from Día de la Revolución de Mayo)', 'Santiago de Liniers, 1st Count of Buenos Aires', 'Argentine War of Independence', 'Juan José Castelli (category People from the Viceroyalty of the Río de la Plata)'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to search for the event that led to the removal of Viceroy Baltasar Hildalgo de Cisneros, then find out what happened 3 years after that event regarding the adoption of the Argentine National Anthem.
+Action 1: Search[removal of Viceroy Baltasar Hildalgo de Cisneros]
+Observation 1: **Baltasar Hidalgo de Cisneros: Removal from Office**. The removal of Baltasar Hidalgo de Cisneros, the 11th and last Spanish Viceroy of the Río de la Plata, occurred on May 25, 1810, in Buenos Aires. This pivotal event, known as the May Revolution (*Revolución de Mayo*), saw Cisneros forced to resign by a combination of popular pressure, military support for a new autonomous government, and a Cabildo Abierto (open town meeting), marking a critical step towards Argentine independence from Spanish rule.. **Background**. The political situation in the Spanish Empire was in turmoil in the early 19th century.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[May Revolution]
+Action 2: Search[May Revolution]
+Observation 2: The May Revolution (Spanish: Revolución de Mayo) was a week-long series of events that took place from 18 to 25 May 1810, in Buenos Aires, capital of the Viceroyalty of the Río de la Plata. This Spanish colony included roughly the territories of present-day Argentina, Bolivia, Paraguay, Uruguay, and parts of Brazil. The result was the removal of Viceroy Baltasar Hidalgo de Cisneros and the establishment of a local government, the Primera Junta (First Junta), on 25 May.. The May Revolution was a direct reaction to Napoleon's invasion of Spain. In 1808, King Ferdinand VII of Spain abdicated in favour of Napoleon, who granted the throne to his brother, Joseph Bonaparte.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[adoption of the Argentine National Anthem]
+Action 2: Lookup[adoption of the Argentine National Anthem]
+Observation 2: The **May Revolution** (Spanish: *Revolución de Mayo*) was a week-long series of events that took place from May 18 to 25, 1810, in Buenos Aires, capital of the Viceroyalty of the Río de la Plata. It resulted in the removal of Viceroy Baltasar Hidalgo de Cisneros and the establishment of the *Primera Junta* (First Junta), the first autonomous government formed in the region that would later become Argentina.. This event is considered the starting point of the Argentine War of Independence and a crucial step towards the eventual declaration of independence in 1816. The revolution was a direct consequence of the Peninsular War in Spain and the collapse of the central Spanish authority, which created a power vacuum and a crisis of legitimacy across its American colonies.. ## Background.
+
+
+
+STEP: 3
+
+ERROR Action not found in None 
+Retrying to get action...
+
+STEP: 4
+
+ERROR Action not found in None 
+Retrying to get action...
+
+STEP: 5
+
+ERROR Action not found in None 
+Retrying to get action...
+
+STEP: 6
+
+ERROR Action not found in None 
+Retrying to get action...
+
+STEP: 7
+
+ERROR Action not found in None 
+Retrying to get action...
+
+INFO {'steps': 5, 'answer': '', 'gt_answer': 'May Revolution', 'question_idx': 512, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 1 
+Number of steps: 3 
+Average reward: 0.3333333333333333 
+Average time 86.28187600771587
+
+-------------------------------------------------------
+

@@ -1,0 +1,53 @@
+INFO 3749 Question: Who lived longer, American author Owen Wister or Canadian author Lucy Maud Montgomery?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Owen Wister]
+Action 1: Search[Owen Wister]
+Observation 1: Owen Wister (July 14, 1860 – July 21, 1938) was an American writer. His novel The Virginian, published in 1902, helped create the cowboy as a folk hero in the United States and built Wister's reputation as the "father of Western fiction". He was posthumously inducted into the Hall of Great Westerners by the National Cowboy & Western Heritage Museum and the Rhode Island Heritage Hall of Fame. The Western Writers of America  renamed the Saddleman Award for best book of the year to the Owen Wister Award, and Mount Wister in Wyoming was named in his honor.. Wister was born on July 14, 1860,[1] in the Germantown neighborhood of Philadelphia, Pennsylvania.[2] His father, Owen Jones Wister, was a wealthy physician[3] raised at "Butler Place" which adjoined Belfied, the Wister family estate in Germantown.[4] His mother, Sarah Butler Wister, was the daughter of Fanny Kemble, a British actress.[5].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Owen Wister]
+Action 1: Search[Owen Wister]
+Observation 1: **Owen Wister** (July 14, 1860 – July 21, 1938) was an American writer and historian, often hailed as the "father" of the modern Western novel. He is best known for his 1902 novel *The Virginian: A Horseman of the Plains*, which became a foundational text in the Western genre.. **Early Life and Education**. Born in Philadelphia, Pennsylvania, Wister was the son of Owen Jones Wister, a doctor, and Sarah Butler Wister, a prominent socialite and diarist whose father was the actor Pierce Butler. Wister came from a privileged background and was educated at St.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Lucy Maud Montgomery]
+Action 2: Search[Lucy Maud Montgomery]
+Observation 2: Lucy Maud Montgomery OBE (November 30, 1874 – April 24, 1942), published as L. M. Montgomery, was a Canadian author best known for a collection of novels, essays, short stories, and poetry beginning in 1908 with Anne of Green Gables. She published 20 novels as well as 530 short stories, 500 poems, and 30 essays. Anne of Green Gables was an immediate success; the title character, orphan Anne Shirley, made Montgomery famous in her lifetime and gave her an international following.[1] Most of the novels were set on Prince Edward Island and those locations within Canada's smallest province became a literary landmark and popular tourist site—namely Green Gables farm, the genesis of Prince Edward Island National Park..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Lucy Maud Montgomery]
+Action 2: Search[Lucy Maud Montgomery]
+Observation 2: **Lucy Maud Montgomery** (November 30, 1874 – April 24, 1942), publicly known as L.M. Montgomery, was a Canadian author best known for a series of novels beginning with *Anne of Green Gables*, published in 1908. The book was an immediate success and Montgomery subsequently wrote many sequels, as well as other novels and short stories. She was made an Officer of the Order of the British Empire in 1935.. ### Early Life.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Owen Wister]
+Action 3: Finish[Owen Wister]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Owen Wister]
+Action 3: Finish[Owen Wister]
+Observation 3: **Lucy Maud Montgomery** (November 30, 1874 – April 24, 1942), publicly known as L.M. Montgomery, was a Canadian author best known for a series of novels beginning with *Anne of Green Gables*, published in 1908. The book was an immediate success and Montgomery subsequently wrote many sequels, as well as other novels and short stories. She was made an Officer of the Order of the British Empire in 1935.. ### Early Life.
+
+
+
+INFO {'steps': 5, 'answer': 'Owen Wister', 'gt_answer': 'Owen Wister', 'question_idx': 3749, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 5 
+Number of steps: 8 
+Average reward: 0.625 
+Average time 88.57948997616768
+
+-------------------------------------------------------
+

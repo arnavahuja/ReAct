@@ -1,0 +1,109 @@
+INFO 3954 Question: Who was the head coach of the Georgia Tech football team that finished the regular season with the same record as the 1981 team?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[1981 Georgia Tech football team]
+Action 1: Search[1981 Georgia Tech football team]
+Observation 1: Could not find 1981 Georgia Tech football team. Similar: ['Georgia Tech Yellow Jackets football', 'Clemson–Georgia Tech football rivalry', '1981 Georgia Bulldogs football team', 'Auburn–Georgia Tech football rivalry', '2014 Georgia Tech Yellow Jackets football team'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[1981 Georgia Tech football team]
+Action 1: Search[1981 Georgia Tech football team]
+Observation 1: The 1981 Georgia Tech Yellow Jackets football team represented the Georgia Institute of Technology in the 1981 NCAA Division I-A football season. The Yellow Jackets were led by head coach Bill Curry, in his third season. They played their home games at Grant Field in Atlanta, Georgia. Georgia Tech competed as a member of the Atlantic Coast Conference (ACC).. ### Season Summary.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Georgia Tech Yellow Jackets football]
+Action 2: Search[Georgia Tech Yellow Jackets football]
+Observation 2: The Georgia Tech Yellow Jackets football program represents the Georgia Institute of Technology in the NCAA Football Bowl Subdivision in the sport of American football. The Yellow Jackets college football team competes in the Football Bowl Subdivision (FBS) of the National Collegiate Athletic Association (NCAA) and the Atlantic Coast Conference (ACC). Georgia Tech has fielded a football team since 1892 and as of 2023, it has an all-time record of 761–544–43.[4] The Yellow Jackets play in Bobby Dodd Stadium at Hyundai Field in Atlanta, Georgia, holding a stadium max capacity of 51,913.. The Yellow Jackets claim four national championships across four decades. The program has also won 16 conference titles.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[record]
+Action 2: Lookup[record]
+Observation 2: The Georgia Tech Yellow Jackets football program represents the Georgia Institute of Technology in college football. The Yellow Jackets compete in the Football Bowl Subdivision (FBS) of the National Collegiate Athletic Association (NCAA) and are a member of the Atlantic Coast Conference (ACC). Their home games are played at Bobby Dodd Stadium at Historic Grant Field in Atlanta, Georgia.. **History**. Founded in 1892, Georgia Tech has one of the longest and most storied football histories in the Southern United States.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Georgia Tech Yellow Jackets football 1981 season]
+Action 3: Search[Georgia Tech Yellow Jackets football 1981 season]
+Observation 3: Could not find Georgia Tech Yellow Jackets football 1981 season. Similar: ['Georgia Tech Yellow Jackets football', 'Georgia Tech Yellow Jackets baseball', 'List of Georgia Tech Yellow Jackets football seasons', '2013 Georgia Tech Yellow Jackets football team', '1981 Georgia Tech Yellow Jackets football team'].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[1981]
+Action 3: Lookup[1981]
+Observation 3: The 1981 Georgia Tech Yellow Jackets football team represented the Georgia Institute of Technology in the 1981 NCAA Division I-A football season. The Yellow Jackets were led by head coach Bill Curry, in his third season. They played their home games at Grant Field in Atlanta. Georgia Tech competed as a member of the Atlantic Coast Conference (ACC).. The 1981 season proved to be one of the most challenging in Georgia Tech's football history.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[1981 Georgia Tech Yellow Jackets football team]
+Action 4: Search[1981 Georgia Tech Yellow Jackets football team]
+Observation 4: The 1981 Georgia Tech Yellow Jackets football team represented the Georgia Institute of Technology during the 1981 NCAA Division I-A football season. The Yellow Jackets were led by second-year head coach Bill Curry, and played their home games at Grant Field in Atlanta. Georgia Tech produced abysmal results for the second consecutive year under Curry, finishing with a record of 1–10, their worst season in terms of winning percentage in school history (it would later be matched by another 1–10 season in 1994). Their sole win was a season-opening upset victory over the second-ranked Alabama Crimson Tide in Birmingham.. This college football 1981 season article is a stub.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[record]
+Action 4: Lookup[record]
+Observation 4: The **1981 Georgia Tech Yellow Jackets football team** represented the Georgia Institute of Technology in the 1981 NCAA Division I-A football season. The Yellow Jackets were led by first-year head coach Bill Curry and played their home games at Grant Field. They competed as members of the Atlantic Coast Conference (ACC).. The team finished the season with an overall record of 3–8 and a conference record of 2–4, placing them fourth in the ACC. Despite a losing record, the season is notably remembered for the Yellow Jackets' upset victory over the #2 Alabama Crimson Tide (coached by Bear Bryant) on November 14, marking a significant win for the rebuilding program..
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[List of Georgia Tech Yellow Jackets football seasons]
+Action 5: Search[List of Georgia Tech Yellow Jackets football seasons]
+Observation 5: This is a list of seasons completed by the Georgia Tech Yellow Jackets football team of the National Collegiate Athletic Association (NCAA) Division I Football Bowl Subdivision (FBS). Since the team's creation in 1892, the Yellow Jackets have participated in more than 1,300 officially sanctioned games, including 46 bowl games.. The Yellow Jackets have been a member of numerous athletic conferences. In 1894, Tech was a founding member of the now defunct Southern Intercollegiate Athletic Association, where it won a national championship in 1917. In 1922, the Yellow Jackets joined the Southern Conference as a founding member, where it won a national championship in 1928.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Search[List of Georgia Tech Yellow Jackets football seasons]
+Action 5: Search[List of Georgia Tech Yellow Jackets football seasons]
+Observation 5: The following is a list of Georgia Tech Yellow Jackets football seasons. The Georgia Tech Yellow Jackets represent the Georgia Institute of Technology in the sport of American football. The Yellow Jackets compete in the Football Bowl Subdivision (FBS) of the National Collegiate Athletic Association (NCAA) and the Atlantic Coast Conference (ACC).. <br>. | Season | Coach | Overall | Conference | Standing | Bowl Game | Final AP Rank | Final Coaches Rank |.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Lookup[1-10]
+Action 6: Lookup[1-10]
+Observation 6: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Lookup[1-10]
+Action 6: Lookup[1-10]
+Observation 6: The following is a list of Georgia Tech Yellow Jackets football seasons. The Georgia Tech Yellow Jackets represent the Georgia Institute of Technology in the sport of American football. The Yellow Jackets compete in the Football Bowl Subdivision (FBS) of the National Collegiate Athletic Association (NCAA) and the Atlantic Coast Conference (ACC).. <br>. | Season | Coach | Overall | Conference | Standing | Bowl Game | Final AP Rank | Final Coaches Rank |.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Search[List of Georgia Tech Yellow Jackets football seasons]
+Action 7: Search[List of Georgia Tech Yellow Jackets football seasons]
+Observation 7: This is a list of seasons completed by the Georgia Tech Yellow Jackets football team of the National Collegiate Athletic Association (NCAA) Division I Football Bowl Subdivision (FBS). Since the team's creation in 1892, the Yellow Jackets have participated in more than 1,300 officially sanctioned games, including 46 bowl games.. The Yellow Jackets have been a member of numerous athletic conferences. In 1894, Tech was a founding member of the now defunct Southern Intercollegiate Athletic Association, where it won a national championship in 1917. In 1922, the Yellow Jackets joined the Southern Conference as a founding member, where it won a national championship in 1928.
+
+SIMULATION TRAJECTORY:
+ Thought 7: I have already identified that the 1981 team had a record of 1-10 and that it was matched by another 1-10 season in 1994 (from Observation 4). Therefore, I need to find the head coach of the 1994 Georgia Tech football team.
+Action 7: Search[1994 Georgia Tech Yellow Jackets football team]
+Observation 7: The following provides information about the seasons of the Georgia Tech Yellow Jackets football program, in a style similar to a Wikipedia list.. **List of Georgia Tech Yellow Jackets football seasons**. The Georgia Tech Yellow Jackets football program represents the Georgia Institute of Technology in college football. They compete in the Atlantic Coast Conference (ACC) and play their home games at Bobby Dodd Stadium in Atlanta, Georgia. This overview details the historical context, achievements, and general structure of information found regarding their competitive seasons..
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'Bill Lewis', 'question_idx': 3954, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 0 
+Number of steps: 3 
+Average reward: 0.0 
+Average time 178.70496980349222
+
+-------------------------------------------------------
+

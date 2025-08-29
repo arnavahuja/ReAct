@@ -1,0 +1,39 @@
+INFO 2038 Question: WFMT FM radio transmits from the second tallest building in the United States, which is located where?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[WFMT]
+Action 1: Search[WFMT]
+Observation 1: WFMT (98.7 MHz) is a commercial FM radio station in Chicago, Illinois, with a classical music radio format. It is part of Window to the World Communications, Inc, in the same company as Chicago's PBS member station WTTW. WFMT seeks donations on the air and on its website. The station's studios and offices are on North Saint Louis Avenue in Chicago.. WFMT has an effective radiated power (ERP) of 6,000 watts, and transmits from atop the Willis Tower in Downtown Chicago.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[WFMT FM radio]
+Action 1: Search[WFMT FM radio]
+Observation 1: **WFMT** (98.7 FM) is a classical music radio station located in Chicago, Illinois, United States. It is known for its long-standing commitment to fine arts broadcasting, including classical music, opera, folk music, jazz, and spoken word programming.. **History**. WFMT began broadcasting on December 13, 1951, founded by Bernard and Rita Jacobs. From its inception, the station aimed to provide high-fidelity broadcasts of classical music and other cultural programming, distinguishing itself from other commercial stations through its emphasis on quality and a diverse, intellectual format.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[Downtown Chicago]
+Action 2: Finish[Downtown Chicago]
+Observation 2: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Finish[Chicago, Illinois]
+Action 2: Finish[Chicago, Illinois]
+Observation 2: **WFMT** (98.7 FM) is a classical music radio station located in Chicago, Illinois, United States. It is known for its long-standing commitment to fine arts broadcasting, including classical music, opera, folk music, jazz, and spoken word programming.. **History**. WFMT began broadcasting on December 13, 1951, founded by Bernard and Rita Jacobs. From its inception, the station aimed to provide high-fidelity broadcasts of classical music and other cultural programming, distinguishing itself from other commercial stations through its emphasis on quality and a diverse, intellectual format.
+
+
+
+INFO {'steps': 3, 'answer': 'Downtown Chicago', 'gt_answer': 'Chicago, Illinois, United States', 'question_idx': 2038, 'reward': False, 'em': False, 'f1': 0.3333333333333333}
+
+INFO Sum of rewards: 0 
+Number of steps: 1 
+Average reward: 0.0 
+Average time 96.24693989753723
+
+-------------------------------------------------------
+

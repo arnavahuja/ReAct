@@ -1,0 +1,53 @@
+INFO 1102 Question: Which publication still relies on paper printing, Human Events or Texas Highways?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Human Events]
+Action 1: Search[Human Events]
+Observation 1: Human Events is an American conservative political news and analysis website. Founded in 1944 as a print newspaper, Human Events became a digital-only publication in 2013.. Human Events takes its name from the first sentence of the United States Declaration of Independence: "When in the course of human events...".[1] The magazine was published in Washington, D.C., most recently by Eagle Publishing, the owner of Regnery Publishing, a subsidiary of Phillips Publishing. Thomas S. Winter was editor-in-chief and Cathy Taylor was editorial director of the print edition.[2] As of 2021, the website is co-published by Jeff Webb and Will Chamberlain..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Human Events]
+Action 1: Search[Human Events]
+Observation 1: **Human Events** is an American conservative political newspaper and later website, founded in 1944. It is known for its long history as a prominent voice within the American conservative movement, frequently featuring commentary and analysis from leading conservative figures.. ### History. *   **Founding:** *Human Events* was founded in Washington, D.C., in 1944 by Frank C. Hanighen as a weekly newspaper.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Texas Highways]
+Action 2: Search[Texas Highways]
+Observation 2: Texas Highways is a monthly magazine put out by the Texas Department of Transportation that, according to the agency, "promotes travel and tourism to Texas through articles and photography."[1]. Texas Highways was founded in 1953 when the Texas Department of Transportation changed the name of its employee publication from Maintenance and Construction Bulletin. The magazine originally centered on highway design, construction, and maintenance, but in 1962, editor Frank Lively began adding stories about history and travel. The publication was originally an internal resource for the Texas Highway Department.[2]. On Lively’s recommendation, the magazine was converted to a travel publication offered to the general public in 1974 and by 1975 the Texas Legislature deemed Texas Highways as "This Official Travel Magazine of Texas." Lively retired in 1990, and retained an active relationship with the publication.[2] The first issue was dedicated entirely to Native Americans in Texas, despite the opposition from the director of the Travel and Information Division at the time, who claimed "...never to devote an entire issue to one subject."[2].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[paper printing]
+Action 2: Lookup[paper printing]
+Observation 2: The Texas highway system is a vast and complex network of roads maintained by the state, encompassing various classifications of highways that serve to connect communities, facilitate commerce, and support the large population and geographic expanse of Texas. Administered primarily by the Texas Department of Transportation (TxDOT), the system is one of the largest in the United States, reflecting the state's significant land area and economic activity.. ### History. The development of Texas highways evolved from early trails and unpaved roads in the late 19th and early 20th centuries. The Texas Highway Department, the precursor to TxDOT, was established in 1917, spurred by the advent of the automobile and the need for better connectivity.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Texas Highways]
+Action 3: Finish[Texas Highways]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Texas Highways (magazine)]
+Action 3: Search[Texas Highways (magazine)]
+Observation 3: The Texas highway system is a vast and complex network of roads maintained by the state, encompassing various classifications of highways that serve to connect communities, facilitate commerce, and support the large population and geographic expanse of Texas. Administered primarily by the Texas Department of Transportation (TxDOT), the system is one of the largest in the United States, reflecting the state's significant land area and economic activity.. ### History. The development of Texas highways evolved from early trails and unpaved roads in the late 19th and early 20th centuries. The Texas Highway Department, the precursor to TxDOT, was established in 1917, spurred by the advent of the automobile and the need for better connectivity.
+
+
+
+INFO {'steps': 5, 'answer': 'Texas Highways', 'gt_answer': 'Texas Highways', 'question_idx': 1102, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 1 
+Number of steps: 1 
+Average reward: 1.0 
+Average time 99.09156775474548
+
+-------------------------------------------------------
+

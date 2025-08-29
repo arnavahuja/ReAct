@@ -28,8 +28,11 @@ class HistoryWrapper(gym.Wrapper):
       assert hasattr(self.env, "traj")
     self.obs_format = obs_format
     self.prompt = prompt if prompt is not None else ""
-    self.normal_trajectory_dict = {"prompt": "", "observations": [], "thoughts": [], "actions": []}
-    self.sim_trajectory_dict = {"prompt": "", "observations": [], "thoughts": [], "actions": []}
+    self.normal_trajectory_dict = self.get_empty_traj_dict()
+    self.sim_trajectory_dict = self.get_empty_traj_dict()
+
+  def get_empty_traj_dict(self):
+    return {"prompt": "", "observations": [], "thoughts": [], "actions": []}
   
   def step(self, action, step_type="wiki"):
     return self.env.step(action, step_type)
@@ -66,6 +69,12 @@ class HistoryWrapper(gym.Wrapper):
         obs_dict["observations"].append(o)
         obs_dict["actions"].append(a)
     return obs_dict
+  
+  def reset(self, seed=None, return_info=False, options=None, idx=None):
+    output = self.env.reset(seed=None, return_info=False, options=None, idx=None)
+    self.normal_trajectory_dict = self.get_empty_traj_dict()
+    self.sim_trajectory_dict = self.get_empty_traj_dict()
+    return output
     
     
 

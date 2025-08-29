@@ -1,0 +1,67 @@
+INFO 653 Question: What kind of musicians are Mark Gaudet and Jan Axel Blomberg?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Mark Gaudet]
+Action 1: Search[Mark Gaudet]
+Observation 1: Could not find Mark Gaudet. Similar: ["Eric's Trip", 'Navy Blues (album)', 'Eamon McGrath', 'Love Tara', 'The Adrenaline Project'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Mark Gaudet]
+Action 1: Search[Mark Gaudet]
+Observation 1: **Mark Gaudet** is a Canadian musician, primarily known as a drummer for several notable indie rock and punk bands, most prominently associated with the Moncton, New Brunswick music scene.. Gaudet gained significant recognition as the drummer for **Eric's Trip**, an influential indie rock band formed in Moncton in 1990. Eric's Trip was one of the first Canadian bands to sign with Seattle's Sub Pop Records, a label closely associated with the grunge movement. With Eric's Trip, Gaudet contributed to their signature lo-fi sound on albums such as *Love Tara* (1993) and *Forever Again* (1994), earning critical acclaim before the band's initial disbandment in 1996. The band has since reunited for sporadic performances and releases..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Eric's Trip]
+Action 2: Search[Eric's Trip]
+Observation 2: Eric's Trip is a Canadian indie rock band from Moncton, New Brunswick. Eric's Trip achieved prominence as the first Canadian band to be signed to Seattle's flagship grunge label Sub Pop in the early 1990s.[2]. The band had a minor hit in alternative circles with the single "View Master", from the 1994 album Forever Again.. Eric's Trip formed in 1990 when musicians Rick White and Chris Thompson joined Julie Doiron and Ed Vaughan (who was later replaced by Mark Gaudet). They took their name from a Sonic Youth song[3] and developed a unique sound which fused elements of the distorted guitar of Dinosaur Jr., vocal elements of My Bloody Valentine, the folk leanings of Neil Young, and the lo-fi aesthetic of Sebadoh.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Jan Axel Blomberg]
+Action 2: Search[Jan Axel Blomberg]
+Observation 2: **Eric's Trip** was an influential Canadian indie rock band formed in Moncton, New Brunswick in 1990. They are widely recognized for their distinct lo-fi sound, melodic songwriting, and their historical significance as the first Canadian act to be signed to Seattle's iconic Sub Pop Records.. **Band Members:**. *   Rick White (vocals, guitar). *   Julie Doiron (bass, vocals).
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Jan Axel Blomberg]
+Action 3: Search[Jan Axel Blomberg]
+Observation 3: Jan Axel Blomberg (born 2 August 1969), better known by his stage name Hellhammer,[1] is a Norwegian drummer known for his role as the drummer of the black metal band Mayhem, which he joined in 1988. He is the only member to have appeared on all of their albums. In 1987, Blomberg, alongside Steinar Sverd Johnsen and Marius Vold, formed the avant-garde black metal band Arcturus (initially under the name Mortem), which disbanded in April 2007 and reunited in 2011.[2] He adopted his stage name in homage to the Swiss extreme metal band Hellhammer.[3] Acclaimed as a talented musician,[4] Blomberg is a three-time recipient of the Spellemannprisen award.[5]. As a child, Blomberg's primary interests were football and wrestling. Initially, he had no interest in drums or drumming; however, as music became increasingly appealing to him, he began to find different instruments intriguing, which eventually led to an interest in drums.[citation needed] His grandparents purchased his first three drum kits, the first of which was a four-piece jazz kit.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[Mark Gaudet]
+Action 3: Lookup[Mark Gaudet]
+Observation 3: **Jan Axel Blomberg** (born August 2, 1969), also known by his stage name **Hellhammer**, is a Norwegian musician, best known as the long-standing drummer for the black metal band Mayhem. Renowned for his technical precision, speed, and versatility, he is considered one of the most influential drummers in extreme metal.. **Early Life and Career**. Blomberg was born in Norway. He adopted the stage name Hellhammer, inspired by the Swiss extreme metal band Hellhammer.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[Mark Gaudet is an indie rock musician, and Jan Axel Blomberg is a black metal drummer.]
+Action 4: Finish[Mark Gaudet is an indie rock musician, and Jan Axel Blomberg is a black metal drummer.]
+Observation 4: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[Mark Gaudet is an indie rock musician, and Jan Axel Blomberg is a black metal musician.]
+Action 4: Finish[Mark Gaudet is an indie rock musician, and Jan Axel Blomberg is a black metal musician.]
+Observation 4: **Jan Axel Blomberg** (born August 2, 1969), also known by his stage name **Hellhammer**, is a Norwegian musician, best known as the long-standing drummer for the black metal band Mayhem. Renowned for his technical precision, speed, and versatility, he is considered one of the most influential drummers in extreme metal.. **Early Life and Career**. Blomberg was born in Norway. He adopted the stage name Hellhammer, inspired by the Swiss extreme metal band Hellhammer.
+
+
+
+INFO {'steps': 7, 'answer': 'Mark Gaudet is an indie rock musician, and Jan Axel Blomberg is a black metal drummer.', 'gt_answer': 'drummer', 'question_idx': 653, 'reward': False, 'em': False, 'f1': 0.13333333333333333}
+
+INFO Sum of rewards: 0 
+Number of steps: 1 
+Average reward: 0.0 
+Average time 114.5710232257843
+
+-------------------------------------------------------
+

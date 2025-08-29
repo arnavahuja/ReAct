@@ -1,0 +1,39 @@
+INFO 4769 Question: Jamal Igle was known for illustrative work on which DC Comics publication?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Jamal Igle]
+Action 1: Search[Jamal Igle]
+Observation 1: Jamal Yaseem Igle[2] is an American comic book artist, editor, art director, marketing executive and animation storyboard artist. The creator of the comic book series Molly Danger he is also known for his pencilling, inking and coloring work on books such as Supergirl, The Ray, and Firestorm.. Igle decided he wanted to be a professional comic book artist at the age of 14.[3] Igle attained his first job in comics at 17, as an intern at DC Comics, while still attending the High School of Art and Design. He later studied at the School of Visual Arts.[3][4] Most of his formal art education centered upon classical illustrators such as Bob Peak, Norman Rockwell, and John Singer Sargent.[5] After college, Igle worked as a junior art director at an advertisement agency and in a marketing company. Igle's first break as an artist was with a now-defunct publisher called Majestic Entertainment in 1993.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Jamal Igle]
+Action 1: Search[Jamal Igle]
+Observation 1: **Jamal Igle** is an American comic book artist, penciller, inker, and writer. He is best known for his work on various titles for DC Comics, Marvel Comics, and for co-creating the series *The Wrong Earth* for Ahoy Comics.. **Career**. Igle began his professional career in the mid-1990s, gaining early experience with small press publishers before working on larger titles. His distinctive, clean line work and dynamic storytelling quickly made him a sought-after artist in the industry..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[Supergirl, The Ray, and Firestorm]
+Action 2: Finish[Supergirl, The Ray, and Firestorm]
+Observation 2: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[DC Comics]
+Action 2: Lookup[DC Comics]
+Observation 2: **Jamal Igle** is an American comic book artist, penciller, inker, and writer. He is best known for his work on various titles for DC Comics, Marvel Comics, and for co-creating the series *The Wrong Earth* for Ahoy Comics.. **Career**. Igle began his professional career in the mid-1990s, gaining early experience with small press publishers before working on larger titles. His distinctive, clean line work and dynamic storytelling quickly made him a sought-after artist in the industry..
+
+
+
+INFO {'steps': 3, 'answer': 'Supergirl, The Ray, and Firestorm', 'gt_answer': 'Firestorm', 'question_idx': 4769, 'reward': False, 'em': False, 'f1': 0.4}
+
+INFO Sum of rewards: 0 
+Number of steps: 1 
+Average reward: 0.0 
+Average time 70.98219060897827
+
+-------------------------------------------------------
+

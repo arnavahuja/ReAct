@@ -1,0 +1,53 @@
+INFO 3112 Question: Do both Korematsu v. United States and Chaplinsky v. New Hampshire cases regard the rights of U. S. citizens?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Korematsu v. United States]
+Action 1: Search[Korematsu v. United States]
+Observation 1: Korematsu v. United States, 323 U.S. 214 (1944), is a decision by the Supreme Court of the United States that upheld the internment of Japanese Americans from the West Coast Military Area during World War II. The decision has been widely criticized,[1] with some scholars describing it as "an odious and discredited artifact of popular bigotry"[2] and "a stain on American jurisprudence".[3] The case is often cited as one of the worst Supreme Court decisions of all time.[4][5][6]. In the aftermath of Imperial Japan's attack on Pearl Harbor, President Franklin D.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Korematsu v. United States]
+Action 1: Search[Korematsu v. United States]
+Observation 1: **Korematsu v. United States**. **Korematsu v. United States**, 323 U.S. 214 (1944), was a landmark decision by the Supreme Court of the United States to uphold the conviction of Fred Korematsu, a Japanese American citizen who violated an exclusion order requiring him to report to a relocation center during World War II.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Chaplinsky v. New Hampshire]
+Action 2: Search[Chaplinsky v. New Hampshire]
+Observation 2: Chaplinsky v. New Hampshire, 315 U.S. 568 (1942), was a landmark decision of the Supreme Court of the United States in which the Court articulated the fighting words doctrine, a limitation of the First Amendment's guarantee of freedom of speech.[1]. On April 6, 1940,[2] Walter Chaplinsky, a Jehovah's Witness, was using the public sidewalk as a pulpit in downtown Rochester, New Hampshire, distributing pamphlets and denouncing organized religion as a "racket". After a large crowd had begun blocking the roads and causing a scene, a police officer removed Chaplinsky to take him to police headquarters.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Chaplinsky v. New Hampshire]
+Action 2: Search[Chaplinsky v. New Hampshire]
+Observation 2: **Chaplinsky v. New Hampshire**. *Chaplinsky v. New Hampshire*, 315 U.S. 568 (1942), was a landmark decision by the United States Supreme Court that established the "fighting words" doctrine as an exception to the First Amendment's guarantee of freedom of speech..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Yes]
+Action 3: Finish[Yes]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[yes]
+Action 3: Finish[yes]
+Observation 3: **Chaplinsky v. New Hampshire**. *Chaplinsky v. New Hampshire*, 315 U.S. 568 (1942), was a landmark decision by the United States Supreme Court that established the "fighting words" doctrine as an exception to the First Amendment's guarantee of freedom of speech..
+
+
+
+INFO {'steps': 5, 'answer': 'Yes', 'gt_answer': 'yes', 'question_idx': 3112, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 7 
+Number of steps: 11 
+Average reward: 0.6363636363636364 
+Average time 106.50272436575456
+
+-------------------------------------------------------
+

@@ -1,0 +1,53 @@
+INFO 2934 Question: Who wrote the lyrics to the theme song that was used by the Western film series Range Busters?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Range Busters]
+Action 1: Search[Range Busters]
+Observation 1: The Range Busters was a 1940–1943 American Western film series of 24 films. They were about the adventures of a trio of cowboys, many filmed at the Corriganville Movie Ranch, produced by George W. Weeks and distributed by Monogram Pictures. The series used "Home on the Range" as its theme song with each film featuring the heroes waving goodbye and promising to return in another adventure.. Ray "Crash" Corrigan had previously made 24 films in Republic Pictures' The Three Mesquiteers series.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Range Busters]
+Action 1: Search[Range Busters]
+Observation 1: The **Range Busters** were a trio of cowboy heroes who starred in a series of 24 B-Western films produced by Monogram Pictures from 1940 to 1943. Known for their fast-paced action, lighthearted humor, and distinctive characterizations, the Range Busters were one of several popular "cowboy trio" franchises of the era, akin to Republic Pictures' Three Mesquiteers or Rough Riders.. ### Formation and Cast. The original and most prominent lineup of the Range Busters consisted of:. *   **Ray "Crash" Corrigan** as "Crash" Corrigan: The tough, action-oriented member of the group, known for his physicality and stunt work.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Home on the Range]
+Action 2: Search[Home on the Range]
+Observation 2: "Home on the Range" (Roud No. 3599) is an American folk song, sometimes called the "unofficial anthem" of the American West.[1] Dr. Brewster M. Higley (also spelled Highley)[2][3] of Smith County, Kansas wrote the lyrics as the poem "My Western Home" in 1872 or 1873,[4][5][6][7][8] with at least one source indicating that it was written as early as 1871.[1]. "Home on the Range" became the Kansas state song on June 30, 1947.[9] In 2010, members of the Western Writers of America chose it as one of the Top 100 western songs of all time.[10].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[theme song]
+Action 2: Lookup[theme song]
+Observation 2: # Home on the Range. "**Home on the Range**" is a classic American folk song, widely recognized as the state song of Kansas. It evokes the imagery and spirit of the American Old West, particularly the Great Plains.. ## Origin and Authorship. The lyrics of "Home on the Range" were originally a poem titled "My Western Home" or "Oh, Give Me a Home Where the Buffalo Roam," written by Dr.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Dr. Brewster M. Higley]
+Action 3: Finish[Dr. Brewster M. Higley]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[written by Dr.]
+Action 3: Lookup[written by Dr.]
+Observation 3: # Home on the Range. "**Home on the Range**" is a classic American folk song, widely recognized as the state song of Kansas. It evokes the imagery and spirit of the American Old West, particularly the Great Plains.. ## Origin and Authorship. The lyrics of "Home on the Range" were originally a poem titled "My Western Home" or "Oh, Give Me a Home Where the Buffalo Roam," written by Dr.
+
+
+
+INFO {'steps': 5, 'answer': 'Dr. Brewster M. Higley', 'gt_answer': 'Dr. Brewster M. Higley', 'question_idx': 2934, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 1 
+Number of steps: 2 
+Average reward: 0.5 
+Average time 118.50866067409515
+
+-------------------------------------------------------
+

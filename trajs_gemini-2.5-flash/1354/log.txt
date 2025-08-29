@@ -1,0 +1,53 @@
+INFO 1354 Question: What kind of game is The Park a spin-off of?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[The Park]
+Action 1: Search[The Park]
+Observation 1: Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us. HelpLearn to editCommunity portalRecent changesUpload fileSpecial pages. Donate. Create account. Log in.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[The Park]
+Action 1: Search[The Park]
+Observation 1: **The Park Hotels**. The Park Hotels, often simply referred to as "The Park," is a chain of luxury boutique hotels based in India. Known for its contemporary design, innovative culinary experiences, and focus on art, fashion, and music, it is a prominent player in the Indian hospitality sector. The brand is distinguished by its unique approach to hospitality, aiming to provide experiential stays that blend modern aesthetics with local cultural influences.. **Overview**.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[The Park (video game)]
+Action 2: Search[The Park (video game)]
+Observation 2: The Park is a first-person psychological horror video game developed and published by Funcom.[1] The game was released for Microsoft Windows via Steam on October 27, 2015 and is a spin-off of an earlier Funcom game, The Secret World.[2][3] It was released for PlayStation 4 and Xbox One on May 3, 2016 and Nintendo Switch on October 22, 2019.[4][5] It was released in Japan on September 24, 2020.[6] The game takes place in the Atlantic Island Park that closed in 1980 for mysterious reasons that are gradually revealed throughout the game.. The Park is experienced from a first-person perspective as the player, Lorraine, interacts with and experiences the decrepit environment of Atlantic Island Park. The game does not feature combat or enemies, and Lorraine can only interact with limited objects, mainly notes that reveal the backstory of the park. Lorraine can call out to character Callum and follow his voice to reach areas or objectives within the park, such as the rides. There are seven different rides to experience, including a dark ride and a roller coaster.[7]  The rides further the story, and provide scares.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[The Park (video game)]
+Action 2: Search[The Park (video game)]
+Observation 2: *The Park* is a first-person psychological horror video game developed and published by Funcom. It was released for Microsoft Windows on October 27, 2015, and subsequently for PlayStation 4 and Xbox One in May 2016. The game is a spin-off from Funcom's massively multiplayer online role-playing game *The Secret World*, expanding on its lore and themes, particularly those concerning Atlantic Island Park.. **Gameplay**. *The Park* is a linear, narrative-driven experience with a strong emphasis on atmosphere and story rather than traditional survival horror mechanics.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[The Secret World]
+Action 3: Finish[The Secret World]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[massively multiplayer online role-playing game]
+Action 3: Finish[massively multiplayer online role-playing game]
+Observation 3: *The Park* is a first-person psychological horror video game developed and published by Funcom. It was released for Microsoft Windows on October 27, 2015, and subsequently for PlayStation 4 and Xbox One in May 2016. The game is a spin-off from Funcom's massively multiplayer online role-playing game *The Secret World*, expanding on its lore and themes, particularly those concerning Atlantic Island Park.. **Gameplay**. *The Park* is a linear, narrative-driven experience with a strong emphasis on atmosphere and story rather than traditional survival horror mechanics.
+
+
+
+INFO {'steps': 5, 'answer': 'The Secret World', 'gt_answer': 'massively multiplayer online role-playing video game', 'question_idx': 1354, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 0 
+Number of steps: 2 
+Average reward: 0.0 
+Average time 71.43967568874359
+
+-------------------------------------------------------
+

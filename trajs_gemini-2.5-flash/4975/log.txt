@@ -1,0 +1,39 @@
+INFO 4975 Question: What is the surname of the Italian composer of the works for which the baritone Giovanni Polese was celebrated?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Giovanni Polese]
+Action 1: Search[Giovanni Polese]
+Observation 1: Giovanni Polese (1873 – January 1952) was an Italian operatic baritone who had an active international singing career from 1894-1928. He achieved the height of his success in the United States in the years 1908-1916 in the cities of Boston, Chicago, New York, and Philadelphia, and again from 1926-1928 in Chicago. While he sang a broad repertoire from the French, German, and Italian repertoires, he was most celebrated for his performances in the operas of Giuseppe Verdi. His voice is preserved on more than 20 recordings made by Edison Records.[1]. Born in Venice, Polese studied singing in his native city and made his professional singing debut performing there in a concert in 1892.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Giovanni Polese]
+Action 1: Search[Giovanni Polese]
+Observation 1: **Giovanni Polese** (born c. 1935 – died c. 2010) was an Italian cultural historian and archivist, known for his work in documenting regional Italian traditions and contributing to the preservation of local historical narratives.. ## Biography. Giovanni Polese was born in a small town in the Veneto region of Italy.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[Verdi]
+Action 2: Finish[Verdi]
+Observation 2: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Giovanni Polese baritone]
+Action 2: Search[Giovanni Polese baritone]
+Observation 2: **Giovanni Polese** (born c. 1935 – died c. 2010) was an Italian cultural historian and archivist, known for his work in documenting regional Italian traditions and contributing to the preservation of local historical narratives.. ## Biography. Giovanni Polese was born in a small town in the Veneto region of Italy.
+
+
+
+INFO {'steps': 3, 'answer': 'Verdi', 'gt_answer': 'Verdi', 'question_idx': 4975, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 1 
+Number of steps: 1 
+Average reward: 1.0 
+Average time 105.44162344932556
+
+-------------------------------------------------------
+

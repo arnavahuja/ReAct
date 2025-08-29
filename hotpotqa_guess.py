@@ -17,13 +17,15 @@ from metrics import Metrics
 from os.path import join
 
 class HotPotQARun:
-    def __init__(self):
+    def __init__(self, model_name="gemini"):
         openai.api_key = Constants.openai_api_key
         self.gemini_client = genai.Client(api_key=Constants.gemini_api_key)
+        self.openai_client = openai.OpenAI(api_key=Constants.openai_api_key)
         self.env = self.get_env()
         self.simulation_observations_dict = {}
         self.current_index = None
-        self.base_traj_path = "./trajs"
+        self.model_name = model_name
+        self.base_traj_path = "./trajs_" + self.model_name 
 
     def get_env(self):
         env = wikienv.WikiEnv()
@@ -46,10 +48,13 @@ class HotPotQARun:
             Utils.append_file(text, log_path)
 
 
-    def openai_llm(prompt, stop=["\n"]):
-        response = openai.Completion.create(
-        model=Constants.openai_model_name,
-        prompt=prompt,
+    def openai_llm(self, prompt, stop=["\n"]):
+        response = self.openai_client.chat.completions.create(
+        model=self.model_name,
+        messages=[
+            {"role": "system", "content": "You are a helpful assistant."},
+            {"role": "user", "content": prompt}
+        ],
         temperature=0,
         max_tokens=100,
         top_p=1,
@@ -57,12 +62,20 @@ class HotPotQARun:
         presence_penalty=0.0,
         stop=stop
         )
-        return response["choices"][0]["text"]
+        return response.choices[0].message.content
 
     def gemini_llm(self, prompt, stop=["\n"]):
         config = types.GenerateContentConfig(stop_sequences=stop)
-        response = self.gemini_client.models.generate_content(model=Constants.gemini_model_name, contents=prompt, config=config)
+        response = self.gemini_client.models.generate_content(model=self.model_name, contents=prompt, config=config)
         return str(response.text)
+    
+    def call_llm(self, prompt, stop=["\n"]):
+        if self.model_name.startswith("gemini"):
+            return self.gemini_llm(prompt, stop)
+        elif self.model_name.startswith("gpt"):
+            return self.openai_llm(prompt, stop)
+        else:
+            raise ValueError("Model name not recognized")
 
     def step(self, env, action, simulate=False):
         if simulate:
@@ -114,13 +127,13 @@ class HotPotQARun:
 
     def generate_thought_actions(self, i, running_prompt, n_calls_badcalls):
         n_calls_badcalls[0]+=1
-        thought_action = self.gemini_llm(running_prompt + f"Thought {i}:", stop=[f"\nObservation {i}:"])
+        thought_action = self.call_llm(running_prompt + f"Thought {i}:", stop=[f"\nObservation {i}:"])
         thought, action = self.separate_thought_and_action(i, thought_action)
         if action is None:
-            self.log("error", 'ohh...', thought)
+            self.log("error", 'Action not found in', thought, "\nRetrying to get action...")
             n_calls_badcalls[0]+=1
             n_calls_badcalls[1]+=1
-            temp_action = self.gemini_llm(running_prompt + f"Thought {i}: {thought}\nAction {i}:", stop=[f"\n"]).strip()
+            temp_action = self.call_llm(running_prompt + f"Thought {i}: {thought}\nAction {i}:", stop=[f"\n"]).strip()
             action = self.extract_action(temp_action)
             if action is None:
                 print("Temp Action",temp_action)
@@ -146,11 +159,14 @@ class HotPotQARun:
         for i in range(1, n):
             if to_print:
                 self.log(f"STEP: {i}")
-
-            thought, action = self.generate_thought_actions(i, running_prompt, n_calls_badcalls) # llm call inside
-            if simulate:
-                sim_thought, sim_action = self.generate_thought_actions(i, sim_running_prompt, n_calls_badcalls) # llm call inside
-                sim_running_prompt = running_prompt
+            try:
+                thought, action = self.generate_thought_actions(i, running_prompt, n_calls_badcalls) # llm call inside
+                if simulate:
+                    sim_thought, sim_action = self.generate_thought_actions(i, sim_running_prompt, n_calls_badcalls) # llm call inside
+                    sim_running_prompt = running_prompt
+            except ValueError as e:
+                self.log("error", e, save_log=False)
+                continue
             
             # normal trajectory
             obs, r, done, info = self.step(self.env, self.action_lowercase(action))
@@ -229,8 +245,12 @@ class HotPotQARun:
         
 
 if __name__=="__main__":
-    hotpotqa_wiki_runner = HotPotQARun()
-    hotpotqa_wiki_runner.run(webthink_simulate=True, skip_done=True)
+    hotpotqa_wiki_runner = HotPotQARun(model_name=Constants.openai_model_name)
+    # hotpotqa_wiki_runner.run(webthink_simulate=True, skip_done=True)
 
-    avg_actions_metric, n_samples = Metrics.get_action_specific_avg_metric(hotpotqa_wiki_runner.base_traj_path)
-    print("AVERAGE METRIC:", avg_actions_metric, f"for {n_samples} observations")
+    Utils.cleanup_trajs(hotpotqa_wiki_runner.base_traj_path)
+    
+    # avg_metrics_dict, n_samples = Metrics.get_action_specific_avg_metric(hotpotqa_wiki_runner.base_traj_path)
+    # print("AVERAGE METRIC:\n", json.dumps(avg_metrics_dict,indent=4), f"\nfor {n_samples} observations")
+
+    

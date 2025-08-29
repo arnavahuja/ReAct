@@ -1,0 +1,109 @@
+INFO 4968 Question: What is older, Downfall or Dark Tower?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Downfall]
+Action 1: Search[Downfall]
+Observation 1: Could not find [Downfall]. Similar: ['Downfall', 'Downfall (2004 film)', 'Downfall (manga)', 'Operation Downfall', 'Tickets to My Downfall'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Downfall]
+Action 1: Search[Downfall]
+Observation 1: **Downfall** (German: *Der Untergang*) is a 2004 German-language historical war drama film directed by Oliver Hirschbiegel from a screenplay by Bernd Eichinger. It portrays the final ten days of Adolf Hitler's life in his *Führerbunker* in Berlin during the Battle of Berlin in World War II. The film stars Bruno Ganz as Adolf Hitler, Alexandra Maria Lara as Traudl Junge (Hitler's last private secretary), and Corinna Harfouch as Magda Goebbels.. The film is based on several accounts of the period, including the books *Inside Hitler's Bunker* by historian Joachim Fest and *Until the Final Hour* (German: *Bis zur letzten Stunde*) by Traudl Junge herself. Other sources include Albert Speer's memoirs, the interrogations of Hitler's inner circle by the Soviets, and Gerhardt Boldt's *Hitler's Last Days*..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Downfall (2004 film)]
+Action 2: Search[Downfall (2004 film)]
+Observation 2: Downfall (German: Der Untergang) is a 2004 historical war drama film written and produced by Bernd Eichinger and directed by Oliver Hirschbiegel. It depicts the final days of Adolf Hitler (portrayed by Bruno Ganz), during the Battle of Berlin in World War II, when Nazi Germany is on the verge of total defeat at the hands of the Allies. The cast includes Alexandra Maria Lara, Corinna Harfouch, Ulrich Matthes, Juliane Köhler, Heino Ferch, Christian Berkel, Alexander Held, Matthias Habich, and Thomas Kretschmann. The film is a German-Austrian-Italian co-production.. Principal photography took place from September to November 2003, on location in Berlin, Munich, and Saint Petersburg, Russia.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Dark Tower]
+Action 2: Search[Dark Tower]
+Observation 2: *Downfall* (German: *Der Untergang*) is a 2004 German historical war drama film directed by Oliver Hirschbiegel from a screenplay by Bernd Eichinger. It depicts the final ten days of Adolf Hitler's reign in 1945, when Nazi Germany faced defeat in World War II. The film is primarily set in the Führerbunker in Berlin and focuses on the mental and physical decline of Hitler, as well as the desperation and chaos among his inner circle and the remnants of the Nazi regime.. | | |. | :---------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Dark Tower]
+Action 3: Search[Dark Tower]
+Observation 3: Could not find [Dark Tower]. Similar: ['The Dark Tower (series)', 'The Dark Tower VII: The Dark Tower', 'The Dark Tower (2017 film)', 'Dark Tower (game)', 'The Dark Tower: The Gunslinger'].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Dark Tower]
+Action 3: Search[Dark Tower]
+Observation 3: *The Dark Tower* (series). ***The Dark Tower*** is a series of eight novels, a novella, and a children's book written by American author Stephen King. The series incorporates themes from multiple genres, including fantasy, horror, Western, and science fiction. King has described the series as his magnum opus, envisioning it as a single, overarching story that ties together much of his fictional universe.. ### Overview.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[The Dark Tower (series)]
+Action 4: Search[The Dark Tower (series)]
+Observation 4: The Dark Tower is a series of eight novels, one novella, and a children's book  written by American author Stephen King. Incorporating themes from multiple genres, including dark fantasy, science fantasy, horror, and Western, it describes a "gunslinger" and his quest toward a tower, the nature of which is both physical and metaphorical. The series, and its use of the Dark Tower, expands upon Stephen King's multiverse and in doing so, links together many of his other novels.. In addition to the eight novels of the series proper that comprise 4,250 pages, many of King's other books relate to the story, introducing concepts and characters that come into play as the series progresses.. The series was chiefly inspired by the poem "Childe Roland to the Dark Tower Came" by Robert Browning, the full text of which was included in the final volume's appendix.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[series]
+Action 4: Lookup[series]
+Observation 4: The Dark Tower is a series of eight novels, along with numerous related works, written by American author Stephen King. Described by King as his "magnum opus," the series blends elements of dark fantasy, science fantasy, horror, and Western genres. It chronicles the journey of Roland Deschain, the last gunslinger, in his quest to find the titular Dark Tower, a mythical building that is the nexus of all realities.. ***. ### The Dark Tower (series).
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Lookup[first novel]
+Action 5: Lookup[first novel]
+Observation 5: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Lookup[written]
+Action 5: Lookup[written]
+Observation 5: The Dark Tower is a series of eight novels, along with numerous related works, written by American author Stephen King. Described by King as his "magnum opus," the series blends elements of dark fantasy, science fantasy, horror, and Western genres. It chronicles the journey of Roland Deschain, the last gunslinger, in his quest to find the titular Dark Tower, a mythical building that is the nexus of all realities.. ***. ### The Dark Tower (series).
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Search[The Dark Tower: The Gunslinger]
+Action 6: Search[The Dark Tower: The Gunslinger]
+Observation 6: The Dark Tower: The Gunslinger is a dark-fantasy novel by American author Stephen King. It is the first volume in his Dark Tower series. The Gunslinger was first published in 1982 as a fix-up novel, joining five short stories that had been published between 1978 and 1981. King substantially revised the novel in 2003; this version has remained in print ever since, with the subtitle "RESUMPTION". The story centers on Roland Deschain, the last gunslinger, who has been chasing his adversary, "the man in black," for many years.
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Search[The Dark Tower: The Gunslinger]
+Action 6: Search[The Dark Tower: The Gunslinger]
+Observation 6: **The Dark Tower: The Gunslinger**. *The Dark Tower: The Gunslinger* (originally published as *The Gunslinger*) is a dark fantasy novel by American author Stephen King. It is the first novel in his epic *The Dark Tower* series, blending elements of dark fantasy, science fantasy, horror, and Western genres.. **Publication History:**. The novel was originally published as five short stories in *The Magazine of Fantasy & Science Fiction* from 1978 to 1981:.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Finish[Dark Tower]
+Action 7: Finish[Dark Tower]
+Observation 7: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Finish[Dark Tower]
+Action 7: Finish[Dark Tower]
+Observation 7: **The Dark Tower: The Gunslinger**. *The Dark Tower: The Gunslinger* (originally published as *The Gunslinger*) is a dark fantasy novel by American author Stephen King. It is the first novel in his epic *The Dark Tower* series, blending elements of dark fantasy, science fantasy, horror, and Western genres.. **Publication History:**. The novel was originally published as five short stories in *The Magazine of Fantasy & Science Fiction* from 1978 to 1981:.
+
+
+
+INFO {'steps': 13, 'answer': 'Dark Tower', 'gt_answer': 'Downfall', 'question_idx': 4968, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 0 
+Number of steps: 2 
+Average reward: 0.0 
+Average time 121.12108242511749
+
+-------------------------------------------------------
+

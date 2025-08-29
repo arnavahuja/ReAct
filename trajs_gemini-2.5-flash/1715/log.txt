@@ -1,0 +1,67 @@
+INFO 1715 Question:  Arena Essex Raceway is built alongside an out-of-town shopping centre constructed on the site of a former what?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Arena Essex Raceway]
+Action 1: Search[Arena Essex Raceway]
+Observation 1: Arena Essex Raceway was a stock car and speedway racing track located near Purfleet, Essex.[1] It opened in 1978 and closed in 2018. The Lakeside Shopping Centre was built close to the venue.. The Arena-Essex Raceway Complex was the idea of local businessman and racing driver, Chick Woodroffe. It was built in the remains of an old cement works overspill site. The new circuit was a quarter-mile long with the first stock car race meeting held on 1 May 1978 which was infamously ruined by a heavy downpour..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Arena Essex Raceway]
+Action 1: Search[Arena Essex Raceway]
+Observation 1: **Arena Essex Raceway** was a motorsport venue located in Purfleet, Thurrock, Essex, England. Primarily known for hosting various forms of oval racing, including stock car racing, banger racing, and motorcycle speedway, it operated for several decades before its eventual closure in 2018.. ## History. The Arena Essex Raceway opened in 1978, developed on a former landfill site. It was conceived as a multi-purpose oval racing facility designed to cater to a wide range of short-oval motorsport disciplines.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Lookup[Lakeside Shopping Centre]
+Action 2: Lookup[Lakeside Shopping Centre]
+Observation 2: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[shopping centre]
+Action 2: Lookup[shopping centre]
+Observation 2: **Arena Essex Raceway** was a motorsport venue located in Purfleet, Thurrock, Essex, England. Primarily known for hosting various forms of oval racing, including stock car racing, banger racing, and motorcycle speedway, it operated for several decades before its eventual closure in 2018.. ## History. The Arena Essex Raceway opened in 1978, developed on a former landfill site. It was conceived as a multi-purpose oval racing facility designed to cater to a wide range of short-oval motorsport disciplines.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Lakeside Shopping Centre]
+Action 3: Search[Lakeside Shopping Centre]
+Observation 3: Lakeside Shopping Centre (commonly referred to as Lakeside) is a large out-of-town shopping centre located in West Thurrock, Essex just beyond the eastern boundary of Greater London. It was constructed on the site of a former chalk quarry.[1] The first tenants moved into the complex in 1988 and it was completed in 1990, being opened on 25 October of that year by Princess Alexandra of Kent, Marcus Bradford and Angus Ogilvy. New spaces in the red car park were added as recently as October 2019.. The shopping centre, in addition to the retail parks, forms one of the largest shopping areas in a single location within Europe, with almost 2,600,000 square feet (240,000 m2) of retail space on a site of 200 acres (0.81 km2). The community of Chafford Hundred has grown to the east of the centre since its opening.
+
+SIMULATION TRAJECTORY:
+ Thought 3: The previous observations focused on what the Arena Essex Raceway was built on, but the question asks about the site of the *out-of-town shopping centre* (Lakeside Shopping Centre). I need to search for Lakeside Shopping Centre to find information about the site it was constructed on.
+Action 3: Search[Lakeside Shopping Centre]
+Observation 3: **Lakeside Shopping Centre** (commonly referred to as **Lakeside**) is a large out-of-town shopping centre located in West Thurrock, Essex, England. Opened in 1990, it is one of the largest retail destinations in the UK, combining a vast array of shops with extensive dining and leisure facilities.. ==History==. Lakeside Shopping Centre was developed by Capital & Counties plc and officially opened its doors on 25 October 1990. The site, strategically located near the M25 motorway and the Dartford Crossing, was designed to serve a large catchment area in the South East of England..
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[chalk quarry]
+Action 4: Finish[chalk quarry]
+Observation 4: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[site]
+Action 4: Lookup[site]
+Observation 4: **Lakeside Shopping Centre** (commonly referred to as **Lakeside**) is a large out-of-town shopping centre located in West Thurrock, Essex, England. Opened in 1990, it is one of the largest retail destinations in the UK, combining a vast array of shops with extensive dining and leisure facilities.. ==History==. Lakeside Shopping Centre was developed by Capital & Counties plc and officially opened its doors on 25 October 1990. The site, strategically located near the M25 motorway and the Dartford Crossing, was designed to serve a large catchment area in the South East of England..
+
+
+
+INFO {'steps': 7, 'answer': 'chalk quarry', 'gt_answer': 'chalk quarry', 'question_idx': 1715, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 2 
+Number of steps: 2 
+Average reward: 1.0 
+Average time 113.50846469402313
+
+-------------------------------------------------------
+
