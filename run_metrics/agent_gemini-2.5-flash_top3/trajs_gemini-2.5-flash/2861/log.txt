@@ -1,0 +1,60 @@
+INFO 2861 Question: Did the Beaulieu Mine or the McIntyre Mines yield gold and copper?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to search for both "Beaulieu Mine" and "McIntyre Mines" to determine if they yielded gold and copper. I will start with Beaulieu Mine.
+Action 1: Search[Beaulieu Mine] 
+        Action 1: Search[Beaulieu Mine]
+        Observation 1: The Beaulieu Mine was a post-World War II gold mining operation near Yellowknife, Northwest Territories. It entered production in October 1947 but by the end of November only 7 ounces (200 grams) of rough gold were recovered. Additional gold was recovered during 1948, but the mine recovered only 30 troy ounces (930 g) of fine gold altogether. The operation folded in chaos and bankruptcy.[1]. This Canadian Northwest Territories location article is a stub."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to search each mine and find out what minerals they yielded. I'll start with Beaulieu Mine.
+Action 1: Search[Beaulieu Mine], Search[Beaulieu Copper Mine], Lookup[mine] 
+        Action 1: ['Search[Beaulieu Mine]', 'Search[Beaulieu Copper Mine]', 'Lookup[mine]']
+        Observation 1: The **Beaulieu Mine** is a historic gold mine located in the Northwest Territories of Canada, approximately 50 kilometers east of Yellowknife. It is situated in the Beaulieu River area, a region known for its significant gold deposits.. ### History and Development. The Beaulieu Mine was discovered in the late 1930s, amidst the bustling gold rush that characterized the Yellowknife area. Prospectors, drawn by the success of nearby mines like Giant and Con,."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The Beaulieu Mine yielded gold. I now need to search for McIntyre Mines and see if it yielded gold and copper.
+Action 2: Search[McIntyre Mines] 
+        Action 2: Search[McIntyre Mines]
+        Observation 2: McIntyre Porcupine Mines Limited, and after 1974 McIntyre Mines Limited, was a Canadian mining company that existed from 1911 to 1989. Its iconic headframe, located near downtown Timmins, has come to represent the entire Porcupine Gold Rush. The McIntyre also yielded a considerable amount of copper over its life.. There has been an extensive degree of rehabilitation and exploration work performed in and around the old McIntyre Mine property in recent years, and the Porcupine Joint Venture has yet to decide whether or not to continue spending hundreds of millions of dollars on mining out the property or continuing with a closure plan (2007).. Sandy McIntyre (1869-1943) had immigrated to Canada from Scotland around the turn of the century."
+
+SIMULATION TRAJECTORY:
+ Thought 2: The Beaulieu Mine yielded gold. I now need to check if it also yielded copper, or if McIntyre Mines yielded both gold and copper. I will check for copper for Beaulieu Mine first.
+Action 2: [Lookup[copper], Search[McIntyre Mines], Finish[No]] 
+        Action 2: ['Search[McIntyre Mines]', 'Lookup[copper]', 'Finish[No]']
+        Observation 2: **McIntyre Mines Limited** was a Canadian mining company primarily known for its gold and later, coal operations. It was a significant player in the Canadian mining industry for much of the 20th century.. **Early History and Gold Mining:**. McIntyre Mines was founded in 1911 by Sandy McIntyre, who discovered a rich gold vein in the Porcupine Camp of Northern Ontario, near Timmins. This discovery was part of the larger Porcupine Gold Rush, which."
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: The Beaulieu Mine yielded gold. The McIntyre Mines yielded gold and copper. Therefore, the McIntyre Mines yielded gold and copper.
+Action 3: Finish[McIntyre Mines] 
+        Action 3: Finish[McIntyre Mines]
+        Observation 3: Episode finished, reward = 0
+"
+
+SIMULATION TRAJECTORY:
+ Thought 3: McIntyre Mines yielded gold. The question asks if either yielded gold and copper. Beaulieu Mine produced gold but no mention of copper. McIntyre Mines produced gold and doesn't mention copper in this paragraph. I need to look up more details on McIntyre Mines to see if it also yielded copper.
+Action 3: [Lookup[copper], Lookup[gold and copper], Finish[No]] 
+        Action 3: ['Lookup[copper]', 'Lookup[gold and copper]', 'Finish[No]']
+        Observation 3: **McIntyre Mines Limited** was a Canadian mining company primarily known for its gold and later, coal operations. It was a significant player in the Canadian mining industry for much of the 20th century.. **Early History and Gold Mining:**. McIntyre Mines was founded in 1911 by Sandy McIntyre, who discovered a rich gold vein in the Porcupine Camp of Northern Ontario, near Timmins. This discovery was part of the larger Porcupine Gold Rush, which."
+
+
+
+INFO {'steps': 5, 'answer': 'McIntyre Mines', 'gt_answer': 'The McIntyre also yielded a considerable amount of copper', 'question_idx': 6377, 'reward': False, 'em': False, 'f1': 0.22222222222222224}
+
+INFO Sum of rewards: 7 
+Number of steps: 18 
+Average reward: 0.3888888888888889 
+Average time 15.75773134496477
+
+--------------------------------------------------
+

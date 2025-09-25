@@ -1,0 +1,53 @@
+INFO 1248 Question:  The Human Condition is a film trilogy that follows a Japanese pacifist and socialist as he tries to survive in a political system that strives to regulate what?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to search The Human Condition film trilogy to find the description of the political system and what it strives to regulate.
+Action 1: Search[The Human Condition (film series)]
+Observation 1: The Human Condition (人間の條件, Ningen no jōken) is a trilogy of Japanese epic war drama films co-written and directed by Masaki Kobayashi, based on the novel of the same name by Junpei Gomikawa. The films are subtitled No Greater Love (1959), Road to Eternity (1959), and A Soldier's Prayer (1961).. The trilogy follows the life of Kaji, a Japanese pacifist and socialist, as he tries to survive in the totalitarian and oppressive world of World War II-era Japan.. The Criterion Collection website summarises the plot of the film thus: "The Human Condition  follows the journey of the well-intentioned, yet naïve Kaji who transitions from being a labor camp supervisor to an Imperial Army soldier and eventually Soviet POW. Constantly trying to rise above a corrupt system, Kaji time and time again finds his morals an impediment rather than an advantage."[3].
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to find the Wikipedia page for the film trilogy "The Human Condition" to identify the description of the political system and what it strives to regulate.
+Action 1: Search[The Human Condition (film)]
+Observation 1: The Human Condition (film series). The Human Condition (Japanese: 人間の条件, Hepburn: Ningen no Jōken) is a series of three epic Japanese films directed by Masaki Kobayashi. Based on the novel of the same name by Junpei Gomikawa, the films were released between 1959 and 1961. The series is renowned for its immense length, its profound exploration of moral and ethical dilemmas, and its powerful anti-war message.. Synopsis.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The passage describes the system as "totalitarian." I should look up Totalitarianism to find what such a political system strives to regulate.
+Action 2: Search[Totalitarianism]
+Observation 2: Totalitarianism is a political system and a form of government that prohibits opposition from political parties, disregards and outlaws the political claims of individual and group opposition to the state, and completely controls the public sphere and the private sphere of society. In the field of political science, totalitarianism is the extreme form of authoritarianism, wherein all political power is held by a dictator. This figure controls the national politics and peoples of the nation with continual propaganda campaigns that are broadcast by state-controlled and state-aligned private mass communications media.[4]. The totalitarian government uses ideology to control most aspects of human life, such as the political economy of the country, the system of education, the arts, sciences, and private morality of its citizens.[5] In the exercise of power, the difference between a totalitarian regime of government and an authoritarian regime of government is one of degree; whereas totalitarianism features a charismatic dictator and a fixed worldview, authoritarianism only features a dictator who holds power for the sake of holding power. The authoritarian dictator is supported, either jointly or individually, by a military junta and by the socio-economic elites who are the ruling class of the country.[6].
+
+SIMULATION TRAJECTORY:
+ Thought 2: I should look for the specific sentence mentioning what the political system strives to regulate.
+Action 2: Lookup[regulate]
+Observation 2: Totalitarianism is a form of government and a political system that prohibits all opposition parties, outlaws individual opposition to the state and its claims, and exercises an extremely high degree of control or regulation over public and private life. It is regarded as the most extreme and thus most comprehensive form of authoritarianism.. In a totalitarian state, the political authority of the state is dominant and seeks to control virtually all aspects of public and private life whenever and wherever possible. The term was popularized by the Italian dictator.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Since the trilogy explicitly places Kaji in a totalitarian system, and totalitarian regimes strive to control all facets of life, the political system he struggles against is one that seeks to regulate every aspect of public and private life.
+Action 3: Finish[every aspect of public and private life]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: From the definition of totalitarianism, the political system strives to regulate virtually all aspects of public and private life. So the answer is public and private life.
+Action 3: Finish[virtually all aspects of public and private life]
+Observation 3: Totalitarianism is a form of government and a political system that prohibits all opposition parties, outlaws individual opposition to the state and its claims, and exercises an extremely high degree of control or regulation over public and private life. It is regarded as the most extreme and thus most comprehensive form of authoritarianism.. In a totalitarian state, the political authority of the state is dominant and seeks to control virtually all aspects of public and private life whenever and wherever possible. The term was popularized by the Italian dictator.
+
+
+
+INFO {'steps': 5, 'answer': 'every aspect of public and private life', 'gt_answer': 'every aspect of public and private life', 'question_idx': 1136, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 1 
+Number of steps: 2 
+Average reward: 0.5 
+Average time 88.31175243854523
+
+-------------------------------------------------------
+

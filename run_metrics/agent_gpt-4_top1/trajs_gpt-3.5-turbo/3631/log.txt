@@ -1,0 +1,53 @@
+INFO 3631 Question: Ip Man 3 is the second sequal to the biographical martial arts films first released in what year?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Ip Man 3]
+Action 1: Search[Ip Man 3]
+Observation 1: Ip Man 3 is a 2015 Hong Kong biographical martial arts film directed by Wilson Yip, produced by Raymond Wong and written by Edmond Wong with action choreography by Yuen Woo-ping. It is the third film in the Ip Man film series based on the life of the Wing Chun grandmaster Ip Man and features Donnie Yen reprising the title role. Ip Man's pupil Bruce Lee is portrayed by Danny Chan and Ip Man's fellow Wing Chun expert[5] and rival Cheung Tin-chi (張天志), also known as Sum Nung, is portrayed by Zhang Jin.[6][7] The film also features Mike Tyson. Principal photography commenced in March 2015 and ended in June of that year.. The premiere of the film was released in Hong Kong on 16 December 2015, and officially released in Hong Kong, Singapore, Malaysia on 24 December 2015.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Ip Man (film)]
+Action 1: Search[Ip Man (film)]
+Observation 1: "Ip Man 3" is a 2015 Hong Kong biographical martial arts film directed by Wilson Yip and produced by Raymond Wong. It is the third installment in the "Ip Man" film series based on the life of the Wing Chun grandmaster Ip Man. The film stars Donnie Yen as Ip Man, reprising his role from the previous films, along with supporting performances from Zhang Jin, Lynn Hung, and Mike Tyson.. The plot of "Ip Man 3" revolves.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Ip Man (film)]
+Action 2: Search[Ip Man (film)]
+Observation 2: Ip Man (Chinese: 叶问 / 葉問) is a 2008 Hong Kong biographical martial arts film based on the life of Ip Man, a grandmaster of the martial art Wing Chun and teacher of martial artist legend Bruce Lee. The film focuses on events in Ip's life that supposedly took place in the city of Foshan during the Sino-Japanese War. The film was directed by Wilson Yip, and stars Donnie Yen as the titual character, with martial arts choreography by Sammo Hung. The film co-stars Simon Yam, Lynn Hung, Lam Ka-tung, Xing Yu, Hiroyuki Ikeuchi, and Tenma Shibuya. The film was a co-production between China and Hong Kong, and was the last film to be distributed by Mandarin Films..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Ip Man (film)]
+Action 2: Search[Ip Man (film)]
+Observation 2: "Ip Man" is a 2008 Hong Kong biographical martial arts film based on the life of Ip Man, a grandmaster of the martial art Wing Chun. Directed by Wilson Yip, the film stars Donnie Yen in the title role. The story is set in the 1930s during the Sino-Japanese War and follows Ip Man as he resists the Japanese occupation of Foshan, China, and becomes a respected martial arts teacher.. The film was well-re.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[2008]
+Action 3: Finish[2008]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[2008]
+Action 3: Finish[2008]
+Observation 3: "Ip Man" is a 2008 Hong Kong biographical martial arts film based on the life of Ip Man, a grandmaster of the martial art Wing Chun. Directed by Wilson Yip, the film stars Donnie Yen in the title role. The story is set in the 1930s during the Sino-Japanese War and follows Ip Man as he resists the Japanese occupation of Foshan, China, and becomes a respected martial arts teacher.. The film was well-re.
+
+
+
+INFO {'steps': 5, 'answer': '2008', 'gt_answer': '2008', 'question_idx': 5334, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 18 
+Number of steps: 50 
+Average reward: 0.36 
+Average time 25.487318139076233
+
+-------------------------------------------------------
+

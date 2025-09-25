@@ -1,0 +1,53 @@
+INFO 165 Question: In 1967, there were how many active members in the organization whose first Grand Wizard was convicted for the 1966 murder of Vernon Dahmer?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Vernon Dahmer]
+Action 1: Search[Vernon Dahmer]
+Observation 1: Vernon Ferdinand Dahmer Sr. (March 10, 1908 – January 10, 1966) was an American civil rights movement leader and president of the Forrest County chapter of the NAACP in Hattiesburg, Mississippi. He was murdered by the White Knights of the Ku Klux Klan for his work on recruiting Black Americans to vote.[1]. Vernon Dahmer was born on March 10, 1908, in the Kelly Settlement, Forrest County, Mississippi, to Ellen Louvenia (née Kelly) and George Washington Dahmer. George Dahmer, whose parents were German immigrants from Hesse-Darmstadt, was known as an honest, hardworking farmer of integrity.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Vernon Dahmer 1966 murder]
+Action 1: Search[Vernon Dahmer 1966 murder]
+Observation 1: **Vernon Ferdinand Dahmer Sr.** (March 10, 1908 – January 10, 1966) was an American civil rights leader and businessman in Hattiesburg, Mississippi. He was a prominent figure in the local chapter of the National Association for the Advancement of Colored People (NAACP) and a staunch advocate for African American voting rights during the Civil Rights Movement.. **Early Life and Career:**. Dahmer was born in Forrest County,.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[White Knights of the Ku Klux Klan]
+Action 2: Search[White Knights of the Ku Klux Klan]
+Observation 2: The White Knights of the Ku Klux Klan is a Ku Klux Klan (KKK) organization primarily located in Mississippi and Louisiana and active in the United States. The organization is  known for using violence against the activists in the civil rights movement.. It originated in Mississippi and Louisiana in the early 1960s under the leadership of Samuel Bowers, its first Imperial Wizard.[1] The White Knights of Mississippi were formed in December 1963,[2] when they separated from the Original Knights of Mississippi after the resignation of Imperial Wizard Roy Davis.[3] Roughly 200 members of the Original Knights of Louisiana also joined the White Knights. Within a year, their membership was up to around six thousand, and they had Klaverns (local branches of the Ku Klux Klan) in over half of the counties in Mississippi. By 1967, the number of active members had declined to around four hundred.[4] Similar to the United Klans of America (UKA), the White Knights are very secretive about their group..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[convicted]
+Action 2: Lookup[convicted]
+Observation 2: The White Knights of the Ku Klux Klan (WKKKK) was a Ku Klux Klan group that was active in the United States, particularly in Mississippi, during the 1960s. It was led by Samuel Bowers, who was also known as the Imperial Wizard. The WKKKK was one of the most violent and extreme Klan factions, responsible for numerous acts of terrorism, including bombings, arson, assaults, and murders, primarily targeting African Americans and civil rights activists..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[around four hundred]
+Action 3: Finish[around four hundred]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Ku Klux Klan terminology]
+Action 3: Search[Ku Klux Klan terminology]
+Observation 3: The White Knights of the Ku Klux Klan (WKKKK) was a Ku Klux Klan group that was active in the United States, particularly in Mississippi, during the 1960s. It was led by Samuel Bowers, who was also known as the Imperial Wizard. The WKKKK was one of the most violent and extreme Klan factions, responsible for numerous acts of terrorism, including bombings, arson, assaults, and murders, primarily targeting African Americans and civil rights activists..
+
+
+
+INFO {'steps': 5, 'answer': 'around four hundred', 'gt_answer': 'around four hundred', 'question_idx': 7209, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 12 
+Number of steps: 19 
+Average reward: 0.631578947368421 
+Average time 11.188475320213719
+
+-------------------------------------------------------
+

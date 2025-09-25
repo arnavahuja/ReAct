@@ -1,0 +1,67 @@
+INFO 191 Question: Who wrote the novel that the movie directed by Stanley Kubrick that was sampled in the album "Where Blood and Fire Bring Rest" was based on?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Where Blood and Fire Bring Rest]
+Action 1: Search[Where Blood and Fire Bring Rest]
+Observation 1: Where Blood and Fire Bring Rest is the third studio album by American metalcore band Zao on Solid State/Tooth & Nail. It was the first album to feature vocalist Dan Weyandt after the departure of Shawn Jonas along with new bassists/guitarists, Russ Cogdell and Brett Detar. The album contains a sample from the film The Shining at the end of "Lies of Serpents, A River of Tears", as well as a sample from the horror film The Prophecy during the intro to "Ravage Ritual". It is often considered among the greatest metalcore albums ever made.[4][5][6]. The lyrics on Blood & Fire deal with personal issues that vocalist Dan Weyandt was dealing with at the time they were written.[7] The song "To Think Of You Is To Treasure An Absent Memory", deals with the suffering, and untimely deaths of Weyandt's friends and stepbrother.[1][7] "Lies of Serpents" and "Ravage Ritual" both deal with hypocrisy in the Christian church.[1].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search["Where Blood and Fire Bring Rest" Kubrick sample]
+Action 1: Search["Where Blood and Fire Bring Rest" Kubrick sample]
+Observation 1: {{Infobox book. | name        = Where Blood and Fire Bring Rest. | author      = C.S. Friedman. | cover_artist =.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[The Shining]
+Action 2: Search[The Shining]
+Observation 2: Could not find [The Shining]. Similar: ['Shining', 'The Shining (film)', 'The Shining (novel)', 'Shining Path', 'The Shining (miniseries)'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Stanley Kubrick]
+Action 2: Search[Stanley Kubrick]
+Observation 2: **The Shining**. **The Shining** is a 1977 horror novel by American author Stephen King. It is King's third published novel and his first hardcover bestseller. The story follows Jack Torrance, an aspiring writer and recovering alcoholic, who accepts a position as the off-season caretaker of the isolated Overlook Hotel in the Colorado Rockies. He moves there with his wife, Wendy, and their young son, Danny, who possesses psychic abilities known as "the shining." As.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[The Shining (novel)]
+Action 3: Search[The Shining (novel)]
+Observation 3: The Shining is a 1977 horror novel by American author Stephen King. It is King's third published novel and first hardcover bestseller; its success firmly established King as a preeminent author in the horror genre. The setting and characters are influenced by King's personal experiences, including both his visit to The Stanley Hotel in 1974 and his struggle with alcoholism. The novel was adapted into a 1980 film and a 1997 miniseries. The book was followed by a sequel, Doctor Sleep, published in 2013, which in turn was adapted into a 2019 film..
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Stephen King]
+Action 3: Finish[Stephen King]
+Observation 3: **The Shining** is a 1977 horror novel by American author Stephen King. It is King's third published novel and his first hardcover bestseller. The story follows Jack Torrance, an aspiring writer and recovering alcoholic, who accepts a position as the off-season caretaker of the isolated Overlook Hotel in the Colorado Rockies. He moves there with his wife, Wendy, and their young son, Danny, who possesses "the shining," a psychic ability that allows him to see the hotel.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[Stephen King]
+Action 4: Finish[Stephen King]
+Observation 4: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[Stephen King]
+Action 4: Finish[Stephen King]
+Observation 4: **The Shining** is a 1977 horror novel by American author Stephen King. It is King's third published novel and his first hardcover bestseller. The story follows Jack Torrance, an aspiring writer and recovering alcoholic, who accepts a position as the off-season caretaker of the isolated Overlook Hotel in the Colorado Rockies. He moves there with his wife, Wendy, and their young son, Danny, who possesses "the shining," a psychic ability that allows him to see the hotel.
+
+
+
+INFO {'steps': 7, 'answer': 'Stephen King', 'gt_answer': 'Stephen King', 'question_idx': 2522, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 13 
+Number of steps: 29 
+Average reward: 0.4482758620689655 
+Average time 22.09298738117876
+
+-------------------------------------------------------
+

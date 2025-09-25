@@ -1,0 +1,67 @@
+INFO 6562 Question: Who died in the battle located near the River Boyne in Ireland?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Battle of the Boyne]
+Action 1: Search[Battle of the Boyne]
+Observation 1: The Battle of the Boyne (Irish: Cath na Bóinne IPA: [ˈkah n̪ˠə ˈbˠoːn̠ʲə]) took place in 1690 between the forces of the deposed King James II, and those of King William III who, with his wife Queen Mary II (his cousin and James's daughter), had acceded to the Crowns of England and Scotland[b] in 1689. The battle was fought across the River Boyne close to the town of Drogheda in the Kingdom of Ireland, modern-day Ireland, and resulted in a victory for William. This turned the tide in James's failed attempt to regain the British crown and ultimately aided in ensuring the continued Protestant ascendancy in Ireland.. The battle took place on 1 July 1690 O.S. William's forces defeated James's army, which consisted mostly of raw recruits.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Battle of the Boyne]
+Action 1: Search[Battle of the Boyne]
+Observation 1: The Battle of the Boyne was fought on 1 July 1690 between the forces of the deposed King James II of England, and those of Dutch Prince William of Orange who, with his wife Mary II (his cousin and James II's daughter), had acceded to the Crowns of England and Scotland in 1689. The battle took place across the River Boyne near the town of Drogheda in the Kingdom of Ireland, and resulted in a victory for William. This battle.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Lookup[deaths]
+Action 2: Lookup[deaths]
+Observation 2: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[died]
+Action 2: Lookup[died]
+Observation 2: The Battle of the Boyne was fought on 1 July 1690 between the forces of the deposed King James II of England, and those of Dutch Prince William of Orange who, with his wife Mary II (his cousin and James II's daughter), had acceded to the Crowns of England and Scotland in 1689. The battle took place across the River Boyne near the town of Drogheda in the Kingdom of Ireland, and resulted in a victory for William. This battle.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Lookup[died]
+Action 3: Lookup[died]
+Observation 3: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[Battle of the Boyne deaths].
+Action 3: Lookup[Battle of the Boyne deaths].
+Observation 3: The Battle of the Boyne was fought on 1 July 1690 between the forces of the deposed King James II of England, and those of Dutch Prince William of Orange who, with his wife Mary II (his cousin and James II's daughter), had acceded to the Crowns of England and Scotland in 1689. The battle took place across the River Boyne near the town of Drogheda in the Kingdom of Ireland, and resulted in a victory for William. This battle.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[Specific individuals who have died in the Battle of the Boyne is not mentioned in the available text.]
+Action 4: Finish[Specific individuals who have died in the Battle of the Boyne is not mentioned in the available text.]
+Observation 4: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[Battle of the Boyne casualties]
+Action 4: Search[Battle of the Boyne casualties]
+Observation 4: The Battle of the Boyne was fought on 1 July 1690 between the forces of the deposed King James II of England, and those of Dutch Prince William of Orange who, with his wife Mary II (his cousin and James II's daughter), had acceded to the Crowns of England and Scotland in 1689. The battle took place across the River Boyne near the town of Drogheda in the Kingdom of Ireland, and resulted in a victory for William. This battle.
+
+
+
+INFO {'steps': 7, 'answer': 'Specific individuals who have died in the Battle of the Boyne is not mentioned in the available text.', 'gt_answer': 'Eochaid or Eochu Étgudach', 'question_idx': 5260, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 4 
+Number of steps: 21 
+Average reward: 0.19047619047619047 
+Average time 26.986533675874984
+
+-------------------------------------------------------
+

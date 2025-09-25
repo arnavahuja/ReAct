@@ -1,0 +1,109 @@
+INFO 3112 Question: What North Carolina native did Danja produce songs for?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Danja]
+Action 1: Search[Danja]
+Observation 1: Could not find [Danja]. Similar: ['Danja (music producer)', 'Danja', 'Danja, Nigeria', 'Sani Musa Danja', 'Ben Gazzara (redirect from Danja Gazzara)'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Danja]
+Action 1: Search[Danja]
+Observation 1: **Danja**. Danja (born **Nate Hills**) is an American record producer, songwriter, and musician. He is best known for his work with a wide range of prominent artists in the hip-hop, R&B, and pop genres.. **Early Life and Career Beginnings:**. Nate Hills was born and raised in Baltimore, Maryland.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Danja (music producer)]
+Action 2: Search[Danja (music producer)]
+Observation 2: Floyd Nathaniel Hills (born February 22, 1982), known professionally as Danja (/ˈdeɪndʒə/), is an American record producer from Virginia Beach, Virginia. Beginning his career as a co-producer for fellow Virginian Timbaland, he has since produced for Britney Spears, Dua Lipa, Usher, Keri Hilson, T.I., Nelly Furtado, Ciara, Mariah Carey, Madonna, Whitney Houston, Missy Elliott, M.I.A., Justin Timberlake, JoJo, Joe Jonas, Simple Plan, the Clutch, Pink, T-Pain, Diddy, Meek Mill, Björk, Duran Duran and Agnez Mo.. Hills was born in Virginia Beach, Virginia. He took up the drums and piano in his early teens. He got his start by playing in his church when he was growing up.[1].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[produced for]
+Action 2: Lookup[produced for]
+Observation 2: **Danja** (born **Nate Hills**) is an American record producer, songwriter, and musician. He is best known for his work with a wide range of prominent artists in the R&B, hip-hop, and pop genres.. **Early Life and Career Beginnings:**. Nate Hills was born and raised in Baltimore, Maryland. He developed an early passion for music and began honing his production skills.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Lookup[North Carolina]
+Action 3: Lookup[North Carolina]
+Observation 3: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[produce]
+Action 3: Lookup[produce]
+Observation 3: **Danja** (born **Nate Hills**) is an American record producer, songwriter, and musician. He is best known for his work with a wide range of prominent artists in the R&B, hip-hop, and pop genres.. **Early Life and Career Beginnings:**. Nate Hills was born and raised in Baltimore, Maryland. He developed an early passion for music and began honing his production skills.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[List of people from North Carolina]
+Action 4: Search[List of people from North Carolina]
+Observation 4: The following is a list of notable people who were born, raised, or closely associated with the U.S. state of North Carolina.. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us. HelpLearn to editCommunity portalRecent changesUpload fileSpecial pages. Donate.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[Danja productions North Carolina artist]
+Action 4: Search[Danja productions North Carolina artist]
+Observation 4: **List of People from North Carolina**. This is a list of notable individuals who were born in or have strong ties to the U.S. state of North Carolina.. **Arts and Entertainment**. *   **Andy Griffith** (1936–2012) - Actor, comedian, television producer, and singer.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[List of musicians from North Carolina]
+Action 5: Search[List of musicians from North Carolina]
+Observation 5: The following is a list of notable people who were born, raised, or closely associated with the U.S. state of North Carolina.. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us. HelpLearn to editCommunity portalRecent changesUpload fileSpecial pages. Donate.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Lookup[Danja]
+Action 5: Lookup[Danja]
+Observation 5: **Musicians from North Carolina**. North Carolina has a rich musical heritage, producing a diverse array of artists across various genres. From the bluegrass and folk traditions of the Appalachian Mountains to the soul and hip-hop scenes of its cities, the state has consistently contributed to the American musical landscape.. **Notable Musicians:**. *   **James Taylor:** A Grammy Award-winning singer-songwriter, Taylor is one of the most influential artists of his generation.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Lookup[Danja]
+Action 6: Lookup[Danja]
+Observation 6: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Search[Britney Spears]
+Action 6: Search[Britney Spears]
+Observation 6: **Musicians from North Carolina**. North Carolina has a rich musical heritage, producing a diverse array of artists across various genres. From the bluegrass and folk traditions of the Appalachian Mountains to the soul and hip-hop scenes of its cities, the state has consistently contributed to the American musical landscape.. **Notable Musicians:**. *   **James Taylor:** A Grammy Award-winning singer-songwriter, Taylor is one of the most influential artists of his generation.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Search[Britney Spears]
+Action 7: Search[Britney Spears]
+Observation 7: Britney Jean Spears (born December 2, 1981) is an American singer. Referred to as the "Princess of Pop", she has had a significant cultural impact in the 21st century, having been recognized as one of the first musicians credited with reviving the teen pop genre. She is known for her stage performances and for exploring musical genres ranging from pop to contemporary rhythm and blues, electropop, and adult contemporary.. One of three children, Spears was born in Mississippi. She developed an interest in music from an early age and began her professional career in 1992 as a cast member for the Ruthless! musical and the final two seasons of The All-New Mickey Mouse Club television series before signing with Jive Records in 1997.
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Search[Danja production discography]
+Action 7: Search[Danja production discography]
+Observation 7: Britney Jean Spears (born December 2, 1981) is an American singer, dancer, and actress. She is widely regarded as a pop icon and has been credited with the resurgence of teen pop during the late 1990s and early 2000s.. Born and raised in McComb, Mississippi, Spears began performing as a child, appearing in stage productions and television shows. She signed with Jive Records in 1997 and.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'J. Cole', 'question_idx': 4801, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 12 
+Number of steps: 31 
+Average reward: 0.3870967741935484 
+Average time 29.23634986723623
+
+-------------------------------------------------------
+

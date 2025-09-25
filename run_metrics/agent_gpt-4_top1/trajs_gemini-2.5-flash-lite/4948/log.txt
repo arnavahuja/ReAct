@@ -1,0 +1,109 @@
+INFO 4948 Question: What was the name of the company that produced  the first practical jet aircraft that first flew on 27 August 1939?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[first practical jet aircraft 27 August 1939]
+Action 1: Search[first practical jet aircraft 27 August 1939]
+Observation 1: Could not find first practical jet aircraft 27 August 1939. Similar: ['Fighter aircraft', 'Turbojet (redirect from Turbo-jet)', 'Jet engine', 'Timeline of jet power', 'History of the jet engine'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[first practical jet aircraft 27 August 1939]
+Action 1: Search[first practical jet aircraft 27 August 1939]
+Observation 1: **Heinkel He 178**. The **Heinkel He 178** was a German aircraft that made the world's first flight powered solely by a turbojet engine. The historic flight took place on **August 27, 1939**, piloted by Erich Warsitz.. **Development:**. The He 178 was developed by the German aircraft manufacturer Heinkel Flugzeugwerke.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[first practical jet aircraft]
+Action 2: Search[first practical jet aircraft]
+Observation 2: Could not find first practical jet aircraft. Similar: ['Four-engined jet aircraft', 'Jet fighter generations', 'Airplane (redirect from Plane (aircraft))', 'Dassault/Dornier Alpha Jet', 'Sixth-generation fighter (redirect from Sixth generation jet fighter)'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Finish[Heinkel Flugzeugwerke]
+Action 2: Finish[Heinkel Flugzeugwerke]
+Observation 2: The **Heinkel He 178** is widely recognized as the world's first aircraft to fly solely on the power of a turbojet engine. Its maiden flight took place on August 27, 1939, at Marienehe, Germany.. Designed by Hans von Ohain and built by Ernst Heinkel Flugzeugbau, the He 178 was a small, single-engine, low-wing monoplane. It was powered by the Heinkel.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Jet aircraft]
+Action 3: Search[Jet aircraft]
+Observation 3: A jet aircraft (or simply jet) is an aircraft (nearly always a fixed-wing aircraft) propelled by one or more jet engines.. Whereas the engines in propeller-powered aircraft generally achieve their maximum efficiency at much lower speeds and altitudes, jet engines achieve maximum efficiency at speeds close to or even well above the speed of sound. Jet aircraft generally cruise most efficiently at about Mach 0.8 (981 km/h (610 mph)) and at altitudes around 10,000–15,000 m (33,000–49,000 ft) or more.. The idea of the jet engine was not new, but the technical problems involved did not begin to be solved until the 1930s. Frank Whittle, an English inventor and RAF officer, began development of a viable jet engine in 1928,[1] and Hans von Ohain in Germany began work independently in the early 1930s.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Ernst Heinkel Flugzeugbau]
+Action 3: Finish[Ernst Heinkel Flugzeugbau]
+Observation 3: A **jet aircraft** is an aircraft propelled by jet engines. The term "jet aircraft" is often used to refer to a specific type of aircraft: one that uses a turbojet, turbofan, or turboprop engine to produce thrust.. **History:**. The concept of jet propulsion dates back centuries, with early ideas appearing in ancient Greece and China. However, the practical development of jet aircraft began in the early 20th century..
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Lookup[27 August 1939]
+Action 4: Lookup[27 August 1939]
+Observation 4: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[first practical jet aircraft]
+Action 4: Lookup[first practical jet aircraft]
+Observation 4: A **jet aircraft** is an aircraft propelled by jet engines. The term "jet aircraft" is often used to refer to a specific type of aircraft: one that uses a turbojet, turbofan, or turboprop engine to produce thrust.. **History:**. The concept of jet propulsion dates back centuries, with early ideas appearing in ancient Greece and China. However, the practical development of jet aircraft began in the early 20th century..
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[first jet aircraft]
+Action 5: Search[first jet aircraft]
+Observation 5: Could not find first jet aircraft. Similar: ['Jet aircraft', 'List of jet aircraft of World War II', 'Jet fighter generations', 'Cirrus Vision SF50 (redirect from Cirrus jet)', 'Embraer E-Jet family'].
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Search[First jet aircraft 1939]
+Action 5: Search[First jet aircraft 1939]
+Observation 5: The **Heinkel He 178** is widely recognized as the world's first aircraft to fly solely on the power of a turbojet engine. Its maiden flight took place on August 27, 1939, at Rostock-Marienehe, Germany.. **Development:**. The He 178 was developed by the German aircraft manufacturer Heinkel Flugzeugwerke. The project was spearheaded by engineer Hans von Ohain, who had independently conceived of and developed.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Search[History of the jet engine]
+Action 6: Search[History of the jet engine]
+Observation 6: Jet engines can be dated back to the invention of the aeolipile around 150 BC. This device used steam power directed through two nozzles so as to cause a sphere to spin rapidly on its axis.[1] So far as is known, it was not used for supplying mechanical power, and the potential practical applications of this invention were not recognized. It was simply considered a curiosity.. Archytas, the founder of mathematical mechanics, as described in the writings of Aulus Gellius five centuries after him, was reputed to have designed and built the first artificial, self-propelled flying device. This device was a bird-shaped model propelled by a jet of what was probably steam, said to have actually flown some 200 meters..
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Finish[Heinkel Flugzeugwerke]
+Action 6: Finish[Heinkel Flugzeugwerke]
+Observation 6: The **jet engine** is a type of reaction engine that discharges a fast-moving jet of fluid to generate thrust in accordance with Newton's third law of motion. The most common type of jet engine is the **gas turbine engine**, which is widely used in modern aircraft.. **Early Concepts and Inventions:**. The fundamental principle of the jet engine, expelling a jet of fluid to create thrust, has been understood for centuries.. *   **Aeolipile (1st Century.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Lookup[1939]
+Action 7: Lookup[1939]
+Observation 7: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Lookup[1939]
+Action 7: Lookup[1939]
+Observation 7: The **jet engine** is a type of reaction engine that discharges a fast-moving jet of fluid to generate thrust in accordance with Newton's third law of motion. The most common type of jet engine is the **gas turbine engine**, which is widely used in modern aircraft.. **Early Concepts and Inventions:**. The fundamental principle of the jet engine, expelling a jet of fluid to create thrust, has been understood for centuries.. *   **Aeolipile (1st Century.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'Heinkel Flugzeugwerke', 'question_idx': 2802, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 4 
+Number of steps: 19 
+Average reward: 0.21052631578947367 
+Average time 27.591923362330387
+
+-------------------------------------------------------
+

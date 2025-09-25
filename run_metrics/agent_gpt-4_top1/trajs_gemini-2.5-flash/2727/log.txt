@@ -1,0 +1,53 @@
+INFO 2727 Question: The Transylvanian Hound and Jack Russell Terrier were originally bred for what activity?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Transylvanian Hound]
+Action 1: Search[Transylvanian Hound]
+Observation 1: The Transylvanian Hound,[a] also known as the Transylvanian Scent Hound or Hungarian Hound,[1] is a Hungarian breed of scent hound used primarily for hunting. It originated in the former Kingdom of Hungary in the historical region of Transylvania, which is now part of Romania. It is strong and of medium size, characterized by a black body with tan and sometimes white markings on the muzzle, chest and extremities, and distinctive tan eyebrow spots. It has a high-pitched bark for a dog of its size. The breed was rescued from extinction by focused breeding efforts in the late twentieth century.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Transylvanian Hound]
+Action 1: Search[Transylvanian Hound]
+Observation 1: The **Transylvanian Hound** (Hungarian: *Erdélyi kopó*, Romanian: *Copoi ardelenesc*) is a rare dog breed native to Transylvania, a historical region in present-day Romania. It is a medium-sized scent hound, traditionally used for hunting deer, wild boar, and bear. The breed is known for its excellent sense of smell, endurance, and courage.. ## History. The Transylvanian Hound has a long and distinguished history, with its.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Jack Russell Terrier]
+Action 2: Search[Jack Russell Terrier]
+Observation 2: This is an accepted version of this page. The Jack Russell Terrier is a British breed of small terrier. It is principally white-bodied and smooth-, rough- or broken-coated, and can be any colour.. It derives from dogs bred and used for fox-hunting in North Devon in the early nineteenth century by a country parson, Jack Russell – for whom the breed is named – and has similar origins to the modern Fox Terrier. Though closely similar, it is a distinct and different breed from the Parson Russell Terrier.[3].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Jack Russell Terrier]
+Action 2: Search[Jack Russell Terrier]
+Observation 2: {{Infobox dog breed. | name = Jack Russell Terrier. | image = Jack Russell Terrier.jpg. | alt = A white dog with brown patches on its head and back, standing on a grassy field.. | country = England.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[hunting]
+Action 3: Finish[hunting]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[bred]
+Action 3: Lookup[bred]
+Observation 3: {{Infobox dog breed. | name = Jack Russell Terrier. | image = Jack Russell Terrier.jpg. | alt = A white dog with brown patches on its head and back, standing on a grassy field.. | country = England.
+
+
+
+INFO {'steps': 5, 'answer': 'hunting', 'gt_answer': 'hunting', 'question_idx': 1140, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 16 
+Number of steps: 37 
+Average reward: 0.43243243243243246 
+Average time 21.282186488847476
+
+-------------------------------------------------------
+

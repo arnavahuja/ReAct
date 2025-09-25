@@ -1,0 +1,39 @@
+INFO 1477 Question: The most famous song of the last monarch of Hawaii was what?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to identify the last monarch of Hawaii and find her most famous song; I'll search for Liliuokalani.
+Action 1: Search[Liliuokalani]
+Observation 1: Queen Liliʻuokalani (Hawaiian pronunciation: [liˌliʔuokəˈlɐni]; Lydia Liliʻu Loloku Walania Kamakaʻeha; September 2, 1838 – November 11, 1917) was the only queen regnant and the last sovereign monarch of the Hawaiian Kingdom, ruling from January 29, 1891, until the overthrow of the Hawaiian Kingdom on January 17, 1893. The composer of "Aloha ʻOe" and numerous other works, she wrote her autobiography Hawaiʻi's Story by Hawaiʻi's Queen (1898) during her imprisonment following the overthrow.. Queen Liliʻuokalani was born in 1838 in Honolulu, on the island of Oʻahu. While her natural parents were Analea Keohokālole and Caesar Kapaʻakea, she was hānai (informally adopted) at birth by Abner Pākī and Laura Kōnia and raised with their daughter Bernice Pauahi Bishop. Baptized as a Christian and educated at the Royal School, she and her siblings and cousins were proclaimed eligible for the throne by King Kamehameha III.
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to identify the last monarch of Hawaii (Queen Liliʻuokalani) and find her most famous song.
+Action 1: Search[Liliuokalani]
+Observation 1: **Liliʻuokalani** (born **Lydia Kamakaʻeha M. L. Liliʻuokalani**; September 2, 1838 – November 11, 1917) was the last sovereign monarch of the Hawaiian Kingdom. She reigned from January 29, 1891, until the overthrow of the Hawaiian Kingdom on January 17, 1893.. **Early Life and Education:**.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The page states she composed "Aloha ʻOe," which is known as her most famous song, so I can conclude the answer.
+Action 2: Finish[Aloha ʻOe]
+Observation 2: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 2: I should look for a mention of her most famous song within the current article.
+Action 2: Lookup[most famous]
+Observation 2: **Liliʻuokalani** (born **Lydia Kamakaʻeha M. L. Liliʻuokalani**; September 2, 1838 – November 11, 1917) was the last sovereign monarch of the Hawaiian Kingdom. She reigned from January 29, 1891, until the overthrow of the Hawaiian Kingdom on January 17, 1893.. **Early Life and Education:**.
+
+
+
+INFO {'steps': 3, 'answer': 'Aloha ʻOe', 'gt_answer': 'Aloha ʻOe', 'question_idx': 3607, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 1 
+Number of steps: 1 
+Average reward: 1.0 
+Average time 39.409931898117065
+
+-------------------------------------------------------
+

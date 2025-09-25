@@ -1,0 +1,60 @@
+INFO 6 Question: Paul Keenan composes works from Anglo-Saxon texts such as the codex donated to the library of Exeter Cathedral by whom?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: To answer this question, I need to find information about the codex donated to the library of Exeter Cathedral and who it was donated by. A good start would be to search "Exeter Cathedral codex".
+Action 1: [Search[Exeter Cathedral codex]] 
+        Action 1: Search[Exeter Cathedral codex]
+        Observation 1: Could not find Exeter Cathedral codex. Similar: ['Exeter Book', 'Vercelli Book (redirect from Anglo–Saxon Codex Vercellensis)', 'Leofric (bishop) (redirect from Leofric, Bishop of Exeter)', 'Saint Boniface (category Burials at Fulda Cathedral)', 'Old English literature']."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to search Paul Keenan, find the codex donated to the library of Exeter Cathedral, then find who donated it.
+Action 1: [Search[Paul Keenan], Search[Exeter Cathedral], Search[codex]] 
+        Action 1: ['Search[Paul Keenan]', 'Search[Exeter Cathedral]', 'Search[codex]']
+        Observation 1: The Exeter Cathedral Codex, also known as the Exeter Book, is an ancient manuscript that is one of the four major Anglo-Saxon poetic codices. It is believed to have been written in the late 10th century and is currently housed at Exeter Cathedral in Exeter, England. The codex contains a diverse collection of Old English poetry, including elegies, riddles, religious poems, and heroic narratives. It is considered a significant literary and cultural artifact, providing valuable insights."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The search for "Exeter Cathedral codex" did not yield any direct results. I am thinking that the codex could be the 'Exeter Book', so we should take this approach.  
+Action 2: [Search[Exeter Book]] 
+        Action 2: Search[Exeter Book]
+        Observation 2: The Exeter Book, also known as the Codex Exoniensis or Exeter Cathedral Library MS 3501, is a large codex of Old English poetry, believed to have been produced in the late tenth century AD.[1] It is one of the four major manuscripts of Old English poetry, along with the Vercelli Book in the chapter library of Vercelli Cathedral, Italy, the Nowell Codex in the British Library, and the Junius manuscript in the Bodleian Library in Oxford. The Exeter Book was given to what is now the Exeter Cathedral library by Leofric,[2] the first bishop of Exeter, in 1072. It is believed to have originally contained 130[3] or 131 leaves, of which the first 7[3] or 8 have been replaced with other leaves; the original first 8 leaves are lost.[citation needed] The Exeter Book is the largest and perhaps oldest[3][4] known manuscript of Old English literature,[2][5][6][7] containing about a sixth of the Old English poetry that has survived.[2][8]. In 2016 UNESCO recognized the book as "the foundation volume of English literature, one of the world's principal cultural artefacts".[9][10][11]. The Exeter Book is generally acknowledged to be one of the great works of the English Benedictine revival of the tenth century; the precise dates that it was written and compiled are unknown, although proposed dates range from 960 to 990.[14] This period saw a rise in monastic activity and productivity under the renewed influence of Benedictine principles and standards."
+
+SIMULATION TRAJECTORY:
+ Thought 2: The observation gives some general information about the Exeter Cathedral Codex, also known as the Exeter Book, but it doesn't mention who donated it. I'll need to search for information more specifically about the donation of the book.
+Action 2: [Search[Exeter Book donation], Lookup[donated], Lookup[Exeter Book]] 
+        Action 2: ['Search[Exeter Book donation]', 'Lookup[donated]', 'Lookup[Exeter Book]']
+        Observation 2: The Exeter Book is a 10th-century anthology of Anglo-Saxon poetry. It is one of the four major Anglo-Saxon literature codices, along with the Vercelli Book, the Junius manuscript, and the Nowell Codex. The Exeter Book is the largest surviving collection of Old English poetry and contains a diverse range of works, including elegies, riddles, religious poems, and heroic narratives. It is currently housed in the Exeter Cathedral Library in Exeter,."
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: The Exeter Book was given to the Exeter Cathedral library by Leofric, who was the first bishop of Exeter. Therefore, it is Leofric to whom the question is referring.
+Action 3: [Finish[Leofric]] 
+        Action 3: Finish[Leofric]
+        Observation 3: Episode finished, reward = 1
+"
+
+SIMULATION TRAJECTORY:
+ Thought 3: The search result for 'Exeter Book' provides information that this anthology of Anglo-Saxon poetry is housed in the Exeter Cathedral Library. However, it does not mention by whom it was donated. To find this, I should either look up 'donated' or search the name of the bishop mentioned in the suggested similar topics, 'Leofric (bishop)', as he might be the donor. 
+Action 3: [Lookup[donated], Search[Leofric (bishop)], Lookup[Leofric]] 
+        Action 3: ['Search[Leofric (bishop)]', 'Lookup[donated]', 'Lookup[Leofric]']
+        Observation 3: The Exeter Book is a 10th-century anthology of Anglo-Saxon poetry. It is one of the four major Anglo-Saxon literature codices, along with the Vercelli Book, the Junius manuscript, and the Nowell Codex. The Exeter Book is the largest surviving collection of Old English poetry and contains a diverse range of works, including elegies, riddles, religious poems, and heroic narratives. It is currently housed in the Exeter Cathedral Library in Exeter,."
+
+
+
+INFO {'steps': 5, 'answer': 'Leofric', 'gt_answer': 'Leofric', 'question_idx': 1802, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 4 
+Number of steps: 8 
+Average reward: 0.5 
+Average time 34.53639209270477
+
+--------------------------------------------------
+

@@ -1,0 +1,53 @@
+INFO 1267 Question: How old was William DuVall when Black Gives Way to Blue was certified gold by the RIAA?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need the date Black Gives Way to Blue was certified gold by the RIAA, then William DuVall’s birth date to compute his age at that time.
+Action 1: Search[Black Gives Way to Blue]
+Observation 1: Black Gives Way to Blue is the fourth studio album by the American rock band Alice in Chains, released on September 29, 2009, on the 17th anniversary of the release of their second album, Dirt.[1] It is their first record without original lead singer Layne Staley, who died in 2002, and their first album with new vocalist and rhythm guitarist William DuVall sharing vocal duties with lead guitarist/vocalist Jerry Cantrell, who sings lead vocals on most of the songs.[6][7][8][9] The title track is a tribute to Staley featuring Elton John on piano. This is the first Alice in Chains album released on Virgin Records and their first venture away from Columbia, who handled all of their previous releases. The album debuted at No. 5 on the Billboard 200,[10] and was certified gold by the RIAA on May 26, 2010,[11] with shipments exceeding 500,000 copies in the U.S. and over 1 million copies sold worldwide.[12] "Check My Brain" and "A Looking in View" were both nominated for the Grammy Award for Best Hard Rock Performance in 2010 and 2011, respectively.[13] Black Gives Way to Blue won Revolver magazine's Golden Gods Award for Album of the Year in 2010..
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need the RIAA gold certification date for Black Gives Way to Blue and William DuVall’s birth date to calculate his age at that time.
+Action 1: Search[Black Gives Way to Blue]
+Observation 1: **Black Gives Way to Blue** is the debut studio album by American rock band Alice in Chains, released on September 29, 2009, through Virgin Records. It is the band's first album of new material in 14 years, following the release of *Alice in Chains* in 1995. The album is also the first to feature vocalist and guitarist William DuVall, who joined the band in 2006, replacing original frontman Lay.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: I need William DuVall’s birth date to calculate his age on May 26, 2010.
+Action 2: Search[William DuVall]
+Observation 2: William Bradley DuVall[1] (born September 6, 1967)[2] is an American musician best known as the current co-lead vocalist and rhythm guitarist for the rock band Alice in Chains. He joined Alice in Chains in 2006, replacing the band's original lead singer, Layne Staley, who died in 2002, and shares vocal duties with guitarist/vocalist Jerry Cantrell. DuVall has recorded three albums with the band: 2009's Black Gives Way to Blue, 2013's The Devil Put Dinosaurs Here, and 2018's Rainier Fog.[3] DuVall won an ASCAP Pop Music Award for co-writing the song "I Know" for Dionne Farris in 1996, and has earned three Grammy Award nominations as a member of Alice in Chains.[4]. DuVall is also co-founder, lead singer, guitarist, and lyricist for Comes with the Fall. Since 2016, he has been the lead vocalist for the supergroup Giraffe Tongue Orchestra.
+
+SIMULATION TRAJECTORY:
+ Thought 2: The first paragraph does not mention the RIAA certification date. I should look up "gold" in the article to find when it was certified.
+Action 2: Lookup[gold]
+Observation 2: William DuVall (born September 11, 1967) is an American singer, songwriter, and guitarist. He is best known as the lead singer of the band Alice in Chains, a position he has held since 2006.. **Early Life and Career:**. DuVall was born in Atlanta, Georgia. He began his musical career in the early 1980s, playing in various bands in the Atlanta underground scene.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: The album was certified gold on May 26, 2010. William DuVall was born on September 6, 1967. By May 26, 2010, he had not yet reached his 43rd birthday, so he was 42.
+Action 3: Finish[42 years old]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: He was born on September 11, 1967. On May 26, 2010, he had not yet reached his 43rd birthday, so he was 42.
+Action 3: Finish[42 years old]
+Observation 3: William DuVall (born September 11, 1967) is an American singer, songwriter, and guitarist. He is best known as the lead singer of the band Alice in Chains, a position he has held since 2006.. **Early Life and Career:**. DuVall was born in Atlanta, Georgia. He began his musical career in the early 1980s, playing in various bands in the Atlanta underground scene.
+
+
+
+INFO {'steps': 5, 'answer': '42 years old', 'gt_answer': 'William Bradley DuVall (born September 6, 1967)', 'question_idx': 5046, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 2 
+Number of steps: 5 
+Average reward: 0.4 
+Average time 132.55569281578065
+
+-------------------------------------------------------
+

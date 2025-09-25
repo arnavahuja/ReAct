@@ -1,0 +1,100 @@
+INFO 1354 Question: What river has five waterfalls depicted on a state seal?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[state seals with waterfalls]
+Action 1: Search[state seals with waterfalls]
+Observation 1: Could not find state seals with waterfalls. Similar: ['List of waterfalls in Scotland', 'Seal of Colorado', "Seal of the People's Government of the People's Republic of China", 'Leopard seal', 'Great Seal of Scotland'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[state seal five waterfalls]
+Action 1: Search[state seal five waterfalls]
+Observation 1: The state seals of Oregon and Idaho feature waterfalls. The Oregon state seal includes a depiction of a waterfall, representing the natural beauty of the state. The Idaho state seal also features a waterfall, symbolizing the state's abundant water resources and scenic landscapes. Both seals highlight the importance of water and nature in these states' identities..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[state seal five waterfalls]
+Action 2: Search[state seal five waterfalls]
+Observation 2: Could not find state seal five waterfalls. Similar: ['State Emblem of India', "Seal of the People's Government of the People's Republic of China", 'Leopard seal', 'Great Falls (Missouri River) (category Waterfalls of Montana)', 'Silver Falls State Park'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[state seal five waterfalls]
+Action 2: Search[state seal five waterfalls]
+Observation 2: The State Seal of Five Waterfalls is a symbol representing the natural beauty and abundance of waterfalls in the region. The seal features five distinct waterfalls cascading down a mountainous landscape, surrounded by lush greenery and wildlife. Each waterfall is uniquely depicted, showcasing the diversity and grandeur of the waterfalls found in the area. The State Seal of Five Waterfalls serves as a reminder of the importance of preserving and protecting these natural wonders for future generations to enjoy..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[state seal with five waterfalls]
+Action 3: Search[state seal with five waterfalls]
+Observation 3: Could not find state seal with five waterfalls. Similar: ['State Emblem of India', "Seal of the People's Government of the People's Republic of China", 'Leopard seal', 'Great Falls (Missouri River) (category Waterfalls of Montana)', 'Silver Falls State Park'].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[state seal waterfalls]
+Action 3: Search[state seal waterfalls]
+Observation 3: The state seal with five waterfalls is a symbol used by the state of Oregon in the United States. It features a design with five waterfalls, representing the natural beauty and abundance of water in the state. The seal is often used on official documents and government buildings to represent the state of Oregon..
+
+
+
+STEP: 4
+
+ERROR Action not found in None 
+Retrying to get action...
+
+STEP: 5
+
+ERROR Action not found in None 
+Retrying to get action...
+
+STEP: 6
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 6: None
+Action 6: Search[states with many waterfalls]
+Observation 6: Could not find states with many waterfalls. Similar: ['List of waterfalls in India by height', 'List of waterfalls', 'List of waterfalls by height', 'Waterfall', 'Waterfalls (TLC song)'].
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Search[Oregon state seal waterfalls river]
+Action 6: Search[Oregon state seal waterfalls river]
+Observation 6: I'm sorry, I cannot provide verbatim text from Wikipedia. However, I can provide you with a brief summary of states in the United States known for having many waterfalls.. 1. **North Carolina**: Known as the "Land of Waterfalls," North Carolina is home to numerous stunning waterfalls, particularly in the western part of the state near the Blue Ridge Mountains and the Great Smoky Mountains National Park.. 2.
+
+
+
+STEP: 7
+
+ERROR Action not found in None 
+Retrying to get action...
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 7: None
+Action 7: Search[state seal]
+Observation 7: State seal may refer to one of the following:. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us. HelpLearn to editCommunity portalRecent changesUpload fileSpecial pages. Donate. Create account.
+
+SIMULATION TRAJECTORY:
+ Thought 7: None
+Action 7: Search[state seal with five waterfalls]
+Observation 7: The state seal is a symbol used by the government of a state to authenticate documents issued by the state. It typically features the official coat of arms or other emblem of the state, surrounded by text or other decorative elements. State seals are often used on official documents, such as laws, proclamations, and certificates, to indicate that they are issued by the state government. The design and use of state seals are usually regulated by state law or administrative rules..
+
+
+
+INFO {'steps': 11, 'answer': '', 'gt_answer': 'Missouri River', 'question_idx': 1586, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 3 
+Number of steps: 10 
+Average reward: 0.3 
+Average time 17.190467405319215
+
+-------------------------------------------------------
+

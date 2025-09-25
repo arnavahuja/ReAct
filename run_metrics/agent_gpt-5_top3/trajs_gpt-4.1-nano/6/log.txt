@@ -1,0 +1,105 @@
+INFO 6 Question: Who brewed the first espresso coffee in space, Patrick Baudry or Samantha Cristoforetti?
+
+STEP: 1
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+NORMAL TRAJECTORY:
+ Thought 1: Verify who brewed the first espresso in space; Samantha Cristoforetti is likely—confirm via Wikipedia.
+Action 1: Search[Samantha Cristoforetti] 
+        Action 1: Search[Samantha Cristoforetti]
+        Observation 1: Samantha Cristoforetti OMRI (Italian pronunciation: [saˈmanta kristofoˈretti]; born 26 April 1977) is an Italian European Space Agency (ESA) astronaut, former Italian Air Force pilot and engineer. She is the second of two women sent into space by ESA and the first from Italy. Cristoforetti holds the record for the longest uninterrupted spaceflight by a European astronaut (199 days, 16 hours),[1][2][3] and she held the record for the longest single space flight by a woman until this was broken by Peggy Whitson in June 2017,[4][5][6][7] and later by Christina Koch.[8] She took command of ISS Expedition 68 on 28 September 2022.[9][10]. In December 2021, Politico Europe named her as one of the "dreamers" in its annual list of the 28 most influential people in Europe.[11]. Cristoforetti was born in Milan in 1977."
+
+SIMULATION TRAJECTORY:
+ Thought 1:  
+        Action 1: ['Search[Samantha Cristoforetti]', 'Lookup[espresso]', 'Finish[Samantha Cristoforetti]']
+        Observation 1: Samantha Cristoforetti is an Italian astronaut and engineer, born on April 26, 1977, in Milan, Italy. She is a member of the European Space Agency (ESA) and is known for her work as an astronaut and her contributions to space exploration.. Cristoforetti graduated in Mechanical Engineering from the University of Padua in 2001. She joined the Italian Air Force, where she trained as a pilot and became a fighter pilot, accumulating over 1,500."
+
+
+
+STEP: 2
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+NORMAL TRAJECTORY:
+ Thought 2: The Samantha Cristoforetti page likely mentions the espresso event; scan it for “espresso.”
+Action 2: [Lookup[espresso]] 
+        Action 2: Lookup[espresso]
+        Observation 2: No more results.
+"
+
+SIMULATION TRAJECTORY:
+ Thought 2:  
+        Action 2: ['Search[Samantha Cristoforetti]', 'Lookup[espresso]', 'Finish[Samantha Cristoforetti]']
+        Observation 2: Samantha Cristoforetti is an Italian astronaut and engineer, born on April 26, 1977, in Milan, Italy. She is a member of the European Space Agency (ESA) and is known for her work as an astronaut and her contributions to space exploration.. Cristoforetti graduated in Mechanical Engineering from the University of Padua in 2001. She joined the Italian Air Force, where she trained as a pilot and became a fighter pilot, accumulating over 1,500."
+
+
+
+STEP: 3
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+STEP: 4
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+STEP: 5
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+STEP: 6
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+STEP: 7
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+NORMAL TRAJECTORY:
+ Thought 7: Thought: The Samantha Cristoforetti page’s first paragraph didn’t mention espresso; searching for ISSpresso should confirm who brewed the first espresso in space.
+
+Action 7: Search[ISSpresso] 
+        Action 7: Search[ISSpresso]
+        Observation 7: ISSpresso was the first espresso coffee machine designed for use in space, produced for the International Space Station by Argotec and Lavazza in a public-private partnership with the Italian Space Agency (ASI). ISSpresso was one of nine experiments selected by the Italian Space Agency for the Futura mission.[1] It was installed on the space station between 2015 and 2017, when it was returned to Earth.. In 2014, Argotec and Lavazza partnered to determine the feasibility of the project. Argotec then approached ASI, with Lavazza as a partner, and ASI agreed to sponsor the ISSpresso as an ASI payload on the ISS. NASA approval was then obtained.[2] During the same year a feasibility study with the creation of some subsystems was conducted in order to validate the technological choices.."
+
+SIMULATION TRAJECTORY:
+ Thought 7:  
+        Action 7: ['Lookup[espresso]', 'Finish[Samantha Cristoforetti]']
+        Observation 7: ISSpresso is a specialized espresso machine developed through a collaboration between the Italian space agency (ASI), the Italian company Argotec, and the multinational corporation Lavazza. Designed for use aboard the International Space Station (ISS), ISSpresso allows astronauts to prepare and enjoy espresso coffee in the microgravity environment of space. The machine was launched to the ISS in April 2015 aboard the SpaceX CRS-6 mission.. The development of ISSpresso aimed to replicate the traditional espresso experience in space,."
+
+
+
+INFO {'steps': 7, 'answer': '', 'gt_answer': 'Samantha Cristoforetti', 'question_idx': 5718, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 3 
+Number of steps: 8 
+Average reward: 0.375 
+Average time 355.9633910059929
+
+--------------------------------------------------
+

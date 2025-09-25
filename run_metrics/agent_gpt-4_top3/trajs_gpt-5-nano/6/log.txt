@@ -1,0 +1,44 @@
+INFO 6 Question: In which year did Baek Bong-ki appear in the South Korean drama film set in a high school?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: To find the year in which Baek Bong-ki appeared in a South Korean high school drama film, I need to search Baek Bong-ki and look for this film in his filmography.
+Action 1: Search[Baek Bong-ki] 
+        Action 1: Search[Baek Bong-ki]
+        Observation 1: Baek Bong-ki (Korean: 백봉기; born December 16, 1980) is a South Korean actor. He is best known for his roles in the noir film Once Upon a Time in High School (2004) and the military sitcom Blue Tower.[2][3][4]. This article about a South Korean actor is a stub. You can help Wikipedia by expanding it.. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to search Baek Bong-ki, find he appeared in which South Korean drama film set in a high school, then find the year the film was released.
+Action 1: [Search[Baek Bong-ki], Search[South Korean drama films], Search[High school drama films]] 
+        Action 1: ['Search[Baek Bong-ki]', 'Search[South Korean drama films]', 'Search[High school drama films]']
+        Observation 1: "
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The movie "Once Upon a Time in High School" is a drama film set in a high school where Baek Bong-ki played a role and it was filmed in 2004. Therefore, the year Baek Bong-ki appeared in a South Korean drama set in a High School is 2004.
+Action 2: Finish[2004] 
+        Action 2: Finish[2004]
+        Observation 2: Episode finished, reward = 1
+"
+
+SIMULATION TRAJECTORY:
+ Thought 2: The initial search does not mention a high school drama. I need to either lookup "high school" or "drama" to find more details on his filmography. 
+Action 2: [Lookup[high school], Lookup[drama], Search[Baek Bong-ki filmography]] 
+        Action 2: ['Search[Baek Bong-ki filmography]', 'Lookup[high school]', 'Lookup[drama]']
+        Observation 2: "
+
+
+
+INFO {'steps': 3, 'answer': '2004', 'gt_answer': '2004', 'question_idx': 4176, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 3 
+Number of steps: 8 
+Average reward: 0.375 
+Average time 53.93629187345505
+
+--------------------------------------------------
+

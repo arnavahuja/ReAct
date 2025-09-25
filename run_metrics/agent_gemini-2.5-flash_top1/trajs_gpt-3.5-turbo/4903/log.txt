@@ -1,0 +1,53 @@
+INFO 4903 Question: How many minutes outside of Carson City is the Moonlite BunnyRanch on Moonlight Road?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Moonlite BunnyRanch]
+Action 1: Search[Moonlite BunnyRanch]
+Observation 1: The Moonlite BunnyRanch is a legal, licensed brothel in Mound House, Nevada, United States, 6 miles (10 km) east of Carson City. First opened in 1955, it came to national attention under Dennis Hof, who owned the brothel from 1992 until his death in 2018.. The brothel now known as the Moonlite BunnyRanch first opened in 1955 as the Moonlight Ranch. There is a historical marker on the premises, found just inside of the property's original main gate, as the ranch is located near a stop on the original Pony Express. It operated discreetly until 1971, when Nevada began regulation of houses of prostitution.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Moonlite BunnyRanch]
+Action 1: Search[Moonlite BunnyRanch]
+Observation 1: The Moonlite BunnyRanch is a legal, licensed brothel located in Mound House, Nevada, United States. It is one of the best-known legal brothels in Nevada and has been in operation since 1955. The brothel is owned and operated by Dennis Hof, who also owns several other legal brothels in Nevada.. The Moonlite BunnyRanch has been featured in various media outlets, including television shows and documentaries. It has also been the subject of controversy and legal battles over.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Lookup[minutes]
+Action 2: Lookup[minutes]
+Observation 2: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Distance Carson City Mound House]
+Action 2: Search[Distance Carson City Mound House]
+Observation 2: The Moonlite BunnyRanch is a legal, licensed brothel located in Mound House, Nevada, United States. It is one of the best-known legal brothels in Nevada and has been in operation since 1955. The brothel is owned and operated by Dennis Hof, who also owns several other legal brothels in Nevada.. The Moonlite BunnyRanch has been featured in various media outlets, including television shows and documentaries. It has also been the subject of controversy and legal battles over.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[The Moonlite BunnyRanch is 6 miles (10 km) east of Carson City. The time in minutes is not directly provided in the text.]
+Action 3: Finish[The Moonlite BunnyRanch is 6 miles (10 km) east of Carson City. The time in minutes is not directly provided in the text.]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[The text does not specify the travel time in minutes, only the distance of 6 miles (10 km).]
+Action 3: Finish[The text does not specify the travel time in minutes, only the distance of 6 miles (10 km).]
+Observation 3: The Moonlite BunnyRanch is a legal, licensed brothel located in Mound House, Nevada, United States. It is one of the best-known legal brothels in Nevada and has been in operation since 1955. The brothel is owned and operated by Dennis Hof, who also owns several other legal brothels in Nevada.. The Moonlite BunnyRanch has been featured in various media outlets, including television shows and documentaries. It has also been the subject of controversy and legal battles over.
+
+
+
+INFO {'steps': 5, 'answer': 'The Moonlite BunnyRanch is 6 miles (10 km) east of Carson City. The time in minutes is not directly provided in the text.', 'gt_answer': 'a few minutes', 'question_idx': 6222, 'reward': False, 'em': False, 'f1': 0.09090909090909091}
+
+INFO Sum of rewards: 19 
+Number of steps: 49 
+Average reward: 0.3877551020408163 
+Average time 16.75934273369458
+
+-------------------------------------------------------
+

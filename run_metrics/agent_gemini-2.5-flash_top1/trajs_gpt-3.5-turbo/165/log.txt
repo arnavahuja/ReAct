@@ -1,0 +1,70 @@
+INFO 165 Question: The 1994 "The Shadow" co-stars Lone, Penelope Ann Miller, Peter Boyle, Jonathan Winters, Tim Curry and an actor that has received how many Emmy Award nominations?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[The Shadow (1994 film)]
+Action 1: Search[The Shadow (1994 film)]
+Observation 1: The Shadow is a 1994 American superhero film from Universal Pictures, produced by Martin Bregman, Willi Bear, and Michael Scott Bregman, and directed by Russell Mulcahy. It stars Alec Baldwin, supported by John Lone, Penelope Ann Miller, Peter Boyle, Ian McKellen, Jonathan Winters, and Tim Curry. The film is based on the pulp fiction character of the same name created in 1931 by Walter B. Gibson. The film was released to theaters on July 1, 1994, received mixed reviews, and was a commercial failure.[4].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[The Shadow (1994 film)]
+Action 1: Search[The Shadow (1994 film)]
+Observation 1: "The Shadow" is a 1994 American superhero film directed by Russell Mulcahy and based on the character of the same name created by Walter B. Gibson. The film stars Alec Baldwin as Lamont Cranston, a wealthy playboy who uses his alter ego, The Shadow, to fight crime in 1930s New York City. The supporting cast includes John Lone, Penelope Ann Miller, Peter Boyle, and Ian McKellen.. The film follows Cranston as he battles his nemesis.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Alec Baldwin Emmy Award nominations]
+Action 2: Search[Alec Baldwin Emmy Award nominations]
+Observation 2: Could not find Alec Baldwin Emmy Award nominations. Similar: ['Alec Baldwin', 'List of awards and nominations received by Alec Baldwin', 'Alec Baldwin filmography', 'List of awards and nominations received by Al Pacino', 'List of awards and nominations received by Meryl Streep'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[cast]
+Action 2: Lookup[cast]
+Observation 2: Alec Baldwin has received numerous Emmy Award nominations throughout his career. He has been nominated for the Primetime Emmy Award for Outstanding Lead Actor in a Comedy Series for his role as Jack Donaghy in the television series "30 Rock." Baldwin won the award in this category three times, in 2008, 2009, and 2010. Additionally, he has received nominations for his work as a host on "Saturday Night Live," winning the Primetime Emmy Award for Outstanding Supporting Actor in.
+
+
+
+STEP: 3
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 3: None
+Action 3: Search[List of awards and nominations received by Alec Baldwin]
+Observation 3: Alec Baldwin is an American actor known for his roles on stage and screen and has received three Primetime Emmy Awards, three Golden Globe Awards and eight Screen Actors Guild Awards as well as nominations for an Academy Award, a BAFTA Award, and a Tony Award.. Baldwin received his Academy Award nomination for Best Supporting Actor for his performance in the drama The Cooler (2003). He received 19 Primetime Emmy Award nominations, winning twice for his performance as Jack Donaghy in the Tina Fey created NBC sitcom 30 Rock (2008, 2009) and for his performance as Donald Trump on Saturday Night Live (2017). He has also received 11 Golden Globe Award nominations, winning for 30 Rock (2007, 2009, 2010), and 20 Screen Actors Guild Award nominations, winning eight times for 30 Rock. He received a British Academy Film Award nomination for his supporting performance in Nancy Meyers' romantic comedy It's Complicated (2009)..
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Alec Baldwin awards and nominations]
+Action 3: Search[Alec Baldwin awards and nominations]
+Observation 3: Alec Baldwin is an American actor and comedian who has received numerous awards and nominations throughout his career. He has won three Primetime Emmy Awards, three Golden Globe Awards, and two Screen Actors Guild Awards. Baldwin has also been nominated for an Academy Award, a Tony Award, and multiple other accolades for his work in film, television, and theater. Additionally, he has received honors such as the Cecil B. DeMille Award at the Golden Globes and a star on the Hollywood Walk of.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[19]
+Action 4: Finish[19]
+Observation 4: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[nominations]
+Action 4: Lookup[nominations]
+Observation 4: Alec Baldwin is an American actor and comedian who has received numerous awards and nominations throughout his career. He has won three Primetime Emmy Awards, three Golden Globe Awards, and two Screen Actors Guild Awards. Baldwin has also been nominated for an Academy Award, a Tony Award, and multiple other accolades for his work in film, television, and theater. Additionally, he has received honors such as the Cecil B. DeMille Award at the Golden Globes and a star on the Hollywood Walk of.
+
+
+
+INFO {'steps': 7, 'answer': '19', 'gt_answer': 'five', 'question_idx': 7356, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 6 
+Number of steps: 20 
+Average reward: 0.3 
+Average time 18.271720504760744
+
+-------------------------------------------------------
+

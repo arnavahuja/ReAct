@@ -1,0 +1,53 @@
+INFO 7356 Question: when the Marlins are the home team, games are played at this park which was LEED certified as the greenest MLB park in what year?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Marlins home park]
+Action 1: Search[Marlins home park]
+Observation 1: Could not find Marlins home park. Similar: ['LoanDepot Park', 'Miami Marlins', '2025 Miami Marlins season', 'History of the Miami Marlins', 'Giancarlo Stanton (category Florida Marlins players)'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Marlins home park]
+Action 1: Search[Marlins home park]
+Observation 1: Marlins Park is a baseball park located in Miami, Florida. It is the home of the Miami Marlins, the city's Major League Baseball franchise. The park opened in 2012 and has a seating capacity of 36,742. Marlins Park features a retractable roof, which can be closed during inclement weather or opened on clear days. The park also includes unique features such as a home run sculpture in the outfield and a saltwater aquarium behind home plate.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[LoanDepot Park]
+Action 2: Search[LoanDepot Park]
+Observation 2: LoanDepot Park (officially stylized as loanDepot park, and named Marlins Park until 2021) is a retractable roof stadium located in Miami, Florida, United States. It is the ballpark of Major League Baseball's Miami Marlins.[15] It is located on 17 acres (6.9 ha) on the site of the former Miami Orange Bowl in Little Havana about 2 miles (3 km) west of downtown Miami. Construction was completed in March 2012 for the 2012 season.. LoanDepot Park was LEED certified as the greenest MLB park in 2012.[16]  The building is the sixth MLB stadium to have a retractable roof. With a seating capacity of 37,442,[12] it is the third-smallest stadium in Major League Baseball by official capacity, and the smallest by actual capacity..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Marlins Park LEED certification]
+Action 2: Search[Marlins Park LEED certification]
+Observation 2: LoanDepot Park is a baseball park located in Miami, Florida. It is the home stadium of the Miami Marlins, a Major League Baseball team. The park opened in 2012 and has a seating capacity of approximately 37,000. LoanDepot Park features a retractable roof, which allows games to be played in any weather conditions. The stadium is known for its unique modern design and vibrant atmosphere during games.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[2012]
+Action 3: Finish[2012]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[LEED certified]
+Action 3: Lookup[LEED certified]
+Observation 3: LoanDepot Park is a baseball park located in Miami, Florida. It is the home stadium of the Miami Marlins, a Major League Baseball team. The park opened in 2012 and has a seating capacity of approximately 37,000. LoanDepot Park features a retractable roof, which allows games to be played in any weather conditions. The stadium is known for its unique modern design and vibrant atmosphere during games.
+
+
+
+INFO {'steps': 5, 'answer': '2012', 'gt_answer': '2012', 'question_idx': 6581, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 6 
+Number of steps: 10 
+Average reward: 0.6 
+Average time 27.63439769744873
+
+-------------------------------------------------------
+

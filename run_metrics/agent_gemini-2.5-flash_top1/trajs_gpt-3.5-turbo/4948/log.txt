@@ -1,0 +1,39 @@
+INFO 4948 Question: Broadbent Arena and Freedom Hall are landmarks of which U.S. city?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Broadbent Arena]
+Action 1: Search[Broadbent Arena]
+Observation 1: Broadbent Arena is a 6,600 seat multi-purpose arena[1] in Louisville, Kentucky. It was home to the Louisville Icehawks and Louisville RiverFrogs ECHL teams. The arena, along with Cardinal Stadium and Freedom Hall, is located on the grounds of the Kentucky Exposition Center in Louisville. The arena is used for equestrian events, and other fairground type activities. In January 2021, the arena was used as a major distribution site for COVID-19 vaccines..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Broadbent Arena]
+Action 1: Search[Broadbent Arena]
+Observation 1: Broadbent Arena is a multi-purpose arena located in Louisville, Kentucky, USA. It is part of the Kentucky Exposition Center and is used for a variety of events including concerts, sporting events, trade shows, and conventions. The arena has a seating capacity of approximately 6,600 and features a 130-foot by 130-foot arena floor. Broadbent Arena is named after former Kentucky State Fair Board chairman James Broadbent..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[Louisville, Kentucky]
+Action 2: Finish[Louisville, Kentucky]
+Observation 2: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Freedom Hall]
+Action 2: Search[Freedom Hall]
+Observation 2: Broadbent Arena is a multi-purpose arena located in Louisville, Kentucky, USA. It is part of the Kentucky Exposition Center and is used for a variety of events including concerts, sporting events, trade shows, and conventions. The arena has a seating capacity of approximately 6,600 and features a 130-foot by 130-foot arena floor. Broadbent Arena is named after former Kentucky State Fair Board chairman James Broadbent..
+
+
+
+INFO {'steps': 3, 'answer': 'Louisville, Kentucky', 'gt_answer': 'Louisville', 'question_idx': 4164, 'reward': False, 'em': False, 'f1': 0.6666666666666666}
+
+INFO Sum of rewards: 4 
+Number of steps: 17 
+Average reward: 0.23529411764705882 
+Average time 15.70469746870153
+
+-------------------------------------------------------
+

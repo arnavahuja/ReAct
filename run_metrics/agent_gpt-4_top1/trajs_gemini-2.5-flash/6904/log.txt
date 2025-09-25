@@ -1,0 +1,53 @@
+INFO 6904 Question: Are Chlidanthus and Maianthemum both flowering plants?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Chlidanthus]
+Action 1: Search[Chlidanthus]
+Observation 1: Chlidanthus is a genus of flowering plants in the family Amaryllidaceae native to  Argentina, Bolivia, and Peru.[1]. Chlidanthus has tunicate bulbs.[2][3] The leaves are linear.[4]. The inflorescence is a few-flowered umbel.[4] The pedicellate or sessile flowers have a slightly curved, elongate, tubular, marcescent perianth composed of six tepals, which does not have a corona.[5] The androecium consists of six basally fused stamens.[6] The curved filaments are very short. The erect style has a trifid stigma.[4] The trilocular capsule fruit bears numerous flat and thin seeds.[6] The flowers of Chlidanthus fragrans are pleasantly fragrant.[7]. The genus Chlidanthus Herb.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Chlidanthus]
+Action 1: Search[Chlidanthus]
+Observation 1: {{Taxobox. | name = *Chlidanthus*. | image = Chlidanthus fragrans.jpg. | image_width = 250px. | image_caption = *Chlidanthus fragrans*.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Maianthemum]
+Action 2: Search[Maianthemum]
+Observation 2: Maianthemum includes the former genus Smilacina and is a genus of perennial herbaceous flowering plants with fleshy, persistent rhizomes. It is widespread across much of North America, Europe and Asia,[1][2][3][4] and may be terrestrial, aquatic or epiphytic.[4] It is characterized by simple, unbranched stems that are upright, leaning or hanging down and have 2–17 foliage leaves. Leaves are simple and may clasp the stem or be short-petiolate. The inflorescence is terminal and either a panicle or a raceme with few to many pedicelate flowers. Most species have 6 tepals and 6 stamens; a few have parts in 4s.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[flowering]
+Action 2: Lookup[flowering]
+Observation 2: Maianthemum is a genus of flowering plants in the family Asparagaceae, subfamily Nolinoideae, native to North America, Europe, and Asia. It was formerly placed in the family Convallariaceae. The genus name *Maianthemum* is derived from the Greek words "maios" (May) and "anthemon" (flower), referring to the plant's typical flowering time.. **Description**. *Maianthemum* species are typically perennial herbaceous plants growing from rhizomes.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[yes]
+Action 3: Finish[yes]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[yes]
+Action 3: Finish[yes]
+Observation 3: Maianthemum is a genus of flowering plants in the family Asparagaceae, subfamily Nolinoideae, native to North America, Europe, and Asia. It was formerly placed in the family Convallariaceae. The genus name *Maianthemum* is derived from the Greek words "maios" (May) and "anthemon" (flower), referring to the plant's typical flowering time.. **Description**. *Maianthemum* species are typically perennial herbaceous plants growing from rhizomes.
+
+
+
+INFO {'steps': 5, 'answer': 'yes', 'gt_answer': 'yes', 'question_idx': 525, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 3 
+Number of steps: 4 
+Average reward: 0.75 
+Average time 26.093380212783813
+
+-------------------------------------------------------
+

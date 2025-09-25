@@ -1,0 +1,67 @@
+INFO 4164 Question: What son of Larry Johnson was born on November 19, 1979?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Larry Johnson]
+Action 1: Search[Larry Johnson]
+Observation 1: Could not find [Larry Johnson]. Similar: ['Larry Johnson (running back)', 'Larry Johnson', 'Larry C. Johnson', 'Larry Johnson (basketball, born 1969)', 'Larry Johnson (American football coach)'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Larry Johnson]
+Action 1: Search[Larry Johnson]
+Observation 1: Larry Johnson may refer to:. 1. Larry Johnson (basketball) - Larry Demetric Johnson (born March 14, 1969) is a retired American professional basketball player who played in the NBA for the Charlotte Hornets and New York Knicks.. 2. Larry Johnson (American football) - Larry Alphonso Johnson Jr.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Larry Johnson]
+Action 2: Search[Larry Johnson]
+Observation 2: Could not find [Larry Johnson]. Similar: ['Larry Johnson (running back)', 'Larry Johnson', 'Larry C. Johnson', 'Larry Johnson (basketball, born 1969)', 'Larry Johnson (American football coach)'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Larry Johnson (basketball)]
+Action 2: Search[Larry Johnson (basketball)]
+Observation 2: Larry Johnson may refer to:. 1. Larry Johnson (American football) - Larry Alphonso Johnson Jr. (born November 19, 1979) is a former American football running back who played in the National Football League (NFL) for the Kansas City Chiefs and the Cincinnati Bengals. He was a two-time Pro Bowl selection and known for his powerful running style..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Larry Johnson (running back)]
+Action 3: Search[Larry Johnson (running back)]
+Observation 3: Larry Alphonso Johnson Jr. (born November 19, 1979) is an American former professional football player who was a running back in the National Football League (NFL). He played college football for the Penn State Nittany Lions, winning the Maxwell Award and earning unanimous All-American honors in 2002. He was selected by the Kansas City Chiefs in the first round of the 2003 NFL draft, and also played for the Cincinnati Bengals, the Washington Redskins, and the Miami Dolphins.. Johnson was born in State College, Pennsylvania.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Larry Johnson Jr.]
+Action 3: Finish[Larry Johnson Jr.]
+Observation 3: Larry Johnson is a former American football running back who played in the National Football League (NFL). He was born on November 19, 1979, in Pomfret, Maryland. Johnson played college football at Penn State University before being selected by the Kansas City Chiefs in the first round of the 2003 NFL Draft.. During his NFL career, Johnson played primarily for the Kansas City Chiefs, where he established himself as one of the league's top running backs. He was known for his powerful.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[Larry Alphonso Johnson Jr.]
+Action 4: Finish[Larry Alphonso Johnson Jr.]
+Observation 4: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[son]
+Action 4: Lookup[son]
+Observation 4: Larry Johnson is a former American football running back who played in the National Football League (NFL). He was born on November 19, 1979, in Pomfret, Maryland. Johnson played college football at Penn State University before being selected by the Kansas City Chiefs in the first round of the 2003 NFL Draft.. During his NFL career, Johnson played primarily for the Kansas City Chiefs, where he established himself as one of the league's top running backs. He was known for his powerful.
+
+
+
+INFO {'steps': 7, 'answer': 'Larry Alphonso Johnson Jr.', 'gt_answer': 'Larry Alphonso Johnson Jr.', 'question_idx': 5891, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 20 
+Number of steps: 50 
+Average reward: 0.4 
+Average time 16.742205061912536
+
+-------------------------------------------------------
+

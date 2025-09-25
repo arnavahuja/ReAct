@@ -1,0 +1,39 @@
+INFO 3021 Question: George H. W. Bush,  a resident of West Oaks Subdivision in Houston Texas, became what number President in 1989?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[George H. W. Bush]
+Action 1: Search[George H. W. Bush]
+Observation 1: George Herbert Walker Bush[a] (June 12, 1924 – November 30, 2018) was the 41st president of the United States, serving from 1989 to 1993. A member of the Republican Party, he also served as the 43rd vice president under President Ronald Reagan from 1981 to 1989 and previously in various other federal positions.[1]. Born into a wealthy, established family in Milton, Massachusetts, Bush was raised in Greenwich, Connecticut. He attended Phillips Academy and served as a pilot in the United States Navy Reserve during World War II before graduating from Yale and moving to West Texas, where he established oil company Zapata Corporation. Following an unsuccessful run for the United States Senate in 1964, he was elected to represent Texas's 7th congressional district in 1966.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[George H. W. Bush]
+Action 1: Search[George H. W. Bush]
+Observation 1: **George Herbert Walker Bush** (June 12, 1924 – November 30, 2018) was an American politician who served as the 41st president of the United States from 1989 to 1993. A member of the Republican Party, he previously served as the 43rd vice president from 1981 to 1989 under President Ronald Reagan.. Born in Milton, Massachusetts.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[41st]
+Action 2: Finish[41st]
+Observation 2: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Finish[41st]
+Action 2: Finish[41st]
+Observation 2: **George Herbert Walker Bush** (June 12, 1924 – November 30, 2018) was an American politician who served as the 41st president of the United States from 1989 to 1993. A member of the Republican Party, he previously served as the 43rd vice president from 1981 to 1989 under President Ronald Reagan.. Born in Milton, Massachusetts.
+
+
+
+INFO {'steps': 3, 'answer': '41st', 'gt_answer': '41st', 'question_idx': 1631, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 3 
+Number of steps: 14 
+Average reward: 0.21428571428571427 
+Average time 9.293651410511561
+
+-------------------------------------------------------
+

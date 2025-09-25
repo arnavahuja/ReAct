@@ -1,0 +1,44 @@
+INFO 7090 Question: The 2015 CrossFit Games were held at what multiple-use sports complex that is approximately 14 miles south of Downtown Los Angeles?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to search for the 2015 CrossFit Games and find the location of the event. 
+Action 1: Search[2015 CrossFit Games] 
+        Action 1: Search[2015 CrossFit Games]
+        Observation 1: The 2015 CrossFit Games were the ninth CrossFit Games, which were held on July 21–26, 2015 at the StubHub Center in Carson, California.[1] Ben Smith was the men's winner, and Katrin Davidsdottir was the women's winner. The Affiliate Cup was won by CrossFit Mayhem Freedom from Cookeville, Tennessee, captained by four-time individual men's champion Rich Froning Jr. who moved to team competition this year.[2]. In the 2015 season, the 17 regions of previous seasons were combined into 8 "super-regions" for the Regionals. This season a Teenage competition for boys and girls was added in the Open for two age groups."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to search 2015 CrossFit Games and find the sports complex 14 miles south of Downtown Los Angeles that it was held at.
+Action 1: Search[2015 CrossFit Games], Search[CrossFit Games 2015], Lookup[Downtown Los Angeles] 
+        Action 1: ['Search[2015 CrossFit Games]', 'Search[CrossFit Games 2015]', 'Lookup[Downtown Los Angeles]']
+        Observation 1: The 2015 Reebok CrossFit Games was the ninth annual CrossFit Games, an event held from July 14–19, 2015, at the StubHub Center in Carson, California.. **Individual Competitors:**. *   **Men's Winner:** Ben Smith (USA). *   **Women's Winner:** Katrín Davíðsdóttir (ISL). **Team Competition:**."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The 2015 CrossFit Games were held at the StubHub Center in Carson, California. The question is asking about the sports complex about 14 miles south of Downtown Los Angeles. So the answer is StubHub Center.
+Action 2: Finish[StubHub Center] 
+        Action 2: Finish[StubHub Center]
+        Observation 2: Episode finished, reward = 1
+"
+
+SIMULATION TRAJECTORY:
+ Thought 2: The 2015 CrossFit Games were held at the StubHub Center in Carson, California. Therefore, the answer is StubHub Center. 
+Action 2: Finish[StubHub Center], Finish[StubHub Center], Finish[StubHub Center] 
+        Action 2: ['Finish[StubHub Center]', 'Finish[StubHub Center]', 'Finish[StubHub Center]']
+        Observation 2: The 2015 Reebok CrossFit Games was the ninth annual CrossFit Games, an event held from July 14–19, 2015, at the StubHub Center in Carson, California.. **Individual Competitors:**. *   **Men's Winner:** Ben Smith (USA). *   **Women's Winner:** Katrín Davíðsdóttir (ISL). **Team Competition:**."
+
+
+
+INFO {'steps': 3, 'answer': 'StubHub Center', 'gt_answer': 'StubHub Center', 'question_idx': 6162, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 6 
+Number of steps: 13 
+Average reward: 0.46153846153846156 
+Average time 25.781099759615383
+
+--------------------------------------------------
+

@@ -1,0 +1,60 @@
+INFO 1267 Question: Toni Braxton: Revealed was performed at a hotel and casino owned and operated by who?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: To find out who owned and operated the hotel and casino where "Toni Braxton: Revealed" was performed, I need to search for the show and find information about its performance location.
+Action 1: Search[Toni Braxton: Revealed] 
+        Action 1: Search[Toni Braxton: Revealed]
+        Observation 1: Toni Braxton: Revealed was the first concert residency by  American singer Toni Braxton. It was performed in the Flamingo Showroom at the Flamingo Las Vegas until the announcement of its cancellation on April 6, 2008.[2]. On May 19, 2006, the Flamingo Hotel and Casino in Las Vegas announced that Braxton would replace Wayne Newton as the casino's new headlining act from December 3, 2006.[3] The show, entitled Toni Braxton: Revealed, was to be performed six nights a week and was scheduled to run through to March 2007. Braxton later confirmed that she was extending her show through to August 2007. Due to its success, it was reported that Braxton would extend her show through to August 2010."
+
+SIMULATION TRAJECTORY:
+ Thought 1: To answer the question, I first need to search 'Toni Braxton: Revealed' and find out which hotel and casino Toni Braxton performed the show at.
+Action 1: Search[Toni Braxton: Revealed], Search[Revealed], Lookup[Toni Braxton: Revealed] 
+        Action 1: ['Search[Toni Braxton: Revealed]', 'Search[Revealed]', 'Lookup[Toni Braxton: Revealed]']
+        Observation 1: Toni Braxton is an American singer, songwriter, pianist, record producer, actress, and television personality. She began her career in the early 1990s as a founding member of the R&B group The Braxtons. Braxton achieved widespread success with her self-titled debut album in 1993, which spawned the Billboard Hot 100 number one singles "Another Sad Love Song" and "Breathe Again". Her second album, "Secrets" (199."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The show was performed at the Flamingo Hotel and Casino in Las Vegas. Now I need to search for Flamingo Las Vegas to find out who owns and operates it.
+Action 2: Search[Flamingo Las Vegas] 
+        Action 2: Search[Flamingo Las Vegas]
+        Observation 2: Flamingo Las Vegas (formerly the Flamingo Hilton[a]) is a casino hotel on the Las Vegas Strip in Paradise, Nevada. It is owned and operated by Caesars Entertainment. The Flamingo includes a 72,299 sq ft (6,716.8 m2) casino and a 28-story hotel with 3,460 rooms.. The resort was originally proposed by Billy Wilkerson, founder of The Hollywood Reporter, who purchased the land in 1945. Early the following year, he partnered with a trio of mobsters to obtain financing."
+
+SIMULATION TRAJECTORY:
+ Thought 2: The search did not return the required information. It seems I searched for the wrong entity. I should look for the location of "Toni Braxton: Revealed" performance, then I can look up the owner and operator of that venue. 
+Action 2: [Search[Toni Braxton: Revealed performance location], Lookup["Toni Braxton: Revealed"], Search["Toni Braxton: Revealed" venue]] 
+        Action 2: ['Search[Toni Braxton: Revealed performance location]', 'Search["Toni Braxton: Revealed" venue]', 'Lookup["Toni Braxton: Revealed"]']
+        Observation 2: Flamingo Las Vegas is a hotel and casino located on the Las Vegas Strip in Paradise, Nevada. It is owned and operated by Caesars Entertainment. The property was originally opened in 1946 as The Pink Flamingo Hotel & Casino. It was the third resort to open on the Strip and is the oldest resort still in operation today.. The Flamingo is known for its iconic pink neon sign and its tropical theme."
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: The Flamingo Hotel and Casino, where "Toni Braxton: Revealed" was performed, is owned and operated by Caesars Entertainment. So Caesars Entertainment is the answer to the question. 
+Action 3: Finish[Caesars Entertainment] 
+        Action 3: Finish[Caesars Entertainment]
+        Observation 3: Episode finished, reward = 0
+"
+
+SIMULATION TRAJECTORY:
+ Thought 3: The Flamingo Las Vegas, where the show "Toni Braxton: Revealed" was performed, is owned and operated by Caesars Entertainment.
+Action 3 Candidates: Finish[Caesars Entertainment], Search[Caesars Entertainment], Lookup[Caesars Entertainment] 
+        Action 3: ['Search[Caesars Entertainment]', 'Lookup[Caesars Entertainment]', 'Finish[Caesars Entertainment]']
+        Observation 3: Flamingo Las Vegas is a hotel and casino located on the Las Vegas Strip in Paradise, Nevada. It is owned and operated by Caesars Entertainment. The property was originally opened in 1946 as The Pink Flamingo Hotel & Casino. It was the third resort to open on the Strip and is the oldest resort still in operation today.. The Flamingo is known for its iconic pink neon sign and its tropical theme."
+
+
+
+INFO {'steps': 5, 'answer': 'Caesars Entertainment', 'gt_answer': 'Caesars Entertainment Corporation', 'question_idx': 2288, 'reward': False, 'em': False, 'f1': 0.8}
+
+INFO Sum of rewards: 2 
+Number of steps: 5 
+Average reward: 0.4 
+Average time 37.9403651714325
+
+--------------------------------------------------
+

@@ -1,0 +1,67 @@
+INFO 4302 Question: Where in the traditional West Riding of Lindsey is the Trolleybus Museum Located?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Trolleybus Museum]
+Action 1: Search[Trolleybus Museum]
+Observation 1: Could not find Trolleybus Museum. Similar: ['Trolleybus', 'East Anglia Transport Museum', 'The Trolleybus Museum at Sandtoft', 'List of trolleybus systems in the United Kingdom', 'Trolleybuses in London'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Trolleybus Museum]
+Action 1: Search[Trolleybus Museum]
+Observation 1: The Trolleybus Museum is a museum located in the United Kingdom that is dedicated to the preservation and display of trolleybuses. It is one of the largest collections of trolleybuses in the world and features a wide variety of vehicles from different eras and locations. The museum offers visitors the opportunity to see these historic vehicles up close and learn about the history of trolleybus transportation. In addition to its collection of trolleybuses, the museum also houses a number of related artifacts.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[The Trolleybus Museum at Sandtoft]
+Action 2: Search[The Trolleybus Museum at Sandtoft]
+Observation 2: The Trolleybus Museum at Sandtoft is a transport museum which specialises in the preservation of trolleybuses. It is located by the village of Sandtoft, near Belton on the Isle of Axholme in the English county of Lincolnshire.. The museum occupies part of the former RAF Sandtoft, an operational bomber airfield during the Second World War. RAF Sandtoft was disposed of by the RAF in 1958 and the site was acquired for the museum in November 1969. Since that time, volunteers have transformed a barren site into a museum with the addition of workshop, vehicle depot and exhibition building.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[located]
+Action 2: Lookup[located]
+Observation 2: The Trolleybus Museum at Sandtoft is a transport museum located in Sandtoft, North Lincolnshire, England. It is dedicated to the preservation of trolleybuses, which are electric buses that draw power from overhead wires using spring-loaded trolley poles.. The museum features a collection of trolleybuses from various cities and countries, showcasing the history and development of this mode of transportation. Visitors can explore the museum's indoor displays and outdoor trolleybus circuit, where they can ride.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[West Riding of Lindsey]
+Action 3: Search[West Riding of Lindsey]
+Observation 3: The West Riding of Lindsey was a division of the Lindsey part of Lincolnshire in England, along with the North and South ridings. It consisted of the north-western part of the county, and included the Isle of Axholme and the Aslacoe, Corringham, Manley, Lawress, and Well wapentakes.. The administrative centre of the riding was Kirton-in-Lindsey, and the meeting place of the riding was Spital-in-the-Street.[1] It is the most populous of the ridings, and covered 461 square miles (1,190 km2). At the time of the Domesday Book, the riding also contained Lincoln, although in 1409 the city left to become a county corporate. Other important towns included Gainsborough..
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Sandtoft]
+Action 3: Search[Sandtoft]
+Observation 3: The West Riding of Lindsey was a division of the historic county of Lincolnshire, England. It was one of three ridings in Lincolnshire, along with the North Riding and the South Riding. The West Riding of Lindsey covered the western part of the county and was known for its agricultural landscape and market towns.. The West Riding of Lindsey was abolished as an administrative division in 1974 as part of local government reorganization in England. The area is now part of the modern county of Lincolnshire,.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[Isle of Axholme, in the West Riding of Lindsey]
+Action 4: Finish[Isle of Axholme, in the West Riding of Lindsey]
+Observation 4: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[Isle of Axholme]
+Action 4: Search[Isle of Axholme]
+Observation 4: The West Riding of Lindsey was a division of the historic county of Lincolnshire, England. It was one of three ridings in Lincolnshire, along with the North Riding and the South Riding. The West Riding of Lindsey covered the western part of the county and was known for its agricultural landscape and market towns.. The West Riding of Lindsey was abolished as an administrative division in 1974 as part of local government reorganization in England. The area is now part of the modern county of Lincolnshire,.
+
+
+
+INFO {'steps': 7, 'answer': 'Isle of Axholme, in the West Riding of Lindsey', 'gt_answer': 'Isle of Axholme', 'question_idx': 1921, 'reward': False, 'em': False, 'f1': 0.5454545454545454}
+
+INFO Sum of rewards: 19 
+Number of steps: 45 
+Average reward: 0.4222222222222222 
+Average time 16.751382864846125
+
+-------------------------------------------------------
+

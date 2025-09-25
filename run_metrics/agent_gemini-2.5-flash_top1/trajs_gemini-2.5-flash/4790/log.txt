@@ -1,0 +1,81 @@
+INFO 4790 Question: Which Equerry to a British monarch was married to a Marchioness Camden?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Marchioness Camden]
+Action 1: Search[Marchioness Camden]
+Observation 1: Could not find Marchioness Camden. Similar: ['Rosemary Pratt, Marchioness Camden', 'Marjorie Pratt, Countess of Brecknock (redirect from Marjorie Pratt, Marchioness Camden)', 'George Spencer-Churchill, 6th Duke of Marlborough', 'Rosemary (given name)', '1921 in the United Kingdom'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Marchioness Camden]
+Action 1: Search[Marchioness Camden]
+Observation 1: The title of **Marchioness Camden** is a courtesy title held by the wife of the Marquess Camden. The Marquessate of Camden is a title in the Peerage of the United Kingdom.. Here's a breakdown of information, presented in a Wikipedia-style format:. ---. **Marchioness Camden**.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Rosemary Pratt, Marchioness Camden]
+Action 2: Search[Rosemary Pratt, Marchioness Camden]
+Observation 2: Cecil Rosemary Pratt, Marchioness Camden (née Pawle; 9 May 1921 – 27 February 2004) was a British socialite and artist, best known as the first wife of Group Captain Peter Townsend, who later became romantically involved with Princess Margaret.. She was the daughter of Brigadier Hanbury Pawle CBE DL (1886–1972), a Deputy Lieutenant for Hertfordshire, by his marriage to Mary Cecil Hughes-Hallett (d. 1971), both of whom were from families of the landed gentry.. On 17 July 1941 at Much Hadham, Hertfordshire, she married Peter Townsend (1914–1995). Townsend was a decorated Royal Air Force pilot, who early in the Second World War had brought down the first German bomber to crash in England since 1918.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Marquesses Camden]
+Action 2: Search[Marquesses Camden]
+Observation 2: **Rosemary Elizabeth Pratt, Marchioness Camden** (née Pawle; born 1955) is a British noblewoman and the current Marchioness Camden. She is the wife of David George Edward Henry Pratt, 6th Marquess Camden.. **Early Life and Family:**. Rosemary Elizabeth Pawle was born in 1955 to Major John Pawle and his wife, Elizabeth Pawle (née Smith). Her father, Major John Pawle, was a.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Peter Townsend]
+Action 3: Search[Peter Townsend]
+Observation 3: Could not find [Peter Townsend]. Similar: ['Peter Townsend (RAF officer)', 'Peter Townsend (golfer)', 'Peter Townsend', 'Stuart Townsend', 'Peter Townsend (sociologist)'].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[husband]
+Action 3: Lookup[husband]
+Observation 3: **Peter Dennis Blandford Townshend** (born 13 May 1945) is an English musician, singer, songwriter, and multi-instrumentalist, best known as the lead guitarist, backing vocalist, and principal songwriter for the rock band The Who.. **Early Life and Education:**. Townshend was born in Chiswick, West London, to musical parents. His father, Clifford "Cliff" Townshend, was a professional alto saxophonist in the.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Peter Townsend (RAF officer)]
+Action 4: Search[Peter Townsend (RAF officer)]
+Observation 4: Group Captain Peter Wooldridge Townsend, CVO, DSO, DFC & Bar (22 November 1914 – 19 June 1995), was a British Royal Air Force officer, flying ace, courtier and author. He was equerry to King George VI from 1944 to 1952 and held the same position for Elizabeth II from 1952 to 1953. Townsend notably had a romance with Princess Margaret, Elizabeth's younger sister.. Peter Wooldridge Townsend was born on 22 November 1914 in Rangoon, Burma, to doctor's son Lieutenant Colonel Edward Copleston Townsend, of the British Indian Army,[1] and his wife, Gladys, daughter of Herbert Hatt-Cook, of Hartford Hall, Cheshire.[2][3][4] At the time of the marriage his father was 42, 20 years older than his bride.[5] The Townsend family, of Devon, tended to send its sons into the church or the armed forces.[1]. From 1928 to 1932, Townsend was educated at Haileybury and Imperial Service College, then an all-boys private school.[6].
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[Peter Townsend Princess Margaret]
+Action 4: Search[Peter Townsend Princess Margaret]
+Observation 4: **Peter Wooldridge Townsend (1914-1995)**. Peter Wooldridge Townsend was a distinguished British Royal Air Force (RAF) officer, a fighter ace during World War II, and later a courtier to the British Royal Family. He gained international notoriety for his romantic relationship with Princess Margaret, the younger sister of Queen Elizabeth II, in the 1950s.. **Early Life and Military Career:**. Born on November 22,.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Finish[Peter Townsend]
+Action 5: Finish[Peter Townsend]
+Observation 5: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Lookup[Equerry]
+Action 5: Lookup[Equerry]
+Observation 5: **Peter Wooldridge Townsend (1914-1995)**. Peter Wooldridge Townsend was a distinguished British Royal Air Force (RAF) officer, a fighter ace during World War II, and later a courtier to the British Royal Family. He gained international notoriety for his romantic relationship with Princess Margaret, the younger sister of Queen Elizabeth II, in the 1950s.. **Early Life and Military Career:**. Born on November 22,.
+
+
+
+INFO {'steps': 9, 'answer': 'Peter Townsend', 'gt_answer': 'Peter Wooldridge Townsend', 'question_idx': 3039, 'reward': False, 'em': False, 'f1': 0.8}
+
+INFO Sum of rewards: 6 
+Number of steps: 11 
+Average reward: 0.5454545454545454 
+Average time 12.319431825117631
+
+-------------------------------------------------------
+

@@ -1,0 +1,60 @@
+INFO 4948 Question: What river does Waterloo Bridge and London Eye have in common?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to search Waterloo Bridge and London Eye, and find the river they have in common.
+Action 1: Search[Waterloo Bridge] 
+        Action 1: Search[Waterloo Bridge]
+        Observation 1: Waterloo Bridge (/ˌwɔːtəˈluː/[1][2]) is a road and foot traffic bridge crossing the River Thames in London, between Blackfriars Bridge and Hungerford Bridge and Golden Jubilee Bridges. Its name commemorates the victory of the British, Dutch and Prussians at the Battle of Waterloo in 1815. Thanks to its location at a strategic bend in the river, the bridge offers good views of Westminster, the South Bank and the London Eye to the west, and of the City of London and Canary Wharf to the east.. The first bridge on the site was designed in 1809–10 by John Rennie for the Company of Proprietors of The Strand Bridge (the Strand Bridge Company). The Strand Bridge Company built the bridge privately, in return for charging tolls to cross it.."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to find the common river between Waterloo Bridge and London Eye. I'll start by finding information about Waterloo Bridge.
+Action 1: [Search[Waterloo Bridge], Search[Waterloo Bridge history], Lookup[Waterloo Bridge]] 
+        Action 1: ['Search[Waterloo Bridge]', 'Search[Waterloo Bridge history]', 'Lookup[Waterloo Bridge]']
+        Observation 1: Waterloo Bridge is a road and foot traffic bridge crossing the River Thames in London, England. It connects the South Bank and Waterloo district in London with the Strand and Aldwych in central London. The bridge was opened in 1945 during World War II and is often referred to as the "Ladies' Bridge" due to its construction primarily by women during the war. Waterloo Bridge is known for its elegant design and views of the city skyline, making it a popular spot for tourists and locals."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Waterloo Bridge crosses the River Thames in London. Now I need to search for London Eye and see if it's also associated with the same river.
+Action 2: Search[London Eye] 
+        Action 2: Search[London Eye]
+        Observation 2: The London Eye, originally the Millennium Wheel, is a cantilevered observation wheel on the South Bank of the River Thames in London. It is the world's tallest cantilevered observation wheel,[10] and the most popular paid tourist attraction in the United Kingdom with over three million visitors annually.[11] It has been featured numerous times in popular culture.. The structure is 135 metres (443 ft) tall and the wheel has a diameter of 120 metres (394 ft). When it opened to the public in 2000 it was the world's tallest Ferris wheel, until the 160-metre (525 ft) Star of Nanchang in China surpassed it in 2006. Unlike taller wheels, the Eye is cantilevered and supported solely by an A-frame on one side."
+
+SIMULATION TRAJECTORY:
+ Thought 2: Waterloo Bridge crosses the River Thames. I need to check if London Eye is also on the River Thames.
+Action 2: Search[London Eye], Lookup[River Thames], Finish[River Thames] 
+        Action 2: ['Search[London Eye]', 'Lookup[River Thames]', 'Finish[River Thames]']
+        Observation 2: The London Eye, also known as the Millennium Wheel, is a giant observation wheel located on the South Bank of the River Thames in London, England. It was officially opened to the public on March 9, 2000, as part of the city's millennium celebrations. The London Eye stands at a height of 135 meters (443 feet) and has a diameter of 120 meters (394 feet), making it one of the largest observation wheels in the world.. The wheel consists of 32."
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: The London Eye is also associated with the River Thames in London. So, the River Thames is the river that both Waterloo Bridge and London Eye have in common.
+Action 3: Finish[River Thames] 
+        Action 3: Finish[River Thames]
+        Observation 3: Episode finished, reward = 0
+"
+
+SIMULATION TRAJECTORY:
+ Thought 3: The London Eye is also located on the River Thames in London, just like the Waterloo Bridge. Therefore, the river that both the Waterloo Bridge and London Eye have in common is the River Thames.
+Action 3: Finish[River Thames], Finish[Thames], Finish[the River Thames] 
+        Action 3: ['Finish[River Thames]', 'Finish[Thames]', 'Finish[the River Thames]']
+        Observation 3: The London Eye, also known as the Millennium Wheel, is a giant observation wheel located on the South Bank of the River Thames in London, England. It was officially opened to the public on March 9, 2000, as part of the city's millennium celebrations. The London Eye stands at a height of 135 meters (443 feet) and has a diameter of 120 meters (394 feet), making it one of the largest observation wheels in the world.. The wheel consists of 32."
+
+
+
+INFO {'steps': 5, 'answer': 'River Thames', 'gt_answer': 'Thames', 'question_idx': 6417, 'reward': False, 'em': False, 'f1': 0.6666666666666666}
+
+INFO Sum of rewards: 6 
+Number of steps: 19 
+Average reward: 0.3157894736842105 
+Average time 49.83765889468946
+
+--------------------------------------------------
+

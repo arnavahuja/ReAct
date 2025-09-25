@@ -1,0 +1,95 @@
+INFO 4790 Question: Who is descended from William, 4th Lord Livingston and was a statesman from New York City?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[William, 4th Lord Livingston]
+Action 1: Search[William, 4th Lord Livingston]
+Observation 1: Could not find William, 4th Lord Livingston. Similar: ['William Livingston, 4th Lord Livingston', 'Livingston family', 'Earl of Linlithgow (redirect from Lord Livingston)', 'Alexander Livingston, 5th Lord Livingston', 'William Livingston (disambiguation)'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[William, 4th Lord Livingston]
+Action 1: Search[William, 4th Lord Livingston]
+Observation 1: **William Livingston, 4th Lord Livingston**. William Livingston, 4th Lord Livingston (c. 1555 – April 1621) was a Scottish nobleman and a prominent figure in the court of James VI of Scotland. He inherited the title of Lord Livingston from his father, Alexander Livingston, 3rd Lord Livingston, in 1592.. **Early Life and Family:**.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[William Livingston, 4th Lord Livingston]
+Action 2: Search[William Livingston, 4th Lord Livingston]
+Observation 2: William Livingston, 4th Lord Livingston of Callendar (died c. 1518) was a Scottish nobleman.. Livingston was the son of James Livingston, 3rd Lord Livingston and his wife, the former Agnes Houston. His sister, Elizabeth Livingston, married Robert Callander, grandson and heir apparent of Robert Callender of Dowradour. After his father's death around 1502, his mother remarried to John Forrester of Niddry.[1]. His maternal grandfather was John Houston of that Ilk and his paternal grandfather was Alexander Livingston, the second son of James Livingston, 1st Lord Livingston, who served as Great Chamberlain of Scotland during the reign of James II and James III of Scotland.[1].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[descendant]
+Action 2: Lookup[descendant]
+Observation 2: **William Livingston, 4th Lord Livingston** (c. 1528 – 1592) was a Scottish nobleman and a prominent figure in the turbulent political and religious landscape of 16th-century Scotland. He was a staunch supporter of Mary, Queen of Scots, throughout her reign and subsequent imprisonment, and his loyalty led to significant personal and political consequences.. **Early Life and Family:**. Born around 1528, William Livingston was the son.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Livingston family]
+Action 3: Search[Livingston family]
+Observation 3: The Livingston family of New York is a prominent family that migrated from Scotland to the Dutch Republic, and then to the Province of New York in the 17th century. Descended from the 4th Lord Livingston,[1] its members included signers of the United States Declaration of Independence (Philip Livingston) and the United States Constitution (William Livingston). Several members were Lords of Livingston Manor and Clermont Manor, located along the Hudson River in 18th-century eastern New York.. Descendants of the Livingstons include Presidents of the United States George H. W.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[descendant]
+Action 3: Lookup[descendant]
+Observation 3: The Livingston family is a prominent American family of Scottish origin, known for their significant contributions to American history, law, politics, and society. Their influence spans from the colonial era through the early republic and beyond.. **Origins and Early History:**. The family's American roots trace back to **Robert Livingston the Elder (1654–1728)**, who was born in Ancrum, Roxburghshire, Scotland. He immigrated to the Province of New York in 1.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Lookup[statesman from New York City]
+Action 4: Lookup[statesman from New York City]
+Observation 4: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[state man from New York City]
+Action 4: Lookup[state man from New York City]
+Observation 4: The Livingston family is a prominent American family of Scottish origin, known for their significant contributions to American history, law, politics, and society. Their influence spans from the colonial era through the early republic and beyond.. **Origins and Early History:**. The family's American roots trace back to **Robert Livingston the Elder (1654–1728)**, who was born in Ancrum, Roxburghshire, Scotland. He immigrated to the Province of New York in 1.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[Philip Livingston]
+Action 5: Search[Philip Livingston]
+Observation 5: Philip Livingston (January 15, 1716 – June 12, 1778) was an American Founding Father, merchant, politician, and slave trader from New York City. He represented New York at the October 1774 First Continental Congress, where he favored imposing economic sanctions upon Great Britain as a way of pressuring the British Parliament to repeal the Intolerable Acts.[1]  Livingston was also a delegate to the Second Continental Congress from 1775 to 1778, and signed the Declaration of Independence.[2]. Livingston was born in Albany, New York, on January 15, 1716,[3] the fourth surviving son of Philip Livingston (1686–1749), 2nd Lord of the Manor, and Catherine Van Brugh Livingston, the daughter of New York Mayor Pieter Van Brugh. Along with his brother, William Livingston (1723–1790), he grew up in the Albany area, dividing his time between his father's Albany townhouse and the manor house in Linlithgo, at the junction of the Roeliff Jansen Kill and the Hudson River.[4]. Livingston graduated from Yale College in 1737 and returned to Albany to undergo a mercantile apprenticeship under his father.[5] Through his father's influence, he obtained clerkships in Albany's municipal government.[6] Livingston subsequently moved to New York City and pursued a career in the import business, trading with the British West Indies.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Finish[Robert Livingston the Elder]
+Action 5: Finish[Robert Livingston the Elder]
+Observation 5: **Philip Livingston (1716–1778)** was an American merchant, statesman, and a signer of the Declaration of Independence. He was a prominent figure in colonial New York and played a significant role in the American Revolution.. **Early Life and Family:**. Born in Albany, New York, on January 15, 1716, Philip Livingston was the fourth son of Robert Livingston, Jr., the second lord of Livingston Manor, and Margarita Schuyler. His.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Finish[Philip Livingston]
+Action 6: Finish[Philip Livingston]
+Observation 6: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Finish[Philip Livingston]
+Action 6: Finish[Philip Livingston]
+Observation 6: **Philip Livingston (1716–1778)** was an American merchant, statesman, and a signer of the Declaration of Independence. He was a prominent figure in colonial New York and played a significant role in the American Revolution.. **Early Life and Family:**. Born in Albany, New York, on January 15, 1716, Philip Livingston was the fourth son of Robert Livingston, Jr., the second lord of Livingston Manor, and Margarita Schuyler. His.
+
+
+
+INFO {'steps': 11, 'answer': 'Philip Livingston', 'gt_answer': 'Philip Livingston', 'question_idx': 774, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 5 
+Number of steps: 11 
+Average reward: 0.45454545454545453 
+Average time 22.13694591955705
+
+-------------------------------------------------------
+

@@ -1,0 +1,53 @@
+INFO 4212 Question: As former head of Orange County Ironworks, what has his hit TLC show called?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Orange County Ironworks]
+Action 1: Search[Orange County Ironworks]
+Observation 1: Could not find Orange County Ironworks. Similar: ['Paul Teutul Jr.', 'Paul Teutul Sr.', 'American Chopper (section Paul Jr. leaves Orange County Choppers)', 'Michael Teutul', 'United States Merchant Marine'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Orange County Ironworks]
+Action 1: Search[Orange County Ironworks]
+Observation 1: Orange County Ironworks is a company based in Orange County, California, specializing in custom metal fabrication and welding services. They offer a wide range of products and services, including gates, fences, railings, and structural steel fabrication. With a team of skilled craftsmen and engineers, Orange County Ironworks is known for delivering high-quality, custom metalwork solutions to residential and commercial clients. The company has built a reputation for excellence in craftsmanship and customer service, making them a trusted provider in the industry..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Paul Teutul Sr.]
+Action 2: Search[Paul Teutul Sr.]
+Observation 2: Paul John Teutul (born May 1, 1949) is the founder of Orange County Choppers, a manufacturer of custom motorcycles and the focus of the reality television series American Chopper. He first appeared on the show with his sons Paul Jr. and Michael. In 2013, his new show Orange County Choppers premiered on CMT.[1]. Teutul was born in Yonkers, New York and grew up in Pearl River, New York.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Finish[I need more information about the "former head of Orange County Ironworks" to answer this question.]
+Action 2: Finish[I need more information about the "former head of Orange County Ironworks" to answer this question.]
+Observation 2: Paul John Teutul Sr. (born May 1, 1949) is an American motorcycle designer and builder, and the founder of Orange County Choppers, a custom motorcycle manufacturer. He gained fame as one of the stars of the reality television series "American Chopper," which aired from 2003 to 2010. Teutul is known for his distinctive style and often contentious relationship with his son, Paul Teutul Jr., who also worked at Orange County Choppers..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[American Chopper]
+Action 3: Finish[American Chopper]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[American Chopper]
+Action 3: Finish[American Chopper]
+Observation 3: Paul John Teutul Sr. (born May 1, 1949) is an American motorcycle designer and builder, and the founder of Orange County Choppers, a custom motorcycle manufacturer. He gained fame as one of the stars of the reality television series "American Chopper," which aired from 2003 to 2010. Teutul is known for his distinctive style and often contentious relationship with his son, Paul Teutul Jr., who also worked at Orange County Choppers..
+
+
+
+INFO {'steps': 5, 'answer': 'American Chopper', 'gt_answer': 'American Chopper', 'question_idx': 6563, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 10 
+Number of steps: 26 
+Average reward: 0.38461538461538464 
+Average time 18.13574877152076
+
+-------------------------------------------------------
+

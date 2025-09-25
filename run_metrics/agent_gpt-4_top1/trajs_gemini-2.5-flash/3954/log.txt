@@ -1,0 +1,53 @@
+INFO 3954 Question: What was the 2016 population of the city on the Bay Fundy which had an office of the Bank of British North America?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Bank of British North America in Bay of Fundy]
+Action 1: Search[Bank of British North America in Bay of Fundy]
+Observation 1: Could not find Bank of British North America in Bay of Fundy. Similar: ['Saint John River (Bay of Fundy)', 'Chesapeake Bay', 'New Brunswick (redirect from Transportation in New Brunswick)', 'Saint John, New Brunswick (redirect from South Bay, New Brunswick)', 'Nova Scotia (redirect from 14th British colony)'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Bay of Fundy city]
+Action 1: Search[Bay of Fundy city]
+Observation 1: The Bank of British North America (BBNA) had a significant, albeit perhaps less extensively documented, presence in the Bay of Fundy region during its operational years. While a dedicated Wikipedia page detailing the BBNA's specific activities *within* the Bay of Fundy might not exist, its broader history and the economic context of the time allow us to infer and describe its likely role.. **Bank of British North America in the Bay of Fundy**. The Bank of British North America (.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Saint John, New Brunswick]
+Action 2: Search[Saint John, New Brunswick]
+Observation 2: Saint John (French: Saint-Jean) is a seaport city located on the Bay of Fundy in the province of New Brunswick, Canada. It is Canada's oldest incorporated city,[b] established by royal charter on May 18, 1785, during the reign of George III.[9] The Port of Saint John is Canada's third-largest by tonnage with a cargo base that includes dry and liquid bulk, break bulk, containers, and cruise.[10] The city has a strong industrial base, including oil refining and manufacturing, matched with finance and tourism sectors and research institutions such as the New Brunswick Museum and the University of New Brunswick. Saint John was the most populous in New Brunswick for more than 230 years until the 2016 census, when it was overtaken by Moncton. It is currently the second-largest city in the province, with a population of 69,895 over an area of 315.59 km2 (121.85 sq mi).[11]. French explorer Samuel de Champlain landed at Saint John Harbour on June 24, 1604, the feast of St.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[city]
+Action 2: Lookup[city]
+Observation 2: **Saint John** is the largest city in New Brunswick, Canada, and the first incorporated city in what would become Canada. It is situated on the Bay of Fundy at the mouth of the Saint John River.. **History:**. *   **Indigenous History:** The area now known as Saint John has been inhabited for thousands of years by the Wolastoqiyik (Maliseet) and Mi'kmaq First Nations. They called the river "Wolastoq," meaning "beautiful.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[69,895]
+Action 3: Finish[69,895]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[population in 2016]
+Action 3: Lookup[population in 2016]
+Observation 3: **Saint John** is the largest city in New Brunswick, Canada, and the first incorporated city in what would become Canada. It is situated on the Bay of Fundy at the mouth of the Saint John River.. **History:**. *   **Indigenous History:** The area now known as Saint John has been inhabited for thousands of years by the Wolastoqiyik (Maliseet) and Mi'kmaq First Nations. They called the river "Wolastoq," meaning "beautiful.
+
+
+
+INFO {'steps': 5, 'answer': '69,895', 'gt_answer': '67,575', 'question_idx': 4543, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 13 
+Number of steps: 33 
+Average reward: 0.3939393939393939 
+Average time 22.17000436782837
+
+-------------------------------------------------------
+

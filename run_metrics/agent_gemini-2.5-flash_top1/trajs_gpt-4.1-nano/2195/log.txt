@@ -1,0 +1,109 @@
+INFO 2195 Question: What song by Soft Cell was sampled in a Rihanna song that had three video versions?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Soft Cell]
+Action 1: Search[Soft Cell]
+Observation 1: Soft Cell are an English synth-pop duo who came to prominence in the early 1980s. The duo consists of vocalist Marc Almond and instrumentalist David Ball. The band are primarily known for their 1981 hit version of "Tainted Love" and their platinum-selling debut album Non-Stop Erotic Cabaret.[2][3]. In the United Kingdom, Soft Cell had twelve top 40 hits,[4] including "Tainted Love" (number 1), "Torch" (number 2), "Say Hello, Wave Goodbye", "What" (both number 3), and "Bedsitter" (number 4). They also had four top 20 albums between 1981 and 1984.[4] The duo split in 1984 but reformed in 2001 to tour and release a new album.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Soft Cell]
+Action 1: Search[Soft Cell]
+Observation 1: Soft Cell is a British synth-pop duo formed in 1977 in Leeds, England. The group is best known for their 1981 hit single "Tainted Love," which became a worldwide success and remains one of the most recognizable songs of the 1980s. The duo consists of vocalist Marc Almond and instrumentalist David Ball.. Initially, Soft Cell gained recognition with their debut album *Non-Stop Erotic Cabaret* (1981), which featured several hit singles including "Tainted Love," "Bedsitter," and "Say Hello, Wave Goodbye." Their music is characterized by a blend of electronic synthesizers, drum machines, and Almond's distinctive vocal style, often exploring themes of sexuality, love, and urban life.. Soft Cell disbanded in 1984 but reunited in 2001, subsequently releasing new material and touring extensively.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Lookup[Tainted Love]
+Action 2: Lookup[Tainted Love]
+Observation 2: (Result 1 / 2) The group is best known for their 1981 hit single "Tainted Love," which became a worldwide success and remains one of the most recognizable songs of the 1980s.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Rihanna song sampled Soft Cell]
+Action 2: Search[Rihanna song sampled Soft Cell]
+Observation 2: Soft Cell is a British synth-pop duo formed in 1977 in Leeds, England. The group is best known for their 1981 hit single "Tainted Love," which became a worldwide success and remains one of the most recognizable songs of the 1980s. The duo consists of vocalist Marc Almond and instrumentalist David Ball.. Initially, Soft Cell gained recognition with their debut album *Non-Stop Erotic Cabaret* (1981), which featured several hit singles including "Tainted Love," "Bedsitter," and "Say Hello, Wave Goodbye." Their music is characterized by a blend of electronic synthesizers, drum machines, and Almond's distinctive vocal style, often exploring themes of sexuality, love, and urban life.. Soft Cell disbanded in 1984 but reunited in 2001, subsequently releasing new material and touring extensively.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Rihanna Tainted Love sample]
+Action 3: Search[Rihanna Tainted Love sample]
+Observation 3: Could not find Rihanna Tainted Love sample. Similar: ['SOS (Rihanna song)', 'Tainted Love', 'A Girl Like Me (Rihanna album)', 'List of songs recorded by Rihanna', 'Ed Cobb'].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Tainted Love Rihanna]
+Action 3: Search[Tainted Love Rihanna]
+Observation 3: Rihanna's song "Tainted Love" is a track from her discography that features a prominent sample of the classic song "Tainted Love," originally performed by Gloria Jones and famously covered by Soft Cell in 1981. The sample incorporates the distinctive synth-driven melody and rhythmic elements from the original track, blending them with Rihanna's contemporary R&B style. The use of this sample pays homage to the 1980s new wave sound while creating a modern reinterpretation. The song has been noted for its nostalgic yet fresh approach, highlighting Rihanna's ability to merge different musical eras. The sample has contributed to the song's popularity and has been recognized for its effective integration into Rihanna's musical style..
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Rihanna songs sampled Tainted Love]
+Action 4: Search[Rihanna songs sampled Tainted Love]
+Observation 4: Could not find Rihanna songs sampled Tainted Love. Similar: ['Tainted Love', 'SOS (Rihanna song)', 'List of songs recorded by Rihanna', 'A Girl Like Me (Rihanna album)', 'Ed Cobb (section Songs)'].
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[Rihanna song Tainted Love sample three video versions]
+Action 4: Search[Rihanna song Tainted Love sample three video versions]
+Observation 4: There are no known Rihanna songs that officially sample "Tainted Love." However, "Tainted Love," originally performed by Gloria Jones and famously covered by Soft Cell, has influenced many artists across various genres. Rihanna has not publicly released a track that directly samples or interpolates "Tainted Love" in her discography up to October 2023..
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[List of songs recorded by Rihanna]
+Action 5: Search[List of songs recorded by Rihanna]
+Observation 5: Barbadian singer Rihanna has recorded music for her eight studio albums and has collaborated with other artists for duets and featured songs on their respective albums, which also includes charity songs. After signing a record contract with the Def Jam Recordings in February 2005,[1] Rihanna began to work with producers Carl Sturken and Evan Rogers, who co-wrote and co-produced 12 out of the 15 songs on her 2005 debut album, Music of the Sun.[2] Award-winning songwriter Diane Warren co-wrote the title track,[2][3] while Grammy Award-winning singer-songwriter Deniece Williams co-wrote the song "Willing to Wait".[4] Sturken and Rogers co-wrote and co-produced 9 songs out of 16 on Rihanna's 2006 album A Girl like Me.[5] The album's lead single "SOS" was written by Evan "Kidd" Bogart and J. R. Rotem.[5] It contains a sped-up sample of "Tainted Love",[6] written in 1965 by Ed Cobb, who was credited as a co-writer on "SOS".[7]. Rihanna's third studio album Good Girl Gone Bad was developed by songwriters and producers with whom she had previously collaborated as well as different artists.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Search[Rihanna songs with three video versions]
+Action 5: Search[Rihanna songs with three video versions]
+Observation 5: List of songs recorded by Rihanna. Rihanna, the Barbadian singer, songwriter, and actress, has recorded numerous songs throughout her career spanning multiple albums and collaborations. Her discography includes a diverse range of musical styles, from pop and R&B to dance and reggae influences.. Studio Albums and Notable Songs:. 1.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Search[SOS (Rihanna song)]
+Action 6: Search[SOS (Rihanna song)]
+Observation 6: "SOS" is a song by Barbadian singer Rihanna, and included in her second studio album, A Girl Like Me (2006). It was released on February 13, 2006, through Def Jam Recordings as the lead single of the album. "SOS" was written by J. R. Rotem and E.
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Search[Tainted Love]
+Action 6: Search[Tainted Love]
+Observation 6: "SOS" is a song by Barbadian singer Rihanna from her second studio album, "A Girl like Me" (2006). The track was written by J. R. Rotem, Mikkel S. Eriksen, and Tor Erik Hermansen, and produced by Rotem.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Lookup[video versions]
+Action 7: Lookup[video versions]
+Observation 7: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Lookup[three video versions]
+Action 7: Lookup[three video versions]
+Observation 7: "SOS" is a song by Barbadian singer Rihanna from her second studio album, "A Girl like Me" (2006). The track was written by J. R. Rotem, Mikkel S. Eriksen, and Tor Erik Hermansen, and produced by Rotem.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'Tainted Love', 'question_idx': 3572, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 10 
+Number of steps: 23 
+Average reward: 0.43478260869565216 
+Average time 14.807664218156233
+
+-------------------------------------------------------
+

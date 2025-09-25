@@ -1,0 +1,109 @@
+INFO 2817 Question: Which author dedicated a 1985 romance novel to the author who did in 2009 and wrote under the pen name Gwyneth Moore?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Gwyneth Moore]
+Action 1: Search[Gwyneth Moore]
+Observation 1: Patricia Valeria Bannister[1] (November 21, 1923, in London, England[2] – November 18, 2009, in Bellevue, Washington[3]) was a writer of historical romance fiction from 1978 until 2002. She wrote under the names Patricia Veryan and Gwyneth Moore.[4]. Her novels, which were written in English, have been translated into several foreign languages including Italian and German. She is best known for her historical novels set during the Georgian and Regency periods.[5]. Bannister was an avid reader at a young age and began writing her own stories by the time she was six.[6] Bannister dropped out of school when she was fourteen, worked in a factory in London for some time and finally enrolled in Miss Lodge Secretarial School.[6] Between 1938 and 1940, she was a secretary for the armed forces in London.[6] She worked for Columbia Pictures as a secretary for a two years before working for the U.S.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Gwyneth Moore]
+Action 1: Search[Gwyneth Moore]
+Observation 1: Gwyneth Moore is an American actress and singer. She is known for her roles in television and film, as well as her work in musical theater.. **Early Life and Career:**. Moore began her career in the entertainment industry at a young age. She gained early recognition for her performances in various stage productions, honing her skills in acting and singing..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Lookup[1985 romance novel]
+Action 2: Lookup[1985 romance novel]
+Observation 2: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[1985 romance novel]
+Action 2: Lookup[1985 romance novel]
+Observation 2: Gwyneth Moore is an American actress and singer. She is known for her roles in television and film, as well as her work in musical theater.. **Early Life and Career:**. Moore began her career in the entertainment industry at a young age. She gained early recognition for her performances in various stage productions, honing her skills in acting and singing..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[1985 romance novel]
+Action 3: Search[1985 romance novel]
+Observation 3: Could not find 1985 romance novel. Similar: ['Family Album (novel)', 'List of Harlequin Romance novels', 'Romance novel', 'Exit to Eden (category American romance novels)', 'List of Harlequin Romance novels released in 1985'].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Patricia Veryan]
+Action 3: Search[Patricia Veryan]
+Observation 3: While there isn't a single Wikipedia page dedicated to "1985 Romance Novels" as a collective genre or trend, we can look at prominent romance novels published in 1985 and the broader context of the romance genre during that year.. **Prominent Romance Novels Published in 1985:**. *   **"The Flame and the Flower" by Kathleen E. Woodiwiss:** Although published earlier (1972), Woodiwiss remained a dominant.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Patricia Veryan]
+Action 4: Search[Patricia Veryan]
+Observation 4: Patricia Valeria Bannister[1] (November 21, 1923, in London, England[2] – November 18, 2009, in Bellevue, Washington[3]) was a writer of historical romance fiction from 1978 until 2002. She wrote under the names Patricia Veryan and Gwyneth Moore.[4]. Her novels, which were written in English, have been translated into several foreign languages including Italian and German. She is best known for her historical novels set during the Georgian and Regency periods.[5]. Bannister was an avid reader at a young age and began writing her own stories by the time she was six.[6] Bannister dropped out of school when she was fourteen, worked in a factory in London for some time and finally enrolled in Miss Lodge Secretarial School.[6] Between 1938 and 1940, she was a secretary for the armed forces in London.[6] She worked for Columbia Pictures as a secretary for a two years before working for the U.S.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[Kathleen E. Woodiwiss]
+Action 4: Search[Kathleen E. Woodiwiss]
+Observation 4: Patricia Veryan (born 1936) is an American author of historical romance novels. She is known for her meticulously researched and atmospheric novels set in England during the Regency and Georgian eras.. **Early Life and Education:**. Veryan was born in the United States and received a Bachelor of Arts degree from the University of California, Berkeley. She later pursued graduate studies in history at the University of London.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Lookup[died in 2009]
+Action 5: Lookup[died in 2009]
+Observation 5: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Lookup[dedicated]
+Action 5: Lookup[dedicated]
+Observation 5: Patricia Veryan (born 1936) is an American author of historical romance novels. She is known for her meticulously researched and atmospheric novels set in England during the Regency and Georgian eras.. **Early Life and Education:**. Veryan was born in the United States and received a Bachelor of Arts degree from the University of California, Berkeley. She later pursued graduate studies in history at the University of London.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Search[Patricia Veryan 1985 novel]
+Action 6: Search[Patricia Veryan 1985 novel]
+Observation 6: Could not find Patricia Veryan 1985 novel. Similar: ['Patricia Veryan', 'A Company of Swans (category 1985 British novels)', 'List of songs about Los Angeles'].
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Lookup[dedicated a 1985 romance novel]
+Action 6: Lookup[dedicated a 1985 romance novel]
+Observation 6: Patricia Veryan's 1985 novel is **The Lord of the Wild**.. **The Lord of the Wild** is a historical romance novel by Patricia Veryan, first published in 1985. It is the second book in her "Lord" series, following *The Lord of Darkness* (1984) and preceding *The Lord of the Dance* (1986).. **Plot Summary:**. The novel is set in the late.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Finish[The author could not be determined from the available information.]
+Action 7: Finish[The author could not be determined from the available information.]
+Observation 7: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Finish[insufficient data to answer the question]
+Action 7: Finish[insufficient data to answer the question]
+Observation 7: Patricia Veryan's 1985 novel is **The Lord of the Wild**.. **The Lord of the Wild** is a historical romance novel by Patricia Veryan, first published in 1985. It is the second book in her "Lord" series, following *The Lord of Darkness* (1984) and preceding *The Lord of the Dance* (1986).. **Plot Summary:**. The novel is set in the late.
+
+
+
+INFO {'steps': 13, 'answer': 'The author could not be determined from the available information.', 'gt_answer': 'Eva Ibbotson', 'question_idx': 778, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 6 
+Number of steps: 15 
+Average reward: 0.4 
+Average time 30.436678409576416
+
+-------------------------------------------------------
+

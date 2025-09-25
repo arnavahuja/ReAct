@@ -1,0 +1,53 @@
+INFO 274 Question: In what country are both Ugni and Stenomesson native plants?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Ugni]
+Action 1: Search[Ugni]
+Observation 1: Ugni is a genus of plants in the myrtle family Myrtaceae,  described as a genus in 1848.[1][2]  It is native to western Latin America from the Valdivian temperate rain forests of southern Chile (including the Juan Fernández Islands) and adjacent regions of southern Argentina, north to southern Mexico.[3]. They are shrubs with evergreen foliage, reaching 1–5 m tall. The leaves are opposite, oval, 1–4 cm long and 0.2-2.5 cm broad, entire, glossy dark green, with a spicy scent if crushed. The flowers are drooping, 1–2 cm diameter with four or five white or pale pink petals and numerous short stamens; the fruit is a small red or purple berry 1 cm diameter.[4][5][6]. The scientific name derives from the Mapuche Native American name Uñi for U.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Ugni]
+Action 1: Search[Ugni]
+Observation 1: **Ugni**. Ugni is a genus of shrubs in the family Myrtaceae, native to the temperate regions of South America, particularly Chile and Argentina. The genus is best known for its edible berries, which are commonly known as **Ugni berries** or **Chilean guavas**.. **Botanical Description:**. *   **Habit:** Ugni species are evergreen shrubs, typically growing to between 1 and 3 meters (3 to 10 feet) in height.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Stenomesson]
+Action 2: Search[Stenomesson]
+Observation 2: Stenomesson is a genus of bulbous plants in the family Amaryllidaceae. All the species are native to western South America (Colombia, Ecuador, Peru and northern Chile).[4][5][6][7][8][9]. It was published by William Herbert in 1821.[3] The lectotype species Stenomesson flavum (Ruiz & Pav.) Herb. was designated by Hamilton Paul Traub in 1963.[1]. The generic name Stenomesson references the floral morphology.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Stenomesson]
+Action 2: Search[Stenomesson]
+Observation 2: **Stenomesson** is a genus of flowering plants in the family Amaryllidaceae. It is native to the Andes Mountains of South America, specifically in Peru and Ecuador.. **Description:**. Stenomesson species are herbaceous perennial plants that grow from bulbs. They typically produce a rosette of basal leaves, which can be strap-like or lance-shaped.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Chile]
+Action 3: Finish[Chile]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[No common country]
+Action 3: Finish[No common country]
+Observation 3: **Stenomesson** is a genus of flowering plants in the family Amaryllidaceae. It is native to the Andes Mountains of South America, specifically in Peru and Ecuador.. **Description:**. Stenomesson species are herbaceous perennial plants that grow from bulbs. They typically produce a rosette of basal leaves, which can be strap-like or lance-shaped.
+
+
+
+INFO {'steps': 5, 'answer': 'Chile', 'gt_answer': 'Chile', 'question_idx': 1877, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 10 
+Number of steps: 17 
+Average reward: 0.5882352941176471 
+Average time 10.127986136604758
+
+-------------------------------------------------------
+

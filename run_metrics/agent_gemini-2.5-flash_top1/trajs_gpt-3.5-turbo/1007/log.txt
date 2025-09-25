@@ -1,0 +1,81 @@
+INFO 1007 Question: Which actor starred in Angels in the Outfield, Predator 2, and Places in the Heart?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Angels in the Outfield]
+Action 1: Search[Angels in the Outfield]
+Observation 1: Could not find [Angels in the Outfield]. Similar: ['Angels in the Outfield (1994 film)', 'Angels in the Outfield (1951 film)', 'Angels in the Outfield', 'Angels in the Endzone', 'Angels in the Outfield (franchise)'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Angels in the Outfield]
+Action 1: Search[Angels in the Outfield]
+Observation 1: "Angels in the Outfield" is a 1994 American family sports fantasy comedy-drama film directed by William Dear. The film stars Danny Glover, Tony Danza, and Christopher Lloyd. It is a remake of the 1951 film of the same name. The story follows a young boy who prays for a family and a Major League Baseball team, the California Angels, to win the pennant. Miraculously, angels start to help the team on their quest for victory..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Angels in the Outfield (1994 film)]
+Action 2: Search[Angels in the Outfield (1994 film)]
+Observation 2: Angels in the Outfield is a 1994 American family sports fantasy comedy-drama film directed by William Dear. It is a remake of the 1951 film of the same name. It stars Danny Glover, Tony Danza and Christopher Lloyd, and features several future stars, including Joseph Gordon-Levitt (in the lead), Adrien Brody, Matthew McConaughey, and Neal McDonough. It was followed by two made for TV sequels, Angels in the Endzone and Angels in the Infield. It was released less than a month before the 1994 MLB Baseball Strike, which forced the league to cancel the playoffs and the World Series..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Predator 2]
+Action 2: Search[Predator 2]
+Observation 2: "Angels in the Outfield" is a 1994 American family sports fantasy film directed by William Dear. The film stars Danny Glover, Tony Danza, and Christopher Lloyd. It is a remake of the 1951 film of the same name. The story follows a young boy who prays for a family and a Major League Baseball team, the California Angels, to win the pennant. Miraculously, angels come to his aid to help the team succeed.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Predator 2]
+Action 3: Search[Predator 2]
+Observation 3: Predator 2 is a 1990 American science fiction action film,[3] written by brothers Jim and John Thomas, directed by Stephen Hopkins, and starring Danny Glover, Gary Busey, Rubén Blades, María Conchita Alonso, Bill Paxton, and Robert Davi. It is the second film of the Predator franchise, with Kevin Peter Hall reprising his role as the Predator.. Set ten years after the events of the first film, in Los Angeles, Predator 2 focuses on a disgruntled police officer and his allies battling a malevolent and technologically advanced extraterrestrial known as the Predator.. Predator 2 was released on November 21, 1990, and grossed $57 million. Although it initially received generally negative reviews, the film has since gained a cult following..
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Predator 2]
+Action 3: Search[Predator 2]
+Observation 3: "Predator 2" is a 1990 American science fiction action film directed by Stephen Hopkins and written by Jim Thomas and John Thomas. It is the sequel to the 1987 film "Predator" and stars Danny Glover as a police officer in Los Angeles who battles against a technologically advanced alien hunter. The film explores the Predator's hunting ground in a city setting, providing a different backdrop from the jungle setting of the first film. Despite receiving mixed reviews upon its release, "Pred.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Places in the Heart]
+Action 4: Search[Places in the Heart]
+Observation 4: Places in the Heart is a 1984 American drama film written and directed by Robert Benton.[2][3] Set in 1930s Texas during the Great Depression, the film stars Sally Field as a recently widowed woman who struggles to save her farm with the help of a blind lodger and a Black laborer. The cast also includes John Malkovich, Lindsay Crouse, Ed Harris, Amy Madigan, Danny Glover, and Terry O'Quinn.[4][5][6][7][8]. The film premiered at the 35th Berlin International Film Festival, where Benton won the Silver Bear for Best Director. Released theatrically by Tri-Star Pictures on September 21, 1984, it was both a critical and commercial success, earning $34.9 million on a $9.5 million budget. Places in the Heart received seven Academy Award nominations, including Best Picture, and won two: Best Actress for Field and Best Original Screenplay for Benton..
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[Places in the Heart]
+Action 4: Search[Places in the Heart]
+Observation 4: "Places in the Heart" is a 1984 American drama film directed by Robert Benton. The film stars Sally Field, Lindsay Crouse, Ed Harris, Amy Madigan, John Malkovich, Danny Glover, and Terry O'Quinn. Set in Waxahachie, Texas during the Great Depression, the story follows a widow named Edna Spalding (played by Sally Field) as she struggles to keep her family farm afloat after her husband is killed. The film explores themes.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Finish[Danny Glover]
+Action 5: Finish[Danny Glover]
+Observation 5: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Finish[Danny Glover]
+Action 5: Finish[Danny Glover]
+Observation 5: "Places in the Heart" is a 1984 American drama film directed by Robert Benton. The film stars Sally Field, Lindsay Crouse, Ed Harris, Amy Madigan, John Malkovich, Danny Glover, and Terry O'Quinn. Set in Waxahachie, Texas during the Great Depression, the story follows a widow named Edna Spalding (played by Sally Field) as she struggles to keep her family farm afloat after her husband is killed. The film explores themes.
+
+
+
+INFO {'steps': 9, 'answer': 'Danny Glover', 'gt_answer': 'Danny Glover', 'question_idx': 2405, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 4 
+Number of steps: 9 
+Average reward: 0.4444444444444444 
+Average time 17.735800213283962
+
+-------------------------------------------------------
+

@@ -1,0 +1,53 @@
+INFO 2359 Question: What is the birthday of the author of "She Walks These Hills"?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[She Walks These Hills]
+Action 1: Search[She Walks These Hills]
+Observation 1: She Walks These Hills is a 1994 book written by Sharyn McCrumb[1][2] and published by Charles Scribner's Sons,[3] which later went on to win the Anthony Award for Best Novel in 1995.[4]. This article about a mystery novel of the 1990s is a stub. You can help Wikipedia by expanding it.. See guidelines for writing about novels. Further suggestions might be found on the article's talk page..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[She Walks These Hills]
+Action 1: Search[She Walks These Hills]
+Observation 1: She Walks These Hills is a 2011 American independent drama film directed by Michael McGuire. The film explores themes of family, loss, and resilience as it follows the story of a young woman who returns to her rural hometown after the death of her mother. Throughout her journey, she reconnects with her roots and confronts her past, leading to personal growth and understanding. The film features a cast that includes notable actors such as [Cast Names], and is noted for its evocative storytelling.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Sharyn McCrumb]
+Action 2: Search[Sharyn McCrumb]
+Observation 2: Sharyn McCrumb (born February 26, 1948)[1] is an American writer best known for books that celebrate the history and folklore of Appalachia. McCrumb is the winner of numerous literary awards,[2] and is the author of the best selling "Ballad" novels, set in the North Carolina/Tennessee mountains; the NASCAR series featuring St. Dale; and the Elizabeth McPherson mystery series.. Sharyn McCrumb was born Sharyn Elaine Arwood on February 26, 1948, in Wilmington, North Carolina.[3]. McCrumb is a Southern writer, perhaps best known for her Appalachian "Ballad" novels, including The New York Times best-sellers The Ballad of Frankie Silver and She Walks These Hills, and for St.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[She Walks These Hills (book)]
+Action 2: Search[She Walks These Hills (book)]
+Observation 2: Sharyn McCrumb is an American author known for her works of historical fiction, particularly her Appalachian-themed novels. Born in 1951, she has gained recognition for her storytelling that blends folklore, history, and regional culture. McCrumb's writing often explores themes of tradition, community, and the Appalachian experience, and she is celebrated for her detailed research and vivid characterizations. Her notable works include the "Ballad" series, which features novels such as *The Ballad of Tom Do.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[February 26, 1948]
+Action 3: Finish[February 26, 1948]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[Born]
+Action 3: Lookup[Born]
+Observation 3: Sharyn McCrumb is an American author known for her works of historical fiction, particularly her Appalachian-themed novels. Born in 1951, she has gained recognition for her storytelling that blends folklore, history, and regional culture. McCrumb's writing often explores themes of tradition, community, and the Appalachian experience, and she is celebrated for her detailed research and vivid characterizations. Her notable works include the "Ballad" series, which features novels such as *The Ballad of Tom Do.
+
+
+
+INFO {'steps': 5, 'answer': 'February 26, 1948', 'gt_answer': 'February 26, 1948', 'question_idx': 2039, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 11 
+Number of steps: 24 
+Average reward: 0.4583333333333333 
+Average time 16.310773879289627
+
+-------------------------------------------------------
+

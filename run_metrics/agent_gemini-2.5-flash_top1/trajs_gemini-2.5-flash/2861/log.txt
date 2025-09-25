@@ -1,0 +1,53 @@
+INFO 2861 Question: Ganjam district is located in an indian state located in which part of India ?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Ganjam district]
+Action 1: Search[Ganjam district]
+Observation 1: Ganjam district is a district in the Indian state of Odisha. Ganjam's total area is 8,206 km² (3,168 mi²).. The district headquarters is Chhatrapur. Ganjam is divided into three sub-divisions: Chhatrapur, ODISHA, and Bhanjanagar.. As of 2011, it is the most populous district of Berhampur (out of 30).[2].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Ganjam district]
+Action 1: Search[Ganjam district]
+Observation 1: **Ganjam District**. Ganjam district is a district in the Indian state of Odisha. Its administrative headquarters is Chatrapur. Ganjam is known for its rich cultural heritage, historical significance, and diverse geography.. **Etymology**.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Odisha]
+Action 2: Search[Odisha]
+Observation 2: This is an accepted version of this page. Odisha (Odia: oṛiśā, pronounced [oˈɽisa] ⓘ), formerly Orissa (the official name until 2011),[19] is a state located in Eastern India. It is the eighth-largest state by area, and the eleventh-largest by population, with over 41 million inhabitants. The state also has the third-largest population of Scheduled Tribes in India.[20] It neighbours the states of Jharkhand and West Bengal to the north, Chhattisgarh to the west, and Andhra Pradesh to the south. Odisha has a coastline of 485 kilometres (301 mi) along the Bay of Bengal in the Indian Ocean.[21] The region is also known as Utkaḷa and is mentioned by this name in India's national anthem, Jana Gana Mana.[22] The language of Odisha is Odia, which is one of the Classical languages of India.[23].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Odisha]
+Action 2: Search[Odisha]
+Observation 2: **Odisha** (formerly **Orissa**) is an Indian state located on the country's eastern coast. It is the 8th largest state by area and the 11th largest by population. The state is bordered by West Bengal to the north-east, Jharkhand to the north, Chhattisgarh to the west, and Andhra Pradesh to the south. The Bay of Bengal lies to its east. The capital and largest city is Bhubaneswar..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Eastern India]
+Action 3: Finish[Eastern India]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Eastern India]
+Action 3: Finish[Eastern India]
+Observation 3: **Odisha** (formerly **Orissa**) is an Indian state located on the country's eastern coast. It is the 8th largest state by area and the 11th largest by population. The state is bordered by West Bengal to the north-east, Jharkhand to the north, Chhattisgarh to the west, and Andhra Pradesh to the south. The Bay of Bengal lies to its east. The capital and largest city is Bhubaneswar..
+
+
+
+INFO {'steps': 5, 'answer': 'Eastern India', 'gt_answer': 'eastern India', 'question_idx': 6390, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 5 
+Number of steps: 18 
+Average reward: 0.2777777777777778 
+Average time 14.845945265558031
+
+-------------------------------------------------------
+

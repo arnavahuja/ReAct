@@ -1,0 +1,81 @@
+INFO 3112 Question: When was the female co-founder of the organization that published the "Daily Word" devotional born?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Daily Word]
+Action 1: Search[Daily Word]
+Observation 1: The Daily Word is a magazine that prints a daily inspirational message published by Unity. Themes include inner peace, hope, healing, guidance, and others.[1][2]. Daily Word magazine has been printed continuously since 1924.[3][4] In the early years, most of the messages were written by its first editor, Frank B. Whitney, who started it as an offshoot of the Silent Unity ministry. It spread by word-of-mouth and quadrupled its subscribers the first year it ran.[5].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Daily Word]
+Action 1: Search[Daily Word]
+Observation 1: Daily Word is a publication of the Unity movement, which was founded in 1889 by Charles Fillmore and Myrtle Fillmore. It is a daily devotional magazine that offers spiritual messages and affirmations to its readers. The magazine has been in publication since 1924 and is available in print and digital formats. Daily Word aims to inspire and uplift individuals on their spiritual journey by providing positive and empowering content..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Unity (religious organization)]
+Action 2: Search[Unity (religious organization)]
+Observation 2: Could not find Unity (religious organization). Similar: ['List of religious organizations', 'Unity Church', 'Let Us All Unite and Celebrate Together (redirect from Anthem of the Organization for African Unity)', 'Imamia Students Organization', 'Bangladesh Hindu Buddhist Christian Unity Council'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Myrtle Fillmore]
+Action 2: Search[Myrtle Fillmore]
+Observation 2: Unity is a spiritual organization that was founded in the late 19th century by Charles and Myrtle Fillmore. It is based on the teachings of Jesus Christ and the power of prayer and meditation. Unity emphasizes the power of positive thinking and the belief that individuals can create their own reality through their thoughts and beliefs. The organization is known for its publications, including the popular magazine "Daily Word," as well as its prayer ministry and spiritual education programs. Unity has churches and centers around the world where individuals.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Unity Church]
+Action 3: Search[Unity Church]
+Observation 3: Unity is a spiritual organization founded by Charles and Myrtle Fillmore in 1889. It grew out of Transcendentalism and became part of the New Thought movement.[1] Unity may be best known for its Daily Word devotional publication begun in 1924. Originally based in Christianity with emphasis on the Bible, Unity has said it is a "Christian movement that emphasizes affirmative prayer and education as a path to spirituality," and says about itself, "We honor all spiritual practices and the diversity of paths leading to enlightenment."[2]. Unity describes itself as a global, inclusive, spiritual community, offering practical tools and uplifting resources to help people of all faiths apply positive spiritual principles in their daily lives. Unity welcomes all people regardless of race, color, gender, age, creed, religion, national origin, ethnicity, physical disability, or sexual orientation.[3][4][5][6][7].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Myrtle Fillmore]
+Action 3: Search[Myrtle Fillmore]
+Observation 3: Unity is a spiritual movement founded in the late 19th century by Charles Fillmore and Myrtle Fillmore in Kansas City, Missouri. It is known for its teachings on the power of positive thinking, prayer, and the healing power of the mind. Unity emphasizes the importance of personal spiritual growth and the idea that all people are inherently good and divine.. Unity Church is not affiliated with any particular denomination and welcomes people of all faiths. It has a decentralized structure, with individual Unity centers and churches.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Myrtle Fillmore]
+Action 4: Search[Myrtle Fillmore]
+Observation 4: Mary Caroline "Myrtle" Page Fillmore (August 6, 1845 – October 6, 1931) was an American who was co-founder of Unity, a church within  the New Thought Christian movement, along with her husband Charles Fillmore.[1]  Before that she worked as a schoolteacher.. Myrtle was the seventh child (of eight) of an Ohio businessman-farmer. Her parents were strict Methodists, but Myrtle rejected their puritanical teachings. Most of her childhood and into adulthood, she experienced "all the ills of mind and body that I could bear. Medicine and doctors ceased to give me relief and I was in despair," as she says.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[Myrtle Fillmore]
+Action 4: Search[Myrtle Fillmore]
+Observation 4: Myrtle Fillmore (1845-1931) was a co-founder of the Unity Church, along with her husband Charles Fillmore. She was a significant figure in the New Thought movement, which emphasizes the power of positive thinking and the connection between spirituality and health. Myrtle Fillmore is known for her teachings on healing through prayer and affirmations. She wrote several books on spiritual topics and was a popular speaker at Unity Church events. Fillmore's work continues to influence New Thought practitioners and those.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Finish[August 6, 1845]
+Action 5: Finish[August 6, 1845]
+Observation 5: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Finish[1845]
+Action 5: Finish[1845]
+Observation 5: Myrtle Fillmore (1845-1931) was a co-founder of the Unity Church, along with her husband Charles Fillmore. She was a significant figure in the New Thought movement, which emphasizes the power of positive thinking and the connection between spirituality and health. Myrtle Fillmore is known for her teachings on healing through prayer and affirmations. She wrote several books on spiritual topics and was a popular speaker at Unity Church events. Fillmore's work continues to influence New Thought practitioners and those.
+
+
+
+INFO {'steps': 9, 'answer': 'August 6, 1845', 'gt_answer': 'August 6, 1845', 'question_idx': 7077, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 14 
+Number of steps: 32 
+Average reward: 0.4375 
+Average time 16.765594124794006
+
+-------------------------------------------------------
+

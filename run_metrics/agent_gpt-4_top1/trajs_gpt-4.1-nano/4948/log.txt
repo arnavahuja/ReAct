@@ -1,0 +1,67 @@
+INFO 4948 Question: What was a series of battles during the Revolutionary War, for control of New York City and the state of New Jersey, fought on October 28, 1776 near White Plains, New York?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Revolutionary War battles October 28, 1776]
+Action 1: Search[Revolutionary War battles October 28, 1776]
+Observation 1: Could not find Revolutionary War battles October 28, 1776. Similar: ['List of American Revolutionary War battles', 'American Revolutionary War', 'October 28', 'Raid on Tybee Island (category Battles in the Southern theater of the American Revolutionary War 1775–1779)', 'Campaign streamers of the American Revolutionary War'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Revolutionary War battles October 28, 1776]
+Action 1: Search[Revolutionary War battles October 28, 1776]
+Observation 1: On October 28, 1776, during the American Revolutionary War, the Battle of White Plains took place. This engagement was part of the New York and New Jersey campaign and involved American Continental Army forces under General George Washington and British troops commanded by General William Howe. The battle resulted in a British victory, as British forces successfully outflanked and forced the Continental Army to retreat from their positions near White Plains, New York. The engagement was significant in the broader context of the war, as it.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[List of American Revolutionary War battles]
+Action 2: Search[List of American Revolutionary War battles]
+Observation 2: This is a list of military actions in the American Revolutionary War. Actions marked with an asterisk involved no casualties.. Major campaigns, theaters, and expeditions of the war. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us. HelpLearn to editCommunity portalRecent changesUpload fileSpecial pages.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Finish[Battle of White Plains]
+Action 2: Finish[Battle of White Plains]
+Observation 2: The American Revolutionary War battles encompass a series of military engagements that took place between 1775 and 1783, marking the struggle of the Thirteen American Colonies to gain independence from British rule. These battles were fought across various colonies and played a crucial role in shaping the outcome of the war. The following is a list of some of the most significant battles, organized chronologically:. 1. Battles of Lexington and Concord (April 19, 1775).
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Battle of White Plains]
+Action 3: Search[Battle of White Plains]
+Observation 3: The Battle of White Plains took place during the New York and New Jersey campaign of the American Revolutionary War on October 28, 1776, near White Plains, New York. Following the retreat of George Washington's Continental Army northward from New York City, British General William Howe landed troops in Westchester County, intending to cut off Washington's escape route. Alerted to this move, Washington retreated farther, establishing a position in the village of White Plains but failing to establish firm control over local high ground. Howe's troops drove Washington's troops from a hill near the village; following this loss, Washington ordered the Americans to retreat farther north.. Later British movements chased Washington across New Jersey and into Pennsylvania.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[October 28, 1776]
+Action 3: Lookup[October 28, 1776]
+Observation 3: The Battle of White Plains was a significant engagement during the American Revolutionary War, fought on October 28, 1776, in the vicinity of White Plains, New York. It was part of the New York and New Jersey campaign and marked a strategic retreat by the Continental Army under General George Washington.. Background:. Following the British capture of New York City in September 1776, the Continental Army established a defensive position around White Plains to protect the approach to New England. British forces, under the command.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[Battle of White Plains]
+Action 4: Finish[Battle of White Plains]
+Observation 4: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[Battle of White Plains]
+Action 4: Finish[Battle of White Plains]
+Observation 4: The Battle of White Plains was a significant engagement during the American Revolutionary War, fought on October 28, 1776, in the vicinity of White Plains, New York. It was part of the New York and New Jersey campaign and marked a strategic retreat by the Continental Army under General George Washington.. Background:. Following the British capture of New York City in September 1776, the Continental Army established a defensive position around White Plains to protect the approach to New England. British forces, under the command.
+
+
+
+INFO {'steps': 7, 'answer': 'Battle of White Plains', 'gt_answer': 'New York and New Jersey campaign', 'question_idx': 6210, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 6 
+Number of steps: 19 
+Average reward: 0.3157894736842105 
+Average time 29.69790089757819
+
+-------------------------------------------------------
+

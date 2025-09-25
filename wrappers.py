@@ -1,6 +1,6 @@
 import json
 import os
-import gym
+import gymnasium as gym
 import numpy as np
 import re
 import string
@@ -32,7 +32,7 @@ class HistoryWrapper(gym.Wrapper):
     self.sim_trajectory_dict = self.get_empty_traj_dict()
 
   def get_empty_traj_dict(self):
-    return {"prompt": "", "observations": [], "thoughts": [], "actions": []}
+    return {"prompt": "", "observations": [], "thoughts": [], "actions": [], "time_taken":[]}
   
   def step(self, action, step_type="wiki"):
     return self.env.step(action, step_type)
@@ -46,15 +46,17 @@ class HistoryWrapper(gym.Wrapper):
         observation += f"Action {i}: {a}\nObservation {i}: {o}\n\n"
       return self.prompt + observation
     
-  def update_traj_dict_records(self, thought, action, observation, sim=False):
+  def update_traj_dict_records(self, thought, action, observation, time, sim=False):
     if sim:
       self.sim_trajectory_dict["thoughts"].append(thought)
       self.sim_trajectory_dict["actions"].append(action)
       self.sim_trajectory_dict["observations"].append(observation)
+      self.sim_trajectory_dict["time_taken"].append(time)
     else:
       self.normal_trajectory_dict["thoughts"].append(thought)
       self.normal_trajectory_dict["actions"].append(action)
       self.normal_trajectory_dict["observations"].append(observation)      
+      self.normal_trajectory_dict["time_taken"].append(time)
 
   def observation_dict(self, obs=None):
     obs_dict = {}

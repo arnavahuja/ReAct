@@ -1,0 +1,115 @@
+INFO 4302 Question: Who built the diesel railcars operated by the publicly owned corporation that provided suburban train, tram and bus services in Adelaide, South Australia starting in July 1994?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Adelaide Metro]
+Action 1: Search[Adelaide Metro]
+Observation 1: Adelaide Metro is the public transport system of the Adelaide area, around the capital city of South Australia. It is an intermodal system offering an integrated network of bus, tram, and train services throughout the metropolitan area. The network has an annual patronage of 79.9 million, of which 51 million journeys are by bus, 15.6 million by train, and 9.4 million by tram.[1] The system has evolved heavily over the past fifteen years, and patronage increased dramatically during the 2014–15 period, a 5.5 percent increase on the 2013 figures due to electrification of frequented lines.[2][3]. Adelaide Metro began in 2000 with the privatisation of existing government-operated bus routes. Services are now run by two private operators[dubious – discuss] and united with common ticketing systems, marketing, liveries and signage under the supervision of the state government's Department for Infrastructure and Transport.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[publicly owned corporation that provided suburban train, tram and bus services in Adelaide, South Australia starting in July 1994]
+Action 1: Search[publicly owned corporation that provided suburban train, tram and bus services in Adelaide, South Australia starting in July 1994]
+Observation 1: **Adelaide Metro** is the public transport system of Adelaide, the capital city of South Australia. It is an integrated network of buses, trains, and trams serving the Adelaide metropolitan area. The system is managed by the Department for Infrastructure and Transport (DIT) and operated by a combination of government-owned and private contractors.. ## History. Public transport in Adelaide has a long history, dating back to the mid-19th century with horse-drawn trams.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Adelaide public transport 1994]
+Action 2: Search[Adelaide public transport 1994]
+Observation 2: Could not find Adelaide public transport 1994. Similar: ['TransAdelaide', 'Adelaide Metro', 'State Transport Authority (South Australia)', 'Railways in Adelaide', 'Tramways in Adelaide'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Adelaide public transport July 1994]
+Action 2: Search[Adelaide public transport July 1994]
+Observation 2: ## Adelaide Public Transport in 1994. In 1994, Adelaide's public transport system, primarily operated by the State Transport Authority (STA), was a well-established network serving the metropolitan area of South Australia. The system comprised a mix of buses, trains, and the iconic Glenelg tramline, providing essential connectivity for residents and visitors.. ### Operators and Governance. The **State Transport Authority (STA)** was the dominant operator of public transport services in Adelaide.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[TransAdelaide]
+Action 3: Search[TransAdelaide]
+Observation 3: TransAdelaide was a publicly owned cooperation in Adelaide, South Australia, and operated the city's suburban rail, tram and bus services. It took responsibilities from the State Transport Authority in July 1994.. In June 1994, the government-owned agency State Transport Authority was dissolved (and the 1974 Act repealed) as a consequence of the Passenger Transport Act 1994. These reforms split the STA into the Passenger Transport Board, which coordinated and funded the public transport system, and TransAdelaide, which actually operated metropolitan buses, trains and trams. The formation of TransAdelaide was a prelude to competitive tendering and the introduction of private operators into the Adelaide public transport network..
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[State Transport Authority (South Australia)]
+Action 3: Search[State Transport Authority (South Australia)]
+Observation 3: **TransAdelaide** was a government-owned corporation responsible for the provision of public transport services in Adelaide, South Australia, from 1994 to 2000. It operated the city's bus, train, and tram networks.. **History**. TransAdelaide was established on 1 July 1994, taking over the operations of the State Transport Authority (STA). The STA had been responsible for public transport in Adelaide since 1974.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Lookup[diesel railcars]
+Action 4: Lookup[diesel railcars]
+Observation 4: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[diesel railcars]
+Action 4: Lookup[diesel railcars]
+Observation 4: **TransAdelaide** was a government-owned corporation responsible for the provision of public transport services in Adelaide, South Australia, from 1994 to 2000. It operated the city's bus, train, and tram networks.. **History**. TransAdelaide was established on 1 July 1994, taking over the operations of the State Transport Authority (STA). The STA had been responsible for public transport in Adelaide since 1974.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[TransAdelaide diesel railcars]
+Action 5: Search[TransAdelaide diesel railcars]
+Observation 5: Could not find TransAdelaide diesel railcars. Similar: ['TransAdelaide', '3000 class railcar', '2000 class railcar', 'Diesel multiple unit', 'Commonwealth Railways CB class railcar'].
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Lookup[diesel railcars]
+Action 5: Lookup[diesel railcars]
+Observation 5: ## TransAdelaide Diesel Railcars. TransAdelaide, the former public transport operator in Adelaide, South Australia, utilized a diverse fleet of diesel railcars for suburban and regional passenger services. These railcars played a crucial role in connecting Adelaide's metropolitan area with surrounding towns and communities, offering a flexible and cost-effective solution for passenger transport on non-electrified lines.. ### History and Evolution. The history of diesel railcars in South Australia dates back to the early 20th.
+
+
+
+STEP: 6
+
+ERROR Action not found in None 
+Retrying to get action...
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 6: None
+Action 6: Search[3000 class railcar]
+Observation 6: The 3000 class and 3100 class are a class of diesel railcars that operate on the Adelaide rail network. Built by Comeng and Clyde Engineering between 1987 and 1996, they entered service under the State Transport Authority as a replacement for the Redhen railcars, before later being operated by TransAdelaide and Adelaide Metro. Trains are typically coupled as multiple units, though the 3000 class are also able to run as single units when needed. In total, 70 railcars were built and are expected to be retired between 2030 and 2032.[2]. The fleet underwent 3 major refurbishments.
+
+SIMULATION TRAJECTORY:
+ Thought 6: None
+Action 6: Lookup[built the diesel railcars]
+Observation 6: The **3000 class railcars** are a type of diesel multiple unit (DMU) operated by various railway companies, primarily in Australia. While specific details can vary depending on the operator and the exact subclass, the 3000 class generally refers to a series of robust and versatile railcars designed for regional and interurban passenger services.. ## Overview. The 3000 class railcars were typically introduced to replace older, less efficient locomotive-hauled services or earlier.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Finish[Comeng and Clyde Engineering]
+Action 7: Finish[Comeng and Clyde Engineering]
+Observation 7: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Lookup[built]
+Action 7: Lookup[built]
+Observation 7: The **3000 class railcars** are a type of diesel multiple unit (DMU) operated by various railway companies, primarily in Australia. While specific details can vary depending on the operator and the exact subclass, the 3000 class generally refers to a series of robust and versatile railcars designed for regional and interurban passenger services.. ## Overview. The 3000 class railcars were typically introduced to replace older, less efficient locomotive-hauled services or earlier.
+
+
+
+INFO {'steps': 13, 'answer': 'Comeng and Clyde Engineering', 'gt_answer': 'Comeng and Clyde Engineering', 'question_idx': 1123, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 20 
+Number of steps: 44 
+Average reward: 0.45454545454545453 
+Average time 12.45976261659102
+
+-------------------------------------------------------
+

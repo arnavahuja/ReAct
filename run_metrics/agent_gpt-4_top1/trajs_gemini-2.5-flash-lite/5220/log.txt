@@ -1,0 +1,53 @@
+INFO 5220 Question: The Little River Railroad is operated between Maryville and what pioneer Appalachian and resort community?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Little River Railroad]
+Action 1: Search[Little River Railroad]
+Observation 1: Could not find [Little River Railroad]. Similar: ['Little River Railroad', 'Little River (Tennessee)', 'Little River Railroad (Michigan)', 'Little Miami Railroad', 'Little River Railroad (Tennessee)'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Little River Railroad]
+Action 1: Search[Little River Railroad]
+Observation 1: The **Little River Railroad** was a short-line railroad that operated in the southeastern United States. It was primarily known for its operations in **Georgia** and **South Carolina**.. **History:**. The Little River Railroad's origins can be traced back to the late 19th or early 20th century, though specific founding dates and early corporate structures can be complex for short-line railroads of that era. It was established to serve agricultural and timber interests in the regions it.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Little River Railroad (Tennessee)]
+Action 2: Search[Little River Railroad (Tennessee)]
+Observation 2: 35°40′39″N 83°45′08″W﻿ / ﻿35.6775°N 83.7521°W﻿ / 35.6775; -83.7521. The Little River Railroad is a historic class III railroad that operated between Maryville and Elkmont, Tennessee, from 1901 to 1939.. The Little River Railroad ("the LRR") was established as a subsidiary of the Little River Lumber Company on November 21, 1901. Colonel W. B.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[operated]
+Action 2: Lookup[operated]
+Observation 2: The Little River Railroad was a historic logging railroad that operated in the Great Smoky Mountains of Tennessee from 1901 to 1938. It was instrumental in the development of the town of Townsend, Tennessee, and played a significant role in the logging industry of the region.. **History:**. The Little River Railroad was chartered in 1901 by the Little River Lumber Company, a subsidiary of the United States Spruce Production Corporation. The company acquired vast tracts of timberland.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Elkmont]
+Action 3: Finish[Elkmont]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[Maryville]
+Action 3: Lookup[Maryville]
+Observation 3: The Little River Railroad was a historic logging railroad that operated in the Great Smoky Mountains of Tennessee from 1901 to 1938. It was instrumental in the development of the town of Townsend, Tennessee, and played a significant role in the logging industry of the region.. **History:**. The Little River Railroad was chartered in 1901 by the Little River Lumber Company, a subsidiary of the United States Spruce Production Corporation. The company acquired vast tracts of timberland.
+
+
+
+INFO {'steps': 5, 'answer': 'Elkmont', 'gt_answer': 'Elkmont, Tennessee', 'question_idx': 5062, 'reward': False, 'em': False, 'f1': 0.6666666666666666}
+
+INFO Sum of rewards: 14 
+Number of steps: 39 
+Average reward: 0.358974358974359 
+Average time 27.94511559070685
+
+-------------------------------------------------------
+

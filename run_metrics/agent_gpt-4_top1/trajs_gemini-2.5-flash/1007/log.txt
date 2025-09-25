@@ -1,0 +1,67 @@
+INFO 1007 Question: The football maneuver, known as the horse-collar tackle is most closely associated with a player that was drafted by what NFl team in 2002?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[horse-collar tackle]
+Action 1: Search[horse-collar tackle]
+Observation 1: The horse-collar tackle is a gridiron football maneuver in which a defender tackles another player by grabbing the back collar or the back-inside of an opponent's shoulder pads and pulling the ball carrier directly downward violently in order to pull his feet from underneath him. The technique is most closely associated with Pro Bowl safety Roy Williams.. After being blamed for a series of major injuries in the 2004 season, the horse-collar tackle was banned from the NFL during the 2005 off-season. The rule forbidding it is often referred to in the press as "The Roy Williams Rule".[1] The rule, with modifications, was adopted in college football in 2008 and high school football in 2009.. In the 1981 NFC Championship Game where the Dallas Cowboys visited the San Francisco 49ers, after the 49ers took the lead 28–27 due to "The Catch", on the Cowboys following drive, Drew Pearson caught a long pass from Danny White at midfield.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[horse-collar tackle]
+Action 1: Search[horse-collar tackle]
+Observation 1: A **horse-collar tackle** is a type of tackle in American football and Canadian football in which a defender grabs the ball carrier by the back of the shoulder pads or jersey, and pulls them down. The tackle is often performed from behind or from the side, and the defender's hand or arm is typically inserted into the opening of the ball carrier's shoulder pads or jersey, creating a "collar" around the neck or shoulder area.. The horse-collar tackle is considered dangerous because.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Roy Williams NFL]
+Action 2: Search[Roy Williams NFL]
+Observation 2: Could not find Roy Williams NFL. Similar: ['Roy Williams (wide receiver)', 'Roy Williams (safety)', 'Trent Williams', 'Horse-collar tackle (redirect from Roy Williams Rule)', 'Moorhead, Minnesota'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[player]
+Action 2: Lookup[player]
+Observation 2: **Roy Williams**. **Early Life and College Career**. Roy Williams was born on August 14, 1980, in Odessa, Texas. He attended Permian High School, a football powerhouse known for its "Friday Night Lights" tradition. There, he excelled as a wide receiver, earning numerous accolades and attracting the attention of top college programs..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Roy Williams (safety)]
+Action 3: Search[Roy Williams (safety)]
+Observation 3: Roy Lee Williams (born August 14, 1980), is an American former professional football player who was a safety in the National Football League (NFL) for nine seasons. He played college football for the Oklahoma Sooners, earning unanimous All-American honors. He was selected by the Dallas Cowboys eighth overall in the 2002 NFL draft, and played professionally for the Cowboys and Cincinnati Bengals. He earned five straight Pro Bowl selections from 2003 to 2007. Williams was considered by some to be one of the most violent hitters in football during his playing career, and sometimes received criticism for his perceived “dirty” play-style.[1][2][3][4].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[drafted]
+Action 3: Lookup[drafted]
+Observation 3: **Roy Williams (safety)**. Roy Williams is a former American football safety who played in the National Football League (NFL) for nine seasons. Known for his hard-hitting style and aggressive play, Williams was a prominent figure in the NFL during the 2000s.. **Early Life and College Career:**. Born on August 14, 1980, in Redwood City, California, Williams attended the University of Oklahoma, where he played college football for the Oklahoma.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[Dallas Cowboys]
+Action 4: Finish[Dallas Cowboys]
+Observation 4: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[drafted]
+Action 4: Lookup[drafted]
+Observation 4: **Roy Williams (safety)**. Roy Williams is a former American football safety who played in the National Football League (NFL) for nine seasons. Known for his hard-hitting style and aggressive play, Williams was a prominent figure in the NFL during the 2000s.. **Early Life and College Career:**. Born on August 14, 1980, in Redwood City, California, Williams attended the University of Oklahoma, where he played college football for the Oklahoma.
+
+
+
+INFO {'steps': 7, 'answer': 'Dallas Cowboys', 'gt_answer': 'Dallas Cowboys', 'question_idx': 757, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 3 
+Number of steps: 8 
+Average reward: 0.375 
+Average time 21.287837982177734
+
+-------------------------------------------------------
+

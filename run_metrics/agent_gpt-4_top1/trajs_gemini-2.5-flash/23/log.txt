@@ -1,0 +1,39 @@
+INFO 23 Question: What Manchester United and Portuguese national winger scored a goal in the 2009 FA Community Shield?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[2009 FA Community Shield]
+Action 1: Search[2009 FA Community Shield]
+Observation 1: The 2009 FA Community Shield (also known as The FA Community Shield sponsored by McDonald's for sponsorship reasons) was the 87th FA Community Shield, an annual football match contested by the winners of the previous season's Premier League and FA Cup competitions. The match was contested at Wembley Stadium, London, on 9 August 2009,[2] and contested by 2008–09 Premier League champions Manchester United, and Chelsea as the winners of the 2008–09 FA Cup, a repeat of the 2007 match. The game ended in a 2–2 draw – the goals coming from Nani and Wayne Rooney for Manchester United, and from Ricardo Carvalho and Frank Lampard for Chelsea – with Chelsea winning 4–1 on penalties.[3]. This was also the first time since 1998 that Chelsea had won a professional match on penalties; The last instance was a League Cup quarter-final against Ipswich Town.[citation needed]. Man of the match.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[2009 FA Community Shield]
+Action 1: Search[2009 FA Community Shield]
+Observation 1: The 2009 FA Community Shield (also known as The FA Community Shield sponsored by McDonald's for sponsorship reasons) was the 87th FA Community Shield, an annual English football match contested by the winners of the previous season's Premier League and FA Cup competitions. The match was played on 9 August 2009 at Wembley Stadium, London, and contested by 2008–09 Premier League champions Manchester United and 2008–.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[Nani]
+Action 2: Finish[Nani]
+Observation 2: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[goal]
+Action 2: Lookup[goal]
+Observation 2: The 2009 FA Community Shield (also known as The FA Community Shield sponsored by McDonald's for sponsorship reasons) was the 87th FA Community Shield, an annual English football match contested by the winners of the previous season's Premier League and FA Cup competitions. The match was played on 9 August 2009 at Wembley Stadium, London, and contested by 2008–09 Premier League champions Manchester United and 2008–.
+
+
+
+INFO {'steps': 3, 'answer': 'Nani', 'gt_answer': 'Nani', 'question_idx': 2321, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 1 
+Number of steps: 1 
+Average reward: 1.0 
+Average time 9.362560033798218
+
+-------------------------------------------------------
+

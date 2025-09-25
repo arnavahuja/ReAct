@@ -1,0 +1,109 @@
+INFO 656 Question: What is the familiar name for the first operation in the Battle of Normandy, also codenamed Operation Overlord?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Operation Overlord]
+Action 1: Search[Operation Overlord]
+Observation 1: Günther von Kluge(OB West) from 2 July. Walter Model(Army Group B) from 17 August. 16,714 Allied airmen killed (8,536 members of the USAAF, and 8,178 flying under the command of the RAF). Airborne assaultBritish Sector. Normandy landingsAmerican Sector.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Operation Overlord]
+Action 1: Search[Operation Overlord]
+Observation 1: Operation Overlord was the codename for the Battle of Normandy, the Allied operation that launched the successful invasion of German-occupied Western Europe during World War II. The operation was launched on June 6, 1944, with the Normandy landings (commonly known as D-Day). It involved the largest seaborne invasion in history, with over 156,000 Allied troops landing on the beaches of Normandy in a coordinated effort to establish a foothold in France.. The operation.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Battle of Normandy]
+Action 2: Search[Battle of Normandy]
+Observation 2: Günther von Kluge(OB West) from 2 July. Walter Model(Army Group B) from 17 August. 16,714 Allied airmen killed (8,536 members of the USAAF, and 8,178 flying under the command of the RAF). Airborne assaultBritish Sector. Normandy landingsAmerican Sector.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Finish[D-Day]
+Action 2: Finish[D-Day]
+Observation 2: The Battle of Normandy was fought during World War II from June 6, 1944, to August 1944. It was the Allied invasion of German-occupied Western Europe, aimed at liberating France. The operation, codenamed Operation Overlord, began with the D-Day landings on the beaches of Normandy, France. The invasion involved a massive amphibious assault, with troops from the United States, United Kingdom, Canada, and other Allied nations landing on five beachheads.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Operation Overlord]
+Action 3: Search[Operation Overlord]
+Observation 3: Günther von Kluge(OB West) from 2 July. Walter Model(Army Group B) from 17 August. 16,714 Allied airmen killed (8,536 members of the USAAF, and 8,178 flying under the command of the RAF). Airborne assaultBritish Sector. Normandy landingsAmerican Sector.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[D-Day]
+Action 3: Finish[D-Day]
+Observation 3: Operation Overlord was the codename for the Battle of Normandy, the Allied operation that launched the successful invasion of German-occupied Western Europe during World War II. The operation was launched on June 6, 1944, with the Normandy landings (commonly known as D-Day). It involved the largest seaborne invasion in history, with over 156,000 Allied troops landing on the beaches of Normandy in France. The operation was a turning point in the war, leading.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Operation Overlord]
+Action 4: Search[Operation Overlord]
+Observation 4: Günther von Kluge(OB West) from 2 July. Walter Model(Army Group B) from 17 August. 16,714 Allied airmen killed (8,536 members of the USAAF, and 8,178 flying under the command of the RAF). Airborne assaultBritish Sector. Normandy landingsAmerican Sector.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[D-Day]
+Action 4: Finish[D-Day]
+Observation 4: Operation Overlord was the codename for the Battle of Normandy, the Allied operation that launched the successful invasion of German-occupied Western Europe during World War II. The operation was launched on June 6, 1944, with the Normandy landings (commonly known as D-Day). It involved the largest seaborne invasion in history, with over 156,000 Allied troops landing on the beaches of Normandy in France. The operation was a turning point in the war, leading.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[Operation Overlord]
+Action 5: Search[Operation Overlord]
+Observation 5: Günther von Kluge(OB West) from 2 July. Walter Model(Army Group B) from 17 August. 16,714 Allied airmen killed (8,536 members of the USAAF, and 8,178 flying under the command of the RAF). Airborne assaultBritish Sector. Normandy landingsAmerican Sector.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Finish[D-Day]
+Action 5: Finish[D-Day]
+Observation 5: Operation Overlord was the codename for the Battle of Normandy, the Allied operation that launched the successful invasion of German-occupied Western Europe during World War II. The operation was launched on June 6, 1944, with the Normandy landings (commonly known as D-Day). It involved the largest seaborne invasion in history, with over 156,000 Allied troops landing on the beaches of Normandy in France. The operation was a turning point in the war, leading.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Search[D-Day]
+Action 6: Search[D-Day]
+Observation 6: Airborne assaultBritish Sector. Normandy landingsAmerican Sector. Ground campaignAmerican Sector. Air and Sea operations. The Normandy landings were the landing operations and associated airborne operations on 6 June 1944 of the Allied invasion of Normandy in Operation Overlord during the Second World War.
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Finish[D-Day]
+Action 6: Finish[D-Day]
+Observation 6: **D-Day**. D-Day, also known as the Normandy landings, was the landing operations on Tuesday, 6 June 1944 of the Allied forces during World War II. It was the largest seaborne invasion in history and marked the beginning of the liberation of German-occupied France (and later western Europe) from Nazi control. The operation, codenamed Operation Overlord, began the invasion of German-occupied western Europe, led by the United States, the United Kingdom,.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Lookup[D-Day]
+Action 7: Lookup[D-Day]
+Observation 7: (Result 1 / 2) **D-Day**.
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Finish[D-Day]
+Action 7: Finish[D-Day]
+Observation 7: **D-Day**. D-Day, also known as the Normandy landings, was the landing operations on Tuesday, 6 June 1944 of the Allied forces during World War II. It was the largest seaborne invasion in history and marked the beginning of the liberation of German-occupied France (and later western Europe) from Nazi control. The operation, codenamed Operation Overlord, began the invasion of German-occupied western Europe, led by the United States, the United Kingdom,.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'D-Day', 'question_idx': 5434, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 15 
+Number of steps: 35 
+Average reward: 0.42857142857142855 
+Average time 17.10101499557495
+
+-------------------------------------------------------
+

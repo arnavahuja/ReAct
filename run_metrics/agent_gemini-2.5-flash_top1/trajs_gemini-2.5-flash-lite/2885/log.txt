@@ -1,0 +1,53 @@
+INFO 2885 Question: Who is older Charles R. Black Jr. or Paul Manafort?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Charles R. Black Jr.]
+Action 1: Search[Charles R. Black Jr.]
+Observation 1: Charles R. Black Jr. (born October 11, 1947) is an American lobbyist and businessman, who is the Founding Chairman of Prime Policy Group, a public affairs firm which is now a subsidiary of Burson Cohn & Wolfe. Prime Policy Group was formed with the merger of Martin B. Gold's Gold & Liebengood with the Washington, DC–based lobbying firm he co-founded—BMSK—with Paul Manafort, Roger J.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Charles R. Black Jr.]
+Action 1: Search[Charles R. Black Jr.]
+Observation 1: Charles R. Black Jr. was an American politician and lawyer. He served as a member of the United States House of Representatives from New York's 1st congressional district.. Born in Brooklyn, New York, Black attended public schools and later graduated from Dartmouth College.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Paul Manafort]
+Action 2: Search[Paul Manafort]
+Observation 2: Paul John Manafort Jr. (/ˈmænəfɔːrt/; born April 1, 1949) is an American former lobbyist, political consultant, and attorney. A long-time Republican Party campaign consultant, he chaired the Trump presidential campaign from June to August 2016. Manafort served as an adviser to the U.S. presidential campaigns of Republicans Gerald Ford, Ronald Reagan, George H.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[Born]
+Action 2: Lookup[Born]
+Observation 2: Paul John Manafort Jr. (born April 1, 1949) is an American political consultant, lobbyist, and lawyer. He is best known for his work as a campaign manager for Republican candidates, including Gerald Ford, Ronald Reagan, George H.W. Bush, George W. Bush, and Donald Trump..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Charles R. Black Jr.]
+Action 3: Finish[Charles R. Black Jr.]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Charles R. Black Jr.]
+Action 3: Finish[Charles R. Black Jr.]
+Observation 3: Paul John Manafort Jr. (born April 1, 1949) is an American political consultant, lobbyist, and lawyer. He is best known for his work as a campaign manager for Republican candidates, including Gerald Ford, Ronald Reagan, George H.W. Bush, George W. Bush, and Donald Trump..
+
+
+
+INFO {'steps': 5, 'answer': 'Charles R. Black Jr.', 'gt_answer': 'Charles R. Black Jr.', 'question_idx': 4672, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 6 
+Number of steps: 17 
+Average reward: 0.35294117647058826 
+Average time 8.860961339052986
+
+-------------------------------------------------------
+

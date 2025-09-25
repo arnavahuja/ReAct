@@ -1,0 +1,109 @@
+INFO 1354 Question: What nationality was Oliver Reed's character in the film Royal Flash?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Royal Flash]
+Action 1: Search[Royal Flash]
+Observation 1: Royal Flash is a 1970 novel by George MacDonald Fraser. It is the second of the Flashman novels. It was made into the film Royal Flash in 1975 and remains the only Flashman novel to be filmed.. Royal Flash is set during the Revolutions of 1848. The story features Lola Montez and Otto von Bismarck as major characters, and fictionalises elements of the Schleswig-Holstein Question, 1843, 1847 and 1848.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Royal Flash]
+Action 1: Search[Royal Flash]
+Observation 1: Royal Flash is a 1975 British adventure comedy film directed by Richard Lester. The film is based on the "Flashman" series of novels by George MacDonald Fraser, particularly drawing from the first book, "Royal Flash." It stars Malcolm McDowell as Harry Flashman, a roguish and unscrupulous Victorian soldier and adventurer. The story is set in the 19th century and follows Flashman's escapades across Europe, involving political intrigue, romantic entanglements, and.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Lookup[Oliver Reed]
+Action 2: Lookup[Oliver Reed]
+Observation 2: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[Oliver Reed]
+Action 2: Lookup[Oliver Reed]
+Observation 2: Royal Flash is a 1975 British adventure comedy film directed by Richard Lester. The film is based on the "Flashman" series of novels by George MacDonald Fraser, particularly drawing from the first book, "Royal Flash." It stars Malcolm McDowell as Harry Flashman, a roguish and unscrupulous Victorian soldier and adventurer. The story is set in the 19th century and follows Flashman's escapades across Europe, involving political intrigue, romantic entanglements, and.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Oliver Reed]
+Action 3: Search[Oliver Reed]
+Observation 3: Robert Oliver Reed (13 February 1938 – 2 May 1999) was an English actor, known for his upper-middle class, masculine image[1] and his heavy-drinking, "hellraiser" lifestyle.[2][3] His screen career spanned over 40 years, between 1955 and 1999. At the peak of his career, in 1971, British exhibitors voted Reed fifth-most-popular star at the box office.[4]. After making his first significant screen appearances in Hammer Horror films in the early 1960s, his notable film roles included La Bete in The Trap (1966), Bill Sikes in Oliver! (a film directed by his uncle Carol Reed that won the 1968 Academy Award for Best Picture), Gerald in Women in Love (1969), the title role in Hannibal Brooks (1969), Urbain Grandier in The Devils (1971), Athos in The Three Musketeers (1973) and The Four Musketeers (1974), Uncle Frank in Tommy (1975), Dr. Hal Raglan in The Brood (1979), Dolly Hopkins in Funny Bones (1995) and Antonius Proximo in Gladiator (2000).. For playing the old, gruff gladiator trainer in Ridley Scott's Gladiator, in what was his final film, Reed was posthumously nominated for the BAFTA Award for Best Actor in a Supporting Role and a Screen Actors Guild Award for Outstanding Performance by a Cast in a Motion Picture in 2000..
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[Oliver Reed]
+Action 3: Lookup[Oliver Reed]
+Observation 3: Oliver Reed (2 February 1938 – 2 May 1999) was an English actor known for his rugged good looks, intense screen presence, and versatility across a wide range of film genres. Born in Wimbledon, London, Reed gained fame for his roles in both classical and contemporary films, often portraying tough, charismatic characters.. Reed's career began in the 1960s with appearances in British films and television. He achieved international recognition with his performances in films such as "The Three.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Lookup[Royal Flash]
+Action 4: Lookup[Royal Flash]
+Observation 4: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[Oliver Reed Royal Flash]
+Action 4: Search[Oliver Reed Royal Flash]
+Observation 4: Oliver Reed (2 February 1938 – 2 May 1999) was an English actor known for his rugged good looks, intense screen presence, and versatility across a wide range of film genres. Born in Wimbledon, London, Reed gained fame for his roles in both classical and contemporary films, often portraying tough, charismatic characters.. Reed's career began in the 1960s with appearances in British films and television. He achieved international recognition with his performances in films such as "The Three.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[Oliver Reed Royal Flash character]
+Action 5: Search[Oliver Reed Royal Flash character]
+Observation 5: Could not find Oliver Reed Royal Flash character. Similar: ['Oliver Reed', 'List of characters played by multiple actors in the same film', 'Victor Garber', 'Tommy (1975 film)', 'List of DC Multiverse worlds'].
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Search[Oliver Reed Royal Flash]
+Action 5: Search[Oliver Reed Royal Flash]
+Observation 5: Oliver Reed portrayed the character of Sir Harry Flashman in the 1975 film "Royal Flash." The film is a British adventure-comedy directed by Richard Lester, based on the novel "Royal Flash" by George MacDonald Fraser, which is part of the Flashman series. Sir Harry Flashman is depicted as a roguish, charming, and unscrupulous Victorian soldier and adventurer, known for his cowardice, womanizing, and knack for getting into and out of trouble. Reed.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Search[Royal Flash cast]
+Action 6: Search[Royal Flash cast]
+Observation 6: Could not find Royal Flash cast. Similar: ['Royal Flash (film)', 'List of The Flash characters', 'The Flash season 1', 'Ezra Miller', 'Britt Ekland'].
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Lookup[Flashman nationality]
+Action 6: Lookup[Flashman nationality]
+Observation 6: Royal Flash is a 1975 British comedy adventure film directed by Richard Lester, based on the novel "Royal Flash" by George MacDonald Fraser. The film features an ensemble cast including:. - **Michael York** as Harry Flashman: The protagonist, a roguish and cunning soldier and adventurer.. - **Oliver Reed** as Count Tilly: A formidable and ruthless nobleman and military leader.. - **Joan Collins** as Lady Caroline Lamb: A noblewoman involved in the political.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Search[Royal Flash (film)]
+Action 7: Search[Royal Flash (film)]
+Observation 7: Royal Flash is a 1975 British adventure comedy film based on the second Flashman novel (of the same name, 1970) by George MacDonald Fraser. It stars Malcolm McDowell as Flashman. Additionally, Oliver Reed appeared in the role of Otto von Bismarck, Alan Bates as Rudi von Sternberg, and  Florinda Bolkan played Lola Montez. Fraser wrote the screenplay and the film was directed by Richard Lester.. Though it received good reviews for its performances and action scenes, Royal Flash had only a limited release in cinemas..
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Search[Count Tilly]
+Action 7: Search[Count Tilly]
+Observation 7: Royal Flash is a 1975 British adventure comedy film directed by Richard Lester. The film is based on the second novel in the "Flashman" series by George MacDonald Fraser, which itself is a fictionalized account of the life of the 19th-century British soldier and adventurer Sir Harry Flashman.. The film stars Malcolm McDowell as Harry Flashman, with a supporting cast that includes Oliver Reed, Florinda Bolkan, and Alastair Sim. The story is set.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'Prussian', 'question_idx': 4264, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 5 
+Number of steps: 12 
+Average reward: 0.4166666666666667 
+Average time 26.645485162734985
+
+-------------------------------------------------------
+

@@ -1,0 +1,53 @@
+INFO 4164 Question: Which of these is further south in China, the Pulandian District or Kaiyuan, Liaoning?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Pulandian District]
+Action 1: Search[Pulandian District]
+Observation 1: Pulandian District (simplified Chinese: 普兰店区; traditional Chinese: 普蘭店區; pinyin: Pǔlándiàn Qū) is one of the seven districts under the administration of Dalian, located in the south of Liaoning province, People's Republic of China. Its area is 2,769.90 square kilometres (1,069.46 sq mi) and its permanent population as of 2010[update] is 741,230.[2][3] The district borders the prefecture-level city of Yingkou to the north.. Pulandian District is located in the northern part of Dalian on the Liaodong Peninsula. It covers an area of 6968 square kilometers. It borders Zhuanghe to the east, Wafangdian to the west, Jinzhou District to the south and Greater Yingkou to the north.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Pulandian District]
+Action 1: Search[Pulandian District]
+Observation 1: Pulandian District (Chinese: 普兰店区; pinyin: Pǔlándiàn Qū) is a district of Dalian, Liaoning province, China. It was formerly Pulandian City (普兰店市).. **History**. Pulandian was established as a city in 1991, upgraded from a county-level city. In 2015, it was converted into a district of Dalian..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Kaiyuan, Liaoning]
+Action 2: Search[Kaiyuan, Liaoning]
+Observation 2: Kaiyuan (simplified Chinese: 开原; traditional Chinese: 開原; pinyin: Kāiyuán; lit. 'Open Plains') is a county-level city in the northeast of Liaoning, People's Republic of China, bordering Jilin for a small section to the north. It is under the administration of Tieling City, the centre of which lies 33 kilometres (21 mi) to the southwest.. There are 3 subdistricts, 9 towns, and 9 townships under the city's administration.[2]. Kaiyuan is situated in northeastern Liaoning in the southeastern part of Tieling City on the eastern bank of the middle reaches of the Liao River.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Kaiyuan, Liaoning]
+Action 2: Search[Kaiyuan, Liaoning]
+Observation 2: Kaiyuan (开原) is a county-level city in the northeast of Liaoning Province, China. It is located in the central part of Liaoning, under the administration of Tieling City.. **History:**. Kaiyuan has a long history, with settlements dating back to ancient times. It was historically an important administrative and military center in the region.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Pulandian District]
+Action 3: Finish[Pulandian District]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Pulandian District]
+Action 3: Finish[Pulandian District]
+Observation 3: Kaiyuan (开原) is a county-level city in the northeast of Liaoning Province, China. It is located in the central part of Liaoning, under the administration of Tieling City.. **History:**. Kaiyuan has a long history, with settlements dating back to ancient times. It was historically an important administrative and military center in the region.
+
+
+
+INFO {'steps': 5, 'answer': 'Pulandian District', 'gt_answer': 'Pulandian District', 'question_idx': 2844, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 21 
+Number of steps: 49 
+Average reward: 0.42857142857142855 
+Average time 11.70030326745948
+
+-------------------------------------------------------
+

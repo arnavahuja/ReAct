@@ -1,0 +1,53 @@
+INFO 190 Question: Which university has more campuses, Dalhousie University or California State Polytechnic University, Pomona?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Dalhousie University]
+Action 1: Search[Dalhousie University]
+Observation 1: Dalhousie University is a large public research university in Nova Scotia, Canada, with three campuses in Halifax, a fourth in Bible Hill, and a second medical school campus in Saint John, New Brunswick. Dalhousie offers over 200 degree programs in 13 undergraduate, graduate, and professional faculties.[7] The university is a member of the U15, a group of research-intensive universities in Canada.. The institution was established as Dalhousie College, a nonsectarian institution established in 1818 by the eponymous Lieutenant Governor of Nova Scotia, George Ramsay, 9th Earl of Dalhousie, with education reformer Thomas McCulloch as its first principal. However, the college did not hold its first class until 1838, with operations remaining sporadic due to financial difficulties. The college was reorganized in 1863 and renamed The Governors of Dalhousie College and University.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Dalhousie University]
+Action 1: Search[Dalhousie University]
+Observation 1: Dalhousie University is a public research university in Nova Scotia, Canada. It was founded in 1818 by George Ramsay, the ninth Earl of Dalhousie and Lieutenant-Governor of Nova Scotia. The university is named after him. Dalhousie is one of the oldest universities in Canada and is known for its strong programs in law, medicine, engineering, and business.. The university has multiple campuses in Halifax and Truro, Nova Scotia.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[California State Polytechnic University, Pomona]
+Action 2: Search[California State Polytechnic University, Pomona]
+Observation 2: California State Polytechnic University Pomona (Cal Poly Pomona) is a public polytechnic research university in Pomona, California, United States. It is the largest of the three polytechnic universities in the California State University system by enrollment.. Cal Poly Pomona began as a southern campus of the California Polytechnic School (now known as Cal Poly San Luis Obispo) in 1938, following the donation of the Voorhis School for Boys and its adjacent farm in San Dimas by Charles and Jerry Voorhis. This Pomona campus expanded in 1949 when it was gifted the W.K. Kellogg Institute of Animal Husbandry from the University of California, which was originally Will Keith Kellogg's horse ranch.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[California State Polytechnic University, Pomona]
+Action 2: Search[California State Polytechnic University, Pomona]
+Observation 2: California State Polytechnic University, Pomona (Cal Poly Pomona) is a public polytechnic university located in Pomona, California. It is one of two polytechnic universities in the California State University system. Cal Poly Pomona was founded in 1938 as a vocational school and has since evolved into a comprehensive university offering a wide range of undergraduate and graduate programs.. The university is known for its emphasis on hands-on learning, applied research, and practical experience. Cal Poly Pomona.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Dalhousie University]
+Action 3: Finish[Dalhousie University]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[campuses]
+Action 3: Lookup[campuses]
+Observation 3: California State Polytechnic University, Pomona (Cal Poly Pomona) is a public polytechnic university located in Pomona, California. It is one of two polytechnic universities in the California State University system. Cal Poly Pomona was founded in 1938 as a vocational school and has since evolved into a comprehensive university offering a wide range of undergraduate and graduate programs.. The university is known for its emphasis on hands-on learning, applied research, and practical experience. Cal Poly Pomona.
+
+
+
+INFO {'steps': 5, 'answer': 'Dalhousie University', 'gt_answer': 'Dalhousie University', 'question_idx': 5655, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 16 
+Number of steps: 46 
+Average reward: 0.34782608695652173 
+Average time 25.92958530654078
+
+-------------------------------------------------------
+

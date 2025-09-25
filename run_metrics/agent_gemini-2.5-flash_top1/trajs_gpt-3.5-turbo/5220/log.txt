@@ -1,0 +1,81 @@
+INFO 5220 Question: Who is the sister of Princess Zein and the daughter of a British woman?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Princess Zein]
+Action 1: Search[Princess Zein]
+Observation 1: Could not find Princess Zein. Similar: ['Princess Zein bint Hussein', 'Princess Aisha bint Hussein', 'Princess Muna Al Hussein', 'Princess Iman bint Hussein', 'Princess Basmah Hamzah'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Princess Zein]
+Action 1: Search[Princess Zein]
+Observation 1: I'm sorry, but I cannot provide verbatim text from Wikipedia. However, I can provide you with a brief summary of Princess Zein. Princess Zein is a member of the Jordanian royal family. She is the daughter of King Hussein of Jordan and Queen Alia. Princess Zein is known for her charitable work and involvement in various social causes.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Princess Zein bint Hussein]
+Action 2: Search[Princess Zein bint Hussein]
+Observation 2: Princess Zein bint Al Hussein[1] (born 23 April 1968[2]) is the sister of King Abdullah II of Jordan and the twin sister of Princess Aisha bint Hussein.. Princess Zein was born in 23 April 1968 at Palestine Hospital in Al Abdali, Amman, She attended Westover School, where she captained the volleyball team and graduated in 1986; her father spoke at the commencement.[3] She married Sayyid Majdi Al-Saleh on 3 August 1989 (younger son of Sayyid Farid Al-Saleh).[Note 1] Together, they have two biological children: Ja'afar Al-Saleh, born 9 November 1990, and Jumana Al-Saleh.[2] They also have an adopted daughter, Tahani Al-Shahwa.[4]. Princess Zein has been involved in humanitarian efforts since the 1990s. She offered financial support to the Gulf Peace Team, a nonviolent protest group during the Gulf War.[5][6] In 1997, King Hussein ordered Hashemiyeh Palace, then used to house foreign dignitaries, converted into an orphanage after learning of poor conditions for orphans in Amman.[7] He selected Princess Zein to run the new facility and act as its patron; it opened nine months later as Dar Al Bir.[8][9] In 2013, she visited Miami Children's Hospital for a demonstration of telehealth programs.[10]. She and her husband also own Royal Ja'afar Stud, where they breed Arabian horses.[11].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Queen Alia]
+Action 2: Search[Queen Alia]
+Observation 2: I'm sorry, but I cannot provide verbatim text from Wikipedia or any other copyrighted sources. However, I can provide you with a brief summary of Princess Zein bint Hussein. Princess Zein bint Hussein is a member of the Jordanian royal family. She is the sister of King Abdullah II of Jordan and the daughter of the late King Hussein and Queen Alia. Princess Zein is known for her charitable work and advocacy for various causes, including education and women's rights.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Princess Aisha bint Hussein]
+Action 3: Search[Princess Aisha bint Hussein]
+Observation 3: Princess Aisha bint Al Hussein[1] (Arabic: الأميرة عائشة بنت الحسين) (born 23 April 1968) is the sister of King Abdullah II of Jordan and is the twin sister of Princess Zein. Her parents are King Hussein and Princess Muna.. Aisha was born in 23 April 1968 at Palestine Hospital in Amman, She was educated up to age eight in Jordan, at the American community school (In the same class as her sister Zein, for all or almost all of the time). She moved to the U.S. to pursue her education for ten years.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[King Abdullah II]
+Action 3: Search[King Abdullah II]
+Observation 3: Princess Aisha bint Hussein is a member of the Jordanian royal family. She was born on April 23, 1968, in Amman, Jordan, as the daughter of King Hussein and Queen Muna. Princess Aisha is the sister of King Abdullah II of Jordan. She is known for her charitable work and advocacy for women's rights and education in Jordan. Princess Aisha is also a former member of the Jordanian Senate..
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Princess Muna]
+Action 4: Search[Princess Muna]
+Observation 4: Princess Muna Al Hussein[2] (Arabic: منى الحسين, born Toni Avril Gardiner 25 April 1941) is the mother of Abdullah II of Jordan. She was the second wife of King Hussein; the couple divorced on 21 December 1972. She is British by birth.. Toni Avril Gardiner was born in Chelmondiston, Suffolk, England, the daughter of Doris Elizabeth (née Sutton) and Lieutenant Colonel Walter Percy "Tony" Gardiner. She attended Bourne School in Kuala Lumpur, Malaya, which was administered by the British Families Education Service for the children of British service personnel stationed overseas, where she was an A-grade field hockey player..
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[Queen Muna]
+Action 4: Search[Queen Muna]
+Observation 4: Princess Muna al-Hussein, born Antoinette Avril Gardiner on April 25, 1941, is the mother of King Abdullah II of Jordan. She was the second wife of King Hussein of Jordan and held the title of Queen of Jordan from her marriage in 1961 until their divorce in 1972. Princess Muna is of British descent and has been involved in various charitable and humanitarian activities in Jordan and internationally. She is known for her work in promoting education.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Finish[Princess Aisha bint Hussein]
+Action 5: Finish[Princess Aisha bint Hussein]
+Observation 5: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Finish[Princess Aisha bint Hussein]
+Action 5: Finish[Princess Aisha bint Hussein]
+Observation 5: Princess Muna al-Hussein, born Antoinette Avril Gardiner on April 25, 1941, is the mother of King Abdullah II of Jordan. She was the second wife of King Hussein of Jordan and held the title of Queen of Jordan from her marriage in 1961 until their divorce in 1972. Princess Muna is of British descent and has been involved in various charitable and humanitarian activities in Jordan and internationally. She is known for her work in promoting education.
+
+
+
+INFO {'steps': 9, 'answer': 'Princess Aisha bint Hussein', 'gt_answer': 'Princess Aisha bint Hussein', 'question_idx': 4676, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 18 
+Number of steps: 40 
+Average reward: 0.45 
+Average time 16.971329826116563
+
+-------------------------------------------------------
+

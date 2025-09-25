@@ -1,0 +1,67 @@
+INFO 2316 Question: What town's geographic feature is the battle James Swan was twice wounded at named for?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[James Swan]
+Action 1: Search[James Swan]
+Observation 1: Could not find [James Swan]. Similar: ['James Swan', 'James Swan (financier)', 'James A. Swan', 'James D. Swan', 'James Swan (boxer)'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[James Swan]
+Action 1: Search[James Swan]
+Observation 1: **James Swan** (born 1969) is an American author and speaker known for his work on personal development and leadership. He is the author of the book *Unleash Your True Potential: A Practical Guide to Achieving Your Goals*.. Swan's work often focuses on helping individuals identify their core values, overcome limiting beliefs, and develop strategies for achieving success in both their personal and professional lives. He emphasizes the importance of self-awareness, goal setting, and consistent action..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[James Swan (financier)]
+Action 2: Search[James Swan (financier)]
+Observation 2: James Swan (1754 – 31 July 1830) was an early American patriot and financier based in Boston in the 18th and 19th centuries. He was a member of the Sons of Liberty and participated in the Boston Tea Party. Swan was twice wounded at the Battle of Bunker Hill, he next became secretary of the Massachusetts Board of War and the legislature. During the time he held that office, he drew heavily on his private funds to aid the Continental Army, which was then in dire need of funds to arm and equip the soldiers who were arriving in Boston from all parts of New England. In 1795, Swan, acting as agent for France, helped refinance the United States’ debt to France, which amounted to 2,024,900 dollars ($37.5 million in 2024).
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[battle]
+Action 2: Lookup[battle]
+Observation 2: James Swan is an American financier and entrepreneur. He is known for his work in the private equity and venture capital sectors, as well as his involvement in various philanthropic endeavors.. Swan began his career in finance at a prominent investment bank in New York City, where he gained experience in mergers and acquisitions and corporate finance. He later transitioned into the private equity industry, working for a firm that focused on investing in and growing middle-market companies.. In the early 2000s, Swan.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Battle of Bunker Hill]
+Action 3: Search[Battle of Bunker Hill]
+Observation 3: The Battle of Bunker Hill was fought on June 17, 1775, during the Siege of Boston in the first stage of the American Revolutionary War.[5] The battle is named after Bunker Hill in Charlestown, Massachusetts, which was peripherally involved. It was the original objective of both the colonial and British troops, though the majority of combat took place on the adjacent hill, which became known as Breed's Hill.[6][7]. On June 13, 1775, the leaders of the colonial forces besieging Boston learned that the British were planning to send troops out from the city to fortify the unoccupied hills surrounding the city, which would give them control of Boston Harbor. In response, 1,200 colonial troops under the command of William Prescott stealthily occupied Bunker Hill and Breed's Hill. They constructed a strong redoubt on Breed's Hill overnight, as well as smaller fortified lines across the Charlestown Peninsula.[8].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[James A. Swan]
+Action 3: Search[James A. Swan]
+Observation 3: The Battle of Bunker Hill was fought on June 17, 1775, during the Siege of Boston in the early stages of the American Revolutionary War. The battle is named after Bunker Hill, a hill that was the intended location for the American forces. However, the fighting actually took place on Breed's Hill, a hill closer to Boston.. **Background:**. Following the Battles of Lexington and Concord in April 1775, colonial militia forces surrounded the British garrison.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[Charlestown]
+Action 4: Finish[Charlestown]
+Observation 4: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[Bunker Hill]
+Action 4: Finish[Bunker Hill]
+Observation 4: The Battle of Bunker Hill was fought on June 17, 1775, during the Siege of Boston in the early stages of the American Revolutionary War. The battle is named after Bunker Hill, a hill that was the intended location for the American forces. However, the fighting actually took place on Breed's Hill, a hill closer to Boston.. **Background:**. Following the Battles of Lexington and Concord in April 1775, colonial militia forces surrounded the British garrison.
+
+
+
+INFO {'steps': 7, 'answer': 'Charlestown', 'gt_answer': 'Charlestown, Massachusetts', 'question_idx': 2462, 'reward': False, 'em': False, 'f1': 0.6666666666666666}
+
+INFO Sum of rewards: 3 
+Number of steps: 7 
+Average reward: 0.42857142857142855 
+Average time 18.671654973711288
+
+-------------------------------------------------------
+

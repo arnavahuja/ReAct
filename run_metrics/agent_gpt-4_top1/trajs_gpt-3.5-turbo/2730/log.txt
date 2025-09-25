@@ -1,0 +1,109 @@
+INFO 2730 Question: Which television series featured an actor who also performed in "The Young Ones"?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search["The Young Ones"]
+Action 1: Search["The Young Ones"]
+Observation 1: Could not find ["The Young Ones"]. Similar: ['Bracket', 'The Young Ones (TV series)', 'Hits from the Young Ones', 'The Young Ones (song)', "Living Doll (song) (redirect from Livin' Doll (Cliff Richard & The Young Ones))"].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search["The Young Ones"]
+Action 1: Search["The Young Ones"]
+Observation 1: "The Young Ones" is a British sitcom that aired from 1982 to 1984 on BBC Two. The show was created by Rik Mayall, Ben Elton, and Lise Mayer, and it follows the lives of four socially awkward university students living together in a rundown house. The main characters are Rick, Vyvyan, Neil, and Mike, each representing different stereotypes of young adults in the 1980s. The show is known for its surreal and anarchic humor,.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search['The Young Ones (TV series)']
+Action 2: Search['The Young Ones (TV series)']
+Observation 2: Could not find 'The Young Ones (TV series)'. Similar: ['The Young Ones (TV series)', 'The Young Ones (video game)', 'The Young Ones', 'Demolition (The Young Ones)', 'Young Justice (TV series)'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Rik Mayall]
+Action 2: Search[Rik Mayall]
+Observation 2: "The Young Ones" is a British sitcom that aired on BBC Two from 1982 to 1984. Created by Rik Mayall, Ben Elton, and Lise Mayer, the show follows the lives of four students sharing a house in North London. The main characters are Vyvyan Basterd (played by Adrian Edmondson), Rick (played by Rik Mayall), Neil Pye (played by Nigel Planer), and Mike (played by Christopher Ryan). The series.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search['The Young Ones (TV series) cast']
+Action 3: Search['The Young Ones (TV series) cast']
+Observation 3: Could not find 'The Young Ones (TV series) cast'. Similar: ['The Young Ones (TV series)', 'Foundation (TV series)', 'One Piece (2023 TV series)', 'Beauty in Black (TV series)', 'Alien: Earth (redirect from Alien (upcoming TV series))'].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Adrian Edmondson]
+Action 3: Search[Adrian Edmondson]
+Observation 3: "The Young Ones" was a British sitcom that aired from 1982 to 1984. The main cast included:. - Adrian Edmondson as Vyvyan Basterd. - Rik Mayall as Rick. - Nigel Planer as Neil Pye.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[The Young Ones (TV series) Main Cast]
+Action 4: Search[The Young Ones (TV series) Main Cast]
+Observation 4: Could not find The Young Ones (TV series) Main Cast. Similar: ['The Young Ones (TV series)', 'Alien: Earth (redirect from Alien (upcoming TV series))', 'Foundation (TV series)', 'The Split (TV series)', 'One Piece (2023 TV series)'].
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search['Adrian Edmondson']
+Action 4: Search['Adrian Edmondson']
+Observation 4: "The Young Ones" is a British sitcom that aired from 1982 to 1984. The main cast of the show included:. 1. Rik Mayall as Rick. 2.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search["The Young Ones"]
+Action 5: Search["The Young Ones"]
+Observation 5: Could not find ["The Young Ones"]. Similar: ['Bracket', 'The Young Ones (TV series)', 'Hits from the Young Ones', 'The Young Ones (song)', 'The Young Ones (album)'].
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Search[Rik Mayall]
+Action 5: Search[Rik Mayall]
+Observation 5: "The Young Ones" is a British sitcom that aired from 1982 to 1984 on BBC Two. The show follows the lives of four socially awkward university students sharing a house in North London. Created by Rik Mayall, Ben Elton, and Lise Mayer, the series is known for its surreal humor, slapstick comedy, and breaking the fourth wall. The main characters are Rick, Vyvyan, Neil, and Mike, each representing different stereotypes of young adults in the.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Search['The Young Ones (TV series) Actors']
+Action 6: Search['The Young Ones (TV series) Actors']
+Observation 6: Could not find 'The Young Ones (TV series) Actors'. Similar: ['The Young Ones (TV series)', 'The Penguin (TV series)', 'Young Justice (TV series)', 'One Hundred Years of Solitude (TV series)', 'Adolescence (TV series)'].
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Lookup[actor]
+Action 6: Lookup[actor]
+Observation 6: "The Young Ones" was a British television sitcom that aired from 1982 to 1984. The main cast of the show included:. 1. Rik Mayall as Rick. 2.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Search[Adrian Edmondson]
+Action 7: Search[Adrian Edmondson]
+Observation 7: Adrian Charles Edmondson (born 24 January 1957)[1] is an English actor, comedian, musician, writer and television presenter, who came to fame as part of the alternative comedy boom in the early 1980s. He and his comedy partner Rik Mayall starred in the television sitcoms The Young Ones (1982–1984), Filthy Rich & Catflap (1987) and Bottom (1991–1995), the last of which was written by Edmondson and Mayall, as well as the comedy feature film Guest House Paradiso (1999), which Edmondson directed and co-wrote. Edmondson and Mayall also appeared in The Comic Strip Presents... series of films throughout the 1980s and 1990s. For two episodes of this they created the spoof heavy metal band Bad News, and for another Edmondson played his nihilistic alter-ego Eddie Monsoon, an offensive South African television star.[2].
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Search[Rik Mayall]
+Action 7: Search[Rik Mayall]
+Observation 7: Adrian Charles Edmondson (born 24 January 1957) is an English actor, comedian, musician, and television presenter. He is best known for his comedic roles in television series such as "The Young Ones" and "Bottom," which he co-wrote with his comedy partner Rik Mayall. Edmondson has also appeared in various other TV shows and films, including "Blackadder II" and "Guest House Paradiso." In addition to his acting career, he is.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': '"The Comic Strip Presents..."', 'question_idx': 221, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 15 
+Number of steps: 45 
+Average reward: 0.3333333333333333 
+Average time 26.079176023271348
+
+-------------------------------------------------------
+

@@ -1,0 +1,53 @@
+INFO 1248 Question: Which novelist wrote under the pen name Walter Ericson: Laura Esquivel or Howard Fast?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Laura Esquivel]
+Action 1: Search[Laura Esquivel]
+Observation 1: Laura Beatriz Esquivel Valdés (born 30 September 1950)[1] is a Mexican novelist, screenwriter and politician, who served in the Chamber of Deputies for the Morena Party from 2015 to 2018.[1] Her first novel Como agua para chocolate (Like Water for Chocolate) became a bestseller in Mexico and the United States, and was later developed into an award-winning film.. Esquivel studied Theatre and Dramatic Creation at the Centro de Arte Dramático A.C. (CADAC), specialising in Children's Theatre. She is qualified in Pre-School Education (1996-1968), as an Instructor of Theatre Workshops and Children's Literature (1997), Script Assessment in Tlaxcala and Oaxaca (1998 - 2002) and as an Instructor of Workshops of Writing Laboratories in Oaxaca, Michoacán and Spain (1999).. Between 1970 and 1980 she wrote the script for children's programmes for Mexican television, and in 1983, she founded the Centro de Invención Permanente, and took on its technical direction..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Laura Esquivel]
+Action 1: Search[Laura Esquivel]
+Observation 1: **Laura Esquivel Valdés** (born September 30, 1950) is a Mexican novelist, screenwriter, and politician. She is best known for her 1989 novel *Like Water for Chocolate* (Spanish: *Como Agua para Chocolate*), which became a bestseller and was adapted into a critically acclaimed film.. **Early Life and Career:**. Esquivel was born in Mexico City, Mexico, the third of four children to Julio César Esquivel.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Howard Fast]
+Action 2: Search[Howard Fast]
+Observation 2: Howard Melvin Fast (November 11, 1914 – March 12, 2003) was an American novelist and television writer. Fast also wrote under the pen names E.V. Cunningham and Walter Ericson.. Fast was born in New York City. His mother, Ida (née Miller), was a British Jewish immigrant, and his father, Barney Fast, was a Ukrainian Jewish immigrant who shortened his name from Fastovsky upon arrival in America.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Howard Fast]
+Action 2: Search[Howard Fast]
+Observation 2: **Howard Melvin Fast** (November 11, 1914 – March 12, 2003) was an American novelist and television writer. He was known for his prolific output and for his political activism, particularly his membership in the Communist Party USA and his subsequent disillusionment with communism.. **Early Life and Career:**. Born in New York City, Fast was the son of Jewish immigrants. His father died when he was young, and his mother struggled to.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Howard Fast]
+Action 3: Finish[Howard Fast]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[Walter Ericson]
+Action 3: Lookup[Walter Ericson]
+Observation 3: **Howard Melvin Fast** (November 11, 1914 – March 12, 2003) was an American novelist and television writer. He was known for his prolific output and for his political activism, particularly his membership in the Communist Party USA and his subsequent disillusionment with communism.. **Early Life and Career:**. Born in New York City, Fast was the son of Jewish immigrants. His father died when he was young, and his mother struggled to.
+
+
+
+INFO {'steps': 5, 'answer': 'Howard Fast', 'gt_answer': 'Howard Melvin Fast', 'question_idx': 699, 'reward': False, 'em': False, 'f1': 0.8}
+
+INFO Sum of rewards: 6 
+Number of steps: 9 
+Average reward: 0.6666666666666666 
+Average time 34.042020877202354
+
+-------------------------------------------------------
+

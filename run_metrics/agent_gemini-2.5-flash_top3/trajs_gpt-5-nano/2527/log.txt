@@ -1,0 +1,44 @@
+INFO 2527 Question: What type of boat was the German submarine U-505 that was captured by the U.S. Navy in 1944?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to search for U-505 to find out what type of boat it was.
+Action 1: Search[U-505] 
+        Action 1: Search[U-505]
+        Observation 1: U-505 is a German Type IXC submarine built for Germany's Kriegsmarine during World War II. She was captured by the United States Navy on 4 June 1944 and survives as a museum ship in Chicago.. In her unlucky career, she had the distinction of being the "most heavily damaged U-boat to successfully return to port" in World War II, suffering six botched patrols, and becoming the only submarine in which a commanding officer killed himself in combat conditions.[5] On 4 June 1944, she was captured by United States Navy Task Group 22.3 (TG 22.3), one of six U-boats that were captured at sea by Allied forces during the war. All but one of U-505's crew were rescued by the Navy task group. The submarine was towed to Bermuda in secret, and her crew was interned in an American prisoner-of-war camp, where they were kept in isolation."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to search for "German submarine U-505" and find information about its type.
+Action 1: Search[German submarine U-505], Lookup[U-505], Search[U-505] 
+        Action 1: ['Search[German submarine U-505]', 'Search[U-505]', 'Lookup[U-505]']
+        Observation 1: "
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The first paragraph directly states that U-505 was a German Type IXC submarine.
+Action 2: Finish[German Type IXC submarine] 
+        Action 2: Finish[German Type IXC submarine]
+        Observation 2: Episode finished, reward = 0
+"
+
+SIMULATION TRAJECTORY:
+ Thought 2: The current observation mentions U-505 directly, so I should be able to find its type within the text. I will look for keywords like "type," "class," or "model" to identify the boat type.
+Action 2: Lookup[type], Lookup[class], Lookup[model] 
+        Action 2: ['Lookup[type]', 'Lookup[class]', 'Lookup[model]']
+        Observation 2: "
+
+
+
+INFO {'steps': 3, 'answer': 'German Type IXC submarine', 'gt_answer': 'German Type IXC U-boat', 'question_idx': 4527, 'reward': False, 'em': False, 'f1': 0.75}
+
+INFO Sum of rewards: 10 
+Number of steps: 20 
+Average reward: 0.5 
+Average time 29.86085624694824
+
+--------------------------------------------------
+

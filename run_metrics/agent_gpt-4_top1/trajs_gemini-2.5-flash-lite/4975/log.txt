@@ -1,0 +1,53 @@
+INFO 4975 Question: Vince Phillips held a junior welterweight title by an organization recognized by what larger Hall of Fame?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Vince Phillips]
+Action 1: Search[Vince Phillips]
+Observation 1: Vincent Edwards "Vince" Phillips (born July 23, 1963) is an American former professional boxer who competed from 1989 to 2007. He held the IBF junior welterweight title from 1997 to 1999, notably scoring an upset victory against then-undefeated Kostya Tszyu to become champion.. As an amateur, Phillips won the U.S. National Golden Gloves in 1985, and the U.S. National Championships in 1985 and 1986, all in the lightweight division..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Vince Phillips]
+Action 1: Search[Vince Phillips]
+Observation 1: **Vincent "Vince" Phillips** (born 1967) is an American former professional boxer who competed from 1987 to 2005. He was a prominent figure in the super lightweight division during the 1990s.. **Professional Career:**. Phillips turned professional in 1987 and quickly established himself as a contender. He was known for his aggressive style, powerful punches, and a strong chin.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[IBF]
+Action 2: Search[IBF]
+Observation 2: The International Boxing Federation (IBF) is one of four major organizations recognized by the International Boxing Hall of Fame (IBHOF) which sanctions professional boxing bouts. The others are the World Boxing Association (WBA), World Boxing Council (WBC) and World Boxing Organization (WBO).. The IBF was preceded by the United States Boxing Association (USBA), a regional championship organization like the North American Boxing Federation (NABF). In 1983, at the WBA's annual convention, held in Puerto Rico, Robert W. "Bobby" Lee Sr., president of the USBA, lost in his bid to become WBA president against Gilberto Mendoza.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[junior welterweight title]
+Action 2: Lookup[junior welterweight title]
+Observation 2: The **International Boxing Federation (IBF)** is one of the four major sanctioning bodies of professional boxing, recognized by the International Boxing Hall of Fame (IBHOF). The other three major sanctioning bodies are the World Boxing Association (WBA), the World Boxing Council (WBC), and the World Boxing Organization (WBO).. The IBF was founded in 1983, emerging from a dispute within the World Boxing Association (WBA) over its presidency. The organization.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[International Boxing Hall of Fame]
+Action 3: Finish[International Boxing Hall of Fame]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[International Boxing Hall of Fame (IBHOF)]
+Action 3: Finish[International Boxing Hall of Fame (IBHOF)]
+Observation 3: The **International Boxing Federation (IBF)** is one of the four major sanctioning bodies of professional boxing, recognized by the International Boxing Hall of Fame (IBHOF). The other three major sanctioning bodies are the World Boxing Association (WBA), the World Boxing Council (WBC), and the World Boxing Organization (WBO).. The IBF was founded in 1983, emerging from a dispute within the World Boxing Association (WBA) over its presidency. The organization.
+
+
+
+INFO {'steps': 5, 'answer': 'International Boxing Hall of Fame', 'gt_answer': 'International Boxing Hall of Fame', 'question_idx': 66, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 5 
+Number of steps: 23 
+Average reward: 0.21739130434782608 
+Average time 28.22331351819246
+
+-------------------------------------------------------
+

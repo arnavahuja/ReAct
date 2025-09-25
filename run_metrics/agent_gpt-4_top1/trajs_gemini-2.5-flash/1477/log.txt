@@ -1,0 +1,53 @@
+INFO 1477 Question: During the 2009 St. Petersburg Bowl on December 19, 2009, which future Atlanta Falcons wide receiver was the game's MVP?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[2009 St. Petersburg Bowl]
+Action 1: Search[2009 St. Petersburg Bowl]
+Observation 1: The 2009 St. Petersburg Bowl was the second edition of the college football bowl game and was played at Tropicana Field in St. Petersburg, Florida. The game began at 8:00 p.m. US EST on Saturday, December 19, 2009, was telecast on ESPN and featured the UCF of Conference USA and Rutgers of the Big East.[3][4]  Rutgers defeated UCF 45–24 in a game where Mohamed Sanu, the game's MVP, caught 4 passes for 97 yards and a touchdown in addition to rushing 14 times for 47 yards and two touchdowns.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[2009 St. Petersburg Bowl]
+Action 1: Search[2009 St. Petersburg Bowl]
+Observation 1: The **2009 St. Petersburg Bowl** was a college football bowl game played on December 19, 2009, at Tropicana Field in St. Petersburg, Florida. It was the second edition of the St. Petersburg Bowl and featured the UCF Knights from the Conference USA (C-USA) and the Rutgers Scarlet Knights from the Big East Conference.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Mohamed Sanu]
+Action 2: Search[Mohamed Sanu]
+Observation 2: Mohamed Sanu Sr. (born August 22, 1989) is an American former professional football wide receiver who played ten seasons in the National Football League (NFL). He played college football for the Rutgers Scarlet Knights and was selected by the Cincinnati Bengals in the third round of the 2012 NFL draft. Sanu was also a member of the Atlanta Falcons, New England Patriots, Detroit Lions, San Francisco 49ers, and the Miami Dolphins.. Originally from Sayreville, New Jersey, Sanu was born to a Muslim family and also lived in his parents' native Sierra Leone as a child.[1] Sanu returned to the United States and lived in Dayton, New Jersey, where he eventually starred at South Brunswick High School as a triple option quarterback before enrolling at Rutgers University in 2009.[2] In his final season at South Brunswick High School, Sanu led the Vikings to their first playoff berth in nearly 40 years, including three rushing touchdowns of at least 80 yards against Edison High School.[3].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[MVP]
+Action 2: Lookup[MVP]
+Observation 2: **Mohamed Sanu Sr.** (born August 22, 1989) is an American former professional football wide receiver. He played college football at Rutgers and was drafted by the Cincinnati Bengals in the third round of the 2012 NFL Draft.. **Early Life and High School:**. Sanu was born in Sayreville, New Jersey, to parents who immigrated from Sierra Leone. He attended South Brunswick High School in Monmouth Junction, New Jersey, where he.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Mohamed Sanu]
+Action 3: Finish[Mohamed Sanu]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Mohamed Sanu]
+Action 3: Finish[Mohamed Sanu]
+Observation 3: **Mohamed Sanu Sr.** (born August 22, 1989) is an American former professional football wide receiver. He played college football at Rutgers and was drafted by the Cincinnati Bengals in the third round of the 2012 NFL Draft.. **Early Life and High School:**. Sanu was born in Sayreville, New Jersey, to parents who immigrated from Sierra Leone. He attended South Brunswick High School in Monmouth Junction, New Jersey, where he.
+
+
+
+INFO {'steps': 5, 'answer': 'Mohamed Sanu', 'gt_answer': 'Mohamed Sanu Sr.', 'question_idx': 6465, 'reward': False, 'em': False, 'f1': 0.8}
+
+INFO Sum of rewards: 6 
+Number of steps: 11 
+Average reward: 0.5454545454545454 
+Average time 32.39028325947848
+
+-------------------------------------------------------
+

@@ -1,0 +1,67 @@
+INFO 6157 Question: Are Cardinal Health and Kansas City Southern located in the same state?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Cardinal Health]
+Action 1: Search[Cardinal Health]
+Observation 1: Cardinal Health, Inc. is an American multinational health care services company, and the 14th highest revenue generating company in the United States. Headquartered in Dublin, Ohio, the company specializes in the distribution of pharmaceuticals and medical products, serving more than 100,000 locations. The company also manufactures medical and surgical product, including gloves, surgical apparel, and fluid management products. In addition, it operates one of the largest networks of radiopharmacies in the U.S.[2] Cardinal Health provides medical products to over 75 percent of hospitals in the United States.[3].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Cardinal Health]
+Action 1: Search[Cardinal Health]
+Observation 1: Cardinal Health, Inc. is a global, integrated healthcare services and products company headquartered in Dublin, Ohio. The company provides pharmaceutical and medical products, as well as services to healthcare providers and manufacturers. Cardinal Health is a Fortune 500 company and one of the largest distributors of pharmaceuticals and medical supplies in the United States. The company operates in over 60 countries and employs approximately 50,000 people worldwide.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Kansas City Southern]
+Action 2: Search[Kansas City Southern]
+Observation 2: Could not find [Kansas City Southern]. Similar: ['Kansas City Southern (company)', 'Kansas City Southern Railway', 'Kansas City Southern de México', 'Canadian Pacific Kansas City', 'Kansas City metropolitan area'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Kansas City Southern]
+Action 2: Search[Kansas City Southern]
+Observation 2: Kansas City Southern (KCS) is a Class I railroad company in the United States. It operates a network of railroads in the central and southern United States, with its headquarters located in Kansas City, Missouri. The company was founded in 1887 and has since grown to become a major player in the North American rail industry.. Kansas City Southern operates over 6,000 miles of track in the United States and Mexico, providing freight transportation services to a wide range of industries, including agriculture,.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Kansas City Southern (company)]
+Action 3: Search[Kansas City Southern (company)]
+Observation 3: Kansas City Southern (KCS) was a transportation holding company with railroad investments in the United States, Mexico, and Panama and operated from 1887 to 2023. The KCS rail network included about 7,299 miles (11,747 km) of track in the U.S. and Mexico.[2]. Its primary U.S. holding was the Kansas City Southern Railway (KCS), a Class I railroad[3] that operated about 3,984 route miles (6,412 km)[2] in 10 states in the midwestern and southeastern United States.[4] KCS's hubs included Kansas City, Missouri; Shreveport, Louisiana; New Orleans; Dallas; and Houston.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[No]
+Action 3: Finish[No]
+Observation 3: Kansas City Southern (KCS) is a transportation holding company with railroad investments in the United States, Mexico, and Panama. The company operates a primary rail network that serves the central and south-central United States, connecting major commercial and industrial markets. Kansas City Southern's rail network spans approximately 6,700 miles, with connections to all major North American railroads.. KCS provides freight transportation services, including the shipment of commodities such as automotive products, chemicals, energy, industrial and consumer products, and.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[No]
+Action 4: Finish[No]
+Observation 4: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[headquartered]
+Action 4: Lookup[headquartered]
+Observation 4: Kansas City Southern (KCS) is a transportation holding company with railroad investments in the United States, Mexico, and Panama. The company operates a primary rail network that serves the central and south-central United States, connecting major commercial and industrial markets. Kansas City Southern's rail network spans approximately 6,700 miles, with connections to all major North American railroads.. KCS provides freight transportation services, including the shipment of commodities such as automotive products, chemicals, energy, industrial and consumer products, and.
+
+
+
+INFO {'steps': 7, 'answer': 'No', 'gt_answer': 'no', 'question_idx': 3306, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 11 
+Number of steps: 27 
+Average reward: 0.4074074074074074 
+Average time 17.95410611011364
+
+-------------------------------------------------------
+

@@ -1,0 +1,42 @@
+INFO 5619 Question: Where were the brothers from that manufactured the balloon in which François Laurent d'Arlandes andJean-François Pilâtre de Rozier made the first manned free balloon flight?
+
+STEP: 1
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 1: I should identify the brothers who made the balloon for the first manned free balloon flight by d'Arlandes and Pilâtre de Rozier, then find where those brothers were from. The manufacturers were the Montgolfier brothers, so I will search their page to find their origin.
+Action 1: Search[Montgolfier brothers]
+Observation 1: The Montgolfier brothers – Joseph-Michel Montgolfier (French: [ʒozɛf miʃɛl mɔ̃ɡɔlfje]; 26 August 1740 – 26 June 1810)[1] and Jacques-Étienne Montgolfier ([ʒak etjɛn mɔ̃ɡɔlfje]; 6 January 1745 – 2 August 1799)[1] – were aviation pioneers, balloonists and paper manufacturers from the commune Annonay in Ardèche, France. They invented the Montgolfière-style hot air balloon, globe aérostatique, which launched the first confirmed piloted ascent by humans in 1783, carrying Jacques-Étienne.. Joseph-Michel also invented the self-acting hydraulic ram (1796) and Jacques-Étienne founded the first paper-making vocational school. Together, the brothers invented a process to manufacture transparent paper.. Joseph-Michel and Jacques-Étienne Montgolfier were born into a family of paper manufacturers.
+
+SIMULATION TRAJECTORY:
+ Thought 1: None
+Action 1: Search[Montgolfier brothers]
+Observation 1: The Montgolfier brothers, Joseph-Michel and Jacques-Étienne, were French inventors and pioneers in aviation. They are best known for inventing the hot air balloon, which they successfully demonstrated in 1783. Their invention marked the beginning of manned flight and is considered a significant milestone in the history of aviation.. The Montgolfier brothers were born in France in the 18th century and were successful paper manufacturers. Inspired by the discovery that smoke rises, they began experimenting.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The Montgolfier brothers are stated to be from the commune of Annonay in Ardèche, France, so I can provide that as the answer.
+Action 2: Finish[Annonay, Ardèche, France]
+Observation 2: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 2: I need to find the specific place the Montgolfier brothers were from; I'll look for mention of their origin on their page.
+Action 2: Lookup[Annonay]
+Observation 2: The Montgolfier brothers, Joseph-Michel and Jacques-Étienne, were French inventors and pioneers in aviation. They are best known for inventing the hot air balloon, which they successfully demonstrated in 1783. Their invention marked the beginning of manned flight and is considered a significant milestone in the history of aviation.. The Montgolfier brothers were born in France in the 18th century and were successful paper manufacturers. Inspired by the discovery that smoke rises, they began experimenting.
+
+
+
+INFO {'steps': 3, 'answer': 'Annonay, Ardèche, France', 'gt_answer': 'Annonay, in Ardèche', 'question_idx': 7149, 'reward': False, 'em': False, 'f1': 0.6666666666666666}
+
+INFO Sum of rewards: 0 
+Number of steps: 1 
+Average reward: 0.0 
+Average time 71.59499192237854
+
+-------------------------------------------------------
+

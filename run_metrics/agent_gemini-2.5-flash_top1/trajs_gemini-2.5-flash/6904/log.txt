@@ -1,0 +1,39 @@
+INFO 6904 Question: What kind of species on the Indonesian island of java might participate in a Rampokan.
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Rampokan]
+Action 1: Search[Rampokan]
+Observation 1: Rampokan was a traditional Javan big cat fight. Panthers or tigers were released from wooden boxes and surrounded by warriors with lances trying to prevent them from breaking out of the circle. The rampokan would take place towards the end of Ramadan. It symbolized purification and the overcoming of evil.[1] If the tigers and panthers succeeded in breaking through the circle, it was seen as an omen of disaster as famine.[citation needed] The ritual died out in the early 20th century.[2] A battle between a tiger and buffalo was the first part of the event in its earlier incarnations, but in later years this was omitted.[1]. This article about sports in Indonesia is a stub.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Rampokan]
+Action 1: Search[Rampokan]
+Observation 1: **Rampokan**. Rampokan, also known as "Rampokan Macan" (Tiger Rampokan) or "Rampokan Singa" (Lion Rampokan), was a traditional Javanese spectacle involving the ritualistic killing of tigers or other large predators. While the practice has largely been abolished, it holds significant historical and cultural importance in Java, Indonesia.. **Historical Context and Origins**. The origins of Rampokan are deeply intertwined with ancient Javanese beliefs and.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[Panthers, tigers, and buffalo]
+Action 2: Finish[Panthers, tigers, and buffalo]
+Observation 2: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Finish[Tigers or other large predators]
+Action 2: Finish[Tigers or other large predators]
+Observation 2: **Rampokan**. Rampokan, also known as "Rampokan Macan" (Tiger Rampokan) or "Rampokan Singa" (Lion Rampokan), was a traditional Javanese spectacle involving the ritualistic killing of tigers or other large predators. While the practice has largely been abolished, it holds significant historical and cultural importance in Java, Indonesia.. **Historical Context and Origins**. The origins of Rampokan are deeply intertwined with ancient Javanese beliefs and.
+
+
+
+INFO {'steps': 3, 'answer': 'Panthers, tigers, and buffalo', 'gt_answer': 'Javan leopard', 'question_idx': 1069, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 1 
+Number of steps: 4 
+Average reward: 0.25 
+Average time 13.515752732753754
+
+-------------------------------------------------------
+

@@ -1,0 +1,67 @@
+INFO 3954 Question: The musician who did "Khalaara" was born on what date?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search["Khalaara"]
+Action 1: Search["Khalaara"]
+Observation 1: Could not find "Khalaara". Similar: ['Ishq Garaari'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search["Khalaara"]
+Action 1: Search["Khalaara"]
+Observation 1: I couldn't find specific information about "Khalaara" on Wikipedia. It's possible that:. *   **The term is very niche:** It might be a specific term within a particular community, religion, or cultural practice that isn't widely documented online.. *   **It's a misspelling:** There might be a slight variation in the spelling that would lead to relevant results.. *   **It's a new term:** The concept or word might be.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search["Ishq Garaari"]
+Action 2: Search["Ishq Garaari"]
+Observation 2: Ishq Garaari is a Punjabi film directed by Dheeraj Rattan. It is produced by Ravi Jain and Karan Bali and stars Sharry Mann, Rannvijay Singh, Mandy Takhar, Gulzar Chahal, Miss Pooja, Vinaypal Buttar, Gunjan Walia, and Prabhleen Sandhu. The film also has a song titled 'Khalaara' by Yo Yo Honey Singh.... The story is about Sharry who loves Priti and wants to marry her but her father who is doing tempo business is against it. Sharry aspires to become a singer.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Khallaara singer]
+Action 2: Search[Khallaara singer]
+Observation 2: **Ishq Garaari** is a Punjabi-language romantic comedy film released in 2014.. **Synopsis:**. The film revolves around the lives of two individuals who find themselves in a complicated romantic entanglement. The narrative explores the humorous situations and emotional turmoil that arise from their relationships and the societal pressures they face.. **Cast:**.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search["Yo Yo Honey Singh"]
+Action 3: Search["Yo Yo Honey Singh"]
+Observation 3: Hirdesh "Honey" Singh (born 15 March 1983), known professionally as Yo Yo Honey Singh, is an Indian singer and music producer. He commenced his career as a hip-hop music producer in 2003, working as a session and recording artist within the underground music scene until the release of his debut studio album, International Villager.. Honey Singh was born on 15 March 1983 to a Sikh family in Hoshiarpur, Punjab. He studied at the Guru Nanak Public School in New Delhi.[2] Given his interest in music, Singh travelled to the United Kingdom to study at the Trinity College Of Music. After graduating, he moved to Delhi in pursuit of better career opportunities.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search["Ishq Garaari soundtracks"]
+Action 3: Search["Ishq Garaari soundtracks"]
+Observation 3: **Yo Yo Honey Singh**. **Hirdesh Singh** (born 15 March 1983), known by his stage name **Yo Yo Honey Singh**, is an Indian rapper, singer, music producer, and actor. He is widely recognized for his contributions to Punjabi music and his popularization of the "Yo Yo" style of rapping in India.. **Early Life and Career Beginnings:**. Hirdesh Singh was born in Hoshiarpur, Punjab, India..
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[15 March 1983]
+Action 4: Finish[15 March 1983]
+Observation 4: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[March 15, 1983]
+Action 4: Finish[March 15, 1983]
+Observation 4: **Yo Yo Honey Singh**. **Hirdesh Singh** (born 15 March 1983), known by his stage name **Yo Yo Honey Singh**, is an Indian rapper, singer, music producer, and actor. He is widely recognized for his contributions to Punjabi music and his popularization of the "Yo Yo" style of rapping in India.. **Early Life and Career Beginnings:**. Hirdesh Singh was born in Hoshiarpur, Punjab, India..
+
+
+
+INFO {'steps': 7, 'answer': '15 March 1983', 'gt_answer': '15 March 1983', 'question_idx': 6686, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 13 
+Number of steps: 33 
+Average reward: 0.3939393939393939 
+Average time 28.81171045881329
+
+-------------------------------------------------------
+

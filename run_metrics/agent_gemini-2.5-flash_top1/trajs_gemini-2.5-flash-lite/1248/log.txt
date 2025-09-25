@@ -1,0 +1,70 @@
+INFO 1248 Question: What was the former name of the stadium where the OFC U-20 Championship was played in 1986?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[OFC U-20 Championship 1986]
+Action 1: Search[OFC U-20 Championship 1986]
+Observation 1: Could not find OFC U-20 Championship 1986. Similar: ['1986 OFC U-20 Championship', '1986 OFC U-17 Championship', "2024 OFC U-16 Men's Championship", "OFC U-19 Men's Championship", "OFC U-16 Men's Championship"].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[OFC U-20 Championship 1986]
+Action 1: Search[OFC U-20 Championship 1986]
+Observation 1: The **1986 OFC U-20 Championship** was the sixth edition of the OFC U-20 Championship, the biennial international youth football competition organized by the Oceania Football Confederation (OFC) for its male national youth teams. The tournament was held in **Australia** from 15 to 23 February 1986.. **Format:**. The tournament featured four teams: Australia, Fiji, New Zealand, and Papua New Guinea. The teams played.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[1986 OFC U-20 Championship]
+Action 2: Search[1986 OFC U-20 Championship]
+Observation 2: The OFC U-20 Championship 1986 was a soccer tournament held at the Mount Smart Stadium in Auckland, New Zealand. It also served as qualification for the 1987 FIFA World Youth Championship.. The following teams entered the tournament:. The tournament winner qualified for the 1987 FIFA World Youth Championship.. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[stadium]
+Action 2: Lookup[stadium]
+Observation 2: The 1986 OFC U-20 Championship was the sixth edition of the OFC U-20 Championship, the biennial international youth football competition organized by the Oceania Football Confederation (OFC) for its member nations' under-20 teams. The tournament was held in Australia from 11 to 19 January 1986.. **Format:**. The tournament featured four teams: Australia, Fiji, New Zealand, and Papua New Guinea. They played.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Mount Smart Stadium]
+Action 3: Search[Mount Smart Stadium]
+Observation 3: Mount Smart Stadium, currently known as Go Media Stadium for sponsorship reasons, is a multi-purpose stadium in the suburb of Penrose, Auckland, New Zealand. It is the main home ground of the New Zealand Warriors of the National Rugby League and Auckland FC of the A-League Men, and occasionally hosts rugby union and international rugby league matches. Built within the quarried remnants of the Rarotonga / Mount Smart volcanic cone, it is located 10 kilometres south of the city centre, in the suburb of Penrose.. The Mount Smart Domain Board was established in 1943 with the purpose of transforming the former quarry site into a public reserve.[citation needed] In 1953, a plan was approved for a sports stadium which was officially opened in 1967. In 1978, it hosted 3 matches of the World Series Cricket tour of New Zealand.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[stadium]
+Action 3: Lookup[stadium]
+Observation 3: Mount Smart Stadium, also known as Go Media Stadium Mount Smart for sponsorship reasons, is a multi-purpose stadium located in the suburb of Penrose in Auckland, New Zealand. It is primarily used for rugby league matches, but also hosts rugby union, football (soccer), and concerts.. **History:**. The stadium was originally built in 1967 as a stadium for athletics. It was later redeveloped in the early 1980s to become a venue for major sporting.
+
+
+
+STEP: 4
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[Mount Smart Stadium]
+Action 4: Finish[Mount Smart Stadium]
+Observation 4: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 4: None
+Action 4: Lookup[former name]
+Observation 4: Mount Smart Stadium, also known as Go Media Stadium Mount Smart for sponsorship reasons, is a multi-purpose stadium located in the suburb of Penrose in Auckland, New Zealand. It is primarily used for rugby league matches, but also hosts rugby union, football (soccer), and concerts.. **History:**. The stadium was originally built in 1967 as a stadium for athletics. It was later redeveloped in the early 1980s to become a venue for major sporting.
+
+
+
+INFO {'steps': 7, 'answer': 'Mount Smart Stadium', 'gt_answer': 'Ericsson Stadium', 'question_idx': 1903, 'reward': False, 'em': False, 'f1': 0.4}
+
+INFO Sum of rewards: 1 
+Number of steps: 9 
+Average reward: 0.1111111111111111 
+Average time 9.556193537182278
+
+-------------------------------------------------------
+

@@ -1,0 +1,39 @@
+INFO 5977 Question: Robbie Tucker plays in what series that follows a group of friends who run an Irish bar?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Robbie Tucker]
+Action 1: Search[Robbie Tucker]
+Observation 1: Robbie Tucker (born April 5, 2001)[1] is an American actor. His best known role to date is that of Fenmore Baldwin on the CBS soap opera The Young and the Restless. Tucker has also starred on other series, such as Criminal Minds, FlashForward and It's Always Sunny in Philadelphia. He has also appeared in the films Prom and Little Fockers.. In 2012, Tucker was nominated at the 33rd Young Artist Awards for his performance in Prom and won for his role in The Young and the Restless.[2].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Robbie Tucker]
+Action 1: Search[Robbie Tucker]
+Observation 1: I'm sorry, but I am unable to provide information on Robbie Tucker as there is no relevant information available in my database..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[It's Always Sunny in Philadelphia]
+Action 2: Finish[It's Always Sunny in Philadelphia]
+Observation 2: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[TV series Irish bar]
+Action 2: Search[TV series Irish bar]
+Observation 2: I'm sorry, but I am unable to provide information on Robbie Tucker as there is no relevant information available in my database..
+
+
+
+INFO {'steps': 3, 'answer': "It's Always Sunny in Philadelphia", 'gt_answer': "It's Always Sunny in Philadelphia", 'question_idx': 1793, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 1 
+Number of steps: 6 
+Average reward: 0.16666666666666666 
+Average time 29.35786434014638
+
+-------------------------------------------------------
+

@@ -1,0 +1,109 @@
+INFO 1007 Question: What type of development, currently existing in Pasay, is currently being considered for malls such as one in M.A. Roxas Avenue in Clark Freeport, Angeles City in Pampanga Philippines?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Pasay]
+Action 1: Search[Pasay]
+Observation 1: Pasay, officially the City of Pasay (Filipino: Lungsod ng Pasay; IPA: [ˈpaː.saɪ̯]), is a highly urbanized city in the National Capital Region of the Philippines. According to the 2020 census, it has a population of 440,656 people.[5]. Due to its location just south of Manila, Pasay quickly became an urban town during the American colonial period. It is now best known for being the site of most of Ninoy Aquino International Airport and of complexes such as Newport City and the SM Central Business Park.. There are possible explanations on the origins of the city's name:.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Pasay]
+Action 1: Search[Pasay]
+Observation 1: Pasay, officially the **City of Pasay**, is a highly urbanized city in the National Capital Region of the Philippines. It is a component city of Metro Manila, situated on the southwestern shores of Manila Bay. Pasay is known for its vibrant entertainment and commercial districts, as well as its significant role as a transportation hub.. **History:**. The area that is now Pasay was originally a small fishing village.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Newport City]
+Action 2: Search[Newport City]
+Observation 2: Newport (Welsh: Casnewydd [kasˈnɛwɨð]) is a city and county borough in Wales, on the River Usk near its confluence with the Severn Estuary, approximately 12 mi (19 km) northeast of Cardiff. The population grew significantly between the 2011 and the 2021 census, increasing from 145,700 to 159,587,[3] the largest growth of any unitary authority in Wales. Newport is the third-largest principal authority with city status in Wales and the sixth most populous overall.[4] Newport became a unitary authority in 1996 and forms part of the Cardiff-Newport metropolitan area,[5] and the Cardiff Capital Region.. Newport has been a port since medieval times, originating with the construction of Newport Castle by the Normans. The town eventually outgrew the earlier Roman settlement of Caerleon, located just upstream and now incorporated into the city.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[development]
+Action 2: Lookup[development]
+Observation 2: Newport is a city and principal area in Wales, located in the south-east of the country. It lies on the River Usk, approximately 12 miles north of the Bristol Channel. Historically part of Monmouthshire, Newport became a county borough in 1891 and a city in 1996.. **History:**. The area around Newport has a long history, with evidence of Roman settlement.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Newport City (Philippines)]
+Action 3: Search[Newport City (Philippines)]
+Observation 3: Could not find Newport City (Philippines). Similar: ['Newport City, Metro Manila', 'Newport', 'Filipino Americans in Hampton Roads', 'Newport World Resorts', 'Pasay (redirect from Pasay City, Philippines)'].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[SM Central Business Park]
+Action 3: Search[SM Central Business Park]
+Observation 3: **Newport City** is a mixed-use development located in Pasay City, Metro Manila, Philippines. It is a self-contained township that integrates residential, commercial, and entertainment facilities.. **Location:**. Newport City is situated in Pasay City, adjacent to the Ninoy Aquino International Airport (NAIA) Terminal 3. Its strategic location provides easy access to transportation hubs, business districts, and other key areas within Metro Manila..
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Newport World Resorts]
+Action 4: Search[Newport World Resorts]
+Observation 4: Newport World Resorts (formerly Resorts World Manila) is an integrated resort, located in Newport City, opposite Ninoy Aquino International Airport (NAIA) Terminal 3, in Pasay, Metro Manila, Philippines. The resort is owned and operated by Travellers International Hotel Group, Inc. (TIHGI), a joint venture between Alliance Global Group and Genting Hong Kong. The project, occupying part of a former military camp, has four hotels, casino gambling areas, a shopping mall, cinemas, restaurants, clubs and a theater. A soft launch of the resort took place on August 28, 2009.[1] Resorts World Manila is the sister resort to Resorts World Genting in Malaysia and Resorts World Sentosa in Singapore.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[Clark Freeport]
+Action 4: Search[Clark Freeport]
+Observation 4: **Newport World Resorts** is a sprawling integrated resort located in Pasay, Metro Manila, Philippines. It is one of the largest and most prominent entertainment and gaming destinations in the country, offering a comprehensive range of attractions and services.. **History and Development:**. The resort, originally known as Resorts World Manila, opened its doors in August 2009. It was developed by Travellers International Hotel Group, Inc.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[Clark Freeport]
+Action 5: Search[Clark Freeport]
+Observation 5: Clark, officially the Clark Freeport and Special Economic Zone (CFEZ), is a freeport and special economic zone in Central Luzon, Philippines, managed by the Clark Development Corporation (CDC),[3] a government-owned and controlled corporation (GOCC). It covers portions of the cities and municipalities of Angeles, Mabalacat, and Porac in Pampanga, as well as Capas and Bamban in Tarlac.. The zone is divided into two areas: the Clark Freeport Zone (CFZ) and the Clark Special Economic Zone (CSEZ). New Clark City is part of the CSEZ, while Clark Global City falls within the CFZ. The CFZ includes the area formerly occupied by Clark Air Base, a former United States Air Force facility.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Search[Clark Freeport Zone]
+Action 5: Search[Clark Freeport Zone]
+Observation 5: Clark Freeport Zone (CFZ) is a special economic zone and a former United States Air Force base located in the Philippines. Situated in the province of Pampanga, it is one of the most significant economic hubs in the country, attracting both local and foreign investments.. **History:**. Originally known as Clark Air Base, it was established by the United States in 1903. For decades, it served as a major strategic military installation for the U.S.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Lookup[integrated resort]
+Action 6: Lookup[integrated resort]
+Observation 6: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 6: The question is about a type of development. Newport World Resorts is described as an "integrated resort." The question mentions malls, and Newport World Resorts has a shopping mall. This seems to be the development type that links Pasay and Clark Freeport. I will confirm if Clark Freeport is considering integrated resorts for its malls.
+Action 6: Finish[integrated resort]
+Observation 6: Clark Freeport Zone (CFZ) is a special economic zone and a former United States Air Force base located in the Philippines. Situated in the province of Pampanga, it is one of the most significant economic hubs in the country, attracting both local and foreign investments.. **History:**. Originally known as Clark Air Base, it was established by the United States in 1903. For decades, it served as a major strategic military installation for the U.S.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Finish[integrated resort]
+Action 7: Finish[integrated resort]
+Observation 7: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Lookup[integrated resort]
+Action 7: Lookup[integrated resort]
+Observation 7: Clark Freeport Zone (CFZ) is a special economic zone and a former United States Air Force base located in the Philippines. Situated in the province of Pampanga, it is one of the most significant economic hubs in the country, attracting both local and foreign investments.. **History:**. Originally known as Clark Air Base, it was established by the United States in 1903. For decades, it served as a major strategic military installation for the U.S.
+
+
+
+INFO {'steps': 13, 'answer': 'integrated resort', 'gt_answer': 'SM Lifestyle Cities', 'question_idx': 1959, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 3 
+Number of steps: 8 
+Average reward: 0.375 
+Average time 10.401484251022339
+
+-------------------------------------------------------
+

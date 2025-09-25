@@ -1,0 +1,67 @@
+INFO 7090 Question: Produce 101, which produced I.O.I, cost the company Mnet how much to produce?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Produce 101]
+Action 1: Search[Produce 101]
+Observation 1: Produce 101 (Korean: 프로듀스 101) is a reality television talent competition franchise created by South Korean entertainment conglomerate CJ E&M, based around the formation of a K-pop girl group or boy group. The format is noted for having no panel of judges, employing audience participation to make decisions, as well as for starting with a very large number of competitors, 101, narrowing that number down to the final 11. The franchise began in 2016 and has since expanded to China, Japan and Thailand.. The franchise has attracted a wide following in the world. More than 10 million people cast votes during the finale of Season 2 in 2017, equivalent to a fifth of South Korea's population.[1] In 2018, the eight episodes of Produce 101 China attracted more than 4.3 billion views on Tencent Video.[2].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Produce 101]
+Action 1: Search[Produce 101]
+Observation 1: **Produce 101** was a 2016 South Korean reality survival show on Mnet. The show brought together 101 female trainees from 46 entertainment companies across South Korea. The goal of the show was to form a project girl group through public voting.. **Concept:**. The core concept of *Produce 101* was to select a girl group through a competition where the public, referred to as "national producers," would vote for their favorite.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Lookup[cost]
+Action 2: Lookup[cost]
+Observation 2: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[cost]
+Action 2: Lookup[cost]
+Observation 2: **Produce 101** was a 2016 South Korean reality survival show on Mnet. The show brought together 101 female trainees from 46 entertainment companies across South Korea. The goal of the show was to form a project girl group through public voting.. **Concept:**. The core concept of *Produce 101* was to select a girl group through a competition where the public, referred to as "national producers," would vote for their favorite.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Produce 101 production cost]
+Action 3: Search[Produce 101 production cost]
+Observation 3: Could not find Produce 101 production cost. Similar: ['Produce 101 season 1', 'Hydrogen production', 'Cost of electricity by source', 'IMX-101', 'Biofuel (section Extent of production and use)'].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[cost]
+Action 3: Lookup[cost]
+Observation 3: While specific, detailed production cost breakdowns for *Produce 101* seasons are not readily available on Wikipedia or in public financial reports, we can infer general production cost elements and their likely scale based on the show's format and industry standards.. **General Production Cost Elements:**. *   **Talent Acquisition and Management:**. *   **Trainee Recruitment and Training:** This includes scouting, accommodation, food, living expenses, and extensive training in singing, dancing, rapping,.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[The production cost of Produce 101 is not publicly available.]
+Action 4: Finish[The production cost of Produce 101 is not publicly available.]
+Observation 4: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[The exact production cost of Produce 101 is not readily available.]
+Action 4: Finish[The exact production cost of Produce 101 is not readily available.]
+Observation 4: While specific, detailed production cost breakdowns for *Produce 101* seasons are not readily available on Wikipedia or in public financial reports, we can infer general production cost elements and their likely scale based on the show's format and industry standards.. **General Production Cost Elements:**. *   **Talent Acquisition and Management:**. *   **Trainee Recruitment and Training:** This includes scouting, accommodation, food, living expenses, and extensive training in singing, dancing, rapping,.
+
+
+
+INFO {'steps': 7, 'answer': 'The production cost of Produce 101 is not publicly available.', 'gt_answer': 'about four billion won', 'question_idx': 3140, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 3 
+Number of steps: 13 
+Average reward: 0.23076923076923078 
+Average time 25.2818611401778
+
+-------------------------------------------------------
+

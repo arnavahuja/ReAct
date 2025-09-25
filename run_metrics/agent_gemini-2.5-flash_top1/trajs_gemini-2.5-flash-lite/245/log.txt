@@ -1,0 +1,53 @@
+INFO 245 Question: Riaz-Ur-Rehman Saghar wrote songs for the Pakistani singer who has performed at what US venue?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Riaz-Ur-Rehman Saghar]
+Action 1: Search[Riaz-Ur-Rehman Saghar]
+Observation 1: Riaz-Ur-Rehman Saghar (Punjabi, Urdu: ریاض الرحمان ساغر, born 1 December 1941, Bathinda, Punjab, British India; died 1 June 2013, at Lahore, Pakistan) was a poet and a film song lyricist active in Pakistani cinema.[1]. He had been awarded numerous awards in recognition of his services to the Pakistani film industry. He is credited with having written over 25000 songs in his lifetime, including many for noted Pakistani singers such as Hadiqa Kiani ("Dupatta Mera Malmal Da" [دوپٹا میرا ململ دا], "Yaad Sajan Di Ayi" [یاد سجن دی آوے]) and a duet song with Asha Bhosle and Adnan Sami Khan ("Kabhi to Nazar Milao" [کبھی تو نظر ملاؤ]). Saghar also wrote prose and film dialogue in some of the films.[1][2]. Riaz-ur-Rehman Saghar was born on 1 December 1941 in Bathinda, Punjab, British India to Maulvi Muhammad Azeem and Sadiqan Bibi.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Riaz-Ur-Rehman Saghar]
+Action 1: Search[Riaz-Ur-Rehman Saghar]
+Observation 1: Riaz-Ur-Rehman Saghar was a prominent Pakistani poet, lyricist, and writer. He was born on December 1, 1947, in Lahore, Pakistan. Saghar gained significant recognition for his contributions to Urdu poetry and ghazals, as well as his work as a lyricist for Pakistani films and television.. **Early Life and Education:**. Information regarding Saghar's early life and formal education is not widely available in public records.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Hadiqa Kiani]
+Action 2: Search[Hadiqa Kiani]
+Observation 2: Hadiqa Kiani (born 11 August 1972) is a Pakistani singer, songwriter, guitarist, actress, and social worker. She has won many national and international awards. Hadiqa has also performed at famous places like the Royal Albert Hall in the UK and The Kennedy Center in the USA. Along with Urdu and Punjabi, she has also sung songs in various local and international languages.. Kiani was born in Rawalpindi as the youngest of three siblings.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[singer]
+Action 2: Lookup[singer]
+Observation 2: Hadiqa Kiani (born August 11, 1974) is a Pakistani singer, songwriter, and philanthropist. She is one of Pakistan's most popular and successful singers, known for her versatile vocal range and her ability to blend traditional Pakistani music with contemporary pop influences.. **Early Life and Education:**. Hadiqa Kiani was born in Rawalpindi, Pakistan. She received her early education in Pakistan and later moved to the United States for higher studies..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[The Kennedy Center]
+Action 3: Finish[The Kennedy Center]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[US]
+Action 3: Lookup[US]
+Observation 3: Hadiqa Kiani (born August 11, 1974) is a Pakistani singer, songwriter, and philanthropist. She is one of Pakistan's most popular and successful singers, known for her versatile vocal range and her ability to blend traditional Pakistani music with contemporary pop influences.. **Early Life and Education:**. Hadiqa Kiani was born in Rawalpindi, Pakistan. She received her early education in Pakistan and later moved to the United States for higher studies..
+
+
+
+INFO {'steps': 5, 'answer': 'The Kennedy Center', 'gt_answer': 'The Kennedy Center', 'question_idx': 4492, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 17 
+Number of steps: 41 
+Average reward: 0.4146341463414634 
+Average time 12.294547615981683
+
+-------------------------------------------------------
+

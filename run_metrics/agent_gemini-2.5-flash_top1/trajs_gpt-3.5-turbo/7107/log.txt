@@ -1,0 +1,92 @@
+INFO 7107 Question:  Also known as the Great Action, what other name did this event go by?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Great Action]
+Action 1: Search[Great Action]
+Observation 1: Could not find Great Action. Similar: ['Great! Action', 'Great! Christmas', 'Direct Action Day', 'Great! TV', 'Great! Movies'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Great Action]
+Action 1: Search[Great Action]
+Observation 1: Great Action is a term used to describe significant or impactful actions taken by individuals or groups that have a positive effect on society or a particular cause. These actions are often characterized by their scale, influence, and lasting impact. Great Action can encompass a wide range of activities, such as social movements, charitable initiatives, political campaigns, and acts of heroism. The term is often used to inspire and motivate others to take action and make a difference in the world..
+
+
+
+STEP: 2
+
+ERROR Action not found in None 
+Retrying to get action...
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Direct Action Day]
+Action 3: Search[Direct Action Day]
+Observation 3: No centralised leadership, though local Indian National Congress leaders took part. Local chapter of All-India Muslim League. Direct Action Day (16 August 1946) was the day the All-India Muslim League decided to take a "direct action" using general strikes and economic shut down to demand a separate Muslim homeland after the British exit from India. Also known as the 1946 Calcutta Riots and Great Calcutta Killings, it soon became a day of communal violence in Calcutta.[5] It led to large-scale violence between Muslims and Hindus in the city of Calcutta (now known as Kolkata) in the Bengal province of British India.[3] The day also marked the start of what is known as The Week of the Long Knives.[6][7] While there is a certain degree of consensus on the magnitude of the killings (although no precise casualty figures are available), including their short-term consequences, controversy remains regarding the exact sequence of events, the various actors' responsibility and the long-term political consequences.[8]. There is still extensive controversy regarding the respective responsibilities of the two main communities, the Hindus and the Muslims, in addition to individual leaders' roles in the carnage.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search
+Action 3: Search
+Observation 3: Direct Action Day, also known as the Great Calcutta Killings, was a day of widespread communal rioting in the city of Calcutta (now Kolkata) in British India on 16 August 1946. The day marked the start of a series of violent events between Muslims and Hindus, leading to the deaths of thousands of people and extensive property damage. The violence was sparked by the call for a general strike by the Muslim League in support of its demand for a separate Muslim state,.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[1946 Calcutta
+Action 4: Finish[1946 Calcutta
+Observation 4: Invalid action: finish[1946 Calcutta
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[The Great Calcutta Killings]
+Action 4: Finish[The Great Calcutta Killings]
+Observation 4: Direct Action Day, also known as the Great Calcutta Killings, was a day of widespread communal rioting in the city of Calcutta (now Kolkata) in British India on 16 August 1946. The day marked the start of a series of violent events between Muslims and Hindus, leading to the deaths of thousands of people and extensive property damage. The violence was sparked by the call for a general strike by the Muslim League in support of its demand for a separate Muslim state,.
+
+
+
+STEP: 5
+
+ERROR Action not found in The question asks for another name for the "Great Action". The search result for "Direct Action Day" mentions it is "Also known as the 1946 Calcutta Riots and Great Calcutta Killings". The initial search for "Great Action" suggested "Direct Action Day". Therefore, "Direct Action Day" is likely the "Great Action" referred to in the question, and its other names are "1946 Calcutta Riots" and "Great Calcutta Kill 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Finish[1946 Calcutta Riots and
+Action 5: Finish[1946 Calcutta Riots and
+Observation 5: Invalid action: finish[1946 Calcutta Riots and
+
+SIMULATION TRAJECTORY:
+ Thought 5: The question asks for another name for the "Great Action". The search result for "Direct Action Day" mentions it is "Also known as the 1946 Calcutta Riots and Great Calcutta Killings". The initial search for "Great Action" suggested "Direct Action Day". Therefore, "Direct Action Day" is likely the "Great Action" referred to in the question, and its other names are "1946 Calcutta Riots" and "Great Calcutta Kill
+Action 5: Finish[1946 Calcutta Riots or Great Calcutta Killings]
+Observation 5: Direct Action Day, also known as the Great Calcutta Killings, was a day of widespread communal rioting in the city of Calcutta (now Kolkata) in British India on 16 August 1946. The day marked the start of a series of violent events between Muslims and Hindus, leading to the deaths of thousands of people and extensive property damage. The violence was sparked by the call for a general strike by the Muslim League in support of its demand for a separate Muslim state,.
+
+
+
+STEP: 6
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Finish[1946 Calcutta Riots and Great Calcutta Killings]
+Action 6: Finish[1946 Calcutta Riots and Great Calcutta Killings]
+Observation 6: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 6: None
+Action 6: Finish[1946 Calcutta Riots and Great Calcutta Killings]
+Observation 6: Direct Action Day, also known as the Great Calcutta Killings, was a day of widespread communal rioting in the city of Calcutta (now Kolkata) in British India on 16 August 1946. The day marked the start of a series of violent events between Muslims and Hindus, leading to the deaths of thousands of people and extensive property damage. The violence was sparked by the call for a general strike by the Muslim League in support of its demand for a separate Muslim state,.
+
+
+
+INFO {'steps': 9, 'answer': '1946 Calcutta Riots and Great Calcutta Killings', 'gt_answer': 'Große Aktion', 'question_idx': 1810, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 0 
+Number of steps: 1 
+Average reward: 0.0 
+Average time 19.901026010513306
+
+-------------------------------------------------------
+

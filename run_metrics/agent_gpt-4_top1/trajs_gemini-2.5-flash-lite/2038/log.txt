@@ -1,0 +1,109 @@
+INFO 2038 Question: Which physicist known for his work on parity violation has a son who became an American chemist teaching at Cornell University?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[parity violation]
+Action 1: Search[parity violation]
+Observation 1: In physics, a parity transformation (also called parity inversion) is the flip in the sign of one spatial coordinate. In three dimensions, it can also refer to the simultaneous flip in the sign of all three spatial coordinates (a point reflection or point inversion):. P. :. (.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[parity violation]
+Action 1: Search[parity violation]
+Observation 1: Parity violation, also known as P-violation, is a phenomenon in physics where a physical process does not behave the same way when its spatial coordinates are inverted (reflected through the origin). In simpler terms, if you were to watch a video of a process and then watch a video of the same process played backward in time and mirrored, parity violation means these two videos would look different.. **In the context of physics, parity (P) is a symmetry operation that transforms a system'.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Lookup[physicist]
+Action 2: Lookup[physicist]
+Observation 2: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[physicist]
+Action 2: Lookup[physicist]
+Observation 2: Parity violation, also known as P-violation, is a phenomenon in physics where a physical process does not behave the same way when its spatial coordinates are inverted (reflected through the origin). In simpler terms, if you were to watch a video of a process and then watch a video of the same process played backward in time and mirrored, parity violation means these two videos would look different.. **In the context of physics, parity (P) is a symmetry operation that transforms a system'.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[American chemist teaching at Cornell University]
+Action 3: Search[American chemist teaching at Cornell University]
+Observation 3: Could not find American chemist teaching at Cornell University. Similar: ['Cornell University', 'Andreas Albrecht (chemist)', 'Stephen Lee (chemist)', 'Roald Hoffmann (category Cornell University faculty)', 'Walter McCrone (category Cornell University alumni)'].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Physicists known for work on parity violation]
+Action 3: Search[Physicists known for work on parity violation]
+Observation 3: **John E. W. W. W. W.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Roald Hoffmann (category Cornell University faculty)]
+Action 4: Search[Roald Hoffmann (category Cornell University faculty)]
+Observation 4: Could not find Roald Hoffmann (category Cornell University faculty). Similar: ['List of Cornell University faculty', 'List of Harvard University people', 'List of Columbia University people', 'List of Nobel laureates affiliated with Columbia University as alumni or faculty', 'Poland'].
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[son]
+Action 4: Lookup[son]
+Observation 4: Roald Hoffmann is a Nobel Prize-winning chemist and a distinguished professor at Cornell University.. Born in Złoczów, Poland (then part of Poland, now Ukraine) in 1937, Hoffmann's early life was marked by the horrors of World War II. He and his mother survived the Holocaust by hiding in a schoolhouse attic, an experience that profoundly shaped his perspective. His father, a lawyer and architect, also perished during the war. After the war, Hoffmann.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[Roald Hoffmann]
+Action 5: Search[Roald Hoffmann]
+Observation 5: Roald Hoffmann (born Roald Safran; July 18, 1937)[2] is a Polish-American theoretical chemist who won the 1981 Nobel Prize in Chemistry. He has also published plays and poetry. He is the Frank H. T. Rhodes Professor of Humane Letters Emeritus at Cornell University.[3][4][5][6].
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Lookup[father]
+Action 5: Lookup[father]
+Observation 5: Roald Hoffmann (born July 30, 1937) is a Polish-American theoretical chemist who won the Nobel Prize in Chemistry in 1981. He is known for his work on the mechanisms of chemical reactions, particularly the development of the Woodward-Hoffmann rules.. **Early Life and Education:**. Hoffmann was born in Złoczów, Poland (now Zolochiv, Ukraine) to Jewish parents. His father, a lawyer, and his.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Lookup[son]
+Action 6: Lookup[son]
+Observation 6: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Lookup[father]
+Action 6: Lookup[father]
+Observation 6: Roald Hoffmann (born July 30, 1937) is a Polish-American theoretical chemist who won the Nobel Prize in Chemistry in 1981. He is known for his work on the mechanisms of chemical reactions, particularly the development of the Woodward-Hoffmann rules.. **Early Life and Education:**. Hoffmann was born in Złoczów, Poland (now Zolochiv, Ukraine) to Jewish parents. His father, a lawyer, and his.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Lookup[father]
+Action 7: Lookup[father]
+Observation 7: (Result 1 / 1) His father, a lawyer, and his.
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Lookup[father]
+Action 7: Lookup[father]
+Observation 7: Roald Hoffmann (born July 30, 1937) is a Polish-American theoretical chemist who won the Nobel Prize in Chemistry in 1981. He is known for his work on the mechanisms of chemical reactions, particularly the development of the Woodward-Hoffmann rules.. **Early Life and Education:**. Hoffmann was born in Złoczów, Poland (now Zolochiv, Ukraine) to Jewish parents. His father, a lawyer, and his.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'Tsung-Dao Lee', 'question_idx': 2432, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 4 
+Number of steps: 15 
+Average reward: 0.26666666666666666 
+Average time 25.85998206138611
+
+-------------------------------------------------------
+

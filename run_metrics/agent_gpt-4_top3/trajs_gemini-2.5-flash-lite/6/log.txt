@@ -1,0 +1,60 @@
+INFO 6 Question: On what river is the city where Stade 24 Novembre is located situated on?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to search Stade 24 Novembre, and find the city where it is located, then find the river on which the city is situated.
+Action 1: [Search[Stade 24 Novembre]] 
+        Action 1: Search[Stade 24 Novembre]
+        Observation 1: Stade Cardinal Malula, formerly known as Stade 24 Novembre and before  Stade Reine Astrid,  is a stadium located in Kinshasa, Democratic Republic of the Congo. It opened in 1937 and serves as the home of AS Dragons.. It is currently named in honor of Joseph Malula, Archbishop of Kinshasa  from 1964 to his death in 1989. It was before named of the date Mobutu Sese Seko seized power in the country in 1965 and previously named after Astrid of Sweden, Queen consort of the Belgians, when Congo was a Belgian colony.. 4°19′22″S 15°18′45″E﻿ / ﻿4.322865°S 15.312485°E﻿ / -4.322865; 15.312485."
+
+SIMULATION TRAJECTORY:
+ Thought 1: To find on what river the city where Stade 24 Novembre is located is situated on, I first need information on where Stade 24 Novembre is located.
+Action 1: [Search[Stade 24 Novembre], Lookup[Stade 24 Novembre], Search[Stade]] 
+        Action 1: ['Search[Stade 24 Novembre]', 'Search[Stade]', 'Lookup[Stade 24 Novembre]']
+        Observation 1: **Stade 24 Novembre**. The Stade 24 Novembre (24 November Stadium) is a multi-purpose stadium located in **Kénitra, Morocco**.. **Capacity and Usage:**. While specific official capacity figures can vary, the stadium is primarily used for **football (soccer) matches**. It serves as the home ground for **KAC Kénitra**, a Moroccan football club."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The Stade 24 Novembre is located in Kinshasa, Democratic Republic of the Congo. I need to search Kinshasa and find the river it's situated on.
+Action 2: Search[Kinshasa] 
+        Action 2: Search[Kinshasa]
+        Observation 2: Kinshasa (/kɪnˈʃɑːsə/; French: [kinʃasa]; Lingala: Kinsásá), formerly named Léopoldville from 1881–1966 (Dutch: Leopoldstad), is the capital and largest city of the Democratic Republic of the Congo. Kinshasa is one of the world's fastest-growing megacities, with an estimated population of 17.8 million in 2024.[6] It is the most densely populated city in the DRC, the second-most populous city and third-largest metropolitan area in Africa, and the world's twenty-second most populous city and fourth-most populous capital city. It is the leading economic, political, and cultural center of the DRC,[7][8][9][10] housing several industries including manufacturing,[11] telecommunications,[12][13] banking, and entertainment.[14][15] The city also hosts some of DRC's significant institutional buildings, such as the People's Palace, Palace of the Nation, Court of Cassation, Constitutional Court, African Union City, Marble Palace, Martyrs Stadium, Government House, Kinshasa Financial Center, and other national departments and agencies.[16][17][18][19]. The Kinshasa site has been inhabited by Teke and Humbu people for centuries and was known as Nshasa before transforming into a commercial hub during the 19th and 20th centuries.[20][21] The city was named Léopoldville by Henry Morton Stanley in honor of Leopold II of Belgium.[20][22][23] The name was changed to Kinshasa in 1966 during Mobutu Sese Seko's Zairianisation campaign as a tribute to Nshasa village.[20] Covering 9,965 square kilometers, Kinshasa stretches along the southern shores of the Pool Malebo on the Congo River. It forms an expansive crescent across flat, low-lying terrain at an average altitude of about 300 meters.[20] Kinshasa borders the Mai-Ndombe Province, Kwilu Province, and Kwango Province to the east; the Congo River delineates its western and northern perimeters, constituting a natural border with the Republic of the Congo; to the south lies the Kongo Central Province."
+
+SIMULATION TRAJECTORY:
+ Thought 2: Now I know that Stade 24 Novembre is located in Kénitra, Morocco. I need to find the river on which Kénitra is situated.
+Action 2: [Search[Kénitra], Search[Kénitra, Morocco], Lookup[Kénitra]] 
+        Action 2: ['Search[Kénitra]', 'Search[Kénitra, Morocco]', 'Lookup[Kénitra]']
+        Observation 2: Kinshasa, formerly Léopoldville, is the capital and largest city of the Democratic Republic of the Congo. It is situated on the Congo River, across from Brazzaville, the capital of the Republic of the Congo. Kinshasa is a sprawling metropolis and one of the largest urban agglomerations in Africa.. **History:**. The area where Kinshasa now stands was originally a small fishing village named Nshasa."
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: The text mentions that Kinshasa stretches along the southern shores of the Pool Malebo on the Congo River. Thus, the city of Kinshasa where Stade 24 Novembre is located is situated on the Congo River.
+Action 3: Finish[Congo River] 
+        Action 3: Finish[Congo River]
+        Observation 3: Episode finished, reward = 1
+"
+
+SIMULATION TRAJECTORY:
+ Thought 3: The city Kinshasa where Stade 24 Novembre is located is situated on the Congo River. No further lookup is required.
+Action 3: [Finish[Congo River], Lookup[Congo], Lookup[River]] 
+        Action 3: ['Lookup[Congo]', 'Lookup[River]', 'Finish[Congo River]']
+        Observation 3: Kinshasa, formerly Léopoldville, is the capital and largest city of the Democratic Republic of the Congo. It is situated on the Congo River, across from Brazzaville, the capital of the Republic of the Congo. Kinshasa is a sprawling metropolis and one of the largest urban agglomerations in Africa.. **History:**. The area where Kinshasa now stands was originally a small fishing village named Nshasa."
+
+
+
+INFO {'steps': 5, 'answer': 'Congo River', 'gt_answer': 'the Congo River', 'question_idx': 3933, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 3 
+Number of steps: 8 
+Average reward: 0.375 
+Average time 26.770689725875854
+
+--------------------------------------------------
+

@@ -1,0 +1,53 @@
+INFO 4164 Question: who was the anthropologist who thought that the plaster casts that were discovered by Paul Freeman were a critical piece of evidence?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Paul Freeman]
+Action 1: Search[Paul Freeman]
+Observation 1: Could not find [Paul Freeman]. Similar: ['Paul Freeman (actor)', 'Paul Freeman', 'Paul Freeman (musician)', 'The Thursday Murder Club (film)', 'Paul Freeman (cryptozoologist)'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Paul Freeman]
+Action 1: Search[Paul Freeman]
+Observation 1: Paul Freeman is an English actor known for his work in film, television, and stage. He was born on January 18, 1943, in Barnet, Hertfordshire, England. Freeman is best known for his role as the villainous archaeologist Rene Belloq in the 1981 film "Raiders of the Lost Ark." He has also appeared in other notable films such as "Hot Fuzz," "Mighty Morphin Power Rangers: The Movie,".
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Paul Freeman (cryptozoologist)]
+Action 2: Search[Paul Freeman (cryptozoologist)]
+Observation 2: Paul Freeman (August 10, 1943 – April 2, 2003) was an American Bigfoot hunter who claimed to have captured video evidence of the existence of Bigfoot and discovered Bigfoot tracks showing dermal ridges.[1] The plaster casts Freeman subsequently made were convincing enough to be considered critical pieces of evidence by anthropologists Jeff Meldrum of Idaho State University and Grover Krantz of Washington State University, who put considerable time and resources into studying them. Others, like René Dahinden and Bob Titmus, thought Freeman was simply a hoaxer seeking attention.. On June 10, 1982, Freeman reportedly sighted a Bigfoot near Walla Walla, Washington, which he described as being nearly 8 ft (2.4 m) tall and covered in reddish-brown body hair. In 1994 Freeman captured a purported Bigfoot on videotape near the Blue Mountains region of northeastern Oregon. The recording is considered authentic by some Bigfoot investigators, but is of resolution too low to be considered conclusive by most.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Paul Freeman anthropologist]
+Action 2: Search[Paul Freeman anthropologist]
+Observation 2: Paul Freeman is a cryptozoologist known for his research and investigations into the existence of cryptids, such as Bigfoot and the Loch Ness Monster. He gained notoriety for his alleged encounters with these creatures and his collection of purported evidence, including footprints and video footage. Freeman's work has been met with skepticism and criticism from the scientific community, with many dismissing his findings as hoaxes or misidentifications. Despite the controversy surrounding his work, Freeman remains a prominent figure in the field of.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Jeff Meldrum or Grover Krantz]
+Action 3: Finish[Jeff Meldrum or Grover Krantz]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[plaster casts]
+Action 3: Lookup[plaster casts]
+Observation 3: Paul Freeman is a cryptozoologist known for his research and investigations into the existence of cryptids, such as Bigfoot and the Loch Ness Monster. He gained notoriety for his alleged encounters with these creatures and his collection of purported evidence, including footprints and video footage. Freeman's work has been met with skepticism and criticism from the scientific community, with many dismissing his findings as hoaxes or misidentifications. Despite the controversy surrounding his work, Freeman remains a prominent figure in the field of.
+
+
+
+INFO {'steps': 5, 'answer': 'Jeff Meldrum or Grover Krantz', 'gt_answer': 'Don Jeffrey "Jeff" Meldrum (born May 24, 1958) is a Professor of Anatomy and Anthropology', 'question_idx': 1401, 'reward': False, 'em': False, 'f1': 0.21052631578947364}
+
+INFO Sum of rewards: 17 
+Number of steps: 49 
+Average reward: 0.3469387755102041 
+Average time 25.664084984331716
+
+-------------------------------------------------------
+

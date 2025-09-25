@@ -1,0 +1,53 @@
+INFO 6869 Question: Vocelli Pizza and Noble Roman's serve which kind of food?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Vocelli Pizza]
+Action 1: Search[Vocelli Pizza]
+Observation 1: Vocelli Pizza (formerly Pizza Outlet) is an American pizzeria based in Pittsburgh, Pennsylvania. As of 2022[update], the chain has stores in Alabama, Maryland, New Jersey, Ohio, Pennsylvania, South Carolina, Virginia, and West Virginia.[1] The trade magazine Pizza Today ranked Vocelli Pizza[pronunciation?] in their Top 100 pizza franchises for 2007, based on its 2006 sales of $55 million.[2]. The chain was founded by the Ablak family in Mt. Lebanon, Pennsylvania near Pittsburgh in 1988 as Pizza Outlet.[3][4] What was simply a local pizza shop quickly expanded in the Pittsburgh Tri-State region during the 1990s. During this time, their slogan was "Delivering Great Taste to Your Door".
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Vocelli Pizza]
+Action 1: Search[Vocelli Pizza]
+Observation 1: ## Vocelli Pizza. **Vocelli Pizza** is an American pizza chain based in Gaithersburg, Maryland. Founded in 1988 as "Pizza Bolis," the company rebranded to Vocelli Pizza in 1995. It operates primarily as a take-out and delivery-focused establishment, offering a menu centered around pizzas, along with a selection of subs, pasta dishes, salads, and appetizers.. ### History.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Noble Roman's]
+Action 2: Search[Noble Roman's]
+Observation 2: Noble Roman's is an American pizza company based in Indianapolis, Indiana.[3]. Noble Roman's was founded in Bloomington, Indiana, when Stephen Huse and Gary Knackstedt acquired a failed pizza shop near the campus of Indiana University in 1969.[4] The company incorporated in 1972,[5] with the first franchise following in 1973.[4]. In the 1980s and 1990s, Noble Roman's expanded heavily outside of Indiana, opening new locations in Ohio, and other states; and issuing an IPO in 1982. In 1996, Noble Roman's attempted to purchase Papa Gino's, which was in the process of acquiring D'Angelo's Grilled Sandwiches chain from PepsiCo's Pizza Hut division (Noble Roman's notable competitor). But in the next year, the deal fell through, and eventually it was delisted from NASDAQ after it fell to $1 per share.[6].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Noble Roman's]
+Action 2: Search[Noble Roman's]
+Observation 2: **Noble Roman's, Inc.** is an American restaurant company based in Indianapolis, Indiana. It primarily operates and franchises pizza and sub sandwich restaurants, often in non-traditional locations such as convenience stores, universities, and entertainment venues. The company is known for its flexible franchise models and its focus on providing a quick-service food option in various settings.. ### History. Noble Roman's was founded in 1972 by Stephen H.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[pizza]
+Action 3: Finish[pizza]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[pizza]
+Action 3: Finish[pizza]
+Observation 3: **Noble Roman's, Inc.** is an American restaurant company based in Indianapolis, Indiana. It primarily operates and franchises pizza and sub sandwich restaurants, often in non-traditional locations such as convenience stores, universities, and entertainment venues. The company is known for its flexible franchise models and its focus on providing a quick-service food option in various settings.. ### History. Noble Roman's was founded in 1972 by Stephen H.
+
+
+
+INFO {'steps': 5, 'answer': 'pizza', 'gt_answer': 'Pizza', 'question_idx': 3280, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 4 
+Number of steps: 9 
+Average reward: 0.4444444444444444 
+Average time 20.49135645230611
+
+-------------------------------------------------------
+

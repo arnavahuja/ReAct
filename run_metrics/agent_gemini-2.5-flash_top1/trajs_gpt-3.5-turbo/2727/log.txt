@@ -1,0 +1,95 @@
+INFO 2727 Question: Which conflict involving the Mende ethnic group lasted for eleven years?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Mende ethnic group]
+Action 1: Search[Mende ethnic group]
+Observation 1: Could not find Mende ethnic group. Similar: ['Mende people', 'Ethnic groups in Sierra Leone', 'Mende', 'Mende language', 'Kailahun District'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Mende ethnic group]
+Action 1: Search[Mende ethnic group]
+Observation 1: The Mende people are an ethnic group primarily found in Sierra Leone, with smaller populations in Liberia and Guinea. They are one of the largest ethnic groups in Sierra Leone and are known for their rich cultural heritage, including traditional music, dance, and art.. The Mende people have a matrilineal society, where descent and inheritance are traced through the mother's line. They have a strong sense of community and place a high value on family and social relationships.. Historically, the Mende people.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Mende people]
+Action 2: Search[Mende people]
+Observation 2: The Mende are one of the two largest ethnic groups in Sierra Leone; their neighbours, the Temne people, constitute the largest ethnic group at 35.5% of the total population, which is slightly larger than the Mende at 31.2%.[1][3]  The Mende are predominantly found in the Southern Province and the Eastern Province. The Mende are mostly farmers and hunters. Some of the major cities with significant Mende populations include Bo, Kenema, Kailahun, and Moyamba.. Like a majority of African nations, Sierra Leone's political parties are often tied to specific ethnic groups and have been dominated by the Mende, on the one hand, and the Temne and their long-time political allies, the Limba, on the other. The Mende are known to typically support the Sierra Leone People's Party (SLPP), while the Temnes and Limbas are associated with the All People's Congress party (APC)..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Mende people conflict]
+Action 2: Search[Mende people conflict]
+Observation 2: The Mende people are an ethnic group primarily found in Sierra Leone. They are one of the two largest ethnic groups in the country, with a population of over 1.8 million. The Mende people are known for their rich cultural heritage, including traditional music, dance, and art. They have a matrilineal society, where descent and inheritance are traced through the mother's line.. The Mende people traditionally engage in agriculture, with rice being a staple crop.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Conflicts involving Mende people]
+Action 3: Search[Conflicts involving Mende people]
+Observation 3: Could not find Conflicts involving Mende people. Similar: ['List of wars involving the United Kingdom', 'Mende, Lozère', 'Mandé peoples', "Sierra Leone People's Party", "Simba rebellion (redirect from People's Republic of the Congo (Stanleyville))"].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Mende people conflicts]
+Action 3: Search[Mende people conflicts]
+Observation 3: The Mende people have been involved in various conflicts throughout history, particularly in Sierra Leone. One of the most notable conflicts involving the Mende people is the Sierra Leone Civil War, which lasted from 1991 to 2002. The war was characterized by brutal violence, widespread atrocities, and the extensive use of child soldiers.. The Mende people were heavily involved in the Civil War, with many Mende fighters joining the Revolutionary United Front (RUF) rebel group led by Foday Sank.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Sierra Leone Civil War]
+Action 4: Search[Sierra Leone Civil War]
+Observation 4: This is an accepted version of this page. The Sierra Leonean Civil War (1991–2002) was a civil war in Sierra Leone that began on 23 March 1991 when the Revolutionary United Front (RUF), with support from the special forces of Liberian dictator Charles Taylor, the National Patriotic Front of Liberia (NPFL),[14] intervened in Sierra Leone in an attempt to overthrow the Joseph Momoh government. The resulting civil war lasted almost 11 years, and had over 50,000,[12] up to 70,000, casualties in total; an estimated 2.5 million people were displaced during the conflict, and widespread atrocities occurred.[13][15]. During the first year of the war, the RUF took control of large swathes of territory in eastern and southern Sierra Leone, which were rich in alluvial diamonds. The government's ineffective response to the RUF and the disruption in government diamond production precipitated a military coup d'état in April 1992, organized by the National Provisional Ruling Council (NPRC).[16] By the end of 1993, the Sierra Leone Army (SLA) had succeeded in pushing the RUF rebels back to the Liberian border, but the RUF recovered and fighting continued.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[Sierra Leone Civil War]
+Action 4: Finish[Sierra Leone Civil War]
+Observation 4: The Sierra Leone Civil War was a conflict that took place in Sierra Leone from 1991 to 2002. The war was characterized by widespread atrocities, including mutilations, rape, and the extensive use of child soldiers. The main belligerents were the Revolutionary United Front (RUF) rebel group and the government forces of Sierra Leone.. The RUF, led by Foday Sankoh, sought to overthrow the government and gain control of the country's rich diamond mines. The conflict.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Lookup[Mende]
+Action 5: Lookup[Mende]
+Observation 5: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Finish[Sierra Leone Civil War]
+Action 5: Finish[Sierra Leone Civil War]
+Observation 5: The Sierra Leone Civil War was a conflict that took place in Sierra Leone from 1991 to 2002. The war was characterized by widespread atrocities, including mutilations, rape, and the extensive use of child soldiers. The main belligerents were the Revolutionary United Front (RUF) rebel group and the government forces of Sierra Leone.. The RUF, led by Foday Sankoh, sought to overthrow the government and gain control of the country's rich diamond mines. The conflict.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Finish[Sierra Leone Civil War]
+Action 6: Finish[Sierra Leone Civil War]
+Observation 6: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Lookup[Mende]
+Action 6: Lookup[Mende]
+Observation 6: The Sierra Leone Civil War was a conflict that took place in Sierra Leone from 1991 to 2002. The war was characterized by widespread atrocities, including mutilations, rape, and the extensive use of child soldiers. The main belligerents were the Revolutionary United Front (RUF) rebel group and the government forces of Sierra Leone.. The RUF, led by Foday Sankoh, sought to overthrow the government and gain control of the country's rich diamond mines. The conflict.
+
+
+
+INFO {'steps': 11, 'answer': 'Sierra Leone Civil War', 'gt_answer': 'Sierra Leone Civil War', 'question_idx': 6456, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 17 
+Number of steps: 38 
+Average reward: 0.4473684210526316 
+Average time 16.657356393964665
+
+-------------------------------------------------------
+

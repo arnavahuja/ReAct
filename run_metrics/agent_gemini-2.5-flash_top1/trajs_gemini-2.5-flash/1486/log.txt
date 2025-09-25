@@ -1,0 +1,53 @@
+INFO 1486 Question: Where is the American hip hop group, that released the song "RedEye to Paris", from?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[RedEye to Paris]
+Action 1: Search[RedEye to Paris]
+Observation 1: Could not find RedEye to Paris. Similar: ['Flatbush Zombies', 'Red-eye flight', 'Skepta', 'Paris Jackson', 'Micropterus'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[RedEye to Paris]
+Action 1: Search[RedEye to Paris]
+Observation 1: **RedEye to Paris**. **RedEye to Paris** is an American rock band formed in Los Angeles, California, in 2007. The band is known for its energetic live performances and a sound that blends elements of alternative rock, pop-punk, and power pop.. **History**. RedEye to Paris was founded by lead vocalist and guitarist Alex Reed and bassist Chris Miller.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Flatbush Zombies]
+Action 2: Search[Flatbush Zombies]
+Observation 2: Flatbush Zombies (stylized as Flatbush ZOMBiES) are an American hip hop group from the Flatbush section of Brooklyn, New York City, formed in 2010.[1][2] The group is composed of rappers Meechy Darko, Zombie Juice and Erick Arc Elliott, with Elliott also serving as their regular record producer. The trio are part of the East Coast hip hop supergroup Beast Coast, with fellow Brooklyn-based rap groups The Underachievers and Pro Era.. Flatbush Zombies have collaborated with various artists, including RZA, ASAP Mob, Z-Breezy, Jim Jones, Juicy J, Danny Brown, Action Bronson, Mr. Muthafuckin eXquire, Tech N9ne, and Anthony Flammia among others.[3] They have performed at music festivals such as The Hudson Project, JMBLYA, Coachella Valley Music and Arts Festival, Pemberton Music Festival, Afropunk Festival, Olly Mac Sesh, Paid Dues, North Coast Music Festival, SXSW, Roskilde, Rolling Loud in Miami, and Wireless in London. The group grew in popularity through two mixtapes and several music videos, leading to their 2016 debut studio album, 3001: A Laced Odyssey..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Finish[The song "RedEye to Paris" was released by an American rock band named RedEye to Paris, not a hip hop group.]
+Action 2: Finish[The song "RedEye to Paris" was released by an American rock band named RedEye to Paris, not a hip hop group.]
+Observation 2: {{Infobox musical artist. | name        = Flatbush Zombies. | image       = Flatbush Zombies at The Catalyst.jpg. | caption     = Flatbush Zombies performing in 2016. From left to right: Meechy Darko, Erick Arc Elliott, and Zombie Juice..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Flatbush, Brooklyn, New York City]
+Action 3: Finish[Flatbush, Brooklyn, New York City]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[from]
+Action 3: Lookup[from]
+Observation 3: {{Infobox musical artist. | name        = Flatbush Zombies. | image       = Flatbush Zombies at The Catalyst.jpg. | caption     = Flatbush Zombies performing in 2016. From left to right: Meechy Darko, Erick Arc Elliott, and Zombie Juice..
+
+
+
+INFO {'steps': 5, 'answer': 'Flatbush, Brooklyn, New York City', 'gt_answer': 'Flatbush section of Brooklyn, New York City', 'question_idx': 4356, 'reward': False, 'em': False, 'f1': 0.8333333333333333}
+
+INFO Sum of rewards: 12 
+Number of steps: 20 
+Average reward: 0.6 
+Average time 11.087448799610138
+
+-------------------------------------------------------
+

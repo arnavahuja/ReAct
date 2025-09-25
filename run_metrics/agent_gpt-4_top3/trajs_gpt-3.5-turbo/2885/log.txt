@@ -1,0 +1,129 @@
+INFO 2885 Question: did Robert Wise have more award nominations than Zoltan Korda?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to search Robert Wise and Zoltan Korda to compare their number of award nominations.
+Action 1: Search[Robert Wise] 
+        Action 1: Search[Robert Wise]
+        Observation 1: Robert Earl Wise (September 10, 1914 – September 14, 2005) was an American filmmaker. He won the Academy Awards for Best Director and Best Picture for his musical films West Side Story (1961) and The Sound of Music (1965). He was also nominated for Best Film Editing for Citizen Kane (1941) and directed and produced The Sand Pebbles (1966), which was nominated for Best Picture.. Among his other films are The Body Snatcher (1945), Born to Kill (1947), The Set-Up (1949), The Day the Earth Stood Still (1951), Destination Gobi (1953), This Could Be The Night (1957), Run Silent, Run Deep (1958), I Want to Live! (1958), The Haunting (1963), The Andromeda Strain (1971), The Hindenburg (1975) and Star Trek: The Motion Picture (1979).. He was the president of the Directors Guild of America from 1971 to 1975 and the president of the Academy of Motion Picture Arts and Sciences from 1985 through 1988.."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to search Robert Wise and Zoltan Korda, find their award nominations, then compare.
+Action 1: Search[Robert Wise], Search[Zoltan Korda], Search[Award nominations] 
+        Action 1: ['Search[Robert Wise]', 'Search[Zoltan Korda]', 'Search[Award nominations]']
+        Observation 1: Robert Wise (September 10, 1914 – September 14, 2005) was an American film director, producer, and editor. He is best known for directing such films as "West Side Story" (1961), "The Sound of Music" (1965), and "The Day the Earth Stood Still" (1951). Wise won Academy Awards for Best Director for both "West Side Story" and "The Sound of Music." He began his career as a film."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Information about Robert Wise's nominations wasn't fully detailed in the extract. I need to look up a term related to award nominations to find more precise information. 
+Action 2: Lookup[nominated] 
+        Action 2: Lookup[nominated]
+        Observation 2: No more results.
+"
+
+SIMULATION TRAJECTORY:
+ Thought 2: The synopsis for Robert Wise doesn't provide information about his award nominations, I'll need to look that up next.
+Action 2: Lookup[award nominations] 
+        Action 2: ['Lookup[award nominations]']
+        Observation 2: Robert Wise (September 10, 1914 – September 14, 2005) was an American film director, producer, and editor. He is best known for directing such films as "West Side Story" (1961), "The Sound of Music" (1965), and "The Day the Earth Stood Still" (1951). Wise won Academy Awards for Best Director for both "West Side Story" and "The Sound of Music." He began his career as a film."
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: I couldn't find the total number of award nominations for Robert Wise from current resources. I need to search for Zoltan Korda next.
+Action 3: Search[Zoltan Korda] 
+        Action 3: Search[Zoltan Korda]
+        Observation 3: Zoltan Korda (May 3, 1895[1] – October 13, 1961) was a Hungarian-born motion picture screenwriter, director and producer. He made his first film in Hungary in 1918 and worked with his brother Alexander Korda on film-making there and in London. They both moved to the United States in 1940 to Hollywood and the American film industry.. Born Zoltán Kellner (Kellner Zoltán, in Hungarian name order), of Jewish heritage,[2] in Pusztatúrpásztó, Túrkeve, Hungary (then Austria-Hungary), he was the middle brother of Alexander and Vincent Korda, all of whom became filmmakers. Before leaving Hungary to work full-time in London with his brother Alexander, he (Zoltán) served in the Hungarian Army as a cavalry officer.."
+
+SIMULATION TRAJECTORY:
+ Thought 3: I couldn't find the exact number of nominations for Robert Wise. I might need to delve deeper in searching his biography, look up another term for awards or switch the search to Zoltan Korda.
+Action 3: [Search[Robert Wise awards], Lookup[awards], Search[Zoltan Korda]] 
+        Action 3: ['Search[Robert Wise awards]', 'Search[Zoltan Korda]', 'Lookup[awards]']
+        Observation 3: Zoltan Korda (3 June 1895 – 13 October 1961) was a Hungarian-born film director and producer. He was known for his work in the British film industry, where he directed and produced several successful films. Korda's notable works include "The Four Feathers" (1939), "Jungle Book" (1942), and "Sahara" (1943). He was part of the renowned Korda filmmaking family, which included his brothers."
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: The paragraph didn't provide the needed information on Zoltan Korda's award nominations. I need to find a related term to award nominations for Zoltan Korda. 
+Action 4: Lookup[nominated] 
+        Action 4: Lookup[nominated]
+        Observation 4: No more results.
+"
+
+SIMULATION TRAJECTORY:
+ Thought 4: There is no specific award nomination information for Zoltan Korda in the provided excerpt. I need to look for that information in order to properly compare the two.
+
+Action 4: [ Lookup[award], Lookup[nominated], Lookup[director and producer] ] 
+        Action 4: ['Lookup[award]', 'Lookup[nominated]', 'Lookup[director and producer]']
+        Observation 4: Zoltan Korda (3 June 1895 – 13 October 1961) was a Hungarian-born film director and producer. He was known for his work in the British film industry, where he directed and produced several successful films. Korda's notable works include "The Four Feathers" (1939), "Jungle Book" (1942), and "Sahara" (1943). He was part of the renowned Korda filmmaking family, which included his brothers."
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: The information about the exact number of nominations for both Robert Wise and Zoltan Korda couldn't be retrieved from currently available resources. We'll need to try a lookup with a slightly different term.
+Action 5: [Lookup[Awards]] 
+        Action 5: Lookup[Awards]
+        Observation 5: No more results.
+"
+
+SIMULATION TRAJECTORY:
+ Thought 5: The information about the number of award nominations for Zoltan Korda was not found. I have not yet obtained the information I need to answer the question.
+Action 5: [Search[Zoltan Korda awards], Lookup[awards], Search[Zoltan Korda nominations]] 
+        Action 5: ['Search[Zoltan Korda awards]', 'Search[Zoltan Korda nominations]', 'Lookup[awards]']
+        Observation 5: Zoltan Korda (3 June 1895 – 13 October 1961) was a Hungarian-born film director and producer. He was known for his work in the British film industry, where he directed and produced several successful films. Korda's notable works include "The Four Feathers" (1939), "Jungle Book" (1942), and "Sahara" (1943). He was part of the renowned Korda filmmaking family, which included his brothers."
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: The information on award nominations for both Robert Wise and Zoltan Korda seems to be missing from the available resources. The best course of action would be to try a different approach.
+Action 6: [Lookup[Award]] 
+        Action 6: Lookup[Award]
+        Observation 6: No more results.
+"
+
+SIMULATION TRAJECTORY:
+ Thought 6: The information about the exact number of awards for Zoltan Korda wasn't found. We are unable to determine whether Robert Wise or Zoltan Korda had more award nominations based on the information currently available. 
+Action 6: [Search[Zoltan Korda awards]], [Lookup[Zoltan Korda awards]], [Finish[Information not available]] 
+        Action 6: ['Search[Zoltan Korda awards]', 'Lookup[Zoltan Korda awards]', 'Finish[Information not available]']
+        Observation 6: Zoltan Korda (3 June 1895 – 13 October 1961) was a Hungarian-born film director and producer. He was known for his work in the British film industry, where he directed and produced several successful films. Korda's notable works include "The Four Feathers" (1939), "Jungle Book" (1942), and "Sahara" (1943). He was part of the renowned Korda filmmaking family, which included his brothers."
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: The available sources do not have the necessary information regarding the respective award nominations of Robert Wise and Zoltan Korda. As my last option, I can perform a more general lookup by finding the "Academy Awards" which may provide a list of received nominations. 
+Action 7: [Lookup[Academy Awards]] 
+        Action 7: Lookup[Academy Awards]
+        Observation 7: No more results.
+"
+
+SIMULATION TRAJECTORY:
+ Thought 7: The information about Zoltan Korda's awards still hasn't been specified. We need to search more related terms. 
+Action 7: [Lookup["Four Feathers"], Lookup["Jungle Book"], Lookup["Sahara"]] 
+        Action 7: ['Lookup["Four Feathers"]', 'Lookup["Jungle Book"]', 'Lookup["Sahara"]']
+        Observation 7: Zoltan Korda (3 June 1895 – 13 October 1961) was a Hungarian-born film director and producer. He was known for his work in the British film industry, where he directed and produced several successful films. Korda's notable works include "The Four Feathers" (1939), "Jungle Book" (1942), and "Sahara" (1943). He was part of the renowned Korda filmmaking family, which included his brothers."
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'yes', 'question_idx': 2956, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 6 
+Number of steps: 17 
+Average reward: 0.35294117647058826 
+Average time 51.17213734458475
+
+--------------------------------------------------
+

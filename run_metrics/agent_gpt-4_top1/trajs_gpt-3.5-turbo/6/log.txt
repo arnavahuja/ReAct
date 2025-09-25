@@ -1,0 +1,112 @@
+INFO 6 Question: Which guitar brand was endorsed by the band centered by Ann and Nancy Wilson?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Ann and Nancy Wilson band]
+Action 1: Search[Ann and Nancy Wilson band]
+Observation 1: Could not find Ann and Nancy Wilson band. Similar: ['Ann Wilson', 'Heart (band)', 'Nancy Wilson (rock musician)', 'List of Heart band members', 'The Wilson Sisters'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Ann and Nancy Wilson band]
+Action 1: Search[Ann and Nancy Wilson band]
+Observation 1: Ann and Nancy Wilson are sisters who formed the band Heart in the early 1970s. Heart is an American rock band that achieved significant commercial success in the 1970s and 1980s with hits such as "Barracuda," "Crazy on You," and "Alone." The band's music is characterized by powerful vocals, intricate guitar work, and a blend of hard rock and folk influences.. Ann Wilson is the lead vocalist of Heart, known for her dynamic and.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Heart (band)]
+Action 2: Search[Heart (band)]
+Observation 2: Heart is an American rock band formed in Seattle, Washington, in 1973. The band evolved from previous projects led by the founding members Roger Fisher (guitar) and Steve Fossen (bass guitar), including The Army (1967–1969), Hocus Pocus (1969–1970), and White Heart (1970–1973). By 1975, the original members Fisher, Fossen, and Ann Wilson (lead vocals and flute), along with Nancy Wilson (rhythm guitar, vocals), Michael Derosier (drums), and Howard Leese (guitar, keyboards and backing vocals) formed the lineup for the band's initial mid- to late-1970s success period.[1] These core members were included in the band's 2013 induction into the Rock and Roll Hall of Fame.[2]. Heart rose to fame with music influenced by hard rock and heavy metal[3] as well as folk music. The band underwent a major lineup change between the late 1970s and the early 1980s; by 1982 Fisher, Fossen, and Derosier had all left and were replaced by Mark Andes (bass) and Denny Carmassi (drums).
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Heart band guitar endorsement]
+Action 2: Search[Heart band guitar endorsement]
+Observation 2: Heart is an American rock band formed in 1970 in Seattle, Washington. The band is known for their rock music, which often incorporates elements of hard rock, folk, and pop. Heart was originally formed by sisters Ann Wilson (lead vocals) and Nancy Wilson (guitar, vocals), along with other members including Steve Fossen, Roger Fisher, and Michael Derosier.. Throughout their career, Heart has released numerous hit songs, including "Barracuda," "Crazy on.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Lookup[guitar brand]
+Action 3: Lookup[guitar brand]
+Observation 3: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[guitar brand]
+Action 3: Lookup[guitar brand]
+Observation 3: Heart is an American rock band formed in 1970 in Seattle, Washington. The band is known for their rock music, which often incorporates elements of hard rock, folk, and pop. Heart was originally formed by sisters Ann Wilson (lead vocals) and Nancy Wilson (guitar, vocals), along with other members including Steve Fossen, Roger Fisher, and Michael Derosier.. Throughout their career, Heart has released numerous hit songs, including "Barracuda," "Crazy on.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Heart (band) guitar endorsement]
+Action 4: Search[Heart (band) guitar endorsement]
+Observation 4: Could not find Heart (band) guitar endorsement. Similar: ['Magazine (Heart album)', 'Steve Vai (redirect from Stunt guitar)', 'Maroon (band)', 'President (band)', 'Eddie Van Halen (section Guitars)'].
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[Heart band guitar endorsement]
+Action 4: Search[Heart band guitar endorsement]
+Observation 4: Heart is an American rock band formed in 1973. The band has had various guitar endorsements throughout their career, with notable partnerships including Gibson, Fender, and Martin guitars. These endorsements have allowed the band members to showcase and utilize a variety of high-quality instruments in their performances and recordings..
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[Ann Wilson guitar endorsement]
+Action 5: Search[Ann Wilson guitar endorsement]
+Observation 5: Could not find Ann Wilson guitar endorsement. Similar: ['Magazine (Heart album)', 'I Get Around (category Songs written by Brian Wilson)', 'Howard Leese (section HML Guitars)', 'Sabrina Carpenter (redirect from Ann Carpenter)', 'Jason Bonham'].
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Finish[Gibson, Fender, and Martin guitars]
+Action 5: Finish[Gibson, Fender, and Martin guitars]
+Observation 5: Ann Wilson, the lead vocalist of the rock band Heart, has been known to use various guitar brands and models throughout her career. While there is no specific information available regarding a formal guitar endorsement for Ann Wilson, she has been seen playing a variety of guitars on stage and in the studio. Some of the guitars she has been known to use include Gibson Les Pauls, Fender Stratocasters, and Martin acoustic guitars. Wilson's powerful vocals and dynamic stage presence have solidified her status as a.
+
+
+
+STEP: 6
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 6: None
+Action 6: Search[Nancy Wilson guitar endorsement]
+Observation 6: Could not find Nancy Wilson guitar endorsement. Similar: ['Magazine (Heart album)', 'Howard Leese (section HML Guitars)', 'Takamine (guitar manufacturer)', 'Back to the Future', 'List of Epiphone players'].
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Search[Nancy Wilson guitar endorsement]
+Action 6: Search[Nancy Wilson guitar endorsement]
+Observation 6: Nancy Wilson, the renowned guitarist and co-founder of the rock band Heart, has been endorsed by various guitar companies throughout her career. Wilson is known for her distinctive playing style and has been a prominent figure in the rock music scene for decades. While specific details about her guitar endorsements may not be available on Wikipedia, it is well-documented that she has collaborated with several guitar manufacturers to create signature models and promote their products. Wilson's influence as a guitarist and musician has made her a sought-after end.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Search[Takamine (guitar manufacturer)]
+Action 7: Search[Takamine (guitar manufacturer)]
+Observation 7: Takamine Musical Instruments Manufacturing Co., Ltd. (株式会社 高峰楽器製作所, Kabushiki-gaisha Takamine Gakki Seisakusho; pronounced [takaꜜmine] tah-kah-mee-né) is a Japanese guitar manufacturer based in Nakatsugawa, Gifu, Japan. It's considered to be one of the world's major brands of steel-string acoustic guitars.. In 1978, it was one of the first guitar companies to introduce acoustic-electric models, where they pioneered the design of the preamplifier-equalizer component by introducing its signature "Palathetic Pickup".[4][5]. Originally founded in December 1959 as "Ozhone Musical Instrument Manufacturing", named after its founder Ozhone, the original shop was located in the Nagoya region near the "Japanese Alps".
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Lookup[guitar companies]
+Action 7: Lookup[guitar companies]
+Observation 7: Takamine is a Japanese guitar manufacturer based in Sakashita, Japan. The company was founded in 1962 and is well-known for producing high-quality acoustic guitars. Takamine guitars are popular among musicians for their craftsmanship, tone, and playability. The company offers a wide range of acoustic guitars, including steel-string and classical models, as well as acoustic-electric guitars with built-in pickups for amplification. Takamine guitars are used by many professional musicians and are known for their reliable performance.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'Kramer Guitars', 'question_idx': 6654, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 4 
+Number of steps: 8 
+Average reward: 0.5 
+Average time 30.172165632247925
+
+-------------------------------------------------------
+

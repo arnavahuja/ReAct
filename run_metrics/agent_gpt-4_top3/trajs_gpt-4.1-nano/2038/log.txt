@@ -1,0 +1,60 @@
+INFO 2038 Question: Padosan had a supporting actor who is known as a successful playback singer in what language?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: To answer the question, I need to find who the supporting actor in Padosan was identified as a successful playback singer and in what language he sang. First I'll search for Padosan. 
+Action 1: [Search[Padosan]] 
+        Action 1: Search[Padosan]
+        Observation 1: Padosan (pronounced [pə.ɽoː.san], transl. Female Neighbour) is a 1968 Indian Hindi-language musical comedy film directed by Jyoti Swaroop and produced by Mehmood, N. C. Sippy and written by Rajendra Krishan.[1] It is a remake of the Bengali film Pasher Bari (1952) based on a short story of the same name by Arun Chowdhury, starring Bhanu Bandyopadhyay and Sabitri Chatterjee. The short story it was is considered to be an adaptation of the French play Cyrano de Bergerac (1897) by Edmond Rostand.[2] The film stars Sunil Dutt and Saira Banu. Kishore Kumar, Mukri, Raj Kishore and Keshto Mukherjee played the supporting roles.[3]."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to search Padosan, find the supporting actor who is known as a successful playback singer, then find the language.
+Action: [Search[Padosan], Lookup[supporting actor], Lookup[playback singer]] 
+        Action 1: ['Search[Padosan]', 'Lookup[supporting actor]', 'Lookup[playback singer]']
+        Observation 1: Padosan is a classic Indian Hindi-language comedy film released in 1968. Directed by Jyoti Swaroop, the film is renowned for its humorous storyline, memorable music, and stellar performances. The title "Padosan" translates to "The Neighbor" in English, reflecting the film's central theme of neighborly relationships and comedic misunderstandings.. The film stars Sunil Dutt as Bhola, a simple and kind-hearted young man who falls in love with his neighbor, Bindu."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The observation mentions that Kishore Kumar played a supporting role in Padosan. Kishore Kumar is a known playback singer. I should confirm this by searching for Kishore Kumar next.
+Action 2: [Search[Kishore Kumar]] 
+        Action 2: Search[Kishore Kumar]
+        Observation 2: Kishore Kumar (born Abhas Kumar Ganguly; pronunciationⓘ; 4 August 1929 – 13 October 1987) was an Indian playback singer, musician and actor.[9] He is widely regarded as one of the greatest, most influential and dynamic singers in the history of modern Indian music.[10][11][12][13] Kumar was one of the most popular singers in the Indian subcontinent, notable for his yodelling and ability to sing songs in different voices.[14] He used to sing in different genres but some of his rare compositions, considered classics, were lost in time.[15][16][17] In 2013, Kumar was voted "The Most Popular Male Playback Singer" in a poll conducted by the Filmfare magazine.[18]. Besides Hindi, he sang in many other Indian languages, including Bengali, Marathi, Assamese, Gujarati, Kannada, Bhojpuri, Malayalam, Odia and Urdu.[19] He also released a few non-film albums in multiple languages, especially in Bengali, which are noted as all-time classics.[20] According to his brother and legendary actor Ashok Kumar, Kishore Kumar was successful as a singer because his "voice hits the mike, straight, at its most sensitive point".[21]. He won 8 Filmfare Award for Best Male Playback Singer out of 28 nominations and holds the record for winning and nominating the most Filmfare Awards in that category.[20] He was awarded the Lata Mangeshkar Award by the Madhya Pradesh government in 1985. In 1997, the Madhya Pradesh Government initiated an award called the "Kishore Kumar Award" for contributions to Hindi cinema. In 2012, his unreleased last song sold for ₹15.6 lakh ($185,000 USD) at the Osian's Cinefan Auction in New Delhi.[22][23][24]."
+
+SIMULATION TRAJECTORY:
+ Thought 2: The initial search did not provide the name of the supporting actor in Padosan who was a successful playback singer. I should find a page or a paragraph that contains more information about the cast of Padosan.
+Action 2: [Lookup[cast], Lookup[singer], Search[Padosan cast]] 
+        Action 2: ['Search[Padosan cast]', 'Lookup[cast]', 'Lookup[singer]']
+        Observation 2: Kishore Kumar (4 August 1929 – 13 October 1987) was an Indian playback singer, actor, music director, lyricist, writer, director, and producer. Widely regarded as one of the most successful and influential singers in the history of Indian music, he was known for his versatility, unique voice, and ability to convey deep emotion through his singing.. Born as Abhas Kumar Ganguly in Khandwa, Madhya Pradesh, India, Kishore Kumar initially."
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Kishore Kumar, the supporting actor in Padosan, was an Indian playback singer who sang in many Indian languages, including Hindi, Bengali, Marathi, Assamese, Gujarati, Kannada, Bhojpuri, Malayalam, Odia and Urdu. The question can be answered now. 
+Action 3: [Finish[Hindi, Bengali, Marathi, Assamese, Gujarati, Kannada, Bhojpuri, Malayalam, Odia and Urdu]] 
+        Action 3: Finish[Hindi, Bengali, Marathi, Assamese, Gujarati, Kannada, Bhojpuri, Malayalam, Odia and Urdu]
+        Observation 3: Episode finished, reward = 0
+"
+
+SIMULATION TRAJECTORY:
+ Thought 3: The observation states that Kishore Kumar was a successful playback singer from India, so he would have likely sung in the Indian language. The most common languages in Indian cinema are Hindi, Telugu, and Tamil. Therefore, I need to find the language Kishore Kumar sang in.
+Action 3: [Lookup[Hindi], Lookup[Telugu], Lookup[Tamil]] 
+        Action 3: ['Lookup[Hindi]', 'Lookup[Telugu]', 'Lookup[Tamil]']
+        Observation 3: Kishore Kumar (4 August 1929 – 13 October 1987) was an Indian playback singer, actor, music director, lyricist, writer, director, and producer. Widely regarded as one of the most successful and influential singers in the history of Indian music, he was known for his versatility, unique voice, and ability to convey deep emotion through his singing.. Born as Abhas Kumar Ganguly in Khandwa, Madhya Pradesh, India, Kishore Kumar initially."
+
+
+
+INFO {'steps': 5, 'answer': 'Hindi, Bengali, Marathi, Assamese, Gujarati, Kannada, Bhojpuri, Malayalam, Odia and Urdu', 'gt_answer': 'Hindi', 'question_idx': 780, 'reward': False, 'em': False, 'f1': 0.16666666666666669}
+
+INFO Sum of rewards: 0 
+Number of steps: 1 
+Average reward: 0.0 
+Average time 25.45375394821167
+
+--------------------------------------------------
+

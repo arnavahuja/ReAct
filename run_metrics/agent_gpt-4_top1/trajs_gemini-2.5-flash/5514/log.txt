@@ -1,0 +1,67 @@
+INFO 5514 Question: The term snake eyes is used in a particular casino game that uses what game pieces?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[snake eyes]
+Action 1: Search[snake eyes]
+Observation 1: Could not find [snake eyes]. Similar: ['Snake Eyes (2021 film)', 'Snake Eyes (G.I. Joe)', 'Snake eyes', 'Snake Eyes (1998 film)', 'The Turn of a Friendly Card (redirect from Snake Eyes (The Alan Parsons Project song))'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[snake eyes]
+Action 1: Search[snake eyes]
+Observation 1: **Snake Eyes**. **Snake Eyes** can refer to several distinct concepts:. **1. Dice Terminology:**. In games of chance involving dice, "snake eyes" is a colloquial term for the outcome where both dice show a value of one (1).
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[snake eyes gambling]
+Action 2: Search[snake eyes gambling]
+Observation 2: Could not find snake eyes gambling. Similar: ['Snake Eyes (1998 film)', 'The Turn of a Friendly Card (redirect from Snake Eyes (The Alan Parsons Project song))', 'Craps (redirect from Snake-eyes)', 'Sho (board game) (section Pa ra or Snake eyes)', 'The Wonderful Story of Henry Sugar and Three More'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Finish[dice]
+Action 2: Finish[dice]
+Observation 2: **Snake Eyes (Gambling)**. **Snake eyes** is a term used in gambling, particularly in games involving dice, to refer to the specific outcome where both dice land on the number one. This results in a total sum of two, which is the lowest possible roll with two standard six-sided dice.. **Probability and Significance:**. The probability of rolling snake eyes is relatively low.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Craps]
+Action 3: Search[Craps]
+Observation 3: Craps is a dice game in which players bet on the outcomes of the roll of a pair of dice. Players can wager money against each other (playing "street craps") or against a bank ("casino craps"). Because it requires little equipment, "street craps" can be played in informal settings. While shooting craps, players may use slang terminology to place bets and actions.. Craps developed in the United States from a simplification of the western European game of Hazard, also spelled Hazzard[1] or Hasard.[2] The origins of Hazard are obscure and may date to the Crusades;[3]: 32–33  a detailed description of Hazard was provided by Edmond Hoyle in Hoyle's Games, Improved (1790).[1] At approximately the same time (1788), "Krabs" was documented as a French variation on Hazard.[2][4]: 43–44.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[dice]
+Action 3: Finish[dice]
+Observation 3: **Craps** is a dice game in which players bet on the outcomes of a pair of dice. It is played on a specially designed table with a layout that indicates the various betting options. The game is popular in casinos worldwide and is known for its fast pace and social atmosphere.. **Gameplay:**. Craps is played with two dice.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[dice]
+Action 4: Finish[dice]
+Observation 4: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[dice]
+Action 4: Finish[dice]
+Observation 4: **Craps** is a dice game in which players bet on the outcomes of a pair of dice. It is played on a specially designed table with a layout that indicates the various betting options. The game is popular in casinos worldwide and is known for its fast pace and social atmosphere.. **Gameplay:**. Craps is played with two dice.
+
+
+
+INFO {'steps': 7, 'answer': 'dice', 'gt_answer': 'a pair of dice', 'question_idx': 6916, 'reward': False, 'em': False, 'f1': 0.5}
+
+INFO Sum of rewards: 1 
+Number of steps: 3 
+Average reward: 0.3333333333333333 
+Average time 20.324199358622234
+
+-------------------------------------------------------
+

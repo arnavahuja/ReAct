@@ -1,0 +1,109 @@
+INFO 2316 Question:  Curious is a women's fragrance by a singer born in what city and state?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Curious (fragrance)]
+Action 1: Search[Curious (fragrance)]
+Observation 1: Curious is Britney Spears' first fragrance developed in partnership with Elizabeth Arden. Created by Claude Dir, it debuted in the United States in September 2004, followed by a global release in March 2005. Curious received widespread acclaim. It became the top-selling fragrance of 2004, with sales exceeding $100 million.[1] By 2011, Elizabeth Arden had sold over 700 million bottles of the fragrance.[2] Experts attribute part of its success to Spears appeal, acknowledging that she 'made it cool to wear fragrance' among young women.[3]. Initial reports of Spears partnering with Elizabeth Arden surfaced in March 2004.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Curious (fragrance)]
+Action 1: Search[Curious (fragrance)]
+Observation 1: {{Infobox fragrance. | name = Curious. | image =. | caption =. | designer = [[Elizabeth Arden]].
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Britney Spears]
+Action 2: Search[Britney Spears]
+Observation 2: Britney Jean Spears (born December 2, 1981) is an American singer. Referred to as the "Princess of Pop", she has had a significant cultural impact in the 21st century, having been recognized as one of the first musicians credited with reviving the teen pop genre. She is known for her stage performances and for exploring musical genres ranging from pop to contemporary rhythm and blues, electropop, and adult contemporary.. One of three children, Spears was born in Mississippi. She developed an interest in music from an early age and began her professional career in 1992 as a cast member for the Ruthless! musical and the final two seasons of The All-New Mickey Mouse Club television series before signing with Jive Records in 1997.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[singer]
+Action 2: Lookup[singer]
+Observation 2: **Britney Jean Spears** (born December 2, 1981) is an American singer, dancer, and actress. Often referred to as the "Princess of Pop", she is credited with influencing the revival of teen pop during the late 1990s and early 2000s.. **Early Life and Career Beginnings:**. Born in McComb, Mississippi, and raised in Kentwood, Louisiana, Spears began performing as a child, appearing in.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Lookup[born]
+Action 3: Lookup[born]
+Observation 3: (Result 1 / 2) **Britney Jean Spears** (born December 2, 1981) is an American singer, dancer, and actress.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[McComb, Mississippi]
+Action 3: Finish[McComb, Mississippi]
+Observation 3: **Britney Jean Spears** (born December 2, 1981) is an American singer, dancer, and actress. Often referred to as the "Princess of Pop", she is credited with influencing the revival of teen pop during the late 1990s and early 2000s.. **Early Life and Career Beginnings:**. Born in McComb, Mississippi, and raised in Kentwood, Louisiana, Spears began performing as a child, appearing in.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Lookup[born]
+Action 4: Lookup[born]
+Observation 4: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[McComb, Mississippi]
+Action 4: Finish[McComb, Mississippi]
+Observation 4: **Britney Jean Spears** (born December 2, 1981) is an American singer, dancer, and actress. Often referred to as the "Princess of Pop", she is credited with influencing the revival of teen pop during the late 1990s and early 2000s.. **Early Life and Career Beginnings:**. Born in McComb, Mississippi, and raised in Kentwood, Louisiana, Spears began performing as a child, appearing in.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[Britney Spears birthplace]
+Action 5: Search[Britney Spears birthplace]
+Observation 5: Could not find Britney Spears birthplace. Similar: ['Justin Timberlake', 'Sonu Nigam', 'Dolph Lundgren', 'The Office (American TV series)', 'Music of Detroit'].
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Finish[McComb, Mississippi]
+Action 5: Finish[McComb, Mississippi]
+Observation 5: **Kentwood, Louisiana**. Kentwood is a town in Tangipahoa Parish, Louisiana, United States. It is the birthplace of pop superstar Britney Spears.. **Early History and Founding:**. Kentwood was founded in the late 19th century, primarily as a logging community.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Search[Britney Spears]
+Action 6: Search[Britney Spears]
+Observation 6: Britney Jean Spears (born December 2, 1981) is an American singer. Referred to as the "Princess of Pop", she has had a significant cultural impact in the 21st century, having been recognized as one of the first musicians credited with reviving the teen pop genre. She is known for her stage performances and for exploring musical genres ranging from pop to contemporary rhythm and blues, electropop, and adult contemporary.. One of three children, Spears was born in Mississippi. She developed an interest in music from an early age and began her professional career in 1992 as a cast member for the Ruthless! musical and the final two seasons of The All-New Mickey Mouse Club television series before signing with Jive Records in 1997.
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Finish[Kentwood, Louisiana]
+Action 6: Finish[Kentwood, Louisiana]
+Observation 6: **Britney Jean Spears** (born December 2, 1981) is an American singer, dancer, and actress. Often referred to as the "Princess of Pop", she is credited with influencing the revival of teen pop during the late 1990s and early 2000s.. **Early Life and Career Beginnings:**. Born in McComb, Mississippi, and raised in Kentwood, Louisiana, Spears began performing as a child, appearing in.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Search[Britney Spears Mississippi]
+Action 7: Search[Britney Spears Mississippi]
+Observation 7: Could not find Britney Spears Mississippi. Similar: ['Bryan Spears', 'Lynne Spears', 'Jamie Spears', 'Jamie Lynn Spears', 'Britney Spears'].
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Finish[McComb, Mississippi]
+Action 7: Finish[McComb, Mississippi]
+Observation 7: Britney Spears' connection to Mississippi is primarily through her birth and early childhood. While she is widely associated with Louisiana, where she spent a significant portion of her formative years, her very first moments were in Mississippi.. **Early Life and Birthplace:**. *   **Birth:** Britney Jean Spears was born on December 2, 1981, in **McComb, Mississippi**.. *   **Hospital:** She was born at Southwest Mississippi Regional Medical Center in McComb..
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'McComb, Mississippi', 'question_idx': 6524, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 1 
+Number of steps: 7 
+Average reward: 0.14285714285714285 
+Average time 15.93578542981829
+
+-------------------------------------------------------
+

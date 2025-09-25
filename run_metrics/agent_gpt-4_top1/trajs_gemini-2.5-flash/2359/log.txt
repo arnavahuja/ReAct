@@ -1,0 +1,67 @@
+INFO 2359 Question: The Phillips Berlina is a neo-classic car that used stretched underpinings from a car that set a new sales record for what model year?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Phillips Berlina]
+Action 1: Search[Phillips Berlina]
+Observation 1: The Phillips Berlina is an American neoclassic car built in Pompano Beach, Florida.. Debuting in 1980, it was designed by Charles W. Phillips in the style of the 1936 Mercedes-Benz 540K Special Roadster.[2]. It used stretched C3 Chevrolet Corvette underpinnings, coupled to fibreglass bodywork.[3] As for the Corvette, power steering and brakes, powered tinted windows, and tilt steering were fitted. The fuel-injected 5.7-litre V8 engine in the 1982 Berlinas offers 200 hp (149 kW) at 4,200 rpm, for a top speed of around 180 km/h (110 mph).[2] The earlier carburetted version (L81) had 190 hp on tap.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Phillips Berlina]
+Action 1: Search[Phillips Berlina]
+Observation 1: **Phillips Berlina**. The Phillips Berlina is a series of bicycles produced by Phillips Cycles, a British bicycle manufacturer. While specific detailed historical information on a "Berlina" model line from Phillips is not as extensively documented as some other bicycle brands or models on platforms like Wikipedia, we can infer and construct a profile based on general bicycle manufacturing practices of the era Phillips was prominent and common model naming conventions.. **Overview**. The Phillips Berlina would have likely been a range of bicycles designed.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[C3 Chevrolet Corvette]
+Action 2: Search[C3 Chevrolet Corvette]
+Observation 2: Could not find C3 Chevrolet Corvette. Similar: ['Chevrolet Corvette (C3)', 'Chevrolet Corvette Stingray', 'Chevrolet Corvette ZR1', 'Chevrolet Corvette', 'Chevrolet Corvette (C4)'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Phillips Berlina car]
+Action 2: Search[Phillips Berlina car]
+Observation 2: The **C3 Chevrolet Corvette** is the third generation of the Chevrolet Corvette sports car, produced from 1968 to 1982. It is often recognized by its distinctive "coke bottle" styling, inspired by the Mako Shark II concept car.. **Development and Design:**. The C3 Corvette's design was a direct evolution of the Mako Shark II concept, which had been shown to the public in 1965. The production car retained.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Chevrolet Corvette (C3)]
+Action 3: Search[Chevrolet Corvette (C3)]
+Observation 3: The Chevrolet Corvette (C3) is the third generation of the Corvette sports car that was produced from 1967 until 1982 by Chevrolet for the 1968 to 1982 model years. Engines and chassis components were mostly carried over from the previous generation, but the body and interior were new. It set new sales records with 53,807 produced for the 1979 model year.[7] The C3 was the second Corvette to carry the Stingray name, though only for the 1969–76 model years. This time it was a single word as opposed to Sting Ray as used for the 1963–67 C2 generation. The name was then retired until 2014 when it returned with the release of the C7..
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[sales record]
+Action 3: Lookup[sales record]
+Observation 3: The **Chevrolet Corvette (C3)** is a sports car that was produced by Chevrolet for the 1968 through 1982 model years. It is the third generation of the Corvette, and is often referred to as the "Stingray" due to its distinctive styling, though the Stingray name was only officially used for the 1969-1976 models.. ## History and Development. The C3 Corvette was a radical departure from its C.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[1979]
+Action 4: Finish[1979]
+Observation 4: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[model year]
+Action 4: Lookup[model year]
+Observation 4: The **Chevrolet Corvette (C3)** is a sports car that was produced by Chevrolet for the 1968 through 1982 model years. It is the third generation of the Corvette, and is often referred to as the "Stingray" due to its distinctive styling, though the Stingray name was only officially used for the 1969-1976 models.. ## History and Development. The C3 Corvette was a radical departure from its C.
+
+
+
+INFO {'steps': 7, 'answer': '1979', 'gt_answer': '1979', 'question_idx': 5843, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 12 
+Number of steps: 24 
+Average reward: 0.5 
+Average time 29.639252205689747
+
+-------------------------------------------------------
+

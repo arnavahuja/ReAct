@@ -1,0 +1,76 @@
+INFO 2527 Question: When was the father of Princess Mafalda of Savoy born ?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: In order to answer the question, I first need to identify the father of Princess Mafalda of Savoy. 
+Action 1: Search[Princess Mafalda of Savoy] 
+        Action 1: Search[Princess Mafalda of Savoy]
+        Observation 1: Princess Mafalda of Savoy (19 November 1902 – 28 August 1944) was the second daughter of King Victor Emmanuel III of Italy and his wife Elena of Montenegro. In 1925, at the age of 22, she married the Landgrave of Hesse, Philipp. In 1943, during World War II, she was imprisoned in the Buchenwald concentration camp, where she died.[1] The future King Umberto II of Italy was her younger brother.. Mafalda was born a princess of Savoy. She was the second child and daughter of King Victor Emmanuel III of Italy and Elena of Montenegro."
+
+SIMULATION TRAJECTORY:
+ Thought 1: First, I need to identify who is the father of Princess Mafalda of Savoy. Once his name is found, I can find out when he was born.
+Action 1: [Search[Princess Mafalda of Savoy], Lookup[Mafalda of Savoy], Search[Parents of Princess Mafalda of Savoy]] 
+        Action 1: ['Search[Princess Mafalda of Savoy]', 'Search[Parents of Princess Mafalda of Savoy]', 'Lookup[Mafalda of Savoy]']
+        Observation 1: **Mafalda of Savoy**. **Princess Mafalda of Savoy** (2 November 1902 – 27 August 1944) was the second daughter of King Victor Emmanuel III of Italy and his wife, Queen Elena of Montenegro. She was a member of the House of Savoy and, through her marriage, became Landgravine of Hesse-Kassel. Mafalda is remembered for her tragic death in the Buchenwald concentration camp during World War II.. **."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The father of Princess Mafalda of Savoy is King Victor Emmanuel III of Italy. I need to search King Victor Emmanuel III of Italy to find his birth date.
+Action 2: Search[King Victor Emmanuel III of Italy] 
+        Action 2: Search[King Victor Emmanuel III of Italy]
+        Observation 2: Could not find King Victor Emmanuel III of Italy. Similar: ['Victor Emmanuel III', 'Victor Emmanuel I', 'Victor Emmanuel II', 'Princess Yolanda of Savoy', 'Margherita of Savoy']."
+
+SIMULATION TRAJECTORY:
+ Thought 2: Princess Mafalda of Savoy's father is King Victor Emmanuel III of Italy. Now, I need to find out when he was born.
+Action 2: Search[Victor Emmanuel III of Italy], Search[King Victor Emmanuel III], Search[Victor Emmanuel III] 
+        Action 2: ['Search[Victor Emmanuel III of Italy]', 'Search[King Victor Emmanuel III]', 'Search[Victor Emmanuel III]']
+        Observation 2: **Victor Emmanuel III** (Italian: *Vittorio Emanuele III*; 11 November 1869 – 28 December 1947) was King of Italy from 29 July 1900 until his abdication on 9 May 1946. He also held the titles of Emperor of Ethiopia (1936–1941) and King of the Albanians (1939–1943."
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: It seems there has been a mistake with the exact name of the entity. I'll need to search for Victor Emmanuel III instead.
+Action 3: Search[Victor Emmanuel III] 
+        Action 3: Search[Victor Emmanuel III]
+        Observation 3: Victor Emmanuel III (Italian: Vittorio Emanuele Ferdinando Maria Gennaro di Savoia; 11 November 1869 – 28 December 1947) was King of Italy from 29 July 1900 until his abdication on 9 May 1946. A member of the House of Savoy, he also reigned as Emperor of Ethiopia from 1936 to 1941 and King of the Albanians from 1939 to 1943, following the Italian invasions of Ethiopia and Albania. During his reign of nearly 46 years, which began after the assassination of his father Umberto I, the Kingdom of Italy became involved in two world wars. His reign also encompassed the birth, rise, and fall of the Fascist regime.. The first fourteen years of Victor Emmanuel's reign were dominated by prime minister Giovanni Giolitti, who focused on industrialization and passed several democratic reforms, such as the introduction of universal male suffrage."
+
+SIMULATION TRAJECTORY:
+ Thought 3: King Victor Emmanuel III of Italy was born on 11 November 1869.
+Action 3: [Finish[11 November 1869], Lookup[Victor Emmanuel III], Search[Victor Emmanuel III birth date]] 
+        Action 3: ['Search[Victor Emmanuel III birth date]', 'Lookup[Victor Emmanuel III]', 'Finish[11 November 1869]']
+        Observation 3: **Victor Emmanuel III** (Italian: *Vittorio Emanuele III*; 11 November 1869 – 30 December 1947) was King of Italy from 29 July 1900 until his abdication on 9 May 1946. He also reigned as Emperor of Ethiopia (1936–1941) and King of the Albanians (1939–1943). During."
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Victor Emmanuel III was born on 11 November 1869. This is the birth date of the father of Princess Mafalda of Savoy.
+Action 4: Finish[11 November 1869] 
+        Action 4: Finish[11 November 1869]
+        Observation 4: Episode finished, reward = 1
+"
+
+SIMULATION TRAJECTORY:
+ Thought 4: I have obtained the birth date of King Victor Emmanuel III, which is November 11, 1869. Therefore, there is no need to search further. 
+Action 4: Finish[11 November 1869], Finish[November 11, 1869], Lookup[Birth] 
+        Action 4: ['Lookup[Birth]', 'Finish[11 November 1869]', 'Finish[November 11, 1869]']
+        Observation 4: **Victor Emmanuel III** (Italian: *Vittorio Emanuele III*; 11 November 1869 – 30 December 1947) was King of Italy from 29 July 1900 until his abdication on 9 May 1946. He also reigned as Emperor of Ethiopia (1936–1941) and King of the Albanians (1939–1943). During."
+
+
+
+INFO {'steps': 7, 'answer': '11 November 1869', 'gt_answer': '11 November 1869', 'question_idx': 1234, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 6 
+Number of steps: 20 
+Average reward: 0.3 
+Average time 35.9854360461235
+
+--------------------------------------------------
+

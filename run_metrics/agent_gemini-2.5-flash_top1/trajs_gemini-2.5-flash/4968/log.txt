@@ -1,0 +1,53 @@
+INFO 4968 Question: What insurance company sponsored the Curling Skins Game in 2014?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Curling Skins Game 2014]
+Action 1: Search[Curling Skins Game 2014]
+Observation 1: Could not find Curling Skins Game 2014. Similar: ['Skins game', 'TSN All-Star Curling Skins Game', '2014 Travelers All-Star Curling Skins Game', "2015 Pinty's All-Star Curling Skins Game", "2016 Pinty's All-Star Curling Skins Game"].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Curling Skins Game]
+Action 1: Search[Curling Skins Game]
+Observation 1: The 2014 World Financial Group (WFG) Continental Cup of Curling was held from January 16 to 19, 2014, at the Orleans Arena in Las Vegas, Nevada. While not a "Skins Game" in the traditional sense of a separate event, the Continental Cup features a unique format that includes skins games as part of its overall competition.. **2014 World Financial Group Continental Cup of Curling**. The Continental Cup is an.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[2014 Travelers All-Star Curling Skins Game]
+Action 2: Search[2014 Travelers All-Star Curling Skins Game]
+Observation 2: The 2014 Travelers All-Star Curling Skins Game was held on January 11 and 12 at The Fenlands Banff Recreation Centre in Banff, Alberta. The event featured a total prize purse of CAD$100,000.[1]. The competition featured players selected based on fan voting from the top ten teams in the Canadian Curling Association's rankings system from the previous year. Fans voted for their favorite players in each position-skip, (third second and lead). The top four players in each category were chosen to compete in the event..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Finish[World Financial Group]
+Action 2: Finish[World Financial Group]
+Observation 2: The 2014 Travelers All-Star Curling Skins Game was held on November 29 and 30, 2014, at The Fenlands Banff Centre in Banff, Alberta. The event featured four of the top curling teams in Canada competing for a total purse of C$100,000.. **Teams**. The four teams that competed in the event were:. *   **Team Jacobs:** Brad Jacobs, Ryan Fry, E.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Travelers]
+Action 3: Finish[Travelers]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Travelers]
+Action 3: Finish[Travelers]
+Observation 3: The 2014 Travelers All-Star Curling Skins Game was held on November 29 and 30, 2014, at The Fenlands Banff Centre in Banff, Alberta. The event featured four of the top curling teams in Canada competing for a total purse of C$100,000.. **Teams**. The four teams that competed in the event were:. *   **Team Jacobs:** Brad Jacobs, Ryan Fry, E.
+
+
+
+INFO {'steps': 5, 'answer': 'Travelers', 'gt_answer': 'Travelers', 'question_idx': 6500, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 6 
+Number of steps: 10 
+Average reward: 0.6 
+Average time 12.077326226234437
+
+-------------------------------------------------------
+

@@ -1,0 +1,39 @@
+INFO 753 Question: Ckm wz. 25 Hotchkiss was a Polish derivative of what machine gun that became the standard machine gun of the French Army during World War I?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Ckm wz. 25 Hotchkiss]
+Action 1: Search[Ckm wz. 25 Hotchkiss]
+Observation 1: The ckm wz. 25 Hotchkiss (military acronym for "heavy machine gun pattern 1925, Hotchkiss") was a Polish derivative of the Hotchkiss M1914 machine gun, rechambered for 7.92×57mm Mauser ammunition.. This Polish modification of the Hotchkiss Mle.1914 was designed in late 1924 and speedily pressed into service with the Polish Army. At least 1249 were bought in France, and subsequently used in the Polish Army since 1926.[1]. It was not a successful design, though.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Ckm wz. 25 Hotchkiss]
+Action 1: Search[Ckm wz. 25 Hotchkiss]
+Observation 1: The **CKM wz. 25 Hotchkiss** was a Polish designation for a heavy machine gun developed by the French company Hotchkiss. It was a license-built version of the **Hotchkiss Mle 1914 heavy machine gun**.. **Development and Adoption:**. Following World War I, Poland sought to modernize its military equipment.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[Hotchkiss M1914 machine gun]
+Action 2: Finish[Hotchkiss M1914 machine gun]
+Observation 2: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Finish[Hotchkiss Mle 1914 heavy machine gun]
+Action 2: Finish[Hotchkiss Mle 1914 heavy machine gun]
+Observation 2: The **CKM wz. 25 Hotchkiss** was a Polish designation for a heavy machine gun developed by the French company Hotchkiss. It was a license-built version of the **Hotchkiss Mle 1914 heavy machine gun**.. **Development and Adoption:**. Following World War I, Poland sought to modernize its military equipment.
+
+
+
+INFO {'steps': 3, 'answer': 'Hotchkiss M1914 machine gun', 'gt_answer': 'Mle 1914 Hotchkiss machine gun', 'question_idx': 4289, 'reward': False, 'em': False, 'f1': 0.6666666666666665}
+
+INFO Sum of rewards: 17 
+Number of steps: 42 
+Average reward: 0.40476190476190477 
+Average time 12.115674529756818
+
+-------------------------------------------------------
+

@@ -1,0 +1,53 @@
+INFO 4975 Question: Where are the 17th Street Canal and the Beaver and Erie Canal located?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[17th Street Canal]
+Action 1: Search[17th Street Canal]
+Observation 1: The 17th Street Canal is the largest and most important drainage canal in the city of New Orleans. Operating with Pump Station 6, it moves water into Lake Pontchartrain. The canal, along with the Orleans Canal and the London Avenue Canal, form the New Orleans Outfall Canals. The 17th Street Canal forms a significant portion of the boundary between the city of New Orleans and Metairie, Louisiana. The canal has also been known as the Metairie Outlet Canal and the Upperline Canal..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[17th Street Canal]
+Action 1: Search[17th Street Canal]
+Observation 1: The 17th Street Canal is a canal located in New Orleans, Louisiana. It is one of the major drainage canals in the city and plays a crucial role in managing stormwater during heavy rain events. The canal runs through several neighborhoods in New Orleans and is an important part of the city's flood protection system. The 17th Street Canal gained national attention during Hurricane Katrina in 2005 when the canal's floodwalls breached, leading to widespread flooding in the surrounding areas. Since then,.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Beaver and Erie Canal]
+Action 2: Search[Beaver and Erie Canal]
+Observation 2: The Beaver and Erie Canal, also known as the Erie Extension Canal, was part of the Pennsylvania Canal system and consisted of three sections: the Beaver Division, the Shenango Division, and the Conneaut Division. The canal ran 136 miles (219 km) north–south near the western edge of the state from the Ohio River to Lake Erie through Beaver County, Lawrence County, Mercer County, Crawford County, and Erie County, Pennsylvania.. The southern terminus of the canal was the confluence of the Beaver River with the Ohio River in Beaver County about 20 miles (32 km) downstream from Pittsburgh, and the northern terminus was the city of  Erie, in Erie County. The canal needed a total of 137 locks to overcome a change in elevation of 977 feet (298 m).[2]. Construction of the canal was meant to complete a transport network through northwestern Pennsylvania that would connect Lake Erie with the Ohio River; the Main Line of Public Works, a canal which joined Philadelphia to Pittsburgh; and the Erie Canal, which connected Albany, New York, to Lake Erie.[3].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Beaver and Erie Canal]
+Action 2: Search[Beaver and Erie Canal]
+Observation 2: The Beaver and Erie Canal was a canal system in Pennsylvania, United States, that operated from 1834 to 1872. It was constructed to connect the Ohio River at Beaver, Pennsylvania, to the Erie Canal at Akron, Ohio. The canal played a significant role in the transportation of goods and people between the Great Lakes region and the eastern United States.. The Beaver and Erie Canal was 82 miles long and featured 85 locks to navigate the elevation changes along its route. It was a vital.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[The 17th Street Canal is in New Orleans and Metairie, Louisiana, and the Beaver and Erie Canal is in Pennsylvania.]
+Action 3: Finish[The 17th Street Canal is in New Orleans and Metairie, Louisiana, and the Beaver and Erie Canal is in Pennsylvania.]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[New Orleans and Metairie, Louisiana, and Pennsylvania]
+Action 3: Finish[New Orleans and Metairie, Louisiana, and Pennsylvania]
+Observation 3: The Beaver and Erie Canal was a canal system in Pennsylvania, United States, that operated from 1834 to 1872. It was constructed to connect the Ohio River at Beaver, Pennsylvania, to the Erie Canal at Akron, Ohio. The canal played a significant role in the transportation of goods and people between the Great Lakes region and the eastern United States.. The Beaver and Erie Canal was 82 miles long and featured 85 locks to navigate the elevation changes along its route. It was a vital.
+
+
+
+INFO {'steps': 5, 'answer': 'The 17th Street Canal is in New Orleans and Metairie, Louisiana, and the Beaver and Erie Canal is in Pennsylvania.', 'gt_answer': 'Pennsylvania', 'question_idx': 6678, 'reward': False, 'em': False, 'f1': 0.10526315789473684}
+
+INFO Sum of rewards: 11 
+Number of steps: 23 
+Average reward: 0.4782608695652174 
+Average time 31.48594484121903
+
+-------------------------------------------------------
+

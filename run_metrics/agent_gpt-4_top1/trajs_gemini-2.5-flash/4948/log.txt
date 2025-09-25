@@ -1,0 +1,53 @@
+INFO 4948 Question: What screenplay was worked on by both Edward Carfagno and Miklos Rozsa?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Edward Carfagno]
+Action 1: Search[Edward Carfagno]
+Observation 1: Edward Carfagno (November 28, 1907 – December 28, 1996) was an art director who established himself in the 1950s with his Oscar-winning work on such films as Vincente Minnelli's The Bad and the Beautiful (1952), Joseph Mankiewicz's Julius Caesar (1953) and William Wyler's Ben-Hur (1959)[1]. Carfagno went on to work consistently on a variety of films, including five collaborations with Clint Eastwood including Tightrope (1984) and Heartbreak Ridge (1987).. Carfagno began working at MGM in 1933, and was also a member of the US's 1940 Olympic fencing team.. This article about an American art director is a stub. You can help Wikipedia by expanding it..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Edward Carfagno]
+Action 1: Search[Edward Carfagno]
+Observation 1: **Edward "Eddie" Carfagno (born c. 1937)** is an American former professional stock car racing driver. He competed primarily in the NASCAR Grand National Series (now the Cup Series) during the 1960s.. **Early Life and Career:**. Born around 1937, Carfagno's early life and entry into racing are not extensively documented.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Miklos Rozsa]
+Action 2: Search[Miklos Rozsa]
+Observation 2: Miklós Rózsa (Hungarian: [ˈmikloːʃ ˈroːʒɒ]; April 18, 1907 – July 27, 1995)[1] was a Hungarian-American composer trained in Germany (1925–1931) and active in France (1931–1935), the United Kingdom (1935–1940), and the United States (1940–1995), with extensive sojourns in Italy from 1953 onward.[2] Best known for his nearly one hundred film scores, he nevertheless maintained a steadfast allegiance to absolute concert music throughout what he called his "double life".[3]. Rózsa achieved early success in Europe with his orchestral Theme, Variations, and Finale (Op. 13) of 1933, and became prominent in the film industry from such early scores as The Four Feathers (1939) and The Thief of Bagdad (1940). The latter project brought him to Hollywood when production was transferred from wartime Britain, and Rózsa remained in the United States, becoming an American citizen in 1946.. During his Hollywood career, he received 17 Academy Award nominations including three Oscars for Spellbound (1945), A Double Life (1947), and Ben-Hur (1959), while his concert works were championed by such major artists as Jascha Heifetz, Gregor Piatigorsky, and János Starker..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Edward Carfagno screenplay]
+Action 2: Search[Edward Carfagno screenplay]
+Observation 2: **Miklós Rózsa** (Hungarian: [ˈmikloːʃ ˈroːʒɒ]; April 18, 1907 – July 27, 1995) was a Hungarian-American composer, primarily known for his more than one hundred film scores. He also composed a significant body of concert works, including symphonies, concertos, and chamber music. Rózsa's distinctive musical style, characterized by its rich orchestration.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Ben-Hur (1959)]
+Action 3: Finish[Ben-Hur (1959)]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[Edward Carfagno Miklos Rozsa]
+Action 3: Lookup[Edward Carfagno Miklos Rozsa]
+Observation 3: **Miklós Rózsa** (Hungarian: [ˈmikloːʃ ˈroːʒɒ]; April 18, 1907 – July 27, 1995) was a Hungarian-American composer, primarily known for his more than one hundred film scores. He also composed a significant body of concert works, including symphonies, concertos, and chamber music. Rózsa's distinctive musical style, characterized by its rich orchestration.
+
+
+
+INFO {'steps': 5, 'answer': 'Ben-Hur (1959)', 'gt_answer': 'Julius Caesar', 'question_idx': 516, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 10 
+Number of steps: 19 
+Average reward: 0.5263157894736842 
+Average time 31.612791048853023
+
+-------------------------------------------------------
+

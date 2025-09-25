@@ -1,0 +1,39 @@
+INFO 5252 Question: Maxeda has been owned since 2004 by which American multinational equity firm?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Maxeda]
+Action 1: Search[Maxeda]
+Observation 1: Maxeda is a Dutch retail company owned by American investment firm Kohlberg Kravis Roberts & Co. (KKR) which is currently a market leader in the DIY retailing in The Netherlands, Belgium and Luxembourg. When Maxeda acquired Vendex KBB (KBB = Koninklijke Bijenkorf Beheer), Maxeda owned the three most prominent Dutch department stores: Vroom & Dreesmann and De Bijenkorf, both sold in 2010, and HEMA, sold in 2007.. Maxeda DIY Group is the market leader in the DIY segment and has 345 stores in the Benelux and more than 7,000 employees. Most stores have a floor space of 3,000 to 5,000 m2 and carry the name Praxis in the Netherlands (195 stores) and Brico in Belgium and Luxembourg (153 stores).
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Maxeda]
+Action 1: Search[Maxeda]
+Observation 1: Maxeda is a retail group based in the Netherlands, with headquarters in Amsterdam. It operates several retail chains in the home improvement and fashion sectors. The company was founded in 2004 and has a presence in the Benelux region. Maxeda's retail brands include Praxis, Brico, Formido, and M&S Mode. The company focuses on providing a wide range of products and services to its customers, both in-store and online.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[Kohlberg Kravis Roberts & Co. (KKR)]
+Action 2: Finish[Kohlberg Kravis Roberts & Co. (KKR)]
+Observation 2: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[owned by]
+Action 2: Lookup[owned by]
+Observation 2: Maxeda is a retail group based in the Netherlands, with headquarters in Amsterdam. It operates several retail chains in the home improvement and fashion sectors. The company was founded in 2004 and has a presence in the Benelux region. Maxeda's retail brands include Praxis, Brico, Formido, and M&S Mode. The company focuses on providing a wide range of products and services to its customers, both in-store and online.
+
+
+
+INFO {'steps': 3, 'answer': 'Kohlberg Kravis Roberts & Co. (KKR)', 'gt_answer': 'KKR & Co', 'question_idx': 123, 'reward': False, 'em': False, 'f1': 0.5714285714285715}
+
+INFO Sum of rewards: 2 
+Number of steps: 12 
+Average reward: 0.16666666666666666 
+Average time 26.409199515978496
+
+-------------------------------------------------------
+

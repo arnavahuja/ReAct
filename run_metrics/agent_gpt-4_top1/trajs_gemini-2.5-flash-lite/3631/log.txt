@@ -1,0 +1,39 @@
+INFO 3631 Question: Mesilla Park, New Mexico is located on the south side of the seat of what county?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Mesilla Park, New Mexico]
+Action 1: Search[Mesilla Park, New Mexico]
+Observation 1: Mesilla Park is a neighborhood located on the south side of Las Cruces, New Mexico, United States. Residents of Mesilla founded the community through a land company in 1887, shortly after Las Cruces became the county seat of Doña Ana County. At the time, it was an independent settlement, though it was eventually annexed by Las Cruces. The neighborhood adjoins University Park, the site of New Mexico State University, and it grew after the university was founded in 1889. Mesilla Park still has its own post office with ZIP code 88047, which opened in 1892.[1][3][4].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Mesilla Park, New Mexico]
+Action 1: Search[Mesilla Park, New Mexico]
+Observation 1: Mesilla Park is a census-designated place (CDP) in Doña Ana County, New Mexico, United States. It is located just south of the city of Las Cruces.. **History:**. Mesilla Park's history is closely tied to the development of the Mesilla Valley and the nearby town of Mesilla. The area was settled by Spanish colonists and later became a significant stop on the Butterfield Overland Mail route in the mid-19th century.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[Doña Ana County]
+Action 2: Finish[Doña Ana County]
+Observation 2: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Finish[Doña Ana County]
+Action 2: Finish[Doña Ana County]
+Observation 2: Mesilla Park is a census-designated place (CDP) in Doña Ana County, New Mexico, United States. It is located just south of the city of Las Cruces.. **History:**. Mesilla Park's history is closely tied to the development of the Mesilla Valley and the nearby town of Mesilla. The area was settled by Spanish colonists and later became a significant stop on the Butterfield Overland Mail route in the mid-19th century.
+
+
+
+INFO {'steps': 3, 'answer': 'Doña Ana County', 'gt_answer': 'Doña Ana', 'question_idx': 3838, 'reward': False, 'em': False, 'f1': 0.8}
+
+INFO Sum of rewards: 17 
+Number of steps: 50 
+Average reward: 0.34 
+Average time 25.53391674041748
+
+-------------------------------------------------------
+

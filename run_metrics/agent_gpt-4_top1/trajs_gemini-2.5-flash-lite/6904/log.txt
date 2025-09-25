@@ -1,0 +1,53 @@
+INFO 6904 Question: Which genus has more species, Quesnelia or Honeysuckle?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Quesnelia]
+Action 1: Search[Quesnelia]
+Observation 1: Quesnelia is a genus of flowering plants in the family Bromeliaceae, subfamily Bromelioideae. The genus is named after French businessman and patron of botany Edouard Prosper Quesnel, of Le Havre (1781–1850).[2][3] Endemic to eastern Brazil, this genus contains 22 known species.[1] This genus has two recognized subgenera: the type subgenus and Billbergiopsis Mez.[4]. As of November 2022[update], Plants of the World Online accepted 24 species:[5]. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us. HelpLearn to editCommunity portalRecent changesUpload fileSpecial pages.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Quesnelia]
+Action 1: Search[Quesnelia]
+Observation 1: **Quesnelia** is a genus of flowering plants in the family Bromeliaceae, subfamily Bromelioideae. The genus was named in honor of French botanist and collector Édouard Quesnel.. **Distribution and Habitat:**. Quesnelia species are native to Brazil, primarily found in the Atlantic Forest biome. They are typically epiphytic, growing on trees, but some species can also be found growing terrestrially in rocky areas or on the ground.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Honeysuckle]
+Action 2: Search[Honeysuckle]
+Observation 2: 158; see text. Honeysuckles are arching shrubs or twining vines in the genus Lonicera (/lɒˈnɪsərə/[2]) of the family Caprifoliaceae. The genus includes 158 species[1] native to northern latitudes in North America, Eurasia, and North Africa.[1][3] Widely known species include Lonicera periclymenum (common honeysuckle or woodbine), Lonicera japonica (Japanese honeysuckle, white honeysuckle, or Chinese honeysuckle) and Lonicera sempervirens (coral honeysuckle, trumpet honeysuckle, or woodbine honeysuckle). L. japonica is a highly invasive species considered a significant pest in parts of North America, Europe, South America, New Zealand, Australia, and Africa.[3].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[species]
+Action 2: Lookup[species]
+Observation 2: **Honeysuckle**. Honeysuckle is a common name for plants in the family **Caprifoliaceae**, particularly those in the genus **Lonicera**. The name is derived from the sweet, nectar-like liquid found in the flowers, which is often collected by children by pulling the corolla from the base and sucking the nectar.. **Description:**. Honeysuckles are typically **deciduous or evergreen shrubs or climbing vines**.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Honeysuckle]
+Action 3: Finish[Honeysuckle]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Lonicera]
+Action 3: Search[Lonicera]
+Observation 3: **Honeysuckle**. Honeysuckle is a common name for plants in the family **Caprifoliaceae**, particularly those in the genus **Lonicera**. The name is derived from the sweet, nectar-like liquid found in the flowers, which is often collected by children by pulling the corolla from the base and sucking the nectar.. **Description:**. Honeysuckles are typically **deciduous or evergreen shrubs or climbing vines**.
+
+
+
+INFO {'steps': 5, 'answer': 'Honeysuckle', 'gt_answer': 'Honeysuckle', 'question_idx': 4994, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 3 
+Number of steps: 4 
+Average reward: 0.75 
+Average time 17.634384155273438
+
+-------------------------------------------------------
+

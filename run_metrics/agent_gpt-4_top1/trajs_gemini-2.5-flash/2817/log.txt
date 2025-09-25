@@ -1,0 +1,53 @@
+INFO 2817 Question: Which band was formed first, Wire or Young the Giant?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Wire (band)]
+Action 1: Search[Wire (band)]
+Observation 1: Wire are a British rock band, formed in London in October 1976[2] by Colin Newman (vocals, guitar), Graham Lewis (bass, vocals), Bruce Gilbert (guitar), George Gill (lead guitar) and Robert Grey (aka Robert Gotobed; drums). They were originally associated with the punk rock scene, appearing on The Roxy London WC2 album, and were instrumental to the development of post-punk, while their debut album, Pink Flag, was influential for hardcore punk.[3]. Wire are considered a definitive and highly influential art punk and post-punk band, due to their richly detailed and atmospheric sound and obscure lyrical themes.[citation needed] They steadily developed from an early noise rock style to a more complex, structured sound involving increased use of guitar effects and synthesizers (1978's Chairs Missing and 1979's 154). The band gained a reputation for experimenting with song arrangements throughout their career.[4]. Wire began as a five-piece band in October 1976.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Wire (band)]
+Action 1: Search[Wire (band)]
+Observation 1: {{Infobox musical artist. | name        = Wire. | background  = group_or_band. | origin      = London, England. | genre       = Post-punk, art punk, experimental rock, new wave.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Young the Giant]
+Action 2: Search[Young the Giant]
+Observation 2: Young the Giant is an American rock band that formed in Irvine, California, in 2004. The band's line-up consists of Sameer Gadhia (lead vocals), Jacob Tilley (guitar), Eric Cannata (guitar), Payam Doostzadeh (bass guitar), and Francois Comtois (drums). Formerly known as the Jakes, Young the Giant was signed by Roadrunner Records in 2009, and they released their eponymous debut album in 2010. The band's first three singles, "My Body", "Cough Syrup", and "Apartment", all charted on the US Alternative Songs chart.. The Jakes formed in 2004 in Irvine, California.[1] Consisting of Jacob Tilley, Addam Farmer, Kevin Massoudi, Ehson Hashemian, and Sameer Gadhia, the band's name was an acronym of the members' first names.[2][3] After several personnel changes, the group's lineup by 2008 included Gadhia, Tilley, Hashemian, Eric Cannata, Francois Comtois, and Jason Burger.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[formed]
+Action 2: Lookup[formed]
+Observation 2: {{Infobox musical artist. | name        = Young the Giant. | image       = Young the Giant 2017.jpg. | caption     = Young the Giant performing in 2017. | background  = group_or_band.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Wire]
+Action 3: Finish[Wire]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[formed]
+Action 3: Lookup[formed]
+Observation 3: {{Infobox musical artist. | name        = Young the Giant. | image       = Young the Giant 2017.jpg. | caption     = Young the Giant performing in 2017. | background  = group_or_band.
+
+
+
+INFO {'steps': 5, 'answer': 'Wire', 'gt_answer': 'Wire', 'question_idx': 4407, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 9 
+Number of steps: 15 
+Average reward: 0.6 
+Average time 20.721857261657714
+
+-------------------------------------------------------
+

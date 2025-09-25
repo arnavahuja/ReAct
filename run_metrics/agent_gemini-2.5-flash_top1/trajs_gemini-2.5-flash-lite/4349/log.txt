@@ -1,0 +1,53 @@
+INFO 4349 Question: What years was the auto racing series held that was followed on by the 2016 Blancpain GT Series Sprint Cup?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[2016 Blancpain GT Series Sprint Cup]
+Action 1: Search[2016 Blancpain GT Series Sprint Cup]
+Observation 1: The 2016 GT Series Sprint Cup (known for sponsorship reasons as the 2016 Blancpain GT Series Sprint Cup) was the fourth season following on from the demise of the SRO Group's FIA GT1 World Championship (an auto racing series for grand tourer cars), the third with the designation of Blancpain Sprint Series or Blancpain GT Series Sprint Cup. After developing their partnership, Blancpain and the SRO decided that 2016 would see both the Sprint and Endurance Series further integrated into the Blancpain GT Series, putting the emphasis on the prestigious overall drivers' and manufacturers' titles causing the Sprint Series name to change from Blancpain Sprint Series to Blancpain GT Series Sprint Cup.[1]. The series started at Misano World Circuit Marco Simoncelli on 10 April and ended at Circuit de Barcelona-Catalunya in Spain on 2 October. The calendar was reduced to five events, dropping races at Nogaro, Moscow, Algarve, Zolder  and Zandvoort, with the addition of races at Hungaroring and Nürburgring.[2]. Bold indicates overall winner..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[2016 Blancpain GT Series Sprint Cup]
+Action 1: Search[2016 Blancpain GT Series Sprint Cup]
+Observation 1: The **2016 Blancpain GT Series Sprint Cup** was the fourth season of the Blancpain GT Series Sprint Cup, a sports car racing series organized by SRO Motorsports Group. The season featured six events, each consisting of two sprint races. The series was contested by GT3-homologated sports cars.. **Calendar:**. The 2016 calendar consisted of the following events:.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[FIA GT1 World Championship]
+Action 2: Search[FIA GT1 World Championship]
+Observation 2: The FIA GT1 World Championship was a world championship sports car racing series, developed by the SRO Group and regulated by the Fédération Internationale de l'Automobile (FIA), that was held from 2010 to 2012. It featured multiple grand tourer race cars—based on production road cars and conforming with the GT1 (2010–2011) and GT3 (2012) regulations—that competed in one-hour races on multiple continents. All cars were performance balanced, with weight and restrictor adjustments, to artificially equalise their performance. Championships were awarded each season for drivers and teams.. The FIA GT1 World Championship started in 2010 as a successor to the FIA GT Championship, which had featured the GT1 category as well as a GT2 category.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[followed on by]
+Action 2: Lookup[followed on by]
+Observation 2: The FIA GT1 World Championship was an international sports car racing series sanctioned by the Fédération Internationale de l'Automobile (FIA). It was the premier category of the FIA GT Championship, which had previously existed as a European-based series. The GT1 World Championship was established in 2010 and ran for three seasons, concluding in 2012.. **History and Evolution:**. The concept of a "world championship" for GT racing had been a long-held ambition.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[2010 to 2012]
+Action 3: Finish[2010 to 2012]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[2010 to 2012]
+Action 3: Finish[2010 to 2012]
+Observation 3: The FIA GT1 World Championship was an international sports car racing series sanctioned by the Fédération Internationale de l'Automobile (FIA). It was the premier category of the FIA GT Championship, which had previously existed as a European-based series. The GT1 World Championship was established in 2010 and ran for three seasons, concluding in 2012.. **History and Evolution:**. The concept of a "world championship" for GT racing had been a long-held ambition.
+
+
+
+INFO {'steps': 5, 'answer': '2010 to 2012', 'gt_answer': '2010 to 2012', 'question_idx': 1711, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 5 
+Number of steps: 16 
+Average reward: 0.3125 
+Average time 9.029249608516693
+
+-------------------------------------------------------
+

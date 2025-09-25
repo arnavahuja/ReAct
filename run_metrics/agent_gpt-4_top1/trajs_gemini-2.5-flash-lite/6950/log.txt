@@ -1,0 +1,53 @@
+INFO 6950 Question: Which has more species, Clianthus or Callicoma?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Clianthus]
+Action 1: Search[Clianthus]
+Observation 1: Clianthus, commonly known as kaka beak (kōwhai ngutukākā in Māori), is a genus of flowering plants in the legume family Fabaceae, comprising two species of shrubs endemic to the North Island of New Zealand.[2] They have striking clusters of red flowers which resemble the beak of the kākā, a New Zealand parrot. The plants are also known as parrot's beak, parrot's bill and lobster claw – all references to the distinctive flowers. There is also a variety with white to creamy coloured flowers called: "Albus", and a variety with rosy pink flowers called: "Roseus".[3]. Kakabeak grows to around two metres high, with spreading branches producing leaf stalks up to 15 cm long bearing several pairs of small leaflets. They usually flower from spring through to early summer, but can flower twice a year or even year round.[4].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Clianthus]
+Action 1: Search[Clianthus]
+Observation 1: **Clianthus** is a genus of flowering plants in the family Fabaceae, native to New Zealand. The genus contains two species, both commonly known as **kōwhai** or **parrot's bill**.. **Species:**. *   **_Clianthus puniceus_**: This species is found on the North Island of New Zealand. It is a scrambling shrub or small tree that can grow up to 6 meters tall.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Callicoma]
+Action 2: Search[Callicoma]
+Observation 2: Callicoma is a plant genus that contains just one species, Callicoma serratifolia, a tall shrub or small tree native to Australia. Callicoma serratifolia is commonly known as black wattle. One explanation for the name is the similarity of the flowers to those of Australian Acacia, which are commonly known as wattles. Another explanation is its use in wattle and daub huts of the early settlers.[1] The species has a number of other common names include callicoma, butterwood, silver leaf, silver-leaf butterwood and wild quince.. Black wattle can grow up to 20 metres in height, though in cultivation it is more likely to reach a height of between 6 and 10 m with a 3-metre spread.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Callicoma]
+Action 2: Search[Callicoma]
+Observation 2: **Callicoma** is a genus of shrubs and small trees in the family Cunoniaceae. It is native to eastern Australia. The genus contains two species:. *   **Callicoma serratifolia**: This is the type species of the genus. It is a shrub or small tree that typically grows to 3-10 meters tall.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Clianthus]
+Action 3: Finish[Clianthus]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[They have the same number of species.]
+Action 3: Finish[They have the same number of species.]
+Observation 3: **Callicoma** is a genus of shrubs and small trees in the family Cunoniaceae. It is native to eastern Australia. The genus contains two species:. *   **Callicoma serratifolia**: This is the type species of the genus. It is a shrub or small tree that typically grows to 3-10 meters tall.
+
+
+
+INFO {'steps': 5, 'answer': 'Clianthus', 'gt_answer': 'Clianthus', 'question_idx': 2498, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 6 
+Number of steps: 13 
+Average reward: 0.46153846153846156 
+Average time 28.572405393307026
+
+-------------------------------------------------------
+

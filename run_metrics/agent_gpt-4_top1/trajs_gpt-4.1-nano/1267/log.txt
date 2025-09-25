@@ -1,0 +1,39 @@
+INFO 1267 Question: Janne Kyttanen has had work exhibited at which modern art museum in Amsterdam?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Janne Kyttanen]
+Action 1: Search[Janne Kyttanen]
+Observation 1: Janne Kyttanen (born 1974) is a Finnish conceptual artist, designer, entrepreneur and investor who is best known for his work in design for 3D printing.[1][2][3] He was the founder of Freedom of Creation, a pioneering agency that specialised in design for 3D printing. In 2011 Freedom of Creation was acquired by 3D Systems, an American-based manufacturer of 3D printers.[4][5] He held the position of Creative Director at 3D Systems for four years.[6] His work been exhibited in numerous museums and galleries, including the Stedelijk Museum,[7] the Museum of Modern Art,[8] and at Design Miami, the global forum for design.[9] His work is represented by Gallery All.[10] He also used to be a professional squash player, having played in two individual world championships and two team championships.. Kyttanen was born in 1974 in Hämeenlinna, Finland. He attended Escola de Disseny (School of Design), Elisave in Barcelona, Spain in 1996.[11] He graduated from the Gerrit Rietveld Academie in Amsterdam in 2000 and worked with design for 3D printing during his studies.[12][13] His earliest work included a collection of 3D printed lamps.[14]. In 2000, Kyttanen co-founded Freedom of Creation with Jiri Evenhuis, a design studio that specialised in design for 3D printing.[5][15] The studio was one of the first to experiment with 3D printed designs and presented a series of 3D-printed lights at Expo Milano in 2003.[5] Based on the invention of Jiri Evenhuis to 3D print fabric; Evenhuis and Kyttanen were also the first to employ rapid prototyping technology to produce textiles.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Janne Kyttanen]
+Action 1: Search[Janne Kyttanen]
+Observation 1: Janne Kyttanen is a Finnish designer and entrepreneur known for his pioneering work in 3D printing and digital manufacturing. Born in Finland, Kyttanen gained recognition for his innovative approach to design, utilizing 3D printing technology to create unique, complex, and customizable objects. He has worked across various disciplines, including product design, fashion, and art, often exploring the intersection of technology and creativity.. Kyttanen is credited with being one of the early adopters and advocates of 3.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[Stedelijk Museum]
+Action 2: Finish[Stedelijk Museum]
+Observation 2: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[Amsterdam]
+Action 2: Lookup[Amsterdam]
+Observation 2: Janne Kyttanen is a Finnish designer and entrepreneur known for his pioneering work in 3D printing and digital manufacturing. Born in Finland, Kyttanen gained recognition for his innovative approach to design, utilizing 3D printing technology to create unique, complex, and customizable objects. He has worked across various disciplines, including product design, fashion, and art, often exploring the intersection of technology and creativity.. Kyttanen is credited with being one of the early adopters and advocates of 3.
+
+
+
+INFO {'steps': 3, 'answer': 'Stedelijk Museum', 'gt_answer': 'Stedelijk Museum Amsterdam', 'question_idx': 1042, 'reward': False, 'em': False, 'f1': 0.8}
+
+INFO Sum of rewards: 1 
+Number of steps: 5 
+Average reward: 0.2 
+Average time 19.90049500465393
+
+-------------------------------------------------------
+

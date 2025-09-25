@@ -1,0 +1,53 @@
+INFO 5514 Question: Command and Control was a book that discusses the 1980 incident in what state?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Command and Control]
+Action 1: Search[Command and Control]
+Observation 1: Command and control (abbr. C2) is a "set of organizational and technical attributes and processes ... [that] employs human, physical, and information resources to solve problems and accomplish missions" to achieve the goals of an organization or enterprise, according to  a 2015 definition by military scientists Marius Vassiliou, David S. Alberts, and Jonathan R. Agre.[1][2] The term often refers to a military system..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Command and Control (book)]
+Action 1: Search[Command and Control (book)]
+Observation 1: Command and Control (C2) refers to the exercise of authority and direction by a properly designated commanding officer over assigned and attached forces in the accomplishment of a mission. It encompasses the processes, procedures, and systems used to plan, direct, coordinate, and control military operations, ensuring that strategic objectives are achieved efficiently and effectively.. In military contexts, Command and Control involves the integration of personnel, equipment, communications, and procedures to facilitate decision-making and operational execution. It includes the establishment of command structures,.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Command and Control (book)]
+Action 2: Search[Command and Control (book)]
+Observation 2: Command and Control: Nuclear Weapons, the Damascus Accident, and the Illusion of Safety is a 2013 nonfiction book by Eric Schlosser about the history of nuclear weapons systems and accidents involving nuclear weapons in the United States.[1] Incidents Schlosser discusses in the book include the 1980 Damascus Titan missile explosion, the 1966 Palomares B-52 crash, and the 1961 Goldsboro B-52 crash.[2][3] It was a finalist for the 2014 Pulitzer Prize for History.[4] A documentary film based on the book aired as an episode of American Experience on PBS in early 2017.[5]. This book is a historical overview of the US nuclear weapons program with detailed narratives of nuclear weapons accidents, known as Broken Arrows.. In September 1980 at Launch Complex 374-7 near Damascus, Arkansas a dropped wrench socket ruptured the first stage fuel tank of a Titan II missile. The resulting leak led to the 1980 Damascus Titan missile explosion which expelled a nine-megaton W-53 nuclear warhead from the missile silo, though the warhead did not detonate.. Schlosser uses the framework of the Damascus incident to build the seventy-year history of the development, maintenance and mismanagement of US and global nuclear arsenals.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Command and Control book]
+Action 2: Search[Command and Control book]
+Observation 2: "Command and Control" is a term that generally refers to the exercise of authority and direction by a properly designated commander over assigned and attached forces in the accomplishment of a mission. It encompasses the processes, procedures, and systems used to plan, direct, coordinate, and control military operations or other complex activities.. In a military context, "Command and Control" (C2) involves the integration of personnel, equipment, communications, facilities, and procedures to enable commanders to effectively plan, direct, and monitor.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Arkansas]
+Action 3: Finish[Arkansas]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[1980 incident]
+Action 3: Lookup[1980 incident]
+Observation 3: "Command and Control" is a term that generally refers to the exercise of authority and direction by a properly designated commander over assigned and attached forces in the accomplishment of a mission. It encompasses the processes, procedures, and systems used to plan, direct, coordinate, and control military operations or other complex activities.. In a military context, "Command and Control" (C2) involves the integration of personnel, equipment, communications, facilities, and procedures to enable commanders to effectively plan, direct, and monitor.
+
+
+
+INFO {'steps': 5, 'answer': 'Arkansas', 'gt_answer': 'Arkansas', 'question_idx': 2195, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 1 
+Number of steps: 3 
+Average reward: 0.3333333333333333 
+Average time 21.26828972498576
+
+-------------------------------------------------------
+

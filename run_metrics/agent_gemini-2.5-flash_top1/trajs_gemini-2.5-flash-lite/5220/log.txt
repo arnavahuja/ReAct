@@ -1,0 +1,53 @@
+INFO 5220 Question: What is the weight limit of the weight class that Takeyasu Hirono fights in?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Takeyasu Hirono]
+Action 1: Search[Takeyasu Hirono]
+Observation 1: Takeyasu Hirono (born July 18, 1971; Japanese: 廣野武康) is a Japanese[1] mixed martial artist.[2] He competed in the Flyweight[3] division.. This Japanese biographical article related to martial arts is a stub. You can help Wikipedia by expanding it.. This biographical article related to mixed martial arts is a stub. You can help Wikipedia by expanding it..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Takeyasu Hirono]
+Action 1: Search[Takeyasu Hirono]
+Observation 1: **Takeyasu Hirono** (born 1965) is a Japanese video game designer and producer. He is best known for his work on the *Mega Man* series, particularly the *Mega Man X* sub-series.. Hirono began his career at Capcom in the late 1980s. His early work included contributions to titles such as *Street Fighter II*. He later became a key figure in the development of the *Mega Man X* series,.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Flyweight]
+Action 2: Search[Flyweight]
+Observation 2: Flyweight is a weight class in combat sports.. Flyweight is a class in boxing which includes fighters weighing up to and including 51 kg (112 lb) for a title fight.[1]. The flyweight division was the last of boxing's eight traditional weight classes to be established. Before 1909, anyone below featherweight was considered a bantamweight, regardless of how small the boxer. In 1911, the organization that eventually became the British Boxing Board of Control held a match that crowned Sid Smith as the first flyweight champion of the world.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Finish[Information not found, Takeyasu Hirono is a video game designer and producer, not a fighter.]
+Action 2: Finish[Information not found, Takeyasu Hirono is a video game designer and producer, not a fighter.]
+Observation 2: The **Flyweight pattern** is a **structural design pattern** that minimizes memory usage by sharing as much data as possible with other similar objects. It's particularly useful when you have a large number of objects that are similar in nature and differ only in a small amount of data.. **Concept:**. The core idea behind the Flyweight pattern is to separate the intrinsic state of an object from its extrinsic state.. *   **Intrinsic State:** This is the data that is *independent*.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[51 kg (112 lb)]
+Action 3: Finish[51 kg (112 lb)]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Flyweight (MMA)]
+Action 3: Search[Flyweight (MMA)]
+Observation 3: The **Flyweight pattern** is a **structural design pattern** that minimizes memory usage by sharing as much data as possible with other similar objects. It's particularly useful when you have a large number of objects that are similar in nature and differ only in a small amount of data.. **Concept:**. The core idea behind the Flyweight pattern is to separate the intrinsic state of an object from its extrinsic state.. *   **Intrinsic State:** This is the data that is *independent*.
+
+
+
+INFO {'steps': 5, 'answer': '51 kg (112 lb)', 'gt_answer': '125 lb (57 kg)', 'question_idx': 2272, 'reward': False, 'em': False, 'f1': 0.5}
+
+INFO Sum of rewards: 16 
+Number of steps: 39 
+Average reward: 0.41025641025641024 
+Average time 12.166978230843178
+
+-------------------------------------------------------
+

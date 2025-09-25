@@ -1,0 +1,44 @@
+INFO 5619 Question: Who was the main vocal of "Set the Fire to the Third Bar"?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to find who was the main vocal of "Set the Fire to the Third Bar". I will search for the song title.
+Action 1: Search[Set the Fire to the Third Bar] 
+        Action 1: Search[Set the Fire to the Third Bar]
+        Observation 1: "Set the Fire to the Third Bar" is a song by Northern Irish–Scottish alternative rock band Snow Patrol, featuring Martha Wainwright on vocals. It was released on 13 November 2006 as the fourth single of their fourth album, Eyes Open (2006).. The song was the last track to be recorded for the album Eyes Open and was the third single released from the album.[1]. It was written especially with Martha in mind.[2]. Gary Lightbody wrote the song in only twenty minutes and described it as the quickest he had ever written a song.[3]."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to find out who was the main vocal of "Set the Fire to the Third Bar". I will search for the song title first.
+Action 1: Search[Set the Fire to the Third Bar], Search[Set the Fire to the Third Bar (song)], Lookup[vocal] 
+        Action 1: ['Search[Set the Fire to the Third Bar]', 'Search[Set the Fire to the Third Bar (song)]', 'Lookup[vocal]']
+        Observation 1: "Set the Fire to the Third Bar" is a song by the Scottish alternative rock band Snow Patrol, featuring American singer Martha Wainwright. It was released in 2006 as part of their fifth studio album, *Eyes Open*. The song is characterized by its melodic and atmospheric sound, combining Snow Patrol's signature style with Wainwright's distinctive vocals. Lyrically, it explores themes of longing, love, and emotional vulnerability. The track received positive reviews from critics and became a notable."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The observation states that the song features Martha Wainwright on vocals. This suggests she was the main vocalist.
+Action 2: Finish[Martha Wainwright] 
+        Action 2: Finish[Martha Wainwright]
+        Observation 2: Episode finished, reward = 0
+"
+
+SIMULATION TRAJECTORY:
+ Thought 2: The observation states that Martha Wainwright is featured and provides "Wainwright's distinctive vocals," implying she is the main vocal. I will finish with this answer.
+Action 2: [Finish[Martha Wainwright], Search[Martha Wainwright], Lookup[vocals]] 
+        Action 2: ['Search[Martha Wainwright]', 'Lookup[vocals]', 'Finish[Martha Wainwright]']
+        Observation 2: "Set the Fire to the Third Bar" is a song by the Scottish alternative rock band Snow Patrol, featuring American singer Martha Wainwright. It was released in 2006 as part of their fifth studio album, *Eyes Open*. The song is characterized by its melodic and atmospheric sound, combining Snow Patrol's signature style with Wainwright's distinctive vocals. Lyrically, it explores themes of longing, love, and emotional vulnerability. The track received positive reviews from critics and became a notable."
+
+
+
+INFO {'steps': 3, 'answer': 'Martha Wainwright', 'gt_answer': 'Gary Lightbody', 'question_idx': 828, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 0 
+Number of steps: 2 
+Average reward: 0.0 
+Average time 11.558603525161743
+
+--------------------------------------------------
+

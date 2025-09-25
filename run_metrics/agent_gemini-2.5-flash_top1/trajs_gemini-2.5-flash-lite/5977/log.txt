@@ -1,0 +1,53 @@
+INFO 5977 Question: Gül Mosque and Hippodrome of Constantinople are both located where?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Gül Mosque]
+Action 1: Search[Gül Mosque]
+Observation 1: Gül Mosque (Turkish: Gül Camii, meaning Rose Mosque' in English) is a former Byzantine church in Istanbul, Turkey, converted into a mosque by the Ottomans.. It is in Vakıf Mektebi Sokak in the district of Fatih, Istanbul, in the neighbourhood of Ayakapı ('Gate of the Saint'). It lies at the end of the valley which divides the fourth and fifth hills of Constantinople and overlooks the Golden Horn from its imposing position .[1]. Although the Gül Mosque was one of the most important Byzantine buildings in Constantinople, its dedication and the date of its construction have been disputed by scholars. It is sometimes identified with the church belonging to the nunnery of Saint Theodosia (Greek: Μονή τής Άγιας Θεοδοσίας εν τοις Δεξιοκράτους, Monē tis Hagias Theodosias en tois Dexiokratous) or with that of the monastery of Christ the Benefactor (Greek: Μονή του Χριστού του Ευεργέτου, Monē tou Christou tou Euergetou).[2].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Gül Mosque]
+Action 1: Search[Gül Mosque]
+Observation 1: The **Gül Mosque** (Turkish: *Gül Camii*) is a former Eastern Orthodox church in Istanbul, Turkey, that was converted into a mosque. It is located in the Fatih district of Istanbul, near the Walls of Constantinople.. **History:**. The Gül Mosque was originally built in the 12th century as a monastery church dedicated to **Saint John the Baptist in the Fields** (Greek: Μονή του Αγίου Ιωάννη του Προδρό.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Hippodrome of Constantinople]
+Action 2: Search[Hippodrome of Constantinople]
+Observation 2: The Hippodrome of Constantinople (Greek: Ἱππόδρομος τῆς Κωνσταντινουπόλεως, romanized: Hippódromos tēs Kōnstantinoupóleōs; Latin: Circus Maximus Constantinopolitanus; Turkish: Hipodrom) was a circus that was the sporting and social centre of Constantinople, capital of the Byzantine Empire. Today it is a square in Istanbul, Turkey, known as Sultanahmet Square (Turkish: Sultanahmet Meydanı).. The word hippodrome comes from the Greek hippos (ἵππος), horse, and dromos (δρόμος), path or way. For this reason, it is sometimes also called Atmeydanı ("Horse Square") in Turkish. Horse racing and chariot racing were popular pastimes in the ancient world and hippodromes were common features of Greek cities in the Hellenistic, Roman, and Byzantine eras..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Hippodrome of Constantinople]
+Action 2: Search[Hippodrome of Constantinople]
+Observation 2: The **Hippodrome of Constantinople** was a large public space, or circus, in the capital city of the Roman Empire, Constantinople (modern-day Istanbul). It was the center of public life and the most important venue for entertainment in the city.. **History and Construction:**. Construction of the Hippodrome began under the Roman Emperor Septimius Severus in 203 AD, on the site of an earlier circus. It was significantly expanded and completed by Emperor Constantine the Great in.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Istanbul, Turkey]
+Action 3: Finish[Istanbul, Turkey]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Istanbul]
+Action 3: Finish[Istanbul]
+Observation 3: The **Hippodrome of Constantinople** was a large public space, or circus, in the capital city of the Roman Empire, Constantinople (modern-day Istanbul). It was the center of public life and the most important venue for entertainment in the city.. **History and Construction:**. Construction of the Hippodrome began under the Roman Emperor Septimius Severus in 203 AD, on the site of an earlier circus. It was significantly expanded and completed by Emperor Constantine the Great in.
+
+
+
+INFO {'steps': 5, 'answer': 'Istanbul, Turkey', 'gt_answer': 'Istanbul, Turkey', 'question_idx': 2869, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 3 
+Number of steps: 6 
+Average reward: 0.5 
+Average time 9.293309370676676
+
+-------------------------------------------------------
+

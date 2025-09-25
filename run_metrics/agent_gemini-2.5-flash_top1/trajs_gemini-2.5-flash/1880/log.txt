@@ -1,0 +1,53 @@
+INFO 1880 Question: Are Peter Balakian and James Der Derian both teachers?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Peter Balakian]
+Action 1: Search[Peter Balakian]
+Observation 1: Peter Balakian (born June 13, 1951) is an American poet, prose writer, and scholar. He is the author of many books including the 2016 Pulitzer prize winning book of poems Ozone Journal,[1] the memoir Black Dog of Fate, winner of the PEN/Albrand award in 1998[2] and The Burning Tigris: The Armenian Genocide and America's Response, winner of the 2005 Raphael Lemkin Prize[3] and a New York Times best seller (October 2003). Both prose books were New York Times Notable Books. Since 1980 he has taught at Colgate University where he is the Donald M and Constance H Rebar Professor of the Humanities in the department of English and Director of Creative Writing.[4]. Peter Balakian, son of physician and sports medicine inventor Gerard Balakian[5] and Arax Aroosian Balakian who holds a B.A.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Peter Balakian]
+Action 1: Search[Peter Balakian]
+Observation 1: **Peter Balakian** (born June 13, 1951) is an American poet, prose writer, and academic. He is the Donald M. and Constance H. Rebar Professor of English and Director of Creative Writing at Colgate University. He is widely recognized for his work exploring themes of genocide, memory, and the Armenian diaspora, particularly in relation to the Armenian Genocide..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[James Der Derian]
+Action 2: Search[James Der Derian]
+Observation 2: James Der Derian is the Michael Hintze Chair of International Security Studies and Director of the Centre for International Security Studies at The University of Sydney, having taken up his appointment in January 2013. His research and teaching interests are in international security, information technology, international theory and documentary film.. Prior to his appointment, Der Derian was a Watson Institute research professor of international studies and professor of political science at Brown University. In July 2004, he became the director of the institute's Global Security Program. Der Derian also directed the Information Technology, War, and Peace Project in the Watson Institute's Global Security Program..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[James Der Derian]
+Action 2: Search[James Der Derian]
+Observation 2: **James Der Derian** is a prominent scholar in the field of international relations, known for his work on critical security studies, media and war, and the impact of technology on global politics. He is currently a Michael J. Berlin Professor of International Affairs and Director of the Security Studies Program at Brown University.. **Early Life and Education:**. Der Derian received his Ph.D.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[yes]
+Action 3: Finish[yes]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[yes]
+Action 3: Finish[yes]
+Observation 3: **James Der Derian** is a prominent scholar in the field of international relations, known for his work on critical security studies, media and war, and the impact of technology on global politics. He is currently a Michael J. Berlin Professor of International Affairs and Director of the Security Studies Program at Brown University.. **Early Life and Education:**. Der Derian received his Ph.D.
+
+
+
+INFO {'steps': 5, 'answer': 'yes', 'gt_answer': 'yes', 'question_idx': 976, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 19 
+Number of steps: 43 
+Average reward: 0.4418604651162791 
+Average time 12.263073394464891
+
+-------------------------------------------------------
+

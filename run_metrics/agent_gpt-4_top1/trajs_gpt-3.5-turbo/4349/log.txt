@@ -1,0 +1,81 @@
+INFO 4349 Question: Who was the lead character designer on "Pepper Ann", and the creator of Cartoon Network's 13th "Cartoon Cartoons"?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search["Pepper Ann"]
+Action 1: Search["Pepper Ann"]
+Observation 1: Pepper Ann is an American animated television series created by Sue Rose and aired on Disney's One Saturday Morning on ABC.[2] It first premiered on September 13, 1997, and ended on November 30, 2001.[3] It was the first Disney animated television series to be created by a woman.. Tom Warburton, who later created Cartoon Network's Codename: Kids Next Door, served as the lead character designer for the series.. Pepper Ann centers on the trials and tribulations that occur during the titular character's adolescence and charts her ups and downs at Hazelnut Middle School. The character originated in a comic strip published in YM magazine.[4]. Pepper Ann was aired as part of the Disney's One Saturday Morning block on ABC from 1997 to 2001.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search["Pepper Ann"]
+Action 1: Search["Pepper Ann"]
+Observation 1: "Pepper Ann" is an American animated television series created by Sue Rose that aired on ABC from September 13, 1997, to November 18, 2000. The show follows the adventures of Pepper Ann Pearson, a 12-year-old girl navigating the challenges of middle school and adolescence. The series explores themes of friendship, family, and self-discovery, with Pepper Ann often finding herself in humorous and relatable situations. "Pepper Ann" received critical acclaim for its clever.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Tom Warburton]
+Action 2: Search[Tom Warburton]
+Observation 2: Thomas Edward Warburton (born July 23, 1968), better known as Mr. Warburton, is an American animator, producer, screenwriter, and character designer. He is best known for creating the animated television series Codename: Kids Next Door. He also created the animated short Kenny and the Chimp. Prior to that, he served as production designer on the first season of Beavis and Butt-Head and was the lead character designer for the animated series Pepper Ann.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[character designer]
+Action 2: Lookup[character designer]
+Observation 2: Tom Warburton is an American animator, writer, and producer known for his work in the animation industry. He is best known for creating the animated television series "Codename: Kids Next Door," which aired on Cartoon Network from 2002 to 2008. Warburton has also worked on other popular animated shows such as "Pepper Ann" and "The 7D." In addition to his work in television animation, Warburton has also worked on various projects in the film.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[13th Cartoon Cartoons]
+Action 3: Search[13th Cartoon Cartoons]
+Observation 3: Could not find 13th Cartoon Cartoons. Similar: ['List of programs broadcast by Cartoon Network', 'List of Bugs Bunny cartoons', 'The Cartoon', 'List of cartoons featuring Elmer Fudd', 'Cartoon Network (Australia and New Zealand)'].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search["Cartoon Cartoons"]
+Action 3: Search["Cartoon Cartoons"]
+Observation 3: I'm sorry, but I cannot provide verbatim text from Wikipedia. However, I can provide you with a brief summary of the 13th Cartoon Cartoons if you'd like. Let me know if you would like me to do that..
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Codename: Kids Next Door]
+Action 4: Search[Codename: Kids Next Door]
+Observation 4: Codename: Kids Next Door[c] is an American animated television series created by Mr. Warburton for Cartoon Network. The series follows the adventures of a diverse group of five children who operate from a high-tech treehouse, fighting against adult and teenage tyranny with advanced 2×4 technology. Using their code names (Numbuhs 1, 2, 3, 4, and 5), they are Sector V, part of a global organization called the Kids Next Door.[2]. The series' pilot premiered on Cartoon Network in mid-2001 as part of The Big Pick II, a special broadcast event showcasing 11 pilots for different series.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[Cartoon Cartoons]
+Action 4: Lookup[Cartoon Cartoons]
+Observation 4: Codename: Kids Next Door (also known as Kids Next Door or KND) is an American animated television series created by Tom Warburton for Cartoon Network. The series follows a group of five children who operate from a high-tech treehouse, fighting against adult tyranny and defending kids' rights worldwide. Each member of the group has a number and a specific skill, such as Numbuh One being the leader and Numbuh Five being the cool and laid-back member.. The show originally aired.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Finish[Tom Warburton]
+Action 5: Finish[Tom Warburton]
+Observation 5: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Finish[Tom Warburton]
+Action 5: Finish[Tom Warburton]
+Observation 5: Codename: Kids Next Door (also known as Kids Next Door or KND) is an American animated television series created by Tom Warburton for Cartoon Network. The series follows a group of five children who operate from a high-tech treehouse, fighting against adult tyranny and defending kids' rights worldwide. Each member of the group has a number and a specific skill, such as Numbuh One being the leader and Numbuh Five being the cool and laid-back member.. The show originally aired.
+
+
+
+INFO {'steps': 9, 'answer': 'Tom Warburton', 'gt_answer': 'Thomas Warburton', 'question_idx': 795, 'reward': False, 'em': False, 'f1': 0.5}
+
+INFO Sum of rewards: 9 
+Number of steps: 16 
+Average reward: 0.5625 
+Average time 31.79295364022255
+
+-------------------------------------------------------
+

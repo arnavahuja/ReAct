@@ -1,0 +1,53 @@
+INFO 165 Question: From what island has Chryseobacterium frigidum isolated?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Chryseobacterium frigidum]
+Action 1: Search[Chryseobacterium frigidum]
+Observation 1: Chryseobacterium frigidum  is a Gram-negative, aerobic and non-motile bacteria from the genus Chryseobacterium which has been isolated from high Arctic tundra soil near Ny-Ålesund in Norway.[1][2][3][4]. This Chryseobacterium-related article is a stub. You can help Wikipedia by expanding it.. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us. HelpLearn to editCommunity portalRecent changesUpload fileSpecial pages.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Chryseobacterium frigidum]
+Action 1: Search[Chryseobacterium frigidum]
+Observation 1: **Chryseobacterium frigidum** is a species of Gram-negative, aerobic, rod-shaped bacteria belonging to the family Flavobacteriaceae. It was first described in 2005 and is known for its ability to grow at low temperatures.. **Discovery and Classification:**. *   **Discovery:** *Chryseobacterium frigidum* was isolated from soil samples collected from a high-altitude region in China.. *   **Classification:** It is classified within the genus.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Ny-Ålesund]
+Action 2: Search[Ny-Ålesund]
+Observation 2: Ny-Ålesund ("New Ålesund") is a small town in Oscar II Land in the west of the island of Spitsbergen in Svalbard. It is situated on the Brøgger peninsula (Brøggerhalvøya) and on the shore of the bay of Kongsfjorden. The company town is owned and operated by Kings Bay, which provides facilities for permanent research activities by 19 institutions from 11 countries. The town is ultimately owned by the Ministry of Climate and Environment and is not incorporated (i.e. is not recognised as a town by the Norwegian government).
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Finish[Chryseobacterium frigidum was isolated from soil samples collected from a high-altitude region in China, not an island.]
+Action 2: Finish[Chryseobacterium frigidum was isolated from soil samples collected from a high-altitude region in China, not an island.]
+Observation 2: Ny-Ålesund is a Norwegian settlement and research station located on the west coast of Spitsbergen, the largest island of the Svalbard archipelago. Situated at 78°55′ N latitude, it is one of the northernmost permanently inhabited places on Earth.. **History:**. Ny-Ålesund was founded in 1916 by the American Arctic Coal Company as a coal mining settlement. The name "Ny-Ålesund" translates to "New Å.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Spitsbergen]
+Action 3: Finish[Spitsbergen]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Spitsbergen]
+Action 3: Finish[Spitsbergen]
+Observation 3: Ny-Ålesund is a Norwegian settlement and research station located on the west coast of Spitsbergen, the largest island of the Svalbard archipelago. Situated at 78°55′ N latitude, it is one of the northernmost permanently inhabited places on Earth.. **History:**. Ny-Ålesund was founded in 1916 by the American Arctic Coal Company as a coal mining settlement. The name "Ny-Ålesund" translates to "New Å.
+
+
+
+INFO {'steps': 5, 'answer': 'Spitsbergen', 'gt_answer': 'island of Spitsbergen', 'question_idx': 3551, 'reward': False, 'em': False, 'f1': 0.5}
+
+INFO Sum of rewards: 10 
+Number of steps: 19 
+Average reward: 0.5263157894736842 
+Average time 10.263479057111239
+
+-------------------------------------------------------
+

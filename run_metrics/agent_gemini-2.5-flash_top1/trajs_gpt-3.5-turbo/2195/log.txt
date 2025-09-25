@@ -1,0 +1,112 @@
+INFO 2195 Question: Kevin Yorn an American entertainment attorney who represents an Australian actor who  played the role of Josh Taylor in what soap opera?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Kevin Yorn]
+Action 1: Search[Kevin Yorn]
+Observation 1: Kevin Brett Yorn (born July 4, 1965) is an American entertainment attorney and investor. He co-founded Yorn Barnes Levine Entertainment Law Firm where he is managing partner.[2]. Yorn was born in Montville, New Jersey to father Dr. Lawrence Yorn, a dentist and captain in the Army, and his mother, Joan Yorn. He has two brothers, Pete Yorn, a musician and Rick Yorn, a talent manager.[3][4].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Kevin Yorn]
+Action 1: Search[Kevin Yorn]
+Observation 1: Kevin Yorn is an American entertainment lawyer and film producer. He is known for representing high-profile clients in the entertainment industry, including actors, directors, and musicians. Yorn has also produced several films, including "The Holiday" and "Unstoppable." He is a partner at the law firm Morris Yorn Barnes Levine Krintzman Rubenstein & Kohner..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Josh Taylor]
+Action 2: Search[Josh Taylor]
+Observation 2: Could not find [Josh Taylor]. Similar: ['Josh Taylor (boxer)', 'Josh Taylor (actor)', 'Josh Taylor', 'Josh Taylor vs Jack Catterall', 'Liam Hemsworth'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Josh Taylor soap opera]
+Action 2: Search[Josh Taylor soap opera]
+Observation 2: Josh Taylor is a Scottish professional boxer who was born on January 2, 1991. He competes in the light welterweight division and is known for his impressive boxing skills and undefeated record. Taylor has held multiple world titles, including the WBA (Super), IBF, WBC, and The Ring light welterweight titles. He is considered one of the top pound-for-pound boxers in the world and has a dedicated fan base. Taylor has achieved significant success in his boxing.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Josh Taylor (actor)]
+Action 3: Search[Josh Taylor (actor)]
+Observation 3: Josh Taylor (born September 25, 1943) is an American television actor. He is known for playing Chris Kositchek and Roman Brady on the American dramatic serial Days of Our Lives, Jack McKay on the teen drama Beverly Hills, 90210 and as Michael Hogan, the father on the situation comedy The Hogan Family.[1]. Born in Princeton, Illinois, as Tommy Tim Taylor and known as "Timmy", Taylor moved with his family to Chillicothe, Illinois when he was two years old. They lived in Shore acres with a swimming pool. His dad became athletic director of Chillicothe Township High School (now Illinois Valley Central High School) as well as a respected football coach, and both Josh and older brother Ron played quarterback under him.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Josh Taylor soap opera]
+Action 3: Search[Josh Taylor soap opera]
+Observation 3: I'm sorry, but I couldn't find any specific information about an actor named Josh Taylor. If you have any other questions or need information on a different topic, feel free to ask!.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Josh Taylor (character)]
+Action 4: Search[Josh Taylor (character)]
+Observation 4: Could not find Josh Taylor (character). Similar: ['Josh Taylor (actor)', 'Josh Taylor', 'List of EastEnders characters introduced in 2017', 'Josh Peck', 'Dub Taylor'].
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[Kevin Yorn represents Australian actor]
+Action 4: Search[Kevin Yorn represents Australian actor]
+Observation 4: Josh Taylor is a fictional character from the Australian soap opera "Neighbours." He was portrayed by actor Harley Bonner. Josh first appeared on the show in 2013 as the son of established character Brad Willis and was known for his athletic abilities and competitive nature. Throughout his time on the show, Josh was involved in various storylines, including romantic relationships, family drama, and personal struggles. He departed from the series in 2016..
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[Australian actor Josh Taylor]
+Action 5: Search[Australian actor Josh Taylor]
+Observation 5: Could not find Australian actor Josh Taylor. Similar: ['Josh Taylor', 'Liam Hemsworth (category Australian male film actors)', 'Josh Helman', 'Josh Lucas', 'Callan Mulvey (category Australian male film actors)'].
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Finish[Neighbours]
+Action 5: Finish[Neighbours]
+Observation 5: I'm sorry, but I couldn't find any information about an Australian actor named Josh Taylor..
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Search[Josh Taylor soap opera]
+Action 6: Search[Josh Taylor soap opera]
+Observation 6: Could not find Josh Taylor soap opera. Similar: ['Josh Taylor (actor)', 'Liam Hemsworth', 'Josh Taylor', 'List of soap opera villains', 'Soap Opera Digest Awards'].
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Search[Kevin Yorn Australian actor]
+Action 6: Search[Kevin Yorn Australian actor]
+Observation 6: I'm sorry, but I couldn't find any information about a soap opera character named Josh Taylor..
+
+
+
+STEP: 7
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Search[Josh Taylor character soap opera]
+Action 7: Search[Josh Taylor character soap opera]
+Observation 7: Could not find Josh Taylor character soap opera. Similar: ['Josh Taylor (actor)', 'List of LGBTQ characters in soap operas', 'List of Brookside characters', 'List of Home and Away characters', 'List of former Emmerdale characters'].
+
+SIMULATION TRAJECTORY:
+ Thought 7: None
+Action 7: Search[Kevin Yorn represented actors]
+Observation 7: I'm sorry, but I cannot provide information about a character named Josh Taylor in a soap opera as it is a fictional character and not a real person. If you have any other questions or need assistance with something else, feel free to ask..
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'Neighbours', 'question_idx': 6301, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 8 
+Number of steps: 24 
+Average reward: 0.3333333333333333 
+Average time 18.799273878335953
+
+-------------------------------------------------------
+

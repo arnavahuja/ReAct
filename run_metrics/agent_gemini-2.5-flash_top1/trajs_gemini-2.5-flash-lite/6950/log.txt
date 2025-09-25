@@ -1,0 +1,98 @@
+INFO 6950 Question: The actor that played Gutthi on Comedy nights with Kapil Show also starred in what 2016 Punjabi film directed by Smeep Kang?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Gutthi]
+Action 1: Search[Gutthi]
+Observation 1: Could not find Gutthi. Similar: ['Sunil Grover', 'Comedy Nights with Kapil (redirect from Comedy Show With Gutthi)', 'Gaurav Gera', 'Bigg Boss (Hindi TV series) season 8', 'Kiku Sharda'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Gutthi Comedy Nights with Kapil]
+Action 1: Search[Gutthi Comedy Nights with Kapil]
+Observation 1: **Gutthi** is a fictional character portrayed by Indian comedian Sunil Grover. Gutthi first appeared on the television show **Comedy Nights with Kapil** and later on **The Kapil Sharma Show**. The character is known for its distinctive style, including a colorful frock, a wig, and a unique way of speaking.. Gutthi's persona is that of a flamboyant and somewhat eccentric woman who often engages in witty banter and observational humor. The character's catchphrases and mannerisms quickly became popular.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Sunil Grover]
+Action 2: Search[Sunil Grover]
+Observation 2: Sunil Grover (born 3 August 1977) is an Indian actor and comedian who works in Hindi and Punjabi language films and television. He came into limelight for his portrayal as Gutthi on television show Comedy Nights with Kapil but gained popularity for playing the role of Dr. Mashoor Gulati, Rinku Devi and Pidu on The Kapil Sharma Show.[1] He was also seen in the films Ghajini, Gabbar Is Back, The Legend of Bhagat Singh, Bharat[2] and Jawan.. Grover was born on 3 August 1977 in Mandi Dabwali town of Sirsa district, Haryana.[3][4] He received a Master's Degree in Theatre from Panjab University Chandigarh. He is married to Aarti and has a son.[3][5][6].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Sunil Grover]
+Action 2: Search[Sunil Grover]
+Observation 2: Sunil Grover is an Indian actor and comedian. He gained widespread recognition for his portrayal of Gutthi and Dr. Mashoor Gulati on the popular Indian television shows "Comedy Nights with Kapil" and "The Kapil Sharma Show," respectively.. Born in Sirsa, Haryana, Grover initially pursued a career in theatre. He made his television debut with the show "Hum Paanch" and later appeared in "Koffee with Karan" as a host.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Smeep Kang]
+Action 3: Search[Smeep Kang]
+Observation 3: Smeep Kang (born 30 January 1973) is an Indian film director, film producer, actor who works in the Punjabi films.[1] He graduated from Punjab University with a degree in chemical engineering.[2]. He is well known for directing the Punjabi comedy films Chak De Phatte (2008), Carry On Jatta (2012), Lucky Di Unlucky Story (2013), Vaisakhi List (2016). His upcoming Punjabi movie is "Saunkan Saunkne 2" which stars Nimrat Khaira, Sargun Mehta and Ammy Virk, Which is scheduled to release on May 30, 2025. [3]. Despite directing films such as Meri Vahuti Da Viyah (2007) and Chak De Phatte (2008), Smeep Kang rose to popularity as a director in 2012 with the comedy film Carry On Jatta, which became a Blockbuster, and also one of the highest-grossing Punjabi feature films of that year.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Smeep Kang]
+Action 3: Search[Smeep Kang]
+Observation 3: Smeep Kang is a British film director, screenwriter, and producer. He is known for his work in comedy films.. Kang's directorial debut was the 2008 film "3 Storeys". He later directed "Chak De! India" (2007), a critically acclaimed sports drama starring Shah Rukh Khan. His other directorial ventures include "Jatt & Juliet" (2012), "Jatt & Juliet 2" (2013.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Lookup[Vaisakhi List]
+Action 4: Lookup[Vaisakhi List]
+Observation 4: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[Punjabi]
+Action 4: Lookup[Punjabi]
+Observation 4: Smeep Kang is a British film director, screenwriter, and producer. He is known for his work in comedy films.. Kang's directorial debut was the 2008 film "3 Storeys". He later directed "Chak De! India" (2007), a critically acclaimed sports drama starring Shah Rukh Khan. His other directorial ventures include "Jatt & Juliet" (2012), "Jatt & Juliet 2" (2013.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[Vaisakhi List]
+Action 5: Search[Vaisakhi List]
+Observation 5: Vaisakhi List[1] is a 2016 Punjabi film directed by Smeep Kang, starring Jimmy Sheirgill, Shruti Sodhi and Sunil Grover as the main cast. The film was released on 22 April 2016.[2][3][4][5][6][7]. The movie is loosely based on the 2002 Korean movie Jail Breakers.. Prisoner Tarsem Lal is seen coming out of a hole in the jail's garden, and is almost caught by Jailer Jalaur Singh Johal, who is very friendly with the prisoners. After talking to each other, they hear another prisoner, Jarnail Singh, arguing with Aman, a girl who was his bride-to-be before being arrested..
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Search[Vaisakhi List]
+Action 5: Search[Vaisakhi List]
+Observation 5: Vaisakhi, also known as Baisakhi, is a significant festival celebrated primarily by Sikhs and Hindus in the Punjab region of India and Pakistan. It marks the Punjabi New Year and the formation of the Khalsa Panth, the unified Sikh community.. **Historical Significance:**. *   **Formation of the Khalsa:** Vaisakhi holds immense importance for Sikhs as it commemorates the establishment of the Khalsa Panth by Guru Gobind Singh Ji in 1699.
+
+
+
+STEP: 6
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Finish[Vaisakhi List]
+Action 6: Finish[Vaisakhi List]
+Observation 6: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 6: None
+Action 6: Search[Vaisakhi List (film)]
+Observation 6: Vaisakhi, also known as Baisakhi, is a significant festival celebrated primarily by Sikhs and Hindus in the Punjab region of India and Pakistan. It marks the Punjabi New Year and the formation of the Khalsa Panth, the unified Sikh community.. **Historical Significance:**. *   **Formation of the Khalsa:** Vaisakhi holds immense importance for Sikhs as it commemorates the establishment of the Khalsa Panth by Guru Gobind Singh Ji in 1699.
+
+
+
+INFO {'steps': 11, 'answer': 'Vaisakhi List', 'gt_answer': 'Vaisakhi List', 'question_idx': 2091, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 7 
+Number of steps: 13 
+Average reward: 0.5384615384615384 
+Average time 9.687513021322397
+
+-------------------------------------------------------
+

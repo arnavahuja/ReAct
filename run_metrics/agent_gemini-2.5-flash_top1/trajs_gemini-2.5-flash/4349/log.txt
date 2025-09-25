@@ -1,0 +1,39 @@
+INFO 4349 Question: Lady Elizabeth Delmé and Her Children (1779) is a portrait given to the National Gallery of Art in 1937, which is located in which state?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[National Gallery of Art]
+Action 1: Search[National Gallery of Art]
+Observation 1: The National Gallery of Art is an art museum in Washington, D.C., United States, located on the National Mall, between 3rd and 9th Streets, at Constitution Avenue NW. Open to the public and free of charge, the museum was privately established in 1937 for the American people by a joint resolution of the United States Congress.[a] Andrew W. Mellon donated a substantial art collection and funds for construction. The core collection includes major works of art donated by Paul Mellon, Ailsa Mellon Bruce, Lessing J. Rosenwald, Samuel Henry Kress, Rush Harrison Kress, Peter Arrell Browne Widener, Joseph E.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[National Gallery of Art]
+Action 1: Search[National Gallery of Art]
+Observation 1: The **National Gallery of Art** is a national art museum in Washington, D.C., located on the National Mall. It was established in 1937 by an act of the U.S. Congress, with funds donated by Andrew W. Mellon, a financier and art collector. The museum's collection includes more than 150,000 paintings, drawings, prints, photographs, sculptures, and decorative arts, spanning from the Middle Ages to the present day..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[Washington, D.C.]
+Action 2: Finish[Washington, D.C.]
+Observation 2: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Finish[Washington, D.C. is not a state]
+Action 2: Finish[Washington, D.C. is not a state]
+Observation 2: The **National Gallery of Art** is a national art museum in Washington, D.C., located on the National Mall. It was established in 1937 by an act of the U.S. Congress, with funds donated by Andrew W. Mellon, a financier and art collector. The museum's collection includes more than 150,000 paintings, drawings, prints, photographs, sculptures, and decorative arts, spanning from the Middle Ages to the present day..
+
+
+
+INFO {'steps': 3, 'answer': 'Washington, D.C.', 'gt_answer': 'Washington, D.C.', 'question_idx': 6348, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 4 
+Number of steps: 16 
+Average reward: 0.25 
+Average time 15.809789553284645
+
+-------------------------------------------------------
+

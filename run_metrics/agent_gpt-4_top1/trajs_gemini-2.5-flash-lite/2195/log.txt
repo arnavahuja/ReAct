@@ -1,0 +1,53 @@
+INFO 2195 Question: Is It Just Me? was a single by the English rock band from what Suffolk city?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search["Is It Just Me?"]
+Action 1: Search["Is It Just Me?"]
+Observation 1: "Is It Just Me?" is a song by British rock the Darkness, taken as the second single from their second studio album, One Way Ticket to Hell... And Back (2005). The single was released on 20 February 2006 and was the band's fifth consecutive top-10 hit in the United Kingdom, peaking at No. 8 on the UK Singles Chart. It also reached No.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search["Is It Just Me?"]
+Action 1: Search["Is It Just Me?"]
+Observation 1: "Is It Just Me?" is a song by the American rock band KISS, released on their 1998 album *Psycho Circus*.. **Musical Style and Composition:**. The song is a power ballad, a departure from the more hard rock-oriented tracks typically found on KISS albums. It features a prominent acoustic guitar intro and a soaring, melodic chorus. The lyrics explore themes of doubt, insecurity, and the fear of being alone in one's feelings within a relationship..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[The Darkness (band)]
+Action 2: Search[The Darkness (band)]
+Observation 2: The Darkness are a British hard rock band formed in Lowestoft in 2000. The band consists of the Hawkins brothers Justin Hawkins (vocals, guitar) & Dan Hawkins (guitar), Frankie Poullain (bass) and Rufus Tiger Taylor (drums).. The Darkness came to prominence with the release of their debut album, Permission to Land, in 2003. Backed by the singles "I Believe in a Thing Called Love", "Growing on Me", "Get Your Hands off My Woman", and "Love Is Only a Feeling", the album was certified quadruple platinum in the United Kingdom, with sales of over 1.3 million.[1] In 2004 the band won three Brit Awards: Best British Group, Best British Rock Act, and Best British Album.[2] After extensive touring in support of their debut album, Poullain left the band in 2005, and was replaced by former guitar technician Richie Edwards. The band's second studio album, One Way Ticket to Hell...
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search["Is It Just Me? English rock band"]
+Action 2: Search["Is It Just Me? English rock band"]
+Observation 2: **The Darkness** are a British rock band formed in Lowestoft, Suffolk, in 2000. The band consists of Justin Hawkins (lead vocals, guitar), his brother Dan Hawkins (guitar), Frankie Poullain (bass), and Rufus Taylor (drums).. The Darkness rose to fame in the early 2000s with their distinctive blend of hard rock, glam rock, and heavy metal influences, characterized by soaring falsetto vocals, catchy guitar riffs, and.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Lowestoft]
+Action 3: Finish[Lowestoft]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Lowestoft]
+Action 3: Finish[Lowestoft]
+Observation 3: **The Darkness** are a British rock band formed in Lowestoft, Suffolk, in 2000. The band consists of Justin Hawkins (lead vocals, guitar), his brother Dan Hawkins (guitar), Frankie Poullain (bass), and Rufus Taylor (drums).. The Darkness rose to fame in the early 2000s with their distinctive blend of hard rock, glam rock, and heavy metal influences, characterized by soaring falsetto vocals, catchy guitar riffs, and.
+
+
+
+INFO {'steps': 5, 'answer': 'Lowestoft', 'gt_answer': 'Lowestoft', 'question_idx': 4213, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 9 
+Number of steps: 23 
+Average reward: 0.391304347826087 
+Average time 30.335584049639493
+
+-------------------------------------------------------
+

@@ -1,0 +1,53 @@
+INFO 7356 Question: Where is Anticimex's parent company headquartered?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Anticimex]
+Action 1: Search[Anticimex]
+Observation 1: Anticimex is an international modern pest control company. Anticimex means "Against bed bugs". Anticimex is mainly owned by EQT AB and have subsidiaries in 21 countries.[3]. Anticimex operates in the areas of pest control, building environments and hygiene.[4] Anticimex employs around 11000 people, serving 3 million customers worldwide. In 2020, combined sales amounted to approximately 8,5 billion kronor..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Anticimex]
+Action 1: Search[Anticimex]
+Observation 1: {{Infobox company. | name = Anticimex. | logo = [[File:Anticimex logo.svg|200px]]. | type = Private. | industry = Pest control, Hygiene, Building environment.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[EQT AB]
+Action 2: Search[EQT AB]
+Observation 2: EQT AB is a Swedish global investment organization founded in 1994. Its funds invest in private equity (EQT Private Capital Europe & North America), infrastructure (EQT Infrastructure), real estate (EQT Real Estate), growth equity, and venture capital in Europe, North America, and Asia Pacific. As of 2022[update], EQT's assets under management are €210 billion / US$227 billion. It is ranked the third largest private equity firm worldwide based on funds raised according to the 2024 edition of Private Equity International's PEI 300 ranking.. The company was founded in 1994 by SEB, AEA Investors, and Investor AB.[2][3][4] Conni Jonsson was founding chairman.[5].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[parent company]
+Action 2: Lookup[parent company]
+Observation 2: {{Infobox company. | name = EQT AB. | logo = [[File:EQT AB logo.svg|150px]]. | type = Public. | traded_as = {{unbulleted list|[[Nasdaq Stockholm]] (EQT)}}.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Sweden]
+Action 3: Finish[Sweden]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[headquartered]
+Action 3: Lookup[headquartered]
+Observation 3: {{Infobox company. | name = EQT AB. | logo = [[File:EQT AB logo.svg|150px]]. | type = Public. | traded_as = {{unbulleted list|[[Nasdaq Stockholm]] (EQT)}}.
+
+
+
+INFO {'steps': 5, 'answer': 'Sweden', 'gt_answer': 'EQT Plaza in Pittsburgh, Pennsylvania', 'question_idx': 7030, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 6 
+Number of steps: 10 
+Average reward: 0.6 
+Average time 33.07751579284668
+
+-------------------------------------------------------
+

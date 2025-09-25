@@ -1,0 +1,53 @@
+INFO 2885 Question: Linhai and Gongqingcheng are both what kinds of cities that are located in China?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Linhai]
+Action 1: Search[Linhai]
+Observation 1: Linhai (simplified Chinese: 临海; traditional Chinese: 臨海; pinyin: Línhǎi; Tai-chow dialect: Lin-he) is a county-level city in Taizhou, Zhejiang Province situated on the banks of the Lin River in Eastern China.. As of the 2020 census, its population was 1,114,146 inhabitants even though its built-up (or metro) area is much smaller.. Its Cathedral of the Sacred Heart of Jesus is the episcopal see of the Roman Catholic Diocese of Linhai.. Its wall attracts many tourists. Construction of the wall, originally over 6 kilometres (3.7 miles) long, began in the Jin Dynasty (266–420) and was not finished until the Sui (581–618) and Tang (618–907) Dynasties.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Linhai]
+Action 1: Search[Linhai]
+Observation 1: Linhai is a county-level city in Taizhou, Zhejiang Province, China. It is located on the banks of the Lin River, which flows into the East China Sea. Linhai has a long history, dating back over 2,000 years. The city is known for its ancient city wall, which was built during the Ming Dynasty and is a popular tourist attraction.. Linhai is an important cultural and historical center in Zhejiang Province, with many historical sites and.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Gongqingcheng]
+Action 2: Search[Gongqingcheng]
+Observation 2: Gongqingcheng (Chinese: 共青城; pinyin: Gòngqīngchéng) is a sub-prefecture-level city in Jiangxi, People's Republic of China. It was established on 10 September 2010 in the jurisdiction of Jiujiang. It is located 62 kilometres (39 mi) north of Nanchang, the provincial capital. On 1 July 2014, it was re-designated as being directly administered by the province, i.e. a sub-prefecture-level city.[1] Situated in the vicinity of De'an, Yongxiu, and Lushan counties, it lies in the foothills of Mount Lu and lies on the western shore of Poyang Lake.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Gongqingcheng]
+Action 2: Search[Gongqingcheng]
+Observation 2: Gongqingcheng is a county-level city under the jurisdiction of the city of Yichun in Jiangxi Province, China. It is located in the northeastern part of Jiangxi, bordering Anhui Province to the north. Gongqingcheng covers an area of approximately 2,200 square kilometers and has a population of around 400,000 residents.. The city is known for its rich history, with archaeological evidence suggesting human activity in the area dating back over 6,000 years..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[county-level city / sub-prefecture-level city]
+Action 3: Finish[county-level city / sub-prefecture-level city]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[county-level cities]
+Action 3: Finish[county-level cities]
+Observation 3: Gongqingcheng is a county-level city under the jurisdiction of the city of Yichun in Jiangxi Province, China. It is located in the northeastern part of Jiangxi, bordering Anhui Province to the north. Gongqingcheng covers an area of approximately 2,200 square kilometers and has a population of around 400,000 residents.. The city is known for its rich history, with archaeological evidence suggesting human activity in the area dating back over 6,000 years..
+
+
+
+INFO {'steps': 5, 'answer': 'county-level city / sub-prefecture-level city', 'gt_answer': 'county-level city', 'question_idx': 2805, 'reward': False, 'em': False, 'f1': 0.6666666666666666}
+
+INFO Sum of rewards: 4 
+Number of steps: 15 
+Average reward: 0.26666666666666666 
+Average time 15.641854921976725
+
+-------------------------------------------------------
+

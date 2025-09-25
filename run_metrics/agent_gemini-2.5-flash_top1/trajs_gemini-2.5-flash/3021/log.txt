@@ -1,0 +1,53 @@
+INFO 3021 Question: Both Hatter and March Hare are characters in which book?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Hatter]
+Action 1: Search[Hatter]
+Observation 1: Hat-making or millinery is the design, manufacture and sale of hats and other headwear.[1] A person engaged in this trade is called a milliner or hatter.. Historically, milliners made and sold a range of accessories for clothing and hairstyles.[2] In France, milliners are known as marchand(e)s de modes (fashion merchants), rather than being specifically associated with hat-making. In Britain, however, milliners were known to specialize in hats by the beginning of the Victorian period.[3]. The millinery industry benefited from industrialization during the 19th century.[4] In 1889, in London and Paris, over 8,000 women were employed in millinery, and in 1900 in New York, some 83,000 people, mostly women, were employed in millinery.[citation needed]Though the improvements in technology provided benefits to milliners and the whole industry, essential skills, craftsmanship, and creativity are still required. Since hats began to be mass-manufactured and sold as ready-to-wear in department stores, the term "milliner" is usually used to describe a person who applies traditional hand-craftsmanship to design, make, sell or trim hats primarily for a mostly female clientele..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Hatter]
+Action 1: Search[Hatter]
+Observation 1: **Hatter** may refer to:. *   **The Hatter (Alice's Adventures in Wonderland)**, a fictional character from Lewis Carroll's 1865 novel *Alice's Adventures in Wonderland*. He is often referred to as the "Mad Hatter" due to his eccentric behavior and the phrase "mad as a hatter," which was a common idiom in Carroll's time, referring to the mercury poisoning suffered by hat makers. He is a central figure in the ".
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Mad Hatter]
+Action 2: Search[Mad Hatter]
+Observation 2: The Hatter (called Hatta in Through the Looking-Glass) is a fictional character in Lewis Carroll's 1865 book Alice's Adventures in Wonderland and its 1871 sequel Through the Looking-Glass. He is often referred to as The Mad Hatter in the Pop Culture zeitgeist, though this term was never used by Carroll. The phrase "mad as a hatter" pre-dates Carroll's works. The Hatter and the March Hare are described as "both mad" by the Cheshire Cat, in Alice's Adventures in Wonderland in the sixth chapter titled "Pig and Pepper".. The Hatter character, alongside all the other fictional beings, first appears in Lewis Carroll's 1865 novel Alice's Adventures in Wonderland.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[March Hare]
+Action 2: Search[March Hare]
+Observation 2: The **Mad Hatter** is a fictional character appearing in Lewis Carroll's 1865 novel *Alice's Adventures in Wonderland* and its 1871 sequel *Through the Looking-Glass*. He is often referred to simply as "the Hatter" in the books.. ### Character Overview. The Hatter is depicted as a eccentric and somewhat unhinged individual who hosts an eternal tea party with the March Hare and the Dormouse. His most prominent characteristic is his bizarre and.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Alice's Adventures in Wonderland]
+Action 3: Finish[Alice's Adventures in Wonderland]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Alice's Adventures in Wonderland]
+Action 3: Finish[Alice's Adventures in Wonderland]
+Observation 3: The **Mad Hatter** is a fictional character appearing in Lewis Carroll's 1865 novel *Alice's Adventures in Wonderland* and its 1871 sequel *Through the Looking-Glass*. He is often referred to simply as "the Hatter" in the books.. ### Character Overview. The Hatter is depicted as a eccentric and somewhat unhinged individual who hosts an eternal tea party with the March Hare and the Dormouse. His most prominent characteristic is his bizarre and.
+
+
+
+INFO {'steps': 5, 'answer': "Alice's Adventures in Wonderland", 'gt_answer': "Alice's Adventures in Wonderland", 'question_idx': 2438, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 2 
+Number of steps: 14 
+Average reward: 0.14285714285714285 
+Average time 16.6223669222423
+
+-------------------------------------------------------
+

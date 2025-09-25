@@ -1,0 +1,53 @@
+INFO 3112 Question: What year did Francesca Caccini's father die?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Francesca Caccini's father]
+Action 1: Search[Francesca Caccini's father]
+Observation 1: Could not find Francesca Caccini's father. Similar: ['Francesca Caccini', 'Caccini', 'Giulio Caccini', 'Settimia Caccini', 'Galileo Galilei (redirect from Father of modern observational astronomy)'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Francesca Caccini]
+Action 1: Search[Francesca Caccini]
+Observation 1: Francesca Caccini's father was Giulio Caccini, an Italian composer, singer, and teacher. He was one of the most influential figures in the development of the early Baroque style of music. Giulio Caccini was born in 1551 in Italy and was known for his work in the genre of monody, a style of solo vocal music accompanied by simple instrumental accompaniment. He was also a member of the Florentine Camerata, a group.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Giulio Caccini]
+Action 2: Search[Giulio Caccini]
+Observation 2: Giulio Romolo Caccini (also Giulio Romano) (8 October 1551 – buried 10 December 1618) was an Italian composer, teacher, singer, instrumentalist and writer of the late Renaissance and early Baroque eras. He was one of the founders of the genre of opera, and one of the most influential creators of the new Baroque style. He was also the father of the composer Francesca Caccini and the singer Settimia Caccini.. Little is known about his early life, but he is thought to have been born in Rome, the son of the carpenter Michelangelo Caccini; he was the older brother of the Florentine sculptor Giovanni Caccini. In Rome he studied the lute, the viol and the harp, and began to acquire a reputation as a singer.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Giulio Caccini]
+Action 2: Search[Giulio Caccini]
+Observation 2: Giulio Caccini (8 October 1551 – 10 December 1618) was an Italian composer, singer, and teacher. He is known for his contributions to the development of the early Baroque style of music. Caccini was a prominent figure in the Florentine Camerata, a group of musicians, poets, and intellectuals who sought to revive the musical practices of ancient Greece. He is particularly famous for his composition "Amarilli, mia bella," a.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[1618]
+Action 3: Finish[1618]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[1618]
+Action 3: Finish[1618]
+Observation 3: Giulio Caccini (8 October 1551 – 10 December 1618) was an Italian composer, singer, and teacher. He is known for his contributions to the development of the early Baroque style of music. Caccini was a prominent figure in the Florentine Camerata, a group of musicians, poets, and intellectuals who sought to revive the musical practices of ancient Greece. He is particularly famous for his composition "Amarilli, mia bella," a.
+
+
+
+INFO {'steps': 5, 'answer': '1618', 'gt_answer': '1618', 'question_idx': 3034, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 10 
+Number of steps: 31 
+Average reward: 0.3225806451612903 
+Average time 26.31943484275572
+
+-------------------------------------------------------
+

@@ -3,6 +3,8 @@ import json
 import shutil
 import constants as Constants
 import re
+import pandas as pd
+import csv
 
 class Utils:
 
@@ -146,3 +148,44 @@ class Utils:
         except AssertionError as e:
             return True
         return False
+    
+    @staticmethod
+    def convert_json_to_csv(json_data):
+        # Convert the JSON data to a pandas DataFrame
+        df_dict = {}
+        df_dict["agent model"] = []
+        df_dict["guess model"] = []
+
+        for agent_model in json_data.keys():
+            for guess_model in json_data[agent_model].keys():
+                df_dict["agent model"].append(agent_model)
+                df_dict["guess model"].append(guess_model)
+                for key in json_data[agent_model][guess_model].keys():
+                    if key in df_dict.keys():
+                        df_dict[key].append(json_data[agent_model][guess_model][key])
+                    else:
+                        df_dict[key] = [json_data[agent_model][guess_model][key]]
+
+        df = pd.DataFrame.from_dict(df_dict)        
+        return df
+    
+    @staticmethod
+    def convert_json_to_csv2(json_path, csv_path):
+        json_data = Utils.read_json(json_path)
+        csv_dict = {}
+        for data in json_data:
+            for key in data.keys():
+                if key not in csv_dict.keys():
+                    csv_dict[key] = [data[key]]
+                else:
+                    csv_dict[key].append(data[key])
+
+        df = pd.DataFrame.from_dict(csv_dict)
+        df.to_csv(csv_path, index=False)
+
+    @staticmethod
+    def avg(my_list):
+        if len(my_list) == 0:
+            return None
+        return sum(my_list) / len(my_list)
+    

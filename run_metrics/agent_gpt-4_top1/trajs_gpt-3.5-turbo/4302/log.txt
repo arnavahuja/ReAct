@@ -1,0 +1,109 @@
+INFO 4302 Question: What book provided the foundation for Masters and Johnson's research team?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Masters and Johnson]
+Action 1: Search[Masters and Johnson]
+Observation 1: The Masters and Johnson research team, composed of William H. Masters (1915–2001) and Virginia E. Johnson (1925–2013), pioneered research into the nature of human sexual response and the diagnosis and treatment of sexual disorders and dysfunctions from 1957 until the 1990s.[1][2]. The work of Masters and Johnson began in the Department of Obstetrics and Gynecology at Washington University in St. Louis and was continued at the independent not-for-profit research institution they founded in St.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Masters and Johnson]
+Action 1: Search[Masters and Johnson]
+Observation 1: William H. Masters and Virginia E. Johnson were an American couple who were pioneers in the field of human sexuality research. They conducted groundbreaking research on human sexual response and behavior in the 1950s and 1960s. Their work laid the foundation for modern sex therapy and revolutionized the understanding of human sexuality..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Lookup[book]
+Action 2: Lookup[book]
+Observation 2: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[book]
+Action 2: Lookup[book]
+Observation 2: William H. Masters and Virginia E. Johnson were an American couple who were pioneers in the field of human sexuality research. They conducted groundbreaking research on human sexual response and behavior in the 1950s and 1960s. Their work laid the foundation for modern sex therapy and revolutionized the understanding of human sexuality..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Masters and Johnson research book]
+Action 3: Search[Masters and Johnson research book]
+Observation 3: Could not find Masters and Johnson research book. Similar: ['Masters and Johnson', 'Virginia E. Johnson', 'Masters and Johnson Institute', 'William Masters', 'Masters of Sex'].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Masters and Johnson biography]
+Action 3: Search[Masters and Johnson biography]
+Observation 3: The Masters and Johnson research book, titled "Human Sexual Response," was published in 1966. It was authored by William H. Masters and Virginia E. Johnson, who were pioneers in the field of human sexuality research. The book is considered a groundbreaking work in the study of human sexual behavior and physiology.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Human Sexual Response]
+Action 4: Search[Human Sexual Response]
+Observation 4: Could not find [Human Sexual Response]. Similar: ['Human sexual response cycle', 'Human sexual response', 'Masters and Johnson (redirect from Human Sexual Response (book))', 'Human sexuality', 'Human Sexual Response (band)'].
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[Human Sexual Response]
+Action 4: Finish[Human Sexual Response]
+Observation 4: Human Sexual Response is a model developed by William H. Masters and Virginia E. Johnson in the 1960s to describe the physiological processes that occur during sexual activity. The model consists of four phases: excitement, plateau, orgasm, and resolution. During the excitement phase, there is an increase in heart rate, blood pressure, and muscle tension as arousal builds.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[Masters and Johnson (redirect from Human Sexual Response (book))]
+Action 5: Search[Masters and Johnson (redirect from Human Sexual Response (book))]
+Observation 5: Could not find Masters and Johnson (redirect from Human Sexual Response (book)). Similar: ['Sexual addiction', 'Sexual script theory', 'Treatment of slaves in the United States (redirect from Sexual abuse of slaves in the United States)', 'Christian views on masturbation (redirect from Christianity and masturbation)', 'Masturbation (redirect from Wank (sexual act))'].
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Finish[Human Sexual Response]
+Action 5: Finish[Human Sexual Response]
+Observation 5: Masters and Johnson were a pioneering research team in the field of human sexuality. William H. Masters, a gynecologist, and Virginia E. Johnson, a psychologist, conducted groundbreaking research on human sexual response and behavior in the 1960s and 1970s. Their work culminated in the publication of the book "Human Sexual Response" in 1966, which detailed the physiological and psychological aspects of sexual arousal and orgasm..
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Lookup[foundation for their research]
+Action 6: Lookup[foundation for their research]
+Observation 6: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Finish["Human Sexual Response"]
+Action 6: Finish["Human Sexual Response"]
+Observation 6: Masters and Johnson were a pioneering research team in the field of human sexuality. William H. Masters, a gynecologist, and Virginia E. Johnson, a psychologist, conducted groundbreaking research on human sexual response and behavior in the 1960s and 1970s. Their work culminated in the publication of the book "Human Sexual Response" in 1966, which detailed the physiological and psychological aspects of sexual arousal and orgasm..
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Search[Masters and Johnson's book]
+Action 7: Search[Masters and Johnson's book]
+Observation 7: Could not find Masters and Johnson's book. Similar: ['Masters and Johnson', 'Master of the Senate', 'Masters of Sex (book)', 'Masters of Sex', 'Virginia E. Johnson'].
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Finish["Human Sexual Response"]
+Action 7: Finish["Human Sexual Response"]
+Observation 7: Masters and Johnson were a pioneering research team in the field of human sexuality. Their groundbreaking work laid the foundation for modern sex therapy and research. In 1966, they published their seminal book, "Human Sexual Response," which detailed their research findings on the physiological responses of men and women during sexual activity. The book was a landmark in the field of sexology and is considered a classic in the study of human sexuality. Masters and Johnson's research and writings have had a lasting impact on our understanding.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'Patterns of Sexual Behavior', 'question_idx': 442, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 15 
+Number of steps: 44 
+Average reward: 0.3409090909090909 
+Average time 25.55790436809713
+
+-------------------------------------------------------
+

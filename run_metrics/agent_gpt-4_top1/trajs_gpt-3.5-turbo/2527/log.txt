@@ -1,0 +1,39 @@
+INFO 2527 Question: Which mechanical device which engages and disengages power transmission  uses brake fluid?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Brake fluid]
+Action 1: Search[Brake fluid]
+Observation 1: Brake fluid is a type of hydraulic fluid used in hydraulic brake and hydraulic clutch applications in automobiles, motorcycles, light trucks, and some bicycles. It is used to transfer force into pressure, and to amplify braking force. It works because liquids are not appreciably compressible.. Most brake fluids used today are glycol-ether based, but mineral oil (Citroën/Rolls-Royce liquide hydraulique minéral (LHM)) and silicone-based (DOT 5) fluids are also available.[1]. The origins of modern braking systems date back to 1917, when Scotsman Malcolm Lockheed patented a hydraulic actuated braking system.[2][3] Initially, vegetable oil was used as a working fluid.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Brake fluid]
+Action 1: Search[Brake fluid]
+Observation 1: Brake fluid is a type of hydraulic fluid used in hydraulic brake and hydraulic clutch applications in vehicles. It works by transferring force into pressure, and it is essential for the proper functioning of a vehicle's braking system. Brake fluid is typically glycol-ether based, but there are also silicone-based and mineral oil-based fluids available. It is important to use the correct type of brake fluid specified by the vehicle manufacturer to ensure optimal performance and safety. Brake fluid is hygroscopic, meaning it absorbs moisture.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[Hydraulic clutch]
+Action 2: Finish[Hydraulic clutch]
+Observation 2: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Hydraulic brake]
+Action 2: Search[Hydraulic brake]
+Observation 2: Brake fluid is a type of hydraulic fluid used in hydraulic brake and hydraulic clutch applications in vehicles. It works by transferring force into pressure, and it is essential for the proper functioning of a vehicle's braking system. Brake fluid is typically glycol-ether based, but there are also silicone-based and mineral oil-based fluids available. It is important to use the correct type of brake fluid specified by the vehicle manufacturer to ensure optimal performance and safety. Brake fluid is hygroscopic, meaning it absorbs moisture.
+
+
+
+INFO {'steps': 3, 'answer': 'Hydraulic clutch', 'gt_answer': 'hydraulic clutch', 'question_idx': 3295, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 10 
+Number of steps: 20 
+Average reward: 0.5 
+Average time 31.726225101947783
+
+-------------------------------------------------------
+

@@ -1,0 +1,39 @@
+INFO 3954 Question: Carl von Donop was a colonel of which German auxiliaries?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Carl von Donop]
+Action 1: Search[Carl von Donop]
+Observation 1: Count Carl Emil Ulrich von Donop (January 1, 1732[1] – October 25, 1777) was a Hessian colonel who fought in the American Revolutionary War. He died of wounds during the Battle of Red Bank.. The son of a noble family of Hesse-Kassel (or Hesse-Cassel), Donop was well connected in the European courts and served as personal adjutant to the Landgrave of Hesse-Kassel. He served with distinction in the Seven Years' War.[1]  When the American Revolutionary War began, Donop asked for leave to fight against the revolutionaries. The Landgrave appointed him to command four battalions of grenadiers and the prestigious Jäger Corps.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Carl von Donop]
+Action 1: Search[Carl von Donop]
+Observation 1: Carl von Donop (1732 – 1788) was a Hessian colonel who served as a commander in the British Army during the American Revolutionary War. He was born in Hesse-Kassel, Germany, and began his military career in the service of the Landgraviate of Hesse-Kassel. In 1776, he was sent to North America with Hessian troops to support the British war effort against the American colonies.. Von Donop is best known for his role.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[Hessian auxiliaries]
+Action 2: Finish[Hessian auxiliaries]
+Observation 2: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Hessian]
+Action 2: Search[Hessian]
+Observation 2: Carl von Donop (1732 – 1788) was a Hessian colonel who served as a commander in the British Army during the American Revolutionary War. He was born in Hesse-Kassel, Germany, and began his military career in the service of the Landgraviate of Hesse-Kassel. In 1776, he was sent to North America with Hessian troops to support the British war effort against the American colonies.. Von Donop is best known for his role.
+
+
+
+INFO {'steps': 3, 'answer': 'Hessian auxiliaries', 'gt_answer': 'Hessians', 'question_idx': 660, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 11 
+Number of steps: 33 
+Average reward: 0.3333333333333333 
+Average time 25.332320220542677
+
+-------------------------------------------------------
+

@@ -1,0 +1,109 @@
+INFO 2316 Question: Which South African born singer featured the musical revue "Sigh No More"?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search["Sigh No More"]
+Action 1: Search["Sigh No More"]
+Observation 1: Could not find ["Sigh No More"]. Similar: ['Bracket', 'Mumford & Sons (section Sigh No More (2009–2012))', 'Sigh No More (Mumford & Sons album)', 'Sigh No More (Gamma Ray album)', 'Sigh No More (musical)'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search["Sigh No More"]
+Action 1: Search["Sigh No More"]
+Observation 1: **Sigh No More** may refer to:. *   **"Sigh No More, Ladies"**: A song from William Shakespeare's play *Much Ado About Nothing*. It is sung by Balthasar in Act II, Scene III. The lyrics are a reflection on the fickleness of men and the resilience of women.. *   **"Sigh No More" (album)**: The debut studio album by British folk rock band Mumford & Sons, released on.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search["Sigh No More (musical)"]
+Action 2: Search["Sigh No More (musical)"]
+Observation 2: Sigh No More is a musical revue consisting of twenty-two scenes and numbers composed, written and produced by Noël Coward, with additional items by Joyce Grenfell, Richard Addinsell and Norman Hackforth.[1] The show was Coward's first post-World War II musical and starred Cyril Ritchard, his wife Madge Elliott and Joyce Grenfell. It also featured Graham Payn, Coward's longtime partner, who sang the best-known song in the show, the wistful "Matelot".[1]. It opened at the Manchester Opera House on 11 July 1945, before transferring to London's West End, where it opened at the Piccadilly Theatre on 22 August 1945, running for 213 performances and closing on 23 February 1946.[1][2][3]  Despite its indifferent success, it contained songs that endured in Coward's later cabaret act and elsewhere.[4]. The Times singled out for praise the songs "Nina", about a South American beauty who hates Latin American dancing and falls in love with a sailor with a wooden leg; "I Wonder What Happened to Him?", in which army officers reminisce about colleagues in India; "The Burchells of Battersea Rise", about suburban life; and "That is the End of the News". In the last, Grenfell was "the insanely cheerful schoolgirl greeting each fresh family misfortune with an ecstatic grin".[5] The Manchester Guardian also praised Coward's song "Matelot", sung by Graham Payn; the title song, "Sigh No More", sung by Ritchard; "Old Soldiers Never Die" sung by Cliff Gordon; "Willy", in which troupes of good and bad angels strive vigorously for the direction of a small boy’s future life; and a Blithe Spirit ballet.[1] Ivor Brown in The Observer thought that the ballet could have been dropped, but praised the rest of the show.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[South African singers]
+Action 2: Search[South African singers]
+Observation 2: **Sigh No More** is a musical with music and lyrics by Noël Coward. The show premiered in London's West End at the Piccadilly Theatre on August 2, 1945, and ran for 213 performances. It was a revue, a popular form of entertainment during the mid-20th century, consisting of a series of sketches, songs, and dances, often with a satirical or humorous tone.. **Background:**. * **Music and Lyrics.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Lookup[South African]
+Action 3: Lookup[South African]
+Observation 3: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[South African]
+Action 3: Lookup[South African]
+Observation 3: **Sigh No More** is a musical with music and lyrics by Noël Coward. The show premiered in London's West End at the Piccadilly Theatre on August 2, 1945, and ran for 213 performances. It was a revue, a popular form of entertainment during the mid-20th century, consisting of a series of sketches, songs, and dances, often with a satirical or humorous tone.. **Background:**. * **Music and Lyrics.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[South African singers]
+Action 4: Search[South African singers]
+Observation 4: Could not find South African singers. Similar: ['Tyla (redirect from Tyla (South African singer))', 'List of South Africans', 'White South Africans', 'List of Afrikaans singers', 'List of South African musicians'].
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[South African singers in Sigh No More]
+Action 4: Search[South African singers in Sigh No More]
+Observation 4: South Africa has a rich and diverse musical landscape, producing a multitude of talented singers across various genres. Here's a look at some notable South African vocalists, encompassing those with extensive Wikipedia entries and others who are significant figures in the local music scene:. **Miriam Makeba (1932-2008)**. *   **Known As:** "Mama Africa," "The Empress of African Song". *   **Genre:** Afropop, Jazz, World Music.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search["Sigh No More cast"]
+Action 5: Search["Sigh No More cast"]
+Observation 5: There were no results matching the query.. The pages "Sigh No More cast" and '"Sigh No More cast"' do not exist. You can create a draft and submit it for review or request that a redirect be created.. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us. HelpLearn to editCommunity portalRecent changesUpload fileSpecial pages.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Search[Graham Payn]
+Action 5: Search[Graham Payn]
+Observation 5: The 1993 film *Sigh No More* is a British romantic comedy-drama based on William Shakespeare's play *Much Ado About Nothing*. The film was directed by Kenneth Branagh, who also starred in the film. The cast featured a mix of established and emerging British and American actors.. Here is a list of the main cast members and their roles:. *   **Kenneth Branagh** as **Benedick**: A witty and cynical nobleman, who initially dis.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Search[Graham Payn]
+Action 6: Search[Graham Payn]
+Observation 6: Graham Payn (25 April 1918 – 4 November 2005) was a South African-born English actor and singer, also known for being the life partner of the playwright Noël Coward. Beginning as a boy soprano, Payn later made a career as a singer and actor in the works of Coward and others. After Coward's death, Payn ran the Coward estate for 22 years.. Payn was born in Pietermaritzburg, South Africa, the son of Francis Dawney Payn and his wife, Sybil, née Graham.[1][2] He was educated in South Africa and, after his parents divorced, in England.. Payn made his first stage appearance, aged 13, at the London Palladium, as Curly in Peter Pan.[3] In October 1931, he broadcast as a boy soprano on the BBC in a programme featuring Derek Oldham and Mabel Constanduros,[4] and made further broadcasts in 1932 and 1933.[5].
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Search[South African born singer in Sigh No More]
+Action 6: Search[South African born singer in Sigh No More]
+Observation 6: **Graham Payn (1918–2005)** was a British actor, singer, and dancer, best known for his long-term personal and professional relationship with Noël Coward.. **Early Life and Career:**. Born in Pietermaritzburg, South Africa, on April 25, 1918, Payn moved to England at a young age. He began his career as a child actor, appearing in films such as *The Private Life.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Finish[Graham Payn]
+Action 7: Finish[Graham Payn]
+Observation 7: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Finish[Graham Payn]
+Action 7: Finish[Graham Payn]
+Observation 7: **Graham Payn (1918–2005)** was a British actor, singer, and dancer, best known for his long-term personal and professional relationship with Noël Coward.. **Early Life and Career:**. Born in Pietermaritzburg, South Africa, on April 25, 1918, Payn moved to England at a young age. He began his career as a child actor, appearing in films such as *The Private Life.
+
+
+
+INFO {'steps': 13, 'answer': 'Graham Payn', 'gt_answer': 'Graham Payn', 'question_idx': 4260, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 5 
+Number of steps: 7 
+Average reward: 0.7142857142857143 
+Average time 34.87862011364528
+
+-------------------------------------------------------
+

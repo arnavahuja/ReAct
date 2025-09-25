@@ -1,0 +1,53 @@
+INFO 2038 Question: What is the war that No. 22 Squadron RAAF followed as far as the Philippines sometimes called?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to search the No. 22 Squadron RAAF page to find the line about following the war to the Philippines and see what the war is sometimes called.
+Action 1: Search[No. 22 Squadron RAAF]
+Observation 1: No. 22 (City of Sydney) Squadron is a Royal Australian Air Force (RAAF) mixed Permanent and Reserve squadron that provides support for the RAAF in the Sydney region. Formed in 1936, the squadron served in Papua New Guinea during the Second World War, and later followed the Pacific War as far as the Philippines. Following the war, the squadron was re-formed in 1948 but was converted to a non-flying support role in mid-1960. It is currently based at RAAF Base Richmond, New South Wales..
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to search for No. 22 Squadron RAAF to find mention of the war they followed to the Philippines and what it is sometimes called.
+Action 1: Search[No. 22 Squadron RAAF]
+Observation 1: **No. 22 Squadron RAAF**. No. 22 Squadron is a former Royal Australian Air Force (RAAF) squadron. It was formed in 1936 as a Citizen Air Force squadron, operating as a bomber unit..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The passage mentions the Pacific War; I should look up the Pacific War to see what it is sometimes called.
+Action 2: Search[Pacific War]
+Observation 2: Allied occupation of Japan. Second Sino-Japanese War. Mediterranean and Middle East. The Pacific War, sometimes called the Asia–Pacific War or the Pacific Theater,[37] was the theater of World War II fought between the Empire of Japan and the Allies in East and Southeast Asia, the Pacific and Indian Oceans, and Oceania. It was geographically the largest theater of the war, including the Pacific Ocean theater, the South West Pacific theater, the Second Sino-Japanese War, and the brief Soviet–Japanese War, and included some of the largest naval battles in history.
+
+SIMULATION TRAJECTORY:
+ Thought 2: The first paragraph doesn't mention the Philippines. I should look for the sentence in the article that contains "Philippines" to identify how the war is referred to.
+Action 2: Lookup[Philippines]
+Observation 2: The Pacific War, also known as the Asia-Pacific War, was the theater of World War II that was fought between the Allies and the Empire of Japan. It spanned the Pacific Ocean, its islands, and East Asia. The war began on July 7, 1937, with the Second Sino-Japanese War, and officially ended on September 2, 1945, with Japan's surrender.. **Key belligerents:**. *   **Allies:**.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: From the Pacific War article, it is sometimes called the Asia–Pacific War or the Pacific Theater, so I can answer now.
+Action 3: Finish[the Asia–Pacific War or the Pacific Theater]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: The Pacific War is sometimes called the Asia-Pacific War, so the answer is Asia-Pacific War.
+Action 3: Finish[Asia-Pacific War]
+Observation 3: The Pacific War, also known as the Asia-Pacific War, was the theater of World War II that was fought between the Allies and the Empire of Japan. It spanned the Pacific Ocean, its islands, and East Asia. The war began on July 7, 1937, with the Second Sino-Japanese War, and officially ended on September 2, 1945, with Japan's surrender.. **Key belligerents:**. *   **Allies:**.
+
+
+
+INFO {'steps': 5, 'answer': 'the Asia–Pacific War or the Pacific Theater', 'gt_answer': 'the Asia-Pacific War', 'question_idx': 5034, 'reward': False, 'em': False, 'f1': 0.28571428571428575}
+
+INFO Sum of rewards: 1 
+Number of steps: 5 
+Average reward: 0.2 
+Average time 171.83624539375305
+
+-------------------------------------------------------
+

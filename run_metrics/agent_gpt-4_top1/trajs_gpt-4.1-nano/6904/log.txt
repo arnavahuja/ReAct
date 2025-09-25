@@ -1,0 +1,53 @@
+INFO 6904 Question: How many books are in the text composed by the founder Nyaya school of Hindu philosophy and is used in the development of Indian logic?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Nyaya school of Hindu philosophy]
+Action 1: Search[Nyaya school of Hindu philosophy]
+Observation 1: Could not find Nyaya school of Hindu philosophy. Similar: ['Nyāya Sūtras', 'Nyaya', 'Kaṇāda (redirect from Canada (Hindu philosophy))', 'Hindu philosophy', 'List of philosophies'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Nyaya school of Hindu philosophy]
+Action 1: Search[Nyaya school of Hindu philosophy]
+Observation 1: Nyaya is one of the six classical schools of Hindu philosophy, primarily focused on logic, epistemology, and the methodology of gaining valid knowledge (pramana). The Nyaya school emphasizes the importance of logical reasoning and debate as means to attain true knowledge and understand reality.. Historical Background:. The Nyaya school is believed to have been founded by the sage Gautama, also known as Akṣapāda, around the 2nd century BCE. It is considered one of the oldest philosophical systems in India.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Nyāya Sūtras]
+Action 2: Search[Nyāya Sūtras]
+Observation 2: The Nyāya Sūtras is an ancient Indian Sanskrit text composed by Akṣapāda Gautama, and the foundational text of the Nyaya school of Hindu philosophy.[1][2] The date when the text was composed, and the biography of its author is unknown, but variously estimated between 6th-century BCE and 2nd-century CE.[3][4] The text may have been composed by more than one author, over a period of time.[3] The text consists of five books, with two chapters in each book, with a cumulative total of 528 aphoristic sutras, about rules of reason, logic, epistemology and metaphysics.[5][6][7]. The Nyāya Sūtras is a Hindu text,[note 1] notable for focusing on knowledge and logic, and making no mention of Vedic rituals.[9] The first book is structured as a general introduction and table of contents of sixteen categories of knowledge.[3] Book two is about pramana (epistemology), book three is about prameya or the objects of knowledge, and the text discusses the nature of knowledge in remaining books.[3] It set the foundation for Nyaya tradition of the empirical theory of validity and truth, opposing uncritical appeals to intuition or scriptural authority.[10]. The Nyaya sutras cover a wide range of topics, including Tarka-Vidyā, the science of debate or Vāda-Vidyā, the science of discussion.[11] The Nyāya Sutras are related to but extend the Vaiśeṣika epistemological and metaphysical system.[12] Later commentaries expanded, expounded and discussed Nyaya sutras, the earlier surviving commentaries being by Pakṣilasvāmin Vātsyāyana (5th–6th century CE), followed by the Nyāyavārttika of Uddyotakāra (6th–7th century CE), Vācaspati Miśra's Tātparyatīkā (9th century CE), Udayana's Tātparyapariśuddhi (10th century CE), and Jayanta's Nyāyamañjarī (10th century CE).[13][14][15]. Hundred Schools of Thought. liberalism and Marxism.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Gautama Nyaya]
+Action 2: Search[Gautama Nyaya]
+Observation 2: Nyāya Sūtras are a foundational text of the Nyāya school of Indian philosophy, traditionally attributed to the sage Gautama (also known as Akṣapāda Gautama). Composed around the 2nd century BCE, the Nyāya Sūtras serve as a systematic framework for logic, epistemology, and methodology of reasoning.. The text consists of concise aphorisms (sūtras) that outline the principles of valid knowledge (pramāṇa), the means of.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[five]
+Action 3: Finish[five]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[books]
+Action 3: Lookup[books]
+Observation 3: Nyāya Sūtras are a foundational text of the Nyāya school of Indian philosophy, traditionally attributed to the sage Gautama (also known as Akṣapāda Gautama). Composed around the 2nd century BCE, the Nyāya Sūtras serve as a systematic framework for logic, epistemology, and methodology of reasoning.. The text consists of concise aphorisms (sūtras) that outline the principles of valid knowledge (pramāṇa), the means of.
+
+
+
+INFO {'steps': 5, 'answer': 'five', 'gt_answer': 'five books', 'question_idx': 4596, 'reward': False, 'em': False, 'f1': 0.6666666666666666}
+
+INFO Sum of rewards: 1 
+Number of steps: 4 
+Average reward: 0.25 
+Average time 21.72262954711914
+
+-------------------------------------------------------
+

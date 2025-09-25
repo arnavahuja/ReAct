@@ -1,0 +1,95 @@
+INFO 6157 Question: When did Henrietta Ponsonby's father die?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Henrietta Ponsonby]
+Action 1: Search[Henrietta Ponsonby]
+Observation 1: Could not find Henrietta Ponsonby. Similar: ['Henrietta Ponsonby, Countess of Bessborough', 'John Ponsonby, 4th Earl of Bessborough', 'Ponsonby', 'Harriet Osborne, Baroness Godolphin', 'John Spencer, 1st Earl Spencer'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Henrietta Ponsonby]
+Action 1: Search[Henrietta Ponsonby]
+Observation 1: I'm sorry, but I cannot provide verbatim text from Wikipedia. However, I can provide you with a brief summary of Henrietta Ponsonby if you would like. Let me know if you would like me to do that..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search['Henrietta Ponsonby, Countess of Bessborough']
+Action 2: Search['Henrietta Ponsonby, Countess of Bessborough']
+Observation 2: Could not find 'Henrietta Ponsonby, Countess of Bessborough'. Similar: ['Henrietta Ponsonby, Countess of Bessborough', 'John Ponsonby, 4th Earl of Bessborough', 'Ponsonby', 'Harriet Osborne, Baroness Godolphin', 'Georgiana Spencer, Countess Spencer'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[father]
+Action 2: Lookup[father]
+Observation 2: Henrietta Frances Spencer, Countess of Bessborough (née Ponsonby; 16 June 1761 – 11 November 1821) was an English noblewoman and society hostess. She was the wife of Frederick Ponsonby, 3rd Earl of Bessborough, and known for her wit, beauty, and intelligence. Lady Bessborough was a prominent figure in London society during the late 18th and early 19th centuries, and she was.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search['John Ponsonby, 4th Earl of Bessborough']
+Action 3: Search['John Ponsonby, 4th Earl of Bessborough']
+Observation 3: Could not find 'John Ponsonby, 4th Earl of Bessborough'. Similar: ['John Ponsonby, 4th Earl of Bessborough', 'Vere Ponsonby, 9th Earl of Bessborough', 'Earl of Bessborough', 'Frederick Ponsonby, 6th Earl of Bessborough', 'Frederick Ponsonby, 3rd Earl of Bessborough'].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[father]
+Action 3: Lookup[father]
+Observation 3: John William Ponsonby, 4th Earl of Bessborough (1781–1847) was an Anglo-Irish peer and politician. He served as a Member of Parliament in the United Kingdom and held various government positions, including Lord Lieutenant of Ireland. Ponsonby was known for his liberal views and support for Catholic emancipation. He was also a prominent figure in the Whig Party during the early 19th century. In addition to his political career, he was a noted art.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Henrietta Ponsonby, Countess of Bessborough]
+Action 4: Search[Henrietta Ponsonby, Countess of Bessborough]
+Observation 4: Henrietta Ponsonby, Countess of Bessborough (16 June 1761 – 11 November 1821), born Lady Henrietta Frances Spencer (generally called Harriet), was the wife of Frederick Ponsonby, 3rd Earl of Bessborough; the couple were the parents of Lady Caroline Lamb. Her father, John Spencer, 1st Earl Spencer, was a great-grandson of John Churchill, 1st Duke of Marlborough. Her sister was Georgiana Cavendish, Duchess of Devonshire.. Being the youngest child, Harriet was often left in England, where her parents and elder sister Georgiana would visit the continent for her father's health. As a child, Harriet was frail and sickly, which led her mother, Lady Spencer, Georgiana Spencer, Countess Spencer, to send her abroad for schooling, thinking that foreign air would help strengthen her.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[died]
+Action 4: Lookup[died]
+Observation 4: Henrietta Ponsonby, Countess of Bessborough (née Lady Henrietta Frances Spencer; 16 June 1761 – 11 November 1821) was an English noblewoman and society hostess. She was the wife of Frederick Ponsonby, 3rd Earl of Bessborough, and known for her beauty, wit, and intelligence. Lady Bessborough was a prominent figure in London society during the late 18th and early 19th centuries,.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[John Spencer, 1st Earl Spencer]
+Action 5: Search[John Spencer, 1st Earl Spencer]
+Observation 5: John Spencer, 1st Earl Spencer (19 December 1734 – 31 October 1783), styled Viscount Spencer from 1761–5, was a British peer and politician.. Spencer was born on 19 December 1734 at Althorp, his family's home in Northamptonshire. He was the only son of the Hon. John Spencer and the former Georgiana Caroline Carteret. His only sibling was his sister, Diana Spencer, who died at 8 years old.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Lookup['father']
+Action 5: Lookup['father']
+Observation 5: John Spencer, 1st Earl Spencer (1734–1783) was a British nobleman and politician. He was born on 19 December 1734 and was the son of John Spencer, 1st Earl Spencer and Lady Georgiana Caroline Carteret. He served as a Member of Parliament for Woodstock and was later created the 1st Earl Spencer in 1765. Earl Spencer was known for his support of the Whig party and his contributions to the political landscape of his.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Finish[31 October 1783]
+Action 6: Finish[31 October 1783]
+Observation 6: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Finish[1783]
+Action 6: Finish[1783]
+Observation 6: John Spencer, 1st Earl Spencer (1734–1783) was a British nobleman and politician. He was born on 19 December 1734 and was the son of John Spencer, 1st Earl Spencer and Lady Georgiana Caroline Carteret. He served as a Member of Parliament for Woodstock and was later created the 1st Earl Spencer in 1765. Earl Spencer was known for his support of the Whig party and his contributions to the political landscape of his.
+
+
+
+INFO {'steps': 11, 'answer': '31 October 1783', 'gt_answer': '31 October 1783', 'question_idx': 5240, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 7 
+Number of steps: 26 
+Average reward: 0.2692307692307692 
+Average time 26.789921613839958
+
+-------------------------------------------------------
+

@@ -1,0 +1,109 @@
+INFO 3021 Question: When "Good Night" was aired on "The Simpsons 138th Epsiode Spectacular," which actress did the voice of the character named after Matt Groening's mother?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search["Good Night" (The Simpsons)]
+Action 1: Search["Good Night" (The Simpsons)]
+Observation 1: Could not find "Good Night" (The Simpsons). Similar: ['Good Night (The Simpsons)', 'The Simpsons shorts', 'Maggie Simpson', 'List of The Simpsons characters', 'Marge Simpson'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search["Good Night" (The Simpsons)]
+Action 1: Search["Good Night" (The Simpsons)]
+Observation 1: "Good Night" is the first episode of the animated television series The Simpsons. It originally aired on the Fox network in the United States on December 17, 1989. The episode was written by series creator Matt Groening and directed by David Silverman. In the episode, the Simpson family gathers to watch a television show, but Bart and Lisa are sent to bed early. Before going to sleep, Bart steals Homer's beer and watches a horror movie on TV.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search["The Simpsons 138th Episode Spectacular"]
+Action 2: Search["The Simpsons 138th Episode Spectacular"]
+Observation 2: "The Simpsons 138th Episode Spectacular" is the tenth episode of the seventh season of the American animated television series The Simpsons. It originally aired on Fox in the United States on December 3, 1995. As the title suggests, it is the 138th episode and the third clip show episode of The Simpsons, after "So It's Come to This: A Simpsons Clip Show" and "Another Simpsons Clip Show".. While the "138th Episode Spectacular" compiles sequences from episodes throughout the entire series like the previous two, it also shows clips from the original Simpsons shorts from The Tracey Ullman Show and other previously unaired material. Like the Halloween specials, the episode is considered non-canon and falls outside of the show's regular continuity.[1].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Marge Simpson]
+Action 2: Search[Marge Simpson]
+Observation 2: "The Simpsons 138th Episode Spectacular" is a special episode of the animated television series "The Simpsons." It originally aired on December 3, 1995, as the 10th episode of the seventh season. The episode features clips from previous episodes, behind-the-scenes footage, and a countdown of the top 10 episodes as chosen by fans. It is hosted by Troy McClure, a fictional character voiced by Phil Hartman. The special provides a humorous look back at the first.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Matt Groening's mother]
+Action 3: Search[Matt Groening's mother]
+Observation 3: Could not find Matt Groening's mother. Similar: ['Matt Groening', 'Homer Groening', 'Life in Hell (category Works by Matt Groening)', 'Chief Wiggum (category Characters created by Matt Groening)', 'The Simpsons (category Television series created by Matt Groening)'].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Matt Groening's mother]
+Action 3: Search[Matt Groening's mother]
+Observation 3: Unfortunately, I am unable to provide specific information about Matt Groening's mother as it is not available in the provided format..
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Matt Groening]
+Action 4: Search[Matt Groening]
+Observation 4: Matthew Abram Groening (/ˈɡreɪnɪŋ/ GRAY-ning; born February 15, 1954) is an American cartoonist, writer, producer, and animator. He is best known as the creator of the television series The Simpsons (1989–present), Futurama (1999–2003, 2008–2013, 2023–present),[1] and Disenchantment (2018–2023), and the comic strip Life in Hell (1977–2012). The Simpsons is the longest-running American primetime television series in history, as well as the longest-running American animated series and sitcom.. Born in Portland, Oregon, Groening made his first professional cartoon sale of Life in Hell to the avant-garde magazine Wet in 1978. At its peak, it was carried in 250 weekly newspapers and caught the attention of American producer James L.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[Marge Simpson]
+Action 4: Search[Marge Simpson]
+Observation 4: Matt Groening is an American cartoonist, writer, producer, and animator. He is best known as the creator of the animated television series "The Simpsons," which premiered in 1989 and has become one of the longest-running and most successful television shows in history. Groening also created the animated series "Futurama" and the Netflix series "Disenchantment." Born on February 15, 1954, in Portland, Oregon, Groening has won numerous awards for his work.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Lookup[Mother]
+Action 5: Lookup[Mother]
+Observation 5: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Lookup[mother]
+Action 5: Lookup[mother]
+Observation 5: Matt Groening is an American cartoonist, writer, producer, and animator. He is best known as the creator of the animated television series "The Simpsons," which premiered in 1989 and has become one of the longest-running and most successful television shows in history. Groening also created the animated series "Futurama" and the Netflix series "Disenchantment." Born on February 15, 1954, in Portland, Oregon, Groening has won numerous awards for his work.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Search[Marge Simpson]
+Action 6: Search[Marge Simpson]
+Observation 6: Marjorie Jacqueline "Marge" Simpson [1] (née Bouvier) is one of the main characters in the American animated sitcom The Simpsons and part of the eponymous family. Voiced by Julie Kavner,[2] she first appeared on television in The Tracey Ullman Show short "Good Night" on April 19, 1987. Marge was created and designed by cartoonist Matt Groening while he was waiting in the lobby of James L. Brooks' office. Groening had been called to pitch a series of shorts based on Life in Hell but instead decided to create a new set of characters.
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Search[Matt Groening mother]
+Action 6: Search[Matt Groening mother]
+Observation 6: Marge Simpson is a fictional character in the animated television series "The Simpsons." She is voiced by actress Julie Kavner and first appeared on television in 1987. Marge is the matriarch of the Simpson family, which also includes her husband Homer and their three children, Bart, Lisa, and Maggie. She is known for her distinctive blue beehive hairstyle and her role as a homemaker and mother.. Marge is depicted as a caring and nurturing figure, often serving as.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Finish[Julie Kavner]
+Action 7: Finish[Julie Kavner]
+Observation 7: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Finish[Julie Kavner]
+Action 7: Finish[Julie Kavner]
+Observation 7: Marge Simpson is a fictional character in the animated television series "The Simpsons." She is voiced by actress Julie Kavner and first appeared on television in 1987. Marge is the matriarch of the Simpson family, which also includes her husband Homer and their three children, Bart, Lisa, and Maggie. She is known for her distinctive blue beehive hairstyle and her role as a homemaker and mother.. Marge is depicted as a caring and nurturing figure, often serving as.
+
+
+
+INFO {'steps': 13, 'answer': 'Julie Kavner', 'gt_answer': 'Julie Kavner', 'question_idx': 4474, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 8 
+Number of steps: 14 
+Average reward: 0.5714285714285714 
+Average time 32.17562421730587
+
+-------------------------------------------------------
+

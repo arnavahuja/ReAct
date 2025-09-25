@@ -1,0 +1,61 @@
+INFO 6904 Question: "I Wed Three Wives" is an episode of a television series that ran on what network?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to search "I Wed Three Wives" to find out which television network aired this episode.
+Action 1: [Search["I Wed Three Wives"]] 
+        Action 1: Search["I Wed Three Wives"]
+        Observation 1: The following is a list of episodes for the Hawaiian Eye detective series. The American television series ran on the American Broadcasting Company 1959–1963.[1]. Private investigator Tracy Steele (Anthony Eisley) and his half-Hawaiian partner, Tom Lopaka (Robert Conrad), own Hawaiian Eye, a combination detective agency and private security firm, located in Honolulu, Hawaii. Their principal client is the Hawaiian Village Hotel, which in exchange for security services, provides the agency with a luxurious private compound on the hotel grounds.[1]. The partners investigate mysteries and protect clients with the sometime help of photographer Cricket Blake (Connie Stevens), who also sings at the hotel's Shell Bar, and a ukulele-playing cab driver Kim Quisado (Poncie Ponce), who has "relatives" throughout the islands."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to search the episode "I Wed Three Wives" to find out in which network it ran.
+Action 1: ["Search[I Wed Three Wives]", "Search[Television network]", "Lookup[Network]"] 
+        Action 1: ['Search[I Wed Three Wives]', 'Search[Television network]', 'Lookup[Network]']
+        Observation 1: "
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The information about "I Wed Three Wives" is not directly mentioned in the extracted context. It discusses about the series "Hawaiian Eye" which ran on the American Broadcasting Company. Maybe this episode is part of that series. To be sure let's look up "I Wed Three Wives" in the text.
+Action 2: [Lookup["I Wed Three Wives"]] 
+        Action 2: Lookup["I Wed Three Wives"]
+        Observation 2: No more results.
+"
+
+SIMULATION TRAJECTORY:
+ Thought 2: The search didn't yield the information I was looking for. I must attempt a different approach to obtain the desired piece of information.
+Action 2: [Search["I Wed Three Wives television"], Lookup["ran on"], Lookup["network"]] 
+        Action 2: ['Search["I Wed Three Wives television"]', 'Lookup["ran on"]', 'Lookup["network"]']
+        Observation 2: "
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: The episode "I Wed Three Wives" is not mentioned in the text and there are no more results to look up. Considering the context provided is about the "Hawaiian Eye" series which aired on the American Broadcasting Company, it is likely that this episode is a part of this series. I should finish with this information.
+Action 3: [Finish[American Broadcasting Company]] 
+        Action 3: Finish[American Broadcasting Company]
+        Observation 3: Episode finished, reward = 0
+"
+
+SIMULATION TRAJECTORY:
+ Thought 3: Observation 2 returned no information as the information about the episode "I Wed Three Wives" was not found in the extracted context. I may need to search again with different keywords.
+Action 3: [Search["I Wed Three Wives episode"], Search["I Wed Three Wives TV series"], Search["Hawaiian Eye I Wed Three Wives"]] 
+        Action 3: ['Search["I Wed Three Wives episode"]', 'Search["I Wed Three Wives TV series"]', 'Search["Hawaiian Eye I Wed Three Wives"]']
+        Observation 3: "
+
+
+
+INFO {'steps': 5, 'answer': 'American Broadcasting Company', 'gt_answer': 'ABC', 'question_idx': 3567, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 1 
+Number of steps: 4 
+Average reward: 0.25 
+Average time 34.54733049869537
+
+--------------------------------------------------
+

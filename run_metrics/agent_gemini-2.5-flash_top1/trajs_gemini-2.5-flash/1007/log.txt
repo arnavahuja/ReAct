@@ -1,0 +1,115 @@
+INFO 1007 Question: What star of "Attack of the Gryphon" was also a voice artist in Johnny Bravo?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Attack of the Gryphon]
+Action 1: Search[Attack of the Gryphon]
+Observation 1: Gryphon also known as Attack of the Gryphon is a 2007 television film directed by Andrew Prowse, starring Amber Benson, Jonathan LaPaglia, and Larry Drake. It premiered on the Sci-Fi Channel on January 27, 2007.. The television film continues a tradition of science fiction films featuring computer-animated monsters that have been part of the Sci-Fi Pictures original films series since its inception in 2002. These include Sabertooth (2002), Rottweiler (2004), Mansquito (2005), Hammerhead: Shark Frenzy (2005), Pterodactyl (2005), Minotaur (2006), and Mammoth (2006).. Following the conflict between two princes of kingdom of Vallon, Lock and Delphus, who fight over their father's throne and culminated to the latter's defeat in a single combat 300 years prior to the present, the land had since split into two rivaling nations; Lockland and Delphi.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Attack of the Gryphon]
+Action 1: Search[Attack of the Gryphon]
+Observation 1: **Attack of the Gryphon**. **Attack of the Gryphon** is a 2007 fantasy-adventure television film directed by Andrew Prowse and starring Amber Benson, Jonathan LaPaglia, and Larry Drake. The film was produced by Nu Image Films and premiered on the Sci-Fi Channel (now Syfy) in the United States.. **Plot**. The film is set in a medieval fantasy world where two warring kingdoms, the Kingdom of Delphi and the Kingdom of Lock.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Amber Benson]
+Action 2: Search[Amber Benson]
+Observation 2: Amber Benson (born January 8, 1977) is an American actress, writer, director, and producer. She is best known for her role as Tara Maclay on the TV series Buffy the Vampire Slayer (1999–2002), and has directed, produced and starred in her own films Chance (2002) and Lovers, Liars & Lunatics (2006). She also starred in the movie Kiss the Bride (2007). She co-directed the film Drones (2010) with fellow Buffy cast member Adam Busch, and starred as a waitress in the crime thriller The Killing Jar (2010).. Benson was born January 8, 1977,[1] in Birmingham, Alabama,[2] the daughter of Diane and Edward Benson, a psychiatrist.[3] She has a younger sister, Danielle, who is an artist.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Amber Benson voice actor Johnny Bravo]
+Action 2: Search[Amber Benson voice actor Johnny Bravo]
+Observation 2: **Amber Nicole Benson** (born January 8, 1977) is an American actress, writer, director, and producer. She is best known for her role as Tara Maclay on the television series *Buffy the Vampire Slayer*, and for her work in independent films.. **Early Life and Career:**. Benson was born in Birmingham, Alabama, to parents Carol and Edward Benson. Her father was a psychiatrist and her mother was a therapist.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Lookup[Johnny Bravo]
+Action 3: Lookup[Johnny Bravo]
+Observation 3: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Jonathan LaPaglia]
+Action 3: Search[Jonathan LaPaglia]
+Observation 3: **Amber Nicole Benson** (born January 8, 1977) is an American actress, writer, director, and producer. She is best known for her role as Tara Maclay on the television series *Buffy the Vampire Slayer*, and for her work in independent films.. **Early Life and Career:**. Benson was born in Birmingham, Alabama, to parents Carol and Edward Benson. Her father was a psychiatrist and her mother was a therapist.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Jonathan LaPaglia]
+Action 4: Search[Jonathan LaPaglia]
+Observation 4: Jonathan LaPaglia (/ləˈpɑːliə/, Italian: [laˈpaʎʎa]; born 31 August 1969) is an Australian actor and television personality. He hosted Network 10's revival of Australian Survivor from 2016 to 2025.[1][2] As an actor, LaPaglia is known for his roles as Frank B. Parker in the television series Seven Days, Kevin Debreno in The District and Detective Tommy McNamara in New York Undercover.. LaPaglia was born in Adelaide, South Australia, the youngest of three sons of Maria Johannes (née Brendel), a secretary, originally from the Netherlands and Gedio "Eddie" LaPaglia, an auto mechanic and car dealer from Bovalino, Calabria, Italy.[3] Actor Anthony LaPaglia is one of his elder brothers. LaPaglia lives in Santa Monica, California, with his wife Ursula Brooks and daughter.[4].
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[voice artist]
+Action 4: Lookup[voice artist]
+Observation 4: **Jonathan LaPaglia** (born 31 August 1969) is an Australian actor and television presenter. He is best known for his roles as Frank B. Parker in the science fiction series *Seven Days* (1998–2001), and as Detective Kevin Stram in the horror film *Saw IV* (2007). He has also appeared in numerous other television shows and films, including *The District*, *Cold Case*, *.
+
+
+
+STEP: 5
+
+ERROR Action not found in None 
+Retrying to get action...
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 5: None
+Action 5: Search[Larry Drake]
+Observation 5: Larry Richard Drake (February 21, 1949 – March 17, 2016)[1] was an American actor. He was best known as Benny Stulwicz in L.A. Law, for which he won two Primetime Emmy Awards. He also appeared as Robert G. Durant in both Darkman and Darkman II: The Return of Durant, a homicidal mental patient who escapes an insane asylum in the slasher black comedy Dr.
+
+SIMULATION TRAJECTORY:
+ Thought 5: None
+Action 5: Search[Larry Drake]
+Observation 5: **Larry Drake** (February 21, 1950 – March 17, 2016) was an American actor. He was best known for his role as Benny Stulwicz in the television series *L.A. Law* (1987–1994), for which he won two Primetime Emmy Awards for Outstanding Supporting Actor in a Drama Series.. **Early Life and Education:**. Larry Drake was born in Tulsa, Oklahoma.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Search[Larry Drake Johnny Bravo]
+Action 6: Search[Larry Drake Johnny Bravo]
+Observation 6: Could not find Larry Drake Johnny Bravo. Similar: ['Larry Drake', 'Johnny Bravo', 'The Larry Sanders Show', 'John Morrison (wrestler) (redirect from Johnny Hennigan)', 'Bound for Glory (2017)'].
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Lookup[voice artist]
+Action 6: Lookup[voice artist]
+Observation 6: Larry Drake was an American actor best known for his roles as Benny Stulwicz in the television series *L.A. Law* (for which he won two Primetime Emmy Awards) and as Robert G. Durant in the film *Darkman*. While Drake had a prolific career in film and television, he did **not** have any credited roles in the animated television series *Johnny Bravo*.. *Johnny Bravo* was an American animated television series created by Van Partible for Cartoon Network..
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Search[Larry Drake voice actor]
+Action 7: Search[Larry Drake voice actor]
+Observation 7: Could not find Larry Drake voice actor. Similar: ['Larry Drake', 'David Drake (actor)', 'Charles Levin (actor)', 'Jonathan Goldstein (actor)', 'Tom Drake'].
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Lookup[voice artist]
+Action 7: Lookup[voice artist]
+Observation 7: **Larry Drake (1949-2016)**. Larry Drake was an American actor best known for his roles as the developmentally disabled Benny Stulwicz in the television series *L.A. Law* (1987–1994), for which he won two Primetime Emmy Awards, and as the villainous Robert G. Durant in the film *Darkman* (1990) and its sequel *Darkman II: The Return of Durant.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'Larry Richard Drake', 'question_idx': 443, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 4 
+Number of steps: 8 
+Average reward: 0.5 
+Average time 12.932682901620865
+
+-------------------------------------------------------
+

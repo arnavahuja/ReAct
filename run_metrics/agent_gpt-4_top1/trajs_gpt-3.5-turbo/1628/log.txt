@@ -1,0 +1,109 @@
+INFO 1628 Question: What line featured characters from a DC Comic creator by Bob Kane and Bill Finger?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Bob Kane and Bill Finger]
+Action 1: Search[Bob Kane and Bill Finger]
+Observation 1: Could not find Bob Kane and Bill Finger. Similar: ['Bill Finger', 'Bob Kane', 'Batman (1989 film) (redirect from Bob the Goon)', 'Publication history of Batman (section Silver and Bronze Ages)', 'Alternative versions of Batman (section Film, television and other)'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Bob Kane and Bill Finger]
+Action 1: Search[Bob Kane and Bill Finger]
+Observation 1: Bob Kane (born Robert Kahn; October 24, 1915 – November 3, 1998) was an American comic book artist and writer, best known for co-creating the DC Comics superhero Batman with Bill Finger. Kane was inducted into the comic book industry's Jack Kirby Hall of Fame in 1994 and into the Will Eisner Comic Book Hall of Fame in 1996.. Bill Finger (February 8, 1914 – January 18, 1974.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Bob Kane]
+Action 2: Search[Bob Kane]
+Observation 2: Robert Kane (né Kahn /kɑːn/; October 24, 1915 – November 3, 1998) was an American comic book writer, animator, and artist who created Batman together with Bill Finger and many early related characters for DC Comics. He was inducted into the comic book industry's Jack Kirby Hall of Fame in 1993 and into the Will Eisner Comic Book Hall of Fame in 1996.. Kahn was born in New York City.[1] His parents, Augusta (née Tuchman) and Herman Kahn, an engraver,[2] were of Ashkenazi Jewish descent.[3][4] A high school friend of fellow cartoonist and future Spirit creator Will Eisner,[5] Robert Kahn graduated from DeWitt Clinton High School and then legally changed his name to Robert Kane.[6] He studied art at Cooper Union before joining the Max Fleischer Studio as a trainee animator in the year of 1934.[7]. He entered the comics field two years later, in 1936, freelancing original material to editor Jerry Iger's comic book Wow, What a Magazine!, including his first pencil and ink work on the serial Hiram Hick.[8] The following year, Kane began to work at Iger's subsequent studio, Eisner & Iger, which was one of the first comic book "packagers" that produced comics on demand for publishers entering the new medium during its late-1930s and 1940s Golden Age. Among his work there was the talking animal feature "Peter Pupp"—which belied its look with overtones of "mystery and menace"[8]—published in the U.K.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Batman line]
+Action 2: Search[Batman line]
+Observation 2: Bob Kane (born Robert Kahn; October 24, 1915 – November 3, 1998) was an American comic book artist and writer, best known for co-creating the DC Comics superhero Batman with writer Bill Finger. Kane was inducted into the comic book industry's Jack Kirby Hall of Fame in 1994 and into the Will Eisner Comic Book Hall of Fame in 1996. He was posthumously honored with a star on the Hollywood Walk of Fame in.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Bill Finger]
+Action 3: Search[Bill Finger]
+Observation 3: Milton "Bill" Finger (February 8, 1914[1] – c. January 18, 1974)[2][3] was an American comic book writer who co-created the DC Comics character Batman with Bob Kane. Despite making major (sometimes, signature) contributions as an innovative writer, visionary mythos/world builder and illustration architect, Finger (like other creators of his era) was often relegated to ghostwriter status on many comics—including those featuring Batman, and the original Green Lantern, Alan Scott.. While Kane privately admitted in a 1980s audio interview with his autobiographer that Finger was responsible for "50–75% of all the creativity in Batman," he publicly denied Finger had been anything more than a subcontractor executing Kane's ideas for decades. As a result, Finger died in obscurity and poverty while the Batman brand, and Kane, amassed international fame and wealth.[4] In the 2000s, Finger biographer Marc Tyler Nobleman's research uncovered previously unknown heirs. At the urging of Nobleman, the online comics fan community, and others, Finger's granddaughter revived the fight to restore his lost legacy, which continued for years.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[Batman characters]
+Action 3: Lookup[Batman characters]
+Observation 3: Bill Finger (February 8, 1914 – January 18, 1974) was an American comic book writer and co-creator of the DC Comics superhero Batman. He is best known for his work on the Batman character, contributing to the creation of the character's costume, supporting characters, and the Gotham City setting. Finger also co-created other iconic characters such as Robin, the Joker, Catwoman, and the Penguin. Despite his significant contributions to the Batman mythos, Finger was.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Batman]
+Action 4: Search[Batman]
+Observation 4: Batman[b] is a superhero who appears in American comic books published by DC Comics. Batman was created by artist Bob Kane and writer Bill Finger, and debuted in the 27th issue of the comic book Detective Comics on March 30, 1939. In the DC Universe, Batman is the alias of Bruce Wayne, a wealthy American playboy, philanthropist, and industrialist who resides in the fictional Gotham City. His origin story features him swearing vengeance against criminals after witnessing the murder of his parents, Thomas and Martha, as a child, a vendetta tempered by the ideal of justice. He trains himself physically and intellectually, crafts a bat-inspired persona, and monitors the Gotham streets at night.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[line]
+Action 4: Lookup[line]
+Observation 4: Batman is a fictional superhero appearing in American comic books published by DC Comics. The character was created by artist Bob Kane and writer Bill.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Lookup[line]
+Action 5: Lookup[line]
+Observation 5: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Lookup[characters from]
+Action 5: Lookup[characters from]
+Observation 5: Batman is a fictional superhero appearing in American comic books published by DC Comics. The character was created by artist Bob Kane and writer Bill.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Search[Batman comic line]
+Action 6: Search[Batman comic line]
+Observation 6: Could not find Batman comic line. Similar: ['Batman (comic book)', 'Absolute Batman', 'Batman: Hush (film)', 'Batman (disambiguation)', 'Batman: The Killing Joke'].
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Search[Batman line of characters]
+Action 6: Search[Batman line of characters]
+Observation 6: Batman is a fictional superhero appearing in American comic books published by DC Comics. The character was created by artist Bob Kane and writer.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Search[Batman (comic book)]
+Action 7: Search[Batman (comic book)]
+Observation 7: Batman is an ongoing American comic book series featuring the DC Comics superhero Batman as its protagonist. The character, created by Bill Finger and Bob Kane,[2] first appeared in Detective Comics #27 (cover dated May 1939). Batman proved to be so popular that a self-titled ongoing comic book series began publication with a cover date of spring 1940.[3][4] It was first advertised in early April 1940, one month after the first appearance of his new sidekick, Robin the Boy Wonder. Batman comics have proven to be popular since the 1940s.. Though the Batman comic book was launched as a quarterly publication, it later became a bimonthly series through the late 1950s, after which it became a monthly publication..
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Lookup[line featured characters]
+Action 7: Lookup[line featured characters]
+Observation 7: Batman is a fictional superhero appearing in American comic books published by DC Comics. The character was created by artist Bob Kane and writer.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'action figure toyline', 'question_idx': 2976, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 12 
+Number of steps: 35 
+Average reward: 0.34285714285714286 
+Average time 25.579503202438353
+
+-------------------------------------------------------
+

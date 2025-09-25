@@ -1,0 +1,53 @@
+INFO 1715 Question: Toni Braxton: Revealed was performed at a hotel and casino owned and operated by who?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Toni Braxton: Revealed]
+Action 1: Search[Toni Braxton: Revealed]
+Observation 1: Toni Braxton: Revealed was the first concert residency by  American singer Toni Braxton. It was performed in the Flamingo Showroom at the Flamingo Las Vegas until the announcement of its cancellation on April 6, 2008.[2]. On May 19, 2006, the Flamingo Hotel and Casino in Las Vegas announced that Braxton would replace Wayne Newton as the casino's new headlining act from December 3, 2006.[3] The show, entitled Toni Braxton: Revealed, was to be performed six nights a week and was scheduled to run through to March 2007. Braxton later confirmed that she was extending her show through to August 2007. Due to its success, it was reported that Braxton would extend her show through to August 2010.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Toni Braxton: Revealed]
+Action 1: Search[Toni Braxton: Revealed]
+Observation 1: Toni Braxton is an American singer, songwriter, pianist, record producer, and actress known for her distinctive contralto voice and hit songs spanning R&B, pop, and soul genres. Born on October 7, 1967, in Severn, Maryland, she gained fame in the early 1990s with her debut album, *Toni Braxton* (1993), which featured chart-topping singles such as "Another Sad Love Song" and "Breathe Again." Her soulful voice and emotive performances quickly established her as a prominent figure in the music industry.. Throughout her career, Braxton has released multiple successful albums, including *Secrets* (1996), which earned her a Grammy Award for Best Female R&B Vocal Performance for "Un-Break My Heart," one of her most iconic songs. She is known for her powerful ballads and has sold over 67 million records worldwide.. In addition to her music career, Toni Braxton has pursued acting, appearing in.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Flamingo Las Vegas]
+Action 2: Search[Flamingo Las Vegas]
+Observation 2: Flamingo Las Vegas (formerly the Flamingo Hilton[a]) is a casino hotel on the Las Vegas Strip in Paradise, Nevada. It is owned and operated by Caesars Entertainment. The Flamingo includes a 72,299 sq ft (6,716.8 m2) casino and a 28-story hotel with 3,460 rooms.. The resort was originally proposed by Billy Wilkerson, founder of The Hollywood Reporter, who purchased the land in 1945. Early the following year, he partnered with a trio of mobsters to obtain financing.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Toni Braxton: Revealed (show)]
+Action 2: Search[Toni Braxton: Revealed (show)]
+Observation 2: The Flamingo Las Vegas is a historic hotel and casino located on the Las Vegas Strip in Paradise, Nevada. Opened in 1946, it is one of the oldest resort casinos in Las Vegas and is renowned for its distinctive pink color scheme and classic Art Deco architecture. The property was originally developed by Benjamin "Bugsy" Siegel and Meyer Lansky as part of the initial wave of Las Vegas casino development.. Over the years, the Flamingo has undergone numerous renovations and expansions, maintaining its status as a popular destination for tourists and gamblers. The hotel features a variety of accommodations, including rooms and suites, along with a large casino floor offering slot machines, table games, and poker rooms.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Caesars Entertainment]
+Action 3: Finish[Caesars Entertainment]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[owned and operated by]
+Action 3: Lookup[owned and operated by]
+Observation 3: The Flamingo Las Vegas is a historic hotel and casino located on the Las Vegas Strip in Paradise, Nevada. Opened in 1946, it is one of the oldest resort casinos in Las Vegas and is renowned for its distinctive pink color scheme and classic Art Deco architecture. The property was originally developed by Benjamin "Bugsy" Siegel and Meyer Lansky as part of the initial wave of Las Vegas casino development.. Over the years, the Flamingo has undergone numerous renovations and expansions, maintaining its status as a popular destination for tourists and gamblers. The hotel features a variety of accommodations, including rooms and suites, along with a large casino floor offering slot machines, table games, and poker rooms.
+
+
+
+INFO {'steps': 5, 'answer': 'Caesars Entertainment', 'gt_answer': 'Caesars Entertainment Corporation', 'question_idx': 2288, 'reward': False, 'em': False, 'f1': 0.8}
+
+INFO Sum of rewards: 8 
+Number of steps: 14 
+Average reward: 0.5714285714285714 
+Average time 11.426582506724767
+
+-------------------------------------------------------
+

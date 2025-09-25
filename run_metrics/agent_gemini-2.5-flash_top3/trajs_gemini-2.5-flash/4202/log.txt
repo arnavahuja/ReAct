@@ -1,0 +1,76 @@
+INFO 4202 Question: What river runs along the neighborhood where Ashley Estes Kavanaugh's wedding was held?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to find where Ashley Estes Kavanaugh's wedding was held and then identify the river running along that neighborhood. I'll start by searching for Ashley Estes Kavanaugh.
+Action 1: Search[Ashley Estes Kavanaugh] 
+        Action 1: Search[Ashley Estes Kavanaugh]
+        Observation 1: Ashley Estes Kavanaugh is an American public official and former political aide. She is married to Supreme Court Justice Brett Kavanaugh.. Kavanaugh was born Ashley Jean Estes in Abilene, Texas.[1] She graduated from Abilene Cooper High School in 1993, where she was a member of the Student Council for three years and played golf for three years.[2] She attended the University of Texas at Austin,[3][4] beginning in 1993, and graduated in 1997 with a Bachelor of Journalism degree.[5]. In 2004, she married fellow West Wing staff member Brett Kavanaugh. Both President Bush and First Lady Laura Bush attended the wedding ceremony in Georgetown, Washington, D.C.[6]."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to find where Ashley Estes Kavanaugh's wedding was held and then identify the river running along that neighborhood.
+Action 1: Search[Ashley Estes Kavanaugh wedding] 
+        Action 1: ['Search[Ashley Estes Kavanaugh wedding]']
+        Observation 1: **Ashley Estes Kavanaugh** (born c. 1974) is an American public relations professional and former political aide. She is best known as the wife of Brett Kavanaugh, an Associate Justice of the Supreme Court of the United States.. **Early Life and Education:**. Ashley Estes was born in Texas."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The wedding was held in Georgetown, Washington, D.C. I need to find what river runs along Georgetown, Washington, D.C.
+Action 2: Search[Georgetown, Washington, D.C. river] 
+        Action 2: Search[Georgetown, Washington, D.C. river]
+        Observation 2: Could not find Georgetown, Washington, D.C. river. Similar: ['Georgetown (Washington, D.C.)', 'List of mayors of Washington, D.C.', 'The Palisades (Washington, D.C.)', 'Geography of Washington, D.C.', 'Streetcars in Washington, D.C.']."
+
+SIMULATION TRAJECTORY:
+ Thought 2: The current paragraph does not mention anything about her wedding or where it was held. I need to look for information about her wedding.
+Action 2: Search[Ashley Estes Kavanaugh wedding], Lookup[wedding], Search[Brett Kavanaugh wedding] 
+        Action 2: ['Search[Ashley Estes Kavanaugh wedding]', 'Search[Brett Kavanaugh wedding]', 'Lookup[wedding]']
+        Observation 2: Georgetown, a historic neighborhood in Washington, D.C., is situated on the **Potomac River**.. The Potomac River forms the southwestern boundary of Georgetown, separating it from Arlington, Virginia. This prominent waterway has played a crucial role in Georgetown's development and history.. **Key aspects of the Potomac River's relationship with Georgetown:**. *   **Historical Significance:** The Potomac was a vital transportation artery for Georgetown from its earliest days as a colonial port."
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Since searching for "Georgetown, Washington, D.C. river" didn't yield direct results, I should search for "Georgetown (Washington, D.C.)" and then look for information about rivers within that article.
+Action 3: Search[Georgetown (Washington, D.C.)] 
+        Action 3: Search[Georgetown (Washington, D.C.)]
+        Observation 3: Georgetown is a historic neighborhood and commercial district in Northwest Washington, D.C., situated along the Potomac River. Founded in 1751 as part of the colonial-era Province of Maryland, Georgetown predated the establishment of Washington, D.C. by 40 years. Georgetown was an independent municipality until 1871 when the United States Congress created a new consolidated government for the entire District of Columbia. A separate act, passed in 1895, repealed Georgetown's remaining local ordinances and renamed Georgetown's streets to conform with those in Washington, D.C.."
+
+SIMULATION TRAJECTORY:
+ Thought 3: The wedding was held in Georgetown, Washington, D.C., and the Potomac River runs along Georgetown, Washington, D.C. So the river is the Potomac River.
+Action 3: [Finish[Potomac River], Search[Potomac River], Lookup[Potomac River]] 
+        Action 3: ['Search[Potomac River]', 'Lookup[Potomac River]', 'Finish[Potomac River]']
+        Observation 3: **Georgetown** is a historic neighborhood and commercial and entertainment district located in Northwest Washington, D.C., situated along the Potomac River. Established in 1751 in the Province of Maryland, it predates the establishment of Washington, D.C., and was a thriving port town before being incorporated into the new federal city in 1871.. **History:**. *   **Colonial Era and Early Republic:** Georgetown was founded as a tobacco inspection port and quickly grew."
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: The article states Georgetown is situated along the Potomac River. This directly answers the question.
+Action 4: Finish[Potomac River] 
+        Action 4: Finish[Potomac River]
+        Observation 4: Episode finished, reward = 1
+"
+
+SIMULATION TRAJECTORY:
+ Thought 4: The article directly states Georgetown is "situated along the Potomac River." Therefore, the Potomac River is the answer.
+Action 4: Finish[Potomac River], Search[Potomac River], Lookup[Potomac River] 
+        Action 4: ['Search[Potomac River]', 'Lookup[Potomac River]', 'Finish[Potomac River]']
+        Observation 4: **Georgetown** is a historic neighborhood and commercial and entertainment district located in Northwest Washington, D.C., situated along the Potomac River. Established in 1751 in the Province of Maryland, it predates the establishment of Washington, D.C., and was a thriving port town before being incorporated into the new federal city in 1871.. **History:**. *   **Colonial Era and Early Republic:** Georgetown was founded as a tobacco inspection port and quickly grew."
+
+
+
+INFO {'steps': 7, 'answer': 'Potomac River', 'gt_answer': 'Potomac River', 'question_idx': 2830, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 1 
+Number of steps: 6 
+Average reward: 0.16666666666666666 
+Average time 19.035789966583252
+
+--------------------------------------------------
+

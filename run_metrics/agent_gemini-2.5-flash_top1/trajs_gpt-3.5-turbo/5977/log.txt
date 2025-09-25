@@ -1,0 +1,53 @@
+INFO 5977 Question: What is the long name of the Government of Ireland Act 1920 that relates to Islam in Northern Ireland?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Government of Ireland Act 1920]
+Action 1: Search[Government of Ireland Act 1920]
+Observation 1: The Government of Ireland Act 1920 (10 & 11 Geo. 5. c. 67) was an act of the Parliament of the United Kingdom. The Act's long title was "An Act to provide for the better government of Ireland"; it is also known as the Fourth Home Rule Bill or (inaccurately) as the Fourth Home Rule Act and informally known as the Partition Act.[3] The Act was intended to partition Ireland into two self-governing polities: the six north-eastern counties were to form "Northern Ireland", while the larger part of the country was to form "Southern Ireland".[4] Both territories were to remain part of the United Kingdom of Great Britain and Ireland and provision was made for their future reunification through a Council of Ireland.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Government of Ireland Act 1920]
+Action 1: Search[Government of Ireland Act 1920]
+Observation 1: The Government of Ireland Act 1920 was an Act of the Parliament of the United Kingdom that created two separate self-governing territories within Ireland: Northern Ireland and Southern Ireland. It was intended to address the issue of Irish Home Rule by partitioning the island into two distinct regions with separate parliaments. The Act came into effect in 1921, leading to the establishment of the two separate entities. Northern Ireland remained part of the United Kingdom, while Southern Ireland eventually became the Irish Free State.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Lookup[Islam]
+Action 2: Lookup[Islam]
+Observation 2: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[long name]
+Action 2: Lookup[long name]
+Observation 2: The Government of Ireland Act 1920 was an Act of the Parliament of the United Kingdom that created two separate self-governing territories within Ireland: Northern Ireland and Southern Ireland. It was intended to address the issue of Irish Home Rule by partitioning the island into two distinct regions with separate parliaments. The Act came into effect in 1921, leading to the establishment of the two separate entities. Northern Ireland remained part of the United Kingdom, while Southern Ireland eventually became the Irish Free State.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[An Act to provide for the better government of Ireland]
+Action 3: Finish[An Act to provide for the better government of Ireland]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[The provided text for the Government of Ireland Act 1920 does not contain any information relating to Islam in Northern Ireland, nor does it suggest Islam is part of its long name.]
+Action 3: Finish[The provided text for the Government of Ireland Act 1920 does not contain any information relating to Islam in Northern Ireland, nor does it suggest Islam is part of its long name.]
+Observation 3: The Government of Ireland Act 1920 was an Act of the Parliament of the United Kingdom that created two separate self-governing territories within Ireland: Northern Ireland and Southern Ireland. It was intended to address the issue of Irish Home Rule by partitioning the island into two distinct regions with separate parliaments. The Act came into effect in 1921, leading to the establishment of the two separate entities. Northern Ireland remained part of the United Kingdom, while Southern Ireland eventually became the Irish Free State.
+
+
+
+INFO {'steps': 5, 'answer': 'An Act to provide for the better government of Ireland', 'gt_answer': 'An Act to provide for the better government of Ireland', 'question_idx': 3217, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 3 
+Number of steps: 7 
+Average reward: 0.42857142857142855 
+Average time 17.76040986606053
+
+-------------------------------------------------------
+

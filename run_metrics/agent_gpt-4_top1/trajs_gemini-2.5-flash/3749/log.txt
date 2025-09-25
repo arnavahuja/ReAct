@@ -1,0 +1,95 @@
+INFO 3749 Question: The winner of the FIA World Endurance Championship in 2013 drove the Toyota TF101 with who?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[FIA World Endurance Championship 2013]
+Action 1: Search[FIA World Endurance Championship 2013]
+Observation 1: Could not find FIA World Endurance Championship 2013. Similar: ['2013 FIA World Endurance Championship', 'FIA World Endurance Championship', '2018–19 FIA World Endurance Championship', 'List of FIA World Endurance champions', '2019–20 FIA World Endurance Championship'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[2013 FIA World Endurance Championship]
+Action 1: Search[2013 FIA World Endurance Championship]
+Observation 1: The 2013 FIA World Endurance Championship was the second season of the FIA World Endurance Championship, an auto racing series organized by the Fédération Internationale de l'Automobile (FIA) and the Automobile Club de l'Ouest (ACO). The championship was open to Le Mans Prototypes (LMP) and Le Mans Grand Touring Endurance (LMGTE) cars, and was contested over eight rounds, including the 24 Hours of Le Mans.. **Calendar:**. | Round |.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[2013 FIA World Endurance Championship]
+Action 2: Search[2013 FIA World Endurance Championship]
+Observation 2: The 2013 FIA World Endurance Championship season was the second season of the FIA World Endurance Championship auto racing series, co-organized by the Fédération Internationale de l'Automobile (FIA) and the Automobile Club de l'Ouest (ACO). The series was open to Le Mans Prototypes and grand tourer-style racing cars meeting four ACO categories. World Championships were awarded to drivers and to LMP1 category manufacturers, and several World Cups and Endurance Trophies were awarded for the series' other categories. The eight race championship began in April at the Silverstone Circuit and ended in November at the Bahrain International Circuit. The season was marred by the death of Allan Simonsen in the 24 Hours of Le Mans..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Toyota TF101]
+Action 2: Search[Toyota TF101]
+Observation 2: The 2013 FIA World Endurance Championship was the second season of the FIA World Endurance Championship, an auto racing series organized by the Fédération Internationale de l'Automobile (FIA) and the Automobile Club de l'Ouest (ACO). The championship was open to Le Mans Prototypes (LMP) and Le Mans Grand Touring Endurance (LMGTE) cars, and was contested over eight rounds, including the 24 Hours of Le Mans.. **Calendar:**. | Round |.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Lookup[Toyota TF101]
+Action 3: Lookup[Toyota TF101]
+Observation 3: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[Toyota TF101]
+Action 3: Lookup[Toyota TF101]
+Observation 3: The 2013 FIA World Endurance Championship was the second season of the FIA World Endurance Championship, an auto racing series organized by the Fédération Internationale de l'Automobile (FIA) and the Automobile Club de l'Ouest (ACO). The championship was open to Le Mans Prototypes (LMP) and Le Mans Grand Touring Endurance (LMGTE) cars, and was contested over eight rounds, including the 24 Hours of Le Mans.. **Calendar:**. | Round |.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Toyota TF101]
+Action 4: Search[Toyota TF101]
+Observation 4: The Toyota TF101 was a Formula One car used solely for testing purposes during the 2001 season, in preparation for the team's full-scale assault on the series in 2002. The car was designed by Toyota F1's chief of chassis Jean-Claude Martens and was driven by Mika Salo and Allan McNish. The TF101 was unofficially called the "AM01" by Toyota until the name of its successor, the TF102 was announced.. This was the first Formula One car to run on Esso fuel since the 1960s.. The car was designed and built from the ground up by the staff at Toyota Motorsports GmbH (TMG) in Cologne, Germany over a period of nineteen months, in preparation for Toyota's entry to Formula One in 2002.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[Toyota TF101]
+Action 4: Search[Toyota TF101]
+Observation 4: The **Toyota TF101** was a Formula One car designed and built by Toyota Racing for the 2001 Formula One season. It served primarily as a test car and a development platform for Toyota's eventual entry into the sport in 2002.. **Concept and Development:**. Following several years of preparation and a successful stint in sports car racing (including a second-place finish at the 1999 24 Hours of Le Mans), Toyota.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Lookup[World Championships were awarded to drivers]
+Action 5: Lookup[World Championships were awarded to drivers]
+Observation 5: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Finish[The question seems to be based on an error. Toyota TF101 is known as a Formula One car, not associated with the FIA World Endurance Championship.]
+Action 5: Finish[The question seems to be based on an error. Toyota TF101 is known as a Formula One car, not associated with the FIA World Endurance Championship.]
+Observation 5: The **Toyota TF101** was a Formula One car designed and built by Toyota Racing for the 2001 Formula One season. It served primarily as a test car and a development platform for Toyota's eventual entry into the sport in 2002.. **Concept and Development:**. Following several years of preparation and a successful stint in sports car racing (including a second-place finish at the 1999 24 Hours of Le Mans), Toyota.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Finish[Information not available]
+Action 6: Finish[Information not available]
+Observation 6: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Lookup[Mika Salo and Allan McNish]
+Action 6: Lookup[Mika Salo and Allan McNish]
+Observation 6: The **Toyota TF101** was a Formula One car designed and built by Toyota Racing for the 2001 Formula One season. It served primarily as a test car and a development platform for Toyota's eventual entry into the sport in 2002.. **Concept and Development:**. Following several years of preparation and a successful stint in sports car racing (including a second-place finish at the 1999 24 Hours of Le Mans), Toyota.
+
+
+
+INFO {'steps': 11, 'answer': 'Information not available', 'gt_answer': 'Mika Salo', 'question_idx': 5715, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 10 
+Number of steps: 22 
+Average reward: 0.45454545454545453 
+Average time 21.306832096793435
+
+-------------------------------------------------------
+

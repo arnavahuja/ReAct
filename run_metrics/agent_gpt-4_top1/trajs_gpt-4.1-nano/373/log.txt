@@ -1,0 +1,56 @@
+INFO 373 Question: Arnold Richards was the former chair of what organization that is a member of the Center for Jewish History?
+
+STEP: 1
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Arnold Richards]
+Action 1: Search[Arnold Richards]
+Observation 1: Arnold Richards (born August 1934) is a psychoanalyst and former editor of The American Psychoanalyst and Journal of the American Psychoanalytic Association (JAPA).[1][2][3] Richards also is the Training and Supervising Analyst at the New York Psychoanalytic Institute.[4] He is the founder and Editor-in-Chief of the International Psychoanalysis.net magazine.[5] Richards is a board member and former chair of YIVO.[6]. Richards became an editor for The American Psychoanalyst in 1989.[7] He redesigned the format and content of the newsletter during his term as editor.[7] From 1994 to 2003, Richards was an editor for the Journal of the American Psychoanalytic Association (JAPA).[2][4][8] He is a faculty member of the American Institute of Psychoanalysis and the Metropolitan Institute of Psychoanalysis and Psychotherapy.[9] Richards presented the 50th annual Leo Baeck Memorial lecture in 2006.[10] In 2014, he participated in the Senior Sino-American Continual Training Project of Psychoanalysis.[11]. He presented "A.A. Brill: The Politics of Exclusion and the Politics of Pluralism" in November 1995.[12] He presented "The Organizational Structure of the American Psychoanalytic Association: The Politics of Exclusion" at the 37th annual conference of the International Psychohistorical Association in June 2014.[13]. Richards received the Mary S.
+
+SIMULATION TRAJECTORY:
+ Thought 1: None
+Action 1: Search[Arnold Richards]
+Observation 1: Arnold Richards is an American historian and academic known for his contributions to the study of American history and political science. He has held various academic positions and has published numerous works on American political development, history, and policy analysis. Richards is recognized for his scholarly research and teaching, often focusing on the evolution of American political institutions and the impact of social movements on policy change. His work has been influential in both academic circles and public policy discussions..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[YIVO]
+Action 2: Search[YIVO]
+Observation 2: YIVO (Yiddish: ייִוואָ, pronounced [jɪˈvɔ], short for ייִדישער װיסנשאַפֿטלעכער אינסטיטוט, yidisher visnshaftlekher institut, 'Jewish scientific institute') is an organization that preserves, studies, and teaches the cultural history of Jewish life throughout Eastern Europe, Germany, and Russia as well as orthography, lexicography, and other studies related to Yiddish. Established in 1925 in Wilno in the Second Polish Republic (now Vilnius, Lithuania) as the Yiddish Scientific Institute (Yiddish: ייִדישער וויסנשאַפֿטלעכער אינסטיטוט, romanized: Yidisher Visnshaftlekher Institut, pronounced [ˈjɪdɪʃɛr ˈvɪsn̩ʃaftlɛχɛr ɪnstɪˈtʊt];[1] the word yidisher means both "Yiddish" and "Jewish").. Its English name became Institute for Jewish Research after its relocation to New York City, but it is still known mainly by its Yiddish acronym. YIVO is now a partner of the Center for Jewish History, and serves as the de facto recognized language regulator of the Yiddish language in the secular world. The YIVO system is commonly taught in universities and known as klal shprakh (Yiddish: כּלל־שפּראַך, lit. 'standard language') and sometimes "YIVO Yiddish" (Yiddish: ייִוואָ־ייִדיש)..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[chair]
+Action 2: Lookup[chair]
+Observation 2: YIVO Institute for Jewish Research is a prominent organization dedicated to the study and preservation of Eastern European Jewish history, culture, and language. Founded in 1925 in Vilnius, Lithuania, as the Yiddish Scientific Institute, it later relocated to New York City in 1940 due to the upheavals of World War II and the Holocaust. YIVO's extensive collections include manuscripts, books, periodicals, audio recordings, and photographs that document the rich cultural heritage of Ashkenazi Jews..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[YIVO]
+Action 3: Finish[YIVO]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[YIVO]
+Action 3: Finish[YIVO]
+Observation 3: YIVO Institute for Jewish Research is a prominent organization dedicated to the study and preservation of Eastern European Jewish history, culture, and language. Founded in 1925 in Vilnius, Lithuania, as the Yiddish Scientific Institute, it later relocated to New York City in 1940 due to the upheavals of World War II and the Holocaust. YIVO's extensive collections include manuscripts, books, periodicals, audio recordings, and photographs that document the rich cultural heritage of Ashkenazi Jews..
+
+
+
+INFO {'steps': 5, 'answer': 'YIVO', 'gt_answer': 'YIVO', 'question_idx': 4767, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 1 
+Number of steps: 3 
+Average reward: 0.3333333333333333 
+Average time 21.590372323989868
+
+-------------------------------------------------------
+

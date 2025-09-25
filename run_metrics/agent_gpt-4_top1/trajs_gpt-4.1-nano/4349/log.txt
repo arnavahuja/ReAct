@@ -1,0 +1,109 @@
+INFO 4349 Question: What English stand-up comedian has a style of comedy full of "stream-of-conscious banter"?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search["stream-of-conscious banter" English stand-up comedian]
+Action 1: Search["stream-of-conscious banter" English stand-up comedian]
+Observation 1: There were no results matching the query.. The page ""stream-of-conscious banter" English stand-up comedian" does not exist. You can create a draft and submit it for review or request that a redirect be created.. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us. HelpLearn to editCommunity portalRecent changesUpload fileSpecial pages.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search["stream-of-conscious banter" English stand-up comedian]
+Action 1: Search["stream-of-conscious banter" English stand-up comedian]
+Observation 1: Stream-of-conscious banter is a style of comedy often employed by English stand-up comedians characterized by spontaneous, free-flowing, and often improvisational monologues. This approach involves the comedian speaking in a seemingly unfiltered and continuous manner, weaving personal anecdotes, observations, and humorous insights into a seamless narrative. The style emphasizes a conversational tone, creating an intimate and engaging experience for the audience, as if the comedian is sharing their thoughts in real-time.. Comedians who utilize stream-of-conscious banter often.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search["stream-of-conscious banter"]
+Action 2: Search["stream-of-conscious banter"]
+Observation 2: Could not find "stream-of-conscious banter". Similar: ['Stripped (tour)'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[English stand-up comedian]
+Action 2: Lookup[English stand-up comedian]
+Observation 2: Stream-of-conscious banter refers to a spontaneous, unstructured form of verbal exchange characterized by continuous, free-flowing dialogue that often mirrors the natural thought processes of the participants. This type of banter typically involves rapid-fire exchanges, overlapping speech, and a lack of formal organization, creating an impression of immediacy and authenticity. It is commonly observed in informal settings such as casual conversations among friends, improvisational comedy, and certain styles of storytelling or performance art.. The concept draws inspiration from the literary.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[English stand-up comedians]
+Action 3: Search[English stand-up comedians]
+Observation 3: Could not find English stand-up comedians. Similar: ['Stand-up comedy', 'Harriet Kemsley (category English stand-up comedians)', 'List of British comedians', 'Paul Chowdhry (category English stand-up comedians)', 'Stewart Lee (category English stand-up comedians)'].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[English stand-up comedians]
+Action 3: Search[English stand-up comedians]
+Observation 3: English stand-up comedians are performers from England who specialize in the art of stand-up comedy, a comedic performance style where a comedian performs in front of a live audience, usually delivering a series of humorous stories, jokes, and one-liners. The tradition of stand-up comedy in England has a rich history, dating back to the 19th century, with roots in music hall entertainment and variety shows.. Notable English stand-up comedians include:. - **Billy Connolly**: Often regarded as one of.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Stewart Lee]
+Action 4: Search[Stewart Lee]
+Observation 4: Stewart Graham Lee (born 5 April 1968) is an English comedian. His stand-up routine is characterised by repetition, internal reference, and deadpan delivery.. Lee began his career in 1989 and formed the comedy duo Lee and Herring with Richard Herring. In 2001, he co-wrote and co-directed the West End hit musical Jerry Springer: The Opera, a critical success that sparked a backlash from Christian right groups who staged a series of protests outside its early performances. In 2011, he won British Comedy Awards for Best Male Television Comic and Best Comedy Entertainment Programme for his series Stewart Lee's Comedy Vehicle.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup["stream-of-conscious banter"]
+Action 4: Lookup["stream-of-conscious banter"]
+Observation 4: Stewart Lee (born 5 April 1968) is a British comedian, writer, and director known for his distinctive style of stand-up comedy that combines sharp wit, satirical commentary, and a focus on language and structure. He is renowned for his intellectual approach to comedy, often deconstructing traditional comedic forms and challenging audience expectations.. Early Life and Education:. Stewart Lee was born in Wellington, Somerset, England. He studied English at the University of York, where he developed an interest.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Lookup["stream-of-conscious banter"]
+Action 5: Lookup["stream-of-conscious banter"]
+Observation 5: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Lookup["stream-of-conscious banter"]
+Action 5: Lookup["stream-of-conscious banter"]
+Observation 5: Stewart Lee (born 5 April 1968) is a British comedian, writer, and director known for his distinctive style of stand-up comedy that combines sharp wit, satirical commentary, and a focus on language and structure. He is renowned for his intellectual approach to comedy, often deconstructing traditional comedic forms and challenging audience expectations.. Early Life and Education:. Stewart Lee was born in Wellington, Somerset, England. He studied English at the University of York, where he developed an interest.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Search[Paul Chowdhry]
+Action 6: Search[Paul Chowdhry]
+Observation 6: Tajpaul Singh Chowdhry (born 21 August 1974),[1][2] better known as Paul Chowdhry, is a British comedian and actor.[3] He is of Indian Punjabi Sikh descent.[4][5][3][6] Known for observational and satirical comedy that frequently addresses themes of race, multiculturalism, and British identity, Chowdhry is widely regarded as one of the greatest British Indian comedians of all time.[7][8][9][10]. Chowdhry has made numerous appearances on television comedy shows including hosting Stand Up for the Week, and he twice headlined Live at the Apollo, in 2012 and 2015. In 2016, he competed on Taskmaster alongside Dave Gorman, Sara Pascoe, Al Murray and eventual winner Rob Beckett. In 2017, Chowdhry became the first comedian of Asian heritage to sell out Wembley Arena.[11] He has released four stand-up comedy specials, What’s Happening White People through Universal Pictures in 2012 and later broadcast on Channel 4, PC’s World released on DVD through Universal Pictures in 2015, Live Innit on Amazon Prime Video in 2019 and later shown on Comedy Central, and Family-Friendly Comedian on Sky UK in 2024.. He has performed six tours across the world – Not PC (2010), What’s Happening White People? (2012), PC’s World (2014), Live Innit? (2017), Family Friendly Comedian (2022), and Englandia, which debuted in 2025..
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Lookup[style of stand-up comedy]
+Action 6: Lookup[style of stand-up comedy]
+Observation 6: Paul Chowdhry is a British comedian, actor, and writer known for his stand-up comedy and appearances on various television programs. Born on August 21, 1974, in London, England, he has gained recognition for his sharp wit, observational humor, and ability to address social and cultural issues through comedy. Chowdhry has performed extensively across the UK and internationally, earning a reputation as one of the prominent figures in the British comedy scene. He has also appeared on popular TV shows such.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Lookup["stream-of-conscious banter"]
+Action 7: Lookup["stream-of-conscious banter"]
+Observation 7: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Lookup["stream-of-conscious banter"]
+Action 7: Lookup["stream-of-conscious banter"]
+Observation 7: Paul Chowdhry is a British comedian, actor, and writer known for his stand-up comedy and appearances on various television programs. Born on August 21, 1974, in London, England, he has gained recognition for his sharp wit, observational humor, and ability to address social and cultural issues through comedy. Chowdhry has performed extensively across the UK and internationally, earning a reputation as one of the prominent figures in the British comedy scene. He has also appeared on popular TV shows such.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'Eddie Izzard', 'question_idx': 551, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 6 
+Number of steps: 16 
+Average reward: 0.375 
+Average time 29.194065555930138
+
+-------------------------------------------------------
+

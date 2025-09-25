@@ -1,0 +1,115 @@
+INFO 4023 Question: Trilochanapala, last king of the Kabul Shahi dynasty, ruled in the site of which modern country?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Trilochanapala]
+Action 1: Search[Trilochanapala]
+Observation 1: The Hindu Shahis, also referred to as the Kabul Shahis and Uḍi Śāhis, were a dynasty established between 843 CE and 1026 CE. They endured multiple waves of conquests for nearly two centuries and their core territory was described as having contained the regions of Gandhara and Eastern Afghanistan, encompassing the area up to the Sutlej river in modern day Punjab, expanding into the Kangra Valley. The empire was founded by Kallar in c. 843 CE after overthrowing Lagaturman, the last Turk Shahi king.. The history of the Hindu Shahis begins in 843 CE with Kallar deposing the last Turk Shahi ruler, Lagaturman. Samanta succeeded him, and it was during his reign that the region of Kabul was lost to the Persianate Saffarid dynasty.[2] Lalliya replaced Samanta soon after and re-conquered Kabul whilst also subduing the region of Zabulistan.[3][4] He is additionally noteworthy for coming into conflict with Samkaravarman of the Utpala dynasty, resulting in his victory and the latter's death in Hazara.[5] Bhimadeva, the next notable ruler, is most significant for vanquishing the Samanid Empire in Ghazni and Kabul in response to their conquests.[6] Jayapala then gained control and was brought into conflict with the newly formed Ghaznavid Empire, however, he was eventually defeated.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Trilochanapala]
+Action 1: Search[Trilochanapala]
+Observation 1: **Trilochanapala** (reigned c. 1019 – 1027 CE) was a king of the Hindu Shahi dynasty, which ruled parts of Afghanistan and Gandhara (modern-day Pakistan) during the early medieval period. He was the son and successor of Anandapala, and his reign was marked by continued struggles against the Ghaznavid Empire, led by Mahmud of Ghazni.. **Early Life and Accession:**. Details about Tr.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Lookup[Trilochanapala]
+Action 2: Lookup[Trilochanapala]
+Observation 2: (Result 1 / 1) **Trilochanapala** (reigned c.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Finish[Pakistan]
+Action 2: Finish[Pakistan]
+Observation 2: **Trilochanapala** (reigned c. 1019 – 1027 CE) was a king of the Hindu Shahi dynasty, which ruled parts of Afghanistan and Gandhara (modern-day Pakistan) during the early medieval period. He was the son and successor of Anandapala, and his reign was marked by continued struggles against the Ghaznavid Empire, led by Mahmud of Ghazni.. **Early Life and Accession:**. Details about Tr.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Trilochanapala reign]
+Action 3: Search[Trilochanapala reign]
+Observation 3: Could not find Trilochanapala reign. Similar: ['Hindu Shahis (redirect from Trilochanapala)', 'Sangramaraja', 'Yasahpala of Kannauj', 'Ghaznavid campaigns in India', 'Siege of Lohkot (1015)'].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Afghanistan and Pakistan]
+Action 3: Finish[Afghanistan and Pakistan]
+Observation 3: **Trilochanapala (c. 1019 – 1027 CE)**. Trilochanapala was a king of the Hindu Shahi dynasty, which ruled parts of present-day Afghanistan and Pakistan. He was the son of Anandapala and succeeded him as ruler. His reign was marked by continued resistance against the Ghaznavid Empire, led by Mahmud of Ghazni..
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Kabul Shahi dynasty]
+Action 4: Search[Kabul Shahi dynasty]
+Observation 4: Could not find Kabul Shahi dynasty. Similar: ['Hindu Shahis', 'Kabul Shahi', 'Hindu Shahi–Saffarid wars', 'Turk Shahis', 'Zunbil dynasty'].
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[Afghanistan and Pakistan]
+Action 4: Finish[Afghanistan and Pakistan]
+Observation 4: The **Kabul Shahi dynasty**, also known as the **Hindu Shahi dynasty**, was a Hindu dynasty that ruled the Kabul Valley and Gandhara (present-day eastern Afghanistan and northern Pakistan) from the 7th to the 11th centuries CE. They succeeded the Turk Shahi dynasty and were eventually overthrown by the Ghaznavids.. ### Origins and Early History. The origins of the Kabul Shahi dynasty are somewhat debated among historians. It is generally believed that they were a.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Lookup[Trilochanapala]
+Action 5: Lookup[Trilochanapala]
+Observation 5: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Lookup[Trilochanapala]
+Observation 5: (Result 1 / 1) **Trilochanapala** was the last king of the Hindu Shahi dynasty of Afghanistan.
+Thought 6: I have found that Trilochanapala was the last king of the Hindu Shahi dynasty of Afghanistan. Therefore, the modern country is Afghanistan.
+Action 6: Finish[Afghanistan]
+Action 5: Lookup[Trilochanapala]
+Observation 5: (Result 1 / 1) **Trilochanapala** was the last king of the Hindu Shahi dynasty of Afghanistan.
+Thought 6: I have found that Trilochanapala was the last king of the Hindu Shahi dynasty of Afghanistan. Therefore, the modern country is Afghanistan.
+Action 6: Finish[Afghanistan]
+Observation 5: The **Kabul Shahi dynasty**, also known as the **Hindu Shahi dynasty**, was a Hindu dynasty that ruled the Kabul Valley and Gandhara (present-day eastern Afghanistan and northern Pakistan) from the 7th to the 11th centuries CE. They succeeded the Turk Shahi dynasty and were eventually overthrown by the Ghaznavids.. ### Origins and Early History. The origins of the Kabul Shahi dynasty are somewhat debated among historians. It is generally believed that they were a.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Search[Hindu Shahis]
+Action 6: Search[Hindu Shahis]
+Observation 6: The Hindu Shahis, also referred to as the Kabul Shahis and Uḍi Śāhis, were a dynasty established between 843 CE and 1026 CE. They endured multiple waves of conquests for nearly two centuries and their core territory was described as having contained the regions of Gandhara and Eastern Afghanistan, encompassing the area up to the Sutlej river in modern day Punjab, expanding into the Kangra Valley. The empire was founded by Kallar in c. 843 CE after overthrowing Lagaturman, the last Turk Shahi king.. The history of the Hindu Shahis begins in 843 CE with Kallar deposing the last Turk Shahi ruler, Lagaturman. Samanta succeeded him, and it was during his reign that the region of Kabul was lost to the Persianate Saffarid dynasty.[2] Lalliya replaced Samanta soon after and re-conquered Kabul whilst also subduing the region of Zabulistan.[3][4] He is additionally noteworthy for coming into conflict with Samkaravarman of the Utpala dynasty, resulting in his victory and the latter's death in Hazara.[5] Bhimadeva, the next notable ruler, is most significant for vanquishing the Samanid Empire in Ghazni and Kabul in response to their conquests.[6] Jayapala then gained control and was brought into conflict with the newly formed Ghaznavid Empire, however, he was eventually defeated.
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Lookup[Trilochanapala]
+Action 6: Lookup[Trilochanapala]
+Observation 6: The **Hindu Shahis** (also known as the **Shahis of Kabul** or **Turk Shahis** and later **Hindu Shahis of Udabhandapura**) were a dynasty that ruled the Kabul Valley and Gandhara (modern-day Afghanistan and Pakistan) from the 7th to the early 11th century CE. They are significant for their role in defending the Indian subcontinent against early Muslim invasions and for their patronage of Hinduism and Buddhism in a region that was increasingly coming.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Finish[Afghanistan and Pakistan]
+Action 7: Finish[Afghanistan and Pakistan]
+Observation 7: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Finish[Afghanistan and Pakistan]
+Action 7: Finish[Afghanistan and Pakistan]
+Observation 7: The **Hindu Shahis** (also known as the **Shahis of Kabul** or **Turk Shahis** and later **Hindu Shahis of Udabhandapura**) were a dynasty that ruled the Kabul Valley and Gandhara (modern-day Afghanistan and Pakistan) from the 7th to the early 11th century CE. They are significant for their role in defending the Indian subcontinent against early Muslim invasions and for their patronage of Hinduism and Buddhism in a region that was increasingly coming.
+
+
+
+INFO {'steps': 13, 'answer': 'Afghanistan and Pakistan', 'gt_answer': 'Afghanistan', 'question_idx': 3600, 'reward': False, 'em': False, 'f1': 0.5}
+
+INFO Sum of rewards: 17 
+Number of steps: 32 
+Average reward: 0.53125 
+Average time 11.799217000603676
+
+-------------------------------------------------------
+

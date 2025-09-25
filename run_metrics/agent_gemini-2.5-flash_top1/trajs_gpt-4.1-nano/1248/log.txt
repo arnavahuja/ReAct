@@ -1,0 +1,53 @@
+INFO 1248 Question: The Tennessee Volunteers football team plays as a member for a conference in what city?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Tennessee Volunteers football]
+Action 1: Search[Tennessee Volunteers football]
+Observation 1: The Tennessee Volunteers football program (variously called "Vols," "UT" and "Big Orange") represents the University of Tennessee (UT). The Volunteers compete in the Football Bowl Subdivision (FBS) of the National Collegiate Athletic Association (NCAA), as members of the Southeastern Conference (SEC).. The Vols have played football for 132 seasons, starting in 1891; their combined record of 870–415–53 (.670) ranks them fourteenth on the all-time win list for NCAA football programs.[3][4] Their all-time ranking in bowl appearances is fifth (55) and eighth in all-time bowl victories (30), most notably four Sugar Bowls, three Cotton Bowls, two Orange Bowls, a Fiesta Bowl, and a Peach Bowl. They have won 16 conference championships and claim six national titles, including two (1951, 1998) from the major wire-service: AP Poll and/or Coaches' Poll in their history.. The Vols play at Neyland Stadium on the university's campus in Knoxville, where Tennessee has won 485 games, the highest home-field total in college football history for any school in the nation at its current home venue.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Tennessee Volunteers football team]
+Action 1: Search[Tennessee Volunteers football team]
+Observation 1: The Tennessee Volunteers football team, also known as the Vols, represents the University of Tennessee in college football. The team competes in the NCAA Division I Football Bowl Subdivision (FBS) as a member of the Southeastern Conference (SEC). The Volunteers are one of the most storied programs in college football history, with a rich tradition of success and a passionate fan base.. History:. The Tennessee Volunteers football program was established in 1891.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Southeastern Conference]
+Action 2: Search[Southeastern Conference]
+Observation 2: The Southeastern Conference (SEC) is a collegiate athletic conference whose member institutions are located primarily in the South Central and Southeastern United States. Its 16 members include the flagship public universities of 12 states, 3 additional public land-grant universities, and 1 private research university. The conference is headquartered in Birmingham, Alabama. The SEC participates in the National Collegiate Athletic Association (NCAA) Division I in sports competitions. In football, it is part of the Football Bowl Subdivision (FBS), formerly known as Division I-A..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Southeastern Conference]
+Action 2: Search[Southeastern Conference]
+Observation 2: The Southeastern Conference (SEC) is a collegiate athletic conference whose member institutions are located primarily in the Southern United States. The SEC is a part of the National Collegiate Athletic Association (NCAA) Division I, with its football programs competing in the Football Bowl Subdivision (FBS). Established in December 1932, the conference has grown to become one of the most prominent and competitive athletic conferences in the United States.. Member Institutions:. The SEC currently comprises 14 member universities, including:.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Birmingham]
+Action 3: Finish[Birmingham]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[headquarters]
+Action 3: Lookup[headquarters]
+Observation 3: The Southeastern Conference (SEC) is a collegiate athletic conference whose member institutions are located primarily in the Southern United States. The SEC is a part of the National Collegiate Athletic Association (NCAA) Division I, with its football programs competing in the Football Bowl Subdivision (FBS). Established in December 1932, the conference has grown to become one of the most prominent and competitive athletic conferences in the United States.. Member Institutions:. The SEC currently comprises 14 member universities, including:.
+
+
+
+INFO {'steps': 5, 'answer': 'Birmingham', 'gt_answer': 'Birmingham, Alabama', 'question_idx': 215, 'reward': False, 'em': False, 'f1': 0.6666666666666666}
+
+INFO Sum of rewards: 4 
+Number of steps: 9 
+Average reward: 0.4444444444444444 
+Average time 15.16597933239407
+
+-------------------------------------------------------
+

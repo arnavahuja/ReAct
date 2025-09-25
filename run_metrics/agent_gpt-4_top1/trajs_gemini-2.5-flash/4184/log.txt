@@ -1,0 +1,56 @@
+INFO 4184 Question: Which documentary was filmed first, Almost Sunrise or Hail! Hail! Rock 'n' Roll?
+
+STEP: 1
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 1: None
+Action 1: Search[Almost Sunrise]
+Observation 1: Almost Sunrise is a 2016 American documentary film directed by Michael Collins and produced by Marty Syjuco. It recounts the story of two Iraq veterans, Tom Voss and Anthony Anderson, who, in an attempt to put their combat experience behind them, embark on a 2,700-mile trek on foot across America. It made its world premiere on the opening night of the Telluride Mountainfilm Festival on 27 May 2016.[1] After its theatrical run, it aired on the PBS series POV.. Tom Voss and Anthony Anderson are two troubled veterans of the Iraq War. Tom, haunted by his experiences in Iraq, struggles to find peace within himself.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Almost Sunrise]
+Action 1: Search[Almost Sunrise]
+Observation 1: **Almost Sunrise** is a 2016 American documentary film directed by Michael Collins and produced by Marty Syjuco. The film follows the journey of two Iraq War veterans, Tom Voss and Anthony Anderson, as they embark on a 2,700-mile walk across America to raise awareness about the invisible wounds of war, particularly moral injury and post-traumatic stress disorder (PTSD).. **Synopsis:**. The film opens with Tom Voss and Anthony Anderson, both struggling with.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Hail! Hail! Rock 'n' Roll]
+Action 2: Search[Hail! Hail! Rock 'n' Roll]
+Observation 2: Hail! Hail! Rock 'n' Roll is a 1987 American documentary film directed by Taylor Hackford that chronicles two 1986 concerts celebrating rock and roll musician Chuck Berry's 60th birthday. A soundtrack album was released in October 1987 on the MCA label. The name comes from a line in Berry's song "School Days".. The two concerts were held on October 16, 1986, at the Fox Theatre in St. Louis; among the artists performing with Berry were Linda Ronstadt, Keith Richards, Eric Clapton, Robert Cray, Etta James, Johnnie Johnson, Steve Jordan, Bobby Keys, Julian Lennon, and Joey Spampinato of NRBQ.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Hail! Hail! Rock 'n' Roll]
+Action 2: Search[Hail! Hail! Rock 'n' Roll]
+Observation 2: {{short description|1987 American documentary film}}. {{Infobox film. | name = Hail! Hail! Rock 'n' Roll. | image = Hail! Hail! Rock 'n' Roll.jpg. | caption = Theatrical release poster.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Hail! Hail! Rock 'n' Roll]
+Action 3: Finish[Hail! Hail! Rock 'n' Roll]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Hail! Hail! Rock 'n' Roll]
+Action 3: Finish[Hail! Hail! Rock 'n' Roll]
+Observation 3: {{short description|1987 American documentary film}}. {{Infobox film. | name = Hail! Hail! Rock 'n' Roll. | image = Hail! Hail! Rock 'n' Roll.jpg. | caption = Theatrical release poster.
+
+
+
+INFO {'steps': 5, 'answer': "Hail! Hail! Rock 'n' Roll", 'gt_answer': "Hail! Hail! Rock 'n' Roll", 'question_idx': 1785, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 17 
+Number of steps: 38 
+Average reward: 0.4473684210526316 
+Average time 21.165586923298083
+
+-------------------------------------------------------
+

@@ -1,0 +1,109 @@
+INFO 2727 Question: At what height does State Route 160 start?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[State Route 160]
+Action 1: Search[State Route 160]
+Observation 1: The following highways are numbered 160:. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us. HelpLearn to editCommunity portalRecent changesUpload fileSpecial pages. Donate. Create account.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[State Route 160]
+Action 1: Search[State Route 160]
+Observation 1: **State Route 160** (SR 160) is a state highway in the U.S. state of [State Name]. It runs for approximately [Length] miles from [Terminus A] in [City/County A] to [Terminus B] in [City/County B].. **Route Description:**. SR 160 begins at its western terminus at [Terminus A], an intersection with [Highway at Terminus A].
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Nevada State Route 160]
+Action 2: Search[Nevada State Route 160]
+Observation 2: State Route 160 (SR 160) is a state highway in southern Nevada, United States. It connects the southern Las Vegas Valley to U.S. Route 95 (US 95) northwest of the city via the Pahrump Valley. The southern part of the route sees heavy traffic, mostly due to Pahrump's continued growth as a Las Vegas bedroom community.. The route is known as Blue Diamond Road within the Las Vegas area, with the remainder referred to as the Pahrump Valley Highway..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[State Route 160 Nevada]
+Action 2: Search[State Route 160 Nevada]
+Observation 2: **State Route 160 (SR 160)** is a state highway in the U.S. state of Nevada. It runs for approximately 100 miles (160 km) from its western terminus at U.S. Route 95 (US 95) near Beatty to its eastern terminus at State Route 373 (SR 373) in Searchlight.. **Route Description:**.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Lookup[start]
+Action 3: Lookup[start]
+Observation 3: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[start]
+Action 3: Lookup[start]
+Observation 3: **State Route 160 (SR 160)** is a state highway in the U.S. state of Nevada. It runs for approximately 100 miles (160 km) from its western terminus at U.S. Route 95 (US 95) near Beatty to its eastern terminus at State Route 373 (SR 373) in Searchlight.. **Route Description:**.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[State Route 160 Nevada start]
+Action 4: Search[State Route 160 Nevada start]
+Observation 4: Could not find State Route 160 Nevada start. Similar: ['Nevada State Route 160', 'California State Route 160', 'U.S. Route 50 in Nevada', 'Panaca, Nevada', 'U.S. Route 95 in Nevada'].
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[elevation]
+Action 4: Lookup[elevation]
+Observation 4: State Route 160 (SR 160) is a state highway in southern Nevada, United States. It runs for 100.6 miles (161.9 km) from U.S. Route 95 (US 95) near Beatty to State Route 163 (SR 163) near Laughlin. The highway is a major east-west route through Nye and Clark counties, serving as a primary access to the towns of.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[State Route 160 Nevada termini]
+Action 5: Search[State Route 160 Nevada termini]
+Observation 5: Could not find State Route 160 Nevada termini. Similar: ['U.S. Route 50 in Nevada', 'U.S. Route 40', 'United States Numbered Highway System (redirect from U.S. Route)', 'List of county routes in Nassau County, New York', 'First transcontinental railroad (category Rail transportation in Nevada)'].
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Search[State Route 160 elevation]
+Action 5: Search[State Route 160 elevation]
+Observation 5: **State Route 160 (SR 160)** is a state highway in the U.S. state of Nevada. It runs for approximately 87 miles (140 km) from its western terminus at U.S. Route 95 (US 95) near Beatty to its eastern terminus at State Route 373 (SR 373) in Searchlight.. **Western Terminus:**.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Search[Nevada State Route 160 termini]
+Action 6: Search[Nevada State Route 160 termini]
+Observation 6: Could not find Nevada State Route 160 termini. Similar: ['U.S. Route 50 in Nevada', 'U.S. Route 40', 'United States Numbered Highway System (redirect from U.S. Route)', 'List of county routes in Nassau County, New York', 'First transcontinental railroad (category Rail transportation in Nevada)'].
+
+SIMULATION TRAJECTORY:
+ Thought 6: The previous search result did not specify the starting height of State Route 160. I need to find the elevation information for the western terminus. I should re-examine the previous search about State Route 160 Nevada.
+Action 6: Search[Nevada State Route 160]
+Observation 6: Nevada State Route 160 (SR 160) is a state highway in southern Nevada, United States.. **Eastern Terminus:** The eastern terminus of SR 160 is at **State Route 163** in Laughlin, Nevada.. **Western Terminus:** The western terminus of SR 160 is at **U.S. Route 95** near Indian Springs, Nevada..
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Search[Nevada State Route 160]
+Action 7: Search[Nevada State Route 160]
+Observation 7: State Route 160 (SR 160) is a state highway in southern Nevada, United States. It connects the southern Las Vegas Valley to U.S. Route 95 (US 95) northwest of the city via the Pahrump Valley. The southern part of the route sees heavy traffic, mostly due to Pahrump's continued growth as a Las Vegas bedroom community.. The route is known as Blue Diamond Road within the Las Vegas area, with the remainder referred to as the Pahrump Valley Highway..
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Search[State Route 163 Laughlin Nevada elevation]
+Action 7: Search[State Route 163 Laughlin Nevada elevation]
+Observation 7: **State Route 160 (SR 160)** is a state highway in the U.S. state of Nevada. It runs for approximately 123 miles (198 km) from its western terminus at U.S. Route 95 (US 95) near Beatty to its eastern terminus at State Route 373 (SR 373) in Laughlin.. **Route Description:**.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': '4145 ft', 'question_idx': 2577, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 16 
+Number of steps: 37 
+Average reward: 0.43243243243243246 
+Average time 12.136350837913719
+
+-------------------------------------------------------
+

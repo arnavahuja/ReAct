@@ -1,0 +1,84 @@
+INFO 1354 Question: How many years after Madrugada's final concert did Sunday Driver become popular?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Madrugada]
+Action 1: Search[Madrugada]
+Observation 1: Could not find [Madrugada]. Similar: ['Madrugada', 'Madrugada (band)', 'Madrugada (Madrugada album)', 'María Conchita Alonso (redirect from Amor De Madrugada)', 'Robert Burås (section Madrugada)'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Madrugada]
+Action 1: Search[Madrugada]
+Observation 1: **Madrugada**. Madrugada was a Norwegian rock band formed in Stokmarknes, Nordland, in 1992. The band consisted of vocalist and songwriter		**Øyvind "Vinni" Sauvik**, guitarist **Jon Andreas "Jonny" Sjo**, bassist **Frode "Fro" Jacobsen**, and drummer **Sivert Høyem**. Madrugada is widely regarded as one of Norway's most successful and influential rock bands, known for their dark, atmospheric.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Madrugada (band)]
+Action 2: Search[Madrugada (band)]
+Observation 2: Madrugada is a Norwegian alternative rock band formed in Stokmarknes in 1993, with a core lineup of Sivert Høyem (vocals), Robert Burås (guitar), and Frode Jacobsen (bass). Following Burås' death on 12 July 2007, Høyem and Jacobsen decided to finish recording what was to be their final album in the original lineup.[1] On 21 January 2008, the band released Madrugada and announced that they would split after one last tour. They performed their final concert on 15 November 2008.[2]. In June 2018, it was announced that Høyem, Jacobsen, and Lauvland Pettersen had reformed the band for a series of shows in 2019.. Madrugada's musical style is noted for "its bareboned blues-inspired alt-rock".[3] The band's name means "dawn" in Spanish and Portuguese..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[final concert]
+Action 2: Lookup[final concert]
+Observation 2: **Madrugada** was a Norwegian rock band formed in Stokmarknes in 1993. The band consisted of vocalist and songwriter Øyvind "Sivert" Høyem, guitarist Robert Burås, and drummer Jon Andreas "Jon" Skjærvik. They are widely regarded as one of Norway's most successful and influential rock bands.. **Musical Style and Influences:**. Madrugada's music is characterized by its atmospheric and often melancholic sound, blending.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Sunday Driver]
+Action 3: Search[Sunday Driver]
+Observation 3: Could not find [Sunday Driver]. Similar: ['Sunday Driver', 'The Raconteurs', 'Sunday Driver (band)', 'Panacea Records', 'Rockstar Games'].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[final concert]
+Action 3: Lookup[final concert]
+Observation 3: **Sunday Driver**. "Sunday Driver" is a song by the British rock band **The Stone Roses**, released as a single in 1995. It was the band's first new material in four years and was intended to be a preview of their highly anticipated second album, *Second Coming*.. **Background and Release:**. Following the immense success of their self-titled debut album in 1989, The Stone Roses faced significant legal battles and internal strife.
+
+
+
+STEP: 4
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 4: None
+Action 4: Search[Sunday Driver (band)]
+Observation 4: Sunday Driver are a Cambridge and London based band that fuses English folk and classical Indian influences. In 2009 they became popular within the UK steampunk scene.[1]. "Sunday Driver" are named after a gene (SYD) originally found in fruit flies.[2][3]. Sunday Driver were formed in the summer of 2000, though lead singer Chandrika "Chandy" Nath had earlier composed some of the songs whilst monitoring ice floes near the South Pole, during a field trip in Antarctica, collecting data for the British Antarctic Survey.[4]. An Arts Council grant back in 2004 paid for training workshops with renowned sitarist Baluji Shrivastav.[2].
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[Sunday Driver became popular before Madrugada's final concert.]
+Action 4: Finish[Sunday Driver became popular before Madrugada's final concert.]
+Observation 4: **Sunday Driver** is an American psychedelic rock band formed in Los Angeles, California, in 1998. The band is known for its blend of vintage psychedelic sounds, driving rhythms, and often ethereal vocals.. **Formation and Early Years:**. Sunday Driver was founded by guitarist and vocalist **Robbie Waldman** and drummer **Kevin "Kevvy" Kelleher**. They were soon joined by bassist **Chris "Chrissy" Gentry**.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Finish[1 year]
+Action 5: Finish[1 year]
+Observation 5: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Lookup[popular]
+Action 5: Lookup[popular]
+Observation 5: **Sunday Driver** is an American psychedelic rock band formed in Los Angeles, California, in 1998. The band is known for its blend of vintage psychedelic sounds, driving rhythms, and often ethereal vocals.. **Formation and Early Years:**. Sunday Driver was founded by guitarist and vocalist **Robbie Waldman** and drummer **Kevin "Kevvy" Kelleher**. They were soon joined by bassist **Chris "Chrissy" Gentry**.
+
+
+
+INFO {'steps': 9, 'answer': '1 year', 'gt_answer': 'one', 'question_idx': 2518, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 2 
+Number of steps: 12 
+Average reward: 0.16666666666666666 
+Average time 9.860302905241648
+
+-------------------------------------------------------
+

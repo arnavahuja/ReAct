@@ -1,0 +1,81 @@
+INFO 5930 Question: What is the subsidiary of the record company who released "Love Incredible?"
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search["Love Incredible"]
+Action 1: Search["Love Incredible"]
+Observation 1: "Love Incredible" is a song by Norwegian DJ and producer Cashmere Cat, featuring American singer Camila Cabello. It is Cabello's first solo single since leaving the girl group Fifth Harmony. The electropop and R&B-pop song was released on February 17, 2017, through Interscope Records and Mad Love as the third single from Cashmere Cat's debut studio album, 9 (2017).. In May 2016, Camila Cabello and Benny Blanco spent time in a recording studio, where they recorded "Love Incredible".[1] The song was leaked on January 30, 2017, and is Cabello's first solo single since leaving Fifth Harmony in December 2016.[2][3]. Musically, "Love Incredible" is an electropop[4] and R&B-pop song,[5] which contains elements of dance.[3] The song begins mellow with Cabello using a high vocal register, accompanied by synthesizers[4][5][6] that pick up with a thumping drumbeat.[2][3] The music is built around a grinding electronic dance music chorus, where Cabello sings over glassy keyboards and a muted bassline,[7] "This love's incredible, credible / Have a little mercy on me, baby / You got me wanting more, wanting more / Of your love".[8].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search["Love Incredible"]
+Action 1: Search["Love Incredible"]
+Observation 1: "Love Incredible" is a song by Norwegian DJ and record producer Cashmere Cat featuring American singer Camila Cabello. It was released on February 16, 2017, as a single from Cashmere Cat's debut studio album, "9". The song is a pop and electronic track that received positive reviews from music critics for its production and Cabello's vocals. "Love Incredible" charted in several countries, including the United States, where it peaked at number 38 on.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Mad Love Records]
+Action 2: Search[Mad Love Records]
+Observation 2: Benjamin Joseph Levin (born March 8, 1988), known professionally as Benny Blanco (stylized in all lowercase), is an American record producer and songwriter. He is the recipient of the 2013 Hal David Starlight Award from the Songwriters Hall of Fame.[3] Blanco has also won five BMI Songwriter of the Year Awards, won the 2017 iHeartRadio Producer of the Year Award, and received eleven Grammy Award nominations.[4]. He was initially mentored by Dr. Luke, who signed him to his production company Kasz Money Productions. Blanco was thereafter credited on various productions with Luke from 2008 to the mid-2010s.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[record company]
+Action 2: Lookup[record company]
+Observation 2: Mad Love Records is an independent record label based in Los Angeles, California. The label was founded in 2015 by music industry veterans with the goal of supporting and promoting emerging artists in various genres. Mad Love Records has released music from a diverse range of artists and has gained a reputation for its commitment to artist development and creative freedom. The label has also been involved in organizing live events and music showcases to further support its roster of talent..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Lookup[Mad Love Records]
+Action 3: Lookup[Mad Love Records]
+Observation 3: (Result 1 / 2) Mad Love Records is an independent record label based in Los Angeles, California.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[subsidiary]
+Action 3: Lookup[subsidiary]
+Observation 3: Mad Love Records is an independent record label based in Los Angeles, California. The label was founded in 2015 by music industry veterans with the goal of supporting and promoting emerging artists in various genres. Mad Love Records has released music from a diverse range of artists and has gained a reputation for its commitment to artist development and creative freedom. The label has also been involved in organizing live events and music showcases to further support its roster of talent..
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Interscope Records]
+Action 4: Search[Interscope Records]
+Observation 4: Interscope Records is an American record label based in Santa Monica, California, owned by Universal Music Group through its Interscope Geffen A&M imprint. Founded in late 1990 by Jimmy Iovine and Ted Field as a $20 million joint venture with Atlantic Records of Warner Music Group and Interscope Communications,[2] it differed from most record labels by letting A&R staff control decisions and allowing artists and producers full creative control.[3] Interscope's first hit records arrived in under a year, and it achieved profitability in 1993.[4] Chair and CEO until May 2014, Iovine was succeeded by John Janick.[5]. In 1992, Interscope acquired the exclusive rights to market and distribute releases from hardcore hip hop label Death Row Records, a decision that ultimately put the label at the center of the mid-1990s gangsta rap controversy. As a result, Time Warner, then the parent of Warner Music Group, severed ties with Interscope by selling its 50 percent stake back to Field and Iovine for $115 million in 1995. In 1996, 50% of the label was acquired for a reported $200 million by MCA Inc.,[4][6][7] later known as Universal Music Group..
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[Interscope Records]
+Action 4: Search[Interscope Records]
+Observation 4: Interscope Records is an American record label owned by Universal Music Group through its Interscope Geffen A&M imprint. Founded in 1990 by Jimmy Iovine and Ted Field, the label has been home to artists across various genres, including hip hop, pop, rock, and electronic music. Interscope has released music by prominent artists such as Eminem, Lady Gaga, Kendrick Lamar, U2, and Billie Eilish. The label has been known for its successful.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Finish[Mad Love Records]
+Action 5: Finish[Mad Love Records]
+Observation 5: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Finish[Interscope Records]
+Action 5: Finish[Interscope Records]
+Observation 5: Interscope Records is an American record label owned by Universal Music Group through its Interscope Geffen A&M imprint. Founded in 1990 by Jimmy Iovine and Ted Field, the label has been home to artists across various genres, including hip hop, pop, rock, and electronic music. Interscope has released music by prominent artists such as Eminem, Lady Gaga, Kendrick Lamar, U2, and Billie Eilish. The label has been known for its successful.
+
+
+
+INFO {'steps': 9, 'answer': 'Mad Love Records', 'gt_answer': 'Vivendi S.A.', 'question_idx': 4617, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 10 
+Number of steps: 21 
+Average reward: 0.47619047619047616 
+Average time 32.03441454115368
+
+-------------------------------------------------------
+

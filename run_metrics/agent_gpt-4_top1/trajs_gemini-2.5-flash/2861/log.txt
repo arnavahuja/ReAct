@@ -1,0 +1,109 @@
+INFO 2861 Question: Lucy Pevensie is a character in the series of fantasy novels that have sold more than how many copies?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Lucy Pevensie]
+Action 1: Search[Lucy Pevensie]
+Observation 1: Lucy Pevensie is a fictional character in C. S. Lewis's The Chronicles of Narnia series. She is the youngest of the four Pevensie children and the first to find the Wardrobe entrance to Narnia in The Lion, the Witch and the Wardrobe. Of all the Pevensie children, Lucy is the closest to Aslan.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Lucy Pevensie]
+Action 1: Search[Lucy Pevensie]
+Observation 1: **Lucy Pevensie** is a fictional character in C. S. Lewis's *The Chronicles of Narnia*. She is the youngest of the four Pevensie children and the first to discover the magical world of Narnia. Lucy is a central figure throughout the series, appearing in *The Lion, the Witch and the Wardrobe*, *Prince Caspian*, *The Voyage of the Dawn Treader*, and *The Last Battle*.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[The Chronicles of Narnia]
+Action 2: Search[The Chronicles of Narnia]
+Observation 2: The Chronicles of Narnia is a series of seven portal fantasy novels by British author C. S. Lewis. Illustrated by Pauline Baynes and originally published between 1950 and 1956, the series is set in the fictional realm of Narnia, a fantasy world of magic, mythical beasts, and talking animals. It narrates the adventures of various children who play central roles in the unfolding history of the Narnian world. Except in The Horse and His Boy, the protagonists are all children from the real world who are magically transported to Narnia, where they are sometimes called upon by the lion Aslan to protect Narnia from evil.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[The Chronicles of Narnia]
+Action 2: Search[The Chronicles of Narnia]
+Observation 2: **The Chronicles of Narnia** is a series of seven high fantasy novels by British author C. S. Lewis. Illustrated by Pauline Baynes and originally published between 1950 and 1956, *The Chronicles of Narnia* has been adapted several times, complete or in part, for radio, television, the stage, and film.. **Overview:**.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Lookup[sold]
+Action 3: Lookup[sold]
+Observation 3: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[sold]
+Action 3: Lookup[sold]
+Observation 3: **The Chronicles of Narnia** is a series of seven high fantasy novels by British author C. S. Lewis. Illustrated by Pauline Baynes and originally published between 1950 and 1956, *The Chronicles of Narnia* has been adapted several times, complete or in part, for radio, television, the stage, and film.. **Overview:**.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[The Chronicles of Narnia sales]
+Action 4: Search[The Chronicles of Narnia sales]
+Observation 4: Could not find The Chronicles of Narnia sales. Similar: ['The Chronicles of Narnia: The Lion, the Witch and the Wardrobe', 'The Chronicles of Narnia: Prince Caspian', 'Food in The Chronicles of Narnia', 'The Lion, the Witch and the Wardrobe', 'Will Poulter (category Alumni of the University of Bristol)'].
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[copies]
+Action 4: Lookup[copies]
+Observation 4: The Chronicles of Narnia, a series of seven fantasy novels by C.S. Lewis, has achieved remarkable commercial success since its initial publication. While precise, consistently updated global sales figures are challenging to pinpoint definitively across all editions and languages, the series is widely recognized as one of the best-selling book series of all time.. **Key Sales Information:**. *   **Estimated Global Sales:** Various sources, including publishers and literary analyses, estimate the total worldwide sales of *The Chronicles of N.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[C. S. Lewis]
+Action 5: Search[C. S. Lewis]
+Observation 5: Clive Staples Lewis (29 November 1898 – 22 November 1963) was a British writer, literary scholar and Anglican lay theologian. He held academic positions in English literature at both Magdalen College, Oxford (1925–1954), and Magdalene College, Cambridge (1954–1963). He is best known as the author of The Chronicles of Narnia, but he is also noted for his other works of fiction, such as The Screwtape Letters and The Space Trilogy, and for his non-fiction Christian apologetics, including Mere Christianity, Miracles and The Problem of Pain.. Lewis was a close friend of J. R. R. Tolkien, the author of The Lord of the Rings.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Lookup[Estimated Global Sales]
+Action 5: Lookup[Estimated Global Sales]
+Observation 5: **Clive Staples Lewis** (29 November 1898 – 22 November 1963) was a British writer and lay theologian. He held academic positions at both Oxford University (Fellow and Tutor in English Literature at Magdalen College, 1925–1954) and Cambridge University (Professor of Medieval and Renaissance Literature, 1954–1963). He is best known for his works of fiction, especially *The.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Lookup[sales]
+Action 6: Lookup[sales]
+Observation 6: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Lookup[The Chronicles of Narnia]
+Action 6: Lookup[The Chronicles of Narnia]
+Observation 6: **Clive Staples Lewis** (29 November 1898 – 22 November 1963) was a British writer and lay theologian. He held academic positions at both Oxford University (Fellow and Tutor in English Literature at Magdalen College, 1925–1954) and Cambridge University (Professor of Medieval and Renaissance Literature, 1954–1963). He is best known for his works of fiction, especially *The.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Search[The Chronicles of Narnia book sales]
+Action 7: Search[The Chronicles of Narnia book sales]
+Observation 7: Could not find The Chronicles of Narnia book sales. Similar: ['The Chronicles of Narnia: The Lion, the Witch and the Wardrobe', 'The Chronicles of Narnia: Prince Caspian', 'Food in The Chronicles of Narnia', 'The Lion, the Witch and the Wardrobe', 'List of best-selling books'].
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Search[The Chronicles of Narnia book sales]
+Action 7: Search[The Chronicles of Narnia book sales]
+Observation 7: The Chronicles of Narnia, a series of seven fantasy novels by C.S. Lewis, has achieved remarkable commercial success since its initial publication. While precise, continuously updated sales figures are challenging to pinpoint due to the long publication history and various publishers, available data and industry estimates paint a picture of a highly successful and enduring literary franchise.. **Overall Sales Estimates:**. *   **Global Sales:** Estimates for the total global sales of *The Chronicles of Narnia* vary, but generally fall within.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': '100 million', 'question_idx': 4789, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 10 
+Number of steps: 18 
+Average reward: 0.5555555555555556 
+Average time 32.20081660482619
+
+-------------------------------------------------------
+

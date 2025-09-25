@@ -1,0 +1,39 @@
+INFO 1267 Question: Which brother of John F. Kennedy had a memoir released September 14, 2009?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I suspect the memoir is "True Compass," so I should search for that title to confirm the author (JFK’s brother) and the release date.
+Action 1: Search[True Compass]
+Observation 1: True Compass is the posthumous memoir of United States Senator Edward M. Kennedy that was released September 14, 2009, by Twelve, a division of the Hachette book group.[1]. Ted Kennedy signed up to do the book in the autumn of 2007.[2]  Kennedy received a reported $8 million advance for the work.[3]. It was written with the help of Pulitzer Prize-winning collaborator Ron Powers and was based on contemporaneous notes taken by Kennedy throughout his life, hours of recordings for an oral history project, and long interviews.[1][4][5]  Despite the collaboration, Kennedy literary representative Robert Barnett said that "every word" in the work was Kennedy's.[5]  Kennedy's editor, Jonathan Karp, later said that "it was very clear from the outset that he was setting out to write a work of history, a work of personal history, and that he wanted this book very much to be a legacy."[2] After he received his brain cancer diagnosis in 2008, Kennedy halted work on the book for a while, but then returned to it with renewed vigor and as one of his top priorities.[2] He died the day a final copy of his book was delivered to his Hyannis Port, Massachusetts home.[2]. The work was originally intended for publication in 2010, then moved up to October 2009, and then finally moved up to September 2009, less than a month after Kennedy's death.[5]  A Twelve spokesperson said, "The book was completed earlier this summer.
+
+SIMULATION TRAJECTORY:
+ Thought 1: I should check which of John F. Kennedy’s brothers published a memoir on September 14, 2009; I recall Ted Kennedy’s memoir “True Compass” was released around then, so I’ll verify on his page.
+Action 1: Search[Ted Kennedy]
+Observation 1: "True Compass" is a memoir written by Edward M. Kennedy, an American politician who served as a United States Senator from Massachusetts for over 40 years. The book was published in 2009, shortly after Kennedy's death, and provides an intimate look at his life and career in politics. In "True Compass," Kennedy reflects on his family, his upbringing, his political achievements, as well as his personal struggles and challenges. The memoir offers insights into Kennedy's values, beliefs, and the.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The search confirms that True Compass is the memoir of Edward M. Kennedy, released September 14, 2009; he is John F. Kennedy’s brother.
+Action 2: Finish[Edward M. Kennedy]
+Observation 2: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 2: I should confirm the exact release date within the True Compass article to ensure it was September 14, 2009.
+Action 2: Lookup[September 14, 2009]
+Observation 2: "True Compass" is a memoir written by Edward M. Kennedy, an American politician who served as a United States Senator from Massachusetts for over 40 years. The book was published in 2009, shortly after Kennedy's death, and provides an intimate look at his life and career in politics. In "True Compass," Kennedy reflects on his family, his upbringing, his political achievements, as well as his personal struggles and challenges. The memoir offers insights into Kennedy's values, beliefs, and the.
+
+
+
+INFO {'steps': 3, 'answer': 'Edward M. Kennedy', 'gt_answer': 'Ted Kennedy', 'question_idx': 6416, 'reward': False, 'em': False, 'f1': 0.4}
+
+INFO Sum of rewards: 1 
+Number of steps: 2 
+Average reward: 0.5 
+Average time 43.96012103557587
+
+-------------------------------------------------------
+

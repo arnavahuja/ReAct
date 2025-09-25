@@ -1,0 +1,53 @@
+INFO 2316 Question: Are Columbia University and University of Colorado both private universities?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Columbia University]
+Action 1: Search[Columbia University]
+Observation 1: Columbia University in the City of New York,[8] commonly referred to as Columbia University, is a private Ivy League research university in New York City. It was first established in 1754 as King's College by royal charter under George II of Great Britain on the grounds of Trinity Church in Manhattan.. It was renamed Columbia College in 1784 following the American Revolution, and in 1787 was placed under a private board of trustees headed by former students Alexander Hamilton and John Jay. In 1896, the campus was moved to its current location in Morningside Heights and renamed Columbia University. It is the oldest institution of higher education in New York and the fifth-oldest in the United States..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Columbia University]
+Action 1: Search[Columbia University]
+Observation 1: Columbia University is an Ivy League research university located in New York City, United States. Founded in 1754 as King's College by royal charter of George II of Great Britain, it is the fifth-oldest institution of higher education in the United States. Columbia is one of the nine colonial colleges established prior to the American Revolution and is considered one of the most prestigious universities in the world.. The university's main campus is situated in the Morningside Heights neighborhood of Manhattan, covering approximately 36.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[University of Colorado]
+Action 2: Search[University of Colorado]
+Observation 2: The University of Colorado (CU)[4] is a system of public universities in Colorado. It consists of four institutions: the University of Colorado Boulder, the University of Colorado Colorado Springs, the University of Colorado Denver, and the University of Colorado Anschutz Medical Campus. It is governed by an elected nine-member board of regents.. CU Boulder is the flagship university of the University of Colorado System in Boulder, Colorado. Founded in 1876, the university has more than 39,000 undergraduate and graduate students, making it the largest university in Colorado by enrollment.[5] It offers more than 2,500 courses in more than 150 areas of study through its nine colleges and schools.[citation needed].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[private]
+Action 2: Lookup[private]
+Observation 2: The University of Colorado (CU) is a public research university system in the state of Colorado, United States. Established in 1876, shortly before Colorado achieved statehood, it is one of the oldest institutions of higher education in the region. The university system comprises four campuses: the University of Colorado Boulder, the University of Colorado Denver, the University of Colorado Colorado Springs, and the University of Colorado Anschutz Medical Campus in Aurora.. The flagship campus, University of Colorado Boulder, is renowned for its.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[No]
+Action 3: Finish[No]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[No]
+Action 3: Finish[No]
+Observation 3: The University of Colorado (CU) is a public research university system in the state of Colorado, United States. Established in 1876, shortly before Colorado achieved statehood, it is one of the oldest institutions of higher education in the region. The university system comprises four campuses: the University of Colorado Boulder, the University of Colorado Denver, the University of Colorado Colorado Springs, and the University of Colorado Anschutz Medical Campus in Aurora.. The flagship campus, University of Colorado Boulder, is renowned for its.
+
+
+
+INFO {'steps': 5, 'answer': 'No', 'gt_answer': 'no', 'question_idx': 3673, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 3 
+Number of steps: 7 
+Average reward: 0.42857142857142855 
+Average time 17.052988154547556
+
+-------------------------------------------------------
+

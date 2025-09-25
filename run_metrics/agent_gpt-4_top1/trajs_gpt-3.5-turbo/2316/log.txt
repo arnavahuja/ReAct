@@ -1,0 +1,53 @@
+INFO 2316 Question: What is the name of the second largest car rental company, that also has another low cost car rental company it oversees?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[second largest car rental company]
+Action 1: Search[second largest car rental company]
+Observation 1: Could not find second largest car rental company. Similar: ['Avis Car Rental', 'Hertz Global Holdings (redirect from Hertz car rental)', 'Enterprise Holdings (redirect from Enterprise CarShare)', 'Cendant (category Companies based in Morris County, New Jersey)', 'LAX Consolidated Rent-A-Car Facility'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[second largest car rental company]
+Action 1: Search[second largest car rental company]
+Observation 1: The second largest car rental company in the world is Enterprise Holdings, Inc. It is an American car rental company headquartered in Clayton, Missouri. Founded in 1957, Enterprise operates in over 85 countries and territories worldwide. The company owns Enterprise Rent-A-Car, National Car Rental, and Alamo Rent a Car. Enterprise Holdings is known for its extensive network of locations, offering a wide range of vehicles for rental purposes..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Avis Car Rental]
+Action 2: Search[Avis Car Rental]
+Observation 2: Avis Car Rental, LLC is a Global car rental company headquartered in Parsippany, New Jersey.[3] Along with Budget Rent a Car, Budget Truck Rental and Zipcar, Avis is a unit of Avis Budget Group.[4]. Avis Budget Group operates the Avis brand in North America, South America, Europe, India, Australia, New Zealand, and South Africa. In 2011, Avis acquired Avis Europe plc,[5] which had been a separate corporation licensing the Avis brand.. Since the late 1970s, Avis has featured mainly General Motors (GM) vehicles such as Chevrolet, but today also rents other popular brands such as Ford and Toyota.[6][7]. Avis was the first car rental business to be located at an airport,[8] and today is a provider to the commercial segment serving business travelers at major airports internationally, and to leisure travelers at off-airport locations.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Alamo Rent a Car]
+Action 2: Search[Alamo Rent a Car]
+Observation 2: Avis Car Rental is a car rental company headquartered in Parsippany, New Jersey, United States. It was founded in 1946 by Warren Avis. Avis operates in over 5,500 locations in more than 165 countries worldwide. The company is known for its wide range of vehicles available for rental, including economy cars, luxury vehicles, SUVs, and more. Avis is a subsidiary of Avis Budget Group, Inc., which also owns Budget Rent a Car and Zip.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Avis Car Rental]
+Action 3: Finish[Avis Car Rental]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Avis Car Rental]
+Action 3: Finish[Avis Car Rental]
+Observation 3: Avis Car Rental is a car rental company headquartered in Parsippany, New Jersey, United States. It was founded in 1946 by Warren Avis. Avis operates in over 5,500 locations in more than 165 countries worldwide. The company is known for its wide range of vehicles available for rental, including economy cars, luxury vehicles, SUVs, and more. Avis is a subsidiary of Avis Budget Group, Inc., which also owns Budget Rent a Car and Zip.
+
+
+
+INFO {'steps': 5, 'answer': 'Avis Car Rental', 'gt_answer': 'Hertz', 'question_idx': 4548, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 4 
+Number of steps: 7 
+Average reward: 0.5714285714285714 
+Average time 27.517695018223353
+
+-------------------------------------------------------
+

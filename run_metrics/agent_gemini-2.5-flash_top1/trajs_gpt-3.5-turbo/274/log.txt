@@ -1,0 +1,109 @@
+INFO 274 Question: Who was the king of England who became king after the death of his younger brother and whose reign was chaotic due to rivalry with relatives until his own death a few decades later?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[King of England]
+Action 1: Search[King of England]
+Observation 1: The monarchy of the United Kingdom, commonly referred to as the British monarchy, is the form of government used by the United Kingdom by which a hereditary monarch reigns as the head of state, with their powers regulated by the British constitution. The term may also refer to the role of the royal family within the UK's broader political structure. The monarch since 8 September 2022 is King Charles III, who ascended the throne on the death of Queen Elizabeth II, his mother.. The monarch and their immediate family undertake various official, ceremonial, diplomatic and representational duties. Although formally the monarch has authority over the government—which is known as "His/Her Majesty's Government"—this power may only be used according to laws enacted in Parliament and within constraints of convention and precedent.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[King of England younger brother chaotic reign]
+Action 1: Search[King of England younger brother chaotic reign]
+Observation 1: The King of England is a title held by the monarch of England. The current monarch is King Charles III, who ascended to the throne on September 8, 2022, following the death of his mother, Queen Elizabeth II. The monarchy of England has a long history dating back to the early medieval period. The King of England is the head of state and holds various ceremonial and constitutional roles. The monarch's powers are largely symbolic and ceremonial, with the day-to-day governance of the country.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[List of English monarchs]
+Action 2: Search[List of English monarchs]
+Observation 2: This list of kings and reigning queens of the Kingdom of England begins with Alfred the Great, who initially ruled Wessex, one of the seven Anglo-Saxon kingdoms which later made up modern England. Alfred styled himself king of the Anglo-Saxons from about 886, and while he was not the first king to claim to rule all of the English, his rule represents the start of the first unbroken line of kings to rule the whole of England, the House of Wessex.[1]. Arguments are made for a few different kings thought to have controlled enough Anglo-Saxon kingdoms to be deemed the first king of England. For example, Offa of Mercia and Egbert of Wessex are sometimes described as kings of England by popular writers, but it is no longer the majority view of historians that their wide dominions were part of a process leading to a unified England. The historian Simon Keynes states, for example, "Offa was driven by a lust for power, not a vision of English unity; and what he left was a reputation, not a legacy."[2] That refers to a period in the late 8th century, when Offa achieved a dominance over many of the kingdoms of southern England, but it did not survive his death in 796.[3][4] Likewise, in 829 Egbert of Wessex conquered Mercia, but he soon lost control of it..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[List of English monarchs]
+Action 2: Search[List of English monarchs]
+Observation 2: The list of English monarchs begins with the Anglo-Saxon kings of England, followed by the Norman conquest in 1066. The monarchs of England have included notable figures such as William the Conqueror, Henry VIII, Elizabeth I, and Victoria. The current monarch is Queen Elizabeth II, who has reigned since 1952. For more detailed information, you can visit the Wikipedia page on List of English monarchs..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Lookup[younger brother]
+Action 3: Lookup[younger brother]
+Observation 3: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[reigns of English kings with succession issues]
+Action 3: Search[reigns of English kings with succession issues]
+Observation 3: The list of English monarchs begins with the Anglo-Saxon kings of England, followed by the Norman conquest in 1066. The monarchs of England have included notable figures such as William the Conqueror, Henry VIII, Elizabeth I, and Victoria. The current monarch is Queen Elizabeth II, who has reigned since 1952. For more detailed information, you can visit the Wikipedia page on List of English monarchs..
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[king died younger brother]
+Action 4: Search[king died younger brother]
+Observation 4: Could not find king died younger brother. Similar: ['A. D. King', 'Sverker the Younger', 'Charles the Younger', 'King Ai of Zhou', 'Æthelberht, King of Wessex'].
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[King of England death of younger brother]
+Action 4: Search[King of England death of younger brother]
+Observation 4: I'm sorry, but I cannot provide verbatim text from Wikipedia or any other copyrighted sources. However, I can provide you with a summary or information on the topic if you would like. Just let me know how I can assist you further..
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[King John of England]
+Action 5: Search[King John of England]
+Observation 5: John (24 December 1166 – 19 October 1216) was King of England from 1199 until his death in 1216. He lost the Duchy of Normandy and most of his other French lands to King Philip II of France, resulting in the collapse of the Angevin Empire and contributing to the subsequent growth in power of the French Capetian dynasty during the 13th century. The baronial revolt at the end of John's reign led to the sealing of Magna Carta, a document considered a foundational milestone in English and later British constitutional history.. John was the youngest son of King Henry II of England and Duchess Eleanor of Aquitaine. He was nicknamed John Lackland (Norman: Jean sans Terre, lit. 'John without land')[2] because, as a younger son, he was not expected to inherit significant lands.[3] He became Henry's favourite child following the failed revolt of 1173–1174 by his brothers Henry the Young King, Richard, and Geoffrey against their father.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Search[English kings chaotic reign]
+Action 5: Search[English kings chaotic reign]
+Observation 5: King John of England, also known as John Lackland, was the King of England from 1199 until his death in 1216. He was the youngest son of King Henry II and Eleanor of Aquitaine. John is best known for his role in the signing of the Magna Carta in 1215, which limited the power of the monarchy and established certain legal rights for the nobility.. During his reign, King John faced numerous challenges, including conflicts with his barons,.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Search[Edward V of England]
+Action 6: Search[Edward V of England]
+Observation 6: Edward V (2 November 1470 – c. mid-1483)[1][2] was King of England from 9 April to 25 June 1483. He succeeded his father, Edward IV, upon the latter's death. Edward V was never crowned, and his brief reign was dominated by the influence of his uncle and Lord Protector, the Duke of Gloucester, who deposed him to reign as King Richard III; this was confirmed by the Titulus Regius, an Act of Parliament which denounced any further claims through Edward IV's heirs by delegitimising Edward V and all of his siblings. This was later repealed by Henry VII, who subsequently married Elizabeth of York, Edward V's eldest sister.. Edward V and his younger brother, Richard of Shrewsbury, are known as the Princes in the Tower.
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Search[Edward V]
+Action 6: Search[Edward V]
+Observation 6: Edward V (2 November 1470 – disappeared 1483) was King of England from 9 April 1483 until his deposition on 26 June of the same year. He was the eldest surviving son of King Edward IV and his queen consort, Elizabeth Woodville. Edward V was never crowned and his brief reign was dominated by the influence of his uncle, Richard, Duke of Gloucester, who was later crowned as Richard III. Edward V and his younger brother, Richard of Shrew.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Search[Henry I of England]
+Action 7: Search[Henry I of England]
+Observation 7: Henry I (c. 1068 – 1 December 1135), also known as Henry Beauclerc, was King of England from 1100 to his death in 1135. He was the fourth son of William the Conqueror and was educated in Latin and the liberal arts. On William's death in 1087, Henry's elder brothers Robert Curthose and William Rufus inherited Normandy and England, respectively, thereby leaving Henry landless. He subsequently purchased the County of Cotentin in western Normandy from Robert, but his brothers deposed him in 1091. He gradually rebuilt his power base in the Cotentin and allied himself with William Rufus against Robert..
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Search[Richard III of England]
+Action 7: Search[Richard III of England]
+Observation 7: Henry I (c. 1068 – 1 December 1135) was King of England from 1100 to his death in 1135. He was the fourth son of William the Conqueror and succeeded his elder brother William II as King of England in 1100. Henry's reign was marked by political stability and economic prosperity. He implemented administrative reforms and strengthened the royal government, earning him the epithet "Henry Beauclerc." Henry I married Matilda of Scotland and.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'Stephen of Blois', 'question_idx': 7075, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 6 
+Number of steps: 18 
+Average reward: 0.3333333333333333 
+Average time 18.850125935342575
+
+-------------------------------------------------------
+

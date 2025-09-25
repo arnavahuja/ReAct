@@ -1,0 +1,53 @@
+INFO 3112 Question: Which beverage is ignited prior to consumption, Flaming beverage or Blue Hawaii
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Flaming beverage]
+Action 1: Search[Flaming beverage]
+Observation 1: A flaming drink is a cocktail or other mixed drink that contains flammable, high-proof alcohol, which is ignited before consumption. The alcohol may be an integral part of the drink, or it may be floated as a thin layer across the top of the drink. The flames are mostly for dramatic flair. However, in combination with certain ingredients, the flavor of the drink is altered. Some flavors are enhanced, and the process may impart a toasted flavor to some drinks..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Flaming beverage]
+Action 1: Search[Flaming beverage]
+Observation 1: A **flaming beverage** is a drink that contains a flammable alcoholic component, which is ignited just before consumption. The act of flaming a drink is primarily for theatrical effect, enhancing the visual appeal and often the aroma of the beverage. While some flaming beverages are served as shots, others are cocktails or even punches.. ### History and Cultural Significance. The practice of flaming alcoholic beverages has a long history, though its exact origins are difficult to pinpoint.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Blue Hawaii]
+Action 2: Search[Blue Hawaii]
+Observation 2: Blue Hawaii is a 1961 American musical romantic comedy drama film directed by Norman Taurog and starring Elvis Presley. The screenplay by Hal Kanter was nominated by the Writers Guild of America in 1962 in the category of Best Written American Musical.[3] The film opened at number two in box-office receipts for that week and, despite mixed reviews from critics, finished as the 10th top-grossing film of 1961 and 14th for 1962 in the Variety national box office survey, earning $5 million.[4] The film won a fourth place prize Laurel Award in the category of Top Musical of 1961.[5]. Having been released from the Army, Chadwick "Chad" Gates is eager to return to Hawaii with his surfboard, his native Hawaiian beach friends, and his mixed-race girlfriend Maile Duval. His mother, Sarah Lee, wants him to follow in his father's footsteps and take over management at the Great Southern Hawaiian Fruit Company, the family business, but Chad is reluctant and goes to work as a tour guide at his girlfriend's agency. His slightly scatter-brained boss is Mr.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Blue Hawaii]
+Action 2: Search[Blue Hawaii]
+Observation 2: **Blue Hawaii**. **Blue Hawaii** can refer to several distinct entities:. **1. Film:**. *   **Blue Hawaii (film)**: A 1961 American musical romantic comedy film starring Elvis Presley.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Flaming beverage]
+Action 3: Finish[Flaming beverage]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Blue Hawaii (beverage)]
+Action 3: Search[Blue Hawaii (beverage)]
+Observation 3: **Blue Hawaii**. **Blue Hawaii** can refer to several distinct entities:. **1. Film:**. *   **Blue Hawaii (film)**: A 1961 American musical romantic comedy film starring Elvis Presley.
+
+
+
+INFO {'steps': 5, 'answer': 'Flaming beverage', 'gt_answer': 'Flaming beverages', 'question_idx': 4649, 'reward': False, 'em': False, 'f1': 0.5}
+
+INFO Sum of rewards: 13 
+Number of steps: 31 
+Average reward: 0.41935483870967744 
+Average time 21.883146424447336
+
+-------------------------------------------------------
+

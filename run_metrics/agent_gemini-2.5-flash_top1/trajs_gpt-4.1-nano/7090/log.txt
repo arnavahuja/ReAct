@@ -1,0 +1,130 @@
+INFO 7090 Question: Minor league baseball games that were played between the rivalling teams of the Sooners and the Cowboys were played at the stadium formerly known as what?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Sooners and Cowboys baseball]
+Action 1: Search[Sooners and Cowboys baseball]
+Observation 1: Could not find Sooners and Cowboys baseball. Similar: ['Oklahoma Sooners', 'Bedlam Series (category Oklahoma State Cowboys and Cowgirls)', 'Troy Aikman (category Oklahoma Sooners football players)', 'Oklahoma State Cowboys baseball', 'Don Schwall (category Oklahoma Sooners baseball players)'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Sooners and Cowboys baseball]
+Action 1: Search[Sooners and Cowboys baseball]
+Observation 1: Sooners Baseball. The Oklahoma Sooners baseball team represents the University of Oklahoma in NCAA Division I college baseball. Established in 1898, the team is a member of the Big 12 Conference. The Sooners have a storied history, including multiple conference championships and NCAA tournament appearances. They play their home games at L.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Bedlam Series baseball stadium]
+Action 2: Search[Bedlam Series baseball stadium]
+Observation 2: Could not find Bedlam Series baseball stadium. Similar: ['Bedlam Series', 'Shea Stadium', 'Drillers Stadium', 'List of nicknamed Major League Baseball games and plays', 'Boone Pickens Stadium'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search
+Action 2: Search
+Observation 2: Bedlam Series Baseball Stadium is a prominent sports venue located in Stillwater, Oklahoma. It serves as the home field for the Oklahoma State University Cowboys baseball team, which competes in NCAA Division I as part of the Big 12 Conference. The stadium is known for its vibrant atmosphere and passionate fan base, often hosting key matchups during the Bedlam Series, a historic rivalry between Oklahoma State and the University of Oklahoma.. The stadium features modern amenities, including seating for thousands of spectators, a press box.
+
+
+
+STEP: 3
+
+ERROR Action not found in None 
+Retrying to get action...
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 3: None
+Action 3: Search[Bedlam Series]
+Observation 3: The Bedlam Series is the name given to the Oklahoma–Oklahoma State rivalry.[1][2] It refers to the athletics rivalry between the Oklahoma State University Cowboys and Cowgirls of the Big 12 Conference and the University of Oklahoma Sooners of the Southeastern Conference (SEC). Both schools were also members of the Big Eight Conference before the formation of the Big 12 Conference in 1996, and both were divisional rivals in the Big 12 South Division prior to 2011. Since Bedlam began in 1900, 40 years of the rivalry's games were played without the teams playing in the same conference. The rivalry concluded as an annual conference matchup for football following the 2023–24 NCAA Division I FBS season, after which Oklahoma joined the SEC;[3] while scheduling issues preclude the resumption of the Bedlam Series for football until the 2031 season, the Series will continue for basketball as a non-conference game for the 2024–25 season.[4][5]. The Bedlam Series is, like most other intrastate rivalries, a rivalry that goes beyond one or two sports.
+
+SIMULATION TRAJECTORY:
+ Thought 3: None
+Action 3: Search[Bedlam Series baseball stadium former name]
+Observation 3: The Bedlam Series is an annual college football rivalry between the University of Oklahoma Sooners and the Oklahoma State University Cowboys. The rivalry is one of the most storied and intense in NCAA Division I football, dating back to its inception in 1904. The name "Bedlam" is derived from the historic Oklahoma State Hospital in Oklahoma City, which was originally called the Oklahoma Insane Asylum, and the term has come to symbolize the fierce competition between the two schools.. The series is played annually.
+
+
+
+STEP: 4
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 4: None
+Action 4: Lookup[baseball]
+Observation 4: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[Oklahoma Sooners baseball]
+Action 4: Search[Oklahoma Sooners baseball]
+Observation 4: The Bedlam Series is an annual college football rivalry between the University of Oklahoma Sooners and the Oklahoma State University Cowboys. The rivalry is one of the most storied and intense in NCAA Division I football, dating back to its inception in 1904. The name "Bedlam" is derived from the historic Oklahoma State Hospital in Oklahoma City, which was originally called the Oklahoma Insane Asylum, and the term has come to symbolize the fierce competition between the two schools.. The series is played annually.
+
+
+
+STEP: 5
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 5: None
+Action 5: Search[Oklahoma State Cowboys baseball]
+Observation 5: Big Eight1978, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996. Big Eight1959, 1960, 1961, 1966, 1967, 1968, 1969, 1982, 1983, 1984, 1985, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994. Oklahoma State Cowboys baseball is the NCAA Division I varsity intercollegiate baseball team of Oklahoma State University, based in Stillwater, Oklahoma, United States. The team competes in the Big 12 Conference. The Cowboys' current head coach is Josh Holliday..
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Search[Oklahoma State Cowboys baseball stadium]
+Action 5: Search[Oklahoma State Cowboys baseball stadium]
+Observation 5: The Oklahoma State Cowboys baseball team represents Oklahoma State University in college baseball. The team is a member of the Big 12 Conference, which is part of the NCAA Division I. The Cowboys play their home games at O'Brate Stadium, located in Stillwater, Oklahoma.. History:. The Oklahoma State Cowboys baseball program was established in 1898, making it one of the oldest college baseball programs in the United States.
+
+
+
+STEP: 6
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 6: None
+Action 6: Search[Oklahoma Sooners baseball]
+Observation 6: Oklahoma Sooners baseball is the NCAA Division I collegiate baseball team of the University of Oklahoma (OU) based in Norman, Oklahoma.. The Oklahoma Baseball tradition is long and storied, with two national championships in 1951 and 1994, along with numerous All-Americans. Dale Mitchell, Bobby Jack, Jackson Todd, Glen Castle, and Keith Drumright are two-time All-Americans to have played for the Sooners. Their home field is L. Dale Mitchell Baseball Park, named after the aforementioned Dale Mitchell..
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Search[Oklahoma Sooners baseball]
+Action 6: Search[Oklahoma Sooners baseball]
+Observation 6: The Oklahoma Sooners baseball team represents the University of Oklahoma in NCAA Division I college baseball. The team is a member of the Big 12 Conference and plays its home games at L. Dale Mitchell Baseball Park located in Norman, Oklahoma. The Sooners have a rich baseball tradition, with numerous appearances in the NCAA Tournament and multiple College World Series appearances.. The program was established in 1898 and has since developed a reputation for competitive success and player development.
+
+
+
+STEP: 7
+
+ERROR Action not found in None 
+Retrying to get action...
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 7: None
+Action 7: Search[L. Dale Mitchell Baseball Park]
+Observation 7: The L. Dale Mitchell Baseball Park is a baseball stadium on the campus of the University of Oklahoma in Norman, Oklahoma. It is the ballpark of the Oklahoma Sooners baseball team, which is an NCAA Division I baseball program that plays in the Southeastern Conference (SEC). It opened in 1982.. Mitchell Park was named after Dale Mitchell, a mid-1940s Sooner letterman who holds OU's career and single-season batting records.
+
+SIMULATION TRAJECTORY:
+ Thought 7: None
+Action 7: Search[L. Dale Mitchell Baseball Park]
+Observation 7: L. Dale Mitchell Baseball Park is a college baseball stadium located on the campus of the University of Oklahoma in Norman, Oklahoma. Named in honor of L. Dale Mitchell, a former standout player and coach for the Oklahoma Sooners, the park serves as the home field for the Oklahoma Sooners baseball team, which competes in NCAA Division I as part of the Big 12 Conference.. The stadium features a seating capacity of approximately 2,500 spectators, with additional standing room and amenities designed to enhance.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'Drillers Stadium', 'question_idx': 3113, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 5 
+Number of steps: 13 
+Average reward: 0.38461538461538464 
+Average time 17.120885830659134
+
+-------------------------------------------------------
+

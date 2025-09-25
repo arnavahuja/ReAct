@@ -1,0 +1,53 @@
+INFO 3623 Question: Which composer lived longer, Maurice Ravel or Paul Hindemith?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Maurice Ravel]
+Action 1: Search[Maurice Ravel]
+Observation 1: Joseph Maurice Ravel[n 1] (7 March 1875 – 28 December 1937) was a French composer, pianist and conductor. He is often associated with Impressionism along with his elder contemporary Claude Debussy, although both composers rejected the term. In the 1920s and 1930s Ravel was internationally regarded as France's greatest living composer.. Born to a music-loving family, Ravel attended France's premier music college, the Paris Conservatoire; he was not well regarded by its conservative establishment, whose biased treatment of him caused a scandal. After leaving the conservatoire, Ravel found his own way as a composer, developing a style of great clarity and incorporating elements of modernism, baroque, neoclassicism and, in his later works, jazz.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Maurice Ravel]
+Action 1: Search[Maurice Ravel]
+Observation 1: **Joseph Maurice Ravel** (7 March 1875 – 28 December 1937) was a French composer, pianist, and conductor. He is often associated with impressionism along with his elder contemporary Claude Debussy, though both composers disliked the term. Ravel was a master of orchestration and his music is characterized by its clarity, precision, and elegance.. **Early Life and Education:**. Ravel was born in Ciboure, France, near the Spanish.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Paul Hindemith]
+Action 2: Search[Paul Hindemith]
+Observation 2: Paul Hindemith (/ˈpaʊl ˈhɪndəmɪt/ POWL HIN-də-mit; German: [ˌpaʊ̯l ˈhɪndəmɪt] ⓘ; 16 November 1895 – 28 December 1963) was a German and American composer, music theorist, teacher, violist and conductor. He founded the Amar Quartet in 1921, touring extensively in Europe. As a composer, he became a major advocate of the Neue Sachlichkeit (New Objectivity) style of music in the 1920s, with compositions such as Kammermusik, including works with viola and viola d'amore as solo instruments in a neo-Bachian spirit. Other notable compositions include his song cycle Das Marienleben (1923), Das Unaufhörliche (1931), Der Schwanendreher for viola and orchestra (1935), the opera Mathis der Maler (1938), the Symphonic Metamorphosis of Themes by Carl Maria von Weber (1943), and the oratorio When Lilacs Last in the Dooryard Bloom'd (1946), a requiem based on Walt Whitman's poem. Hindemith and his wife emigrated to Switzerland and the United States ahead of World War II, after worsening difficulties with the Nazi German regime.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Paul Hindemith]
+Action 2: Search[Paul Hindemith]
+Observation 2: **Paul Hindemith**. **Paul Hindemith** (16 November 1895 – 28 December 1963) was a German composer, violist, conductor, and music theorist. He was a prominent figure in 20th-century music, known for his prolific output, his embrace of various musical styles, and his influential theories on music composition.. **Early Life and Education:**. Born in Hanau, Germany, Hindemith.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Paul Hindemith]
+Action 3: Finish[Paul Hindemith]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Paul Hindemith]
+Action 3: Finish[Paul Hindemith]
+Observation 3: **Paul Hindemith**. **Paul Hindemith** (16 November 1895 – 28 December 1963) was a German composer, violist, conductor, and music theorist. He was a prominent figure in 20th-century music, known for his prolific output, his embrace of various musical styles, and his influential theories on music composition.. **Early Life and Education:**. Born in Hanau, Germany, Hindemith.
+
+
+
+INFO {'steps': 5, 'answer': 'Paul Hindemith', 'gt_answer': 'Paul Hindemith', 'question_idx': 2374, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 4 
+Number of steps: 7 
+Average reward: 0.5714285714285714 
+Average time 11.527637583868843
+
+-------------------------------------------------------
+

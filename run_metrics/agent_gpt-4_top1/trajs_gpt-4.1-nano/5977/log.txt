@@ -1,0 +1,67 @@
+INFO 5977 Question: Which actress worked closely withCharpes Lane?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Charpes Lane]
+Action 1: Search[Charpes Lane]
+Observation 1: Could not find Charpes Lane. Similar: ['List of pirates'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Charpes Lane]
+Action 1: Search[Charpes Lane]
+Observation 1: Charpes Lane is a small street located in the historic town of [Town Name], known for its charming atmosphere and local significance. The lane is characterized by its cobbled surface and traditional architecture, featuring a mix of old cottages and modern shops. Historically, Charpes Lane has served as a vital thoroughfare connecting various parts of the town, and it has retained much of its original character over the centuries. The area surrounding Charpes Lane is popular with both residents and visitors, offering a glimpse into the.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Chase Lane]
+Action 2: Search[Chase Lane]
+Observation 2: Could not find Chase Lane. Similar: ['Aldborough Hatch (section Chase Lane)', 'Kho kho (redirect from Minimum Chase)', 'Ku-ring-gai Chase National Park', 'Chingford (redirect from Yardley Lane Estate)', 'Lane Cove National Park'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[actress]
+Action 2: Lookup[actress]
+Observation 2: Chase Lane is an American professional soccer player who plays as a forward. Born on December 28, 1997, in Dallas, Texas, Lane has developed a reputation for his agility, technical skills, and goal-scoring ability. He played college soccer at the University of North Texas, where he showcased his talent and attracted attention from professional scouts.. Lane began his professional career with FC Dallas in Major League Soccer (MLS), making his debut in 2016. During his time with FC.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[List of pirates]
+Action 3: Search[List of pirates]
+Observation 3: This is a list of known pirates, buccaneers, corsairs, privateers, river pirates, and others involved in piracy and piracy-related activities. This list includes both captains and prominent crew members. For a list of female pirates, see women in piracy. For pirates of fiction or myth, see list of fictional pirates.. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[No information available]
+Action 3: Finish[No information available]
+Observation 3: List of pirates. This article provides an overview of notable pirates throughout history, including their origins, activities, and historical significance. Pirates have been a prominent part of maritime history, often associated with lawlessness, adventure, and rebellion on the high seas.. Notable Pirates. 1.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[Sorry, I couldn't find any information related to an actress who worked closely with Charpes Lane. Please could you rephrase or provide more context?]
+Action 4: Finish[Sorry, I couldn't find any information related to an actress who worked closely with Charpes Lane. Please could you rephrase or provide more context?]
+Observation 4: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[actress]
+Action 4: Lookup[actress]
+Observation 4: List of pirates. This article provides an overview of notable pirates throughout history, including their origins, activities, and historical significance. Pirates have been a prominent part of maritime history, often associated with lawlessness, adventure, and rebellion on the high seas.. Notable Pirates. 1.
+
+
+
+INFO {'steps': 7, 'answer': "Sorry, I couldn't find any information related to an actress who worked closely with Charpes Lane. Please could you rephrase or provide more context?", 'gt_answer': 'Lucille Ball', 'question_idx': 3542, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 3 
+Number of steps: 6 
+Average reward: 0.5 
+Average time 20.179045875867207
+
+-------------------------------------------------------
+

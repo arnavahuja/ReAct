@@ -1,0 +1,53 @@
+INFO 2527 Question: Are Maro Ajemian and Patricia Field both pianists?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Maro Ajemian]
+Action 1: Search[Maro Ajemian]
+Observation 1: Maro Ajemian (Armenian: Մարօ Աճէմեան; July 9, 1921 – September 18, 1978) was an American pianist. Ajemian's career in contemporary music grew from her Armenian heritage. She became known as a contemporary pianist after performing the U.S. premiere of Aram Khachaturian's Piano Concerto, which she chose to play based on their shared Armenian heritage.[1]. Ajemian studied at the Juilliard School of Music.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Maro Ajemian]
+Action 1: Search[Maro Ajemian]
+Observation 1: Maro Ajemian (1921–1978) was an Armenian-American pianist known for her performances of contemporary classical music. She was born in New York City and studied at the Juilliard School. Ajemian was a champion of new music and collaborated with many prominent composers, including John Cage, Alan Hovhaness, and Lou Harrison. She was particularly known for her interpretations of Cage's prepared piano works. Ajemian performed extensively in the United States and Europe, both.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Patricia Field]
+Action 2: Search[Patricia Field]
+Observation 2: Patricia Field (born February 12, 1942)[1] is an American costume designer, stylist, and fashion designer working in New York City.[2]. Field was born in New York City to an Armenian father and a Greek mother, who emigrated from Plomari, Lesbos.[1][3] She was raised in Queens, where her family owned a drycleaning store; her father died when she was 8 years old. She studied government and philosophy at New York University.[4]. With her then-partner Jo-Ann Salvucci, Field opened her first boutique, Pants Pub, in 1966 on Washington Place in Greenwich Village.[4] The shop, later renamed to the eponymous Patricia Field, moved in 1971 to 8th Street, then to West Broadway, and finally to 306 Bowery in NoHo,[5] where Field owned the property. She sold it in 2016 to concentrate on costume designing for television and film.[4] In 2018 she opened the ARTFashion Gallery on the Lower East Side, which sells art and hand-painted original clothing and accessories by a selected group of artists.[6].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Patricia Field]
+Action 2: Search[Patricia Field]
+Observation 2: Patricia Field is an American costume designer, stylist, and fashion designer. She is best known for her work on the television series "Sex and the City," for which she won an Emmy Award for Outstanding Costumes. Field has also worked on numerous other film and television projects, as well as with various celebrities and musicians. She is known for her bold and eclectic style, and her influence on the world of fashion and costume design..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[No]
+Action 3: Finish[No]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[No]
+Action 3: Finish[No]
+Observation 3: Patricia Field is an American costume designer, stylist, and fashion designer. She is best known for her work on the television series "Sex and the City," for which she won an Emmy Award for Outstanding Costumes. Field has also worked on numerous other film and television projects, as well as with various celebrities and musicians. She is known for her bold and eclectic style, and her influence on the world of fashion and costume design..
+
+
+
+INFO {'steps': 5, 'answer': 'No', 'gt_answer': 'no', 'question_idx': 1416, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 5 
+Number of steps: 18 
+Average reward: 0.2777777777777778 
+Average time 15.588468233744303
+
+-------------------------------------------------------
+

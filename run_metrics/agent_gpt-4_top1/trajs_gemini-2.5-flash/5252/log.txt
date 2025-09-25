@@ -1,0 +1,53 @@
+INFO 5252 Question: The owner of radio station KWPW has the same name as an American character actor. What is it?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[KWPW]
+Action 1: Search[KWPW]
+Observation 1: KWPW (107.9 FM, "107.9 The Bull") is a radio station broadcasting a classic country format. Licensed to Robinson, Texas, United States, the station serves the Waco area. The station is currently owned by Bill McCutcheon.[2]  Its studios are located in Waco, and its transmitter is located in Waco near the VA Hospital.. The station began in 1972 as KCIR in Corsicana Texas. The call letters stood for "The Golden 'CIR'cle".
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[KWPW]
+Action 1: Search[KWPW]
+Observation 1: **KWPW** is a fictional radio station, often appearing in various forms of media, particularly in the context of fictional towns or universes. While not a real-world entity with a Wikipedia page, its characteristics and typical portrayals can be described as follows:. **KWPW**. **Call sign:** KWPW. **Frequency:** Varies (often depicted as a local FM or AM station).
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Bill McCutcheon]
+Action 2: Search[Bill McCutcheon]
+Observation 2: James William McCutcheon (May 23, 1924 – January 9, 2002) was an American character actor known for his roles in film, television, and theatre, several of which won him Emmy and Tony awards.. McCutcheon was born in Russell, Kentucky, the son of  Robert Kenna McCutcheon, who was a railroad conductor and Florence Louise (née Elam).[1] McCutcheon's first major role was Leo the Leprechaun on The Howdy Doody Show. He followed this appearance with a recurring role (from 1984 to 1992) as Uncle Wally on the children's television series by PBS, Sesame Street, for which he won an Emmy.[citation needed]. He also had a prominent role in the movie of 1989, Steel Magnolias, in which he played Owen Jenkins, beau of Ouiser Boudreaux (Shirley MacLaine).[citation needed]. He was also active in film and on the stage.[citation needed] His first film appearance was in 1964's Santa Claus Conquers the Martians; later on, he was seen in movies including Family Business and Steel Magnolias.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[American character actor]
+Action 2: Lookup[American character actor]
+Observation 2: **William "Bill" McCutcheon (1924 – 2002)** was an American actor and singer, best known for his work in musical theater and television. He had a distinctive, often booming voice and a jovial, avuncular presence that made him a memorable character actor.. **Early Life and Career:**. Born in Russellville, Kentucky, McCutcheon's early career was rooted in music. He studied at the Cincinnati Conservatory of Music and began.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Bill McCutcheon]
+Action 3: Finish[Bill McCutcheon]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Bill McCutcheon]
+Action 3: Finish[Bill McCutcheon]
+Observation 3: **William "Bill" McCutcheon (1924 – 2002)** was an American actor and singer, best known for his work in musical theater and television. He had a distinctive, often booming voice and a jovial, avuncular presence that made him a memorable character actor.. **Early Life and Career:**. Born in Russellville, Kentucky, McCutcheon's early career was rooted in music. He studied at the Cincinnati Conservatory of Music and began.
+
+
+
+INFO {'steps': 5, 'answer': 'Bill McCutcheon', 'gt_answer': 'Bill McCutcheon', 'question_idx': 1364, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 6 
+Number of steps: 12 
+Average reward: 0.5 
+Average time 21.433570325374603
+
+-------------------------------------------------------
+

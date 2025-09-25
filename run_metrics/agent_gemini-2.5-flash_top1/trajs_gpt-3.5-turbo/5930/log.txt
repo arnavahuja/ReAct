@@ -1,0 +1,53 @@
+INFO 5930 Question: A Troll in Central Park and All Dogs Go to Heaven were both directed by which person?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[A Troll in Central Park]
+Action 1: Search[A Troll in Central Park]
+Observation 1: A Troll in Central Park (released in some countries as Stanley's Magic Garden) is a 1994 American independent animated musical fantasy comedy film co-directed by Don Bluth and Gary Goldman.[3] The film stars the voice talents of Dom DeLuise, Cloris Leachman, Charles Nelson Reilly, Phillip Glasser, Tawny Sunshine Glover, Hayley Mills and Jonathan Pryce. It tells the story of a troll who is exiled from the Kingdom of Trolls by an evil troll queen for growing flowers and lands in Central Park where he befriends two children. This is the final Bluth film to star DeLuise.. Theatrically released in the United States on October 7, 1994, by Warner Bros. under their Family Entertainment label, the film received overwhelmingly negative reviews from critics who criticized its pacing, characters, visuals, and songs although its nostalgic tone, animation, and voice acting (aside from Dom DeLuise) were praised.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[A Troll in Central Park]
+Action 1: Search[A Troll in Central Park]
+Observation 1: "A Troll in Central Park" is a 1994 animated musical fantasy film directed by Don Bluth and Gary Goldman. The film follows the story of a kind-hearted troll named Stanley who is banished to Central Park by an evil queen. In Central Park, Stanley befriends two children, Gus and Rosie, and uses his magical abilities to bring joy and color to the park. However, the evil queen soon discovers Stanley's whereabouts and sets out to capture him. The film received negative reviews from critics.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[All Dogs Go to Heaven]
+Action 2: Search[All Dogs Go to Heaven]
+Observation 2: All Dogs Go to Heaven is a 1989 animated musical fantasy comedy-drama film directed by Don Bluth and co-directed by Gary Goldman (his directorial debut) and Dan Kuenster.[3] Set in New Orleans in 1939, it tells the story of Charlie B. Barkin (voiced by Burt Reynolds), a German Shepherd who is murdered by his former friend, Carface Carruthers (voiced by Vic Tayback). Charlie escapes from Heaven to return to Earth where his best friend, Itchy Itchiford (voiced by Dom DeLuise), still lives, in order to take revenge on Carface. Instead, he ends up befriending a young orphan girl named Anne-Marie (voiced by Judith Barsi in her final film role). In the process, Charlie learns an important lesson about kindness, friendship and love..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[All Dogs Go to Heaven]
+Action 2: Search[All Dogs Go to Heaven]
+Observation 2: "All Dogs Go to Heaven" is a 1989 animated musical fantasy comedy-drama film directed and produced by Don Bluth and co-directed by Gary Goldman. The film tells the story of a German Shepherd named Charlie B. Barkin, who is murdered by his former friend, Carface Carruthers, but manages to return to Earth from Heaven to seek revenge. The film features the voices of Burt Reynolds, Dom DeLuise, and Judith Barsi.. The film received mixed reviews from.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Don Bluth and Gary Goldman]
+Action 3: Finish[Don Bluth and Gary Goldman]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Don Bluth and Gary Goldman]
+Action 3: Finish[Don Bluth and Gary Goldman]
+Observation 3: "All Dogs Go to Heaven" is a 1989 animated musical fantasy comedy-drama film directed and produced by Don Bluth and co-directed by Gary Goldman. The film tells the story of a German Shepherd named Charlie B. Barkin, who is murdered by his former friend, Carface Carruthers, but manages to return to Earth from Heaven to seek revenge. The film features the voices of Burt Reynolds, Dom DeLuise, and Judith Barsi.. The film received mixed reviews from.
+
+
+
+INFO {'steps': 5, 'answer': 'Don Bluth and Gary Goldman', 'gt_answer': 'Don Bluth', 'question_idx': 5195, 'reward': False, 'em': False, 'f1': 0.5714285714285715}
+
+INFO Sum of rewards: 5 
+Number of steps: 19 
+Average reward: 0.2631578947368421 
+Average time 15.154605727446707
+
+-------------------------------------------------------
+

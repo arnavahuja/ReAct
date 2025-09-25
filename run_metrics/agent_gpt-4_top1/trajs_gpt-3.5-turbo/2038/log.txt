@@ -1,0 +1,53 @@
+INFO 2038 Question: In what city is the company that Fastjet Tanzania was originally founded as a part of prior to rebranding based?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Fastjet Tanzania]
+Action 1: Search[Fastjet Tanzania]
+Observation 1: Fastjet Airlines Limited (Tanzania), also known as Fastjet Tanzania, was a low-cost airline that operated flights under the fastjet brand in Tanzania.[1] The airline was founded in 2011 as Fly540 Tanzania, but through the acquisition of Fly540 in 2012, it was rebranded as Fastjet Tanzania. It was based in Dar es Salaam. The airline carried more than 350,000 passengers in its first year of operations and sold one million seats by December 2014.[1] It went into liquidation on 25 November 2019.. Fastjet Tanzania was founded in 2011 as Fly540 Tanzania, a subsidiary of Kenya-based Fly540. Using a Bombardier CRJ100 and a Dash 8-100,[2] it flew to eight destinations in Tanzania and two in Kenya.[3].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Fastjet Tanzania]
+Action 1: Search[Fastjet Tanzania]
+Observation 1: Fastjet Tanzania is a low-cost airline based in Dar es Salaam, Tanzania. It was established in 2012 and began operations in November of the same year. The airline operates domestic and international flights, with a focus on providing affordable air travel options to passengers. Fastjet Tanzania is part of the Fastjet group, which also includes operations in other African countries. The airline has a fleet of modern aircraft and offers services to various destinations in Africa..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Fly540]
+Action 2: Search[Fly540]
+Observation 2: Five Forty Aviation Ltd, trading as Fly540, is a low-cost airline based in Nairobi, Kenya.[1] It commenced operations in 2006 with both passenger and cargo services.[2] The airline had two subsidiary airlines, Fly540 Ghana (suspended in May 2014 and since sold) and Fly540 Angola (suspended in May 2014), but has since focused its business expansion plans in East Africa.[3]  The company slogan is Your Local Airline.. Fly540 started operations between Nairobi and Mombasa on November 24, 2006.[4] The airline's name refers to its price of KSh5,540 per adult return fare between the above-mentioned cities.[5]. Lonrho Africa was a major investor in the company, paying US $1.5 million for a 49% stake.[6]. Passenger numbers rose by 93% to 171,160 in the year ending 30 September 2008, compared to 88,571 in 2007. At the same time, the load factor amounted to 63%, down from 65.8% in 2007.[7].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[originally founded]
+Action 2: Lookup[originally founded]
+Observation 2: Fly540 is a low-cost airline based in Nairobi, Kenya. It operates domestic and international flights to destinations in East Africa. The airline was founded in 2006 and has a fleet of modern aircraft that provide safe and reliable transportation for passengers. Fly540 is known for its affordable fares and convenient flight schedules, making it a popular choice for travelers in the region. The airline is committed to providing excellent customer service and ensuring a comfortable flying experience for all passengers..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Nairobi, Kenya]
+Action 3: Finish[Nairobi, Kenya]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Nairobi, Kenya]
+Action 3: Finish[Nairobi, Kenya]
+Observation 3: Fly540 is a low-cost airline based in Nairobi, Kenya. It operates domestic and international flights to destinations in East Africa. The airline was founded in 2006 and has a fleet of modern aircraft that provide safe and reliable transportation for passengers. Fly540 is known for its affordable fares and convenient flight schedules, making it a popular choice for travelers in the region. The airline is committed to providing excellent customer service and ensuring a comfortable flying experience for all passengers..
+
+
+
+INFO {'steps': 5, 'answer': 'Nairobi, Kenya', 'gt_answer': 'Nairobi, Kenya', 'question_idx': 4467, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 9 
+Number of steps: 15 
+Average reward: 0.6 
+Average time 31.294944206873577
+
+-------------------------------------------------------
+

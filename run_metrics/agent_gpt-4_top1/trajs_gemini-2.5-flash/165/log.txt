@@ -1,0 +1,39 @@
+INFO 165 Question: In what school district is Governor John R. Rogers High School, named after John Rankin Rogers, located?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Governor John R. Rogers High School]
+Action 1: Search[Governor John R. Rogers High School]
+Observation 1: Governor John R. Rogers High School is a high school in the Puyallup School District of Washington, United States. Commonly referred to as "Rogers" or "RHS," the high school is named after former Washington State governor John Rankin Rogers. It was first opened in 1968.. Between the three comprehensive high schools in the district, Rogers ranks second in test scores.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Governor John R. Rogers High School]
+Action 1: Search[Governor John R. Rogers High School]
+Observation 1: {{Infobox high school. | name          = Governor John R. Rogers High School. | motto         = "Home of the Rams". | established   = 1968.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[Puyallup School District]
+Action 2: Finish[Puyallup School District]
+Observation 2: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[school district]
+Action 2: Lookup[school district]
+Observation 2: {{Infobox high school. | name          = Governor John R. Rogers High School. | motto         = "Home of the Rams". | established   = 1968.
+
+
+
+INFO {'steps': 3, 'answer': 'Puyallup School District', 'gt_answer': 'Puyallup School District of Washington', 'question_idx': 5647, 'reward': False, 'em': False, 'f1': 0.7499999999999999}
+
+INFO Sum of rewards: 9 
+Number of steps: 19 
+Average reward: 0.47368421052631576 
+Average time 21.144193900258916
+
+-------------------------------------------------------
+

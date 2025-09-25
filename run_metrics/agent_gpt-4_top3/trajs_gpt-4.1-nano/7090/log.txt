@@ -1,0 +1,94 @@
+INFO 7090 Question: What is the global rank by population of the city that Daewoong Pharmaceutical Co., Ltd is based in?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to search Daewoong Pharmaceutical Co., Ltd, find the city it is based in, then find the global rank by population of the city.
+Action 1: Search[Daewoong Pharmaceutical Co., Ltd] 
+        Action 1: Search[Daewoong Pharmaceutical Co., Ltd]
+        Observation 1: Daewoong Pharmaceutical Co., Ltd. (Korean: 주식회사 대웅제약) is a pharmaceutical company headquartered in Seoul, South Korea.[1] Daewoong Pharmaceutical primarily engages in the manufacture of pharmaceutical products, including prescription and over-the-counter healthcare products.. Daewoong Pharmaceutical was established as Kawai Pharmaceutical Company in 1942. Daewoong was officially incorporated in 1945 as Daehan Vitamin Chemical and changed its name to Daehan Vitamin Industrial in 1961. In 1966, Yoon Young-hwan purchased Daehan Vitamin, which was in financial difficulties, and changed its name to the current form, Daewoong Pharmaceutical, in 1978.[2]."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I first need to search Daewoong Pharmaceutical Co., Ltd to find the city it is based in.
+Action 1: Search[Daewoong Pharmaceutical Co., Ltd], Search[Daewoong], Lookup[Daewoong Pharmaceutical Co., Ltd] 
+        Action 1: ['Search[Daewoong Pharmaceutical Co., Ltd]', 'Search[Daewoong]', 'Lookup[Daewoong Pharmaceutical Co., Ltd]']
+        Observation 1: Daewoong Pharmaceutical Co., Ltd. is a South Korean pharmaceutical company headquartered in Seoul, South Korea. Established in 1945, the company specializes in the research, development, manufacturing, and marketing of a wide range of pharmaceutical products, including prescription medicines, over-the-counter drugs, and biosimilars. Daewoong is known for its focus on innovation and has invested significantly in research and development to expand its portfolio in areas such as immunology, oncology, and neurology.. The company operates."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Daewoong Pharmaceutical Co., Ltd. is based in Seoul, South Korea. I need to search Seoul and find its global rank by population.
+Action 2: Search[Seoul] 
+        Action 2: Search[Seoul]
+        Observation 2: Seoul,[b] officially Seoul Special Metropolitan City,[c] is both the capital and largest city of South Korea, and the largest city in the whole of Korea. The broader Seoul Metropolitan Area, encompassing Seoul, Gyeonggi Province and Incheon,[8] emerged as the world's sixth largest metropolitan economy in 2022, trailing behind New York, Tokyo, Los Angeles, Paris, and London, and hosts more than half of South Korea's population. Although Seoul's population peaked at over 10 million, it has gradually decreased since 2014, standing at about 9.6 million residents as of 2024.[4] Seoul is the seat of the South Korean government.. Seoul's history traces back to 18 BC when it was founded by the people of Baekje, one of the Three Kingdoms of Korea. During the Joseon dynasty, Seoul was officially designated as the capital, surrounded by the Fortress Wall of Seoul."
+
+SIMULATION TRAJECTORY:
+ Thought 2: Daewoong Pharmaceutical Co., Ltd. is headquartered in Seoul, South Korea. Now I need to find out the global population rank of Seoul.
+Action 2: Search[Seoul] 
+        Action 2: ['Search[Seoul]']
+        Observation 2: Seoul is the capital and largest metropolis of South Korea, located in the northwest part of the country along the Han River. It serves as the political, economic, cultural, and historical center of South Korea. With a population of over 9.7 million residents within the city proper and more than 25 million in the metropolitan area, Seoul is one of the most populous and densely populated cities in the world.. History:. Seoul has a rich history dating back over two thousand years."
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: The global rank by population of Seoul is not explicit in the search result. I need to look up "rank" to find the desired information.
+Action 3: Lookup[rank] 
+        Action 3: Lookup[rank]
+        Observation 3: No more results.
+"
+
+SIMULATION TRAJECTORY:
+ Thought 3: Seoul is one of the most populous cities in the world, but the exact global rank by population is not mentioned. I need to find this information.
+Action 3: [Lookup[population rank], Search[most populous cities], Search[Seoul population rank]] 
+        Action 3: ['Search[most populous cities]', 'Search[Seoul population rank]', 'Lookup[population rank]']
+        Observation 3: Seoul is the capital and largest metropolis of South Korea, located in the northwest part of the country along the Han River. It serves as the political, economic, cultural, and historical center of South Korea. With a population of over 9.7 million residents within the city proper and more than 25 million in the metropolitan area, Seoul is one of the most populous and densely populated cities in the world.. History:. Seoul has a rich history dating back over two thousand years."
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: The information about the global population ranking of Seoul is not in the current passage. I need to search again with more specific terms.
+Action 4: Search[Seoul population rank] 
+        Action 4: Search[Seoul population rank]
+        Observation 4: Could not find Seoul population rank. Similar: ['Seoul', 'Seoul Metropolitan Area', 'South Korea (redirect from Korea (Seoul))', 'Economy of Seoul', 'History of Seoul']."
+
+SIMULATION TRAJECTORY:
+ Thought 4: The information about Seoul's global population rank is still not clear from thelookup. I may need to rephrase or refine my search.
+Action 4: [Search[Seoul population rank], Search[largest cities in the world by population], Lookup[population]] 
+        Action 4: ['Search[Seoul population rank]', 'Search[largest cities in the world by population]', 'Lookup[population]']
+        Observation 4: Seoul is the capital and largest city of South Korea, with a population of approximately 9.7 million residents within the city proper as of 2023. The Seoul metropolitan area, which includes surrounding cities and districts, has a population of over 25 million, making it one of the most populous urban areas in the world. In terms of population rank, Seoul is often listed among the top five most populous cities globally, ranking as the largest city in South Korea and one of the leading urban."
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: The search for Seoul's population rank has not yielded any direct results, the global population rank of Seoul is not readily available. I can't find this specific information. 
+Action 5: Finish[Information not found] 
+        Action 5: Finish[Information not found]
+        Observation 5: Episode finished, reward = 0
+"
+
+SIMULATION TRAJECTORY:
+ Thought 5: The global rank by population of Seoul is not exactly provided, but the passage suggests that it's among the top five most populous cities globally.
+
+Action 5: ["Lookup[most populous]", "Lookup[top five]", "Finish[top five]"] 
+        Action 5: ['Lookup[most populous]', 'Lookup[top five]', 'Finish[top five]']
+        Observation 5: Seoul is the capital and largest city of South Korea, with a population of approximately 9.7 million residents within the city proper as of 2023. The Seoul metropolitan area, which includes surrounding cities and districts, has a population of over 25 million, making it one of the most populous urban areas in the world. In terms of population rank, Seoul is often listed among the top five most populous cities globally, ranking as the largest city in South Korea and one of the leading urban."
+
+
+
+INFO {'steps': 9, 'answer': 'Information not found', 'gt_answer': "world's 16th largest city", 'question_idx': 4100, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 4 
+Number of steps: 13 
+Average reward: 0.3076923076923077 
+Average time 38.581509168331436
+
+--------------------------------------------------
+

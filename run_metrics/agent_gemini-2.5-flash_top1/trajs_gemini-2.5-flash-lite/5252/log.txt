@@ -1,0 +1,39 @@
+INFO 5252 Question: Horse the blind is known for nintendocore which emerged from hardcore punk and what genre?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Nintendocore]
+Action 1: Search[Nintendocore]
+Observation 1: Nintendocore[note 1] is a broadly defined style of music that most commonly fuses chiptune and video game music with hardcore punk and/or heavy metal. The genre is sometimes considered a direct subgenre of post-hardcore[10] and a fusion genre between metalcore and chiptune.[11]. Referred to as the "bastard child of chiptune and metal,"[12] Nintendocore frequently features the use of electric guitars, drum kits, and typical rock instrumentation alongside synthesizers, chiptune, 8-bit sounds, and electronically produced beats.[1][3][13] It originated primarily from hardcore punk and heavy metal,[14][3][15] and subgenres of those styles such as post-hardcore,[13][16] metalcore,[16] and screamo.[3][17] Artists in the genre have also incorporated elements of electro,[3] noise,[18] noise rock,[1][19] and post-rock.[16][18] Nintendocore groups vary stylistically and come from a wide array of influences. Horse the Band combines metalcore, heavy metal, thrash metal, and post-hardcore with post-rock passages.[3][16][17] "The Black Hole" from Horse the Band's third album, The Mechanical Hand, is an example of Nintendocore, featuring screamed vocals, heavy "Nintendo riffs," and "sound effects from numerous games."[20] Math the Band includes electro and dance-punk styles.[21] Minibosses use Kyuss-inspired heavy metal riffing,[22] and The Advantage is associated with styles such as noise rock and post-rock.[23] The Depreciation Guild was an indie band that incorporated 8-bit sounds, video game music, and elements of shoegaze.[24]. Some bands feature singing, such as The Depreciation Guild, whose frontman Kurt Feldman provides "ethereal" and "tender vocals,"[24] and The Megas, who write lyrics that mirror video game storylines.[25] Others, such as Horse the Band and Math the Band, add screamed vocals into the mix.[3][4][16][17][26] But yet other groups are strictly instrumental, such as Minibosses,[22] and The Advantage.[1][18] While otherwise diverse, all Nintendocore groups "use specific instruments to mimic the sounds of Nintendo games."[13].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Horse the blind]
+Action 1: Search[Horse the blind]
+Observation 1: Nintendocore is a niche music genre that emerged in the early 2000s, characterized by its fusion of chiptune music, often derived from Nintendo Entertainment System (NES) sound chips, with elements of heavy metal, particularly thrash metal and deathcore. The genre is defined by its aggressive, distorted guitar riffs, blast beats, and guttural vocals, juxtaposed with the distinctive, often melodic, 8-bit synthesized sounds of classic video games.. **Origins.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[heavy metal]
+Action 2: Finish[heavy metal]
+Observation 2: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[hardcore punk]
+Action 2: Lookup[hardcore punk]
+Observation 2: Nintendocore is a niche music genre that emerged in the early 2000s, characterized by its fusion of chiptune music, often derived from Nintendo Entertainment System (NES) sound chips, with elements of heavy metal, particularly thrash metal and deathcore. The genre is defined by its aggressive, distorted guitar riffs, blast beats, and guttural vocals, juxtaposed with the distinctive, often melodic, 8-bit synthesized sounds of classic video games.. **Origins.
+
+
+
+INFO {'steps': 3, 'answer': 'heavy metal', 'gt_answer': 'heavy metal', 'question_idx': 1954, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 6 
+Number of steps: 12 
+Average reward: 0.5 
+Average time 9.101113339265188
+
+-------------------------------------------------------
+

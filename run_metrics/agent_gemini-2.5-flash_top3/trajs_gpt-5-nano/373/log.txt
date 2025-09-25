@@ -1,0 +1,126 @@
+INFO 373 Question: SMS Emden mounted a symbol on her stem-head from what Kingdom?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to search SMS Emden, find the symbol mounted on her stem-head, and then identify the kingdom from which it originated.
+Action 1: Search[SMS Emden] 
+        Action 1: Search[SMS Emden]
+        Observation 1: SMS Emden ("His Majesty's Ship Emden")[a] was the second and final member of the Dresden class of light cruisers built for the German Kaiserliche Marine (Imperial Navy). Named for the town of Emden, she was laid down at the Kaiserliche Werft (Imperial Dockyard) in Danzig in 1906. The hull was launched in May 1908, and completed in July 1909. She had one sister ship, Dresden. Like the preceding Königsberg-class cruisers, Emden was armed with ten 10.5 cm (4.1 in) guns and two torpedo tubes.."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to find out what symbol SMS Emden mounted on her stem-head and then identify the kingdom it came from. I will start by searching for "SMS Emden".
+Action 1: Search[SMS Emden] 
+        Action 1: ['Search[SMS Emden]']
+        Observation 1: "
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The current paragraph does not mention anything about a symbol mounted on her stem-head or a Kingdom. I need to look for that information in the document.
+Action 2: Lookup[symbol] 
+        Action 2: Lookup[symbol]
+        Observation 2: No more results.
+"
+
+SIMULATION TRAJECTORY:
+ Thought 2: The current observation mentions the ship was named for the city of Emden. It does not mention any symbol mounted on her stem-head or a kingdom. I need to find information about a symbol on her stem-head. I will look for mentions of "symbol" or "stem-head" within the article, or broaden the search if needed.
+Action 2: Lookup[symbol], Lookup[stem-head], Search[Emden (symbol)] 
+        Action 2: ['Search[SMS Emden]', 'Search[Emden (symbol)]', 'Lookup[symbol]', 'Lookup[stem-head]']
+        Observation 2: "
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Since the initial search for "SMS Emden" didn't yield information about a symbol or kingdom, and a lookup for "symbol" also failed, I need to try a broader search about the Emden's adornments, or perhaps specifically about light cruisers of that era, to find if such a tradition existed and what it was.
+Action 3: Search[SMS Emden stem-head symbol] 
+        Action 3: Search[SMS Emden stem-head symbol]
+        Observation 3: Could not find SMS Emden stem-head symbol. Similar: ['Penang', 'M.G.R. and Amma Memorial', 'Australia in World War I', 'HMAS Australia (1911)', 'List of public art in the City of Sydney']."
+
+SIMULATION TRAJECTORY:
+ Thought 3: The search result for SMS Emden did not contain any information about a symbol on its stem-head, nor did looking up "symbol" within that article. It's possible the information is not on the primary Wikipedia page for the ship or in the first paragraph. I need to broaden my search or try a more specific search term. The question implies a specific, perhaps unique, symbol and its origin. Perhaps the question refers to a specific type of symbol related to naval traditions or the ship's specific history.
+Action 3: [Lookup[stem-head], Search[SMS Emden figurehead], Search[German Imperial Navy symbols]] 
+        Action 3: ['Search[SMS Emden figurehead]', 'Search[German Imperial Navy symbols]', 'Lookup[stem-head]']
+        Observation 3: "
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: My previous attempts to find specific information about a symbol on SMS Emden's stem-head directly were unsuccessful. I need to generalize the search to find out if there was a general practice or a specific detail about SMS Emden's decoration that might include a symbol and its origin. Perhaps searching for "Kaiserliche Marine emblems" or "German Imperial Navy ship decorations" might yield results, but first I should reconsider the possibility of the description being in the article *SMS Emden* itself; perhaps the keyword "symbol" was too narrow. I will search for "stem-head" within the *SMS Emden* article.
+Action 4: Lookup[stem-head] 
+        Action 4: Lookup[stem-head]
+        Observation 4: No more results.
+"
+
+SIMULATION TRAJECTORY:
+ Thought 4: My previous search for "SMS Emden stem-head symbol" did not return a direct result, suggesting that the specific term "stem-head symbol" might not be commonly used or the information is not readily available with that exact wording. I need to consider alternative ways to find information related to ship adornments or symbols on historical German naval vessels, or expand my search to include more general terms.
+Action 4: [Search[SMS Emden figurehead], Search[German Imperial Navy ship symbols], Lookup[stem-head]] 
+        Action 4: ['Search[SMS Emden figurehead]', 'Search[German Imperial Navy ship symbols]', 'Lookup[stem-head]']
+        Observation 4: "
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Since direct searches for "symbol" and "stem-head" within the *SMS Emden* article and general searches for "SMS Emden stem-head symbol" did not yield results, it's possible that the initial article about SMS Emden, or its general information, contains details about its decoration if such a symbol existed. I will re-examine the main SMS Emden article, but broaden my search for keywords related to ornamentation or distinctive features, perhaps using "figurehead" or "crest." If that fails, I may need to specifically investigate the historical context of German naval ship decoration. However, for now, let's try a targeted search within the Emden article for "figurehead."
+Action 5: Lookup[figurehead] 
+        Action 5: Lookup[figurehead]
+        Observation 5: No more results.
+"
+
+SIMULATION TRAJECTORY:
+ Thought 5: Since "stem-head" itself didn't yield results in the Lookup, the initial search for "SMS Emden" was likely too broad as well. I need to re-examine the information I have or look for more general information about German Imperial Navy ship adornments to see if a specific type of symbol was common. It's possible the information is not directly associated with "stem-head" but rather a general ship design element that happens to be located there.
+Action 5: Search[German Imperial Navy ship symbols], Search[ship figurehead history], Lookup[Emden] 
+        Action 5: ['Search[German Imperial Navy ship symbols]', 'Search[ship figurehead history]', 'Lookup[Emden]']
+        Observation 5: "
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Given that direct searches within the SMS Emden article for "symbol," "stem-head," and "figurehead" yielded no results, and a broader search for "SMS Emden stem-head symbol" also failed, it's possible the information is either not readily available in general Wikipedia articles or is couched in different terminology. I need to consider that the question might be leading me to information not directly stated about a physical symbol but perhaps implied by the ship's name or national identity. However, I should first exhaust possibilities within the *SMS Emden* article, looking for any descriptive details about its appearance or unique features that might imply a particular "symbol." If still no direct mention, I will broaden to the *German Kaiserliche Marine* to see typical ship decorations. But for now, let's try a broader search on "Emden (ship)" to see if there is a more detailed article that we missed.
+Action 6: Search[Emden (ship)] 
+        Action 6: Search[Emden (ship)]
+        Observation 6: Could not find Emden (ship). Similar: ['SMS Emden', 'Emden', 'German cruiser Emden', 'German ship Emden', 'SMS Emden (1916)']."
+
+SIMULATION TRAJECTORY:
+ Thought 6: The Lookup for 'figurehead' didn't yield any results within the current page for `SMS Emden`. This suggests the specific detail might not be within this article, or that the terms I'm using are too specific. I need to consider that the question implies a common practice for these ships, so I should search for information on German naval traditions or, if I'm confident about the specific symbol, its origin kingdom. Given the lack of specific details so far for the ship itself, I will try a broader search on "German Imperial Navy symbols" trying to find something common to all ships, *or* something specific to cruisers.
+Action 6: Search[German Imperial Navy symbols], Search[Imperial German Navy ship decoration], Search[figurehead history German navy] 
+        Action 6: ['Search[German Imperial Navy symbols]', 'Search[Imperial German Navy ship decoration]', 'Search[figurehead history German navy]']
+        Observation 6: "
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: The search for "Emden (ship)" returned several similar entities including "SMS Emden". This suggests the original "SMS Emden" article is the most relevant. Since direct searches for a symbol on the stem-head have been exhausted within that article, I need to consider a different approach. The question might be referring to an implied symbol associated with the name "Emden" itself, or the German Imperial Navy, rather than a physical carving. I will now explicitly search for "Emden" as a place, since the ship was named after it, to see if there's any symbolic connection mentioned there. This step aims to uncover if the *name* Emden itself carries symbolic meaning from a specific kingdom, which might satisfy the "symbol on her stem-head from what Kingdom" part of the question.
+Action 7: Search[Emden] 
+        Action 7: Search[Emden]
+        Observation 7: Emden (German pronunciation: [ˈɛmdn̩] ⓘ) is an independent town and seaport in Lower Saxony in the north-west of Germany and lies on the River Ems, close to the Netherlands border. It is the main town in the region of East Frisia and had a total population of 50,535 in 2022.. County of East Frisia 1464–1744. Kingdom of Prussia 1744–1806. Kingdom of Holland 1806–1810."
+
+SIMULATION TRAJECTORY:
+ Thought 7: The search for "Emden (ship)" returned a disambiguation page. I need to select the correct "SMS Emden" to continue my search. Since the original question was about "SMS Emden," I should specify that in the search for the ship.
+Action 7: Search[SMS Emden (1908)], Search[SMS Emden (1917)], Search[SMS Emden] 
+        Action 7: ['Search[SMS Emden (1908)]', 'Search[SMS Emden (1917)]', 'Search[SMS Emden]']
+        Observation 7: "
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'Prussia', 'question_idx': 4657, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 0 
+Number of steps: 3 
+Average reward: 0.0 
+Average time 31.822033325831097
+
+--------------------------------------------------
+

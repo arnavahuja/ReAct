@@ -1,0 +1,67 @@
+INFO 600 Question: Prince Michael of Prussia was a member of the house that arose in what town in the 11th century?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Prince Michael of Prussia]
+Action 1: Search[Prince Michael of Prussia]
+Observation 1: Wilhelm Heinrich Michael Louis Ferdinand Friedrich Franz Wladimir Prinz von Preussen (22 March 1940 – 3 April 2014) was a descendant of the Hohenzollern dynasty which ruled Germany until the end of World War I. His great-grandfather Wilhelm II was the German Emperor and King of Prussia until 1918. Although Kaiser Wilhelm died in exile and his family was stripped of much of its wealth and recognition of its rank and titles by the German Republic, Michael spent nearly all of his life in Germany.. Michael was the second son of Louis Ferdinand, Prince of Prussia, and Grand Duchess Kira Kirillovna of Russia. Both of his parents lived their early years as members of ruling imperial families that were deposed before they reached adulthood,[1] leaving them to adjust to life in straitened circumstances, in exile or under surveillance, and sometimes in flight from their ancestral nations.[2] The Kaiser lived in the Netherlands under banishment from Germany when Michael was born.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Prince Michael of Prussia]
+Action 1: Search[Prince Michael of Prussia]
+Observation 1: **Prince Michael of Prussia (German: *Michael Prinz von Preußen*)** (born 22 March 1940) is a German historian, author, and member of the House of Hohenzollern, the former ruling dynasty of Prussia and the German Empire. He is the second son of Prince Louis Ferdinand of Prussia and Grand Duchess Kira Kirillovna of Russia.. **Early Life and Education:**. Prince Michael was born in Berlin, Germany, during World War II.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Lookup[house]
+Action 2: Lookup[house]
+Observation 2: (Result 1 / 1) **Prince Michael of Prussia (German: *Michael Prinz von Preußen*)** (born 22 March 1940) is a German historian, author, and member of the House of Hohenzollern, the former ruling dynasty of Prussia and the German Empire.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[House of Hohenzollern]
+Action 2: Search[House of Hohenzollern]
+Observation 2: **Prince Michael of Prussia (German: *Michael Prinz von Preußen*)** (born 22 March 1940) is a German historian, author, and member of the House of Hohenzollern, the former ruling dynasty of Prussia and the German Empire. He is the second son of Prince Louis Ferdinand of Prussia and Grand Duchess Kira Kirillovna of Russia.. **Early Life and Education:**. Prince Michael was born in Berlin, Germany, during World War II.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[House of Hohenzollern]
+Action 3: Search[House of Hohenzollern]
+Observation 3: The House of Hohenzollern (/ˌhoʊənˈzɒlərn/, US also /-nˈzɔːl-, -ntˈsɔːl-/;[1][2][3][4] German: Haus Hohenzollern, pronounced [ˌhaʊs hoːənˈtsɔlɐn] ⓘ; Romanian: Casa de Hohenzollern) is a formerly royal (and from 1871 to 1918, imperial) German dynasty whose members were variously princes, electors, kings and emperors of Hohenzollern, Brandenburg, Prussia, the German Empire, and Romania. The family came from the area around the town of Hechingen in Swabia during the late 11th century and took their name from Hohenzollern Castle.[5] The first ancestors of the Hohenzollerns were mentioned in 1061.. The Hohenzollern family split into two branches, the Catholic Swabian branch and the Protestant Franconian branch,[6] which ruled the Burgraviate of Nuremberg and later became the Brandenburg-Prussian branch. The Swabian branch ruled the principalities of Hohenzollern-Hechingen and Hohenzollern-Sigmaringen until 1849, and also ruled Romania from 1866 to 1947. Members of the Franconian branch became Margrave of Brandenburg in 1415 and Duke of Prussia in 1525..
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[House of Hohenzollern]
+Action 3: Search[House of Hohenzollern]
+Observation 3: The **House of Hohenzollern** is a German noble dynasty and royal house. Originating in the area around the town of Hechingen in Swabia during the 11th century, they took their name from the ancestral seat of Hohenzollern Castle. The family rose to prominence through a series of strategic marriages, territorial acquisitions, and political maneuvering, eventually becoming one of the most powerful dynasties in European history.. **Early History and Rise to Power:**. The earliest known.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[Hechingen]
+Action 4: Finish[Hechingen]
+Observation 4: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[Hechingen in Swabia]
+Action 4: Finish[Hechingen in Swabia]
+Observation 4: The **House of Hohenzollern** is a German noble dynasty and royal house. Originating in the area around the town of Hechingen in Swabia during the 11th century, they took their name from the ancestral seat of Hohenzollern Castle. The family rose to prominence through a series of strategic marriages, territorial acquisitions, and political maneuvering, eventually becoming one of the most powerful dynasties in European history.. **Early History and Rise to Power:**. The earliest known.
+
+
+
+INFO {'steps': 7, 'answer': 'Hechingen', 'gt_answer': 'Hechingen in Swabia', 'question_idx': 2944, 'reward': False, 'em': False, 'f1': 0.5}
+
+INFO Sum of rewards: 9 
+Number of steps: 18 
+Average reward: 0.5 
+Average time 21.742596719000076
+
+-------------------------------------------------------
+

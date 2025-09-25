@@ -1,0 +1,59 @@
+INFO 5619 Question: What are both Caleb Shomo and Brian Welch?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to look up Caleb Shomo to see his profession, then do the same for Brian Welch to identify what they have in common.
+Action 1: Search[Caleb Shomo]
+Observation 1: Caleb Joshua Shomo (born December 1, 1992)[1][2] is an American singer, musician, songwriter, and producer. He is most well known as the lead-vocalist of Beartooth, though he records all studio instrumentals for the band. He is also the former lead vocalist, keyboardist, and early backing vocalist of Attack Attack!, and the owner of Studio Records in Columbus, Ohio. Shomo joined Attack Attack! as keyboardist at 15 years old while maintaining a passion for electronic music and eventually grew into record production by 18.. Shomo has been referred to as "one of the current scene’s most beloved figures."[3].
+
+SIMULATION TRAJECTORY:
+ Thought 1: I'll look up each person to identify their profession and see what they have in common, starting with Caleb Shomo.
+Action 1: Search[Caleb Shomo]
+Observation 1: Caleb Shomo is an American musician, singer, songwriter, and record producer. He is best known as the frontman and sole constant member of the electronicore band **Attack Attack!** and as the founder and driving force behind the metalcore band **Beartooth**.. **Early Life and Career:**. Shomo was born on June 18, 1992. He began his musical journey at a young age, showing a strong aptitude for various instruments and production.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Caleb Shomo is an American singer, musician, songwriter, and producer. Now I should look up Brian Welch to identify his profession and see what they have in common.
+Action 2: Search[Brian Welch]
+Observation 2: Brian Philip Welch (born June 19, 1970), also known by his stage name Head, is an American musician. He is a guitarist and founding member of the nu metal band Korn[3] and his solo project Love and Death, where he also provides vocals. Along with fellow Korn guitarist James "Munky" Shaffer, Welch helped develop Korn's distinctive sound (a mix of sirenlike shards of dissonant guitar that mimicked a turntablist's various effects and rumbling down-tuned riffing) that defined the nu metal aesthetic beginning in the mid-'90s.[3]. After becoming a Christian, Welch left the band in 2005 to focus on life as a father and to pursue his own solo career. He released his debut Christian album, Save Me from Myself, in 2008.
+
+SIMULATION TRAJECTORY:
+ Thought 2: I should search Brian Welch to find his profession and then identify what he and Caleb Shomo have in common.
+Action 2: Search[Brian Welch]
+Observation 2: Brian Welch, often known by his stage name **Head**, is an American musician, singer, and songwriter. He is best known as a co-founder, guitarist, and vocalist for the nu-metal band **Korn**.. Born on June 19, 1970, in Torrance, California, Welch's musical journey began at a young age. He developed a passion for guitar and honed his skills, eventually leading to the formation of Korn in 199.
+
+
+
+STEP: 3
+
+ERROR Action not found in None 
+Retrying to get action...
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 3: None
+Action 3: Finish[American musicians]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: None
+Action 3: Finish[musicians]
+Observation 3: Brian Welch, often known by his stage name **Head**, is an American musician, singer, and songwriter. He is best known as a co-founder, guitarist, and vocalist for the nu-metal band **Korn**.. Born on June 19, 1970, in Torrance, California, Welch's musical journey began at a young age. He developed a passion for guitar and honed his skills, eventually leading to the formation of Korn in 199.
+
+
+
+INFO {'steps': 5, 'answer': 'American musicians', 'gt_answer': 'singer', 'question_idx': 3792, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 1 
+Number of steps: 2 
+Average reward: 0.5 
+Average time 116.44708299636841
+
+-------------------------------------------------------
+

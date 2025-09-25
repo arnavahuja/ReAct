@@ -1,0 +1,39 @@
+INFO 4968 Question: Why did Rudolf Hess stop serving Hitler in 1941?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Rudolf Hess]
+Action 1: Search[Rudolf Hess]
+Observation 1: This is an accepted version of this page. Rudolf Walter Richard Hess (Heß in German; 26 April 1894 – 17 August 1987) was a German politician, convicted war criminal and a leading member of the Nazi Party in Germany. Appointed Deputy Führer (Stellvertreter des Führers) to Adolf Hitler in 1933, Hess held that position until 1941, when he flew solo to Scotland in an attempt to negotiate the United Kingdom's exit from the Second World War. He was taken prisoner and eventually convicted of crimes against peace. He was still serving his life sentence at the time of his suicide in 1987..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Rudolf Hess]
+Action 1: Search[Rudolf Hess]
+Observation 1: Rudolf Walter Richard Hess (born Rudolf Walter Richard Höss; 26 April 1894 – 17 August 1987) was a prominent German politician and leading member of Adolf Hitler's Nazi Party (NSDAP). He served as Hitler's Deputy Führer (Stellvertreter des Führers) from 1933 to 1941.. Born in Alexandria, Egypt, to a German family, Hess was the son.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[Rudolf Hess flew solo to Scotland in an attempt to negotiate the United Kingdom's exit from the Second World War. He was taken prisoner.]
+Action 2: Finish[Rudolf Hess flew solo to Scotland in an attempt to negotiate the United Kingdom's exit from the Second World War. He was taken prisoner.]
+Observation 2: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[stopped serving]
+Action 2: Lookup[stopped serving]
+Observation 2: Rudolf Walter Richard Hess (born Rudolf Walter Richard Höss; 26 April 1894 – 17 August 1987) was a prominent German politician and leading member of Adolf Hitler's Nazi Party (NSDAP). He served as Hitler's Deputy Führer (Stellvertreter des Führers) from 1933 to 1941.. Born in Alexandria, Egypt, to a German family, Hess was the son.
+
+
+
+INFO {'steps': 3, 'answer': "Rudolf Hess flew solo to Scotland in an attempt to negotiate the United Kingdom's exit from the Second World War. He was taken prisoner.", 'gt_answer': "report Hess's illegal May 1941 flight to Scotland", 'question_idx': 4393, 'reward': False, 'em': False, 'f1': 0.13793103448275862}
+
+INFO Sum of rewards: 4 
+Number of steps: 10 
+Average reward: 0.4 
+Average time 9.463458728790282
+
+-------------------------------------------------------
+

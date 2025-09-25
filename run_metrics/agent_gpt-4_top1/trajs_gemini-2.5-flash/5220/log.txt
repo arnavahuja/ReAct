@@ -1,0 +1,81 @@
+INFO 5220 Question: When did the person who claimed that Fidel Castro was killed in the 26th July Movement but was proven wrong by Herbert Matthews first serve as President of Cuba?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Fidel Castro, 26th July Movement, Herbert Matthews]
+Action 1: Search[Fidel Castro, 26th July Movement, Herbert Matthews]
+Observation 1: Could not find Fidel Castro, 26th July Movement, Herbert Matthews. Similar: ['26th of July Movement', 'Herbert Matthews', 'Osvaldo Dorticós Torrado', "Cuban Revolution (redirect from Fidel Castro's revolution)", 'Fidel Castro in the Cuban Revolution'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Herbert Matthews Fidel Castro]
+Action 1: Search[Herbert Matthews Fidel Castro]
+Observation 1: ## Fidel Castro. **Fidel Alejandro Castro Ruz** (August 13, 1926 – November 25, 2016) was a Cuban revolutionary and politician who served as Prime Minister of Cuba from 1959 to 1976 and President of the Council of State and Council of Ministers of Cuba from 1976 to 2008. He was the First Secretary of the Communist Party of Cuba from 1.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Fidel Castro]
+Action 2: Search[Fidel Castro]
+Observation 2: Fidel Alejandro Castro Ruz[a] (13 August 1926 – 25 November 2016) was a Cuban politician and revolutionary who was the leader of Cuba from 1959 to 2008, serving as the prime minister of Cuba from 1959 to 1976 and president from 1976 to 2008. Ideologically a Marxist–Leninist and Cuban nationalist, he also served as the first secretary of the Communist Party of Cuba from 1965 until 2011. Under his administration, Cuba became a one-party communist state; industry and business were nationalized, and socialist reforms were implemented throughout society.. Born in Birán, the son of a wealthy Spanish farmer, Castro adopted leftist and anti-imperialist ideas while studying law at the University of Havana. After participating in rebellions against right-wing governments in the Dominican Republic and Colombia, he planned the overthrow of Cuban president Fulgencio Batista, launching a failed attack on the Moncada Barracks in 1953.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[proven wrong by Herbert Matthews]
+Action 2: Lookup[proven wrong by Herbert Matthews]
+Observation 2: **Fidel Alejandro Castro Ruz** (August 13, 1926 – November 25, 2016) was a Cuban revolutionary and politician who served as Prime Minister of Cuba from 1959 to 1976 and President of the Council of State and Council of Ministers of Cuba from 1976 to 2008. He was the First Secretary of the Communist Party of Cuba from 1961 to.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Herbert Matthews]
+Action 3: Search[Herbert Matthews]
+Observation 3: Herbert Lionel Matthews (January 10, 1900 – July 30, 1977) was a reporter and editorialist[1] for The New York Times who won widespread attention after revealing that the 30-year-old Fidel Castro was still alive and living in the Sierra Maestra mountains. President Fulgencio Batista claimed publicly that the young guerrilla leader had been killed during the landing of the yacht Granma, bringing him and others back to Cuba from Mexico in December 1956.. The grandson of Jewish immigrants, Matthews was born and raised on Riverside Drive on the Upper West Side of Manhattan. He volunteered for the Army near the end of World War I and graduated from Columbia College of Columbia University. He subsequently joined the New York Times and reported from Europe during the Spanish Civil War.[2].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[26th July Movement, Herbert Matthews]
+Action 3: Lookup[26th July Movement, Herbert Matthews]
+Observation 3: **Herbert Lionel Matthews (1900–1977) was an American journalist and foreign correspondent for *The New York Times*. He is best known for his controversial interviews with Fidel Castro in the Sierra Maestra mountains of Cuba in 1957, which played a significant role in shaping international perceptions of the Cuban Revolution.**. **Early Life and Career:**. Born in New York City, Matthews graduated from Columbia University in 1922. He began his career in.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Fulgencio Batista]
+Action 4: Search[Fulgencio Batista]
+Observation 4: President of Cuba. First presidency term. Second presidency term. Fulgencio Batista y Zaldívar[a] (born Rubén Zaldívar;[2] January 16, 1901 – August 6, 1973) was a Cuban military officer and dictator who played a dominant role in Cuban politics from his initial rise to power in the 1930s until his overthrow in the Cuban Revolution in 1959. He served as president of Cuba from 1940 to 1944, and again from 1952 to his 1959 resignation..
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[26th of July Movement]
+Action 4: Search[26th of July Movement]
+Observation 4: **Fulgencio Batista y Zaldívar** (January 16, 1901 – August 6, 1973) was a Cuban military officer and politician who served as the de facto leader of Cuba from 1933 to 1940 and as the elected President of Cuba from 1940 to 1944. He later returned to power through a military coup in 1952, ruling as a dictator.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Finish[1940]
+Action 5: Finish[1940]
+Observation 5: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Finish[1940]
+Action 5: Finish[1940]
+Observation 5: **Fulgencio Batista y Zaldívar** (January 16, 1901 – August 6, 1973) was a Cuban military officer and politician who served as the de facto leader of Cuba from 1933 to 1940 and as the elected President of Cuba from 1940 to 1944. He later returned to power through a military coup in 1952, ruling as a dictator.
+
+
+
+INFO {'steps': 9, 'answer': '1940', 'gt_answer': '1940', 'question_idx': 5065, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 18 
+Number of steps: 39 
+Average reward: 0.46153846153846156 
+Average time 21.44836835983472
+
+-------------------------------------------------------
+

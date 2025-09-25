@@ -1,0 +1,76 @@
+INFO 4948 Question: The 2017–18 Wigan Athletic F.C. season will be a year in which the team competes in the league cup known as what for sponsorship reasons?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to search the 2017–18 Wigan Athletic F.C. season and find the name of the league cup they compete in for sponsorship reasons.
+Action 1: Search[2017–18 Wigan Athletic F.C. season] 
+        Action 1: Search[2017–18 Wigan Athletic F.C. season]
+        Observation 1: The 2017–18 season was Wigan Athletic's 86th year in existence and their first back in League One, after being relegated the previous season. Along with competing in the league, the club also participated in the FA Cup, EFL Cup and EFL Trophy. Paul Cook was appointed as manager on 31 May 2017, signing a 3-year deal, following the departure of much of the previous coaching staff the day before.[1][2] The season covers the period from 1 July 2017 to 30 June 2018.. The season notably saw Wigan knock out Manchester City in the fifth round of the FA Cup. It was the third time Wigan had beaten City in the cup, having previously done so in the 2013 final, and the quarter-finals of the 2013–14 FA Cup.."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to search 2017–18 Wigan Athletic F.C. season and find the league cup the team competes in for sponsorship reasons.
+Action 1: Search[2017–18 Wigan Athletic F.C. season], Lookup[Sponsorship], Search[League Cup 2017-18] 
+        Action 1: ['Search[2017–18 Wigan Athletic F.C. season]', 'Search[League Cup 2017-18]', 'Lookup[Sponsorship]']
+        Observation 1: The **2017–18 Wigan Athletic F.C. season** was the club's 89th year in existence and their first season back in EFL League One following promotion from EFL League Two in the 2016–17 season.. **Season Summary:**. Wigan Athletic enjoyed a successful return to League One, securing promotion back to the Championship at the first attempt. The team, managed by Paul Cook, demonstrated consistent form throughout the campaign, ultimately."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The information on the 2017–18 Wigan Athletic F.C. season doesn't specify the name sponsorship of the EFL Cup for that particular year. Therefore, I need to search for the EFL Cup and get the sponsored name.
+Action 2: Search[EFL Cup 2017-18] 
+        Action 2: Search[EFL Cup 2017-18]
+        Observation 2: Could not find EFL Cup 2017-18. Similar: ['2017–18 EFL Cup', '2017 EFL Cup final', '2025 EFL Cup final', '2017–18 EFL Trophy', '2017–18 FA Cup']."
+
+SIMULATION TRAJECTORY:
+ Thought 2: The summary of Wigan Athletic F.C.'s season did not mention the name of their cup competition. I should lookup that information.
+Action 2: Lookup[cup], Lookup[league cup], Lookup[sponsorship] 
+        Action 2: ['Lookup[cup]', 'Lookup[league cup]', 'Lookup[sponsorship]']
+        Observation 2: The **2017–18 EFL Cup**, also known as the **Carabao Cup** for sponsorship reasons, was the 58th season of the EFL Cup, a knockout competition in English football, organised by the English Football League (EFL) for clubs in the Premier League and the Championship, League One, and League Two of the English Football League.. **Format:**. The competition featured 92 clubs from the top four tiers of English football. The format."
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: I was unable to find the correct information under EFL Cup 2017-18. I should try a similar search that was suggested.
+Action 3: Search[2017–18 EFL Cup] 
+        Action 3: Search[2017–18 EFL Cup]
+        Observation 3: The 2017–18 EFL Cup was the 58th season of the EFL Cup. The competition was open to all 92 clubs participating in the Premier League and the English Football League. It was known as the Carabao Cup due to the start of a sponsorship deal with Carabao Energy Drinks after the tournament was unsponsored the previous year.[1] The final took place at Wembley Stadium in London.. Manchester City won their fifth title after a 3–0 win over Arsenal in the final.[2]. Manchester United were the defending champions, but were eliminated by Bristol City in the fifth round.[3]."
+
+SIMULATION TRAJECTORY:
+ Thought 3: The EFL cup for the 2017-18 season was sponsored by Carabao, hence it was known as the Carabao Cup. 
+Action 3: ["Finish[Carabao Cup]", "Lookup[sponsorship]", "Search[Carabao]"] 
+        Action 3: ['Search[Carabao]', 'Lookup[sponsorship]', 'Finish[Carabao Cup]']
+        Observation 3: The **2017–18 EFL Cup**, also known as the **Carabao Cup** for sponsorship reasons, was the 58th season of the EFL Cup, a knockout football competition contested by 92 clubs in England and Wales. The competition was open to Premier League clubs and clubs from the English Football League (Championship, League One, and League Two).. **Format:**. The tournament began in August 2017 and concluded in February 2."
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: From the information about the 2017–18 EFL Cup, it was known as the Carabao Cup due to a sponsorship deal with Carabao Energy Drinks. This should be the name of the cup in which the Wigan Athletic F.C. team competed in that season.
+Action 4: Finish[Carabao Cup] 
+        Action 4: Finish[Carabao Cup]
+        Observation 4: Episode finished, reward = 1
+"
+
+SIMULATION TRAJECTORY:
+ Thought 4: The 2017–18 EFL Cup is also known as the Carabao Cup for sponsorship reasons, so the answer is Carabao Cup.
+Action 4: [Finish[Carabao Cup], Lookup[sponsorship], Search[Carabao]] 
+        Action 4: ['Search[Carabao]', 'Lookup[sponsorship]', 'Finish[Carabao Cup]']
+        Observation 4: The **2017–18 EFL Cup**, also known as the **Carabao Cup** for sponsorship reasons, was the 58th season of the EFL Cup, a knockout football competition contested by 92 clubs in England and Wales. The competition was open to Premier League clubs and clubs from the English Football League (Championship, League One, and League Two).. **Format:**. The tournament began in August 2017 and concluded in February 2."
+
+
+
+INFO {'steps': 7, 'answer': 'Carabao Cup', 'gt_answer': 'Carabao Cup', 'question_idx': 69, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 10 
+Number of steps: 19 
+Average reward: 0.5263157894736842 
+Average time 31.4853162514536
+
+--------------------------------------------------
+

@@ -1,0 +1,70 @@
+INFO 3021 Question: Which genus has more species, Cymbidium or Patrinia?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Cymbidium]
+Action 1: Search[Cymbidium]
+Observation 1: Cymbidium /sɪmˈbɪdiəm/,[2] commonly known as boat orchids, is a genus of evergreen flowering plants in the orchid family Orchidaceae. Orchids in this genus are epiphytic, lithophytic, terrestrial or rarely leafless saprophytic herbs usually with pseudobulbs. There are usually between three and twelve leaves arranged in two ranks on each pseudobulb or shoot and lasting for several years. From one to a large number of flowers are arranged on an unbranched flowering stem arising from the base of the pseudobulb. The sepals and petals are all free from and similar to each other.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Cymbidium]
+Action 1: Search[Cymbidium]
+Observation 1: Cymbidium, commonly known as boat orchids, is a genus of approximately 50 species of evergreen flowering plants in the orchid family (Orchidaceae). Native to Asia and Australia, Cymbidiums are highly valued for their attractive, long-lasting flowers and are widely cultivated as ornamental plants.. Description:. Cymbidiums are perennial herbs with pseudobulbs that are often elongated and cylindrical, providing storage for water and nutrients. The leaves are typically linear, leathery, and arranged in a.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Lookup[species]
+Action 2: Lookup[species]
+Observation 2: (Result 1 / 1) Cymbidium, commonly known as boat orchids, is a genus of approximately 50 species of evergreen flowering plants in the orchid family (Orchidaceae).
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Patrinia]
+Action 2: Search[Patrinia]
+Observation 2: Cymbidium, commonly known as boat orchids, is a genus of approximately 50 species of evergreen flowering plants in the orchid family (Orchidaceae). Native to Asia and Australia, Cymbidiums are highly valued for their attractive, long-lasting flowers and are widely cultivated as ornamental plants.. Description:. Cymbidiums are perennial herbs with pseudobulbs that are often elongated and cylindrical, providing storage for water and nutrients. The leaves are typically linear, leathery, and arranged in a.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Patrinia]
+Action 3: Search[Patrinia]
+Observation 3: Patrinia is a genus of herbaceous plants in the honeysuckle family (Caprifoliaceae). It includes 14 species native to grassy mountain habitats from eastern European Russia to China, Siberia, Korea, and Japan.[1] These are unassuming clump-forming perennial plants having thin, erect stems with few leaves and bearing a terminal inflorescence with yellow or white flowers.. 14 species are accepted.[1]. One fossil fruit of †Patrinia palaeosibirica has been extracted from borehole samples of the Middle Miocene fresh water deposits in Nowy Sacz Basin, West Carpathians, Poland.[2]. This Dipsacales article is a stub.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Patrinia]
+Action 3: Search[Patrinia]
+Observation 3: Patrinia is a genus of flowering plants in the family Caprifoliaceae, although it was previously classified within the Valerianaceae family. The genus is native to temperate regions of Asia and eastern Europe. Patrinia species are perennial herbs characterized by their attractive, often bright yellow or white flowers that bloom in late summer to early fall. These plants typically grow in open, sunny habitats such as meadows, grasslands, and forest edges.. The genus includes several species, with Patrinia sc.
+
+
+
+STEP: 4
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[Cymbidium]
+Action 4: Finish[Cymbidium]
+Observation 4: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 4: None
+Action 4: Lookup[species]
+Observation 4: Patrinia is a genus of flowering plants in the family Caprifoliaceae, although it was previously classified within the Valerianaceae family. The genus is native to temperate regions of Asia and eastern Europe. Patrinia species are perennial herbs characterized by their attractive, often bright yellow or white flowers that bloom in late summer to early fall. These plants typically grow in open, sunny habitats such as meadows, grasslands, and forest edges.. The genus includes several species, with Patrinia sc.
+
+
+
+INFO {'steps': 7, 'answer': 'Cymbidium', 'gt_answer': 'Cymbidium', 'question_idx': 2750, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 6 
+Number of steps: 14 
+Average reward: 0.42857142857142855 
+Average time 16.888481497764587
+
+-------------------------------------------------------
+

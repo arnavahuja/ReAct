@@ -1,0 +1,53 @@
+INFO 3749 Question: Who is older, Hampton Del Ruth or Ted Kotcheff?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Hampton Del Ruth]
+Action 1: Search[Hampton Del Ruth]
+Observation 1: Hampton Del Ruth (September 7, 1879 – May 15, 1958) was an American film actor, director, screenwriter, and film producer. Among other work, he wrote the intertitles for the final American studio-made silent film Legong: Dance of the Virgins (1935).. Del Ruth began working in film in 1913 and continued until the early 1930s. He also wrote at least two novels: Port o' Heart's Desire (1926) and Without Restraint (1936). He was the older brother of film director Roy Del Ruth and uncle of Cinematographer Thomas Del Ruth..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Hampton Del Ruth]
+Action 1: Search[Hampton Del Ruth]
+Observation 1: **Hampton Del Ruth (1893 – 1971)**. Hampton Del Ruth was an American film director, screenwriter, and producer. He worked primarily in the silent and early sound eras of Hollywood, directing a variety of films across different genres.. **Early Life and Career:**. Born in Milwaukee, Wisconsin, Ruth began his career in the burgeoning film industry in the 1910s.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Ted Kotcheff]
+Action 2: Search[Ted Kotcheff]
+Observation 2: William Theodore Kotcheff (Bulgarian: Величко Тодоров Цочев, romanized: Velichko Todorov Tsochev; April 7, 1931 – April 10, 2025) was a Canadian[1][2] director and producer of film, television, and theatre.[3] He worked at various times in Canada, the United Kingdom, and the United States.[1] He was known for having directed such films as the seminal Australian New Wave picture Wake in Fright (1971),[4] the Mordecai Richler adaptations The Apprenticeship of Duddy Kravitz (1974) and Joshua Then and Now (1985), the original Rambo film First Blood (1982),[4] and the comedies Fun with Dick and Jane (1977), North Dallas Forty (1979), and Weekend at Bernie's (1989).. Kotcheff was nominated for a Genie Award for Best Achievement in Direction, a Gemini Award for Best Direction in a Dramatic Program or Mini-Series, and twice for the Cannes Film Festival's Palme d'Or. He won the Golden Bear at the 1974 Berlin International Film Festival for The Apprenticeship of Duddy Kravitz, and the British Academy Television Award for Best Drama Series for his work on Play for Today. He received the Directors Guild of Canada's Lifetime Achievement Award in 2011,[5] and the Academy of Canadian Cinema & Television's Board of Directors' Tribute Award in 2014.[6]. He was described by the Toronto International Film Festival as a "talented, multi-faceted journeyman director in the tradition of Leo McCarey or Robert Wise".[7].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Ted Kotcheff]
+Action 2: Search[Ted Kotcheff]
+Observation 2: **Theodore "Ted" Kotcheff** (born June 8, 1931) is a Canadian film and television director, producer, and screenwriter. He is known for his work on a variety of genres, including thrillers, comedies, and dramas.. **Early Life and Career:**. Born in Toronto, Ontario, Kotcheff began his career in television in the 1950s, directing episodes of various Canadian Broadcasting Corporation (CBC) series. He.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Hampton Del Ruth]
+Action 3: Finish[Hampton Del Ruth]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Hampton Del Ruth]
+Action 3: Finish[Hampton Del Ruth]
+Observation 3: **Theodore "Ted" Kotcheff** (born June 8, 1931) is a Canadian film and television director, producer, and screenwriter. He is known for his work on a variety of genres, including thrillers, comedies, and dramas.. **Early Life and Career:**. Born in Toronto, Ontario, Kotcheff began his career in television in the 1950s, directing episodes of various Canadian Broadcasting Corporation (CBC) series. He.
+
+
+
+INFO {'steps': 5, 'answer': 'Hampton Del Ruth', 'gt_answer': 'Hampton Del Ruth', 'question_idx': 3249, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 8 
+Number of steps: 22 
+Average reward: 0.36363636363636365 
+Average time 31.119306683540344
+
+-------------------------------------------------------
+

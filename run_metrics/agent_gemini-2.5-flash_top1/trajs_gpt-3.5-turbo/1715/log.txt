@@ -1,0 +1,115 @@
+INFO 1715 Question: The memorial commemorating a 1941 Japanese surprise attack was designed by whom?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Pearl Harbor memorial]
+Action 1: Search[Pearl Harbor memorial]
+Observation 1: Pearl Harbor National Memorial is a unit of the National Park System of the United States on the island of Oahu, Hawaii. The John D. Dingell, Jr. Conservation, Management, and Recreation Act removed the site from the World War II Valor in the Pacific National Monument on March 12, 2019, and made it a separate national memorial.[2]. The site commemorates the events of the attack on Pearl Harbor on December 7, 1941, which killed over 2,400 Americans and sank twelve ships.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Attack on Pearl Harbor]
+Action 1: Search[Attack on Pearl Harbor]
+Observation 1: The USS Arizona Memorial, located at Pearl Harbor in Honolulu, Hawaii, marks the resting place of 1,102 of the 1,177 sailors and Marines killed on USS Arizona during the Japanese surprise attack on Pearl Harbor on December 7, 1941. The memorial, dedicated in 1962, is visited by more than two million people annually. It is operated by the National Park Service and is part of the World War II Valor in the Pacific National Monument. The memorial straddles.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Lookup[designed by]
+Action 2: Lookup[designed by]
+Observation 2: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[designed by]
+Action 2: Lookup[designed by]
+Observation 2: The USS Arizona Memorial, located at Pearl Harbor in Honolulu, Hawaii, marks the resting place of 1,102 of the 1,177 sailors and Marines killed on USS Arizona during the Japanese surprise attack on Pearl Harbor on December 7, 1941. The memorial, dedicated in 1962, is visited by more than two million people annually. It is operated by the National Park Service and is part of the World War II Valor in the Pacific National Monument. The memorial straddles.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[USS Arizona Memorial]
+Action 3: Search[USS Arizona Memorial]
+Observation 3: The USS Arizona Memorial, at Pearl Harbor in Honolulu, Hawaii, marks the resting place of 1,102 of the 1,177 sailors and Marines killed on USS Arizona during the attack on Pearl Harbor on December 7, 1941, and commemorates the events of that day. The attack on Pearl Harbor led to the United States' involvement in World War II.. The memorial, built in 1962, is visited by more than two million people annually.[1] Accessible only by boat, it straddles the sunken hull of the battleship without touching it. Historical information about the attack, shuttle boats to and from the memorial, and general visitor services are available at the associated USS Arizona Memorial Visitor Center, which opened in 1980 and is operated by the National Park Service. The battleship's sunken remains were declared a National Historic Landmark on May 5, 1989.[2].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[USS Arizona Memorial designer]
+Action 3: Search[USS Arizona Memorial designer]
+Observation 3: The USS Arizona Memorial is a national memorial located in Pearl Harbor, Hawaii. It commemorates the lives lost during the attack on Pearl Harbor on December 7, 1941, which led to the United States' entry into World War II. The memorial is built over the sunken wreckage of the USS Arizona battleship, where 1,177 crew members lost their lives.. The memorial was dedicated in 1962 and is visited by millions of people each year. It consists of a white structure.
+
+
+
+STEP: 4
+
+ERROR Action not found in None 
+Retrying to get action...
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 4: None
+Action 4: Lookup[designed by]
+Observation 4: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 4: None
+Action 4: Lookup[designed by]
+Observation 4: The USS Arizona Memorial is a national memorial located in Pearl Harbor, Hawaii. It commemorates the lives lost during the attack on Pearl Harbor on December 7, 1941, which led to the United States' entry into World War II. The memorial is built over the sunken wreckage of the USS Arizona battleship, where 1,177 crew members lost their lives.. The memorial was dedicated in 1962 and is visited by millions of people each year. It consists of a white structure.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[USS Arizona Memorial architect]
+Action 5: Search[USS Arizona Memorial architect]
+Observation 5: Could not find USS Arizona Memorial architect. Similar: ['USS Arizona Memorial', 'Alfred Preis (category Architects from Vienna)', 'USS Bowfin', 'United States Navy Memorial', 'Hiroshima Peace Memorial'].
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Lookup[designed by]
+Action 5: Lookup[designed by]
+Observation 5: The architect of the USS Arizona Memorial is Alfred Preis. He was an Austrian-born American architect who designed the memorial in honor of the lives lost during the attack on Pearl Harbor on December 7, 1941. Preis was selected for the project in 1949 and his design was chosen out of over 1,000 submissions. The memorial was dedicated in 1962 and has since become a prominent historical site and a symbol of remembrance for the events of that fateful day..
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Search[Alfred Preis]
+Action 6: Search[Alfred Preis]
+Observation 6: Alfred Preis (February 2, 1911 – March 29, 1994) was an Austrian-born American architect best known for designing the USS Arizona Memorial in Pearl Harbor.. Born and raised in Vienna, Austria, Preis spent his early architecture career in Vienna. He studied at the Vienna Technical University, earned his Architecture diploma in 1938, and worked as a site manager for Redlich and Berger and as a freelance designer for interiors, furniture and store fronts. Although of Jewish background, he converted to Roman Catholicism in 1936. Newlywed, he and his wife fled Austria in 1939 in the face of the German annexation of his homeland and emigrated to the U.S.
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Finish[Alfred Preis]
+Action 6: Finish[Alfred Preis]
+Observation 6: Alfred Preis (1911–1993) was an Austrian-American architect known for his work on the design of the USS Arizona Memorial in Pearl Harbor, Hawaii. Born in Vienna, Austria, Preis studied architecture at the Vienna Academy of Fine Arts before immigrating to the United States in 1938 to escape the rise of Nazism in Europe.. In the aftermath of the attack on Pearl Harbor in 1941, Preis was tasked with designing a memorial to honor the lives lost on the USS Arizona.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Finish[Alfred Preis]
+Action 7: Finish[Alfred Preis]
+Observation 7: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Finish[Alfred Preis]
+Action 7: Finish[Alfred Preis]
+Observation 7: Alfred Preis (1911–1993) was an Austrian-American architect known for his work on the design of the USS Arizona Memorial in Pearl Harbor, Hawaii. Born in Vienna, Austria, Preis studied architecture at the Vienna Academy of Fine Arts before immigrating to the United States in 1938 to escape the rise of Nazism in Europe.. In the aftermath of the attack on Pearl Harbor in 1941, Preis was tasked with designing a memorial to honor the lives lost on the USS Arizona.
+
+
+
+INFO {'steps': 13, 'answer': 'Alfred Preis', 'gt_answer': 'Alfred Preis', 'question_idx': 6423, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 6 
+Number of steps: 15 
+Average reward: 0.4 
+Average time 18.01650007565816
+
+-------------------------------------------------------
+

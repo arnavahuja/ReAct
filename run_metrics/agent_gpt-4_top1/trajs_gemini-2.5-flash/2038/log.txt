@@ -1,0 +1,53 @@
+INFO 2038 Question: Is Mary Pierce or Gustavo Kuerten the older tennis player?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Mary Pierce]
+Action 1: Search[Mary Pierce]
+Observation 1: Mary Caroline Pierce (born 15 January 1975) is a French former professional tennis player. She was ranked world No. 3 in singles and in doubles by the Women's Tennis Association (WTA). Pierce won 18 singles titles on the WTA Tour, including two majors at the 1995 Australian Open and the 2000 French Open, and five Tier I singles events. Pierce was a finalist at a further four singles majors, and twice at the Tour Finals..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Mary Pierce]
+Action 1: Search[Mary Pierce]
+Observation 1: **Mary Pierce** (born January 15, 1975) is a retired French-American professional tennis player. She was born in Montreal, Quebec, Canada, to an American father and a French mother, and holds dual citizenship. Pierce achieved significant success in her career, becoming a two-time Grand Slam singles champion and a former world No. 3 in singles.. **Early Life and Career:**.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Gustavo Kuerten]
+Action 2: Search[Gustavo Kuerten]
+Observation 2: Gustavo "Guga" Kuerten (Portuguese: [ɡusˈtavu ˈkiʁtẽ]; born 10 September 1976) is a Brazilian former professional tennis player. He was ranked as the world No. 1 in men's singles by the Association of Tennis Professionals for 43 weeks, including as the year-end No. 1 in 2000. Kuerten won 20 ATP Tour-level singles titles, including three majors at the French Open in 1997, 2000, and 2001, as well as the 2000 Tennis Masters Cup.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Gustavo Kuerten]
+Action 2: Search[Gustavo Kuerten]
+Observation 2: **Gustavo "Guga" Kuerten** (born 10 September 1976) is a Brazilian former world No. 1 tennis player. He won the French Open three times (1997, 2000, and 2001), and was the year-end No. 1 in 2000.. **Early Life and Career:**.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Mary Pierce]
+Action 3: Finish[Mary Pierce]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Mary Pierce]
+Action 3: Finish[Mary Pierce]
+Observation 3: **Gustavo "Guga" Kuerten** (born 10 September 1976) is a Brazilian former world No. 1 tennis player. He won the French Open three times (1997, 2000, and 2001), and was the year-end No. 1 in 2000.. **Early Life and Career:**.
+
+
+
+INFO {'steps': 5, 'answer': 'Mary Pierce', 'gt_answer': 'Mary Pierce', 'question_idx': 5319, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 10 
+Number of steps: 15 
+Average reward: 0.6666666666666666 
+Average time 29.66230926513672
+
+-------------------------------------------------------
+

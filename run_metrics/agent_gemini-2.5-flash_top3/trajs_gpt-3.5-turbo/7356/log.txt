@@ -1,0 +1,92 @@
+INFO 7356 Question: What is the central institution of Cheyenne Indian tribal governance that Ehyophsta was not a member of?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to identify Ehyophsta's affiliation and the central institution of Cheyenne Indian tribal governance. Then, I can determine if she was a member.
+Action 1: [Search[Ehyophsta]] 
+        Action 1: Search[Ehyophsta]
+        Observation 1: Ehyophsta (Cheyenne: Yellow-Haired Woman,[1] c. 1826 – 1915) was a Cheyenne woman warrior. She was the daughter of a chief, Stands-in-the-Timber, who died in 1849, and the niece of Bad Faced Bull.[2]  She fought in the Battle of Beecher Island in 1868, and also fought the Shoshone that same year, where she counted coup against one enemy and killed another.[3] She fought the Shoshone again in 1869, and during battle she stabbed and killed an enemy, saving a member of her own people.[4]. It is said that she rode her father's horse, and sang songs alongside a fellow woman warrior, Buffalo Wallow Woman of the Lakota.[5] She was also a member of a secret society composed exclusively of Cheyenne women. During this period, Cheyenne women often participated in battle, dressed and armed the same as the male warriors were.[6]."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to search for "Ehyophsta" and then "Cheyenne Indian tribal governance" to find the central institution she was not a member of.
+Action 1: [Search[Ehyophsta], Search[Cheyenne Indian tribal governance], Search[Ehyophsta Cheyenne]] 
+        Action 1: ['Search[Ehyophsta]', 'Search[Cheyenne Indian tribal governance]', 'Search[Ehyophsta Cheyenne]']
+        Observation 1: I'm sorry, but I couldn't find any information about "Ehyophsta" in existing sources.."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: I have information about Ehyophsta, but not about the central institution of Cheyenne Indian tribal governance. I need to search for that.
+Action 2: Search[Cheyenne Indian tribal governance] 
+        Action 2: Search[Cheyenne Indian tribal governance]
+        Observation 2: Could not find Cheyenne Indian tribal governance. Similar: ['Dog Soldiers (redirect from Cheyenne Dog Soldiers)', 'Tribal council (United States)', 'Tribal sovereignty in the United States', 'Cheyenne military societies', 'Indian reservation']."
+
+SIMULATION TRAJECTORY:
+ Thought 2: Since searching for "Ehyophsta" did not yield results, I should try to search for the Cheyenne tribe or prominent Cheyenne women figures to see if "Ehyophsta" might appear in a broader context, or perhaps there's a slight misspelling.
+Action 2: [Search[Cheyenne tribe], Search[prominent Cheyenne women], Search[Ehyophsta Cheyenne]] 
+        Action 2: ['Search[Cheyenne tribe]', 'Search[prominent Cheyenne women]', 'Search[Ehyophsta Cheyenne]']
+        Observation 2: The Cheyenne are a Native American tribe with a traditional governance system that is based on a council of chiefs. This council is made up of representatives from different Cheyenne bands, with decisions being made through consensus and discussion. The Cheyenne also have a ceremonial leader known as the "peace chief" who is responsible for maintaining harmony within the tribe and with other tribes.. The Cheyenne tribal governance system is deeply rooted in their cultural traditions and values, with an emphasis on respect for elders."
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Since "Cheyenne Indian tribal governance" didn't yield a direct result, I should broaden my search to something like "Cheyenne governance" or look into "Cheyenne military societies" as the previous search suggested, and as Ehyophsta was a warrior. However, "tribal council (United States)" could also be an option. Given the question is about the 'central institution', a broader search on their government structure might be more appropriate. I will try "Cheyenne government" first.
+Action 3: Search[Cheyenne government] 
+        Action 3: Search[Cheyenne government]
+        Observation 3: Could not find Cheyenne government. Similar: ['Cheyenne', 'Cheyenne, Wyoming', 'Northern Cheyenne Indian Reservation', 'Cheyenne Mountain Complex', 'Wyoming State Capitol (category Buildings and structures in Cheyenne, Wyoming)']."
+
+SIMULATION TRAJECTORY:
+ Thought 3: The central institution of Cheyenne Indian tribal governance is the council of chiefs. I need to determine if Ehyophsta was a member of this council. The previous observations mention she was a woman warrior and a member of a secret society composed exclusively of Cheyenne women, but do not explicitly state her membership or non-membership in the council of chiefs.
+Action 3: [Lookup[council of chiefs], Lookup[member], Finish[The council of chiefs]] 
+        Action 3: ['Lookup[council of chiefs]', 'Lookup[member]', 'Finish[The council of chiefs]']
+        Observation 3: The Cheyenne government is a tribal government of the Cheyenne people, who are Native American tribes originally from the Great Plains region of the United States. The Cheyenne government is organized as a sovereign nation with its own constitution and governing structure. The Cheyenne government is led by elected tribal leaders, including a tribal chairman or president, vice president, and tribal council members. The tribal council is responsible for making decisions on behalf of the Cheyenne people, including matters related to tribal."
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Given my previous searches for "Cheyenne Indian tribal governance" and "Cheyenne government" were unsuccessful, and knowing that Ehyophsta was a woman warrior, I should explore one of the similar results from the initial failed search: "Cheyenne military societies". This might be the "central institution" or lead to it.
+Action 4: Search[Cheyenne military societies] 
+        Action 4: Search[Cheyenne military societies]
+        Observation 4: Cheyenne military societies are one of the two central institutions of traditional Cheyenne native American tribal governance, the other being the Council of Forty-four. While council chiefs are responsible for overall governance of individual bands and the tribe as a whole, the headmen of military societies are in charge of maintaining discipline within the tribe, overseeing tribal hunts and ceremonies, and providing military leadership.[1] Historically, council chiefs selected which of the six military societies would assume these duties; after a period of time on-duty, the chiefs would select a different society to take up the duties.[2]. The prophet Sweet Medicine (Motsé'eóeve) was said to designate the four original Cheyenne warrior societies (pl. Nótȧxévėstotȯtse, sing. Nótȧxévestȯtse), which had their own society songs (nótȧxénootȯtse) and were governed by a head man (nótȧxévėhoneve)."
+
+SIMULATION TRAJECTORY:
+ Thought 4: The previous search gave me general information about Cheyenne government, stating that it's led by elected tribal leaders, including a tribal chairman or president, vice president, and tribal council members. It also says the tribal council is responsible for making decisions. I need to confirm if 'tribal council' is the "central institution" of governance and whether Ehyophsta was a member. The first search mentioned Ehyophsta was part of a secret society composed exclusively of Cheyenne women and was a warrior, but not any formal governing body.
+Action 4: [Lookup[tribal council], Search[Cheyenne tribal council], Lookup[Ehyophsta]] 
+        Action 4: ['Search[Cheyenne tribal council]', 'Lookup[tribal council]', 'Lookup[Ehyophsta]']
+        Observation 4: Cheyenne military societies were traditional warrior societies among the Cheyenne Native American tribe. These societies played a crucial role in the social and military organization of the Cheyenne people. Each society had its own specific responsibilities, rituals, and leadership structure. Members of these societies were highly respected within the tribe and were tasked with protecting the community, conducting warfare, and preserving the cultural traditions of the Cheyenne people. The military societies also played a significant role in decision-making processes and maintaining order within."
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: The Cheyenne military societies are identified as one of the two central institutions of traditional Cheyenne tribal governance. The other is the Council of Forty-four. Ehyophsta was a woman warrior, but the passage states that the military societies were led by "headmen". The question asks which institution Ehyophsta was *not* a member of. Since military societies are led by headmen (masculine, implying men) and she was a woman, it is highly likely she was not a member of the Council of Forty-four.
+Action 5: Finish[Council of Forty-Four] 
+        Action 5: Finish[Council of Forty-Four]
+        Observation 5: Episode finished, reward = 1
+"
+
+SIMULATION TRAJECTORY:
+ Thought 5: This result describes military societies, which Ehyophsta, as a woman warrior, could have been a member of, but it doesn't describe the *central* institution of tribal governance. I need to find the overarching governing body. The previous search for "Cheyenne Indian tribal governance" suggested "Tribal council (United States)".
+Action 5: Search[Tribal council (United States)], Search[Cheyenne (people)], Search[Cheyenne tribal council] 
+        Action 5: ['Search[Tribal council (United States)]', 'Search[Cheyenne (people)]', 'Search[Cheyenne tribal council]']
+        Observation 5: Cheyenne military societies were traditional warrior societies among the Cheyenne Native American tribe. These societies played a crucial role in the social and military organization of the Cheyenne people. Each society had its own specific responsibilities, rituals, and leadership structure. Members of these societies were highly respected within the tribe and were tasked with protecting the community, conducting warfare, and preserving the cultural traditions of the Cheyenne people. The military societies also played a significant role in decision-making processes and maintaining order within."
+
+
+
+INFO {'steps': 9, 'answer': 'Council of Forty-Four', 'gt_answer': 'the Council of Forty-four', 'question_idx': 5521, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 5 
+Number of steps: 10 
+Average reward: 0.5 
+Average time 12.471003699302674
+
+--------------------------------------------------
+

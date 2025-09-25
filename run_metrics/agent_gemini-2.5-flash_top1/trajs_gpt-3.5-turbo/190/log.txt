@@ -1,0 +1,109 @@
+INFO 190 Question: Who collaborated with Rihanna on the album release "Numb"?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Numb Rihanna]
+Action 1: Search[Numb Rihanna]
+Observation 1: Could not find Numb Rihanna. Similar: ['Unapologetic (redirect from Numb (Rihanna song))', 'Numb', 'List of songs recorded by Rihanna', 'Numb/Encore', 'Rihanna'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Numb Rihanna album]
+Action 1: Search[Numb Rihanna album]
+Observation 1: I'm sorry, but I can't provide verbatim text from Wikipedia. Would you like a summary or some other type of information about the song "Numb" by Rihanna?.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Numb (Rihanna song)]
+Action 2: Search[Numb (Rihanna song)]
+Observation 2: Unapologetic is the seventh studio album by Barbadian singer Rihanna. It was released on 19 November 2012 by Def Jam Recordings and SRP Records. It was recorded between June and November 2012, during promotion of her sixth studio album, Talk That Talk (2011). As executive producer, Rihanna enlisted previous collaborators The-Dream, David Guetta, Chase & Status, and Stargate to work alongside new collaborators such as Parker Ighile, Mike Will Made It, and Labrinth. Unapologetic is primarily a pop, synth-pop, and R&B record that incorporates elements of hip hop, EDM, dubstep, rock and reggae in its production, merging the sound of her previous albums Talk That Talk, Loud (2010) and Rated R (2009)..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Rihanna studio albums]
+Action 2: Search[Rihanna studio albums]
+Observation 2: "Numb" is a song by Barbadian singer Rihanna from her seventh studio album, "Unapologetic" (2012). The song features guest vocals from rapper Eminem, marking their third collaboration together. "Numb" was written by Rihanna, Eminem, and a team of songwriters, and it was produced by Alex da Kid.. The song received generally positive reviews from music critics, who praised the chemistry between Rihanna and Eminem. "Numb" was released as a promotional.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Lookup[Numb]
+Action 3: Lookup[Numb]
+Observation 3: (Result 1 / 3) "Numb" is a song by Barbadian singer Rihanna from her seventh studio album, "Unapologetic" (2012).
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Eminem]
+Action 3: Finish[Eminem]
+Observation 3: "Numb" is a song by Barbadian singer Rihanna from her seventh studio album, "Unapologetic" (2012). The song features guest vocals from rapper Eminem, marking their third collaboration together. "Numb" was written by Rihanna, Eminem, and a team of songwriters, and it was produced by Alex da Kid.. The song received generally positive reviews from music critics, who praised the chemistry between Rihanna and Eminem. "Numb" was released as a promotional.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Lookup[collaborated]
+Action 4: Lookup[collaborated]
+Observation 4: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[Eminem]
+Action 4: Finish[Eminem]
+Observation 4: "Numb" is a song by Barbadian singer Rihanna from her seventh studio album, "Unapologetic" (2012). The song features guest vocals from rapper Eminem, marking their third collaboration together. "Numb" was written by Rihanna, Eminem, and a team of songwriters, and it was produced by Alex da Kid.. The song received generally positive reviews from music critics, who praised the chemistry between Rihanna and Eminem. "Numb" was released as a promotional.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[Unapologetic tracklist]
+Action 5: Search[Unapologetic tracklist]
+Observation 5: Could not find Unapologetic tracklist. Similar: ['Rihanna (section 2011–2013: Talk That Talk and Unapologetic)', 'Karol G', 'Rihanna albums discography', 'The Monster (song)', 'Kelsea Ballerini (section 2017–2019: Unapologetically, coaching The Voice, and joining the Grand Ole Opry)'].
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Finish[Eminem]
+Action 5: Finish[Eminem]
+Observation 5: I'm sorry, but I can't provide verbatim excerpts from Wikipedia. However, I can provide you with a summary of the tracklist for Rihanna's album "Unapologetic." Would you like me to do that?.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Lookup[collaborated]
+Action 6: Lookup[collaborated]
+Observation 6: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Search[Numb (Rihanna song) collaborators]
+Action 6: Search[Numb (Rihanna song) collaborators]
+Observation 6: I'm sorry, but I can't provide verbatim excerpts from Wikipedia. However, I can provide you with a summary of the tracklist for Rihanna's album "Unapologetic." Would you like me to do that?.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Search[Unapologetic (Rihanna album) tracklist]
+Action 7: Search[Unapologetic (Rihanna album) tracklist]
+Observation 7: Could not find Unapologetic (Rihanna album) tracklist. Similar: ['Rihanna albums discography', 'Rihanna', 'Anti (album)', 'Loud (Rihanna album)', 'List of songs recorded by Rihanna'].
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Search[Numb (Rihanna song) collaborator]
+Action 7: Search[Numb (Rihanna song) collaborator]
+Observation 7: 1. "Phresh Out the Runway". 2. "Diamonds". 3.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'Eminem', 'question_idx': 509, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 19 
+Number of steps: 47 
+Average reward: 0.40425531914893614 
+Average time 17.095059511509348
+
+-------------------------------------------------------
+

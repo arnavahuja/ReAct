@@ -1,0 +1,53 @@
+INFO 199 Question: Mr. Wilson's Cabinet of Wonder: Pronged Ants, Horned Humans, Mice on Toast, and Other Marvels of Jurassic Technology is a book about a museum that is located in which city ?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Mr. Wilson's Cabinet of Wonder: Pronged Ants, Horned Humans, Mice on Toast, and Other Marvels of Jurassic Technology]
+Action 1: Search[Mr. Wilson's Cabinet of Wonder: Pronged Ants, Horned Humans, Mice on Toast, and Other Marvels of Jurassic Technology]
+Observation 1: Could not find Mr. Wilson's Cabinet of Wonder: Pronged Ants, Horned Humans, Mice on Toast, and Other Marvels of Jurassic Technology. Similar: ['Museum of Jurassic Technology', 'Cabinet of curiosities', "Mr. Wilson's Cabinet of Wonder", 'Pulitzer Prize for General Nonfiction (category Commons category link is on Wikidata)'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Mr. Wilson's Cabinet of Wonder: Pronged Ants, Horned Humans, Mice on Toast, and Other Marvels of Jurassic Technology]
+Action 1: Search[Mr. Wilson's Cabinet of Wonder: Pronged Ants, Horned Humans, Mice on Toast, and Other Marvels of Jurassic Technology]
+Observation 1: **Mr. Wilson's Cabinet of Wonder: Pronged Ants, Horned Humans, Mice on Toast, and Other Marvels of Jurassic Technology** is a book by American author and illustrator David W. Daniels, published in 2007. The book is a collection of fantastical and often humorous illustrations and short descriptive texts, presented as if they are entries from a Victorian-era natural history museum or cabinet of curiosities.. The "cabinet" is curated by the fictional Mr.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Museum of Jurassic Technology]
+Action 2: Search[Museum of Jurassic Technology]
+Observation 2: The Museum of Jurassic Technology at 9341 Venice Boulevard in the Palms district of Los Angeles, California, was founded by David Hildebrand Wilson and Diana Drake Wilson in 1988.[1][2] While it calls itself "an educational institution dedicated to the advancement of knowledge and the public appreciation of the Lower Jurassic",[3] the relevance of the term "Lower Jurassic" to the museum's collections is left unexplained, [4] and "Jurassic Technology" is likewise undefined (the dawn of technology generally being understood as occurring millions of years after the Jurassic).. The museum's collection includes a mixture of artistic, scientific, ethnographic, and historic items, as well as some unclassifiable exhibits; the diversity evokes the cabinets of curiosities that were the 16th-century predecessors of modern natural-history museums. The factual claims of many of the museum's exhibits strain credibility, provoking an array of interpretations.. David Hildebrand Wilson received a MacArthur Foundation fellowship in 2001.[5][6]. On July 8, 2025, a fire broke out in the museum, causing significant smoke damage to several exhibits.[7] In early August 2025, the museum reopened.[8].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Museum of Jurassic Technology]
+Action 2: Search[Museum of Jurassic Technology]
+Observation 2: The Museum of Jurassic Technology is a museum located in the Palms neighborhood of Los Angeles, California. It is known for its eclectic and often enigmatic collections, which blend historical artifacts, scientific specimens, artistic creations, and fictional narratives. The museum's exhibits are presented in a way that encourages contemplation and questioning, often blurring the lines between fact and fiction.. **Exhibits and Collections:**. The museum's permanent collections include a variety of unusual items, such as:.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Los Angeles]
+Action 3: Finish[Los Angeles]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Los Angeles, California]
+Action 3: Finish[Los Angeles, California]
+Observation 3: The Museum of Jurassic Technology is a museum located in the Palms neighborhood of Los Angeles, California. It is known for its eclectic and often enigmatic collections, which blend historical artifacts, scientific specimens, artistic creations, and fictional narratives. The museum's exhibits are presented in a way that encourages contemplation and questioning, often blurring the lines between fact and fiction.. **Exhibits and Collections:**. The museum's permanent collections include a variety of unusual items, such as:.
+
+
+
+INFO {'steps': 5, 'answer': 'Los Angeles', 'gt_answer': 'Los Angeles', 'question_idx': 3069, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 9 
+Number of steps: 16 
+Average reward: 0.5625 
+Average time 10.29627887904644
+
+-------------------------------------------------------
+

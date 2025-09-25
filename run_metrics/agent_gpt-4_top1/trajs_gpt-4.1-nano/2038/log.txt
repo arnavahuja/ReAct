@@ -1,0 +1,109 @@
+INFO 2038 Question: What exit of Garden State Parkway should you take in order to get to the Seacourt Pavilion?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Seacourt Pavilion]
+Action 1: Search[Seacourt Pavilion]
+Observation 1: The Seacourt Pavilion is a regional shopping center on Hooper Avenue in Toms River, New Jersey. It is right across the street from the Ocean County Mall. The mall has a gross leasable area of 253,000 sq ft (23,500 m2).[1]. The shopping center is split-level, with the parking lot on the east side higher than on the west side. Tenants include Marshalls, Pier 1 Imports (closing 2020), AMC/Loew's Cineplex (closing August 21, 2022),  Ashley HomeStore, and HomeGoods.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Seacourt Pavilion]
+Action 1: Search[Seacourt Pavilion]
+Observation 1: Seacourt Pavilion is a shopping center located in Oxford, England. It features a variety of retail stores, including major supermarkets, fashion outlets, electronics shops, and dining options. The pavilion is part of the Seacourt Retail Park, which serves as a popular shopping destination for residents and visitors in the Oxford area. The center is easily accessible by public transportation and offers ample parking facilities. Over the years, Seacourt Pavilion has undergone several renovations and expansions to enhance its retail offerings and improve the.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Garden State Parkway exits in Toms River]
+Action 2: Search[Garden State Parkway exits in Toms River]
+Observation 2: Could not find Garden State Parkway exits in Toms River. Similar: ['Garden State Parkway', 'Toms River, New Jersey', 'New Jersey Route 166 (redirect from U.S. Highway 9 Alternate (Toms River))', 'South Toms River, New Jersey', 'New Jersey Route 37 (redirect from New Jersey State Highway 37)'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Seacourt Pavilion New Jersey]
+Action 2: Search[Seacourt Pavilion New Jersey]
+Observation 2: The Garden State Parkway in Toms River, New Jersey, features several exits that serve the local community and facilitate access to various destinations within and outside the township. Toms River is a prominent township in Ocean County, and the Parkway provides a vital transportation corridor for residents and visitors alike.. Exits in Toms River include:. - Exit 81: This exit provides access to Toms River and nearby areas, connecting travelers to local roads such as Route 37 and Route 166. It is a.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Garden State Parkway]
+Action 3: Search[Garden State Parkway]
+Observation 3: The Garden State Parkway (GSP) is a controlled-access toll road that stretches the north–south length of eastern New Jersey from the state's southernmost tip near Cape May north to the New York state line at Montvale. Its name refers to New Jersey's nickname, the "Garden State". The parkway has an unsigned reference number of Route 444 by the New Jersey Department of Transportation (NJDOT). At its north end, the road becomes the Garden State Parkway Connector, a component of the New York State Thruway system that connects to the Thruway mainline in Ramapo, New York.. The Garden State Parkway is the longest highway in the state at approximately 172 miles (277 km), and, according to the International Bridge, Tunnel and Turnpike Association, was the busiest toll road in the United States in 2006.[2] Most of the highway north of the Raritan River runs through heavily populated areas.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[Hooper Avenue]
+Action 3: Lookup[Hooper Avenue]
+Observation 3: The Garden State Parkway is a major highway that runs along the coast of New Jersey, United States. It is a limited-access toll road that stretches approximately 172 miles (277 km) from the southern tip of New Jersey at Cape May to the northern terminus at the George Washington Bridge in Fort Lee. The Parkway is a vital transportation corridor, serving as a primary route for commuters, tourists, and commercial traffic traveling between New Jersey and the New York metropolitan area.. The Parkway was officially opened in.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Lookup[Toms River]
+Action 4: Lookup[Toms River]
+Observation 4: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[Toms River]
+Action 4: Lookup[Toms River]
+Observation 4: The Garden State Parkway is a major highway that runs along the coast of New Jersey, United States. It is a limited-access toll road that stretches approximately 172 miles (277 km) from the southern tip of New Jersey at Cape May to the northern terminus at the George Washington Bridge in Fort Lee. The Parkway is a vital transportation corridor, serving as a primary route for commuters, tourists, and commercial traffic traveling between New Jersey and the New York metropolitan area.. The Parkway was officially opened in.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[Seacourt Pavilion Garden State Parkway exit]
+Action 5: Search[Seacourt Pavilion Garden State Parkway exit]
+Observation 5: Could not find Seacourt Pavilion Garden State Parkway exit. Similar: ['Ocean County Mall', 'County Route 549 (New Jersey)', 'Toms River, New Jersey (section Federal, state, and county representation)'].
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Lookup[exit]
+Action 5: Lookup[exit]
+Observation 5: Seacourt Pavilion is a shopping center located in Toms River, New Jersey, situated near the Garden State Parkway. The shopping center is accessible via the Garden State Parkway at Exit 81, which provides convenient access for travelers and local residents. The pavilion features a variety of retail stores, dining options, and service establishments, serving as a commercial hub for the surrounding community. Its strategic location near the highway makes it a popular stop for both shoppers and commuters. The area around Seacourt Pavilion is.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Search[Toms River Garden State Parkway exit]
+Action 6: Search[Toms River Garden State Parkway exit]
+Observation 6: Could not find Toms River Garden State Parkway exit. Similar: ['Garden State Parkway', 'Toms River, New Jersey', 'South Toms River, New Jersey', 'New Jersey Route 166 (redirect from U.S. Highway 9 Alternate (Toms River))', 'New Jersey Route 37 (redirect from New Jersey State Highway 37)'].
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Finish[Exit 81]
+Action 6: Finish[Exit 81]
+Observation 6: Toms River is a township located in Ocean County, New Jersey, United States. The Toms River Garden State Parkway exit, designated as Exit 82, provides access to the township from the Garden State Parkway, a major highway running along the New Jersey coast. This exit serves as a key gateway for travelers heading to Toms River, offering convenient connections to local roads and facilitating access to the township's residential, commercial, and recreational areas. The area surrounding the exit features various amenities, including gas.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Search[Garden State Parkway exits list]
+Action 7: Search[Garden State Parkway exits list]
+Observation 7: Could not find Garden State Parkway exits list. Similar: ['Garden State Parkway', 'Taconic State Parkway', 'Northern State Parkway', 'New York State Thruway', 'Palisades Interstate Parkway'].
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Finish[Exit 82]
+Action 7: Finish[Exit 82]
+Observation 7: The Garden State Parkway is a major highway in New Jersey, running from the southern tip of the state at Cape May to the northern terminus at the George Washington Bridge in Fort Lee. The Parkway features a comprehensive exit list that provides access to numerous towns, cities, and points of interest along its route. Below is a detailed list of exits on the Garden State Parkway:. Exits 0–50 (Southern to Central New Jersey):. - Exit 0: Cape May / Cape May County.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'Exit 82', 'question_idx': 4206, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 6 
+Number of steps: 15 
+Average reward: 0.4 
+Average time 28.28978327115377
+
+-------------------------------------------------------
+

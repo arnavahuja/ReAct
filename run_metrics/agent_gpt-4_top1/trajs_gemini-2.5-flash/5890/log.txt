@@ -1,0 +1,42 @@
+INFO 5890 Question: American Blues included the drummer from which American rock band?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[American Blues]
+Action 1: Search[American Blues]
+Observation 1: American Blues was an American 1960s Texas-based rock band which played a psychedelic style of blues rock music influenced by the 13th Floor Elevators. They are most notable for including two future members of the band ZZ Top in their ranks, Dusty Hill and Frank Beard.[1] From 1966 to 1968, they played the Dallas-Fort Worth-Houston circuit and headlined in three clubs all called "The Cellar", in Dallas at clubs such as "The Walrus" on Mockingbird Lane, and in Houston at "Love Street Light Circus Feel Good Machine" on Allen's Landing, as late as 1968. In 1968, they released the album American Blues 'Is Here', featuring Hill, Hill, Davis, and Beard.[citation needed]. Around 1968, the band (the two Hill brothers and Beard) decided to leave the Dallas–Fort Worth area, relocating to Houston. At this time, however, guitarist Rocky Hill wanted to focus on "straight blues", while his brother Dusty wanted the band to rock more.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[American Blues]
+Action 1: Search[American Blues]
+Observation 1: The **American blues** is a genre of music that originated in African-American communities in the Southern United States. It developed from spirituals, work songs, field hollers, shouts, chants, and rhymed simple narrative ballads. The blues form, ubiquitous in jazz, rhythm and blues, and rock and roll, is characterized by the call-and-response pattern, the blues scale, and specific chord progressions, most commonly the twelve-bar blues.. ### Origins and Early Development.
+
+
+
+STEP: 2
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 2: None
+Action 2: Finish[ZZ Top]
+Observation 2: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[drummer]
+Action 2: Lookup[drummer]
+Observation 2: The **American blues** is a genre of music that originated in African-American communities in the Southern United States. It developed from spirituals, work songs, field hollers, shouts, chants, and rhymed simple narrative ballads. The blues form, ubiquitous in jazz, rhythm and blues, and rock and roll, is characterized by the call-and-response pattern, the blues scale, and specific chord progressions, most commonly the twelve-bar blues.. ### Origins and Early Development.
+
+
+
+INFO {'steps': 3, 'answer': 'ZZ Top', 'gt_answer': 'ZZ Top', 'question_idx': 402, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 12 
+Number of steps: 27 
+Average reward: 0.4444444444444444 
+Average time 22.409761631930316
+
+-------------------------------------------------------
+

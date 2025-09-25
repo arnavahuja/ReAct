@@ -1,0 +1,82 @@
+INFO 2038 Question: Q: Who was born first Richard Boleslawski or Herschell Gordon Lewis?
+
+STEP: 1
+
+ERROR Actions not found in Thought: I need to find the birth years of both individuals on Wikipedia and compare; start by searching one of their pages.
+
+Action 1: Search[Richard Boleslaws 
+Retrying to get actions...
+
+ERROR Actions not found in Thought: I need to find the birth years of both individuals on Wikipedia and compare; start by searching one of their pages.
+
+Action 1: Search[Richard Boleslaws 
+Retrying to get actions...
+
+ERROR Actions not found in Thought: I need to find the birth years of both individuals on Wikipedia and compare; start by searching one of their pages.
+
+Action 1: Search[Richard Boleslaws 
+Retrying to get actions...
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Thought: To compare who was born first, I need both birth dates; assuming the first search retrieved Richard Boleslawski’s info, the next step is to get Herschell Gordon Lewis’s.
+
+Action 2: Search[Herschell Gordon Lewis] 
+        Action 2: Search[Herschell Gordon Lewis]
+        Observation 2: Herschell Gordon Lewis (June 15, 1926[a] – September 26, 2016) was an American filmmaker, best known for creating the "splatter" subgenre of horror films.[2] He is often called the "Godfather of Gore" (a title also given to Lucio Fulci), though his film career included works in a range of exploitation film genres including juvenile delinquent films, nudie-cuties, two children's films and at least one rural comedy. On Lewis' career, AllMovie wrote, "With his better-known gore films, Herschell Gordon Lewis was a pioneer, going further than anyone else dared, probing the depths of disgust and discomfort onscreen with more bad taste and imagination than anyone of his era."[3]. Herschell Gordon Lewis was born in 1926 in Pittsburgh, Pennsylvania, the son of Geraldine (Waldman) and Emmanuel.[4] His father died when Lewis was six years old; his mother never remarried. Lewis's family then moved to Chicago, Illinois, where he spent the majority of his adolescence. After graduating from high school, Lewis received bachelor's and master's degrees in journalism at Northwestern University in nearby Evanston, Illinois."
+
+SIMULATION TRAJECTORY:
+ Thought 2: Thought: For the second action, I should search the other person's page to compare birth years, or finish if I'm confident.
+
+Action 2: Search[Herschell Gordon Lewis], Search[Richard Boleslawski], Finish[Richard Boleslawski] 
+        Action 2: ['Search[Herschell Gordon Lewis]', 'Search[Richard Boleslawski]', 'Finish[Richard Boleslawski]']
+        Observation 2: Herschell Gordon Lewis (June 15, 1929 – September 26, 2016) was an American filmmaker and pioneer of the horror film genre, often referred to as the "Godfather of Gore." He is best known for directing and producing low-budget horror and exploitation films in the 1960s, which were characterized by their graphic violence and sensational content.. Born in Pittsburgh, Pennsylvania, Lewis initially pursued a career in advertising and marketing before venturing into filmmaking. His first."
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Thought: We have Herschell Gordon Lewis’s birth year (1926); now we need Richard Boleslawski’s birth date to compare.
+
+Action 3: Search[Richard Boleslawski] 
+        Action 3: Search[Richard Boleslawski]
+        Observation 3: Richard Boleslawski (born Bolesław Ryszard Srzednicki; February 4, 1889 – January 17, 1937) was a Polish theatre and film director, actor and teacher of acting.. Richard Boleslawski was born Bolesław Ryszard Srzednicki on February 4, 1889, in Mohyliv-Podilskyi,[1] in the Russian Empire to an ethnic Polish family of Catholic faith. He graduated from the Tver Cavalry Officers School. He trained as an actor at the First Studio of the Moscow Art Theatre under Konstantin Stanislavski and his assistant Leopold Sulerzhitsky, where he was introduced to the 'system'.[2]. During World War I, Boleslawski fought as a cavalry lieutenant on the Tsarist Russian side until the fall of the Russian Empire."
+
+SIMULATION TRAJECTORY:
+ Thought 3: Thought: We have Herschell Gordon Lewis’s birth date (June 15, 1929). To decide who was born first, we need Richard Boleslawski’s birth date or, if already known, finish.
+
+Action 3: Search[Richard Boleslawski], Search[Ryszard Bolesławski], Finish[Richard Boleslawski] 
+        Action 3: ['Search[Richard Boleslawski]', 'Search[Ryszard Bolesławski]', 'Finish[Richard Boleslawski]']
+        Observation 3: Richard Boleslawski (1889 – 1937) was a Polish-American film director and acting teacher, renowned for his work in the early Hollywood film industry. Born in Poland, he emigrated to the United States where he became a prominent figure in the development of acting techniques and film direction. Boleslawski is best known for directing films such as "Anna Karenina" (1935) and "Marie Antoinette" (1938), and for his influential teaching at the."
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Thought: We have both birth dates: 1889 (Boleslawski) vs 1926 (Lewis); thus Boleslawski was born first.
+Action 4: Finish[Richard Boleslawski] 
+        Action 4: Finish[Richard Boleslawski]
+        Observation 4: Episode finished, reward = 1
+"
+
+SIMULATION TRAJECTORY:
+ Thought 4: Thought: We have birth years: Richard Boleslawski (1889) and Herschell Gordon Lewis (1926); therefore Boleslawski was born first. I can finish, or verify details.
+
+Action 4: Finish[Richard Boleslawski], Lookup[born], Search[Ryszard Bolesławski] 
+        Action 4: ['Search[Ryszard Bolesławski]', 'Lookup[born]', 'Finish[Richard Boleslawski]']
+        Observation 4: Richard Boleslawski (1889 – 1937) was a Polish-American film director and acting teacher, renowned for his work in the early Hollywood film industry. Born in Poland, he emigrated to the United States where he became a prominent figure in the development of acting techniques and film direction. Boleslawski is best known for directing films such as "Anna Karenina" (1935) and "Marie Antoinette" (1938), and for his influential teaching at the."
+
+
+
+INFO {'steps': 5, 'answer': 'Richard Boleslawski', 'gt_answer': 'Richard Boleslawski', 'question_idx': 2117, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 2 
+Number of steps: 4 
+Average reward: 0.5 
+Average time 242.60428619384766
+
+--------------------------------------------------
+

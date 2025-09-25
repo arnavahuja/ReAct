@@ -1,0 +1,67 @@
+INFO 211 Question: The star in a 1953 epic Metro-Goldwyn-Mayer film adaption of the play by Shakespeare had what occupation?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[1953 Metro-Goldwyn-Mayer Shakespeare film]
+Action 1: Search[1953 Metro-Goldwyn-Mayer Shakespeare film]
+Observation 1: Could not find 1953 Metro-Goldwyn-Mayer Shakespeare film. Similar: ["William Shakespeare's Julius Caesar", 'Gigi (1958 film)', 'Jules Dassin (category American male film actors)', 'Grand Hotel (1932 film)', 'Greer Garson (category Metro-Goldwyn-Mayer contract players)'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[1953 Metro-Goldwyn-Mayer Shakespeare film]
+Action 1: Search[1953 Metro-Goldwyn-Mayer Shakespeare film]
+Observation 1: There is no record of a Metro-Goldwyn-Mayer (MGM) Shakespeare film released in 1953.. While MGM was a prolific studio during the Golden Age of Hollywood and did produce a number of literary adaptations, including some based on classic plays, a Shakespearean film from them in 1953 does not appear in filmographies, historical records, or databases of their productions.. It's possible there might be a misunderstanding or a conflation.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[William Shakespeare's Julius Caesar]
+Action 2: Search[William Shakespeare's Julius Caesar]
+Observation 2: Julius Caesar (billed on-screen as William Shakespeare's Julius Caesar) is a 1953 American film adaptation of William Shakespeare's play Julius Caesar, directed by Joseph L. Mankiewicz and produced by John Houseman for Metro-Goldwyn-Mayer. It stars Marlon Brando as Mark Antony, James Mason as Marcus Junius Brutus, Louis Calhern as Julius Caesar, John Gielgud as Gaius Cassius Longinus, Edmond O'Brien as Publius Servilius Casca, Greer Garson as Calpurnia, and Deborah Kerr as Portia.. It opened to positive reviews, and was nominated in five categories at the 26th Academy Awards (including Best Picture and Best Actor for Brando), winning Best Art Direction - Black-and-White. Brando and Gielgud both won BAFTA Awards, Brando for Best Foreign Actor and Gielgud for Best British Actor..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Metro-Goldwyn-Mayer films 1953]
+Action 2: Search[Metro-Goldwyn-Mayer films 1953]
+Observation 2: ## Julius Caesar (play). **Julius Caesar** is a history play by William Shakespeare, believed to have been written in 1599. It is one of several plays by Shakespeare based on historical events from Roman antiquity, alongside *Coriolanus* and *Antony and Cleopatra*.. ### Characters. The play features a large cast of characters, with the most prominent being:.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Marlon Brando]
+Action 3: Search[Marlon Brando]
+Observation 3: Marlon Brando Jr. (April 3, 1924 – July 1, 2004) was an American actor. Widely regarded as one of the greatest and most influential actors in the history of cinema,[1][2] Brando received numerous accolades throughout his career, which spanned six decades, including two Academy Awards, two Golden Globe Awards, a Cannes Film Festival Award, three British Academy Film Awards, and an Emmy Award. Brando is credited with being one of the first actors to bring the Stanislavski system of acting and method acting to mainstream audiences.. Brando came under the influence of Stella Adler and Stanislavski's system in the 1940s.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Julius Caesar 1953 film]
+Action 3: Search[Julius Caesar 1953 film]
+Observation 3: **Marlon Brando Jr.** (April 3, 1924 – July 1, 2004) was an American actor and film director. He is widely regarded as one of the greatest and most influential actors of all time. Brando was a pivotal figure in the "Method acting" movement, bringing a new level of realism and intensity to his performances. His distinctive mumbling delivery and raw emotional power revolutionized acting in the mid-20th century..
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[Actor]
+Action 4: Finish[Actor]
+Observation 4: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[actor and film director]
+Action 4: Finish[actor and film director]
+Observation 4: **Marlon Brando Jr.** (April 3, 1924 – July 1, 2004) was an American actor and film director. He is widely regarded as one of the greatest and most influential actors of all time. Brando was a pivotal figure in the "Method acting" movement, bringing a new level of realism and intensity to his performances. His distinctive mumbling delivery and raw emotional power revolutionized acting in the mid-20th century..
+
+
+
+INFO {'steps': 7, 'answer': 'Actor', 'gt_answer': 'American actor, film director and political activist', 'question_idx': 1817, 'reward': False, 'em': False, 'f1': 0.25}
+
+INFO Sum of rewards: 13 
+Number of steps: 30 
+Average reward: 0.43333333333333335 
+Average time 22.135649768511453
+
+-------------------------------------------------------
+

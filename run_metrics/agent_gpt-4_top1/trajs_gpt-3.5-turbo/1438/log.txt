@@ -1,0 +1,56 @@
+INFO 1438 Question:  The Alexander Dawson School is located in a community that occupies how many acres ?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[The Alexander Dawson School]
+Action 1: Search[The Alexander Dawson School]
+Observation 1: Could not find The Alexander Dawson School. Similar: ['Alexander Dawson School', 'The Alexander Dawson School at Rainbow Mountain', 'Alexander Dawson', 'Dawson School (Colorado)', 'Girard B. Henderson (section Alexander Dawson Foundation)'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Alexander Dawson School]
+Action 1: Search[Alexander Dawson School]
+Observation 1: The Alexander Dawson School is a private, coeducational day school located in Las Vegas, Nevada. It was founded in 1998 and serves students from preschool through grade 8. The school's mission is to provide a challenging academic program that emphasizes critical thinking, creativity, and character development. The Alexander Dawson School is known for its strong emphasis on community service and global citizenship. The campus features state-of-the-art facilities, including science labs, art studios, and a performing arts center.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[The Alexander Dawson School at Rainbow Mountain]
+Action 2: Search[The Alexander Dawson School at Rainbow Mountain]
+Observation 2: The Alexander Dawson School at Rainbow Mountain or Dawson is a private independent, college-preparatory, and day school in Summerlin, Nevada. The Alexander Dawson School at Rainbow Mountain provides co-educational and secular education to over 520 students from preschool through eighth grade.[1]. In 1996, the Alexander Dawson Foundation decided to open a school in the Las Vegas Valley, the Foundation's home for more than 30 years. Located on a 33-acre (13 ha) campus in Summerlin, the Alexander Dawson Foundation spent $58 million for the land, the school facilities, the interest expenses on the construction bonds, and in shortfall budget support during the school's early years. Ground was broken in 1999, and The Alexander Dawson School at Rainbow Mountain opened on September 6, 2000 with over 150 students from kindergarten through fifth grade.[2].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[campus]
+Action 2: Lookup[campus]
+Observation 2: The Alexander Dawson School at Rainbow Mountain is a private, coeducational day school located in Las Vegas, Nevada. It was founded in 1991 and serves students from preschool through grade 8. The school is known for its rigorous academic program, emphasis on character education, and commitment to fostering a diverse and inclusive community. The campus is situated on a beautiful 33-acre site at the base of the Spring Mountains, providing students with a unique and inspiring learning environment. The Alexander Dawson School at Rainbow.
+
+
+
+STEP: 3
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 3: None
+Action 3: Finish[33 acres]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[33 acres]
+Action 3: Finish[33 acres]
+Observation 3: The Alexander Dawson School at Rainbow Mountain is a private, coeducational day school located in Las Vegas, Nevada. It was founded in 1991 and serves students from preschool through grade 8. The school is known for its rigorous academic program, emphasis on character education, and commitment to fostering a diverse and inclusive community. The campus is situated on a beautiful 33-acre site at the base of the Spring Mountains, providing students with a unique and inspiring learning environment. The Alexander Dawson School at Rainbow.
+
+
+
+INFO {'steps': 5, 'answer': '33 acres', 'gt_answer': '22,500 acres', 'question_idx': 1734, 'reward': False, 'em': False, 'f1': 0.5}
+
+INFO Sum of rewards: 7 
+Number of steps: 28 
+Average reward: 0.25 
+Average time 26.064689031669072
+
+-------------------------------------------------------
+

@@ -1,0 +1,53 @@
+INFO 653 Question: Which former "Home and Away" actor stars in the film "Office Uprising"?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Office Uprising]
+Action 1: Search[Office Uprising]
+Observation 1: Office Uprising is an American horror comedy directed by Lin Oeding and written by Peter Gamble Robinson and Ian Shorr that premiered on July 19, 2018, on Sony Crackle. The film stars Brenton Thwaites, Jane Levy, Alan Ritchson, Zachary Levi, Karan Soni and Ian Harding.. Desmond is a slacker who is always late. He works at a corporate office and factory for Ammotech, one of the world's leading weapons manufacturers. His boss, Adam Nusbaum, calls Desmond into his office to discuss a pending company merger and warns him that he needs to do better at work.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Office Uprising]
+Action 1: Search[Office Uprising]
+Observation 1: {{Infobox film. | name           = Office Uprising. | image          = Office Uprising poster.jpg. | caption        = Theatrical release poster. | director       = Stephen C.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Brenton Thwaites]
+Action 2: Search[Brenton Thwaites]
+Observation 2: Brenton Thwaites (born 1988 or 1989) is an Australian actor. Beginning his career in his home country in 2011, he had a starring role on the series Slide and later appeared on the soap opera Home and Away. Since moving to the United States, Thwaites has had major roles in the films Blue Lagoon: The Awakening (2012), Oculus (2013), The Giver (2014), Gods of Egypt (2016), and Pirates of the Caribbean: Dead Men Tell No Tales (2017). He starred as Dick Grayson / Robin / Nightwing in the DC Universe / HBO Max series Titans from 2018 to 2023.. Thwaites was born in Cairns, Queensland.[1] He has a sister.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[starring]
+Action 2: Lookup[starring]
+Observation 2: **Brenton Thwaites** (born 10 August 1989) is an Australian actor. He is best known for his roles as Luke Gallagher in the Fox8 teen drama series *Slide* (2011), Stu Henderson in the soap opera *Home and Away* (2011–2012), Jonas in the dystopian film *The Giver* (2014), Henry Turner in the fantasy adventure film *Pirates of the.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Brenton Thwaites]
+Action 3: Finish[Brenton Thwaites]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Brenton Thwaites]
+Action 3: Finish[Brenton Thwaites]
+Observation 3: **Brenton Thwaites** (born 10 August 1989) is an Australian actor. He is best known for his roles as Luke Gallagher in the Fox8 teen drama series *Slide* (2011), Stu Henderson in the soap opera *Home and Away* (2011–2012), Jonas in the dystopian film *The Giver* (2014), Henry Turner in the fantasy adventure film *Pirates of the.
+
+
+
+INFO {'steps': 5, 'answer': 'Brenton Thwaites', 'gt_answer': 'Brenton Thwaites', 'question_idx': 2899, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 1 
+Number of steps: 2 
+Average reward: 0.5 
+Average time 20.346246600151062
+
+-------------------------------------------------------
+

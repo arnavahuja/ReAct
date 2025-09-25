@@ -1,0 +1,81 @@
+INFO 6 Question: Who starred as a divorced mother in an American sitcom produced by Danny Bonaduce's father?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Danny Bonaduce]
+Action 1: Search[Danny Bonaduce]
+Observation 1: Dante Daniel Bonaduce (/ˈbɒnəˈduːtʃiː/; born August 13, 1959) is an American retired radio personality, actor, television personality and professional wrestler. Bonaduce is the son of veteran TV writer and producer Joseph Bonaduce (The Dick Van Dyke Show, That Girl, One Day at a Time and others).. Bonaduce became famous as a child actor of the 1970s on the TV sitcom The Partridge Family. He co-starred as Danny Partridge, the wisecracking, redheaded middle son of the singing family band (headed by Shirley Jones) and he portrayed the fictional pop group's bass guitar player.[1] Since then, Bonaduce has starred in several other TV series, including the VH1 reality show Breaking Bonaduce in 2005, has done radio shows in Los Angeles and Philadelphia and hosted a morning talk/music show at Seattle radio station KZOK-FM from 2011 to 2023.[2]. By his own account, Bonaduce grew up in a dysfunctional family and suffered severe physical and emotional abuse at the hands of his father, TV writer and producer Joseph Bonaduce.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Danny Bonaduce]
+Action 1: Search[Danny Bonaduce]
+Observation 1: **Daniel "Danny" Bonaduce** (born August 13, 1959) is an American actor, radio personality, and professional wrestler. He is best known for his role as Danny Partridge in the 1970s sitcom *The Partridge Family*.. **Early Life and Career:**. Bonaduce was born in Philadelphia, Pennsylvania, to a family with a strong show business background. His father, Joseph Bonaduce, was a writer and producer,.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Joseph Bonaduce]
+Action 2: Search[Joseph Bonaduce]
+Observation 2: Could not find Joseph Bonaduce. Similar: ['Danny Bonaduce', 'List of Little House on the Prairie episodes', "Apple's Way", 'Nanny and the Professor', 'William Russ'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Joseph Bonaduce]
+Action 2: Search[Joseph Bonaduce]
+Observation 2: **Joseph Bonaduce** (born c. 1938) is an American television writer and producer, best known for his work on popular sitcoms during the 1970s and 1980s. He is also notable as the father of actor and radio personality Danny Bonaduce.. **Early Life and Career:**. Details of Joseph Bonaduce's early life are not widely publicized.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[One Day at a Time]
+Action 3: Search[One Day at a Time]
+Observation 3: Could not find [One Day at a Time]. Similar: ['One Day at a Time (song)', 'One Day at a Time (1975 TV series)', 'One Day at a Time', 'One Day at a Time (2017 TV series)', "One Day at a Time (Em's Version)"].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[sitcom]
+Action 3: Lookup[sitcom]
+Observation 3: **One Day at a Time** may refer to:. *   ***One Day at a Time*** (1975 TV series), an American sitcom that aired on CBS from 1975 to 1984. It starred Bonnie Franklin as Ann Romano, a divorced mother raising two teenage daughters, Julie (Mackenzie Phillips) and Barbara (Valerie Bertinelli), in Indianapolis. The series explored themes of divorce, single parenthood, women's liberation, and generational.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[One Day at a Time (1975 TV series)]
+Action 4: Search[One Day at a Time (1975 TV series)]
+Observation 4: One Day at a Time is an American television sitcom that aired on CBS from December 16, 1975, to May 28, 1984. It stars Bonnie Franklin as a divorced mother raising two teenage daughters, played by Mackenzie Phillips and Valerie Bertinelli, set in Indianapolis.. The series was created by Whitney Blake and Allan Manings, a husband-and-wife writing duo who had both been actors in the 1950s and 1960s. The series was based on Whitney Blake's own life as a single mother raising her three children (including future actress Meredith Baxter) after her divorce from her first husband.[1]. Divorced mother Ann Romano (Bonnie Franklin) moves herself and her teenage daughters, rebellious Julie (Mackenzie Phillips) and wisecracking Barbara (Valerie Bertinelli), from their home in Logansport, Indiana, to Indianapolis.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[Bonnie Franklin]
+Action 4: Finish[Bonnie Franklin]
+Observation 4: {{Short description|American sitcom}}. {{Infobox television. | show_name = One Day at a Time. | image = One Day at a Time (1975 TV series).jpg. | caption = Title card.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Finish[Bonnie Franklin]
+Action 5: Finish[Bonnie Franklin]
+Observation 5: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Lookup[divorced mother]
+Action 5: Lookup[divorced mother]
+Observation 5: {{Short description|American sitcom}}. {{Infobox television. | show_name = One Day at a Time. | image = One Day at a Time (1975 TV series).jpg. | caption = Title card.
+
+
+
+INFO {'steps': 9, 'answer': 'Bonnie Franklin', 'gt_answer': 'Bonnie Franklin', 'question_idx': 5290, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 6 
+Number of steps: 8 
+Average reward: 0.75 
+Average time 35.75042086839676
+
+-------------------------------------------------------
+

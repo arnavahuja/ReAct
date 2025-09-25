@@ -1,0 +1,115 @@
+INFO 4948 Question: Tommy Faile sang the song "the legend of Brown Moutain Lights", about a series of ghost lights that can be seen from which viewpoint outside Linville Falls?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Brown Mountain Lights]
+Action 1: Search[Brown Mountain Lights]
+Observation 1: The Brown Mountain lights are purported ghost lights near Brown Mountain in North Carolina. The earliest published references to strange lights there are from around 1910, at about the same time electric lighting was becoming widespread in the area. In 1922, a USGS scientist, George R. Mansfield, used a map and an alidade telescope to prove that the lights that were being seen were trains, car headlights, and brush fires, which ended widespread public concern.[1][2]. With the original sightings of the early 20th century having been explained, storytellers have been creating imaginary pre-electrification histories of the lights ever since, and the nature of claimed encounters with the lights appears to have changed over the years to suit changing cultural expectations.[3].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Brown Mountain Lights]
+Action 1: Search[Brown Mountain Lights]
+Observation 1: The **Brown Mountain Lights** are a series of unexplained lights that have been reported in the vicinity of Brown Mountain, North Carolina, for centuries. The mountain itself is located in the Pisgah National Forest, straddling the border between Burke and Caldwell counties.. **History and Sightings:**. Reports of the Brown Mountain Lights date back to at least the early 19th century, with Native American legends predating European settlement. Various tribes, including the Cherokee and Catawba, have stories.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Lookup[Linville Falls]
+Action 2: Lookup[Linville Falls]
+Observation 2: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[Linville Falls]
+Action 2: Lookup[Linville Falls]
+Observation 2: The **Brown Mountain Lights** are a series of unexplained lights that have been reported in the vicinity of Brown Mountain, North Carolina, for centuries. The mountain itself is located in the Pisgah National Forest, straddling the border between Burke and Caldwell counties.. **History and Sightings:**. Reports of the Brown Mountain Lights date back to at least the early 19th century, with Native American legends predating European settlement. Various tribes, including the Cherokee and Catawba, have stories.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Brown Mountain Lights Linville Falls]
+Action 3: Search[Brown Mountain Lights Linville Falls]
+Observation 3: Could not find Brown Mountain Lights Linville Falls. Similar: ['North Carolina Highway 181', 'List of Airwolf episodes (redirect from Flowers of the Mountain)', 'Bladen Lakes State Forest', '2021 in American television'].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Brown Mountain Lights Linville Falls]
+Action 3: Search[Brown Mountain Lights Linville Falls]
+Observation 3: The **Brown Mountain Lights** are a series of unexplained lights that have been reported for centuries in the vicinity of **Brown Mountain**, a peak in the Blue Ridge Mountains of North Carolina. While often associated with the general area, the lights are particularly linked to the region around **Linville Falls**, a prominent waterfall in Avery County, North Carolina, which is located within the Pisgah National Forest.. **History and Sightings:**. Reports of the Brown Mountain Lights date back to at least the early.
+
+
+
+STEP: 4
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 4: None
+Action 4: Search[Brown Mountain (North Carolina)]
+Observation 4: Brown Mountain[1] is a low-lying ridge, approximately 1.5 miles (2.4 km) long, in the Pisgah National Forest near Morganton, in western North Carolina,[2] on the border of Burke and Caldwell Counties.[3][4]. Since at least the early 20th century, mysterious illuminations known as the Brown Mountain lights have been seen there.[5]. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us. HelpLearn to editCommunity portalRecent changesUpload fileSpecial pages. Donate.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[viewpoint]
+Action 4: Lookup[viewpoint]
+Observation 4: Brown Mountain is a mountain located in North Carolina, United States. It is situated in the Pisgah National Forest, spanning across Burke and Caldwell counties. The mountain is approximately 3,182 feet (970 meters) in elevation.. Brown Mountain is most famous for the **Brown Mountain Lights**, a mysterious phenomenon that has been reported for centuries. These unexplained lights are said to appear on or around the mountain, often described as glowing orbs that move erratically.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[Brown Mountain Lights viewpoint Linville Falls]
+Action 5: Search[Brown Mountain Lights viewpoint Linville Falls]
+Observation 5: There were no results matching the query.. The page "Brown Mountain Lights viewpoint Linville Falls" does not exist. You can create a draft and submit it for review or request that a redirect be created.. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us. HelpLearn to editCommunity portalRecent changesUpload fileSpecial pages.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Search[Brown Mountain Lights viewpoint Linville Falls]
+Action 5: Search[Brown Mountain Lights viewpoint Linville Falls]
+Observation 5: While there isn't a specific Wikipedia page dedicated solely to a "Brown Mountain Lights viewpoint at Linville Falls," the two are distinct but related attractions in North Carolina. Here's information presented in a Wikipedia-style format, drawing from general knowledge about both:. ---. **Brown Mountain Lights**. The **Brown Mountain Lights** are unexplained luminous phenomena reported to occur in the vicinity of Brown Mountain in North Carolina, United States.
+
+
+
+STEP: 6
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 6: None
+Action 6: Search[Linville Falls]
+Observation 6: Linville Falls is a waterfall located in the Blue Ridge Mountains of North Carolina in the United States.[1]   The falls move in several distinct steps, beginning in a twin set of upper falls, moving down a small gorge, and culminating in a high-volume 45-foot (14 m) drop.. It is named for the Linville River, which goes over the falls. Linville Falls has the highest volume of any waterfall on the Northern Edge of the Blue Ridge Mountains.[2]. Linville Falls marks the beginning of the Linville Gorge, which is formed by the Linville River, which continues on after the falls before finally ending near Lake James.. At one time, the upper section of the main plunge was the same height as the lower section, however, flooding caused the upper section to collapse on top of the lower falls, making the lower falls a considerably longer plunge.[2].
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Search[Brown Mountain Lights viewing locations]
+Action 6: Search[Brown Mountain Lights viewing locations]
+Observation 6: Linville Falls is a waterfall in the Pisgah National Forest, North Carolina, United States. It is one of the most popular waterfalls in the state, attracting over 200,000 visitors annually. The falls are located on the Linville River, which flows through the scenic Linville Gorge.. **Description:**. Linville Falls is a multi-tiered waterfall with a total drop of approximately 90 feet (27 meters).
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Search[Brown Mountain Lights viewing locations]
+Action 7: Search[Brown Mountain Lights viewing locations]
+Observation 7: Could not find Brown Mountain Lights viewing locations. Similar: ['Brown Mountain lights', 'Marfa lights', 'Brown Mountain (North Carolina)', 'List of reportedly haunted locations in the United States', 'Paulding Light (redirect from Paulding lights)'].
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Search[Brown Mountain Lights viewing locations]
+Action 7: Search[Brown Mountain Lights viewing locations]
+Observation 7: The Brown Mountain Lights are a series of unexplained lights that have been reported in the vicinity of Brown Mountain in North Carolina. While there is no official Wikipedia page dedicated solely to "Brown Mountain Lights viewing locations," information about the phenomenon and its associated viewing areas can be pieced together from various sources, including general articles on Brown Mountain and local tourism information.. **General Viewing Areas:**. The most commonly cited and accessible viewing locations for the Brown Mountain Lights are found along the Blue Ridge Parkway and in the.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': "Wiseman's View", 'question_idx': 5114, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 7 
+Number of steps: 19 
+Average reward: 0.3684210526315789 
+Average time 9.535356998443604
+
+-------------------------------------------------------
+

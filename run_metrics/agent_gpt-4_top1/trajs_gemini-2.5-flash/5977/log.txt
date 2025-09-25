@@ -1,0 +1,115 @@
+INFO 5977 Question: What river has five waterfalls depicted on a state seal?
+
+STEP: 1
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 1: None
+Action 1: Search[state seals with rivers]
+Observation 1: Could not find state seals with rivers. Similar: ['List of U.S. state, district, and territorial insignia', 'Seal of California', 'Rivers State', 'United States Navy SEALs', 'List of governors of Rivers State'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[state seals with waterfalls]
+Action 1: Search[state seals with waterfalls]
+Observation 1: Several U.S. state seals feature rivers, often symbolizing the state's geography, economic importance, or historical events. Here's a look at some prominent examples:. **1. Illinois**.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[List of U.S. state, district, and territorial insignia]
+Action 2: Search[List of U.S. state, district, and territorial insignia]
+Observation 2: The following table displays the official flag, seal, and coat of arms of the 50 states, of the federal district, the 5 inhabited territories, and the federal government of the United States of America.. This is not a complete list of federally recognized tribes, and only represents some of the largest by population and reserved land area. See the Wikimedia links above for more symbols of Native American nations.. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us. HelpLearn to editCommunity portalRecent changesUpload fileSpecial pages.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Alabama state seal]
+Action 2: Search[Alabama state seal]
+Observation 2: The **List of U.S. state, district, and territorial insignia** compiles and categorizes the various official symbols adopted by the 50 states of the United States, the District of Columbia, and its insular territories. These insignia serve as unique identifiers and often reflect the history, culture, geography, and natural resources of each jurisdiction. While some symbols are widely recognized, others are more obscure.. This list typically includes, but is not limited to, the following categories of insignia:.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Lookup[five waterfalls]
+Action 3: Lookup[five waterfalls]
+Observation 3: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[state seals with waterfalls]
+Action 3: Search[state seals with waterfalls]
+Observation 3: The **List of U.S. state, district, and territorial insignia** compiles and categorizes the various official symbols adopted by the 50 states of the United States, the District of Columbia, and its insular territories. These insignia serve as unique identifiers and often reflect the history, culture, geography, and natural resources of each jurisdiction. While some symbols are widely recognized, others are more obscure.. This list typically includes, but is not limited to, the following categories of insignia:.
+
+
+
+STEP: 4
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 4: None
+Action 4: Search[waterfalls on state seals]
+Observation 4: Could not find waterfalls on state seals. Similar: ['List of waterfalls in Scotland', 'Seal of Colorado', "Seal of the People's Government of the People's Republic of China", 'Leopard seal', 'State Emblem of India'].
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[Seal of California]
+Action 4: Search[Seal of California]
+Observation 4: Waterfalls are a prominent feature on several state seals within the United States, often symbolizing natural beauty, power, and the historical significance of a region's landscape. While not every state seal incorporates a waterfall, those that do often use them to represent specific geographical features or historical events.. Here are some examples of state seals that feature waterfalls, along with their potential symbolism:. *   **Oregon:** The Great Seal of the State of Oregon depicts a landscape that includes the Columbia River and a waterfall.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[Seal of Colorado]
+Action 5: Search[Seal of Colorado]
+Observation 5: The Seal of the State of Colorado is an adaptation of the territorial seal which was adopted by the First Territorial Assembly on November 6, 1861.[1][2] The only changes made to the territorial seal design being the substitution of the words "State of Colorado" and the figures "1876" for the corresponding inscriptions on the territorial seal.[2] The first General Assembly of the State of Colorado approved the adoption of  the state seal on March 15, 1877.[2] The Colorado Secretary of State alone is authorized to affix the Great Seal of Colorado to any document whatsoever.. By statute, the seal of the state is two and one-half inches in diameter with the following devices inscribed thereon: At the top is the Eye of Providence or "All Seeing Eye" within a triangle, from which golden rays radiate on two sides. Below the eye is a Roman fasces, a bundle of birch or elm rods with a battle axe bound together with a ribbon of red, white and blue with the words, Union and Constitution. The bundle of rods bound together symbolizes strength which is lacking in the single rod. The axe symbolizes authority and leadership.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Lookup[five waterfalls]
+Action 5: Lookup[five waterfalls]
+Observation 5: The **Great Seal of the State of Colorado** is the official emblem of the U.S. state of Colorado. It was adopted on March 15, 1877, by the first General Assembly of Colorado. The design is derived from the territorial seal, with some modifications.. ### Design Elements.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Search[US state seals]
+Action 6: Search[US state seals]
+Observation 6: The following table displays the official flag, seal, and coat of arms of the 50 states, of the federal district, the 5 inhabited territories, and the federal government of the United States of America.. This is not a complete list of federally recognized tribes, and only represents some of the largest by population and reserved land area. See the Wikimedia links above for more symbols of Native American nations.. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us. HelpLearn to editCommunity portalRecent changesUpload fileSpecial pages.
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Lookup[waterfalls]
+Action 6: Lookup[waterfalls]
+Observation 6: A state seal is an official emblem used by a state to authenticate documents and symbolize its sovereignty. In the United States, each of the 50 states, as well as its territories and the District of Columbia, has its own unique seal. These seals are typically circular in design and often feature elements that reflect the state's history, geography, economy, and values.. ### Common Elements and Themes. While each state seal is distinct, several common themes and elements can be observed across them:.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Search[Seal of Alabama]
+Action 7: Search[Seal of Alabama]
+Observation 7: The Great Seal of the State of Alabama is the state seal of the U.S. state of Alabama.. The first seal was designed in 1817 by William Wyatt Bibb, the governor of the Alabama Territory and the subsequent first governor of the state. When Alabama became a state in 1819, the state legislature adopted the design as the official state seal. The seal prominently features a map showing one of the state's most valuable resources—its major rivers.
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Lookup[waterfalls]
+Action 7: Lookup[waterfalls]
+Observation 7: The **Great Seal of the State of Alabama** is the official emblem of the U.S. state of Alabama. It was originally designed in 1817 by William Wyatt Bibb, the first governor of Alabama Territory and later the first governor of the state of Alabama.. **Design and Symbolism:**. The seal features a map of Alabama, prominently displaying its major rivers.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'Missouri River', 'question_idx': 1586, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 2 
+Number of steps: 6 
+Average reward: 0.3333333333333333 
+Average time 21.539361000061035
+
+-------------------------------------------------------
+

@@ -1,0 +1,53 @@
+INFO 5514 Question: Louis XVI style sought to evoke the artistic styles that were just then being rediscovered in  Pompeii and this ancient Roman town that was destroyed in what year
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Louis XVI style]
+Action 1: Search[Louis XVI style]
+Observation 1: Louis XVI style, also called Louis Seize, is a style of architecture, furniture, decoration and art which developed in France during the 19-year reign of Louis XVI (1774–1792), just before the French Revolution. It saw the final phase of the Baroque style as well as the birth of French Neoclassicism. The style was a reaction against the elaborate ornament of the preceding Baroque period. It was inspired in part by the discoveries of Ancient Roman paintings, sculpture and architecture in Herculaneum and Pompeii. Its features included the straight column, the simplicity of the post-and-lintel, the architrave of the Greek temple.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Pompeii]
+Action 1: Search[Pompeii]
+Observation 1: Louis XVI style, also known as Louis XVI furniture or Louis XVI period, refers to the artistic and decorative style that was prominent in France during the reign of King Louis XVI (1774–1792). This style is characterized by its neoclassical influences, emphasizing symmetry, straight lines, and classical motifs inspired by ancient Greece and Rome.. The Louis XVI style emerged as a reaction against the ornate and elaborate Rococo style that preceded it. It is marked by a return to simplicity and elegance, with an emphasis on geometric forms and restrained ornamentation. Furniture from this period often features fluted legs, rectangular and oval shapes, and motifs such as laurel wreaths, urns, and Greek key patterns..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Herculaneum]
+Action 2: Search[Herculaneum]
+Observation 2: Herculaneum[a] is an ancient Roman town located in the modern-day comune of Ercolano, Campania, Italy. Herculaneum was buried under a massive pyroclastic flow in the eruption of Mount Vesuvius in 79 AD.. Like the nearby city of Pompeii, Herculaneum is famous as one of the few ancient cities to be preserved nearly intact, as the solidified material from the volcano that blanketed the town protected it against looting and the elements. Although less known than Pompeii today, it was the first and, for a long time, the only discovered Vesuvian city (in 1709). Pompeii was revealed in 1748 and identified in 1763.[1] Unlike Pompeii, the mainly pyroclastic material that covered Herculaneum carbonized and preserved more wooden objects such as roofs, beds, and doors, as well as other organic-based materials such as food and papyrus..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[Pompeii]
+Action 2: Lookup[Pompeii]
+Observation 2: Herculaneum was an ancient Roman town located in the modern-day comune of Ercolano, in the Campania region of Italy. It is best known for being one of the cities destroyed and buried by the eruption of Mount Vesuvius in 79 AD, alongside Pompeii and Stabiae. The town was originally founded as a resort for wealthy Romans and was renowned for its luxurious villas, sophisticated infrastructure, and vibrant cultural life.. Herculaneum was characterized by its well-preserved architecture, including multi-story buildings, intricate mosaics, and wooden structures that have survived due to the rapid burial by volcanic ash and pyroclastic flows. The site was rediscovered in the 18th century and has since been the focus of extensive archaeological excavations, revealing a wealth of information about Roman urban life..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[79 AD]
+Action 3: Finish[79 AD]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[79 AD]
+Action 3: Finish[79 AD]
+Observation 3: Herculaneum was an ancient Roman town located in the modern-day comune of Ercolano, in the Campania region of Italy. It is best known for being one of the cities destroyed and buried by the eruption of Mount Vesuvius in 79 AD, alongside Pompeii and Stabiae. The town was originally founded as a resort for wealthy Romans and was renowned for its luxurious villas, sophisticated infrastructure, and vibrant cultural life.. Herculaneum was characterized by its well-preserved architecture, including multi-story buildings, intricate mosaics, and wooden structures that have survived due to the rapid burial by volcanic ash and pyroclastic flows. The site was rediscovered in the 18th century and has since been the focus of extensive archaeological excavations, revealing a wealth of information about Roman urban life..
+
+
+
+INFO {'steps': 5, 'answer': '79 AD', 'gt_answer': '79 AD', 'question_idx': 7081, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 3 
+Number of steps: 3 
+Average reward: 1.0 
+Average time 11.297945340474447
+
+-------------------------------------------------------
+

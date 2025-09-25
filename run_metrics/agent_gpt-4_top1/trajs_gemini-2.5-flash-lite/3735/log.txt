@@ -1,0 +1,67 @@
+INFO 3735 Question: Musical artist Diabolic and Vinnie Paz, who was featured on Diabolic's second studio album Fightin' Words, are both what type of musicians?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Fightin' Words]
+Action 1: Search[Fightin' Words]
+Observation 1: Sean Edward George, known by the stage name Diabolic, is an American rapper. He started receiving fame after his verse on Immortal Technique's song "Dance with the Devil". He is also a well-known battle rapper who has battled with rappers such as Immortal Technique, MC Jin, Mecca, Iron Solomon and Rhymefest, among others. He released The Foul Play Mixtape in October 2006.. In 2010, Diabolic released Liar & a Thief, which was produced by Engineer with the exception of the song "Riot" featuring Deadly Hunta, which was produced by John Otto of Limp Bizkit on live drums.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Diabolic]
+Action 1: Search[Diabolic]
+Observation 1: **Fightin' Words** is a term that can refer to several different concepts, often related to verbal conflict or the power of language. Without further context, it's difficult to pinpoint a single, definitive meaning. However, here are some common interpretations and related ideas:. **1. Verbal Confrontation and Aggression:**.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Lookup[Fightin' Words]
+Action 2: Lookup[Fightin' Words]
+Observation 2: (Result 1 / 2) **Fightin' Words** is a term that can refer to several different concepts, often related to verbal conflict or the power of language.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Diabolic]
+Action 2: Search[Diabolic]
+Observation 2: **Fightin' Words** is a term that can refer to several different concepts, often related to verbal conflict or the power of language. Without further context, it's difficult to pinpoint a single, definitive meaning. However, here are some common interpretations and related ideas:. **1. Verbal Confrontation and Aggression:**.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Vinnie Paz]
+Action 3: Search[Vinnie Paz]
+Observation 3: Vincenzo Luviner (né Luvineri born October 5, 1977), better known as Vinnie Paz (formerly known as Ikon the Verbal Hologram), is an Italian-born American rapper and producer behind the Philadelphia underground hip hop group Jedi Mind Tricks. He is also the frontman of the hip hop collective Army of the Pharaohs.[1]. He released his first solo album, Season of the Assassin, in 2010.[2] This was 18 years after Paz had originally started rapping. He released his second album God of the Serengeti in October 2012.[3] In 2013, Paz confirmed that he was working with Army of the Pharaohs to release In Death Reborn, which was released in 2014.[4][deprecated source] October 22, 2013, marked the release date of his second EP, Carry On Tradition. Paz's third solo LP, The Cornerstone of the Corner Store, was released on October 28, 2016.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Diabolic]
+Action 3: Search[Diabolic]
+Observation 3: **Vinnie Paz** (born **Vincent Paul Barrett**) is an American rapper and producer from Philadelphia, Pennsylvania. He is best known as the frontman of the underground hip-hop group Jedi Mind Tricks and as a solo artist.. **Early Life and Career:**. Vinnie Paz was born and raised in Philadelphia. He began his musical journey in the early 1990s, developing a raw and aggressive lyrical style characterized by intricate wordplay, often dark and violent themes, and a.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[rappers]
+Action 4: Finish[rappers]
+Observation 4: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[rappers]
+Action 4: Finish[rappers]
+Observation 4: **Vinnie Paz** (born **Vincent Paul Barrett**) is an American rapper and producer from Philadelphia, Pennsylvania. He is best known as the frontman of the underground hip-hop group Jedi Mind Tricks and as a solo artist.. **Early Life and Career:**. Vinnie Paz was born and raised in Philadelphia. He began his musical journey in the early 1990s, developing a raw and aggressive lyrical style characterized by intricate wordplay, often dark and violent themes, and a.
+
+
+
+INFO {'steps': 7, 'answer': 'rappers', 'gt_answer': 'rapper', 'question_idx': 4442, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 16 
+Number of steps: 47 
+Average reward: 0.3404255319148936 
+Average time 25.850332787696352
+
+-------------------------------------------------------
+

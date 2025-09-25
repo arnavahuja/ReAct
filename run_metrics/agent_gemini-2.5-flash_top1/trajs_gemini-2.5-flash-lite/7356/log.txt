@@ -1,0 +1,70 @@
+INFO 7356 Question: In what town is Suffolk county hamlet that was served by the Suffolk Traction Company?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Suffolk Traction Company]
+Action 1: Search[Suffolk Traction Company]
+Observation 1: The Suffolk Traction Company is a former streetcar system in Suffolk County, New York. It operated primarily between Patchogue and Holtsville, but also included a route that served Blue Point, Bayport, and Sayville. It was opened in 1909 and ceased operations in 1919.. The four current roads that originally carried the trolley line between Patchogue and Holtsville are South Ocean Avenue, North Ocean Avenue, and what today is Old North Ocean Avenue. The PD Tower at Patchogue Railroad Station served as a control tower for both the Long Island Railroad and the trolleys.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Suffolk Traction Company]
+Action 1: Search[Suffolk Traction Company]
+Observation 1: The Suffolk Traction Company was a proposed electric interurban railway that was planned to connect the cities of Suffolk and Norfolk in Virginia, United States. The company was incorporated in 1905 with the intention of building a line that would serve the growing industrial and agricultural needs of the region.. **History and Development:**. The Suffolk Traction Company was envisioned as a crucial link in the transportation network of southeastern Virginia. At the time of its conception, the area was experiencing significant growth, and there was.
+
+
+
+STEP: 2
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Patchogue]
+Action 2: Search[Patchogue]
+Observation 2: Patchogue (/ˈpætʃɒɡ/ PATCH-og) is a village located within the Town of Brookhaven in Suffolk County, on the South Shore of Long Island, in New York, United States. The population was 12,408 at the time of the 2020 census.. The Incorporated Village of Patchogue is located approximately 60 miles (100 km) east of Manhattan, along the shore of Patchogue Bay – itself part of the Great South Bay.. In 1812, there were 75 inhabitants in what is now Patchogue.[2] The community incorporated as a village in 1893, after the local residents voted in favor of declaring municipal home rule.[2]. The Patchogue Former Manufactured Gas Plant (MGP) was operated from 1904 to 1926.
+
+SIMULATION TRAJECTORY:
+ Thought 2: None
+Action 2: Search[Suffolk County hamlet]
+Observation 2: Patchogue is a village located in the town of Brookhaven, Suffolk County, New York, United States. It is situated on the South Shore of Long Island, approximately 60 miles east of New York City.. **History:**. The area that is now Patchogue was originally inhabited by the Secatogue tribe of Native Americans. European settlement began in the late 17th century, with the land being purchased from Native Americans by English colonists.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Holtsville]
+Action 3: Search[Holtsville]
+Observation 3: Holtsville is a hamlet and census-designated place (CDP) in Suffolk County, on Long Island, in New York, United States. The population was 19,714 at the 2010 census.[2]. The hamlet is mainly in the Town of Brookhaven, while the southwestern portion is in the Town of Islip. An IRS Processing Center is located in Holtsville, along with NYPA's Richard M. Flynn Power Plant..
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Holtsville]
+Action 3: Search[Holtsville]
+Observation 3: Holtsville is a hamlet and census-designated place (CDP) in the Town of Brookhaven, Suffolk County, New York, United States. As of the 2020 census, the CDP had a population of 21,117.. **Geography and Location:**. Holtsville is located in the central part of Long Island, within the Town of Brookhaven. It is bordered by several other hamlets and CDPs, including Ronkonkoma, Centere.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[Holtsville]
+Action 4: Finish[Holtsville]
+Observation 4: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[Holtsville]
+Action 4: Finish[Holtsville]
+Observation 4: Holtsville is a hamlet and census-designated place (CDP) in the Town of Brookhaven, Suffolk County, New York, United States. As of the 2020 census, the CDP had a population of 21,117.. **Geography and Location:**. Holtsville is located in the central part of Long Island, within the Town of Brookhaven. It is bordered by several other hamlets and CDPs, including Ronkonkoma, Centere.
+
+
+
+INFO {'steps': 7, 'answer': 'Holtsville', 'gt_answer': 'Town of Islip', 'question_idx': 1692, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 1 
+Number of steps: 10 
+Average reward: 0.1 
+Average time 9.71400408744812
+
+-------------------------------------------------------
+

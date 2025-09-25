@@ -1,0 +1,67 @@
+INFO 2861 Question: Blank Check and Air Bud are both examples of what type of movie?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Blank Check]
+Action 1: Search[Blank Check]
+Observation 1: A blank cheque or blank check in the literal sense is a cheque that has no monetary value written in, but is already signed. In the figurative sense, it is used to describe a situation in which an agreement has been made that is open-ended or vague, and therefore subject to abuse, or in which a party is willing to consider any expense in the pursuance of their goals. The term carte blanche (borrowed from French; lit. 'white card') is used in a similar way.. Cheque writers are advised to specify the amount of the cheque before signing it. A blank cheque can be extremely expensive for the drawer who writes the cheque, because whoever obtains the cheque could write in any amount of money, and might be able to cash it (if the current account or checking account contains sufficient funds, and depending on the laws in the specific country).
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Blank Check]
+Action 1: Search[Blank Check]
+Observation 1: A **blank check** is a colloquial term used to describe a situation where a person or entity is given significant financial resources or authority without specific limitations or conditions on how those resources or authority are to be used. The term implies a lack of oversight and a high degree of trust, or conversely, a potential for unchecked spending or action.. **In a financial context:**. *   A blank check can refer to a check that is signed but left with the amount and payee fields empty. This allows.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Blank Check (film)]
+Action 2: Search[Blank Check (film)]
+Observation 2: Blank Check (in the United Kingdom originally released as Blank Cheque)[3][4] is a 1994 American comedy film directed by Rupert Wainwright and starring Brian Bonsall, Karen Duffy, Miguel Ferrer, James Rebhorn, Tone Lōc, Jayne Atkinson and Michael Lerner. It was released on February 11, 1994, by Walt Disney Pictures. The film follows a boy who inherits a blank check and uses it to buy a house under an alter ego but is soon being searched for by several members of the bank he cashed it under.. The film received negative reviews and grossed $30.8 million domestically.. Eleven-year-old Preston Waters laments his relative lack of money compared to his entrepreneurial older brothers and his white collar father, an investor.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Blank Check (film)]
+Action 2: Search[Blank Check (film)]
+Observation 2: **Blank Check** is a 1994 American family comedy film directed by Rupert Wainwright and starring Brian Bonsall as Preston Sturges, a young boy who receives a blank check for $1 million from a mobster.. **Plot:**. Preston Sturges (Brian Bonsall), a precocious and imaginative 10-year-old, is on his way to his uncle's wedding when he encounters a mysterious briefcase. Inside, he finds a blank check for $1.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Air Bud]
+Action 3: Search[Air Bud]
+Observation 3: Air Bud is a 1997 sports comedy-drama film directed by Charles Martin Smith.[4] An international co-production of the United States and Canada, the film stars Kevin Zegers as a young boy who befriends a runaway Golden Retriever (portrayed by Buddy) with a unique ability to play basketball.. Air Bud received mixed reviews but was a commercial success, grossing $4 million in its opening weekend and totaling $27.8 million in its run against an estimated $3 million budget.[3] It was followed by a direct sequel, Air Bud: Golden Receiver, in 1998, and spawned a film franchise that includes the spin-off series Air Buddies.. After the death of his father, Josh Framm, his mother Jackie, and his two-year-old sister Andrea have relocated to Fernfield, Washington. One day after school, Josh practices basketball by himself in a makeshift court that he sets up behind an abandoned church, where he meets an abandoned and runaway Golden Retriever who had recently escaped from his abusive owner: an alcoholic clown named Norman Snively, who had locked him in a kennel for causing trouble at a birthday party when the kennel unknowingly fell out due to Snively not securing the back. Discovering his uncanny ability to play basketball, Josh names him Buddy and takes him home.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Air Bud]
+Action 3: Search[Air Bud]
+Observation 3: **Air Bud** is a fictional Golden Retriever who is the titular character of the *Air Bud* film franchise. He is known for his extraordinary athletic abilities, particularly in basketball, and his deep bond with his human companions.. **Film Series:**. The *Air Bud* franchise began with the 1997 film *Air Bud*. In the movie, Buddy is a stray dog who is abandoned by his alcoholic owner.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[American comedy films]
+Action 4: Finish[American comedy films]
+Observation 4: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[Comedy film]
+Action 4: Search[Comedy film]
+Observation 4: **Air Bud** is a fictional Golden Retriever who is the titular character of the *Air Bud* film franchise. He is known for his extraordinary athletic abilities, particularly in basketball, and his deep bond with his human companions.. **Film Series:**. The *Air Bud* franchise began with the 1997 film *Air Bud*. In the movie, Buddy is a stray dog who is abandoned by his alcoholic owner.
+
+
+
+INFO {'steps': 7, 'answer': 'American comedy films', 'gt_answer': 'American comedy', 'question_idx': 4841, 'reward': False, 'em': False, 'f1': 0.8}
+
+INFO Sum of rewards: 4 
+Number of steps: 18 
+Average reward: 0.2222222222222222 
+Average time 26.34687394566006
+
+-------------------------------------------------------
+

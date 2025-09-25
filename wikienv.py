@@ -1,14 +1,17 @@
 import ast
 import json
 import time
-import gym
+import gymnasium as gym
 import requests
 from bs4 import BeautifulSoup
 from google import genai
 from google.genai import types
 import constants as Constants
 import openai
+from openai import OpenAI
+from openai._exceptions import OpenAIError
 # import wikipedia
+from prompts import PromptTemplates
 
 def clean_str(p):
   return p.encode().decode("unicode-escape").encode("latin1").decode("utf-8")
@@ -22,7 +25,7 @@ class textSpace(gym.spaces.Space):
 
 class WikiEnv(gym.Env):
 
-  def __init__(self):
+  def __init__(self, guess_model_name):
     """
       Initialize the environment.
     """
@@ -38,7 +41,10 @@ class WikiEnv(gym.Env):
     self.search_time = 0
     self.num_searches = 0
     self.gemini_client = genai.Client(api_key=Constants.gemini_api_key)
+    self.openai_client = openai.OpenAI(api_key=Constants.openai_api_key)
+    self.openrouter_client = OpenAI(base_url="https://openrouter.ai/api/v1", api_key=Constants.openrouter_api_key)
     self.sim_obs = None
+    self.guess_model_name = guess_model_name
     
   def _get_obs(self):
     return self.obs
@@ -89,27 +95,54 @@ class WikiEnv(gym.Env):
     for p in paragraphs:
       sentences += p.split('. ')
     sentences = [s.strip() + '.' for s in sentences if s.strip()]
-    return ' '.join(sentences[:5])
-  
-  def openai_llm(prompt):
-        response = openai.Completion.create(
-        model=Constants.openai_model_name,
-        prompt=prompt,
-        temperature=0,
-        max_tokens=100,
-        top_p=1,
-        frequency_penalty=0.0,
-        presence_penalty=0.0,
-        )
-        return response["choices"][0]["text"]
+    return ' '.join(sentences[:5]) 
 
-  def gemini_llm(self, prompt):
-      response = self.gemini_client.models.generate_content(model=Constants.gemini_guess_model_name, contents=prompt) #, config=types.GenerateContentConfig(max_output_tokens=m_tokens))
-      return response.text
+  def openrouter_llm(self, prompt, stop=["\n"]):
+      response = self.openrouter_client.chat.completions.create(
+      model=self.guess_model_name,
+      messages=[
+          {"role": "system", "content": "You are a helpful assistant."},
+          {"role": "user", "content": prompt}
+      ],
+      temperature=Constants.guess_temperature,
+      max_tokens=Constants.max_guess_output_tokens,
+      top_p=Constants.guess_top_p,
+      frequency_penalty=0.0,
+      presence_penalty=0.0
+      )
+      return response.choices[0].message.content  
+  
+  def openai_llm(self, prompt, stop=["\n"]):
+      response = self.openai_client.chat.completions.create(
+      model=self.guess_model_name,
+      messages=[
+          {"role": "system", "content": "You are a helpful assistant."},
+          {"role": "user", "content": prompt}
+      ],
+      temperature=Constants.guess_temperature,
+      max_tokens=Constants.max_guess_output_tokens,
+      top_p=Constants.guess_top_p,
+      frequency_penalty=0.0,
+      presence_penalty=0.0
+      )
+      return response.choices[0].message.content
+
+  def gemini_llm(self, prompt, stop=["\n"]):
+      # config = types.GenerateContentConfig(stop_sequences=stop)
+      response = self.gemini_client.models.generate_content(model=self.guess_model_name, contents=prompt)
+      return str(response.text)
+  
+  def call_llm(self, prompt, stop=["\n"]):
+      if self.guess_model_name.startswith("gemini"):
+          return self.gemini_llm(prompt, stop)
+      elif self.guess_model_name.startswith("gpt"):
+          return self.openai_llm(prompt, stop)
+      else:
+          return self.openrouter_llm(prompt, stop)  
     
   def guess_step(self, entity, simulate=False):
-      prompt_wrap = Constants.guess_step_prompt.format(entity)
-      llm_response = self.gemini_llm(prompt_wrap)
+      prompt_wrap = PromptTemplates.GUESS_STEP_PROMPT.format(entity)
+      llm_response = self.call_llm(prompt_wrap)
       if simulate:
         self.sim_obs = self.get_page_obs(llm_response)
       self.page = llm_response

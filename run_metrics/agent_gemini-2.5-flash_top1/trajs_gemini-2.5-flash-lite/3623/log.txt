@@ -1,0 +1,53 @@
+INFO 3623 Question: Mummulgum is a stop on the Bruxner Highway before reaching the town on the banks of which river?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Mummulgum]
+Action 1: Search[Mummulgum]
+Observation 1: Mummulgum is a small rural village in the Northern Rivers region of New South Wales, Australia, 740 kilometres from the state capital, Sydney. Mummulgum is located on Shannon Brook between Tenterfield and Casino on the Bruxner Highway (Highway 44). It is 58 km south-west of Kyogle with the village and surrounding area being locally administered by Kyogle Council. The nearest large town is Casino which is 27 kilometres east of Mummulgum.[2]. According to the 2016 Census, there were 95 people living in Mummulgum and the surrounding area.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Mummulgum]
+Action 1: Search[Mummulgum]
+Observation 1: **Mummulgum** is a locality in the Northern Rivers region of New South Wales, Australia. It is situated within the Richmond Valley Council local government area.. **Geography and Location:**. Mummulgum is located approximately 700 kilometers north of Sydney and 70 kilometers west of the coastal city of Ballina. It lies along the Bruxner Highway, a significant road connecting the coast to the New England region.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Casino, New South Wales]
+Action 2: Search[Casino, New South Wales]
+Observation 2: Casino (Bundjalungic: Djanangmum) is a town in the Northern Rivers area of New South Wales, Australia, with a population of 12,298 people at the 2021 census.[1] It lies on the banks of the Richmond River and is situated at the junction of the Bruxner Highway and the Summerland Way.. It is located 726 km (451 mi) north of Sydney and 228 km (142 mi) south of Brisbane.. Casino is the seat of the Richmond Valley Council, a local government area.. Settlement of the area began in 1840 when pastoral squatters George Robert Stapleton and his business partner, Mr. Clay, set up a cattle station which they initially called Cassino after Cassino (near Monte Cassino) in Italy.[3][4][5] The town now has a sister city agreement with the Italian village.[6][7].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[Bruxner Highway]
+Action 2: Lookup[Bruxner Highway]
+Observation 2: Casino is a town in the Northern Rivers region of New South Wales, Australia. It is located on the banks of the W عام River, approximately 750 kilometres (470 mi) north of Sydney and 100 kilometres (62 mi) west of the coastal city of Byron Bay. Casino is the administrative centre of the Richmond Valley Council local government area.. **History:**. The area was originally inhabited by the Bundjalung people.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Richmond River]
+Action 3: Finish[Richmond River]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Richmond River]
+Action 3: Finish[Richmond River]
+Observation 3: Casino is a town in the Northern Rivers region of New South Wales, Australia. It is located on the banks of the W عام River, approximately 750 kilometres (470 mi) north of Sydney and 100 kilometres (62 mi) west of the coastal city of Byron Bay. Casino is the administrative centre of the Richmond Valley Council local government area.. **History:**. The area was originally inhabited by the Bundjalung people.
+
+
+
+INFO {'steps': 5, 'answer': 'Richmond River', 'gt_answer': 'Richmond', 'question_idx': 125, 'reward': False, 'em': False, 'f1': 0.6666666666666666}
+
+INFO Sum of rewards: 3 
+Number of steps: 7 
+Average reward: 0.42857142857142855 
+Average time 9.040503876549858
+
+-------------------------------------------------------
+

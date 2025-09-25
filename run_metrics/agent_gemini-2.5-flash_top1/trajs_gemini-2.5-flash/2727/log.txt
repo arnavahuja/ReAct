@@ -1,0 +1,53 @@
+INFO 2727 Question: Where did the Discovery Channel show franchise that Ben Bailey is an executive producer on originate from?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Ben Bailey]
+Action 1: Search[Ben Bailey]
+Observation 1: Benjamin Ray Bailey (born October 30, 1970) is an American comedian.. He is best known for hosting the Emmy Award-winning game show Cash Cab in New York City.[2]. Bailey was born in Bowling Green, Kentucky, and raised in Chatham Borough, New Jersey.[3] He has an older sibling. Bailey graduated in 1988 from Chatham Borough High School as part of the school's 76th and final graduating class.[4]. Bailey attended Old Dominion University in Norfolk, Virginia, before moving to Los Angeles in 1993 Bailey to pursue a career in entertainment.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Ben Bailey]
+Action 1: Search[Ben Bailey]
+Observation 1: **Ben Bailey** (born October 30, 1970) is an American comedian, game show host, and actor. He is best known for hosting the Discovery Channel game show *Cash Cab* (2005–2012, 2017–2019).. **Early Life and Career:**. Bailey was born in Newark, New Jersey, and grew up in Chatham Borough, New Jersey. He attended Old Dominion University in Norfolk.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Cash Cab]
+Action 2: Search[Cash Cab]
+Observation 2: Cash Cab is a game show created in the United Kingdom where contestants request the cab driver to go to a destination they want to go, but they have to answer questions in order to get to their destination as well as a cash prize.. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us. HelpLearn to editCommunity portalRecent changesUpload fileSpecial pages. Donate. Create account.
+
+SIMULATION TRAJECTORY:
+ Thought 2: The question asks about a Discovery Channel show franchise that Ben Bailey is an executive producer on. The observation states he is known for hosting *Cash Cab*, which is a Discovery Channel game show. It seems likely this is the show being referred to. I need to confirm if he is an executive producer and then find where *Cash Cab* originated from.
+Action 2: Lookup[executive producer]
+Observation 2: **Cash Cab** is a television game show that originated in the United Kingdom and has since been adapted in numerous countries worldwide. The premise of the show involves unsuspecting passengers who hail what appears to be a regular taxi, only to discover they are contestants on a game show.. **Gameplay:**. *   **The "Cash Cab":** The show takes place inside a specially outfitted taxi, often with flashing lights and a distinctive interior. The driver of the cab is also the host of the show..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[United Kingdom]
+Action 3: Finish[United Kingdom]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[United Kingdom]
+Action 3: Finish[United Kingdom]
+Observation 3: **Cash Cab** is a television game show that originated in the United Kingdom and has since been adapted in numerous countries worldwide. The premise of the show involves unsuspecting passengers who hail what appears to be a regular taxi, only to discover they are contestants on a game show.. **Gameplay:**. *   **The "Cash Cab":** The show takes place inside a specially outfitted taxi, often with flashing lights and a distinctive interior. The driver of the cab is also the host of the show..
+
+
+
+INFO {'steps': 5, 'answer': 'United Kingdom', 'gt_answer': 'originated in the United Kingdom.', 'question_idx': 2365, 'reward': False, 'em': False, 'f1': 0.6666666666666666}
+
+INFO Sum of rewards: 17 
+Number of steps: 37 
+Average reward: 0.4594594594594595 
+Average time 11.974376594698107
+
+-------------------------------------------------------
+

@@ -1,0 +1,44 @@
+INFO 7090 Question: What airline was a monopoly with a hub at Sheremetyevo International Airport?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to search Sheremetyevo International Airport, and find out which airline was a monopoly with a hub there.
+Action 1: Search[Sheremetyevo International Airport] 
+        Action 1: Search[Sheremetyevo International Airport]
+        Observation 1: Sheremetyevo International Airport (Russian: Международный аэропорт Шереметьево, Russian pronunciation: [ʂɨrʲɪˈmʲetʲjɪvə], Internal code: ШРМ) (IATA: SVO, ICAO: UUEE) is one of four international airports that serve the city of Moscow. It is the busiest airport in Russia and the post-Soviet states, as well as the ninth-busiest airport in Europe. Originally built as a military airbase, Sheremetyevo was converted into a civilian airport in 1959.[2] The airport was originally named after a nearby village, and a 2019 contest extended the name to include the name of the Russian poet Alexander Pushkin.[3]. The airport comprises six terminals: four international terminals (one under construction), one domestic terminal, and one private aviation terminal.[2][4] It is located 29 km (18 mi) northwest of central Moscow, between the towns of Lobnya and Khimki in Moscow Oblast.[5]. In 2019, the airport handled about 49.9 million passengers.[6] Sheremetyevo serves as the main hub for Russian flag carrier Aeroflot as well as its subsidiaries Rossiya Airlines and Pobeda, for Nordwind Airlines and its subsidiary Ikar, and for Smartavia.."
+
+SIMULATION TRAJECTORY:
+ Thought 1: To answer the question, I need to first search for Sheremetyevo International Airport and figure out which airline had a monopoly there.
+Action 1: Search[Sheremetyevo International Airport], Lookup[airport monopoly], Search[Airline monopoly at Sheremetyevo International Airport] 
+        Action 1: ['Search[Sheremetyevo International Airport]', 'Search[Airline monopoly at Sheremetyevo International Airport]', 'Lookup[airport monopoly]']
+        Observation 1: **Sheremetyevo Alexander S. Pushkin International Airport** (Russian: Международный аэропорт Шереметьево имени А. С. Пушкина, IPA: [ʂɨrʲɪˈmʲetʲjɪvə]) (IATA: **SVO**, ICAO: **UUEE**) is one of four international airports that serve the city of Moscow. It is the busiest airport in Russia, serving as the primary hub for Aeroflot and its subsidiaries."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The airport Sheremetyevo serves as the main hub for the Russian flag carrier Aeroflot. Therefore, Aeroflot is the airline that was a monopoly with a hub at Sheremetyevo International Airport.
+Action 2: Finish[Aeroflot] 
+        Action 2: Finish[Aeroflot]
+        Observation 2: Episode finished, reward = 0
+"
+
+SIMULATION TRAJECTORY:
+ Thought 2: The airline that was a monopoly with a hub at Sheremetyevo International Airport is Aeroflot. Three possible next actions could be to further research Aeroflot to confirm its monopoly status, to search Sheremetyevo International Airport again, or to finish now with the available information.
+Action 2: [Search[Aeroflot monopoly], Search[Sheremetyevo International Airport], Finish[Aeroflot]] 
+        Action 2: ['Search[Aeroflot monopoly]', 'Search[Sheremetyevo International Airport]', 'Finish[Aeroflot]']
+        Observation 2: **Sheremetyevo Alexander S. Pushkin International Airport** (Russian: Международный аэропорт Шереметьево имени А. С. Пушкина, IPA: [ʂɨrʲɪˈmʲetʲjɪvə]) (IATA: **SVO**, ICAO: **UUEE**) is one of four international airports that serve the city of Moscow. It is the busiest airport in Russia, serving as the primary hub for Aeroflot and its subsidiaries."
+
+
+
+INFO {'steps': 3, 'answer': 'Aeroflot', 'gt_answer': 'AeroflotRussian Airlines', 'question_idx': 4353, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 5 
+Number of steps: 13 
+Average reward: 0.38461538461538464 
+Average time 36.01035937896142
+
+--------------------------------------------------
+

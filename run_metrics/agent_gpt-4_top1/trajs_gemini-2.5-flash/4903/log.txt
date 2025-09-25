@@ -1,0 +1,53 @@
+INFO 4903 Question: What was the companion piece that Poe's brother published?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Poe's brother]
+Action 1: Search[Poe's brother]
+Observation 1: Could not find Poe's brother. Similar: ['Edgar Allan Poe', 'Virginia Eliza Clemm Poe', 'Sarah Elmira Shelton (category Poe family (United States))', 'Henry Poe', 'Poe (mascot)'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Poe's brother]
+Action 1: Search[Poe's brother]
+Observation 1: **William Henry Leonard Poe** (January 30, 1807 – August 1, 1831) was an American sailor and poet. He was the elder brother of the celebrated writer Edgar Allan Poe.. **Early Life and Family:**. William Henry Leonard Poe was born in Boston, Massachusetts, to actors David Poe Jr. and Elizabeth Arnold Hopkins Poe.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Henry Poe]
+Action 2: Search[Henry Poe]
+Observation 2: William Henry Leonard Poe, often referred to as Henry Poe (January 30, 1807 – August 1, 1831), was an American sailor, amateur poet and the brother of Edgar Allan Poe and Rosalie Poe.. After the death of their parents, the three Poe children were split up: Henry lived with his grandparents in Baltimore, Maryland, while Edgar and Rosalie were cared for by two different families in Richmond, Virginia. Before the age of 20, Henry traveled around the globe by sea before returning to Baltimore and becoming a published poet and author. One of his works, The Pirate, was a fictionalized account of his brother's first relationship with Sarah Elmira Royster in Richmond. Henry died of tuberculosis in 1831 at the age of 24..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[William Henry Leonard Poe works]
+Action 2: Search[William Henry Leonard Poe works]
+Observation 2: **Henry Poe** (c. 1787 – 1831) was an American sailor and the elder brother of the renowned writer Edgar Allan Poe. While his life was significantly overshadowed by his more famous sibling, Henry's existence and early death played a role in shaping Edgar's life and literary themes.. **Early Life and Family:**. Born in Boston, Massachusetts, Henry was the first child of actors David Poe Jr.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish["The Pirate"]
+Action 3: Finish["The Pirate"]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[published]
+Action 3: Lookup[published]
+Observation 3: **Henry Poe** (c. 1787 – 1831) was an American sailor and the elder brother of the renowned writer Edgar Allan Poe. While his life was significantly overshadowed by his more famous sibling, Henry's existence and early death played a role in shaping Edgar's life and literary themes.. **Early Life and Family:**. Born in Boston, Massachusetts, Henry was the first child of actors David Poe Jr.
+
+
+
+INFO {'steps': 5, 'answer': '"The Pirate"', 'gt_answer': '"The Whalestoe Letters"', 'question_idx': 1957, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 21 
+Number of steps: 48 
+Average reward: 0.4375 
+Average time 21.305245126287144
+
+-------------------------------------------------------
+

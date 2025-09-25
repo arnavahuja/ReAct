@@ -1,0 +1,60 @@
+INFO 4349 Question: In what city did Charlie Spiller play college football?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to search Charlie Spiller, find where he played college football.
+Action 1: Search[Charlie Spiller] 
+        Action 1: Search[Charlie Spiller]
+        Observation 1: Charlie Spiller (born October 18, 1983) is a former American football wide receiver. He was signed by the Tampa Bay Buccaneers as a street free agent in 2008. He played college football at Alcorn State.. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us. HelpLearn to editCommunity portalRecent changesUpload fileSpecial pages."
+
+SIMULATION TRAJECTORY:
+ Thought 1: To find where Charlie Spiller played college football, I need to search for Charlie Spiller and find information about his college football career.
+Action 1: [Search[Charlie Spiller], Lookup[college football], Search[Charlie Spiller college football]] 
+        Action 1: ['Search[Charlie Spiller]', 'Search[Charlie Spiller college football]', 'Lookup[college football]']
+        Observation 1: "
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The information indicates that Charlie Spiller played college football at Alcorn State. Now I need to find the city where Alcorn State is located.
+Action 2: Search[Alcorn State] 
+        Action 2: Search[Alcorn State]
+        Observation 2: Alcorn State University (Alcorn State, ASU or Alcorn) is a public historically black land-grant university adjacent to Lorman, Mississippi. It was founded in 1871 and was the first black land grant college established in the United States. The university is a member-school of the Thurgood Marshall College Fund.. Alcorn State's athletic teams are known as the Braves and compete in the NCAA's Division I. All teams compete as members of the Southwestern Athletic Conference (SWAC).."
+
+SIMULATION TRAJECTORY:
+ Thought 2: The information about where Charlie Spiller played college football doesn't not appear in the search results. I need to look for specific details.
+Action 2: Lookup[college football], Lookup[Spiller], Lookup[played] 
+        Action 2: ['Lookup[college football]', 'Lookup[Spiller]', 'Lookup[played]']
+        Observation 2: "
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Alcorn State University, where Charlie Spiller played college football, is located in Lorman, Mississippi. So the answer is Lorman.
+Action 3: Finish[Lorman] 
+        Action 3: Finish[Lorman]
+        Observation 3: Episode finished, reward = 1
+"
+
+SIMULATION TRAJECTORY:
+ Thought 3: Alcorn State University is located in Lorman, Mississippi. Therefore, Charlie Spiller played college football in the city of Lorman.
+Action 3: Finish[Lorman] 
+        Action 3: ['Finish[Lorman]']
+        Observation 3: "
+
+
+
+INFO {'steps': 5, 'answer': 'Lorman', 'gt_answer': 'Lorman', 'question_idx': 7096, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 6 
+Number of steps: 16 
+Average reward: 0.375 
+Average time 58.51952487230301
+
+--------------------------------------------------
+

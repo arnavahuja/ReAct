@@ -1,0 +1,56 @@
+INFO 4968 Question: Which building will have more floors, 15 Penn Plaza, or 247 Cherry?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[15 Penn Plaza]
+Action 1: Search[15 Penn Plaza]
+Observation 1: 15 Penn Plaza, also known as PENN15 and Vornado Tower, is a planned supertall office tower to be constructed by Vornado Realty Trust on Seventh Avenue between 32nd and 33rd Streets in the Midtown Manhattan neighborhood of New York City. The building, designed by Foster and Partners, will contain 430 units on 61 floors and 2,050,000 square feet (190,000 m2) of floor space as well as passageways to the adjacent Pennsylvania Station, 34th Street–Herald Square station, and the 33rd Street terminal of the PATH. Despite only having 61 floors, it is planned to be 1,270 feet (390 m) tall,[2][3] 20 feet (6.1 m) taller than the mooring mast or spire of the Empire State Building[3][4] two blocks east.[5] The timing of construction will be dependent on market conditions. Vornado is currently exploring using the site for "fashion shows or other temporary uses" until market conditions warrant construction of the building.[6]. Anthony and Peter L.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[15 Penn Plaza]
+Action 1: Search[15 Penn Plaza]
+Observation 1: **15 Penn Plaza** is a proposed skyscraper in Midtown Manhattan, New York City. It is planned to be located at the site of the former Madison Square Garden, adjacent to Pennsylvania Station.. **History and Development:**. The site at 15 Penn Plaza has a long history of development and redevelopment. The original Madison Square Garden, a historic arena, stood on this location from 1968 to 2013.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[247 Cherry]
+Action 2: Search[247 Cherry]
+Observation 2: 247 Cherry is a 79-story residential building under development on the Lower East Side of Manhattan, New York City. The building was designed by SHoP Architects, and is being developed by JDS Development Group.[1] Renderings for the building were first released in April 2016. The building will be adjacent to One Manhattan Square.[2][3][4][5][6] 247 Cherry will be developed in conjunction with two other nearby skyscrapers: 269 South Street and 259 Clinton Street.[6]. Development of the building was halted in July 2016 due to a lawsuit pertaining to a site adjacent the structure.[7][8] In July 2018, the developers released a new plan that would also contain several improvements to the surrounding area, including a new entrance to the New York City Subway's East Broadway station, connections between Clinton Street and the East River, renovations of nearby playgrounds, and flood-resistance upgrades.[9] The city's Planning Commission also scheduled a vote on the project.[10] Although politicians and grassroots organizations opposed the project, the City Planning Commission approved it in December 2018.[11] The developments were temporarily blocked by a New York Supreme Court judge in late February 2020, but then unblocked by a full New York Supreme Court panel of judges in August 2020, and their decision in favor of the development was then upheld by the New York Court of Appeals in April 2021.[12][13][14]. This article about a building or structure in Manhattan is a stub.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[floors]
+Action 2: Lookup[floors]
+Observation 2: I am sorry, but I cannot find any information about "247 Cherry" on Wikipedia or through my general knowledge base. It is possible that this is a very niche topic, a private entity, or a misspelling.. If you can provide more context or clarify the name, I may be able to assist you further..
+
+
+
+STEP: 3
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[247 Cherry]
+Action 3: Finish[247 Cherry]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: None
+Action 3: Finish[15 Penn Plaza]
+Observation 3: I am sorry, but I cannot find any information about "247 Cherry" on Wikipedia or through my general knowledge base. It is possible that this is a very niche topic, a private entity, or a misspelling.. If you can provide more context or clarify the name, I may be able to assist you further..
+
+
+
+INFO {'steps': 5, 'answer': '247 Cherry', 'gt_answer': '247 Cherry', 'question_idx': 5908, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 5 
+Number of steps: 10 
+Average reward: 0.5 
+Average time 27.26088140010834
+
+-------------------------------------------------------
+

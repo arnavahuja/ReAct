@@ -1,0 +1,109 @@
+INFO 1267 Question: Which television series was part of Cartoon Network's 2017 April Fools' prank and had a song by Justin Roiland played during the third season of the same show?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Cartoon Network's 2017 April Fools' prank]
+Action 1: Search[Cartoon Network's 2017 April Fools' prank]
+Observation 1: Could not find Cartoon Network's 2017 April Fools' prank. Similar: ["April Fools' Day", "List of April Fools' Day jokes", 'Adult Swim (redirect from Big Uber, Network Sampling)', 'List of Ed, Edd n Eddy episodes (category Lists of Cartoon Network television series episodes)', 'Rickrolling'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Cartoon Network's 2017 April Fools' prank]
+Action 1: Search[Cartoon Network's 2017 April Fools' prank]
+Observation 1: Cartoon Network's 2017 April Fools' Day prank involved a series of unexpected and often bizarre programming changes and interstitial content throughout the day. The primary focus of the prank was the show *The Amazing World of Gumball*, which was heavily featured in various altered forms.. One of the most prominent aspects of the prank was the re-airing of *The Amazing World of Gumball* episodes with altered audio. This included episodes where the characters' voices were replaced with sound effects.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Adult Swim 2017 April Fools' prank]
+Action 2: Search[Adult Swim 2017 April Fools' prank]
+Observation 2: Could not find Adult Swim 2017 April Fools' prank. Similar: ['Adult Swim', "List of April Fools' Day jokes", 'List of programs broadcast by Adult Swim', 'Toonami (redirect from Toonami (Rebirth)-Adult Swim)', 'Hunter × Hunter (2011 TV series)'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[Justin Roiland]
+Action 2: Lookup[Justin Roiland]
+Observation 2: On April 1, 2017, Adult Swim's annual April Fools' Day prank involved the surprise premiere of the first episode of *Rick and Morty* season three, titled "The Rickshank Rickdemption." The episode aired unannounced and on a continuous loop from 8:00 PM ET to midnight ET, replacing the regularly scheduled programming.. This was a significant event for fans, as the third season of *Rick and Morty* had been highly anticipated for over.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Adult Swim]
+Action 3: Search[Adult Swim]
+Observation 3: Adult Swim (stylized as [adult swim] and [as]) is an American adult-oriented television programming block on Cartoon Network which broadcasts during the evening, prime time, and late-night dayparts. The channel features stylistically varied animated and live-action series targeting an adult audience. The block's content includes original programming, particularly comedies and action series, syndicated series, and short films with generally minimal or no editing for content. Adult Swim is programmed by Williams Street, a subsidiary of Warner Bros. Television Studios that also produces much of the block's original programming..
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Justin Roiland song Rick and Morty season 3]
+Action 3: Search[Justin Roiland song Rick and Morty season 3]
+Observation 3: **Adult Swim** is an American adult-oriented late-night programming block of the Cartoon Network cable channel. It is owned by Warner Bros. Discovery. The block features animated and live-action series, including original productions, syndicated shows, and anime. It is known for its experimental, alternative, and often surreal humor, as well as its mature themes and content..
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Lookup[2017 April Fools' prank]
+Action 4: Lookup[2017 April Fools' prank]
+Observation 4: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[Justin Roiland song]
+Action 4: Search[Justin Roiland song]
+Observation 4: **Adult Swim** is an American adult-oriented late-night programming block of the Cartoon Network cable channel. It is owned by Warner Bros. Discovery. The block features animated and live-action series, including original productions, syndicated shows, and anime. It is known for its experimental, alternative, and often surreal humor, as well as its mature themes and content..
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[Justin Roiland song third season]
+Action 5: Search[Justin Roiland song third season]
+Observation 5: Could not find Justin Roiland song third season. Similar: ["Solar Opposites (category Television series by Justin Roiland's Solo Vanity Card Productions!)", 'Rick and Morty (redirect from Rick and Morty season 10)', 'Dan Harmon', 'Evil Morty (section Season 1)', 'List of Rick and Morty episodes (section Season 1 (2013–14))'].
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Lookup[April Fools' prank]
+Action 5: Lookup[April Fools' prank]
+Observation 5: There is no widely known song titled "Third Season" by Justin Roiland. While Justin Roiland is a co-creator and voice actor for the popular animated series *Rick and Morty*, which has had multiple seasons, he is not primarily known as a musician or for releasing standalone songs.. It's possible that "Third Season" might refer to:. *   **A song within *Rick and Morty*:** There are many short musical numbers, jingles, and background songs featured throughout.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Search[Rick and Morty]
+Action 6: Search[Rick and Morty]
+Observation 6: Rick and Morty is an American adult animated science fiction sitcom created by Justin Roiland and Dan Harmon for Cartoon Network's nighttime programming block Adult Swim. The series follows the misadventures of Rick Sanchez, a cynical mad scientist, and his good-hearted but fretful grandson Morty Smith, who split their time between domestic life and interdimensional adventures that take place across an infinite number of realities, often traveling to other planets and dimensions through portals and on Rick's flying saucer. The general concept of Rick and Morty relies on two conflicting scenarios: domestic family drama and a misanthropic grandfather dragging his grandson into hijinks.. Roiland voiced both Rick and Morty, with Ian Cardoni and Harry Belden taking over from him since the seventh season. Chris Parnell as Jerry, Spencer Grammer as Summer and Sarah Chalke as Beth also star.
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Search[Rick and Morty 2017 April Fools' prank]
+Action 6: Search[Rick and Morty 2017 April Fools' prank]
+Observation 6: **Rick and Morty** is an American adult animated science fiction sitcom created by Justin Roiland and Dan Harmon for Cartoon Network's late-night programming block Adult Swim. The series follows the misadventures of cynical mad scientist Rick Sanchez and his good-hearted but easily influenced grandson Morty Smith, who split their time between domestic life and interdimensional adventures.. **Premise:**. The show revolves around the eccentric and alcoholic mad scientist Rick Sanchez, who has recently reconnected with his family. He.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Lookup[April Fools' prank]
+Action 7: Lookup[April Fools' prank]
+Observation 7: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Lookup[2017 April Fools' prank]
+Action 7: Lookup[2017 April Fools' prank]
+Observation 7: **Rick and Morty** is an American adult animated science fiction sitcom created by Justin Roiland and Dan Harmon for Cartoon Network's late-night programming block Adult Swim. The series follows the misadventures of cynical mad scientist Rick Sanchez and his good-hearted but easily influenced grandson Morty Smith, who split their time between domestic life and interdimensional adventures.. **Premise:**. The show revolves around the eccentric and alcoholic mad scientist Rick Sanchez, who has recently reconnected with his family. He.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'Rick and Morty', 'question_idx': 1906, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 3 
+Number of steps: 5 
+Average reward: 0.6 
+Average time 31.041206789016723
+
+-------------------------------------------------------
+

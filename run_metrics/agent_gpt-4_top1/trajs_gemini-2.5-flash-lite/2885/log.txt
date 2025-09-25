@@ -1,0 +1,115 @@
+INFO 2885 Question: What sports club based in Hamburg Germany had a Persian born football player who played for eight seasons?
+
+STEP: 1
+
+ERROR Action not found in None 
+Retrying to get action...
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 1: None
+Action 1: Search[Hamburg Germany sports club Persian football player]
+Observation 1: Could not find Hamburg Germany sports club Persian football player. Similar: ['Vahid Hashemian (category Persian Gulf Pro League players)', 'Mehdi Mahdavikia (category Persian Gulf Pro League players)', 'Alexander Nouri (category German football managers)', 'Ali Karimi (redirect from Ali Karimi (footballer, born 1978))', 'Association football and politics'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: None
+Action 1: Search[Hamburg Germany sports club Persian football player]
+Observation 1: While there isn't a specific Wikipedia page dedicated to "Persian football players in Hamburg sports clubs," here's information presented in a Wikipedia-style format about prominent Iranian footballers who have played for clubs in Hamburg, Germany:. ---. **Iranian Footballers in Hamburg Sports Clubs**. Hamburg, Germany, has been a destination for several talented Iranian footballers throughout its footballing history. These players have contributed to various clubs in the city, most notably Hamburger SV (HSV) and FC St..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Vahid Hashemian]
+Action 2: Search[Vahid Hashemian]
+Observation 2: Vahid Hashemian Korbekandi (Persian: وحيد هاشميان کربکندی; born 21 July 1976) is an Iranian football coach and former player. He subsequently worked as assistant coach to Dragan Skočić at Iran national team during his tenure. He played as a forward, spending most of his career in Germany. He made 50 appearances for the Iran national team scoring 15 goals.. Hashemian started his professional football career with Pas Tehran in his homeland.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Persian football player Hamburger SV]
+Action 2: Search[Persian football player Hamburger SV]
+Observation 2: Vahid Hashemian (Persian: وحید هاشمیان) is an Iranian former professional footballer who played as a striker.. **Club Career:**. Hashemian began his career in Iran, playing for clubs such as Pas Tehran and Aboomoslem. He later moved to Germany, where he had a notable career in the Bundesliga. His most successful period was with VfL Bochum, where he was a prolific goalscorer.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Lookup[Hamburg]
+Action 3: Lookup[Hamburg]
+Observation 3: (Result 1 / 1) He also played for Hamburger SV and Energie Cottbus..
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[Hamburg]
+Action 3: Lookup[Hamburg]
+Observation 3: Vahid Hashemian (Persian: وحید هاشمیان) is an Iranian former professional footballer who played as a striker.. **Club Career:**. Hashemian began his career in Iran, playing for clubs such as Pas Tehran and Aboomoslem. He later moved to Germany, where he had a notable career in the Bundesliga. His most successful period was with VfL Bochum, where he was a prolific goalscorer.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Lookup[Hamburger SV]
+Action 4: Lookup[Hamburger SV]
+Observation 4: (Result 1 / 1) He also played for Hamburger SV and Energie Cottbus..
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[Hamburg]
+Action 4: Lookup[Hamburg]
+Observation 4: Vahid Hashemian (Persian: وحید هاشمیان) is an Iranian former professional footballer who played as a striker.. **Club Career:**. Hashemian began his career in Iran, playing for clubs such as Pas Tehran and Aboomoslem. He later moved to Germany, where he had a notable career in the Bundesliga. His most successful period was with VfL Bochum, where he was a prolific goalscorer.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Lookup[eight seasons]
+Action 5: Lookup[eight seasons]
+Observation 5: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Lookup[seasons]
+Action 5: Lookup[seasons]
+Observation 5: Vahid Hashemian (Persian: وحید هاشمیان) is an Iranian former professional footballer who played as a striker.. **Club Career:**. Hashemian began his career in Iran, playing for clubs such as Pas Tehran and Aboomoslem. He later moved to Germany, where he had a notable career in the Bundesliga. His most successful period was with VfL Bochum, where he was a prolific goalscorer.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Search[Vahid Hashemian career]
+Action 6: Search[Vahid Hashemian career]
+Observation 6: Could not find Vahid Hashemian career. Similar: ['Vahid Hashemian', 'Persepolis F.C.', 'Sunday Oliseh (section Playing career)', 'List of Persepolis F.C. players', 'Marcel Koller (section Playing career)'].
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Search[Vahid Hashemian Hamburger SV]
+Action 6: Search[Vahid Hashemian Hamburger SV]
+Observation 6: Vahid Hashemian (Persian: وحید هاشمیان; born 21 July 1976) is an Iranian former professional footballer who played as a striker.. **Club Career**. Hashemian began his senior career in Iran with PAS Tehran in the Azadegan League. He later moved to Germany, where he played for several clubs. His most notable spell was with VfL Bochum in the Bundesliga, where he established himself as a prolific goalscorer.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Search[Hamburger SV]
+Action 7: Search[Hamburger SV]
+Observation 7: Hamburger Sport-Verein e.V. (German: [ˈhambʊʁɡɐ ˈʃpɔʁtfɛɐ̯ˌʔaɪ̯n] ⓘ), commonly known as Hamburger SV (pronounced [ˈhambʊʁɡɐ ʔɛsˈfaʊ] ⓘ) or Hamburg (pronounced [ˈhambʊʁk] ⓘ), or HSV (pronounced [ˌhaːʔɛsˈfaʊ] ⓘ), is a German sports club based in Hamburg, with its largest branch being its football department. Though the current HSV was founded in June 1919 from a merger of three earlier clubs, it traces its origins to 29 September 1887 when the first of the predecessors, SC Germania, was founded.. HSV has won the German national championship six times, the DFB-Pokal three times and the former League Cup twice. The team's most successful period was from the mid-1970s until the mid-1980s when, in addition to several domestic honours, they won the 1976–77 European Cup Winners' Cup and the 1982–83 European Cup.
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Lookup[Hamburger SV]
+Action 7: Lookup[Hamburger SV]
+Observation 7: **Hamburger SV** (full name: Hamburger Sport-Verein e.V.) is a German sports club based in Hamburg. It is best known for its professional football team, which competes in the 2. Bundesliga, the second tier of German football.. Founded on 29 September 1887 as a merger of several smaller clubs, Hamburger SV is one of Germany's oldest and most successful football clubs. The club has a rich history, having won the German championship six.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'Mehdi Mahdavikia', 'question_idx': 1942, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 4 
+Number of steps: 17 
+Average reward: 0.23529411764705882 
+Average time 26.53737406169667
+
+-------------------------------------------------------
+

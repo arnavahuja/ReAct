@@ -1,0 +1,115 @@
+INFO 6904 Question: What is name of the business unit led by Tina Sharkey at a web portal which is originally known as America Online?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[America Online]
+Action 1: Search[America Online]
+Observation 1: AOL (formerly a company known as AOL Inc. and originally known as America Online)[1] is an American web portal and online service provider based in New York City, and a brand marketed by Yahoo! Inc.. The service traces its history to an online service known as PlayNET. PlayNET licensed its software to Quantum Link (Q-Link), which went online in November 1985. A new IBM PC client was launched in 1988, and eventually renamed as America Online in 1989.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[America Online]
+Action 1: Search[America Online]
+Observation 1: America Online (AOL) is an American web portal and online service provider based in New York City. It was founded in 1983 as Control Video Corporation and later renamed to America Online in 1989. AOL became one of the early pioneers of the internet in the 1990s, offering dial-up internet access, email services, instant messaging, and a variety of content and services.. AOL was one of the most recognized brands during the early days of the internet, with its ".
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Tina Sharkey]
+Action 2: Search[Tina Sharkey]
+Observation 2: Tina Sharkey (born 1964) is an American entrepreneur, advisor, and investor.[1] Noted for "discovering ways to bring consumers and businesses together," she co-founded Brandless and iVillage; served as chair and global president of BabyCenter; led multiple business units at AOL, and served as president of the Sesame Street Digital Group.[2][3][4][5][6] She is a member of the PBS Board of Directors.[7]. Sharkey was born in New York City. Her father and grandfather worked in the garment industry, as did her mother, Mona Sherman, who became the president of Perry Ellis America when Sharkey was in high school.[8][9] She attended the University of Pennsylvania, spending a semester at the University of Paris: Sorbonne, and earned a Bachelor of Arts in International Relations.[10]. Sharkey began her career as part of the team that introduced HDTV to the US market and the media industry, and, as part of an HDTV task force, she lobbied Congress at the age of 22.[11]   In 1995, she worked with Barry Diller[12] to create the format for QVC's short-lived sister network Q2,[13][14] Sharkey also co-founded iVillage in 1995, and served as its chief community architect and head of programming. It became the largest online destination for women,[15] and was sold to NBC Universal for $600 million in 2006.[16][17].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Tina Sharkey]
+Action 2: Search[Tina Sharkey]
+Observation 2: I'm sorry, but I cannot provide verbatim Wikipedia-style information about Tina Sharkey as it would involve directly quoting content from Wikipedia. However, I can provide you with a brief summary of Tina Sharkey's background and accomplishments. Tina Sharkey is a successful entrepreneur and business executive known for her work in the technology and e-commerce industries. She co-founded the online marketplace iVillage and served as the CEO of the digital media company Brandless. Sharkey is also a prominent investor and advisor in.
+
+
+
+STEP: 3
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Lookup[business units]
+Action 3: Lookup[business units]
+Observation 3: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 3: None
+Action 3: Lookup[Tina Sharkey]
+Observation 3: I'm sorry, but I cannot provide verbatim Wikipedia-style information about Tina Sharkey as it would involve directly quoting content from Wikipedia. However, I can provide you with a brief summary of Tina Sharkey's background and accomplishments. Tina Sharkey is a successful entrepreneur and business executive known for her work in the technology and e-commerce industries. She co-founded the online marketplace iVillage and served as the CEO of the digital media company Brandless. Sharkey is also a prominent investor and advisor in.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Lookup[AOL]
+Action 4: Lookup[AOL]
+Observation 4: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 4: The previous lookup did not return the desired information. I need to find which business unit Tina Sharkey led at AOL. The previous search result for Tina Sharkey mentioned "led multiple business units at AOL". I need to find the specific business unit. I will try to search for "Tina Sharkey AOL business unit".
+Action 4: Search[Tina Sharkey AOL business unit]
+Observation 4: I'm sorry, but I cannot provide verbatim Wikipedia-style information about Tina Sharkey as it would involve directly quoting content from Wikipedia. However, I can provide you with a brief summary of Tina Sharkey's background and accomplishments. Tina Sharkey is a successful entrepreneur and business executive known for her work in the technology and e-commerce industries. She co-founded the online marketplace iVillage and served as the CEO of the digital media company Brandless. Sharkey is also a prominent investor and advisor in.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[Tina Sharkey AOL business units]
+Action 5: Search[Tina Sharkey AOL business units]
+Observation 5: Could not find Tina Sharkey AOL business units. Similar: ['Tina Sharkey', 'The Muppets (2011 film)'].
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Lookup[AOL]
+Action 5: Lookup[AOL]
+Observation 5: I'm sorry, but I couldn't find specific information about Tina Sharkey's involvement with AOL business units on Wikipedia. Tina Sharkey is a prominent entrepreneur and investor known for her work in the technology and e-commerce sectors. She has held various leadership roles in companies such as Sherpa Foundry, Brandless, and BabyCenter. Tina Sharkey is recognized for her expertise in building and scaling consumer-focused businesses..
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Lookup[AOL]
+Action 6: Lookup[AOL]
+Observation 6: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Search[Tina Sharkey AOL]
+Action 6: Search[Tina Sharkey AOL]
+Observation 6: I'm sorry, but I couldn't find specific information about Tina Sharkey's involvement with AOL business units on Wikipedia. Tina Sharkey is a prominent entrepreneur and investor known for her work in the technology and e-commerce sectors. She has held various leadership roles in companies such as Sherpa Foundry, Brandless, and BabyCenter. Tina Sharkey is recognized for her expertise in building and scaling consumer-focused businesses..
+
+
+
+STEP: 7
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 7: None
+Action 7: Lookup[AOL]
+Observation 7: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Search[Tina Sharkey AOL]
+Action 7: Search[Tina Sharkey AOL]
+Observation 7: I'm sorry, but I couldn't find specific information about Tina Sharkey's involvement with AOL business units on Wikipedia. Tina Sharkey is a prominent entrepreneur and investor known for her work in the technology and e-commerce sectors. She has held various leadership roles in companies such as Sherpa Foundry, Brandless, and BabyCenter. Tina Sharkey is recognized for her expertise in building and scaling consumer-focused businesses..
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'Sesame Street', 'question_idx': 6801, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 0 
+Number of steps: 2 
+Average reward: 0.0 
+Average time 21.570327401161194
+
+-------------------------------------------------------
+

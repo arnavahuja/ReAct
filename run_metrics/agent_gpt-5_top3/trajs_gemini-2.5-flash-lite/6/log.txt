@@ -1,0 +1,46 @@
+INFO 6 Question:  the movie "A Cure for Wellness" was a science fiction?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I should check the film’s Wikipedia page to confirm its genre.
+Action 1: Search[A Cure for Wellness] 
+        Action 1: Search[A Cure for Wellness]
+        Observation 1: A Cure for Wellness is a 2016 psychological horror film directed by Gore Verbinski and written by Justin Haythe. Haythe and Verbinski were inspired by Thomas Mann's 1924 novel The Magic Mountain while coming up with the idea for the film.[3] Starring Dane DeHaan, Jason Isaacs, and Mia Goth, the plot follows a young executive who is sent to retrieve his company's CEO from a mysterious rehabilitation center in the Swiss Alps.. An international co-production based in the United States, Germany, and Luxembourg,[4] the film was shot on location at various German locations, including Hohenzollern Castle in Baden-Württemberg.. A Cure for Wellness was released on February 17, 2017, by 20th Century Fox and received generally mixed reviews from critics, who praised its visuals, cinematography, performances and ambition, but criticized its length, script and narrative. It grossed $26 million against its $40 million production budget, making it a box-office bomb.."
+
+SIMULATION TRAJECTORY:
+ Thought 1: Thought: I should search the film’s Wikipedia page to confirm its genre classification.
+
+Action 1: Search[A Cure for Wellness], Search[A Cure for Wellness (film)], Finish[no] 
+        Action 1: ['Search[A Cure for Wellness]', 'Search[A Cure for Wellness (film)]', 'Finish[no]']
+        Observation 1: **A Cure for Wellness** is a 2016 psychological horror film directed by Gore Verbinski and written by Justin Haythe. The film stars Dane DeHaan, Mia Goth, Jason Isaacs, and Celia Imrie. It follows a young ambitious executive who is sent to retrieve his company's CEO from a remote and idyllic wellness center in the Swiss Alps, only to discover that the center's treatments are not what they seem.. **Plot:**. Lockhart (Dane."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The article identifies it as a psychological horror film, not science fiction, so I can answer directly.
+Action 2: Finish[No. A Cure for Wellness is a psychological horror film, not science fiction.] 
+        Action 2: Finish[No. A Cure for Wellness is a psychological horror film, not science fiction.]
+        Observation 2: Episode finished, reward = 0
+"
+
+SIMULATION TRAJECTORY:
+ Thought 2: The page says it’s a psychological horror film, so the answer is no.
+
+Action 2: Finish[No. A Cure for Wellness is a psychological horror film, not science fiction.], Lookup[science fiction], Lookup[psychological horror] 
+        Action 2: ['Lookup[science fiction]', 'Lookup[psychological horror]', 'Finish[No. A Cure for Wellness is a psychological horror film, not science fiction.]']
+        Observation 2: **A Cure for Wellness** is a 2016 psychological horror film directed by Gore Verbinski and written by Justin Haythe. The film stars Dane DeHaan, Mia Goth, Jason Isaacs, and Celia Imrie. It follows a young ambitious executive who is sent to retrieve his company's CEO from a remote and idyllic wellness center in the Swiss Alps, only to discover that the center's treatments are not what they seem.. **Plot:**. Lockhart (Dane."
+
+
+
+INFO {'steps': 3, 'answer': 'No. A Cure for Wellness is a psychological horror film, not science fiction.', 'gt_answer': 'is a 2016 science fiction psychological horror', 'question_idx': 4601, 'reward': False, 'em': False, 'f1': 0.5882352941176471}
+
+INFO Sum of rewards: 0 
+Number of steps: 1 
+Average reward: 0.0 
+Average time 47.14922094345093
+
+--------------------------------------------------
+

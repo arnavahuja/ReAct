@@ -1,0 +1,53 @@
+INFO 6031 Question: Rebecca M. Bergman is the President of a college affliated with what church?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Rebecca M. Bergman]
+Action 1: Search[Rebecca M. Bergman]
+Observation 1: Rebecca M. Bergman is an American chemical engineer who was the 17th President[1] of Gustavus Adolphus College in St. Peter, Minnesota. She began her term in July 2014, and is the first woman to serve as President of the college, which was founded in 1862. Before her presidency, she was a senior executive at Medtronic, and served on the college's Board of Trustees from 2007 to 2014.[2][3].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Rebecca M. Bergman]
+Action 1: Search[Rebecca M. Bergman]
+Observation 1: **Rebecca M. Bergman**. Rebecca M. Bergman is an American business executive and academic administrator. She is best known for her leadership roles in the fields of science, technology, and higher education..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Gustavus Adolphus College]
+Action 2: Search[Gustavus Adolphus College]
+Observation 2: Gustavus Adolphus College (/ɡəsˈteɪvəs/ gəs-TAY-vəs) is a private liberal arts college in St. Peter, Minnesota, United States.[6] It was founded in 1862 by Swedish Americans led by Eric Norelius and is affiliated with the Evangelical Lutheran Church in America. Gustavus was named for Gustavus Adolphus, the King of Sweden from 1611 to 1632. Its residential campus includes a 125-acre arboretum.. in 1862, Eric Norelius founded the college's predecessor, a Lutheran parochial school in Red Wing.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[college]
+Action 2: Lookup[college]
+Observation 2: {{Infobox university. | name = Gustavus Adolphus College. | image = Gustavus Adolphus College Old Main.jpg. | image_size = 250px. | motto = *Quam parvum latet!* (Latin)<br/>How small a thing can hide!.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Evangelical Lutheran Church in America]
+Action 3: Finish[Evangelical Lutheran Church in America]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[church]
+Action 3: Lookup[church]
+Observation 3: {{Infobox university. | name = Gustavus Adolphus College. | image = Gustavus Adolphus College Old Main.jpg. | image_size = 250px. | motto = *Quam parvum latet!* (Latin)<br/>How small a thing can hide!.
+
+
+
+INFO {'steps': 5, 'answer': 'Evangelical Lutheran Church in America', 'gt_answer': 'Evangelical Lutheran Church', 'question_idx': 2153, 'reward': False, 'em': False, 'f1': 0.7499999999999999}
+
+INFO Sum of rewards: 10 
+Number of steps: 24 
+Average reward: 0.4166666666666667 
+Average time 21.59692366917928
+
+-------------------------------------------------------
+

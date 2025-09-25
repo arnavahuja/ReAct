@@ -1,0 +1,81 @@
+INFO 6950 Question: This American film and stage actor played the self-destructive soldier Prewitt in Fred Zinnemann's 1953 film that centers around which event?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Prewitt]
+Action 1: Search[Prewitt]
+Observation 1: Prewitt is a surname. Notable people with the surname include:. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us. HelpLearn to editCommunity portalRecent changesUpload fileSpecial pages. Donate.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Prewitt Fred Zinnemann 1953 film]
+Action 1: Search[Prewitt Fred Zinnemann 1953 film]
+Observation 1: **Prewitt** can refer to several distinct entities, primarily a surname, a location, and a concept in image processing.. ---. ### Prewitt (Surname). **Prewitt** is a surname of English origin. It is believed to be a habitational name, derived from a place name, though the exact origin is debated.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Fred Zinnemann]
+Action 2: Search[Fred Zinnemann]
+Observation 2: Alfred Zinnemann (April 29, 1907 – March 14, 1997) was an American film director and producer. He won four Academy Awards for directing and producing films in various genres, including thrillers, westerns, film noir and play adaptations. He began his career in Europe before emigrating to the US, where he specialized in shorts before making 25 feature films during his 50-year career.. He was among the first directors to insist on using authentic locations and for mixing stars with non-professional actors to give his films more realism. Within the film industry, he was considered a maverick for taking risks and thereby creating unique films, with many of his stories being dramas about lone and principled individuals tested by tragic events.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Fred Zinnemann 1953 film]
+Action 2: Search[Fred Zinnemann 1953 film]
+Observation 2: **Fred Zinnemann** (April 29, 1907 – March 14, 1997) was an Austrian-born American film director. He directed 25 feature films during his career, and was known for his meticulous craftsmanship, his commitment to realism, and his ability to elicit powerful performances from his actors. Zinnemann's films often explored themes of moral courage, individual responsibility, and the struggle against injustice. He won four Academy Awards.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Fred Zinnemann 1953 film Prewitt]
+Action 3: Search[Fred Zinnemann 1953 film Prewitt]
+Observation 3: Could not find Fred Zinnemann 1953 film Prewitt. Similar: ['Fred Zinnemann', 'From Here to Eternity (redirect from Robert E. Lee Prewitt)', 'Montgomery Clift (category American male film actors)', 'From Here to Eternity (novel) (category American novels adapted into films)', '26th Academy Awards (category 1953 film awards)'].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Fred Zinnemann filmography 1953]
+Action 3: Search[Fred Zinnemann filmography 1953]
+Observation 3: **From Here to Eternity** is a 1953 American drama film directed by Fred Zinnemann, and starring Burt Lancaster, Montgomery Clift, Deborah Kerr, Donna Reed, and Frank Sinatra. The film is set in Hawaii in 1941, in the weeks leading up to the attack on Pearl Harbor, and tells the story of a company of U.S. Army soldiers and their personal lives.. **Plot**. The film centers on Private Robert E.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[From Here to Eternity]
+Action 4: Search[From Here to Eternity]
+Observation 4: From Here to Eternity is a 1953 American romantic war drama film directed by Fred Zinnemann and written by Daniel Taradash, based on the 1951 novel of the same name by James Jones. It deals with the tribulations of three United States Army soldiers, played by Burt Lancaster, Montgomery Clift, and Frank Sinatra, stationed on Hawaii in the months leading up to the attack on Pearl Harbor. Deborah Kerr and Donna Reed portray the women in their lives. The supporting cast includes Ernest Borgnine, Philip Ober, Jack Warden, Mickey Shaughnessy, Claude Akins, and George Reeves.. It won 8 Academy Awards out of 13 nominations, including Best Picture, Best Director (Fred Zinnemann), Adapted Screenplay, Supporting Actor (Frank Sinatra), and Supporting Actress (Donna Reed).[3] The film's title originates from Rudyard Kipling's 1892 poem "Gentlemen-Rankers", about soldiers of the British Empire who had "lost [their] way" and were "damned from here to eternity"..
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[Attack on Pearl Harbor]
+Action 4: Finish[Attack on Pearl Harbor]
+Observation 4: {{Infobox film. | name           = From Here to Eternity. | image          = From Here to Eternity poster.jpg. | caption        = Theatrical release poster. | director       = Fred Zinnemann.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Finish[Attack on Pearl Harbor]
+Action 5: Finish[Attack on Pearl Harbor]
+Observation 5: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Lookup[centers around]
+Action 5: Lookup[centers around]
+Observation 5: {{Infobox film. | name           = From Here to Eternity. | image          = From Here to Eternity poster.jpg. | caption        = Theatrical release poster. | director       = Fred Zinnemann.
+
+
+
+INFO {'steps': 9, 'answer': 'Attack on Pearl Harbor', 'gt_answer': 'the attack on Pearl Harbor', 'question_idx': 4236, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 8 
+Number of steps: 13 
+Average reward: 0.6153846153846154 
+Average time 12.21509654705341
+
+-------------------------------------------------------
+

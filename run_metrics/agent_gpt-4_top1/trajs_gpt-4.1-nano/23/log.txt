@@ -1,0 +1,100 @@
+INFO 23 Question: The M1919 and the M1 was used by what military?
+
+STEP: 1
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[M1919]
+Action 1: Search[M1919]
+Observation 1: Under the old Model-year nomenclature system many different Pieces of equipment had the same Model number.. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us. HelpLearn to editCommunity portalRecent changesUpload fileSpecial pages. Donate. Create account.
+
+SIMULATION TRAJECTORY:
+ Thought 1: None
+Action 1: Search[M1919]
+Observation 1: The M1919 is a family of American .30 caliber medium machine guns that were used extensively during the 20th century. Designed by John Browning, the M1919 series was introduced in the early 1930s and became a standard infantry machine gun for the United States military during World War II, the Korean War, and into the Vietnam War.. Design and Features:. The M1919 is a gas-operated, air-cooled machine gun capable of firing at a rate of approximately.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[M1]
+Action 2: Search[M1]
+Observation 2: Could not find [M1]. Similar: ['M1', 'M1 Garand', 'M1 Abrams', 'M1 carbine', 'Apple M1'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[M1]
+Action 2: Search[M1]
+Observation 2: M1 is a designation that can refer to various entities depending on the context. Here are some of the most common references:. 1. M1 (Motorway): The M1 is a major motorway in the United Kingdom, running from London to Leeds. It is one of the busiest motorways in the UK and forms a key part of the country's transportation infrastructure.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[M1 Garand]
+Action 3: Search[M1 Garand]
+Observation 3: The M1 Garand or M1 rifle[nb 1] is a semi-automatic rifle that was the service rifle of the U.S. Army during World War II and the Korean War.. The rifle is chambered for the .30-06 Springfield cartridge and is named after its Canadian-American designer, John Garand. It was the first standard-issue autoloading rifle for the United States.[16] By most accounts, the M1 rifle performed well. General George S.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[M1919 Machine Gun]
+Observation 3: The M1919 Browning is a medium machine gun that was widely used during the 20th century, especially during World War II, the Korean War, and the Vietnam War. The M1919 saw service as a light infantry, coaxial, mounted, aircraft, and anti-aircraft machine gun by the U.S. and many other countries.
+Action 3: Search[M1919 Machine Gun]
+Observation 3: The M1919 Browning is a medium machine gun that was widely used during the 20th century, especially during World War II, the Korean War, and the Vietnam War. The M1919 saw service as a light infantry, coaxial, mounted, aircraft, and anti-aircraft machine gun by the U.S. and many other countries.
+Observation 3: The M1 Garand is a semi-automatic rifle that was officially adopted by the United States Army in 1936. Designed by John C. Garand, it is renowned for its reliability, accuracy, and significant role during World War II and the Korean War. The rifle is chambered for the .30-06 Springfield cartridge and features a gas-operated mechanism that allows for rapid fire without the need to manually operate the bolt after each shot.. The M1 Garand has a distinctive appearance,.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[M1919 (gun)]
+Action 4: Search[M1919 (gun)]
+Observation 4: Could not find M1919 (gun). Similar: ['16-inch/50-caliber M1919 gun', 'M1919 Browning machine gun', 'M1917 Browning machine gun', 'M2 Browning (redirect from .50-calibre machine gun)', 'M1919'].
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[M1919 Machine Gun]
+Action 4: Search[M1919 Machine Gun]
+Observation 4: The M1919 is a family of American .30 caliber medium machine guns that were widely used during the 20th century. Designed by John Browning, the M1919 was introduced in 1919 and became a standard infantry machine gun for the United States military, serving in various roles including infantry support, vehicle-mounted weaponry, and aircraft armament.. Design and Features:. The M1919 is a recoil-operated, air-cooled machine gun that fires from an open bolt position. It.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[M1919 Browning machine gun]
+Action 5: Search[M1919 Browning machine gun]
+Observation 5: The M1919 Browning is a .30 caliber medium machine gun that was widely used during the 20th century, especially during World War II, the Korean War, and the Vietnam War. The M1919 saw service as a light infantry, coaxial, mounted, aircraft, and anti-aircraft machine gun by the U.S and many other countries.. The M1919 was an air-cooled development of the standard U.S. machine gun of World War I, the John M. Browning-designed water-cooled M1917.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Finish[U.S. Military]
+Action 5: Finish[U.S. Military]
+Observation 5: The M1919 Browning machine gun is a .30 caliber (7.62×63mm) medium machine gun that was designed in the United States by John Browning. It was widely used during the 20th century, particularly throughout World War II, the Korean War, and the Vietnam War. The M1919 is a gas-operated, air-cooled machine gun capable of firing at a rate of approximately 600 rounds per minute.. Design and Development:. The M1919 was developed.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Finish[U.S. Army]
+Action 6: Finish[U.S. Army]
+Observation 6: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Finish[U.S. Army]
+Action 6: Finish[U.S. Army]
+Observation 6: The M1919 Browning machine gun is a .30 caliber (7.62×63mm) medium machine gun that was designed in the United States by John Browning. It was widely used during the 20th century, particularly throughout World War II, the Korean War, and the Vietnam War. The M1919 is a gas-operated, air-cooled machine gun capable of firing at a rate of approximately 600 rounds per minute.. Design and Development:. The M1919 was developed.
+
+
+
+INFO {'steps': 11, 'answer': 'U.S. Army', 'gt_answer': 'U.S.', 'question_idx': 2679, 'reward': False, 'em': False, 'f1': 0.6666666666666666}
+
+INFO Sum of rewards: 0 
+Number of steps: 1 
+Average reward: 0.0 
+Average time 37.00763416290283
+
+-------------------------------------------------------
+

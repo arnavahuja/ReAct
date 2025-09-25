@@ -1,0 +1,53 @@
+INFO 1715 Question: Between MetroSource and Chicago, which magazine is published more frequently?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[MetroSource]
+Action 1: Search[MetroSource]
+Observation 1: Metrosource is an American LGBTQ magazine. The bi-monthly gay and lesbian lifestyle magazine and business directory has three editions: Metrosource NY (Metrosource New York), Metrosource LA (Metrosource Los Angeles) and Metrosource National. The magazine is distributed in print and digital formats.. Metrosource was first published in 1990 as a local New York publication, the magazine has been distributed nationally since the mid-1990s. Metrosource is geared towards the modern metropolitan gay community.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[MetroSource]
+Action 1: Search[MetroSource]
+Observation 1: MetroSource is a company that provides a variety of services and products, primarily focused on the real estate and home services industries. While specific, detailed information about MetroSource might not be readily available on Wikipedia, here's a general overview of what the company is known for, presented in a Wikipedia-style format:. ---. **MetroSource**. MetroSource is a company that operates within the real estate and home services sectors.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Chicago (magazine)]
+Action 2: Search[Chicago (magazine)]
+Observation 2: Chicago is a monthly magazine published by Tribune Publishing. It concentrates on lifestyle and human interest stories, and on reviewing restaurants, travel, fashion, and theatre from or nearby Chicago. Its circulation in 2004 was 165,000, larger than People in its market.[2] Also in 2004, it received the National Magazine Award for General Excellence. It is a member of the City and Regional Magazine Association (CRMA).[3]. In the second half of the 20th century, several magazines bore the name Chicago magazine.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[MetroSource magazine]
+Action 2: Search[MetroSource magazine]
+Observation 2: **Chicago** is a monthly magazine published in Chicago, Illinois. It is the recipient of numerous awards, including the National Magazine Award for General Excellence in 2003 and 2009.. **History:**. *   Founded in 1970 by John G. Johnson, who also founded *Chicago Reader*..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Chicago]
+Action 3: Finish[Chicago]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Chicago]
+Action 3: Finish[Chicago]
+Observation 3: **Chicago** is a monthly magazine published in Chicago, Illinois. It is the recipient of numerous awards, including the National Magazine Award for General Excellence in 2003 and 2009.. **History:**. *   Founded in 1970 by John G. Johnson, who also founded *Chicago Reader*..
+
+
+
+INFO {'steps': 5, 'answer': 'Chicago', 'gt_answer': 'Chicago', 'question_idx': 2092, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 8 
+Number of steps: 14 
+Average reward: 0.5714285714285714 
+Average time 9.443549513816833
+
+-------------------------------------------------------
+

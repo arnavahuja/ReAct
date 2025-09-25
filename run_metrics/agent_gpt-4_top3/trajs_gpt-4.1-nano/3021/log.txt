@@ -1,0 +1,108 @@
+INFO 3021 Question: Which of the actress starred in  Zombie Night appeared in the 1998 erotic thriller "Wild Things"?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to search Zombie Night, find the actresses who starred in it, then search each to see if they also starred in the 1998 erotic thriller "Wild Things".
+Action 1: Search[Zombie Night] 
+        Action 1: Search[Zombie Night]
+        Observation 1: Could not find [Zombie Night]. Similar: ['Zombie Night', 'Zombie', 'Zombie Night (2013 film)', 'List of zombie films', 'Zombie apocalypse']."
+
+SIMULATION TRAJECTORY:
+ Thought 1: To answer this question, I first need to find out who starred in Zombie Night and then search if any of these actresses appeared in "Wild Things".
+Action 1: [Search[Zombie Night], Search[Wild Things], Lookup[Zombie Night]] 
+        Action 1: ['Search[Zombie Night]', 'Search[Wild Things]', 'Lookup[Zombie Night]']
+        Observation 1: Zombie Night is a term that can refer to various events, media, or entertainment related to zombies and horror themes. It is often used as a title for movies, video games, or themed events that involve zombie outbreaks or apocalyptic scenarios.. In popular culture, "Zombie Night" may refer to:. 1. **Film and Television**: Several horror films and TV episodes have used the title "Zombie Night" or similar variations, depicting stories of zombie invasions, survival, and chaos."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Zombie Night is not found. Probably need to specify Zombie Night (2013 film) based on the similar search results.
+Action 2: Search[Zombie Night (2013 film)] 
+        Action 2: Search[Zombie Night (2013 film)]
+        Observation 2: Zombie Night is a 2013 American zombie horror film directed by John Gulager,[1] written by Keith Allan and Delondra Williams from a story by Richard Schenkman, and starring Anthony Michael Hall, Daryl Hannah, Jennifer Taylor, Alan Ruck, and Shirley Jones.. In a small California town,[1] two families must survive a zombie attack until sunrise.[2]. Director John Gulager used amputees to portray zombies. He cited special effects as one of the highlights of a zombie film.[3]. Zombie Night premiered on Syfy on October 26, 2013, and it was released on DVD on December 10, 2013.[4]."
+
+SIMULATION TRAJECTORY:
+ Thought 2: The observation is not specific enough and brings various results. I need to refine the search with the exact title adding film at the end.
+Action 2: [Search[Zombie Night (film)], Lookup[Film and Television], Lookup[zombie outbreaks]] 
+        Action 2: ['Search[Zombie Night (film)]', 'Lookup[Film and Television]', 'Lookup[zombie outbreaks]']
+        Observation 2: Zombie Night is a 2013 American horror film directed by Christopher Ray. The film features a storyline centered around a group of friends who find themselves trapped in a remote cabin during a zombie outbreak. As the undead hordes close in, the group must fight for survival while confronting their own personal conflicts and secrets.. The cast includes actors such as David Chokachi, who plays the role of the main protagonist, along with other supporting actors portraying the friends and survivors. The film combines elements of horror,."
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Zombie Night stars Daryl Hannah and Jennifer Taylor among others. I need to search each of these actors to find if they appeared in "Wild Things".
+Action 3: Search[Daryl Hannah] 
+        Action 3: Search[Daryl Hannah]
+        Observation 3: Daryl Hannah (born December 3, 1960)[1] is an American actress and environmental activist. She made her film debut in Brian De Palma's supernatural horror film The Fury (1978). She has starred in various films across the years, including as Pris Stratton in Ridley Scott's science fiction thriller Blade Runner (1982) and as Cathy Featherstone in Randal Kleiser's romantic comedy Summer Lovers (1982), as the mermaid Madison in Ron Howard's fantasy-romantic comedy Splash (1984), Roxanne Kowalski in the romantic comedy Roxanne (1987), Darien Taylor in Oliver Stone's drama Wall Street (1987), and Annelle Dupuy Desoto in the comedy-drama Steel Magnolias (1989). In 2005, Hannah won a Saturn Award for her role as one-eyed assassin Elle Driver in Quentin Tarantino's martial arts action film Kill Bill: Volume 2. In 2015, she appeared in the Netflix series Sense8 as Angelica Turing.."
+
+SIMULATION TRAJECTORY:
+ Thought 3: The observation does not list all actors in the film. I need to look up cast specifically.
+Action 3: Lookup[cast], Lookup[actors], Lookup[David Chokachi] 
+        Action 3: ['Lookup[cast]', 'Lookup[actors]', 'Lookup[David Chokachi]']
+        Observation 3: Daryl Hannah is an American actress and environmental activist, born on December 3, 1960, in Chicago, Illinois. She is best known for her roles in films such as "Blade Runner" (1982), where she played the replicant Pris, "Splash" (1984), which earned her a Golden Globe nomination, and "Kill Bill: Volume 1" (2003). Hannah's career spans several decades, during which she has appeared in numerous films and television series.."
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: The list of Daryl Hannah's filmography in the Observation does not include "Wild Things". I need to check the next actress, Jennifer Taylor.
+Action 4: Search[Jennifer Taylor] 
+        Action 4: Search[Jennifer Taylor]
+        Observation 4: Could not find [Jennifer Taylor]. Similar: ['Jennifer Taylor (actress)', 'Jennifer Taylor', 'Jennifer Esposito', 'Jen Taylor', 'The Office (British TV series) (redirect from Jennifer Taylor-Clarke)']."
+
+SIMULATION TRAJECTORY:
+ Thought 4: Daryl Hannah's bio doesn't mention "Wild Things", so it's very likely she didn't star in it. I need to check Jennifer Taylor next.
+Action 4: [Search[Jennifer Taylor], Lookup[Jennifer Taylor], Search[Wild Things]] 
+        Action 4: ['Search[Jennifer Taylor]', 'Search[Wild Things]', 'Lookup[Jennifer Taylor]']
+        Observation 4: Jennifer Taylor is an American actress best known for her role as Chelsea Melini on the television sitcom "Two and a Half Men." She was born on April 16, 1972, in Hoboken, New Jersey. Taylor began her career in the entertainment industry with appearances in various television series and films. She gained widespread recognition for her comedic talent and her portrayal of Chelsea, a love interest of Charlie Harper, played by Charlie Sheen. Throughout her career, Jennifer Taylor has also appeared in other."
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Jennifer Taylor wasn't found in the search. It's likely referring to Jennifer Taylor (actress). 
+Action 5: [Search[Jennifer Taylor (actress)]] 
+        Action 5: Search[Jennifer Taylor (actress)]
+        Observation 5: Jennifer Taylor (née Bini; born April 19, 1972)[1] is an American actress, sometimes credited as Jennifer Bini Taylor, best known for her role as Chelsea on the CBS sitcom Two and a Half Men and earlier, for three other roles on the show. She appeared in the erotic thriller Wild Things and the faith-based film God's Not Dead: A Light in Darkness.. Taylor is of Italian descent.[2] She was born in Hoboken, New Jersey, but moved to Coral Springs, Florida when she was ten.[citation needed] She was third runner-up in the 1995 Miss Florida USA pageant[3][4] and first runner-up for 1996.[5][6]. She lives in Los Angeles with her husband Paul Taylor and their two children. She has a BA in social sciences and, according to an interview, grows much of her family's food in her own garden.[1]."
+
+SIMULATION TRAJECTORY:
+ Thought 5: Jennifer Taylor's highlighted filmography does not include "Wild Things", so she wasn't in that movie. 
+Action 5: [Lookup[thriller "Wild Things"], Search[Wild Things], Finish[None of the actresses]] 
+        Action 5: ['Search[Wild Things]', 'Lookup[thriller "Wild Things"]', 'Finish[None of the actresses]']
+        Observation 5: Jennifer Taylor is an American actress best known for her role as Chelsea Melini on the television sitcom "Two and a Half Men." She was born on April 16, 1972, in Hoboken, New Jersey. Taylor began her career in the entertainment industry in the late 1990s and gained recognition for her performances in both television and film.. Her acting credits include appearances in various TV series such as "The Bold and the Beautiful," "Dharma & Greg," and "."
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: The filmography of Jennifer Taylor includes the film "Wild Things". This means Jennifer Taylor is the actress who starred both in "Zombie Night" and "Wild Things".
+Action 6: [Finish[Jennifer Taylor]] 
+        Action 6: Finish[Jennifer Taylor]
+        Observation 6: Episode finished, reward = 1
+"
+
+SIMULATION TRAJECTORY:
+ Thought 6: The information on Jennifer Taylor's filmography is incomplete in the Observation. I may need to lookup more information or finish the task indicating uncertainty.
+Action 6: [Lookup["Wild Things"], Lookup[filmography], Finish[Uncertain]] 
+        Action 6: ['Lookup["Wild Things"]', 'Lookup[filmography]', 'Finish[Uncertain]']
+        Observation 6: Jennifer Taylor is an American actress best known for her role as Chelsea Melini on the television sitcom "Two and a Half Men." She was born on April 16, 1972, in Hoboken, New Jersey. Taylor began her career in the entertainment industry in the late 1990s and gained recognition for her performances in both television and film.. Her acting credits include appearances in various TV series such as "The Bold and the Beautiful," "Dharma & Greg," and "."
+
+
+
+INFO {'steps': 11, 'answer': 'Jennifer Taylor', 'gt_answer': 'Jennifer Taylor', 'question_idx': 5911, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 5 
+Number of steps: 14 
+Average reward: 0.35714285714285715 
+Average time 39.50336929730007
+
+--------------------------------------------------
+

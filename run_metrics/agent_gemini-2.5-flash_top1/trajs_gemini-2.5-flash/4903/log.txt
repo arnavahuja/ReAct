@@ -1,0 +1,53 @@
+INFO 4903 Question: What was Richard Connell's best known work The Hounds of Zaroff also published as?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Richard Connell]
+Action 1: Search[Richard Connell]
+Observation 1: Richard Edward Connell Jr. (October 17, 1893 – November 22, 1949) was an American author and journalist. He is most notable for his short story "The Most Dangerous Game" (1924). Connell was one of the most popular American short story writers of his time. His stories were published in The Saturday Evening Post and Collier's magazines.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[The Hounds of Zaroff]
+Action 1: Search[The Hounds of Zaroff]
+Observation 1: **Richard Edward Connell Jr.** (October 17, 1893 – November 13, 1949) was an American author and journalist, best known for his short story "The Most Dangerous Game" (1924). His prolific career spanned several decades, encompassing a wide range of genres including short fiction, novels, screenplays, and plays.. **Early Life and Education:**. Connell was born in Poughkeepsie, New York, to.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[The Hounds of Zaroff]
+Action 2: Search[The Hounds of Zaroff]
+Observation 2: "The Most Dangerous Game", also published as "The Hounds of Zaroff", is a short story by Richard Connell,[1] first published in Collier's on January 19, 1924, with illustrations by Wilmot Emerton Heitland.[2][3] The story features a big-game hunter from New York City who falls from a yacht and swims to what seems to be an abandoned and isolated island in the Caribbean, where he is hunted by a Russian aristocrat.[4] The story is inspired by the big-game hunting safaris in Africa and South America that were particularly fashionable among wealthy Americans in the 1920s.[5]. The story has been adapted numerous times, most notably as the 1932 RKO Pictures film The Most Dangerous Game, starring Joel McCrea, Leslie Banks and Fay Wray,[6] and for a 1943 episode of the CBS Radio series Suspense, starring Orson Welles.[7] It has been called the "most popular short story ever written in English."[8] Upon its publication, it won the O. Henry Award.[4]. "The Most Dangerous Game" entered the public domain in the United States in 2020.[9]. Big-game hunter Sanger Rainsford and his friend Whitney are traveling by ship to the Amazon rainforest for a jaguar hunt.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[Hounds of Zaroff]
+Action 2: Lookup[Hounds of Zaroff]
+Observation 2: **The Hounds of Zaroff**. "The Hounds of Zaroff" is a short story by Richard Connell, first published in *Collier's* magazine on January 19, 1924. It is widely considered a classic of American literature and is frequently anthologized. The story is known for its suspenseful plot, exploration of morality, and its enduring popularity.. **Plot Summary**.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[The Most Dangerous Game]
+Action 3: Finish[The Most Dangerous Game]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[also published as]
+Action 3: Lookup[also published as]
+Observation 3: **The Hounds of Zaroff**. "The Hounds of Zaroff" is a short story by Richard Connell, first published in *Collier's* magazine on January 19, 1924. It is widely considered a classic of American literature and is frequently anthologized. The story is known for its suspenseful plot, exploration of morality, and its enduring popularity.. **Plot Summary**.
+
+
+
+INFO {'steps': 5, 'answer': 'The Most Dangerous Game', 'gt_answer': 'The Most Dangerous Game', 'question_idx': 1979, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 23 
+Number of steps: 48 
+Average reward: 0.4791666666666667 
+Average time 12.235436295469603
+
+-------------------------------------------------------
+

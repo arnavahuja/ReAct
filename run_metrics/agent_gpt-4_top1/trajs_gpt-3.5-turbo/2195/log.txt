@@ -1,0 +1,136 @@
+INFO 2195 Question: What Congressional district featured Republican nomiee Willie Vaden in 2004, 2006, and 2008?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Willie Vaden]
+Action 1: Search[Willie Vaden]
+Observation 1: Could not find Willie Vaden. Similar: ['2004 United States House of Representatives elections', '2016 United States House of Representatives elections in Texas', '2006 United States House of Representatives elections', '2008 United States House of Representatives elections', 'Members of the 111th United States Congress'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Willie Vaden]
+Action 1: Search[Willie Vaden]
+Observation 1: I'm sorry, but I cannot provide verbatim Wikipedia-style information about Willie Vaden as I do not have access to specific external sources like Wikipedia. However, I can provide you with general information about Willie Vaden if you would like. Let me know if you would like me to do that..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[2004 United States House of Representatives elections]
+Action 2: Search[2004 United States House of Representatives elections]
+Observation 2: The 2004 United States House of Representatives elections were held on November 2, 2004, to elect all 435 seats of the chamber. It coincided with the re-election of President George W. Bush as well as many Senate elections and gubernatorial elections. Prior to the election in the 108th Congress, Republicans held 227 seats, Democrats held 205, with two Republican vacancies and one independent. As a result of this election, the 109th Congress began composed of 232 Republicans, 201 Democrats, one independent (who caucuses with the Democrats), and one vacancy (Democrat Bob Matsui won reelection but died just two days before the beginning of the 109th Congress)..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[U.S. Congressional elections 2004, 2006, 2008]
+Action 2: Search[U.S. Congressional elections 2004, 2006, 2008]
+Observation 2: The 2004 United States House of Representatives elections were held on November 2, 2004. All 435 seats in the U.S. House of Representatives were up for election. The Republican Party retained control of the House, winning 232 seats compared to the Democratic Party's 202 seats. One independent candidate also won a seat.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Lookup[Willie Vaden]
+Action 3: Lookup[Willie Vaden]
+Observation 3: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[2004 United States House of Representatives elections in Texas]
+Action 3: Search[2004 United States House of Representatives elections in Texas]
+Observation 3: The 2004 United States House of Representatives elections were held on November 2, 2004. All 435 seats in the U.S. House of Representatives were up for election. The Republican Party retained control of the House, winning 232 seats compared to the Democratic Party's 202 seats. One independent candidate also won a seat.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[2006 United States House of Representatives elections]
+Action 4: Search[2006 United States House of Representatives elections]
+Observation 4: The 2006 United States House of Representatives elections were held on November 7, 2006, to elect members to the United States House of Representatives. It took place in the middle of President George W. Bush's second term in office. All 435 seats of the House were up for election. Those elected served in the 110th United States Congress from January 3, 2007, until January 3, 2009.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[2006 United States House of Representatives elections]
+Action 4: Search[2006 United States House of Representatives elections]
+Observation 4: The 2006 United States House of Representatives elections were held on November 7, 2006, in the middle of President George W. Bush's second term. All 435 seats in the House of Representatives were up for election. The Democratic Party gained a significant number of seats, winning a majority in the House for the first time since 1994. The Democrats picked up a total of 30 seats, giving them control of the House with a 233-202 majority.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Lookup[Willie Vaden]
+Observation 5: No more results.
+
+Thought 6: Let me do the action Search[2008 United States House of Representatives elections]
+Action 6: Search[2008 United States House of Representatives elections]
+Action 5: Lookup[Willie Vaden]
+Observation 5: No more results.
+
+Thought 6: Let me do the action Search[2008 United States House of Representatives elections]
+Action 6: Search[2008 United States House of Representatives elections]
+Observation 5: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Lookup[Willie Vaden]
+Observation 5: No more results.
+
+Thought 6: Let me do the action Search[2008 United States House of Representatives elections]
+Action 6: Search[2008 United States House of Representatives elections]
+Action 5: Lookup[Willie Vaden]
+Observation 5: No more results.
+
+Thought 6: Let me do the action Search[2008 United States House of Representatives elections]
+Action 6: Search[2008 United States House of Representatives elections]
+Observation 5: The 2006 United States House of Representatives elections were held on November 7, 2006, in the middle of President George W. Bush's second term. All 435 seats in the House of Representatives were up for election. The Democratic Party gained a significant number of seats, winning a majority in the House for the first time since 1994. The Democrats picked up a total of 30 seats, giving them control of the House with a 233-202 majority.
+
+
+
+STEP: 6
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Lookup[Willie Vaden]
+Observation 6: No more results. 
+
+Thought 7: I need to attempt a different information retrieval strategy since the current one is not providing the required information.
+Action 7: Search[2004, 2006 and 2008 Republican nominees for United States House of Representatives]
+Action 6: Lookup[Willie Vaden]
+Observation 6: No more results. 
+
+Thought 7: I need to attempt a different information retrieval strategy since the current one is not providing the required information.
+Action 7: Search[2004, 2006 and 2008 Republican nominees for United States House of Representatives]
+Observation 6: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 6: None
+Action 6: Lookup[Willie Vaden]
+Observation 6: The 2006 United States House of Representatives elections were held on November 7, 2006, in the middle of President George W. Bush's second term. All 435 seats in the House of Representatives were up for election. The Democratic Party gained a significant number of seats, winning a majority in the House for the first time since 1994. The Democrats picked up a total of 30 seats, giving them control of the House with a 233-202 majority.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Search[Willie Vaden political career]
+Action 7: Search[Willie Vaden political career]
+Observation 7: Could not find Willie Vaden political career. Similar: ['Music of Texas', 'List of people from Texas (section Politics and public office)', '2008 United States House of Representatives elections', 'Members of the 111th United States Congress', 'List of Vanderbilt University people (section Government, politics, and activism)'].
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Search[2004, 2006, and 2008 Republican candidates for United States House of Representatives from Texas]
+Action 7: Search[2004, 2006, and 2008 Republican candidates for United States House of Representatives from Texas]
+Observation 7: I'm sorry, but I couldn't find any information about a person named Willie Vaden in relation to a political career..
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': "Texas's 27th congressional district", 'question_idx': 2457, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 4 
+Number of steps: 23 
+Average reward: 0.17391304347826086 
+Average time 27.150139912315037
+
+-------------------------------------------------------
+

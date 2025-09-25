@@ -1,0 +1,39 @@
+INFO 2727 Question:  "Quando m'en vo' " is a soprano from an Opera composed by who ?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search["Quando m'en vo' "]
+Action 1: Search["Quando m'en vo' "]
+Observation 1: "Quando me'n vo'", also known as "Musetta's Waltz", is a soprano aria, a waltz in act two of Puccini's 1896 opera La bohème. It is sung by Musetta, in the presence of her bohemian friends, hoping to reclaim the attention of her occasional boyfriend Marcello.[1]. This scene takes place at the Café Momus [fr]. Shortly after Mimì, Rodolfo, and their friends have taken seats for a drink, Marcello's former girlfriend, Musetta, shows up with her current patron, the elderly Alcindoro. They quarrel for a bit, then the episode begins as Musetta initiates her move on Marcello.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search["Quando m'en vo'"]
+Action 1: Search["Quando m'en vo'"]
+Observation 1: "Quando m'en vo'" is a famous aria from Giacomo Puccini's opera "La Bohème." It is also known as "Musetta's Waltz" and is sung by the character Musetta in the second act of the opera. The aria is a lively and flirtatious waltz in which Musetta sings about her beauty and charm, capturing the attention of everyone around her. The aria is one of the most well-known and beloved pieces in the opera.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[Puccini]
+Action 2: Finish[Puccini]
+Observation 2: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Finish[Giacomo Puccini]
+Action 2: Finish[Giacomo Puccini]
+Observation 2: "Quando m'en vo'" is a famous aria from Giacomo Puccini's opera "La Bohème." It is also known as "Musetta's Waltz" and is sung by the character Musetta in the second act of the opera. The aria is a lively and flirtatious waltz in which Musetta sings about her beauty and charm, capturing the attention of everyone around her. The aria is one of the most well-known and beloved pieces in the opera.
+
+
+
+INFO {'steps': 3, 'answer': 'Puccini', 'gt_answer': 'Giacomo Puccini', 'question_idx': 2798, 'reward': False, 'em': False, 'f1': 0.6666666666666666}
+
+INFO Sum of rewards: 13 
+Number of steps: 37 
+Average reward: 0.35135135135135137 
+Average time 25.637287868035806
+
+-------------------------------------------------------
+

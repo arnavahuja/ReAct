@@ -1,0 +1,53 @@
+INFO 5252 Question: Which pizza chain has locations in more cities, Round Table Pizza or Marion's Piazza?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Round Table Pizza]
+Action 1: Search[Round Table Pizza]
+Observation 1: Round Table Pizza is a chain and franchise of pizza parlors in the Western United States. The first Round Table Pizza restaurant was opened in 1959, and the company has over 400 restaurants. The company is headquartered in Atlanta, Georgia.[3]. The company currently operates two formats. Traditional Round Table Pizza restaurants serve primarily pizza, salads, and beverages.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Round Table Pizza]
+Action 1: Search[Round Table Pizza]
+Observation 1: **Round Table Pizza** is a chain of pizza restaurants in the Western United States. The company was founded in 1959 by Bill Larson in Menlo Park, California. The first restaurant was located at 1235 El Camino Real.. **History:**. Bill Larson, a native of San Jose, California, opened the first Round Table Pizza with a vision of creating a family-friendly restaurant that served high-quality pizza.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Marion's Piazza]
+Action 2: Search[Marion's Piazza]
+Observation 2: Marion's Piazza is a pizzeria chain based in Dayton, Ohio. Established in 1965 by Marion Glass, the company operates nine restaurants throughout the greater Dayton area. Marion's son, Roger Glass, took over as CEO after Marion's death in 2006 and continued to manage the company until his own death in August 2022.[1]. The pizzeria produces Dayton-style pizza.[2] In 2017, it was recognized by the trade publication Pizza Today as the independent pizza chain with highest sales.[3][4] Roger Glass, the CEO, noted that the company had won the award four of the previous five years.[4]. The company was founded on August 19, 1965, by Marion Glass.[2] Glass was an owner of three franchises for the larger Dayton-area Cassano's Pizza King chain.[1] Glass said he wanted his own restaurant because he wanted to offer a dining-room experience as opposed to the mostly delivery and carry-out options.[1].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Marion's Piazza]
+Action 2: Search[Marion's Piazza]
+Observation 2: {{Infobox restaurant. | name              = Marion's Piazza. | logo              =. | image             =. | image_alt         =.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Round Table Pizza]
+Action 3: Finish[Round Table Pizza]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[Number of locations]
+Action 3: Lookup[Number of locations]
+Observation 3: {{Infobox restaurant. | name              = Marion's Piazza. | logo              =. | image             =. | image_alt         =.
+
+
+
+INFO {'steps': 5, 'answer': 'Round Table Pizza', 'gt_answer': 'Round Table Pizza', 'question_idx': 4942, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 7 
+Number of steps: 12 
+Average reward: 0.5833333333333334 
+Average time 11.895284990469614
+
+-------------------------------------------------------
+

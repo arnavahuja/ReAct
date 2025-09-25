@@ -1,0 +1,53 @@
+INFO 2359 Question: Where was the private university that Alan Hurwitz served as the 10th President located?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Alan Hurwitz]
+Action 1: Search[Alan Hurwitz]
+Observation 1: T. Alan Hurwitz (born September 17, 1942) is an American educator who served as the tenth President of Gallaudet University from 2010 to 2015.[1] He is the first person born deaf, and first Jew, to hold this position.[2] Previously, he served as President of the National Technical Institute for the Deaf and Vice President and Dean of Rochester Institute of Technology. He served in a variety of other roles for most of NTID's 40-year history.. Hurwitz attended the Central Institute for the Deaf.[3]. Hurwitz started at NTID in 1970 as an educational specialist in RIT's College of Engineering after working for McDonnell Douglas Corp.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Alan Hurwitz]
+Action 1: Search[Alan Hurwitz]
+Observation 1: Alan Hurwitz is an American mathematician and educator. He is known for his work in algebraic geometry and number theory, as well as his leadership in higher education.. **Early Life and Education:**. Hurwitz received his Bachelor of Science degree from the City College of New York. He then pursued graduate studies at the University of Chicago, where he earned his Ph.D.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Gallaudet University]
+Action 2: Search[Gallaudet University]
+Observation 2: Gallaudet University[a] (/ˌɡæləˈdɛt/ GAL-ə-DET) is a private federally chartered university in Washington, D.C., for the education of the deaf and hard of hearing. It was founded in 1864 as a grammar school for both deaf and blind children. It was the first school for the advanced education of the deaf and hard of hearing in the world and remains the only higher education institution in which all programs and services are specifically designed to accommodate deaf and hard of hearing students. Hearing students are admitted to the graduate school and a small number are also admitted as undergraduates each year. The university was named after Thomas Hopkins Gallaudet, a notable figure in the advancement of deaf education..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[10th President]
+Action 2: Lookup[10th President]
+Observation 2: Gallaudet University is a private university in Washington, D.C., that is the world's only higher education institution dedicated to the deaf and hard of hearing. Founded in 1864, it is the first school for the advanced education of the deaf and blind and the fifth oldest university in the District of Columbia.. **History:**. Gallaudet University was founded by an act of Congress and signed into law by President Abraham Lincoln. It was named after Thomas Hopkins Galla.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Washington, D.C.]
+Action 3: Finish[Washington, D.C.]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Washington, D.C.]
+Action 3: Finish[Washington, D.C.]
+Observation 3: Gallaudet University is a private university in Washington, D.C., that is the world's only higher education institution dedicated to the deaf and hard of hearing. Founded in 1864, it is the first school for the advanced education of the deaf and blind and the fifth oldest university in the District of Columbia.. **History:**. Gallaudet University was founded by an act of Congress and signed into law by President Abraham Lincoln. It was named after Thomas Hopkins Galla.
+
+
+
+INFO {'steps': 5, 'answer': 'Washington, D.C.', 'gt_answer': 'Washington, D.C.', 'question_idx': 4189, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 6 
+Number of steps: 24 
+Average reward: 0.25 
+Average time 27.985688000917435
+
+-------------------------------------------------------
+

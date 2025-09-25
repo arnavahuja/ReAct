@@ -1,0 +1,133 @@
+INFO 1248 Question: The northern English anglian Kingdom in the Humber estuary spoke what dialect of english?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Anglian Kingdom in the Humber estuary]
+Action 1: Search[Anglian Kingdom in the Humber estuary]
+Observation 1: Could not find Anglian Kingdom in the Humber estuary. Similar: ['Kingdom of Lindsey', 'Kingdom of East Anglia', 'Lincolnshire (redirect from Humber region)', 'Northumbria (redirect from Northumbria in the Early Middle Ages)', 'Geography of the United Kingdom'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Anglian Kingdom in the Humber estuary]
+Action 1: Search[Anglian Kingdom in the Humber estuary]
+Observation 1: The Anglian Kingdom in the Humber estuary was a political entity in the early medieval period, located in the region of present-day England. It was part of the larger Anglo-Saxon Heptarchy, a collection of seven kingdoms in Anglo-Saxon England. The Anglian Kingdom in the Humber estuary was situated in the eastern part of the country, near the estuary of the River Humber.. The kingdom was inhabited by the Angles, a Germanic tribe that settled in Britain.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Northumbria]
+Action 2: Search[Northumbria]
+Observation 2: Northumbria (/nɔːrˈθʌmbriə/[6]) was an early medieval kingdom in what is now Northern England and South Scotland.. The name derives from the Old English Norþanhymbre meaning "the people or province north of the Humber",[7] as opposed to the people south of the Humber Estuary. What was to become Northumbria started as two kingdoms, Deira in the south and Bernicia in the north. Conflict in the first half of the seventh century ended with the murder of the last king of Deira in 651, and Northumbria was thereafter unified under Bernician kings.. At its height, the kingdom extended from the Humber, Peak District and the River Mersey on the south to the Firth of Forth on the north.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[dialect]
+Action 2: Lookup[dialect]
+Observation 2: Northumbria was a medieval kingdom in what is now northern England and southeastern Scotland. It was originally formed by the merging of the kingdoms of Bernicia and Deira in the 7th century. Northumbria was a powerful and influential kingdom during the early Middle Ages, known for its military strength and cultural achievements.. The kingdom of Northumbria reached its height of power in the 7th and 8th centuries, when it was ruled by kings such as Edwin, Oswald, and Osw.
+
+
+
+STEP: 3
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 3: None
+Action 3: Lookup[dialect]
+Observation 3: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[Humber estuary]
+Action 3: Lookup[Humber estuary]
+Observation 3: Northumbria was a medieval kingdom in what is now northern England and southeastern Scotland. It was originally formed by the merging of the kingdoms of Bernicia and Deira in the 7th century. Northumbria was a powerful and influential kingdom during the early Middle Ages, known for its military strength and cultural achievements.. The kingdom of Northumbria reached its height of power in the 7th and 8th centuries, when it was ruled by kings such as Edwin, Oswald, and Osw.
+
+
+
+STEP: 4
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 4: None
+Action 4: Lookup[English]
+Observation 4: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 4: The previous search for "Northumbria" provided information about the kingdom's location and history, but not about the dialect spoken. I need to find information about the dialect of English spoken in Northumbria, specifically in the Humber estuary region. I will try to search for "Northumbrian dialect".
+Action 4: Search[Northumbrian dialect]
+Observation 4: Northumbria was a medieval kingdom in what is now northern England and southeastern Scotland. It was originally formed by the merging of the kingdoms of Bernicia and Deira in the 7th century. Northumbria was a powerful and influential kingdom during the early Middle Ages, known for its military strength and cultural achievements.. The kingdom of Northumbria reached its height of power in the 7th and 8th centuries, when it was ruled by kings such as Edwin, Oswald, and Osw.
+
+
+
+STEP: 5
+
+ERROR Action not found in None 
+Retrying to get action...
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 5: None
+Action 5: Lookup[dialect of english]
+Observation 5: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 5: None
+Action 5: Lookup[dialect]
+Observation 5: Northumbria was a medieval kingdom in what is now northern England and southeastern Scotland. It was originally formed by the merging of the kingdoms of Bernicia and Deira in the 7th century. Northumbria was a powerful and influential kingdom during the early Middle Ages, known for its military strength and cultural achievements.. The kingdom of Northumbria reached its height of power in the 7th and 8th centuries, when it was ruled by kings such as Edwin, Oswald, and Osw.
+
+
+
+STEP: 6
+
+ERROR Action not found in None 
+Retrying to get action...
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 6: None
+Action 6: Search[Old English dialects]
+Observation 6: Old English (Englisc or Ænglisc, pronounced [ˈeŋɡliʃ] or [ˈæŋɡliʃ]), or Anglo-Saxon,[1] is the earliest recorded form of the English language, spoken in England and southern and eastern Scotland in the Early Middle Ages. It developed from the languages brought to Great Britain by Anglo-Saxon settlers in the mid-5th century, and the first Old English literature dates from the mid-7th century. After the Norman Conquest of 1066, English was replaced for several centuries by Anglo-Norman (a type of French) as the language of the upper classes. This is regarded as marking the end of the Old English era, since during the subsequent period the English language was heavily influenced by Anglo-Norman, developing into what is now known as Middle English in England and Early Scots in Scotland.. Old English developed from a set of Anglo-Frisian or Ingvaeonic dialects originally spoken by Germanic tribes traditionally known as the Angles, Saxons and Jutes.
+
+SIMULATION TRAJECTORY:
+ Thought 6: None
+Action 6: Lookup[dialect]
+Observation 6: Old English dialects were the different forms of the Old English language spoken in various regions of England during the Anglo-Saxon period, from the 5th century to the 11th century. The main dialects of Old English were West Saxon, Mercian, Northumbrian, and Kentish. West Saxon was the dominant dialect and eventually became the standard form of Old English due to the influence of King Alfred the Great. Mercian was spoken in the Midlands, Northumbrian in.
+
+
+
+STEP: 7
+
+ERROR Action not found in None 
+Retrying to get action...
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 7: None
+Action 7: Lookup[dialects]
+Observation 7: (Result 1 / 2) Old English dialects were the different forms of the Old English language spoken in various regions of England during the Anglo-Saxon period, from the 5th century to the 11th century.
+
+SIMULATION TRAJECTORY:
+ Thought 7: None
+Action 7: Lookup[Northumbrian]
+Observation 7: Old English dialects were the different forms of the Old English language spoken in various regions of England during the Anglo-Saxon period, from the 5th century to the 11th century. The main dialects of Old English were West Saxon, Mercian, Northumbrian, and Kentish. West Saxon was the dominant dialect and eventually became the standard form of Old English due to the influence of King Alfred the Great. Mercian was spoken in the Midlands, Northumbrian in.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'Northumbrian', 'question_idx': 316, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 1 
+Number of steps: 7 
+Average reward: 0.14285714285714285 
+Average time 16.886985301971436
+
+-------------------------------------------------------
+

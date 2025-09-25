@@ -1,0 +1,70 @@
+INFO 7356 Question: Who was the writer of the Tamil-language romantic thriller film in which "Pookkalae Sattru Oyivedungal" is a song?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Pookkalae Sattru Oyivedungal]
+Action 1: Search[Pookkalae Sattru Oyivedungal]
+Observation 1: "Pookkalae Sattru Oyivedungal" (transl. Oh flowers... Rest a while) is a romantic Tamil song from the 2015 Tamil film, I. Composed by A. R. Rahman, the song is set in Bilahari Ragam and is sung by Shreya Ghoshal and Haricharan, with lyrics penned by Madhan Karky.[1] The music video of the track features actors Vikram and Amy Jackson.[2] The song was re-dubbed in two other languages.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Pookkalae Sattru Oyivedungal]
+Action 1: Search[Pookkalae Sattru Oyivedungal]
+Observation 1: "Pookkalae Sattru Oyivedungal" is a Tamil song from the 2015 Indian film "I". The song is composed by A.R. Rahman and sung by Haricharan and Shreya Ghoshal. The lyrics are penned by Madhan Karky. The song became popular for its melodious tune and soulful rendition by the singers.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[I (film)]
+Action 2: Search[I (film)]
+Observation 2: I  is the ninth letter of the Latin alphabet.. I or i may also refer to:. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us. HelpLearn to editCommunity portalRecent changesUpload fileSpecial pages. Donate.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[I (film)]
+Action 2: Search[I (film)]
+Observation 2: I is a 2015 Indian Tamil-language film directed by S. Shankar and produced by V. Ravichandran under his production company, Aascar Films. The film stars Vikram in dual roles, along with Amy Jackson and Suresh Gopi in supporting roles. The music for the film was composed by A.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[I (2015 film)]
+Action 3: Search[I (2015 film)]
+Observation 3: I is a 2015 Indian Tamil-language romantic  thriller action film directed and co-written by Shankar, produced and distributed by V. Ravichandran under Aascar Films. The film stars Vikram, Amy Jackson and Suresh Gopi in the lead roles along with Santhanam, Ramkumar Ganesan, Upen Patel, M. Kamaraj and Ojas Rajani in supporting roles. The film, told in nonlinear narrative, tells the story of Lingesan, a bodybuilder-turned-supermodel, who sets out to exact revenge against his enemies after they disfigures him by injecting him with the I virus.[6] Parts of the film were loosely based on The Hunchback of Notre Dame and Beauty and the Beast..
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[writer]
+Action 3: Lookup[writer]
+Observation 3: "I" is a 2015 Indian Tamil-language film directed by S. Shankar and produced by V. Ravichandran under the banner of Aascar Films. The film stars Vikram in the lead role, with Amy Jackson, Suresh Gopi, and Upen Patel in supporting roles. The music for the film was composed by A.
+
+
+
+STEP: 4
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[Shankar]
+Action 4: Finish[Shankar]
+Observation 4: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 4: None
+Action 4: Lookup[writer]
+Observation 4: "I" is a 2015 Indian Tamil-language film directed by S. Shankar and produced by V. Ravichandran under the banner of Aascar Films. The film stars Vikram in the lead role, with Amy Jackson, Suresh Gopi, and Upen Patel in supporting roles. The music for the film was composed by A.
+
+
+
+INFO {'steps': 7, 'answer': 'Shankar', 'gt_answer': 'Shankar', 'question_idx': 4047, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 2 
+Number of steps: 8 
+Average reward: 0.25 
+Average time 16.235523760318756
+
+-------------------------------------------------------
+

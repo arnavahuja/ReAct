@@ -1,0 +1,53 @@
+INFO 7107 Question: Are Stan Lee and Mark Helprin both comic book writers?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Stan Lee]
+Action 1: Search[Stan Lee]
+Observation 1: Stan Lee (born Stanley Martin Lieber[1] /ˈliːbər/; December 28, 1922 – November 12, 2018) was an American comic book writer, editor, publisher and producer. He rose through the ranks of a family-run business called Timely Comics which later became Marvel Comics. He was Marvel's primary creative leader for two decades, expanding it from a small publishing house division to a multimedia corporation that dominated the comics and film industries.. In collaboration with others at Marvel – particularly co-writers and artists Jack Kirby and Steve Ditko – he co-created iconic characters, including Spider-Man, the X-Men, Iron Man, Thor, the Hulk, Ant-Man, the Wasp, the Fantastic Four, Black Panther, Daredevil, Doctor Strange, the Scarlet Witch, and Black Widow. These and other characters' introductions in the 1960s pioneered a more naturalistic approach in superhero comics.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Stan Lee]
+Action 1: Search[Stan Lee]
+Observation 1: **Stanley Martin Lieber** (December 28, 1922 – November 12, 2018), most famously known as **Stan Lee**, was an American comic book writer, editor, publisher, and producer. He was the chairman, as well as an international ambassador, of Marvel Comics.. Lee began his career in the comic book industry in 1939, working as an assistant at Timely Comics, the company that would later become Marvel Comics.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Mark Helprin]
+Action 2: Search[Mark Helprin]
+Observation 2: Mark Helprin (Hebrew: מארק הלפרין; born June 28, 1947) is an American-Israeli novelist, journalist, conservative commentator, Senior Fellow of the Claremont Institute for the Study of Statesmanship and Political Philosophy, Fellow of the American Academy in Rome, and Member of the Council on Foreign Relations. While Helprin's fictional works straddle a number of disparate genres and styles, he has stated that he "belongs to no literary school, movement, tendency, or trend".[1]. Helprin was born in Manhattan, New York City, in 1947. His father, Morris Helprin, worked in the film industry, eventually becoming president of London Films. His mother was actress Eleanor Lynn, who starred in several Broadway productions in the 1930s and 40s.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Mark Helprin]
+Action 2: Search[Mark Helprin]
+Observation 2: Mark Helprin (born June 28, 1947) is an American novelist, short story writer, and journalist. He is known for his lyrical prose, epic scope, and often fantastical elements, frequently exploring themes of love, loss, memory, and the nature of good and evil.. **Early Life and Education:**. Helprin was born in New York City. His father was a lawyer and his mother a writer.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[No]
+Action 3: Finish[No]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[No]
+Action 3: Finish[No]
+Observation 3: Mark Helprin (born June 28, 1947) is an American novelist, short story writer, and journalist. He is known for his lyrical prose, epic scope, and often fantastical elements, frequently exploring themes of love, loss, memory, and the nature of good and evil.. **Early Life and Education:**. Helprin was born in New York City. His father was a lawyer and his mother a writer.
+
+
+
+INFO {'steps': 5, 'answer': 'No', 'gt_answer': 'no', 'question_idx': 6825, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 1 
+Number of steps: 1 
+Average reward: 1.0 
+Average time 6.665633678436279
+
+-------------------------------------------------------
+

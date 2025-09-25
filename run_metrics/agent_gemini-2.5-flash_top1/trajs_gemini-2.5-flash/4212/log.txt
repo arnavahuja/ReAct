@@ -1,0 +1,109 @@
+INFO 4212 Question: What company founded in 1886 has owned the K-Y brand?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[K-Y brand]
+Action 1: Search[K-Y brand]
+Observation 1: Could not find K-Y brand. Similar: ['K-Y Jelly', 'List of electric guitar brands', 'Surgical lubricant', 'Brand', 'List of bicycle brands and manufacturing companies'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[K-Y brand]
+Action 1: Search[K-Y brand]
+Observation 1: **K-Y** is a brand of personal lubricants and related products, primarily known for its water-based lubricants. The brand is owned by Reckitt Benckiser.. **History:**. *   **Origins:** K-Y Jelly was originally developed in 1904 by the pharmaceutical company Johnson & Johnson. It was initially marketed as a surgical lubricant for medical professionals..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[K-Y Jelly]
+Action 2: Search[K-Y Jelly]
+Observation 2: K-Y Jelly (sold as Knect in the United Kingdom) is a water-based, water-soluble personal lubricant, most commonly used as a lubricant for sexual intercourse and masturbation. A variety of different products and formulas are produced under the K-Y banner, some of which are not water-soluble.. Introduced in 1904 by pharmaceutical company and suture manufacturer Van Horn and Sawtell of New York City,[2] and later acquired by Johnson & Johnson, K-Y Jelly's original stated purpose was as a surgical lubricant, and it was often chosen by doctors because of its natural base. The product is now more widely used as a sexual lubricant to supplement the moisture required for performing sexual acts.[3]. Reckitt Benckiser purchased the brand in 2014 and integrated the brand as the sub-brand of Durex.[4].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Johnson & Johnson]
+Action 2: Search[Johnson & Johnson]
+Observation 2: **K-Y Jelly**. K-Y Jelly is a brand of personal lubricant, primarily used to supplement natural lubrication during sexual activity, ease the insertion of medical devices, or for other applications where a non-greasy, water-soluble lubricant is beneficial. It is one of the most widely recognized and commercially successful personal lubricant brands globally.. **History and Development:**. K-Y Jelly was originally developed in 1904 by the pharmaceutical company Johnson & Johnson.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Johnson & Johnson]
+Action 3: Search[Johnson & Johnson]
+Observation 3: Could not find [Johnson & Johnson]. Similar: ['Johnson & Johnson', 'Dwayne Johnson', 'Lyndon B. Johnson', 'Johnson Johnson', 'Johnson'].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Johnson & Johnson]
+Action 3: Search[Johnson & Johnson]
+Observation 3: **Johnson & Johnson** is an American multinational corporation founded in 1886 that develops medical devices, pharmaceuticals, and consumer health products. Its headquarters are located in New Brunswick, New Jersey. The company is consistently ranked among the world's largest and most valuable corporations.. **History:**. *   **Founding (1886):** The company was founded by three brothers: Robert Wood Johnson, James Wood Johnson, and Edward Mead Johnson.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Johnson & Johnson]
+Action 4: Search[Johnson & Johnson]
+Observation 4: Could not find [Johnson & Johnson]. Similar: ['Johnson & Johnson', 'Dwayne Johnson', 'Lyndon B. Johnson', 'Johnson Johnson', 'Johnson'].
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[Johnson & Johnson]
+Action 4: Finish[Johnson & Johnson]
+Observation 4: **Johnson & Johnson** is an American multinational corporation founded in 1886 that develops medical devices, pharmaceuticals, and consumer health products. Its headquarters are located in New Brunswick, New Jersey. The company is consistently ranked among the world's largest and most valuable corporations.. **History:**. *   **Founding:** Johnson & Johnson was founded by three brothers: Robert Wood Johnson I, James Wood Johnson, and Edward Mead Johnson.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[Johnson & Johnson]
+Action 5: Search[Johnson & Johnson]
+Observation 5: Could not find [Johnson & Johnson]. Similar: ['Johnson & Johnson', 'Dwayne Johnson', 'Lyndon B. Johnson', 'Johnson Johnson', 'Johnson'].
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Finish[Johnson & Johnson]
+Action 5: Finish[Johnson & Johnson]
+Observation 5: **Johnson & Johnson** is an American multinational corporation founded in 1886 that develops medical devices, pharmaceuticals, and consumer health products. Its headquarters are located in New Brunswick, New Jersey. The company is consistently ranked among the world's largest and most valuable corporations.. **History:**. *   **Founding (1886):** The company was founded by three brothers: Robert Wood Johnson, James Wood Johnson, and Edward Mead Johnson.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Search[Johnson & Johnson]
+Action 6: Search[Johnson & Johnson]
+Observation 6: Could not find [Johnson & Johnson]. Similar: ['Johnson & Johnson', 'Dwayne Johnson', 'Lyndon B. Johnson', 'Johnson Johnson', 'Johnson'].
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Finish[Johnson & Johnson]
+Action 6: Finish[Johnson & Johnson]
+Observation 6: **Johnson & Johnson** is an American multinational corporation founded in 1886 that develops medical devices, pharmaceuticals, and consumer health products. Its headquarters are located in New Brunswick, New Jersey. The company is consistently ranked among the world's largest and most valuable corporations.. **History:**. *   **Founding:** Johnson & Johnson was founded by three brothers: Robert Wood Johnson, James Wood Johnson, and Edward Mead Johnson.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Search[Johnson & Johnson]
+Action 7: Search[Johnson & Johnson]
+Observation 7: Could not find [Johnson & Johnson]. Similar: ['Johnson & Johnson', 'Dwayne Johnson', 'Lyndon B. Johnson', 'Johnson Johnson', 'Johnson'].
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Finish[Johnson & Johnson]
+Action 7: Finish[Johnson & Johnson]
+Observation 7: **Johnson & Johnson** is an American multinational corporation founded in 1886 that develops medical devices, pharmaceuticals, and consumer health products. Its headquarters are located in New Brunswick, New Jersey. The company is consistently ranked among the world's largest and most valuable corporations.. **History:**. *   **Founding (1886):** The company was founded by three brothers: Robert Wood Johnson, James Wood Johnson, and Edward Mead Johnson.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'Johnson & Johnson', 'question_idx': 1986, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 14 
+Number of steps: 25 
+Average reward: 0.56 
+Average time 11.379642715454102
+
+-------------------------------------------------------
+

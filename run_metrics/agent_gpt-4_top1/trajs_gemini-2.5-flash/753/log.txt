@@ -1,0 +1,67 @@
+INFO 753 Question: Was Lee Grant or Colin Campbell born first?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Lee Grant]
+Action 1: Search[Lee Grant]
+Observation 1: Lee Grant (born Lyova Haskell Rosenthal; October 31, during the mid-1920s)[a] is an American actress, documentarian, and director. In a career spanning over seven decades, she won an Academy Award, two Primetime Emmy Awards, and a Directors Guild of America Award, in addition to nominations for five Golden Globe Awards. She is one of the last surviving actors of the Hollywood blacklist era.. Grant began her career on Broadway, making her debut in Detective Story (1949) as the Shoplifter. She reprised the role in the film adaptation (1951), earning an Academy Award nomination for Best Supporting Actress and winning the Cannes Film Festival Award for Best Actress.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Lee Grant]
+Action 1: Search[Lee Grant]
+Observation 1: **Lee Grant (actress)**. Lee Grant (born Lyova Haskell Rosenthal; October 31, 1925) is an American actress, director, and documentarian. She is known for her extensive career in film, television, and theater, and for her outspoken political activism. Grant's career was significantly impacted by the Hollywood blacklist during the McCarthy era, yet she persevered to become an Academy Award-winning actress and a respected director.. **Early Life and Career.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Colin Campbell]
+Action 2: Search[Colin Campbell]
+Observation 2: Could not find [Colin Campbell]. Similar: ['Lady Colin Campbell', 'Colin Campbell, 1st Baron Clyde', 'Colin Campbell', 'Duke of Argyll (redirect from Earl of Campbell and Cowall)', 'T. Colin Campbell'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Colin Campbell]
+Action 2: Search[Colin Campbell]
+Observation 2: **Colin Campbell** may refer to several notable individuals:. **In Politics and Government:**. *   **Colin Campbell (British politician, born 1853)**: A Scottish Liberal Unionist politician who served as a Member of Parliament (MP) for Glasgow College from 1885 to 1892. He was also a prominent lawyer and a Queen's Counsel.. *   **Colin Campbell (Canadian politician, born 1867)**: A.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Colin Campbell (actor)]
+Action 3: Search[Colin Campbell (actor)]
+Observation 3: Colin Campbell (17 January 1937 – 1 March 2018) was an English actor.. His best-known role was the lead in The Leather Boys in 1964, in which he plays a bored married man who starts hanging out with a biker friend—who, he belatedly realises, is homosexual.[2] Campbell  started off as a child actor, and played John in the 1950s BBC radio Children's Hour adaptation of Worzel Gummidge, and the title role in BBC TV's Huckleberry Finn in 1952.[3][4] His stage work included appearances at the Old Vic and with the RSC.[1][5] He also starred in Nuns on the Run (1990) and made many appearances on British television, including in the role of David Ashton, one of the main characters in the popular ITV drama series A Family At War which was broadcast from 1970 to 1972.[6][7]  Campbell's photograph appears on the cover of the German release of The Smiths' single "Ask"[8][9] and, as his Leather Boys character, on the cover of The Smiths' single "William, It Was Really Nothing" (only CD version)[10] and with co-star Rita Tushingham in the promotional video for "Girlfriend In A Coma".[11]. He died on 1 March 2018, at the age of 81.[1] Campbell's granddaughter is 1990s R&B singer Shola Ama.[12]. This article about an English actor is a stub. You can help Wikipedia by expanding it..
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Colin Campbell (British politician, born 1853)]
+Action 3: Search[Colin Campbell (British politician, born 1853)]
+Observation 3: **Colin Campbell** is an American actor known for his work in film, television, and theatre. He has appeared in a variety of roles, showcasing his versatility and range as a performer.. **Early Life and Education:**. Born in the United States, Campbell developed an early interest in acting. He pursued formal training in the dramatic arts, honing his craft and preparing for a career in entertainment.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[Lee Grant]
+Action 4: Finish[Lee Grant]
+Observation 4: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[born]
+Action 4: Lookup[born]
+Observation 4: **Colin Campbell** is an American actor known for his work in film, television, and theatre. He has appeared in a variety of roles, showcasing his versatility and range as a performer.. **Early Life and Education:**. Born in the United States, Campbell developed an early interest in acting. He pursued formal training in the dramatic arts, honing his craft and preparing for a career in entertainment.
+
+
+
+INFO {'steps': 7, 'answer': 'Lee Grant', 'gt_answer': 'James Colin Campbell', 'question_idx': 7240, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 19 
+Number of steps: 42 
+Average reward: 0.4523809523809524 
+Average time 20.87869535741352
+
+-------------------------------------------------------
+

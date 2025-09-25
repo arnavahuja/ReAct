@@ -1,0 +1,114 @@
+INFO 1477 Question: Harry Emerson Fosdick was called to serve as pastor at a church that opened its doors on what date?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Thought: I should look up Harry Emerson Fosdick to identify the church he was called to pastor and find its opening date.
+Action 1: Search[Harry Emerson Fosdick] 
+        Action 1: Search[Harry Emerson Fosdick]
+        Observation 1: Harry Emerson Fosdick (May 24, 1878 – October 5, 1969) was an American pastor. Fosdick became a central figure in the fundamentalist–modernist controversy within American Protestantism in the 1920s and 1930s and was one of the most prominent liberal ministers of the early 20th century. Although a Baptist, he was called to serve as pastor, in New York City, at First Presbyterian Church in Manhattan's West Village, and then at the historic, inter-denominational Riverside Church in Morningside Heights, Manhattan.[4][5][6]. Born in Buffalo, New York, Fosdick graduated from Colgate University in 1900 and from Union Theological Seminary in 1904. While attending Colgate University he joined the Delta Upsilon fraternity."
+
+SIMULATION TRAJECTORY:
+ Thought 1: Thought: I should first find Harry Emerson Fosdick’s biography to identify the church he was called to pastor (likely Riverside Church) and then locate its opening date.
+
+Action 1: Search[Harry Emerson Fosdick], Search[Riverside Church], Search[Park Avenue Baptist Church] 
+        Action 1: ['Search[Harry Emerson Fosdick]', 'Search[Riverside Church]', 'Search[Park Avenue Baptist Church]']
+        Observation 1: Harry Emerson Fosdick (May 24, 1878 – October 5, 1969) was an influential American Baptist minister and a prominent liberal theologian. He is best known for his leadership as the pastor of the Riverside Church in New York City, where he served from 1926 to 1945, and for his advocacy of modernist theology and social justice issues.. Fosdick was born in Buffalo, New York, and graduated from the University of Rochester in."
+
+
+
+STEP: 2
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+NORMAL TRAJECTORY:
+ Thought 2: Thought: The question likely refers to Riverside Church; I should find its opening date on its page.
+Action 2: Search[Riverside Church] 
+        Action 2: Search[Riverside Church]
+        Observation 2: Riverside Church is an interdenominational church in the Morningside Heights neighborhood of Manhattan in New York City, United States. The church is associated with the American Baptist Churches USA and the United Church of Christ. It was conceived by philanthropist businessman and Baptist John D. Rockefeller Jr. in conjunction with Baptist minister Harry Emerson Fosdick as a large, interdenominational church in Morningside Heights, which is surrounded by academic institutions.."
+
+SIMULATION TRAJECTORY:
+ Thought 2:  
+        Action 2: ['Search[Harry Emerson Fosdick]', 'Search[The Riverside Church]', 'Finish[October 5, 1930]']
+        Observation 2: The Riverside Church is an interdenominational Christian church located in the Morningside Heights neighborhood of Manhattan, New York City. Known for its distinctive Gothic Revival architecture, the church is situated at 490 Riverside Drive, overlooking the Hudson River. It was founded in 1927 through a joint effort by the American Baptist Churches USA and the United Church of Christ, making it a prominent symbol of ecumenical cooperation.. The church's design was conceived by architects Ralph Adams Cram and John Russell."
+
+
+
+STEP: 3
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+NORMAL TRAJECTORY:
+ Thought 3: To find the opening date of Riverside Church, I should look for a sentence mentioning when it "opened."
+Action 3: Lookup[opened] 
+        Action 3: Lookup[opened]
+        Observation 3: No more results.
+"
+
+SIMULATION TRAJECTORY:
+ Thought 3:  
+        Action 3: ['Search[Harry Emerson Fosdick]']
+        Observation 3: The Riverside Church is an interdenominational Christian church located in the Morningside Heights neighborhood of Manhattan, New York City. Known for its distinctive Gothic Revival architecture, the church is situated at 490 Riverside Drive, overlooking the Hudson River. It was founded in 1927 through a joint effort by the American Baptist Churches USA and the United Church of Christ, making it a prominent symbol of ecumenical cooperation.. The church's design was conceived by architects Ralph Adams Cram and John Russell."
+
+
+
+STEP: 4
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+NORMAL TRAJECTORY:
+ Thought 4:  
+        Action 4: Search[Harry Emerson Fosdick]
+        Observation 4: Harry Emerson Fosdick (May 24, 1878 – October 5, 1969) was an American pastor. Fosdick became a central figure in the fundamentalist–modernist controversy within American Protestantism in the 1920s and 1930s and was one of the most prominent liberal ministers of the early 20th century. Although a Baptist, he was called to serve as pastor, in New York City, at First Presbyterian Church in Manhattan's West Village, and then at the historic, inter-denominational Riverside Church in Morningside Heights, Manhattan.[4][5][6]. Born in Buffalo, New York, Fosdick graduated from Colgate University in 1900 and from Union Theological Seminary in 1904. While attending Colgate University he joined the Delta Upsilon fraternity."
+
+SIMULATION TRAJECTORY:
+ Thought 4: Thought: We need the exact opening date of Riverside Church; searching within the current Riverside Church passage for “opened,” “dedicated,” or a month like “October” should reveal it.
+
+Action 4: Lookup[opened], Lookup[dedicated], Lookup[October] 
+        Action 4: ['Lookup[opened]', 'Lookup[dedicated]', 'Lookup[October]']
+        Observation 4: Harry Emerson Fosdick (May 24, 1878 – October 5, 1969) was an influential American Baptist minister, theologian, and a prominent figure in the liberal Protestant movement in the United States. He is best known for his leadership as the pastor of the Riverside Church in New York City, where he served from 1926 to 1946, and for his advocacy of modernist theology and social justice issues.. Fosdick was born in Buffalo, New."
+
+
+
+STEP: 5
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+STEP: 6
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+STEP: 7
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+INFO {'steps': 9, 'answer': '', 'gt_answer': 'October 5, 1930', 'question_idx': 4178, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 0 
+Number of steps: 1 
+Average reward: 0.0 
+Average time 543.4250469207764
+
+--------------------------------------------------
+

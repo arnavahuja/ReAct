@@ -1,0 +1,53 @@
+INFO 5619 Question: Which refers to more breeds, Stabyhoun or Griffon Bruxellois?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Stabyhoun]
+Action 1: Search[Stabyhoun]
+Observation 1: The Stabyhoun, or Stabijhoun or Stabij (in Frisian), is one of the rarest dog breeds in the world.[1][2][3] It hails from the Dutch province of Friesland; its origins lie in the forested region of eastern and southeastern Friesland. The breed has been mentioned in Dutch literature dating back to the early 1800s, but it was not until the 1960s that the breed became known outside its native province; the first Stabyhouns left the Netherlands some decades later, in the 2000s. The name Stabijhoun translates roughly to "stand by [me] dog". The dog is considered a Dutch national treasure. Today, there are only a few thousand Stabyhouns worldwide..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Stabyhoun]
+Action 1: Search[Stabyhoun]
+Observation 1: The Stabyhoun, also known as the Stabij, is a rare breed of dog that originates from the Friesland region of the Netherlands. It is a versatile and intelligent breed that was traditionally used for hunting small game, such as birds and rabbits, as well as for farm work.. Stabyhouns are medium-sized dogs with a distinctive black and white coat that is long and thick. They have a friendly and gentle temperament, making them excellent family pets. Stabyhouns.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Griffon Bruxellois]
+Action 2: Search[Griffon Bruxellois]
+Observation 2: The Griffon Bruxellois or  Brussels Griffon is a breed of toy dog, named for their city of origin of Brussels, Belgium. The Griffon Bruxellois may refer to three different breeds, the Griffon Bruxellois, the Griffon Belge and the Petit Brabançon.[1] Identical in standard except for coat and colour differences, in some standards they are considered varieties of the same breed, much like Belgian Shepherd Dogs.. The three variations of the Griffon Bruxellois, the Brussels Griffon (Griffon Bruxellois), the Belgian Griffon (Griffon Belge), and the Petit Brabançon, all descend from dog called a Smousje, a rough coated, small terrier-like dog kept in stables to eliminate rodents,[1] similar to the Dutch Smoushond. The little coarse-haired dog in the foreground of the Jan van Eyck painting The Arnolfini Marriage is thought to be an early form of this breed. In Belgium, coachmen were fond of their alert little Griffons d'Ecurie (wiry coated stable dogs) and in the 19th century, they bred their Griffons with imported toy dogs.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Griffon Bruxellois]
+Action 2: Search[Griffon Bruxellois]
+Observation 2: The Griffon Bruxellois, also known as the Brussels Griffon, is a small breed of toy dog named after Brussels, Belgium. It is known for its distinctive appearance, with a short, flat face and a rough, wiry coat. The breed comes in two varieties: the rough-coated Griffon Bruxellois and the smooth-coated Griffon Belge.. Griffon Bruxellois dogs are known for their lively and affectionate personalities. They are often described.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Griffon Bruxellois]
+Action 3: Finish[Griffon Bruxellois]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Griffon Bruxellois]
+Action 3: Finish[Griffon Bruxellois]
+Observation 3: The Griffon Bruxellois, also known as the Brussels Griffon, is a small breed of toy dog named after Brussels, Belgium. It is known for its distinctive appearance, with a short, flat face and a rough, wiry coat. The breed comes in two varieties: the rough-coated Griffon Bruxellois and the smooth-coated Griffon Belge.. Griffon Bruxellois dogs are known for their lively and affectionate personalities. They are often described.
+
+
+
+INFO {'steps': 5, 'answer': 'Griffon Bruxellois', 'gt_answer': 'Griffon Bruxellois', 'question_idx': 2397, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 1 
+Number of steps: 1 
+Average reward: 1.0 
+Average time 10.172214984893799
+
+-------------------------------------------------------
+

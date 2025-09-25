@@ -1,0 +1,118 @@
+INFO 373 Question: How many Academy Awards did the film, in which Jimmy Bryant provided the singing voice for the character Tony, win ?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Jimmy Bryant]
+Action 1: Search[Jimmy Bryant]
+Observation 1: Ivy John Bryant Jr. (March 5, 1925 – September 22, 1980), known as Jimmy Bryant, was an American country music guitarist. He is best known for his collaborations with steel guitarist Speedy West and his session work.. Bryant was born in Moultrie, Georgia, the oldest of 12 children. During the Great Depression he played the fiddle on street corners to help support his family..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Jimmy Bryant]
+Action 1: Search[Jimmy Bryant]
+Observation 1: **Jimmy Bryant** (born **James Bryant**; March 1, 1925 – September 22, 1980) was an American jazz and country guitarist, known for his virtuosic and innovative playing style. He was a highly influential musician, particularly in the 1950s and 1960s, and is often cited as one of the pioneers of the "chicken pickin'" guitar technique.. ## Early Life and Career.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Jimmy Bryant singing voice Tony]
+Action 2: Search[Jimmy Bryant singing voice Tony]
+Observation 2: Could not find Jimmy Bryant singing voice Tony. Similar: ['Jimmy Bryant (singer)', 'West Side Story (1961 film)', 'Kobe Bryant', 'List of recurring Saturday Night Live characters and sketches', 'The Sinatra Family Wish You a Merry Christmas'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Jimmy Bryant singing voice Tony]
+Action 2: Search[Jimmy Bryant singing voice Tony]
+Observation 2: Jimmy Bryant, a prominent figure in the world of country music, was renowned for his exceptional guitar playing, but his singing voice, while less frequently highlighted, was an integral part of his musical identity. While not a lead vocalist in the traditional sense for the majority of his career, Bryant's voice was characterized by its **smooth, clear, and often understated quality**.. **Vocal Characteristics:**. *   **Range:** Bryant possessed a comfortable baritone range, capable of navigating melodies with ease.
+
+
+
+STEP: 3
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 3: None
+Action 3: Search[West Side Story (1961 film)]
+Observation 3: West Side Story is a 1961 American musical romantic drama film directed by Robert Wise and Jerome Robbins, written by Ernest Lehman, and produced by Wise. The film is an adaptation of the 1957 Broadway musical of the same title, which in turn was inspired by Shakespeare's play Romeo and Juliet. It stars Natalie Wood, Richard Beymer, Russ Tamblyn, Rita Moreno, and George Chakiris and was photographed by Daniel L. Fapp in Super Panavision 70. The music was composed by Leonard Bernstein, with lyrics by Stephen Sondheim..
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Jimmy Bryant Tony character film]
+Action 3: Search[Jimmy Bryant Tony character film]
+Observation 3: *West Side Story* is a 1961 American musical romantic drama film directed by Robert Wise and Jerome Robbins, and starring Natalie Wood, Richard Beymer, Russ Tamblyn, Rita Moreno, and George Chakiris. The film is an adaptation of the 1957 Broadway musical of the same name, which in turn was inspired by William Shakespeare's play *Romeo and Juliet*.. **Plot:**. The story is set in the Upper West Side of New York City in.
+
+
+
+STEP: 4
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 4: None
+Action 4: Lookup[Tony]
+Observation 4: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[Tony]
+Action 4: Lookup[Tony]
+Observation 4: *West Side Story* is a 1961 American musical romantic drama film directed by Robert Wise and Jerome Robbins, and starring Natalie Wood, Richard Beymer, Russ Tamblyn, Rita Moreno, and George Chakiris. The film is an adaptation of the 1957 Broadway musical of the same name, which in turn was inspired by William Shakespeare's play *Romeo and Juliet*.. **Plot:**. The story is set in the Upper West Side of New York City in.
+
+
+
+STEP: 5
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[West Side Story (1961 film) Jimmy
+Action 5: Search[West Side Story (1961 film) Jimmy
+Observation 5: Invalid action: search[West Side Story (1961 film) Jimmy
+
+SIMULATION TRAJECTORY:
+ Thought 5: None
+Action 5: Lookup[singing voice]
+Observation 5: *West Side Story* is a 1961 American musical romantic drama film directed by Robert Wise and Jerome Robbins, and starring Natalie Wood, Richard Beymer, Russ Tamblyn, Rita Moreno, and George Chakiris. The film is an adaptation of the 1957 Broadway musical of the same name, which in turn was inspired by William Shakespeare's play *Romeo and Juliet*.. **Plot:**. The story is set in the Upper West Side of New York City in.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Search[West Side Story (1961 film) Tony singing voice]
+Action 6: Search[West Side Story (1961 film) Tony singing voice]
+Observation 6: Could not find West Side Story (1961 film) Tony singing voice. Similar: ['West Side Story (1961 film)', 'West Side Story (1961 soundtrack)', 'West Side Story', 'West Side Story (2021 film)', 'Tony Orlando'].
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Lookup[singing voice]
+Action 6: Lookup[singing voice]
+Observation 6: **Tony's Singing Voice in *West Side Story* (1961 film)**. In the 1961 film adaptation of *West Side Story*, the role of Tony was portrayed by Richard Beymer. However, Beymer's singing voice was largely dubbed by **Jimmy Bryant**.. While Richard Beymer was a capable actor, the filmmakers, in pursuit of the highest vocal quality for the demanding musical numbers, opted to use a professional singer for Tony's songs..
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Search[West Side Story (1961 film)]
+Action 7: Search[West Side Story (1961 film)]
+Observation 7: West Side Story is a 1961 American musical romantic drama film directed by Robert Wise and Jerome Robbins, written by Ernest Lehman, and produced by Wise. The film is an adaptation of the 1957 Broadway musical of the same title, which in turn was inspired by Shakespeare's play Romeo and Juliet. It stars Natalie Wood, Richard Beymer, Russ Tamblyn, Rita Moreno, and George Chakiris and was photographed by Daniel L. Fapp in Super Panavision 70. The music was composed by Leonard Bernstein, with lyrics by Stephen Sondheim..
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Search[West Side Story (1961 film)]
+Action 7: Search[West Side Story (1961 film)]
+Observation 7: {{Short description|1961 American musical romantic drama film}}. {{Use mdy dates|from=September 2022}}. {{About|the 1961 film|the 2021 film|West Side Story (2021 film)}}. {{Multiple issues|. {{Refimprove|date=September 2022}}.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': '10', 'question_idx': 2243, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 1 
+Number of steps: 3 
+Average reward: 0.3333333333333333 
+Average time 16.51249361038208
+
+-------------------------------------------------------
+

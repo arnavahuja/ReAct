@@ -1,0 +1,112 @@
+INFO 199 Question:  Steven S. Crompton is a Canadian-born artist known as the artist for a a fantasy role-playing game designed by Ken St. Andre and first published by who?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Steven S. Crompton]
+Action 1: Search[Steven S. Crompton]
+Observation 1: Steven S. Crompton is a Canadian-born artist, author and designer who has worked in the role-playing and comic genres since 1981. In the gaming industry he is best known as the artist for the Grimtooth's Traps books as well as other Catalyst role-playing game supplements, Tunnels & Trolls and the Nuclear War card game.[1]. Steven Crompton went to Arizona State University art college for two years,[2] the Scottsdale Community College,[citation needed] and the Vo-Tech Commercial Art School.[citation needed]. Starting in 1981, Steve Crompton worked as staff illustrator for Flying Buffalo Inc., and did the art and designed some of the traps in Grimtooth's Traps.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Ken St. Andre]
+Action 1: Search[Ken St. Andre]
+Observation 1: I'm sorry, but I couldn't find specific information about Steven S. Crompton in a Wikipedia-style format. However, Steven S. Crompton is a talented artist and illustrator known for his work in the gaming and fantasy genre. He has contributed artwork to various role-playing games, card games, and other fantasy-related projects.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Ken St. Andre]
+Action 2: Search[Ken St. Andre]
+Observation 2: Kenneth Eugene St. Andre (born April 28, 1947[1]) is an American fantasy game designer and author, best known for creating the fantasy role-playing game, Tunnels & Trolls (T&T), and the computer role-playing game, Wasteland.. In 1975, St. Andre wrote rules for a fantasy role-playing game he called Tunnels & Trolls (T&T) as a rebellion against the recently published Dungeons & Dragons which he felt was heavily dependent on the use of miniatures, with which he had no experience.[2]  In the following decades he published several editions of, and adventures for, T&T, including rules and adventures for a monsters-as-heroes variation named Monsters! Monsters! (M!M!).. St.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Ken St. Andre]
+Action 2: Search[Ken St. Andre]
+Observation 2: Ken St. Andre is an American game designer and writer, best known for creating the popular role-playing game Tunnels & Trolls. He was born on April 28, 1947, in Chicago, Illinois. St. Andre began developing Tunnels & Trolls in the early 1970s as an alternative to the more complex and rules-heavy Dungeons & Dragons.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Tunnels & Trolls]
+Action 3: Search[Tunnels & Trolls]
+Observation 3: A tunnel is an underground or undersea passageway. It is dug through surrounding soil, earth or rock, or laid under water, and is usually completely enclosed except for the two portals common at each end, though there may be access and ventilation openings at various points along the length. A pipeline differs significantly from a tunnel,[1][clarification needed] though some recent tunnels have used immersed tube construction techniques rather than traditional tunnel boring methods.[2]. A tunnel may be for foot or vehicular road traffic, for rail traffic, or for a canal. The central portions of a rapid transit network are usually in the tunnel.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Tunnels & Trolls]
+Action 3: Search[Tunnels & Trolls]
+Observation 3: Tunnels & Trolls (abbreviated T&T) is a fantasy role-playing game designed by Ken St. Andre and first published in 1975. It is one of the earliest fantasy role-playing games and is known for its simplicity and focus on storytelling and player creativity. In Tunnels & Trolls, players create characters with various attributes and skills and embark on adventures in a fantasy world filled with monsters, treasures, and challenges. The game uses a simple and fast-paced system of gameplay.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Tunnels & Trolls (game)]
+Action 4: Search[Tunnels & Trolls (game)]
+Observation 4: A tunnel is an underground or undersea passageway. It is dug through surrounding soil, earth or rock, or laid under water, and is usually completely enclosed except for the two portals common at each end, though there may be access and ventilation openings at various points along the length. A pipeline differs significantly from a tunnel,[1][clarification needed] though some recent tunnels have used immersed tube construction techniques rather than traditional tunnel boring methods.[2]. A tunnel may be for foot or vehicular road traffic, for rail traffic, or for a canal. The central portions of a rapid transit network are usually in the tunnel.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[published by]
+Action 4: Lookup[published by]
+Observation 4: Tunnels & Trolls (abbreviated T&T) is a fantasy role-playing game designed by Ken St. Andre and first published in 1975. It is one of the earliest fantasy role-playing games and is known for its simplicity and focus on storytelling. Tunnels & Trolls uses a unique system where players only need six-sided dice (d6) to play, making it accessible to a wide audience.. In Tunnels & Trolls, players create characters with various attributes and.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[Tunnels & Trolls role-playing game]
+Action 5: Search[Tunnels & Trolls role-playing game]
+Observation 5: A tunnel is an underground or undersea passageway. It is dug through surrounding soil, earth or rock, or laid under water, and is usually completely enclosed except for the two portals common at each end, though there may be access and ventilation openings at various points along the length. A pipeline differs significantly from a tunnel,[1][clarification needed] though some recent tunnels have used immersed tube construction techniques rather than traditional tunnel boring methods.[2]. A tunnel may be for foot or vehicular road traffic, for rail traffic, or for a canal. The central portions of a rapid transit network are usually in the tunnel.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Lookup[published by]
+Action 5: Lookup[published by]
+Observation 5: Tunnels & Trolls (abbreviated T&T) is a fantasy role-playing game designed by Ken St. Andre and first published in 1975. It is one of the earliest fantasy role-playing games and is known for its simple and accessible ruleset, making it popular among both novice and experienced gamers. Tunnels & Trolls is set in a fantasy world filled with monsters, magic, and treasure, where players take on the roles of adventurers exploring dungeons and completing quests. The game.
+
+
+
+STEP: 6
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Search[Tunnels & Trolls publisher]
+Action 6: Search[Tunnels & Trolls publisher]
+Observation 6: A tunnel is an underground or undersea passageway. It is dug through surrounding soil, earth or rock, or laid under water, and is usually completely enclosed except for the two portals common at each end, though there may be access and ventilation openings at various points along the length. A pipeline differs significantly from a tunnel,[1][clarification needed] though some recent tunnels have used immersed tube construction techniques rather than traditional tunnel boring methods.[2]. A tunnel may be for foot or vehicular road traffic, for rail traffic, or for a canal. The central portions of a rapid transit network are usually in the tunnel.
+
+SIMULATION TRAJECTORY:
+ Thought 6: None
+Action 6: Lookup[first published]
+Observation 6: Tunnels & Trolls is a fantasy role-playing game designed by Ken St. Andre and first published in 1975. The game is notable for being the second modern role-playing game ever published, following Dungeons & Dragons. Tunnels & Trolls is known for its simple and accessible rules, making it popular among both experienced and novice players. The game has been published by a variety of companies over the years, including Flying Buffalo Inc., who currently holds the rights to the game..
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Search[Tunnels & Trolls (role-playing game)]
+Action 7: Search[Tunnels & Trolls (role-playing game)]
+Observation 7: A tunnel is an underground or undersea passageway. It is dug through surrounding soil, earth or rock, or laid under water, and is usually completely enclosed except for the two portals common at each end, though there may be access and ventilation openings at various points along the length. A pipeline differs significantly from a tunnel,[1][clarification needed] though some recent tunnels have used immersed tube construction techniques rather than traditional tunnel boring methods.[2]. A tunnel may be for foot or vehicular road traffic, for rail traffic, or for a canal. The central portions of a rapid transit network are usually in the tunnel.
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Finish[Flying Buffalo Inc.]
+Action 7: Finish[Flying Buffalo Inc.]
+Observation 7: Tunnels & Trolls (abbreviated T&T) is a fantasy role-playing game designed by Ken St. Andre and first published in 1975. It is one of the earliest fantasy role-playing games and is known for its simplicity and humor. Tunnels & Trolls uses a simple and fast-paced system that emphasizes storytelling and player creativity. Players create characters by rolling attributes and selecting a class, such as warrior, wizard, or rogue.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'Flying Buffalo', 'question_idx': 6475, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 6 
+Number of steps: 17 
+Average reward: 0.35294117647058826 
+Average time 18.098607119391946
+
+-------------------------------------------------------
+

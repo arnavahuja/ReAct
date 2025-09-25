@@ -1,0 +1,67 @@
+INFO 3908 Question: The debut album came out in 1988 but what year did the song "She's My Baby" come out in?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search["She's My Baby"]
+Action 1: Search["She's My Baby"]
+Observation 1: Could not find ["She's My Baby"]. Similar: ['Bracket', "She's My Baby (Wings song)", "She's My Baby (Traveling Wilburys song)", "She's My Baby (film)", "She's My Baby"].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search["She's My Baby"]
+Action 1: Search["She's My Baby"]
+Observation 1: {{Infobox song. | Name = She's My Baby. | Artist = [[Traveling Wilburys]]. | Album = [[Traveling Wilburys Vol. 3]].
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search["She's My Baby (Wings song)"]
+Action 2: Search["She's My Baby (Wings song)"]
+Observation 2: "She's My Baby" is a song credited to Paul and Linda McCartney that was first released by Wings on their 1976 album Wings at the Speed of Sound. It is a love song sung by Paul directed at Linda. Critical opinion of the song has ranged from a description as Paul McCartney's "sweetest, daftest love song" to a suggestion that it deserves an "honor for sheer awfulness." In 1998, after Linda's death, Paul McCartney rearranged the song for string quartet to be played at memorial concerts for his late wife. This version was included on the 1999 album Working Classical.. "She's My Baby" is a love song inspired by Linda.[1][2]  Paul McCartney sings the lead vocal.[1]  In each of the verses, the song describes characteristics of the singer's "baby."[2]  Some of these have been criticized as being trite; for example, the woman is described as gravy to be mopped up by the singer:[2].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Traveling Wilburys Vol. 3]
+Action 2: Search[Traveling Wilburys Vol. 3]
+Observation 2: **She's My Baby** is a song by the British–American rock band Wings, released on their 1976 album, *Wings at the Speed of Sound*. Written by Paul McCartney, the song is a straightforward rock and roll number, characteristic of the band's more accessible and commercially oriented sound during this period.. **Background and Recording:**. *She's My Baby* was recorded during the sessions for *Wings at the Speed of Sound*, primarily at Abbey Road.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search["She's My Baby (Traveling Wilburys song)"]
+Action 3: Search["She's My Baby (Traveling Wilburys song)"]
+Observation 3: "She's My Baby" is a song by the British–American supergroup the Traveling Wilburys and the opening track of their 1990 album Traveling Wilburys Vol. 3. The song was written by all four members of the band – George Harrison, Jeff Lynne, Bob Dylan and Tom Petty – and each of them sing a portion of the track. The song was released as the first single from the album, although it was only issued as a promotional single in the United States.[4] The lead guitar part is played by Gary Moore.. The band filmed a music video for the single, which was directed by David Leland and produced by Limelight Films.[5] The clip shows the four Wilburys and drummer Jim Keltner performing the track and a snippet of Dylan riding a bike on the set.[6] The single peaked at number 2 on the Billboard Album Rock Tracks chart peaking there for three weeks behind "Concrete and Steel" by ZZ Top for a week, followed by "Hard to Handle" by the Black Crowes for two additional weeks.[7].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search["She's My Baby (Traveling Wilburys song)"]
+Action 3: Search["She's My Baby (Traveling Wilburys song)"]
+Observation 3: **"She's My Baby"** is a song by the supergroup Traveling Wilburys, released in 1990 on their second and final studio album, *Traveling Wilburys Vol. 3*. It is the opening track on the album.. **Background and Recording:**. Following the death of Roy Orbison in December 1988, the remaining four members of the Traveling Wilburys – George Harrison, Jeff Lynne, Tom Petty, and Bob Dylan – decided to.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[1990]
+Action 4: Finish[1990]
+Observation 4: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[1990]
+Action 4: Finish[1990]
+Observation 4: **"She's My Baby"** is a song by the supergroup Traveling Wilburys, released in 1990 on their second and final studio album, *Traveling Wilburys Vol. 3*. It is the opening track on the album.. **Background and Recording:**. Following the death of Roy Orbison in December 1988, the remaining four members of the Traveling Wilburys – George Harrison, Jeff Lynne, Tom Petty, and Bob Dylan – decided to.
+
+
+
+INFO {'steps': 7, 'answer': '1990', 'gt_answer': '1990', 'question_idx': 4845, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 13 
+Number of steps: 25 
+Average reward: 0.52 
+Average time 29.468330678939818
+
+-------------------------------------------------------
+

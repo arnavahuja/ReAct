@@ -1,0 +1,53 @@
+INFO 1715 Question: In whose government did the original owner of Heythrop Park come to prominence?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Heythrop Park]
+Action 1: Search[Heythrop Park]
+Observation 1: Heythrop Park is a Grade II* listed early 18th-century country house 1 mile (1.6 km) southeast of Heythrop in Oxfordshire. It was designed by the architect Thomas Archer in the Baroque style for Charles Talbot, 1st Duke of Shrewsbury. A fire in 1831 destroyed the original interior. From 1922 until 1970 Heythrop housed first a Jesuit tertiary education college, and later a training establishment. The house is now the main building of the Heythrop Park Hotel, Golf & Country Club..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Heythrop Park]
+Action 1: Search[Heythrop Park]
+Observation 1: **Heythrop Park** is a Grade II* listed early 18th-century country house and estate located in Heythrop, West Oxfordshire, England. It is situated approximately 13 miles (21 km) northeast of Oxford and 6 miles (9.7 km) east of Chipping Norton.. ### History. **Early History and Construction:**. The estate at Heythrop was acquired by Charles Talbot, 1st Duke of Shrewsbury, in 1697..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Charles Talbot, 1st Duke of Shrewsbury]
+Action 2: Search[Charles Talbot, 1st Duke of Shrewsbury]
+Observation 2: Charles Talbot, 1st Duke of Shrewsbury (15 July 1660 – 1 February 1718) was a British Whig statesman who was part of the Immortal Seven group that invited William of Orange to depose King James II of England during the Glorious Revolution.. Born to Roman Catholic parents, he remained in that faith until 1679 when—during the time of the Popish Plot and following the advice of the divine John Tillotson—he converted to the Church of England.[1] He was appointed to several minor roles before the revolution, but came to prominence as a member of William's government, under whom he served as Secretary of State in the 1690s.. From 1700 until 1705, Shrewsbury was in self-imposed exile abroad, during which he married Countess Adelhida Paleotti. After his return to England he avoided politics until April 1710, when he was appointed Lord Chamberlain and joined the Tory government of Robert Harley, the Earl of Oxford. In November 1712 he was appointed ambassador to France and then Lord Lieutenant of Ireland, returning to England in June 1714.[1].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Charles Talbot, 1st Duke of Shrewsbury]
+Action 2: Search[Charles Talbot, 1st Duke of Shrewsbury]
+Observation 2: **Charles Talbot, 1st Duke of Shrewsbury**. **Charles Talbot, 1st Duke of Shrewsbury, KG, PC** (15 July 1660 – 1 February 1718) was an English politician who was a key figure in the Glorious Revolution and held various high offices of state, including Secretary of State and Lord Treasurer. He was a prominent Whig, though his political allegiances sometimes shifted, and he was known for his diplomatic skills and.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[William's government]
+Action 3: Finish[William's government]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[government]
+Action 3: Lookup[government]
+Observation 3: **Charles Talbot, 1st Duke of Shrewsbury**. **Charles Talbot, 1st Duke of Shrewsbury, KG, PC** (15 July 1660 – 1 February 1718) was an English politician who was a key figure in the Glorious Revolution and held various high offices of state, including Secretary of State and Lord Treasurer. He was a prominent Whig, though his political allegiances sometimes shifted, and he was known for his diplomatic skills and.
+
+
+
+INFO {'steps': 5, 'answer': "William's government", 'gt_answer': "William's", 'question_idx': 2883, 'reward': False, 'em': False, 'f1': 0.6666666666666666}
+
+INFO Sum of rewards: 8 
+Number of steps: 14 
+Average reward: 0.5714285714285714 
+Average time 11.915828210966927
+
+-------------------------------------------------------
+

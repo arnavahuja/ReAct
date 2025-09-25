@@ -1,0 +1,109 @@
+INFO 4164 Question: The Detroit mayoral elections of 2009 took place to fill the vacancy created by a politician who was sentenced to what?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Detroit mayoral elections of 2009]
+Action 1: Search[Detroit mayoral elections of 2009]
+Observation 1: Could not find Detroit mayoral elections of 2009. Similar: ['2009 Detroit mayoral election', '2025 Detroit mayoral election', '2009 Detroit mayoral special election', 'List of mayors of Detroit', '1945 Detroit mayoral election'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Detroit mayoral elections of 2009]
+Action 1: Search[Detroit mayoral elections of 2009]
+Observation 1: The **2009 Detroit mayoral election** took place on November 3, 2009, to elect the Mayor of Detroit, Michigan. The election was officially nonpartisan, meaning candidates were not listed with a party affiliation on the ballot.. **Background:**. The election was held in the wake of the resignation of Mayor Kwame Kilpatrick in September 2008 due to a felony conviction. Kenneth Cockrel Jr., then president of the Detroit City Council, served as.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[2009 Detroit mayoral election]
+Action 2: Search[2009 Detroit mayoral election]
+Observation 2: The 2009 Detroit mayoral election took place on November 3, 2009, following a primary on August 12, 2009. Incumbent Mayor Dave Bing, who was elected Mayor in a May special election, ran for a full term. Bing placed first in the primary by a wide margin, winning 74 percent of the vote. Accoutant Tom Barrow, a 1989 candidate for Mayor, narrowly beat out business consultant Jerroll Sanders for second place, 11–10 percent, and advanced to the general election against Bing. Despite Bing's landslide victory in the primary, he defeated Barrow in the general election by a considerably reduced margin, winning 56 percent of the vote to Barrow's 41 percent.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Kwame Kilpatrick]
+Action 2: Search[Kwame Kilpatrick]
+Observation 2: The **2009 Detroit mayoral election** took place on November 3, 2009, to elect the Mayor of Detroit, Michigan. The election was officially nonpartisan, with a primary election held on August 4, 2009, to narrow the field of candidates to two.. ### Background. The election was held in the wake of the resignation of Mayor Kwame Kilpatrick in September 2008 due to a felony conviction. Ken Cockrel Jr.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Lookup[sentenced]
+Action 3: Lookup[sentenced]
+Observation 3: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Kwame Kilpatrick]
+Action 3: Search[Kwame Kilpatrick]
+Observation 3: The **2009 Detroit mayoral election** took place on November 3, 2009, to elect the Mayor of Detroit, Michigan. The election was officially nonpartisan, with a primary election held on August 4, 2009, to narrow the field of candidates to two.. ### Background. The election was held in the wake of the resignation of Mayor Kwame Kilpatrick in September 2008 due to a felony conviction. Ken Cockrel Jr.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Mayor of Detroit before 2009]
+Action 4: Search[Mayor of Detroit before 2009]
+Observation 4: Could not find Mayor of Detroit before 2009. Similar: ['List of mayors of Detroit', '2009 Detroit mayoral election', '2009 Detroit mayoral special election', 'Detroit', 'History of Detroit'].
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[Kwame Kilpatrick]
+Action 4: Search[Kwame Kilpatrick]
+Observation 4: The following is a list of individuals who served as Mayor of Detroit before 2009.. **Mayors of Detroit (Pre-2009)**. | **No.** | **Image** | **Mayor** | **Term Start** | **Term End** | **Party** | **Notes** |. |---|---|---|---|---|---|---|. | 1 | | **Solomon Sibley** | 1806 | 1806 |.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[List of mayors of Detroit]
+Action 5: Search[List of mayors of Detroit]
+Observation 5: This is a list of mayors of Detroit, in the U.S. state of Michigan. The current mayor is Mike Duggan,[1] who was sworn into office on January 1, 2014.. During the earliest part of its history, Detroit was a military outpost, and executive authority was wielded by first French, then British military commandants. Soon after the Detroit area was taken over by American forces, civil authority became more prominent, and executive authority was placed in the hands of a series of appointed officials, elected boards, and elected officials.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Lookup[2009]
+Action 5: Lookup[2009]
+Observation 5: The following is a list of individuals who have served as Mayor of the City of Detroit, Michigan. The office of Mayor of Detroit is the chief executive officer of the city and is responsible for the administration of the city government.. **Current Mayor:**. *   **Mike Duggan** (Democrat) - January 1, 2014 – Present. **Past Mayors:**.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Lookup[2009]
+Action 6: Lookup[2009]
+Observation 6: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Lookup[Mayors in 2009]
+Action 6: Lookup[Mayors in 2009]
+Observation 6: The following is a list of individuals who have served as Mayor of the City of Detroit, Michigan. The office of Mayor of Detroit is the chief executive officer of the city and is responsible for the administration of the city government.. **Current Mayor:**. *   **Mike Duggan** (Democrat) - January 1, 2014 – Present. **Past Mayors:**.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Search[Mayor of Detroit before Dave Bing]
+Action 7: Search[Mayor of Detroit before Dave Bing]
+Observation 7: Could not find Mayor of Detroit before Dave Bing. Similar: ['Dave Bing', 'List of mayors of Detroit', '2009 Detroit mayoral election', '2009 Detroit mayoral special election', '2013 Detroit mayoral election'].
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Lookup[Bing]
+Action 7: Lookup[Bing]
+Observation 7: Kenneth Vern "Ken" Cockrel Jr. (born October 29, 1965) is an American politician from Michigan. He served as interim mayor of Detroit from September 19, 2008, to December 31, 2008.. **Early life and education**. Cockrel was born in Detroit, Michigan, to Kenneth Cockrel Sr.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'four months in jail', 'question_idx': 484, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 0 
+Number of steps: 1 
+Average reward: 0.0 
+Average time 41.647178173065186
+
+-------------------------------------------------------
+

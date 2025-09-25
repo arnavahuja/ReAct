@@ -1,0 +1,109 @@
+INFO 4948 Question: What award did the actor in Tales from the Crypt win?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Tales from the Crypt]
+Action 1: Search[Tales from the Crypt]
+Observation 1: Could not find [Tales from the Crypt]. Similar: ['Tales from the Crypt (film)', 'Tales from the Crypt (TV series)', 'Tales from the Crypt (comics)', 'List of Tales from the Crypt episodes', 'Demon Knight (redirect from Tales from the Crypt Presents Demon Knight)'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Tales from the Crypt]
+Action 1: Search[Tales from the Crypt]
+Observation 1: "Tales from the Crypt" is a horror anthology television series that aired from 1989 to 1996. The show was based on the EC Comics series of the same name created by William Gaines. Each episode featured a different story of horror, suspense, or dark humor, often with a twist ending. The Crypt Keeper, a puppet skeleton, served as the host of the show, introducing each episode with macabre humor. "Tales from the Crypt" was known for its graphic violence.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Tales from the Crypt (TV series)]
+Action 2: Search[Tales from the Crypt (TV series)]
+Observation 2: Tales from the Crypt, sometimes titled HBO's Tales from the Crypt, is an American horror anthology television series created by William Gaines and Steven Dodd that ran for seven seasons on the premium cable channel HBO, from June 10, 1989, to July 19, 1996, with a total of 93 episodes. The show's title is based on the 1950s EC Comics series of the same name, published by William Gaines and edited by Al Feldstein. Despite the show's title, episodes were not only adapted from stories from  Tales from the Crypt, but also other EC Comic series including The Haunt of Fear, The Vault of Horror, Crime SuspenStories, Shock SuspenStories, and Two-Fisted Tales.. The series is hosted by the Cryptkeeper, a wisecracking corpse performed by several puppeteers and voiced by John Kassir. Filmmakers Richard Donner, David Giler, Walter Hill, Joel Silver, and Robert Zemeckis formed the show's team of executive producers..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[actor]
+Action 2: Lookup[actor]
+Observation 2: "Tales from the Crypt" is an American horror anthology television series that aired from 1989 to 1996 on the premium cable network HBO. The show was based on the EC Comics series of the same name created by William Gaines. Each episode featured a different story of horror, suspense, or dark humor, often with a twist ending. The series was known for its host, the Crypt Keeper, a wisecracking skeleton who introduced each episode with pun-filled jokes. "Tales from.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[John Kassir]
+Action 3: Search[John Kassir]
+Observation 3: John Kassir (born October 24, 1957)[1] is an American actor and comedian. He is known for his work as the voice of the Cryptkeeper in HBO's Tales from the Crypt franchise.[2] He also appeared in the role of Ralph in the off-Broadway show Reefer Madness and its 2005 film adaptation. He is also the first voice actor to take over Disney comics character Scrooge McDuck following the death of Alan Young.. John Kassir was born on October 24, 1957, in Baltimore, Maryland,[1] to an Iraqi father from Mosul and a Syrian mother from Mardin, present-day Turkey.[3] He is of Assyrian descent.[4]. As a child, he often did impressions in school and was described as a "class clown".
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[actor]
+Action 3: Lookup[actor]
+Observation 3: John Kassir is an American actor and voice actor known for his work in film, television, and video games. He was born on October 24, 1957, in Baltimore, Maryland. Kassir is best known for providing the voice of the Crypt Keeper in the horror anthology series "Tales from the Crypt." He has also lent his voice to numerous animated characters in shows such as "The Looney Tunes Show" and "Rocket Power." In addition to his voice work.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Lookup[award]
+Action 4: Lookup[award]
+Observation 4: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[award]
+Action 4: Lookup[award]
+Observation 4: John Kassir is an American actor and voice actor known for his work in film, television, and video games. He was born on October 24, 1957, in Baltimore, Maryland. Kassir is best known for providing the voice of the Crypt Keeper in the horror anthology series "Tales from the Crypt." He has also lent his voice to numerous animated characters in shows such as "The Looney Tunes Show" and "Rocket Power." In addition to his voice work.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[John Kassir awards]
+Action 5: Search[John Kassir awards]
+Observation 5: Could not find John Kassir awards. Similar: ['John Kassir', 'Tales from the Crypt (TV series) (section Awards)', 'John (given name)', 'Kung Fu Panda: Legends of Awesomeness season 1', 'Reefer Madness: The Movie Musical'].
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Lookup[award]
+Action 5: Lookup[award]
+Observation 5: John Kassir is an American actor and voice actor known for his work in film, television, and video games. He is best known for providing the voice of the Crypt Keeper in the horror anthology series "Tales from the Crypt." Kassir has received critical acclaim for his voice acting work and has been nominated for several awards, including a Daytime Emmy Award for Outstanding Performer in an Animated Program for his role in "Rocket Power." Additionally, he has won a BTVA Voice Acting.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Search[Tales from the Crypt (TV series) (section Awards)]
+Action 6: Search[Tales from the Crypt (TV series) (section Awards)]
+Observation 6: Could not find Tales from the Crypt (TV series) (section Awards). Similar: ['Tales from the Darkside', 'Wild Tales (film)', 'Ian Hendry (category Alumni of the Royal Central School of Speech and Drama)', 'Grizzly Tales for Gruesome Kids (TV series)', 'Esai Morales (category Short description is different from Wikidata)'].
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Finish[BTVA Voice Acting Award and a nomination for a Daytime Emmy Award for Outstanding Performer in an Animated Program]
+Action 6: Finish[BTVA Voice Acting Award and a nomination for a Daytime Emmy Award for Outstanding Performer in an Animated Program]
+Observation 6: The TV series "Tales from the Crypt" received critical acclaim during its run and was nominated for several awards. It won the Saturn Award for Best Genre Television Series in 1994 and 1996. Additionally, the show received nominations for Primetime Emmy Awards, CableACE Awards, and Golden Reel Awards. The series is well-regarded for its unique blend of horror, comedy, and suspense, and has maintained a dedicated fan base since its original airing from 1989 to 199.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Finish[No available information]
+Action 7: Finish[No available information]
+Observation 7: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Finish[Saturn Award for Best Genre Television Series]
+Action 7: Finish[Saturn Award for Best Genre Television Series]
+Observation 7: The TV series "Tales from the Crypt" received critical acclaim during its run and was nominated for several awards. It won the Saturn Award for Best Genre Television Series in 1994 and 1996. Additionally, the show received nominations for Primetime Emmy Awards, CableACE Awards, and Golden Reel Awards. The series is well-regarded for its unique blend of horror, comedy, and suspense, and has maintained a dedicated fan base since its original airing from 1989 to 199.
+
+
+
+INFO {'steps': 13, 'answer': 'No available information', 'gt_answer': 'BAFTA TV Award Best Actor', 'question_idx': 1402, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 9 
+Number of steps: 19 
+Average reward: 0.47368421052631576 
+Average time 32.58482027053833
+
+-------------------------------------------------------
+

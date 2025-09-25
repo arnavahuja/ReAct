@@ -1,0 +1,67 @@
+INFO 6157 Question: What program did this Basham brother who appeared with World Wrestling Entertainment between 2002 and 2007 participated in 2007?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Basham brother World Wrestling Entertainment 2002-2007]
+Action 1: Search[Basham brother World Wrestling Entertainment 2002-2007]
+Observation 1: Could not find Basham brother World Wrestling Entertainment 2002-2007. Similar: ['Basham Brothers', 'Doug Basham', 'Daniel Hollie (redirect from Danny Basham)', 'WrestleMania XX', 'WrestleMania 21'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Basham brother WWE]
+Action 1: Search[Basham brother WWE]
+Observation 1: The Basham Brothers were a professional wrestling tag team consisting of Doug Basham and Danny Basham. They are best known for their time in World Wrestling Entertainment (WWE) from 2002 to 2007.. **Formation and Early Career (2002-2003):**. Doug and Danny Basham, who are not actually brothers in real life, were brought together in WWE's developmental territory, Ohio Valley Wrestling (OVW), in.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Basham Brothers]
+Action 2: Search[Basham Brothers]
+Observation 2: The Basham Brothers were a professional wrestling tag team, composed of Doug Basham and Danny Basham. The team is best known for their tenures in World Wrestling Entertainment (WWE) and Total Nonstop Action Wrestling (TNA).. The Basham Brothers initially began working as a team in Ohio Valley Wrestling (OVW), where they were known as Doug Basham and Damaja respectively. On February 6, 2002, they defeated Nick Dinsmore and Rob Conway in an Iron Man match to win the OVW Southern Tag Team Championship.[2] Following a 99-day reign, they lost the championship to Dinsmore and Conway on May 17.[2] In August, they reached the final of the Russ Haas Memorial Cup, but lost to Nova and RC Haas. They spent the remainder of the year and early 2003 feuding with one another, until reuniting in March to take on Bradshaw and Dinsmore.[3].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[2007]
+Action 2: Lookup[2007]
+Observation 2: The Basham Brothers were a professional wrestling tag team consisting of **Doug Basham** (born Douglas Dale Basham Jr.) and **Danny Basham** (born Daniel R. Holly). They were primarily known for their work in World Wrestling Entertainment (WWE) in the early 2000s, where they were part of the stable known as The Cabinet.. **Members:**. *   **Doug Basham:** The more experienced of the two, Doug Basham had a background in.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Doug Basham]
+Action 3: Search[Doug Basham]
+Observation 3: Lyle Douglas Basham Jr. (born May 12, 1971) is an American retired professional wrestler. He is best known for his tenures in  World Wrestling Entertainment (WWE) between 2002 and 2007, and in Total Nonstop Action Wrestling under the ring name Basham in 2007.. Basham made his debut in 1993, wrestling in Indiana and for independent promotions in Kentucky. In 1994, he wrestled for the United States Wrestling Association located in Tennessee.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Doug Basham]
+Action 3: Search[Doug Basham]
+Observation 3: **Douglas Dale Basham Jr.** (born May 26, 1971) is an American professional wrestler, better known by his ring name, **Doug Basham**. He is best known for his appearances with World Wrestling Entertainment (WWE) and Total Nonstop Action Wrestling (TNA).. ## Professional Wrestling Career. ### Early Career (1993-2002). Basham began his professional wrestling career in 1993, primarily competing on.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[Total Nonstop Action Wrestling]
+Action 4: Finish[Total Nonstop Action Wrestling]
+Observation 4: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[2007]
+Action 4: Lookup[2007]
+Observation 4: **Douglas Dale Basham Jr.** (born May 26, 1971) is an American professional wrestler, better known by his ring name, **Doug Basham**. He is best known for his appearances with World Wrestling Entertainment (WWE) and Total Nonstop Action Wrestling (TNA).. ## Professional Wrestling Career. ### Early Career (1993-2002). Basham began his professional wrestling career in 1993, primarily competing on.
+
+
+
+INFO {'steps': 7, 'answer': 'Total Nonstop Action Wrestling', 'gt_answer': 'Total Nonstop Action Wrestling', 'question_idx': 6166, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 15 
+Number of steps: 26 
+Average reward: 0.5769230769230769 
+Average time 11.420466624773466
+
+-------------------------------------------------------
+

@@ -1,0 +1,53 @@
+INFO 2465 Question: The Black Belly of the Tarantula starred an actress who married what former member of the Beatles?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[The Black Belly of the Tarantula]
+Action 1: Search[The Black Belly of the Tarantula]
+Observation 1: Could not find The Black Belly of the Tarantula. Similar: ['Black Belly of the Tarantula', 'Barbara Bach (category Wives of the Beatles)', 'Claudine Auger (category French National Academy of Dramatic Arts alumni)', 'Barbara Bouchet', 'Eleonora Giorgi (category Italian people of Hungarian descent)'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[The Black Belly of the Tarantula]
+Action 1: Search[The Black Belly of the Tarantula]
+Observation 1: {{Infobox film. | name = The Black Belly of the Tarantula. | image = Black Belly of the Tarantula.jpg. | caption = Original Italian theatrical poster. | director = Paolo Cavara.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Barbara Bach]
+Action 2: Search[Barbara Bach]
+Observation 2: Barbara Bach, Lady Starkey (née Goldbach; August 27, 1946[1]) is an American actress and former model. She played the Bond girl Anya Amasova in The Spy Who Loved Me. She is married to former Beatles drummer Ringo Starr.. Bach was born Barbara Goldbach in New York City to Marjorie (née McKnight) and Howard Goldbach.[2][3] Her father was Jewish and of Austrian-Jewish descent, while her mother was a Catholic of Irish descent;[3][4][5] Bach and her siblings were raised in their mother's Catholic faith.[3][6] Her father, who had recently retired from the United States Military at the time of her birth, worked as a police officer for the New York City Police Department.[3]. She was raised in Rosedale, Queens, and graduated from Dominican Commercial High School, an all-girls school, in 1964.[7] The following year, she shortened her surname to Bach and began modeling professionally, appearing in catalogs and fashion magazines..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[actress]
+Action 2: Lookup[actress]
+Observation 2: **Barbara Bach** (born Barbara Goldbach; August 27, 1947) is an American actress and model. She is best known for her role as the Bond girl Anya Amasova in the 1977 James Bond film *The Spy Who Loved Me*. She is also the wife of former Beatles drummer Ringo Starr.. **Early Life and Career:**. Barbara Bach was born in Queens, New York, to a Jewish father and an Irish Catholic mother.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Ringo Starr]
+Action 3: Finish[Ringo Starr]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Ringo Starr]
+Action 3: Finish[Ringo Starr]
+Observation 3: **Barbara Bach** (born Barbara Goldbach; August 27, 1947) is an American actress and model. She is best known for her role as the Bond girl Anya Amasova in the 1977 James Bond film *The Spy Who Loved Me*. She is also the wife of former Beatles drummer Ringo Starr.. **Early Life and Career:**. Barbara Bach was born in Queens, New York, to a Jewish father and an Irish Catholic mother.
+
+
+
+INFO {'steps': 5, 'answer': 'Ringo Starr', 'gt_answer': 'Ringo Starr', 'question_idx': 861, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 15 
+Number of steps: 36 
+Average reward: 0.4166666666666667 
+Average time 21.43695902824402
+
+-------------------------------------------------------
+

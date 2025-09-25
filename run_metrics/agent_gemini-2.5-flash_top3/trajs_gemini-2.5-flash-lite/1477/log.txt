@@ -1,0 +1,92 @@
+INFO 1477 Question: When was the seven-time World and Olympic medalist on which "Foxcatcher" was based born?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to find out the person "Foxcatcher" was based on and then find their birth date.
+Action 1: Search[Foxcatcher] 
+        Action 1: Search[Foxcatcher]
+        Observation 1: Foxcatcher is a 2014 American biographical thriller-sports film. produced and directed by Bennett Miller. Written by E. Max Frye and Dan Futterman, the film stars Steve Carell, Channing Tatum, and Mark Ruffalo. The film's plot is loosely based on the events surrounding multimillionaire E.I."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to find the person "Foxcatcher" was based on, then find their birth date.
+Action 1: Search[Foxcatcher] 
+        Action 1: ['Search[Foxcatcher]']
+        Observation 1: **Foxcatcher** is a 2014 American biographical drama film directed by Bennett Miller, based on the true story of the relationship between the wealthy DuPont family heir John du Pont and Olympic wrestling champion Mark Schultz. The film explores themes of obsession, class, and the dark side of the American dream.. **Plot:**. The film begins with Mark Schultz (Channing Tatum), a struggling Olympic gold medalist in wrestling, seeking purpose and financial stability after his competitive career. He is invited by."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The passage says the film's plot is "loosely based on the events surrounding multimillionaire E.I.". This doesn't directly tell me about a seven-time World and Olympic medalist. I need to find who the film is actually based on. I should lookup to find more info about the plot to find the medalist.
+Action 2: Lookup[based on] 
+        Action 2: Lookup[based on]
+        Observation 2: (Result 1 / 1) **Foxcatcher** is a 2014 American biographical drama film directed by Bennett Miller, based on the true story of the relationship between the wealthy DuPont family heir John du Pont and Olympic wrestling champion Mark Schultz."
+
+SIMULATION TRAJECTORY:
+ Thought 2: The film is based on John du Pont and Olympic wrestling champion Mark Schultz. The question asks about a "seven-time World and Olympic medalist". I need to identify which of the two fits this description, and then find their birthdate. Mark Schultz seems more likely to be a medalist.
+Action 2: [Search[Mark Schultz], Search[John du Pont], Lookup[seven-time World and Olympic medalist]] 
+        Action 2: ['Search[Mark Schultz]', 'Search[John du Pont]', 'Lookup[seven-time World and Olympic medalist]']
+        Observation 2: **Foxcatcher** is a 2014 American biographical drama film directed by Bennett Miller, based on the true story of the relationship between the wealthy DuPont family heir John du Pont and Olympic wrestling champion Mark Schultz. The film explores themes of obsession, class, and the dark side of the American dream.. **Plot:**. The film begins with Mark Schultz (Channing Tatum), a struggling Olympic gold medalist in wrestling, seeking purpose and financial stability after his competitive career. He is invited by."
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: The film is based on the relationship between John du Pont and Olympic wrestling champion Mark Schultz. The question states that the person on which "Foxcatcher" was based was a seven-time World and Olympic medalist. This strongly suggests Mark Schultz. I need to search for Mark Schultz to find his birth date.
+Action 3: Search[Mark Schultz] 
+        Action 3: Search[Mark Schultz]
+        Observation 3: Could not find [Mark Schultz]. Similar: ['Mark Schultz (wrestler)', 'Howard Schultz', 'Mark Schultz', 'Foxcatcher (section Reaction from Mark Schultz)', 'Dave Schultz (amateur wrestler)']."
+
+SIMULATION TRAJECTORY:
+ Thought 3: The film is based on the true story of the relationship between John du Pont and Olympic wrestling champion Mark Schultz. I need to find the birth date of Mark Schultz since he is an Olympic medalist.
+Action 3: [Search[Mark Schultz], Lookup[Olympic wrestling champion], Search[John du Pont]] 
+        Action 3: ['Search[Mark Schultz]', 'Search[John du Pont]', 'Lookup[Olympic wrestling champion]']
+        Observation 3: **Mark Schultz** is an American wrestler and Olympic gold medalist.. Born on July 26, 1960, in Palo Alto, California, Schultz was a highly successful collegiate wrestler for the University of Oklahoma. He won NCAA championships in 1982 and 1983.. Schultz's international career was highlighted by his gold medal victory in freestyle wrestling at the 1984 Summer Olympics in Los Angeles. He competed in the 74."
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Given the similar entities, I need to specifically look for Mark Schultz (wrestler) to ensure I find the correct individual.
+Action 4: Search[Mark Schultz (wrestler)] 
+        Action 4: Search[Mark Schultz (wrestler)]
+        Observation 4: Mark Philip Schultz (born October 26, 1960). Mark is an Olympic Champion American freestyle wrestler. Schultz was a 3-time NCAA champion, Olympic champion and 2-time World champion. In 1995, Schultz was inducted into the National Wrestling Hall of Fame as a Distinguished Member.[1] He is also in the San Jose Sports Hall of Fame, the California Wrestling Hall of Fame, and the San Mateo Peninsula Sports Hall of Fame.. He and his older brother, wrestler Dave Schultz, both won gold medals in wrestling in the same Olympics (1984)."
+
+SIMULATION TRAJECTORY:
+ Thought 4: The question is asking for the birth date of the seven-time World and Olympic medalist that "Foxcatcher" was based on. I have identified Mark Schultz as that person and the Observation states he was "Born on July 26, 1960".
+Action 4: Finish[July 26, 1960], Search[Mark Schultz birth date], Lookup[born] 
+        Action 4: ['Search[Mark Schultz birth date]', 'Lookup[born]', 'Finish[July 26, 1960]']
+        Observation 4: Mark Schultz (born October 26, 1960) is an American retired freestyle wrestler and Olympic gold medalist. He is also a two-time NCAA champion and a two-time World Champion.. **Early Life and Education:**. Schultz was born in Palo Alto, California. He attended Brigham Young University (BYU) where he competed in wrestling."
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: The question asks for the birth date of the seven-time World and Olympic medalist on which "Foxcatcher" was based. Mark Schultz (wrestler) fits this description, and his birth date is provided as October 26, 1960.
+Action 5: Finish[October 26, 1960] 
+        Action 5: Finish[October 26, 1960]
+        Observation 5: Episode finished, reward = 0
+"
+
+SIMULATION TRAJECTORY:
+ Thought 5: Mark Schultz was born on October 26, 1960. He is an Olympic gold medalist and a two-time World Champion. The question asks for the birth date of the seven-time World and Olympic medalist on which 'Foxcatcher' was based. So the answer is October 26, 1960.
+Action 5: [Finish[October 26, 1960], Lookup[born], Search[Mark Schultz birth date]] 
+        Action 5: ['Search[Mark Schultz birth date]', 'Lookup[born]', 'Finish[October 26, 1960]']
+        Observation 5: Mark Schultz (born October 26, 1960) is an American retired freestyle wrestler and Olympic gold medalist. He is also a two-time NCAA champion and a two-time World Champion.. **Early Life and Education:**. Schultz was born in Palo Alto, California. He attended Brigham Young University (BYU) where he competed in wrestling."
+
+
+
+INFO {'steps': 9, 'answer': 'October 26, 1960', 'gt_answer': 'June 6, 1959', 'question_idx': 659, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 4 
+Number of steps: 11 
+Average reward: 0.36363636363636365 
+Average time 10.415380369533192
+
+--------------------------------------------------
+

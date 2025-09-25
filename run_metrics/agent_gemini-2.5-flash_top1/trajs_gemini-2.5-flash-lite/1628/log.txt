@@ -1,0 +1,53 @@
+INFO 1628 Question: What theory was advanced by the author of Progress in Optics?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Progress in Optics]
+Action 1: Search[Progress in Optics]
+Observation 1: Progress in Optics are a series of books published by Elsevier. Edited by Emil Wolf until his death in 2018, the series is now edited by Taco D. Visser.[1] They consist of collections of already published review articles deemed to be representative of the advances made in the fields of optics.. The series was established in 1962.. This article about a physics-related book is a stub.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Progress in Optics]
+Action 1: Search[Progress in Optics]
+Observation 1: **Progress in Optics** is a renowned **serial publication** that has been a cornerstone in the field of optics for decades. It is dedicated to providing comprehensive and up-to-date reviews of significant advancements and emerging trends in all branches of optics.. **Scope and Content:**. The journal covers a vast spectrum of optical science and technology, including but not limited to:. *   **Classical Optics:** Wave optics, geometrical optics, polarization, interference, diffraction..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Emil Wolf]
+Action 2: Search[Emil Wolf]
+Observation 2: Emil Wolf (July 30, 1922 – June 2, 2018)[1] was a Czech-born American physicist who made advancements in physical optics, including diffraction, coherence properties of optical fields, spectroscopy of partially coherent radiation, and the theory of direct scattering and inverse scattering. He was also the author of numerous other contributions to optics.. Wolf was born into a Jewish family in Prague, Czechoslovakia.[2] He was forced to leave his native country when the Germans invaded.[3] After brief periods in Italy and France (where he worked for the Czech government in exile), he moved to the United Kingdom in 1940. He received his B.Sc. in Mathematics and Physics (1945), and Ph.D.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[author]
+Action 2: Lookup[author]
+Observation 2: Emil Wolf (1925 – 2018) was a Czech-born American physicist who made significant contributions to the field of optics. He is best known for his work on the theory of partial coherence and its applications, particularly in the development of the Wolf effect, which describes the relationship between the coherence properties of light and its spatial distribution.. Born in Prague, Czechoslovakia, Wolf emigrated to the United States in 1955. He held academic positions at the University.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[the theory of direct and inverse scattering]
+Action 3: Finish[the theory of direct and inverse scattering]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[partial coherence]
+Action 3: Finish[partial coherence]
+Observation 3: Emil Wolf (1925 – 2018) was a Czech-born American physicist who made significant contributions to the field of optics. He is best known for his work on the theory of partial coherence and its applications, particularly in the development of the Wolf effect, which describes the relationship between the coherence properties of light and its spatial distribution.. Born in Prague, Czechoslovakia, Wolf emigrated to the United States in 1955. He held academic positions at the University.
+
+
+
+INFO {'steps': 5, 'answer': 'the theory of direct and inverse scattering', 'gt_answer': 'theory of direct scattering and inverse scattering', 'question_idx': 877, 'reward': False, 'em': False, 'f1': 0.923076923076923}
+
+INFO Sum of rewards: 15 
+Number of steps: 35 
+Average reward: 0.42857142857142855 
+Average time 12.038881036213466
+
+-------------------------------------------------------
+

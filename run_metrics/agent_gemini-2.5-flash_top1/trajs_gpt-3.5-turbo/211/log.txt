@@ -1,0 +1,56 @@
+INFO 211 Question: Follow the Yellow Brick Road Tour is taking place to commemorate the album that was recorded where?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Follow the Yellow Brick Road Tour]
+Action 1: Search[Follow the Yellow Brick Road Tour]
+Observation 1: Follow the Yellow Brick Road Tour was a concert tour by British musician Elton John in North America and Europe in promotion of the 40th anniversary re-release of 1973's Goodbye Yellow Brick Road.[1][2]. The tour to support the 40th anniversary re-release of 1973's Goodbye Yellow Brick Road started on 12 March 2014 in Beaumont, Texas and ended in December 2014 in New York City.[3]. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us. HelpLearn to editCommunity portalRecent changesUpload fileSpecial pages. Donate.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Follow the Yellow Brick Road Tour]
+Action 1: Search[Follow the Yellow Brick Road Tour]
+Observation 1: I'm sorry, but I cannot provide verbatim text from Wikipedia. Would you like a summary or key points about the "Follow the Yellow Brick Road Tour" instead?.
+
+
+
+STEP: 2
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Goodbye Yellow Brick Road]
+Action 2: Search[Goodbye Yellow Brick Road]
+Observation 2: Goodbye Yellow Brick Road is the seventh studio album by British singer, pianist, and composer Elton John. A double album, it was released on 5 October 1973, by DJM Records. Recorded at the Château d'Hérouville in France, the album became a double LP once John and his band became inspired by the locale.[3] Among the 17 tracks, the album contains the hits "Candle in the Wind", US number-one single "Bennie and the Jets", "Goodbye Yellow Brick Road", and "Saturday Night's Alright for Fighting", along with the live favourites "Funeral for a Friend/Love Lies Bleeding" and "All the Girls Love Alice".. The album was a strong commercial success, reaching number one on the Billboard Top LPs & Tape chart, as well as also topping album charts in the UK, Australia and Canada; it has since sold more than 20 million copies worldwide and is widely regarded as John's magnum opus.[4][5] It was inducted into the Grammy Hall of Fame in 2003,[6] and continues to be highly regarded in various rankings. It was ranked number 112 on Rolling Stone's 2020 list of the "500 Greatest Albums of All Time".
+
+SIMULATION TRAJECTORY:
+ Thought 2: None
+Action 2: Search[Follow the Yellow Brick Road Tour]
+Observation 2: "Goodbye Yellow Brick Road" is the seventh studio album by English singer-songwriter Elton John, released in 1973. The album features hit songs such as "Candle in the Wind," "Bennie and the Jets," and the title track "Goodbye Yellow Brick Road." It is considered one of John's best albums and has been certified multi-platinum in several countries. The album's lyrics were written by Bernie Taupin, John's longtime collaborator, and the music.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Château d'Hérouville in France]
+Action 3: Finish[Château d'Hérouville in France]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[recorded]
+Action 3: Lookup[recorded]
+Observation 3: "Goodbye Yellow Brick Road" is the seventh studio album by English singer-songwriter Elton John, released in 1973. The album features hit songs such as "Candle in the Wind," "Bennie and the Jets," and the title track "Goodbye Yellow Brick Road." It is considered one of John's best albums and has been certified multi-platinum in several countries. The album's lyrics were written by Bernie Taupin, John's longtime collaborator, and the music.
+
+
+
+INFO {'steps': 5, 'answer': "Château d'Hérouville in France", 'gt_answer': "Château d'Hérouville", 'question_idx': 3274, 'reward': False, 'em': False, 'f1': 0.6666666666666666}
+
+INFO Sum of rewards: 13 
+Number of steps: 31 
+Average reward: 0.41935483870967744 
+Average time 16.68168770882391
+
+-------------------------------------------------------
+

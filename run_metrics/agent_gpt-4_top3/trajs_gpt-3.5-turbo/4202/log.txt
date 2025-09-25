@@ -1,0 +1,93 @@
+INFO 4202 Question: Produce 101, which produced I.O.I, cost the company Mnet how much to produce?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: To find out the cost of production for the company Mnet for Produce 101, I need to first search for Produce 101 and find information on its production costs.
+Action 1: [Search[Produce 101]] 
+        Action 1: Search[Produce 101]
+        Observation 1: Produce 101 (Korean: 프로듀스 101) is a reality television talent competition franchise created by South Korean entertainment conglomerate CJ E&M, based around the formation of a K-pop girl group or boy group. The format is noted for having no panel of judges, employing audience participation to make decisions, as well as for starting with a very large number of competitors, 101, narrowing that number down to the final 11. The franchise began in 2016 and has since expanded to China, Japan and Thailand.. The franchise has attracted a wide following in the world. More than 10 million people cast votes during the finale of Season 2 in 2017, equivalent to a fifth of South Korea's population.[1] In 2018, the eight episodes of Produce 101 China attracted more than 4.3 billion views on Tencent Video.[2]."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to search Produce 101, and find out how much it cost Mnet to produce this.
+Action 1: Search[Produce 101], Lookup[Mnet], Search[I.O.I] 
+        Action 1: ['Search[Produce 101]', 'Search[I.O.I]', 'Lookup[Mnet]']
+        Observation 1: "Produce 101" was a South Korean reality television show that aired from January 22 to April 1, 2016. The show was created by CJ E&M and produced by Mnet. It aimed to form a boy group by selecting members from a pool of 101 trainees from various entertainment companies. The trainees competed in various challenges and were evaluated by both the audience and a panel of experts. The final group, named "Wanna One," consisted of 11 members."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The first search returned a detailed description of the show but did not provide any information regarding the production costs. The next logical step would be to lookup "cost" or "production cost".
+Action 2: [Lookup[cost]] 
+        Action 2: Lookup[cost]
+        Observation 2: No more results.
+"
+
+SIMULATION TRAJECTORY:
+ Thought 2: The information about the production cost of "Produce 101" is not in the text. I need to look for more specific information such as "cost" or "budget".
+Action 2: [Lookup[cost], Lookup[budget], Lookup[production]] 
+        Action 2: ['Lookup[cost]', 'Lookup[budget]', 'Lookup[production]']
+        Observation 2: "Produce 101" was a South Korean reality television show that aired from January 22 to April 1, 2016. The show was created by CJ E&M and produced by Mnet. It aimed to form a boy group by selecting members from a pool of 101 trainees from various entertainment companies. The trainees competed in various challenges and were evaluated by both the audience and a panel of experts. The final group, named "Wanna One," consisted of 11 members."
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Information about the production cost of Produce 101 is not found in the available data. I will need to conduct further search to find this information.
+Action 3: [Search[Produce 101 production cost]] 
+        Action 3: Search[Produce 101 production cost]
+        Observation 3: Could not find Produce 101 production cost. Similar: ['Produce 101 season 1', 'Hydrogen production', 'Cost of electricity by source', 'IMX-101', 'Biofuel (section Extent of production and use)']."
+
+SIMULATION TRAJECTORY:
+ Thought 3: The current observation does not provide any detail on the cost of producing the show. I should continue looking for this information or look for a different information source.
+Action 3: [Lookup[production cost], Lookup[Mnet], Search[Produce 101 production cost]] 
+        Action 3: ['Search[Produce 101 production cost]', 'Lookup[production cost]', 'Lookup[Mnet]']
+        Observation 3: Produce 101 is a South Korean reality television show that aired from 2016 to 2019. The production cost of the show has not been publicly disclosed. However, it is known that the show was produced by CJ E&M, a major entertainment company in South Korea. The show featured trainees from various entertainment companies competing to debut in a project group. The success of Produce 101 led to the creation of several spin-off series and groups such as I.O.I, Wanna One,."
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Unfortunately, the direct search for the production cost of Produce 101 did not yield any results. As a next step, I can search related topics expecting to find some information around the production costs.
+Action 4: [Search[Produce 101 season 1]] 
+        Action 4: Search[Produce 101 season 1]
+        Observation 4: Produce 101 (Korean: 프로듀스 101) is a reality competition show created by Mnet. It premiered on January 22, 2016, at 22:00 KST and aired every Friday.[1]. It is the first season of the South Korean version of the franchise of the same name. The second season premiered on April 7, 2017, this time featuring all male contestants.. Produce 101 was a large-scale girl group unit project produced by CJ ENM and Signal Entertainment Group for Mnet."
+
+SIMULATION TRAJECTORY:
+ Thought 4: The information searched up till now has failed to provide the production cost of Produce 101. The final Observation mentioned that the show was produced by CJ E&M, a major entertainment company in South Korea. I may need to focus on looking up financial records or annual statements of this company in order to find an answer. Unfortunately, there is no guarantee that such specific information would be available or if it is, it may not be publicly disclosed.
+Action 4: [Search[CJ E&M], Lookup[production], Search[Produce 101 budget]] 
+        Action 4: ['Search[CJ E&M]', 'Search[Produce 101 budget]', 'Lookup[production]']
+        Observation 4: "Produce 101 Season 1" was a South Korean reality survival show that aired from January 22 to April 1, 2016. The show was produced by Mnet and featured 101 trainees from various entertainment companies competing to debut in a project group. The final 11 members of the group, known as I.O.I, were chosen by audience votes. The show was a major success and gained a large following both in South Korea and internationally.."
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: The information about the cost of producing Produce 101 is still not available. The next logical step would be to Finish with an unknown response. 
+Action 5: [Finish[Unknown]] 
+        Action 5: Finish[Unknown]
+        Observation 5: Episode finished, reward = 0
+"
+
+SIMULATION TRAJECTORY:
+ Thought 5: The information about the production cost of Produce 101 is still not found. I have not explored all possible options yet. Next, I could try to directly search for the production budget of the show, lookup additional information in the current passage, or search for the company Mnet.
+Action 5: [Search[Produce 101 production budget], Lookup[Mnet], Search[Mnet]] 
+        Action 5: ['Search[Produce 101 production budget]', 'Search[Mnet]', 'Lookup[Mnet]']
+        Observation 5: "Produce 101 Season 1" was a South Korean reality survival show that aired from January 22 to April 1, 2016. The show was produced by Mnet and featured 101 trainees from various entertainment companies competing to debut in a project group. The final 11 members of the group, known as I.O.I, were chosen by audience votes. The show was a major success and gained a large following both in South Korea and internationally.."
+
+
+
+INFO {'steps': 9, 'answer': 'Unknown', 'gt_answer': 'about four billion won', 'question_idx': 3140, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 2 
+Number of steps: 6 
+Average reward: 0.3333333333333333 
+Average time 37.90752096970876
+
+--------------------------------------------------
+

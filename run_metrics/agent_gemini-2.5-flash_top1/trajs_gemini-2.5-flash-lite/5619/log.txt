@@ -1,0 +1,53 @@
+INFO 5619 Question: What kind of music do The Stone Roses and The Lemonheads play?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[The Stone Roses]
+Action 1: Search[The Stone Roses]
+Observation 1: The Stone Roses were an English rock band formed in Manchester in 1983. They were one of the pioneering groups of the Madchester movement in the late 1980s and early 1990s. The band's classic and most prominent lineup consisted of vocalist Ian Brown, guitarist John Squire, bassist Gary "Mani" Mounfield, and drummer Alan "Reni" Wren.. The Stone Roses released their eponymous debut album in 1989. The album was a breakthrough success for the band, receiving widespread critical acclaim, and is regarded by many as one of the greatest British albums ever recorded.[a] Following this success, the band sought to capitalize on their newfound fame by signing with a major label.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[The Stone Roses]
+Action 1: Search[The Stone Roses]
+Observation 1: The Stone Roses were an English rock band formed in Manchester in 1983. The band's most famous lineup consisted of vocalist Ian Brown, guitarist John Squire, bassist Mani, and drummer Reni.. **Formation and Early Years:**. The Stone Roses formed in 1983, initially with Ian Brown and John Squire as the core members. They went through several lineup changes before settling on the classic quartet.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[The Lemonheads]
+Action 2: Search[The Lemonheads]
+Observation 2: The Lemonheads are an American alternative rock band formed in Boston in 1986 by Evan Dando, Ben Deily, and Jesse Peretz. Dando has remained the band's only constant member.[1] After their initial punk-influenced releases and tours as an independent/college rock band in the late 1980s, the Lemonheads' popularity with a mass audience grew in 1992 with the major label album It's a Shame about Ray,[1] which was produced, engineered, and mixed by the Robb Brothers (Bruce Robb, Dee, and Joe). This was followed by a cover of Simon and Garfunkel's "Mrs. Robinson", which eventually became one of the band's most successful singles. The Lemonheads were active until 1997 before going on hiatus, but reformed with a new lineup in 2005 and released The Lemonheads the following year.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[The Lemonheads]
+Action 2: Search[The Lemonheads]
+Observation 2: The Lemonheads are an American alternative rock band formed in Boston, Massachusetts, in 1986. The band's lineup has been fluid throughout its history, with lead singer and guitarist Evan Dando being the only constant member.. **Formation and Early Years:**. The Lemonheads were formed by Evan Dando, Ben Deily, and Jesse Peretz. Their early sound was characterized by a blend of punk rock and folk influences, with Dando's distinctive vocal style and intros.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Rock music]
+Action 3: Finish[Rock music]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Rock, Alternative Rock]
+Action 3: Finish[Rock, Alternative Rock]
+Observation 3: The Lemonheads are an American alternative rock band formed in Boston, Massachusetts, in 1986. The band's lineup has been fluid throughout its history, with lead singer and guitarist Evan Dando being the only constant member.. **Formation and Early Years:**. The Lemonheads were formed by Evan Dando, Ben Deily, and Jesse Peretz. Their early sound was characterized by a blend of punk rock and folk influences, with Dando's distinctive vocal style and intros.
+
+
+
+INFO {'steps': 5, 'answer': 'Rock music', 'gt_answer': 'rock band', 'question_idx': 4918, 'reward': False, 'em': False, 'f1': 0.5}
+
+INFO Sum of rewards: 1 
+Number of steps: 2 
+Average reward: 0.5 
+Average time 6.542904496192932
+
+-------------------------------------------------------
+

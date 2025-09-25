@@ -1,0 +1,60 @@
+INFO 2316 Question: Who has won more Grand Slam women's doubles titles, Lisa Raymond or Liezel Huber?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to find the number of Grand Slam women's doubles titles for both Lisa Raymond and Liezel Huber, and then compare them.
+Action 1: [Search[Lisa Raymond]] 
+        Action 1: Search[Lisa Raymond]
+        Observation 1: Lisa Raymond (born August 10, 1973) is an American former professional tennis player who has achieved notable success in doubles tennis. Raymond has eleven major titles to her name: six in women's doubles and five in mixed doubles. On June 12, 2000, she reached the world No. 1 ranking in doubles for the first time, becoming the 13th player to reach the milestone. Raymond was ranked No."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to find the number of Grand Slam women's doubles titles for both Lisa Raymond and Liezel Huber, and then compare them. I'll start by searching for Lisa Raymond.
+Action 1: Search[Lisa Raymond], Search[Lisa Raymond tennis], Lookup[Grand Slam women's doubles titles] 
+        Action 1: ['Search[Lisa Raymond]', 'Search[Lisa Raymond tennis]', "Lookup[Grand Slam women's doubles titles]"]
+        Observation 1: **Lisa Raymond** (born August 10, 1973) is an American former professional tennis player. She was primarily a doubles specialist, achieving considerable success in women's doubles and mixed doubles throughout her career.. **Early Life and Junior Career:**. Born in Norristown, Pennsylvania, Raymond began playing tennis at a young age. She had a successful junior career, showcasing her talent early on."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Lisa Raymond has 6 Grand Slam women's doubles titles. Now I need to find the number of Grand Slam women's doubles titles for Liezel Huber.
+Action 2: [Search[Liezel Huber]] 
+        Action 2: Search[Liezel Huber]
+        Observation 2: Liezel Huber (née Horn; born 21 August 1976) is a South African-American retired tennis player who represented the United States internationally since August 2007. Huber has won four Grand Slam titles in women's doubles with partner Cara Black, one with Lisa Raymond, and two mixed doubles titles with Bob Bryan. On 12 November 2007, she became the co-world No. 1 in doubles with Cara Black. On 19 April 2010, Huber became the sole No."
+
+SIMULATION TRAJECTORY:
+ Thought 2: I need to find the number of Grand Slam women's doubles titles for Lisa Raymond. I will look for any mentions related to Grand Slam titles in the provided text, and if not present, I will perform another search.
+Action 2: [Lookup[Grand Slam women's doubles titles], Search[Lisa Raymond Grand Slam doubles titles], Search[Lisa Raymond statistics]] 
+        Action 2: ['Search[Lisa Raymond Grand Slam doubles titles]', 'Search[Lisa Raymond statistics]', "Lookup[Grand Slam women's doubles titles]"]
+        Observation 2: **Liezel Huber** (née Horn; born 21 August 1976) is a former professional tennis player who represented the United States, having previously represented her native South Africa. She is primarily known for her success in doubles, where she achieved a career-high ranking of world No. 1.. **Early Life and Career:**. Born in Pietermaritzburg, South Africa, Liezel Horn began playing tennis at a young age."
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Liezel Huber has won 4 Grand Slam titles in women's doubles with Cara Black, and one with Lisa Raymond. So in total she has 5 Grand Slam women's doubles titles. Lisa Raymond has 6, and Liezel Huber has 5. So Lisa Raymond has won more.
+Action 3: [Finish[Lisa Raymond]] 
+        Action 3: Finish[Lisa Raymond]
+        Observation 3: Episode finished, reward = 0
+"
+
+SIMULATION TRAJECTORY:
+ Thought 3: The initial search for Liezel Huber does not explicitly state her number of Grand Slam women's doubles titles. I need to look for that information.
+Action 3: [Lookup[Grand Slam women's doubles titles], Lookup[doubles], Lookup[major titles]] 
+        Action 3: ["Lookup[Grand Slam women's doubles titles]", 'Lookup[doubles]', 'Lookup[major titles]']
+        Observation 3: **Liezel Huber** (née Horn; born 21 August 1976) is a former professional tennis player who represented the United States, having previously represented her native South Africa. She is primarily known for her success in doubles, where she achieved a career-high ranking of world No. 1.. **Early Life and Career:**. Born in Pietermaritzburg, South Africa, Liezel Horn began playing tennis at a young age."
+
+
+
+INFO {'steps': 5, 'answer': 'Lisa Raymond', 'gt_answer': 'Liezel Huber', 'question_idx': 696, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 1 
+Number of steps: 7 
+Average reward: 0.14285714285714285 
+Average time 17.56537859780448
+
+--------------------------------------------------
+

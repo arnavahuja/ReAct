@@ -1,0 +1,39 @@
+INFO 2195 Question: What facility is shared by RAAF Base Williamtown and Newcastle Airport in New South Wales?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[RAAF Base Williamtown]
+Action 1: Search[RAAF Base Williamtown]
+Observation 1: RAAF Base Williamtown (IATA: NTL, ICAO: YWLM) is a Royal Australian Air Force (RAAF) military air base located 8 nautical miles (15 km; 9.2 mi) north of Newcastle (27 km (17 mi) by road) in the local government area of Port Stephens, in New South Wales, Australia.[1] The base serves as the headquarters to both the Air Combat Group and the Surveillance and Response Group of the RAAF. The nearest towns are Raymond Terrace, located 8 km (5 mi) west of the base and Medowie, 6.8 km (4.2 mi), north of the base, which is home to many of the base's staff.. The base operates a single runway which is shared with the Newcastle Airport under a lease agreement where the Department of Defence leases rights to use the runway to Williamtown Airport.[2] A number of the buildings and other facilities on the base are listed on the Commonwealth Heritage List.[3]. RAAF Station Williamtown was established on 15 February 1941 to provide protection for the strategic port and steel manufacturing facilities in Newcastle.[4] The base originally had four runways, each 1,100 m (3,600 ft) in length to meet the needs of the Williamtown Flying School. The school consisted of 62 buildings which accommodated 366 officers and men..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[RAAF Base Williamtown]
+Action 1: Search[RAAF Base Williamtown]
+Observation 1: RAAF Base Williamtown is a Royal Australian Air Force (RAAF) base located near Williamtown, New South Wales, Australia. It is one of the RAAF's two main operating bases and is home to the RAAF's tactical fighter capability.. **History:**. The base was established in 1941 as a training base for aircrew during World War II. After the war, it became the home of the RAAF's fighter squadrons.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[the runway]
+Action 2: Finish[the runway]
+Observation 2: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[Newcastle Airport]
+Action 2: Lookup[Newcastle Airport]
+Observation 2: RAAF Base Williamtown is a Royal Australian Air Force (RAAF) base located near Williamtown, New South Wales, Australia. It is one of the RAAF's two main operating bases and is home to the RAAF's tactical fighter capability.. **History:**. The base was established in 1941 as a training base for aircrew during World War II. After the war, it became the home of the RAAF's fighter squadrons.
+
+
+
+INFO {'steps': 3, 'answer': 'the runway', 'gt_answer': 'runway', 'question_idx': 5643, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 11 
+Number of steps: 23 
+Average reward: 0.4782608695652174 
+Average time 10.421209957288658
+
+-------------------------------------------------------
+

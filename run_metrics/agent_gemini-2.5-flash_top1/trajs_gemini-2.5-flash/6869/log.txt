@@ -1,0 +1,53 @@
+INFO 6869 Question: Which satellite was operational for longer, International Ultraviolet Explorer or EXOSAT?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[International Ultraviolet Explorer]
+Action 1: Search[International Ultraviolet Explorer]
+Observation 1: International Ultraviolet Explorer (IUE or Explorer 57, formerly SAS-D)[2] was the first space observatory primarily designed to take ultraviolet (UV) electromagnetic spectrum. The satellite was a collaborative project between NASA, the United Kingdom's Science and Engineering Research Council (SERC, formerly UKSRC) and the European Space Agency (ESA), formerly European Space Research Organisation (ESRO). The mission was first proposed in early 1964, by a group of scientists in the United Kingdom, and was launched on 26 January 1978, 17:36:00 UTC aboard a NASA Thor-Delta 2914 launch vehicle. The mission lifetime was initially set for 3 years, but in the end, it lasted 18 years, with the satellite being shut down in 1996. The switch-off occurred for financial reasons, while the telescope was still functioning at near original efficiency..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[International Ultraviolet Explorer]
+Action 1: Search[International Ultraviolet Explorer]
+Observation 1: The **International Ultraviolet Explorer (IUE)** was an astronomical satellite designed to obtain ultraviolet spectra of celestial objects. It was a collaborative project between NASA, the European Space Agency (ESA), and the United Kingdom's Science and Engineering Research Council (SERC). Launched on January 26, 1978, aboard a Delta rocket from Cape Canaveral, Florida, IUE operated for over 18 years, far exceeding its planned three-year lifespan, and became one of the.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[EXOSAT]
+Action 2: Search[EXOSAT]
+Observation 2: The European X-ray Observatory Satellite (EXOSAT), originally named HELOS, was an X-ray telescope operational from May 1983 until April 1986 and in that time made 1780 observations in the X-ray band of most classes of astronomical object including active galactic nuclei, stellar coronae, cataclysmic variables, white dwarfs, X-ray binaries, clusters of galaxies, and supernova remnants.. This European Space Agency (ESA) satellite for direct-pointing and lunar-occultation observation of X-ray sources beyond the Solar System was launched into a highly eccentric orbit (apogee 200,000 km, perigee 500 km) almost perpendicular to that of the Moon on 26 May 1983. The instrumentation includes two low-energy imaging telescopes (LEIT) with Wolter I X-ray optics (for the 0.04–2 keV energy range), a medium-energy experiment using Ar/CO2 and Xe/CO2 detectors (for 1.5–50 keV), a Xe/He gas scintillation spectrometer (GSPC) (covering 2–80 keV), and a reprogrammable onboard data-processing computer. Exosat was capable of observing an object (in the direct-pointing mode) for up to 80 hours and of locating sources to within at least 10 arcsec with the LEIT and about 2 arcsec with GSPC.[2]. During the period from 1967 to 1969, the European Space Research Organisation (ESRO) studied two separate missions: a European X-ray observatory satellite, as a combined X- and gamma-ray observatory (Cos-A), and a gamma-ray observatory (Cos-B).
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[EXOSAT]
+Action 2: Search[EXOSAT]
+Observation 2: **EXOSAT**. EXOSAT (European X-ray Observatory Satellite) was the European Space Agency's (ESA) first X-ray astronomy mission, launched on May 26, 1983, from Vandenberg Air Force Base aboard a Delta 3914 rocket. Its primary objective was to perform detailed observations of celestial X-ray sources, focusing on their temporal and spectral characteristics. The mission operated successfully for just over three years, until its re-.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[International Ultraviolet Explorer]
+Action 3: Finish[International Ultraviolet Explorer]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[International Ultraviolet Explorer]
+Action 3: Finish[International Ultraviolet Explorer]
+Observation 3: **EXOSAT**. EXOSAT (European X-ray Observatory Satellite) was the European Space Agency's (ESA) first X-ray astronomy mission, launched on May 26, 1983, from Vandenberg Air Force Base aboard a Delta 3914 rocket. Its primary objective was to perform detailed observations of celestial X-ray sources, focusing on their temporal and spectral characteristics. The mission operated successfully for just over three years, until its re-.
+
+
+
+INFO {'steps': 5, 'answer': 'International Ultraviolet Explorer', 'gt_answer': 'International Ultraviolet Explorer', 'question_idx': 2158, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 5 
+Number of steps: 9 
+Average reward: 0.5555555555555556 
+Average time 12.359638002183702
+
+-------------------------------------------------------
+

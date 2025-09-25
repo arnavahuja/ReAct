@@ -1,0 +1,44 @@
+INFO 6 Question: When William Gladstone successfully relaunched his political career in Scotland in advance of the 1880 General Election, which party did he lead?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to search William Gladstone and find which party he led during the 1880 General Election.
+Action 1: Search[William Gladstone] 
+        Action 1: Search[William Gladstone]
+        Observation 1: William Ewart Gladstone FRS FSS (/ˈɡlædstən/ GLAD-stən; 29 December 1809 – 19 May 1898) was a British statesman and Liberal politician, starting as Conservative MP for Newark and later becoming the leader of the Liberal Party.. In a career lasting more than 60 years, he was Prime Minister of the United Kingdom for 12 years, spread over four non-consecutive terms (the most of any British prime minister), beginning in 1868 and ending in 1894. He also was Chancellor of the Exchequer four times, for more than 12 years. He was a Member of Parliament (MP) for 60 years, from 1832 to 1845 and from 1847 to 1895; during that time he represented a total of five constituencies.. Gladstone was born in Liverpool to Scottish parents."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I should first search for William Gladstone to find information about his political career, specifically regarding which party he led in Scotland during the 1880 General Election.
+Action 1: [Search[William Gladstone], Lookup[1880 General Election], Search[Political Parties in Scotland 1880]] 
+        Action 1: ['Search[William Gladstone]', 'Search[Political Parties in Scotland 1880]', 'Lookup[1880 General Election]']
+        Observation 1: **William Ewart Gladstone** (29 December 1809 – 19 May 1898) was a British statesman who served as Prime Minister of the United Kingdom four times, from 1868 to 1874, 1880 to 1885, 1886, and 1892 to 1894. He was also a prominent orator, writer, and political theorist.."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The information shows that William Gladstone was the leader of the Liberal Party during his political career. So he must have led the Liberal Party during the 1880 General Election.
+Action 2: Finish[Liberal Party] 
+        Action 2: Finish[Liberal Party]
+        Observation 2: Episode finished, reward = 1
+"
+
+SIMULATION TRAJECTORY:
+ Thought 2: The paragraph does not mention which party William Gladstone led, maybe I can look up "political party" or "Prime Minister".
+Action 2: [Lookup[political party], Lookup[Prime Minister], Search[William Gladstone political party]] 
+        Action 2: ['Search[William Gladstone political party]', 'Lookup[political party]', 'Lookup[Prime Minister]']
+        Observation 2: **William Ewart Gladstone** (29 December 1809 – 19 May 1898) was a British statesman who served as Prime Minister of the United Kingdom four times, from 1868 to 1874, 1880 to 1885, 1886, and 1892 to 1894. He was also a prominent orator, writer, and political theorist.."
+
+
+
+INFO {'steps': 3, 'answer': 'Liberal Party', 'gt_answer': 'Liberal Party', 'question_idx': 3105, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 3 
+Number of steps: 8 
+Average reward: 0.375 
+Average time 42.817988485097885
+
+--------------------------------------------------
+

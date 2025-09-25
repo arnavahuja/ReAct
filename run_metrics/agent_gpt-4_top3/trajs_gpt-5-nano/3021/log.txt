@@ -1,0 +1,60 @@
+INFO 3021 Question: Who was born first out of Nick Grinde and Karel Reisz?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: To find out who was born first, I need to search for the birth dates of both Nick Grinde and Karel Reisz.
+Action 1: Search[Nick Grinde] 
+        Action 1: Search[Nick Grinde]
+        Observation 1: Nick Grinde (January 12, 1893 – June 19, 1979) was an American film director and screenwriter.[1][2] He directed 57 films between 1928 and 1945.. Born Harry A. Grinde in Madison, Wisconsin but nicknamed "Nick", Grinde graduated from the University of Wisconsin. He later moved to New York and worked in Vaudeville. Grinde became a Hollywood film writer and director in the late 1920s, and was often assigned to familiarize Broadway stage directors with the techniques of film making."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to search Nick Grinde and Karel Reisz, find their birth dates and see which one was born first.
+Action 1: Search[Nick Grinde], Search[Karel Reisz], Lookup[Nick Grinde] 
+        Action 1: ['Search[Nick Grinde]', 'Search[Karel Reisz]', 'Lookup[Nick Grinde]']
+        Observation 1: "
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Nick Grinde was born on January 12, 1893. Now I should look up the birth date of Karel Reisz.
+Action 2: Search[Karel Reisz] 
+        Action 2: Search[Karel Reisz]
+        Observation 2: Karel Reisz (21 July 1926 – 25 November 2002) was a Czech-born British filmmaker and film critic, one of the pioneers of the new realist strain in British cinema during the 1950s and 1960s. Two of the best-known films he directed are Saturday Night and Sunday Morning (1960), a classic of kitchen sink realism, and the romantic period drama The French Lieutenant's Woman (1981).. Reisz was born in Ostrava, Czechoslovakia, to a family of Jewish ancestry.[2] His father was a lawyer. Reisz became  a refugee, one of the 669 children rescued and evacuated from the country by Sir Nicholas Winton.[3][4]. He was transported to England in 1938, speaking almost no English, and he eradicated his foreign accent as quickly as possible.[5] After attending Leighton Park School, he joined the Royal Air Force toward the end of the war."
+
+SIMULATION TRAJECTORY:
+ Thought 2: Nick Grinde was born on January 12, 1893. Now I'll look up Karel Reisz's birth date.
+Action 2: Search[Karel Reisz] 
+        Action 2: ['Search[Karel Reisz]']
+        Observation 2: "
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Karel Reisz was born on July 21, 1926. Therefore, Nick Grinde was born first as his birth year is 1893, which precedes 1926.
+Action 3: Finish[Nick Grinde] 
+        Action 3: Finish[Nick Grinde]
+        Observation 3: Episode finished, reward = 0
+"
+
+SIMULATION TRAJECTORY:
+ Thought 3: Karel Reisz was born on July 21, 1926, which is later than Nick Grinde's birth date. Therefore, Nick Grinde was born first.
+Action 3: Finish[Nick Grinde] 
+        Action 3: ['Finish[Nick Grinde]']
+        Observation 3: "
+
+
+
+INFO {'steps': 5, 'answer': 'Nick Grinde', 'gt_answer': 'Nick Grindé', 'question_idx': 6331, 'reward': False, 'em': False, 'f1': 0.5}
+
+INFO Sum of rewards: 5 
+Number of steps: 14 
+Average reward: 0.35714285714285715 
+Average time 59.015834842409404
+
+--------------------------------------------------
+

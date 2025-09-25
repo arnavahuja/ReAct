@@ -1,0 +1,76 @@
+INFO 2861 Question: Both Tim Conlon and Kehinde Wiley have what type of occupation?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to search Tim Conlon and Kehinde Wiley, find their occupations, then find the occupation they have in common.
+Action 1: Search[Tim Conlon] 
+        Action 1: Search[Tim Conlon]
+        Observation 1: Could not find [Tim Conlon]. Similar: ['Tim Conlon', 'Lost on Earth (redirect from Tim Conlon (actor))', 'Gerry Conlon', 'Tim Conlon (artist)', 'Tim McCoy']."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to find the occupation of Tim Conlon and Kehinde Wiley to determine what occupation they have in common.
+Action 1: [Search[Tim Conlon], Search[Kehinde Wiley], Lookup[occupation]] 
+        Action 1: ['Search[Tim Conlon]', 'Search[Kehinde Wiley]', 'Lookup[occupation]']
+        Observation 1: **Tim Conlon** is an American actor and comedian. He is best known for his role as "The Mayor" in the popular YouTube channel **Good Mythical Morning** (GMM), hosted by Rhett and Link.. Conlon joined Good Mythical Morning in 2017 and quickly became a recurring and beloved character. His portrayal of the eccentric and often clueless mayor of "Mythicalville" has been a consistent source of humor for the show's millions of viewers.."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: I need to search for Tim Conlon (artist) to find his occupation.
+Action 2: Search[Tim Conlon (artist)] 
+        Action 2: Search[Tim Conlon (artist)]
+        Observation 2: Tim Conlon (born 1974 in Alexandria, Virginia) is an American artist and graffiti writer known for large-scale murals and works on canvas. He was featured as one of several artists (including Kehinde Wiley and poet, Nikki Giovanni) in the Smithsonian National Portrait Gallery exhibit, Recognize! Hip Hop and Contemporary Portraiture,[1][2] which included four large graffiti murals painted by Conlon and collaborator, David Hupp in 2008. This marked the first modern graffiti ever to be in the Smithsonian Institution.[3]. In 2011, he curated the G scale train exhibit in the Los Angeles Museum of Contemporary Art’s, Art in The Streets survey of graffiti and street art.. In 2020 his work was featured in Sotheby's first ever Hip-Hop Auction.[4] Conlon also produced the 2021 documentary, Rolling Like Thunder, a film about freight train graffiti produced by Mass Appeal and released on Showtime.[5]."
+
+SIMULATION TRAJECTORY:
+ Thought 2: Tim Conlon is an actor and comedian. I need to search Kehinde Wiley next and find his occupation.
+Action 2: ["Search[Kehinde Wiley]", "Lookup[occupation]", "Search[Wiley]"] 
+        Action 2: ['Search[Kehinde Wiley]', 'Search[Wiley]', 'Lookup[occupation]']
+        Observation 2: **Tim Conlon** is an American contemporary artist known for his vibrant and often surreal paintings that explore themes of childhood, memory, and the uncanny. His work frequently features stylized, often unsettling, depictions of toys, animals, and familiar objects rendered in a bold, graphic style.. Conlon's artistic journey began with a strong foundation in traditional art, but he quickly developed a unique visual language that blends elements of pop art, surrealism, and folk art. His paintings are characterized by their."
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Tim Conlon is an artist and graffiti writer. I need to search Kehinde Wiley next and find his occupation.
+Action 3: Search[Kehinde Wiley] 
+        Action 3: Search[Kehinde Wiley]
+        Observation 3: Kehinde Wiley (born February 28, 1977) is an American portrait painter based in New York City.[1] He is known for his naturalistic paintings of Black subjects that reference the work of Old Master paintings. In 2017, Wiley was commissioned to paint former U.S. President Barack Obama's portrait for the National Portrait Gallery of the Smithsonian Institution. The Columbus Museum of Art hosted an exhibition of his work in 2007 and describes his paintings as "heroic portraits which address the image and status of young African-American men in contemporary culture."[2]. Wiley was included in Time magazine's "100 Most Influential People of 2018."[3]."
+
+SIMULATION TRAJECTORY:
+ Thought 3: Tim Conlon is an artist. I need to search for Kehinde Wiley and find his occupation to see what they have in common.
+Action 3: [Search[Kehinde Wiley], Lookup[occupation], Finish[artist]] 
+        Action 3: ['Search[Kehinde Wiley]', 'Lookup[occupation]', 'Finish[artist]']
+        Observation 3: Kehinde Wiley (born February 1977) is an American artist best known for his realistic, yet highly stylized and symbolic portraits of Black people in heroic poses. He gained widespread recognition for painting Barack Obama's presidential portrait.. **Early Life and Education:**. Wiley was born in Los Angeles, California. His father is Nigerian, and his mother is of mixed African American and European American heritage."
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Kehinde Wiley is a portrait painter. Tim Conlon is an artist and graffiti writer, which are both types of artists. Therefore, their common occupation is artist.
+Action 4: Finish[artist] 
+        Action 4: Finish[artist]
+        Observation 4: Episode finished, reward = 1
+"
+
+SIMULATION TRAJECTORY:
+ Thought 4: Kehinde Wiley is also an artist. Therefore, both Tim Conlon and Kehinde Wiley are artists.
+Action 4: Finish[Artist], Search[artist], Lookup[artist] 
+        Action 4: ['Search[artist]', 'Lookup[artist]', 'Finish[Artist]']
+        Observation 4: Kehinde Wiley (born February 1977) is an American artist best known for his realistic, yet highly stylized and symbolic portraits of Black people in heroic poses. He gained widespread recognition for painting Barack Obama's presidential portrait.. **Early Life and Education:**. Wiley was born in Los Angeles, California. His father is Nigerian, and his mother is of mixed African American and European American heritage."
+
+
+
+INFO {'steps': 7, 'answer': 'artist', 'gt_answer': 'artist', 'question_idx': 5730, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 10 
+Number of steps: 18 
+Average reward: 0.5555555555555556 
+Average time 12.220728331142002
+
+--------------------------------------------------
+

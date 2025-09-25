@@ -1,0 +1,39 @@
+INFO 5930 Question: Rostker v. Goldberg held that the practice of what way of filling armed forces vacancies was consitutional?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Rostker v. Goldberg]
+Action 1: Search[Rostker v. Goldberg]
+Observation 1: Rostker v. Goldberg, 453 U.S. 57 (1981), is a decision of the Supreme Court of the United States holding that the practice of requiring only men to register for the draft was constitutional. After extensive hearings, floor debate and committee sessions on the matter, the United States Congress reauthorized the law, as it had previously been, to apply to men only. Several attorneys, including Robert L.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Rostker v. Goldberg]
+Action 1: Search[Rostker v. Goldberg]
+Observation 1: Rostker v. Goldberg, 453 U.S. 57 (1981), was a landmark United States Supreme Court case that addressed the constitutionality of the Military Selective Service Act's requirement that only men register for the draft. The case arose when the United States government challenged a district court order that temporarily blocked the enforcement of the male-only registration requirement.. Background:.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[requiring only men to register for the draft]
+Action 2: Finish[requiring only men to register for the draft]
+Observation 2: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Finish[male-only draft registration]
+Action 2: Finish[male-only draft registration]
+Observation 2: Rostker v. Goldberg, 453 U.S. 57 (1981), was a landmark United States Supreme Court case that addressed the constitutionality of the Military Selective Service Act's requirement that only men register for the draft. The case arose when the United States government challenged a district court order that temporarily blocked the enforcement of the male-only registration requirement.. Background:.
+
+
+
+INFO {'steps': 3, 'answer': 'requiring only men to register for the draft', 'gt_answer': 'Conscription', 'question_idx': 82, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 6 
+Number of steps: 21 
+Average reward: 0.2857142857142857 
+Average time 29.192718426386516
+
+-------------------------------------------------------
+

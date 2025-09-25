@@ -1,0 +1,67 @@
+INFO 600 Question: Andrei Ivanovich Gorchakov commanded the 1st Infanty Corps in what major engagement of the Napoleonic Wars?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Andrei Ivanovich Gorchakov]
+Action 1: Search[Andrei Ivanovich Gorchakov]
+Observation 1: Prince Andrei Ivanovich Gorchakov (Russian: Андре́й Ива́нович Горчако́в; 1779 – 1855[1]) led a Russian infantry corps in the German Campaign of 1813 and the French Campaign of 1814 during the Napoleonic Wars. He participated in the 1799 Italian and Swiss expedition on the staff of his uncle Alexander Suvorov and was at Cassano, the Trebbia and Novi. At Heilsberg he replaced Bennigsen as commander-in-chief, at Friedland he was at the head of the army's right wing (1807). In 1812 he fought at Smolensk and Borodino. At Bautzen in May 1813 he led the second line of the Right Wing.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Andrei Ivanovich Gorchakov]
+Action 1: Search[Andrei Ivanovich Gorchakov]
+Observation 1: Andrei Ivanovich Gorchakov (1768–1831) was a Russian diplomat and statesman who served as the Minister of Foreign Affairs of the Russian Empire from 1810 to 1816. He played a key role in shaping Russian foreign policy during the Napoleonic Wars and the Congress of Vienna. Gorchakov was known for his diplomatic skills and his efforts to maintain a balance of power in Europe. He was a close advisor to Tsar Alexander I and was involved in negotiations.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Lookup[1st Infanty Corps]
+Action 2: Lookup[1st Infanty Corps]
+Observation 2: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[Napoleonic Wars]
+Action 2: Lookup[Napoleonic Wars]
+Observation 2: Andrei Ivanovich Gorchakov (1768–1831) was a Russian diplomat and statesman who served as the Minister of Foreign Affairs of the Russian Empire from 1810 to 1816. He played a key role in shaping Russian foreign policy during the Napoleonic Wars and the Congress of Vienna. Gorchakov was known for his diplomatic skills and his efforts to maintain a balance of power in Europe. He was a close advisor to Tsar Alexander I and was involved in negotiations.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Lookup[infantry corps]
+Action 3: Lookup[infantry corps]
+Observation 3: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[corps in the German Campaign of 1813]
+Action 3: Lookup[corps in the German Campaign of 1813]
+Observation 3: Andrei Ivanovich Gorchakov (1768–1831) was a Russian diplomat and statesman who served as the Minister of Foreign Affairs of the Russian Empire from 1810 to 1816. He played a key role in shaping Russian foreign policy during the Napoleonic Wars and the Congress of Vienna. Gorchakov was known for his diplomatic skills and his efforts to maintain a balance of power in Europe. He was a close advisor to Tsar Alexander I and was involved in negotiations.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[Unable to determine with current information]
+Action 4: Finish[Unable to determine with current information]
+Observation 4: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[Andrei Ivanovich Gorchakov Napoleonic Wars]
+Action 4: Search[Andrei Ivanovich Gorchakov Napoleonic Wars]
+Observation 4: Andrei Ivanovich Gorchakov (1768–1831) was a Russian diplomat and statesman who served as the Minister of Foreign Affairs of the Russian Empire from 1810 to 1816. He played a key role in shaping Russian foreign policy during the Napoleonic Wars and the Congress of Vienna. Gorchakov was known for his diplomatic skills and his efforts to maintain a balance of power in Europe. He was a close advisor to Tsar Alexander I and was involved in negotiations.
+
+
+
+INFO {'steps': 7, 'answer': 'Unable to determine with current information', 'gt_answer': 'Battle of Dresden', 'question_idx': 1056, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 3 
+Number of steps: 18 
+Average reward: 0.16666666666666666 
+Average time 26.79901283317142
+
+-------------------------------------------------------
+

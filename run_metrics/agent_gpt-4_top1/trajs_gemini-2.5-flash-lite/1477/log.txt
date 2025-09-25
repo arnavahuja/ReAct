@@ -1,0 +1,53 @@
+INFO 1477 Question: Which band did this American businessman, music publisher, writers' representative, filmmaker and record label executive manage while simultaneously managing this group of the album "More Hot Rocks?"
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[More Hot Rocks]
+Action 1: Search[More Hot Rocks]
+Observation 1: More Hot Rocks (Big Hits & Fazed Cookies) is a compilation album by the Rolling Stones released in December 1972 on London Records. The album was a follow-up to the successful Hot Rocks 1964–1971.. When Hot Rocks proved to be a big seller, there was never any doubt that a successor would follow. However, initially—with Andrew Loog Oldham getting involved—the project was to feature previously unreleased (or more accurately, discarded) material and be titled Necrophilia. Artwork was prepared and the album made it as far as the mastering phase when it was recalled and something a little more practical was compiled (ABKCO would revisit this concept with 1975's Metamorphosis).
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[More Hot Rocks]
+Action 1: Search[More Hot Rocks]
+Observation 1: I am sorry, but I could not find any information about "More Hot Rocks" on Wikipedia. Therefore, I cannot provide you with information in a Wikipedia style..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Andrew Loog Oldham]
+Action 2: Search[Andrew Loog Oldham]
+Observation 2: Andrew Loog Oldham[a] (born 29 January 1944) is an English record producer, talent manager, impresario and author. He was manager and producer of the Rolling Stones from 1963 to 1967, and was noted for his flamboyant style.[4]. Oldham's father, Andrew Loog, was a United States Army Air Force lieutenant, a New Orleanian of German descent,[5] who served with the Eighth Air Force. Loog was killed in June 1943 when his B-17 bomber was shot down over the English Channel, and he was buried at the Ardennes American Cemetery and Memorial in Belgium. Oldham's Australian-born mother, Celia Oldham,[6] was a nurse and comptometer operator.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[American businessman, music publisher, writers' representative, filmmaker and record label executive]
+Action 2: Search[American businessman, music publisher, writers' representative, filmmaker and record label executive]
+Observation 2: Andrew Loog Oldham (born 29 January 1942) is a British record producer, music manager, and entrepreneur. He is best known for managing and producing the Rolling Stones during their early years, from 1963 to 1967.. **Early Life and Career:**. Born in Bromborough, Cheshire, England, Oldham's father was of Jamaican descent and his mother was English. He attended the Royal Masonic School for Boys.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[the Rolling Stones]
+Action 3: Finish[the Rolling Stones]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[The Rolling Stones]
+Action 3: Finish[The Rolling Stones]
+Observation 3: Andrew Loog Oldham (born 29 January 1942) is a British record producer, music manager, and entrepreneur. He is best known for managing and producing the Rolling Stones during their early years, from 1963 to 1967.. **Early Life and Career:**. Born in Bromborough, Cheshire, England, Oldham's father was of Jamaican descent and his mother was English. He attended the Royal Masonic School for Boys.
+
+
+
+INFO {'steps': 5, 'answer': 'the Rolling Stones', 'gt_answer': 'the Beatles', 'question_idx': 4709, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 3 
+Number of steps: 11 
+Average reward: 0.2727272727272727 
+Average time 23.93692708015442
+
+-------------------------------------------------------
+

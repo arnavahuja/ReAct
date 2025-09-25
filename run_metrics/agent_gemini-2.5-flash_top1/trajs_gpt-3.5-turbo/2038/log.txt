@@ -1,0 +1,115 @@
+INFO 2038 Question: Rumble Fish was a novel by the author of the coming-of-age novel published in what year by Viking Press?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Rumble Fish]
+Action 1: Search[Rumble Fish]
+Observation 1: Rumble Fish is a 1983 American drama noir film directed by Francis Ford Coppola. It is based on the 1975 novel Rumble Fish by S. E. Hinton, who also co-wrote the screenplay with Coppola. The film stars Matt Dillon, Mickey Rourke, Vincent Spano, Diane Lane, Diana Scarwid, Nicolas Cage, Laurence Fishburne, Chris Penn, and Dennis Hopper..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Rumble Fish]
+Action 1: Search[Rumble Fish]
+Observation 1: "Rumble Fish" is a novel written by S.E. Hinton, first published in 1975. The story is set in a small town and follows the life of a young teenager named Rusty-James who is caught up in the world of street gangs and violence. The novel explores themes of identity, family, and the struggle to find one's place in the world. In 1983, a film adaptation of "Rumble Fish" was released, directed by Francis Ford Copp.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Lookup[coming-of-age novel]
+Action 2: Lookup[coming-of-age novel]
+Observation 2: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[coming-of-age novel
+Action 2: Lookup[coming-of-age novel
+Observation 2: "Rumble Fish" is a novel written by S.E. Hinton, first published in 1975. The story is set in a small town and follows the life of a young teenager named Rusty-James who is caught up in the world of street gangs and violence. The novel explores themes of identity, family, and the struggle to find one's place in the world. In 1983, a film adaptation of "Rumble Fish" was released, directed by Francis Ford Copp.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[S. E. Hinton]
+Action 3: Search[S. E. Hinton]
+Observation 3: Susan Eloise Hinton (born July 22, 1948) is an American writer best known for her young-adult novels (YA) set in Oklahoma, especially The Outsiders (1967), which she wrote during high school.[a] Hinton is credited with introducing the YA genre.[4][5] She graduated from the University of Tulsa.[6]. In 1988, she received the inaugural Margaret Edwards Award from the American Library Association for her cumulative contribution in writing for teens.[7][b]. Susan Eloise Hinton was born on July 22, 1948 in Tulsa, Oklahoma. Her father, Grady, was a door-to-door salesman and her mother, Lillian, was a factory worker.[8][9] Lillian was physically and emotionally abusive, throwing one of Hinton's early manuscripts in a trash burner (though she allowed her to rescue them); and Hinton described Grady as "an extremely cold man."[9]. Growing up, she and her family attended a "fundamentalist, hellfire and brimstone" church, which she disliked deeply and turned her away from religion as an adult.[9] Grady developed a brain tumor when Hinton was 15 and died when she was in her junior year of high school.[9][10].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[Viking Press]
+Action 3: Lookup[Viking Press]
+Observation 3: Susan Eloise Hinton (born July 22, 1948) is an American writer best known for her young adult novels, including "The Outsiders," which she wrote when she was just 16 years old. Hinton's novels often deal with themes of adolescence, social class, and family dynamics. She has received numerous awards for her work, including the Margaret A. Edwards Award for her significant and lasting contribution to young adult literature. Hinton continues to write and publish novels that resonate.
+
+
+
+STEP: 4
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 4: None
+Action 4: Lookup[Viking Press]
+Observation 4: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[S. E. Hinton novels]
+Action 4: Search[S. E. Hinton novels]
+Observation 4: Susan Eloise Hinton (born July 22, 1948) is an American writer best known for her young adult novels, including "The Outsiders," which she wrote when she was just 16 years old. Hinton's novels often deal with themes of adolescence, social class, and family dynamics. She has received numerous awards for her work, including the Margaret A. Edwards Award for her significant and lasting contribution to young adult literature. Hinton continues to write and publish novels that resonate.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[S. E. Hinton bibliography]
+Action 5: Search[S. E. Hinton bibliography]
+Observation 5: Susan Eloise Hinton (better known as S. E. Hinton) is an American author who is best known for writing young adult fiction. The Outsiders was Hinton's first published book in 1967; Hinton started the book at the age of fifteen.[1] Hinton based the characters, the Greasers and the Socs, off of teenage gangs and alienated youth in her hometown of Tulsa, Oklahoma during the 1960s. The Outsiders has sold over fourteen million copies since it was published.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Search[S. E. Hinton novels]
+Action 5: Search[S. E. Hinton novels]
+Observation 5: S. E. Hinton is an American author known for her young adult novels. She has written several popular books, including "The Outsiders," "That Was Then, This Is Now," "Rumble Fish," and "Tex." Hinton's works often explore themes of adolescence, social issues, and the struggles of young people. Her writing style is characterized by its realistic portrayal of teenage life and its emotional depth.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Search[S. E. Hinton novels]
+Action 6: Search[S. E. Hinton novels]
+Observation 6: Could not find S. E. Hinton novels. Similar: ['S. E. Hinton', 'S. E. Hinton bibliography', 'Rumble Fish (novel)', 'The Outsiders', 'Patrick Swayze'].
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Search[S. E. Hinton novels Viking Press]
+Action 6: Search[S. E. Hinton novels Viking Press]
+Observation 6: S. E. Hinton is an American author best known for her young adult novels. She was born on July 22, 1948, in Tulsa, Oklahoma. Hinton's debut novel, "The Outsiders," was published in 1967 when she was just 18 years old.
+
+
+
+STEP: 7
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 7: None
+Action 7: Search[Rumble Fish (novel)]
+Observation 7: Rumble Fish is a 1975 novel for young adults by S. E. Hinton, author of The Outsiders. It was adapted to film and directed by Francis Ford Coppola in 1983.[1]. Rusty-James runs into his old friend, Steve Hays, at the beach.
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Search[S. E. Hinton books]
+Action 7: Search[S. E. Hinton books]
+Observation 7: "Rumble Fish" is a novel written by S.E. Hinton, first published in 1975. The story follows the life of a young teenager named Rusty-James who is caught up in the world of street gangs and violence. The novel explores themes of identity, loyalty, and the struggle to find one's place in the world. "Rumble Fish" is considered a classic of young adult literature and has been adapted into a film directed by Francis Ford Coppola in 198.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': '1967', 'question_idx': 2302, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 4 
+Number of steps: 13 
+Average reward: 0.3076923076923077 
+Average time 16.025159689096306
+
+-------------------------------------------------------
+

@@ -1,0 +1,53 @@
+INFO 2934 Question: What 2015 British-Canadian-Irish romantic drama was Finola Dwyer a producer of?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Finola Dwyer]
+Action 1: Search[Finola Dwyer]
+Observation 1: Finola Dwyer ONZM (born 10 July 1963) is a UK-based New Zealand film producer and editor, best known for her films An Education and Brooklyn, produced with frequent collaborator Amanda Posey.. In 2015, Dwyer produced an historical drama film Brooklyn, starring Saoirse Ronan, directed by John Crowley based on the screenplay by Nick Hornby. She received an Academy Award nomination for the film for Best Picture at the 88th Academy Awards along with Amanda Posey.[1][2]. In the 2016 Queen's Birthday Honours, Dwyer was appointed an Officer of the New Zealand Order of Merit for services to the film industry.[3]. This biographical article related to film in New Zealand is a stub.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Finola Dwyer]
+Action 1: Search[Finola Dwyer]
+Observation 1: I'm sorry, but I cannot provide verbatim text from Wikipedia. However, I can provide you with a brief summary of Finola Dwyer. Finola Dwyer is a British film producer known for her work on various acclaimed films. She has been involved in producing movies such as "An Education" and "Brooklyn," which have received critical acclaim and multiple award nominations. Dwyer has made significant contributions to the film industry and is recognized for her talent and dedication to storytelling through.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Brooklyn (film)]
+Action 2: Search[Brooklyn (film)]
+Observation 2: Brooklyn is a 2015 romantic period drama film directed by John Crowley and written by Nick Hornby, based on the 2009 novel by Colm Tóibín. A co-production between the United Kingdom, Ireland, and Canada, it stars Saoirse Ronan in the lead role, with Emory Cohen, Domhnall Gleeson, Jim Broadbent, and Julie Walters in supporting roles. The plot follows Eilis Lacey, a young Irish woman who immigrates to Brooklyn in the early 1950s to find employment. After building a life there, she is drawn back to her home town of Enniscorthy and has to choose where she wants to forge her future. Principal photography began in April 2014 with three weeks of filming in Ireland, which were followed by four weeks in Montreal, Quebec; only two days of filming took place in Brooklyn, one of which was spent at the beach in Coney Island..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Brooklyn (film)]
+Action 2: Search[Brooklyn (film)]
+Observation 2: "Brooklyn" is a 2015 romantic drama film directed by John Crowley and written by Nick Hornby. The film is based on the novel of the same name by Colm Tóibín. It stars Saoirse Ronan as Eilis Lacey, a young Irish immigrant who moves to Brooklyn, New York in the 1950s. The film follows Eilis as she navigates her new life in America, including her job, relationships, and sense of belonging..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Brooklyn]
+Action 3: Finish[Brooklyn]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[British-Canadian-Irish]
+Action 3: Lookup[British-Canadian-Irish]
+Observation 3: "Brooklyn" is a 2015 romantic drama film directed by John Crowley and written by Nick Hornby. The film is based on the novel of the same name by Colm Tóibín. It stars Saoirse Ronan as Eilis Lacey, a young Irish immigrant who moves to Brooklyn, New York in the 1950s. The film follows Eilis as she navigates her new life in America, including her job, relationships, and sense of belonging..
+
+
+
+INFO {'steps': 5, 'answer': 'Brooklyn', 'gt_answer': 'Brooklyn', 'question_idx': 7353, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 6 
+Number of steps: 20 
+Average reward: 0.3 
+Average time 14.778450894355775
+
+-------------------------------------------------------
+

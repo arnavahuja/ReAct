@@ -1,0 +1,53 @@
+INFO 3908 Question: The American comedy film Krystal stars which actor who appeared in numerous films such as "Contact", "Armageddon", "The Perfect Storm", "Crash", "Blades of Glory", "Black Hawk Down", "Nine Lives", etc.?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Krystal (film)]
+Action 1: Search[Krystal (film)]
+Observation 1: Krystal is a 2017 American coming-of-age comedy-drama film directed by William H. Macy and written by Will Aldis. The film stars Rosario Dawson, Nick Robinson, T.I., Grant Gustin, Felicity Huffman, Macy, Jacob Latimore, Rick Fox, William Fichtner, and Kathy Bates.. The film had its world premiere at the Virginia Film Festival on November 10, 2017. It was released on April 13, 2018, by Great Point Media and Paladin..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Krystal (film)]
+Action 1: Search[Krystal (film)]
+Observation 1: **Krystal (film)**. *Krystal* is a 2017 American drama film written and directed by William H. Macy. The film stars Felicity Jones as Krystal, a young woman struggling with addiction who finds herself in a small town after a robbery gone wrong. She becomes involved with a married man, Larry (played by Grant Gustin), and his wife, Brenda (played by Kathy Bates)..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[William Fichtner]
+Action 2: Search[William Fichtner]
+Observation 2: William Edward Fichtner[1] (born November 27, 1956)[2] is an American actor. Born in New York, he started his career with supporting appearances in Virtuosity (1995), Heat and Strange Days (both 1995). A prolific character actor in film, Fichtner is recognized for memorable performances in Contact (1997), Armageddon (1998), Go (1999), The Perfect Storm (2000), Black Hawk Down (2001), Crash (2004), and The Longest Yard (2005).. In 2005, Fichtner starred as Sheriff Tom Underlay in Invasion. He later appeared as Alexander Mahone in Prison Break, Carl Hickman in Crossing Lines, and Adam Janikowski in Mom..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[Contact, Armageddon, The Perfect Storm, Crash, Blades of Glory, Black Hawk Down, Nine Lives]
+Action 2: Lookup[Contact, Armageddon, The Perfect Storm, Crash, Blades of Glory, Black Hawk Down, Nine Lives]
+Observation 2: William Fichtner (born November 27, 1956) is an American actor. He is known for his roles as Sheriff Ned Brody in the Fox television series *Invasion*, Alexander Mahone in the Fox television series *Prison Break*, and Adam Janek in the CBS television series *Crossing Lines*. He also portrayed the character of Eric Beaumont in the CBS television series *Seal Team*.. Fichtner's film credits include *Heat* (1995.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[William Fichtner]
+Action 3: Finish[William Fichtner]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[Contact]
+Action 3: Lookup[Contact]
+Observation 3: William Fichtner (born November 27, 1956) is an American actor. He is known for his roles as Sheriff Ned Brody in the Fox television series *Invasion*, Alexander Mahone in the Fox television series *Prison Break*, and Adam Janek in the CBS television series *Crossing Lines*. He also portrayed the character of Eric Beaumont in the CBS television series *Seal Team*.. Fichtner's film credits include *Heat* (1995.
+
+
+
+INFO {'steps': 5, 'answer': 'William Fichtner', 'gt_answer': 'William Fichtner', 'question_idx': 6427, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 7 
+Number of steps: 25 
+Average reward: 0.28 
+Average time 27.71723119735718
+
+-------------------------------------------------------
+

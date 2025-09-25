@@ -1,0 +1,109 @@
+INFO 4968 Question: Why did the CEO of the football team based in Denver, Colorado step down in 2014?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Denver, Colorado football team]
+Action 1: Search[Denver, Colorado football team]
+Observation 1: Could not find Denver, Colorado football team. Similar: ['Colorado Crush', 'Colorado Spartans', 'Denver Summit FC', 'Colorado Buffaloes football', 'Denver Pioneers football'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Denver football team CEO 2014]
+Action 1: Search[Denver football team CEO 2014]
+Observation 1: The following is information about the Denver Broncos, a professional American football team based in Denver, Colorado, presented in a Wikipedia-style format:. ---. {{Infobox NFL team. | name = Denver Broncos. | logo = [[File:Denver Broncos logo.svg|150px]].
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Denver Broncos]
+Action 2: Search[Denver Broncos]
+Observation 2: National Football League (1970–present). The Denver Broncos are a professional American football team based in Denver. The Broncos compete in the National Football League (NFL) as a member of the American Football Conference (AFC) West division. The team is headquartered in Englewood, Colorado.[3][4]. The team began play in 1960 as a charter member of the American Football League (AFL) and joined the NFL as part of the merger in 1970.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Denver Broncos CEO step down 2014]
+Action 2: Search[Denver Broncos CEO step down 2014]
+Observation 2: The **Denver Broncos** are a professional American football team based in Denver, Colorado. The Broncos compete in the National Football League (NFL) as a member club of the league's American Football Conference (AFC) West division. The team is headquartered in Dove Valley, Colorado, and plays its home games at Empower Field at Mile High in Denver.. **Franchise History:**. *   **Founding and Early Years (1960-1969):** The Broncos.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Denver Broncos CEO 2014]
+Action 3: Search[Denver Broncos CEO 2014]
+Observation 3: Could not find Denver Broncos CEO 2014. Similar: ['2014 Denver Broncos season', 'Denver Broncos', '2013 Denver Broncos season', '2015 Denver Broncos season', 'Greg Penner (category Denver Broncos executives)'].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[CEO 2014]
+Action 3: Lookup[CEO 2014]
+Observation 3: **Joe Ellis (2014)**. **Joseph "Joe" Ellis** served as the **President and Chief Executive Officer (CEO)** of the Denver Broncos in 2014. He held this position from 2011 until 2022.. **Early Life and Education:**. Born in Colorado, Ellis attended the University of Colorado Boulder, where he played football as a wide receiver.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Lookup[2014]
+Action 4: Lookup[2014]
+Observation 4: (Result 1 / 2) **Joe Ellis (2014)**.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[step down]
+Action 4: Lookup[step down]
+Observation 4: **Joe Ellis (2014)**. **Joseph "Joe" Ellis** served as the **President and Chief Executive Officer (CEO)** of the Denver Broncos in 2014. He held this position from 2011 until 2022.. **Early Life and Education:**. Born in Colorado, Ellis attended the University of Colorado Boulder, where he played football as a wide receiver.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[Joe Ellis 2014]
+Action 5: Search[Joe Ellis 2014]
+Observation 5: Could not find Joe Ellis 2014. Similar: ['Jimmy Ellis (boxer)', 'Joe Ellis-Grewal', 'Warren Ellis', 'Tom Ellis (actor)', 'Bazooka Joe (band)'].
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Search[Joe Ellis]
+Action 5: Search[Joe Ellis]
+Observation 5: **Joe Ellis (born 1958)** is an American sports executive who served as the president of the Denver Broncos of the National Football League (NFL) from 2011 to 2022. In 2014, Ellis was a prominent figure in the Broncos organization, which was coming off a Super Bowl XLVIII appearance and was a strong contender for the championship again.. **Early Life and Career:**. Ellis was born in 1958.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Search[Joe Ellis]
+Action 6: Search[Joe Ellis]
+Observation 6: Josiah Wear Ellis[1] (born November 16, 1957) is an American former football executive who was the president and CEO of the Denver Broncos of the National Football League (NFL). He is the nephew of former US president George H. W. Bush and first cousin to former president George W. Bush..
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Lookup[step down]
+Action 6: Lookup[step down]
+Observation 6: **Joe Ellis** is an American sports executive who has spent the majority of his career with the Denver Broncos of the National Football League (NFL). He is best known for his long tenure as the team's President and Chief Executive Officer (CEO).. **Early Life and Education:**. Information regarding Joe Ellis's early life and specific educational background is not widely publicized in detail.. **Career with the Denver Broncos:**.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Lookup[step down]
+Action 7: Lookup[step down]
+Observation 7: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Lookup[step down]
+Action 7: Lookup[step down]
+Observation 7: **Joe Ellis** is an American sports executive who has spent the majority of his career with the Denver Broncos of the National Football League (NFL). He is best known for his long tenure as the team's President and Chief Executive Officer (CEO).. **Early Life and Education:**. Information regarding Joe Ellis's early life and specific educational background is not widely publicized in detail.. **Career with the Denver Broncos:**.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': "due to the onset and progression of Alzheimer's disease", 'question_idx': 6879, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 4 
+Number of steps: 10 
+Average reward: 0.4 
+Average time 21.528689002990724
+
+-------------------------------------------------------
+

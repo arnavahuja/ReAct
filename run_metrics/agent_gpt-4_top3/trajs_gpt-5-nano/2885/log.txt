@@ -1,0 +1,60 @@
+INFO 2885 Question: In the Glee episode "Bad Reputation," Sue Sylvester dances to this song, by a four-time Grammy winner and star of musical film "Grease."
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to search the Glee episode "Bad Reputation" to find out which song Sue Sylvester dances to, and then verify it's by a four-time Grammy winner and star of the musical "Grease."
+Action 1: [Search["Bad Reputation" Glee episode]] 
+        Action 1: Search["Bad Reputation" Glee episode]
+        Observation 1: Could not find "Bad Reputation" Glee episode. Similar: ['Bad Reputation (Glee)', 'List of songs in Glee season 1', 'Bad Reputation', 'Laryngitis (Glee)', 'Home (Glee)']."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to search the Glee episode "Bad Reputation," find the song Sue Sylvester dances to and who is the singer.
+Action 1: Search[Glee episode "Bad Reputation"], Lookup[Sue Sylvester dances], Search[Grease] 
+        Action 1: ['Search[Glee episode "Bad Reputation"]', 'Search[Grease]', 'Lookup[Sue Sylvester dances]']
+        Observation 1: "
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The Glee episode "Bad Reputation" is not directly found, however, there is a similar result "Bad Reputation (Glee)". I should search this title instead.
+Action 2: [Search["Bad Reputation (Glee)"]] 
+        Action 2: Search["Bad Reputation (Glee)"]
+        Observation 2: "Bad Reputation" is the seventeenth episode of the American television series, Glee. The episode premiered on the Fox network on May 4, 2010. It was directed by Elodie Keene, and written by series creator Ian Brennan. In "Bad Reputation", cheerleading coach Sue Sylvester (Jane Lynch) is publicly ridiculed when a video of her dancing to Olivia Newton-John's "Physical" is posted on YouTube. A salacious list about members of the glee club circulates the school, leading certain members to try to earn themselves a bad reputation."
+
+SIMULATION TRAJECTORY:
+ Thought 2: The search results did not provide the necessary information. I need to search more specifically or lookup the detail in the current observation.
+Action 2: [Lookup[Sue Sylvester], Search[Sue Sylvester "Bad Reputation"], Search[Song List "Bad Reputation" Glee episode]] 
+        Action 2: ['Search[Sue Sylvester "Bad Reputation"]', 'Search[Song List "Bad Reputation" Glee episode]', 'Lookup[Sue Sylvester]']
+        Observation 2: "
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: From the "Bad Reputation" (Glee) episode description, we learn that Sue Sylvester dances to Olivia Newton-John's "Physical". Olivia Newton-John is also known to be a four-time Grammy winner who starred in the musical "Grease". Therefore, the song Sue Sylvester dances to is "Physical" by Olivia Newton-John.
+Action 3: [Finish["Physical"]] 
+        Action 3: Finish["Physical"]
+        Observation 3: Episode finished, reward = 1
+"
+
+SIMULATION TRAJECTORY:
+ Thought 3: The search result for "Bad Reputation (Glee)" did not return any useful information, so I need to try a different strategy, like looking up key details or terms such as "Sue Sylvester" or "dance."  
+Action 3: [Lookup["Sue Sylvester"], Lookup["dance"], Search["songs in Glee season 1"]] 
+        Action 3: ['Search["songs in Glee season 1"]', 'Lookup["Sue Sylvester"]', 'Lookup["dance"]']
+        Observation 3: "
+
+
+
+INFO {'steps': 5, 'answer': '"Physical"', 'gt_answer': 'Physical', 'question_idx': 4027, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 7 
+Number of steps: 17 
+Average reward: 0.4117647058823529 
+Average time 57.03683840527254
+
+--------------------------------------------------
+

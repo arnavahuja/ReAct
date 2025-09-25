@@ -1,0 +1,109 @@
+INFO 2885 Question: Raiffeisen Zentralbank is the central institution of one a group of co-operative banks in Austria. What is the name of the other group?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Raiffeisen Zentralbank]
+Action 1: Search[Raiffeisen Zentralbank]
+Observation 1: Raiffeisen Zentralbank Österreich A.G. (RZB) was a significant bank in Austria and the central institution of the Raiffeisen Banking Group (RBG) until its merger into its subsidiary Raiffeisen Bank International (RBI) in 2017.. It had subsidiaries held via RBI in, amongst others: Ukraine, Hungary, Czech Republic, Romania, Kosovo, Albania, Bulgaria, Serbia, Bosnia-Herzegovina, Croatia, and Switzerland. The largest of these subsidiaries by far was Raiffeisenbank (Russia) which accounted for 74 percent of the company's pretax profit.[2]. The incorporation meeting of the shareholders of the Austrian Raiffeisen cooperative was held on 16 August 1927.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Raiffeisen Zentralbank]
+Action 1: Search[Raiffeisen Zentralbank]
+Observation 1: Raiffeisen Zentralbank Österreich AG (RZB) is a leading Austrian bank and the central institution of the Austrian Raiffeisen Banking Group. It was founded in 1927 and is headquartered in Vienna, Austria. RZB provides a wide range of banking services including corporate banking, retail banking, asset management, and investment banking. The bank operates in Central and Eastern Europe, as well as in Asia and the United States. RZB is known for its strong focus on.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Lookup[co-operative banks in Austria]
+Action 2: Lookup[co-operative banks in Austria]
+Observation 2: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[other group]
+Action 2: Lookup[other group]
+Observation 2: Raiffeisen Zentralbank Österreich AG (RZB) is a leading Austrian bank and the central institution of the Austrian Raiffeisen Banking Group. It was founded in 1927 and is headquartered in Vienna, Austria. RZB provides a wide range of banking services including corporate banking, retail banking, asset management, and investment banking. The bank operates in Central and Eastern Europe, as well as in Asia and the United States. RZB is known for its strong focus on.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[co-operative banks in Austria]
+Action 3: Search[co-operative banks in Austria]
+Observation 3: Could not find co-operative banks in Austria. Similar: ['List of banks in India', 'Cooperative banking (redirect from Co-operative bank)', 'RLB', 'List of European cooperative banks', "People's Bank"].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[co-operative banks in Austria]
+Action 3: Search[co-operative banks in Austria]
+Observation 3: Cooperative banks in Austria are financial institutions that are owned and operated by their members. These banks are based on the principles of cooperation, self-help, and mutual assistance. They provide a wide range of banking services, including savings accounts, loans, and investment products.. Cooperative banks in Austria are regulated by the Austrian Financial Market Authority (FMA) and are members of the Austrian Raiffeisen Banking Group. They play an important role in the Austrian financial system, particularly in rural areas where they often.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[List of European cooperative banks]
+Action 4: Search[List of European cooperative banks]
+Observation 4: This list of European cooperative banks includes individual cooperative banks, integrated cooperative banking groups, and loose nationwide networks, the latter typically tied together by an institutional protection scheme.. European cooperative banks have developed since the mid-19th century, principally on the basis of early pioneering initiatives in the German confederation led by Franz Hermann Schulze-Delitzsch[1] and Friedrich Wilhelm Raiffeisen.[2] The German model was emulated in France from 1878[3] (1882 in German-ruled Alsace–Lorraine[4]), in Italy from 1883,[5] in Austria-Hungary from 1886,[6] in the Netherlands from 1895, and in Spain from 1901.[7] Similar developments occurred in other European countries.. Cooperative banks expanded dynamically in Europe during the 20th century.[8] In some instances, they have largely or entirely demutualized, as in the case of Italy's banche popolari in the 2010s.[9] Conversely, some banking groups that were not originally organized as cooperatives have eventually adopted that form, such as France's Groupe Caisses d'Épargne (now part of BPCE) in 1999.[10]. The European Association of Co-operative Banks, initially established in 1970 as the Association of Cooperative Savings and Credit Institutions of the European Economic Community, is the sector's umbrella association, based in Brussels.[11]. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[other group]
+Action 4: Lookup[other group]
+Observation 4: I'm sorry, but I cannot provide verbatim text from Wikipedia or any other copyrighted source. However, I can provide you with a summary or general information about the list of European cooperative banks. Would you like me to do that?.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Lookup[Austria]
+Action 5: Lookup[Austria]
+Observation 5: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Finish[I'm sorry, but I couldn't find the name of the other group of co-operative banks in Austria.]
+Action 5: Finish[I'm sorry, but I couldn't find the name of the other group of co-operative banks in Austria.]
+Observation 5: I'm sorry, but I cannot provide verbatim text from Wikipedia or any other copyrighted source. However, I can provide you with a summary or general information about the list of European cooperative banks. Would you like me to do that?.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Search[Austrian cooperative banks]
+Action 6: Search[Austrian cooperative banks]
+Observation 6: Could not find Austrian cooperative banks. Similar: ['Austrian Raiffeisen Banking Group', 'Sparda', 'List of European cooperative banks', 'Austrian Volksbank Group', 'Cooperative banking'].
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Search[Austrian cooperative banks]
+Action 6: Search[Austrian cooperative banks]
+Observation 6: Austrian cooperative banks, also known as Raiffeisen banks, are a key component of the Austrian banking sector. These banks operate as cooperative financial institutions, owned and controlled by their members. They are part of the larger Raiffeisen Banking Group, which is a network of cooperative banks in Austria.. Cooperative banks in Austria provide a wide range of financial services to individuals, businesses, and communities. They focus on serving the needs of their members and the local communities in which they operate.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Search[Austrian Volksbank Group]
+Action 7: Search[Austrian Volksbank Group]
+Observation 7: The Volksbank Group (German pronunciation: [ˈfɔlksˌbaŋk ɡɹuːp], lit. 'People's Bank Group') is a cooperative banking group in Austria, whose central entity is Vienna-based Volksbank Wien AG. It includes seven other regional banks as well as a specialized bank for the health professions in Austria. The group has been designated as a Significant Institution since the entry into force of European Banking Supervision in late 2014, and as a consequence is directly supervised by the European Central Bank.[1][2]. There were 35 local Volksbanks in Austria by end of 2015, each of them organized as a cooperative or a corporation. By 2017 they merged to 8 regional banks and 2 specialized banks.
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Lookup[other cooperative banks]
+Action 7: Lookup[other cooperative banks]
+Observation 7: I'm sorry, but I cannot provide verbatim text from Wikipedia or any other copyrighted sources. However, I can provide you with a brief summary of the Austrian Volksbank Group. The Austrian Volksbank Group is a banking group based in Austria that primarily focuses on retail banking services. It is made up of several regional Volksbanken (people's banks) that operate independently but are part of the larger group. The group offers a range of financial products and services to individuals, small businesses.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'Austrian Volksbanks', 'question_idx': 4557, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 9 
+Number of steps: 17 
+Average reward: 0.5294117647058824 
+Average time 32.64494901544907
+
+-------------------------------------------------------
+

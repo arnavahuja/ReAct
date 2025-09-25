@@ -1,0 +1,53 @@
+INFO 245 Question: Jimmy Garcia lost by unanimous decision to a professional boxer that challenged for what title in 1995?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Jimmy Garcia]
+Action 1: Search[Jimmy Garcia]
+Observation 1: Jimmy Garcia (October 12, 1971 – May 19, 1995) was a Colombian boxer who was best known for losing a WBC super featherweight title to Gabriel Ruelas and subsequently dying 13 days later from brain damage.[2] The loss to Ruelas was the only stoppage loss of Garcia's career, and the former Colombian Featherweight champion's corner was criticized for not stopping the fight earlier.[3] The Ruelas match had been Garcia's second unsuccessful title shot, having lost a unanimous decision to Genaro Hernández earlier.[4]. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us. HelpLearn to editCommunity portalRecent changesUpload fileSpecial pages. Donate. Create account.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Jimmy Garcia]
+Action 1: Search[Jimmy Garcia]
+Observation 1: I'm sorry, but I can't provide verbatim excerpts from Wikipedia. However, I can provide you with a brief summary of Jimmy Garcia. Jimmy Garcia is a professional boxer from Venezuela who competed in the lightweight division. He is known for his impressive record and fighting style. Garcia has gained recognition for his skills and determination in the ring, making him a respected figure in the boxing world..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Genaro Hernandez]
+Action 2: Search[Genaro Hernandez]
+Observation 2: Genaro Hernández (May 10, 1966 – June 7, 2011) was a Mexican American professional boxer who competed from 1984 to 1998.[1][2][3] Nicknamed "Chicanito" Hernandez, he went on to become a two-time super featherweight world champion, having held the WBA title from 1991 to 1995, and the WBC and lineal titles from 1997 to 1998. Additionally, he challenged for the WBO lightweight title in 1995.. "Chicanito" Hernández, a Mexican-American, enjoyed a distinguished career as a professional boxer. His debut as a paid fighter came on September 27, 1984, when he beat Dino Ramirez by a decision in four rounds in Inglewood, California.[4] He racked up a record of 13–0 with 6 knockouts and a solid reputation as a future champion around Southern California, when he met former Julio César Chávez world title challenger Refugio Rojas on November 22, 1988. He beat Rojas, who had lasted seven rounds against Chávez, by a knockout in round six.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[unanimous decision]
+Action 2: Lookup[unanimous decision]
+Observation 2: Genaro "Chicanito" Hernández (May 10, 1966 – June 7, 2011) was an American professional boxer who competed from 1984 to 1998. He was born in Los Angeles, California, and was known for his technical skills and defensive prowess in the ring. Hernández held the WBA super featherweight title from 1991 to 1994 and the WBC super featherweight title from 1997 to 1998..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[WBO lightweight title]
+Action 3: Finish[WBO lightweight title]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[title in 1995]
+Action 3: Lookup[title in 1995]
+Observation 3: Genaro "Chicanito" Hernández (May 10, 1966 – June 7, 2011) was an American professional boxer who competed from 1984 to 1998. He was born in Los Angeles, California, and was known for his technical skills and defensive prowess in the ring. Hernández held the WBA super featherweight title from 1991 to 1994 and the WBC super featherweight title from 1997 to 1998..
+
+
+
+INFO {'steps': 5, 'answer': 'WBO lightweight title', 'gt_answer': 'WBO lightweight title', 'question_idx': 5585, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 14 
+Number of steps: 41 
+Average reward: 0.34146341463414637 
+Average time 25.751410513389402
+
+-------------------------------------------------------
+

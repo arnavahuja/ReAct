@@ -1,0 +1,53 @@
+INFO 5619 Question: What type of sport does Sergio Casal and Manuel Orantes have in common?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Sergio Casal]
+Action 1: Search[Sergio Casal]
+Observation 1: Sergio Casal Martínez (born 8 September 1962) is a former professional tennis player from Spain. During his career, he won three Grand Slam doubles titles, as well as the men's doubles silver medal at the 1988 Summer Olympics.. Casal turned professional in 1981. He won his first top-level doubles title in 1983 at Aix-en-Provence. He captured a total of 47 men's doubles titles during his career.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Sergio Casal]
+Action 1: Search[Sergio Casal]
+Observation 1: Sergio Casal is a former professional tennis player from Spain. He was born on November 10, 1966, in Barcelona, Spain.. Casal achieved his highest singles ranking of World No. 34 on July 24, 1989. He won two ATP singles titles during his career: the 1988 Puerta de Hierro Grand Prix and the 1989 Estoril Open.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Manuel Orantes]
+Action 2: Search[Manuel Orantes]
+Observation 2: Manuel Orantes Corral (Spanish pronunciation: [maˈnwel oˈɾantes koˈral]; born 6 February 1949) is a Spanish former professional tennis player. He won 36 career singles titles, including the 1975 US Open, defeating defending champion Jimmy Connors in the final. Orantes reached a career-high singles ranking of world No. 2.. On 7 September 1975 Orantes defeated top-seeded Jimmy Connors in straight sets in the final of the US Open at Forest Hills, New York, where he "destroyed Connors' usually furious attacking game with popcorn balls"[3] to win his only Grand Slam title.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Manuel Orantes]
+Action 2: Search[Manuel Orantes]
+Observation 2: **Manuel Orantes**. Manuel Orantes is a Spanish former professional tennis player. He achieved a career-high singles ranking of World No. 2 in August 1973.. **Career Highlights:**.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[tennis]
+Action 3: Finish[tennis]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Tennis]
+Action 3: Finish[Tennis]
+Observation 3: **Manuel Orantes**. Manuel Orantes is a Spanish former professional tennis player. He achieved a career-high singles ranking of World No. 2 in August 1973.. **Career Highlights:**.
+
+
+
+INFO {'steps': 5, 'answer': 'tennis', 'gt_answer': 'tennis', 'question_idx': 1173, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 1 
+Number of steps: 2 
+Average reward: 0.5 
+Average time 19.032163977622986
+
+-------------------------------------------------------
+

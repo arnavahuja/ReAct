@@ -1,0 +1,109 @@
+INFO 3908 Question: Who collaborated with Rihanna on the album release "Numb"?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Numb (Rihanna song)]
+Action 1: Search[Numb (Rihanna song)]
+Observation 1: Unapologetic is the seventh studio album by Barbadian singer Rihanna. It was released on 19 November 2012 by Def Jam Recordings and SRP Records. It was recorded between June and November 2012, during promotion of her sixth studio album, Talk That Talk (2011). As executive producer, Rihanna enlisted previous collaborators The-Dream, David Guetta, Chase & Status, and Stargate to work alongside new collaborators such as Parker Ighile, Mike Will Made It, and Labrinth. Unapologetic is primarily a pop, synth-pop, and R&B record that incorporates elements of hip hop, EDM, dubstep, rock and reggae in its production, merging the sound of her previous albums Talk That Talk, Loud (2010) and Rated R (2009)..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Numb by Rihanna]
+Action 1: Search[Numb by Rihanna]
+Observation 1: "Numb" is a song by Barbadian singer Rihanna from her seventh studio album, *Unapologetic* (2012). The track was written by Mikkel S. Eriksen, Tor Erik Hermansen, and James Fauntleroy, and produced by the former two under their production team, Stargate. "Numb" features a moody, atmospheric sound with lyrics that explore themes of emotional detachment and vulnerability in a tumultuous relationship.. The song received generally positive reviews from.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Lookup[Numb]
+Action 2: Lookup[Numb]
+Observation 2: (Result 1 / 2) "Numb" is a song by Barbadian singer Rihanna from her seventh studio album, *Unapologetic* (2012).
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[collaboration]
+Action 2: Lookup[collaboration]
+Observation 2: "Numb" is a song by Barbadian singer Rihanna from her seventh studio album, *Unapologetic* (2012). The track was written by Mikkel S. Eriksen, Tor Erik Hermansen, and James Fauntleroy, and produced by the former two under their production team, Stargate. "Numb" features a moody, atmospheric sound with lyrics that explore themes of emotional detachment and vulnerability in a tumultuous relationship.. The song received generally positive reviews from.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Lookup[collaborated]
+Action 3: Lookup[collaborated]
+Observation 3: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Mikkel S. Eriksen, Tor Erik Hermansen, and James Fauntleroy]
+Action 3: Finish[Mikkel S. Eriksen, Tor Erik Hermansen, and James Fauntleroy]
+Observation 3: "Numb" is a song by Barbadian singer Rihanna from her seventh studio album, *Unapologetic* (2012). The track was written by Mikkel S. Eriksen, Tor Erik Hermansen, and James Fauntleroy, and produced by the former two under their production team, Stargate. "Numb" features a moody, atmospheric sound with lyrics that explore themes of emotional detachment and vulnerability in a tumultuous relationship.. The song received generally positive reviews from.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Numb (Rihanna song) collaboration]
+Action 4: Search[Numb (Rihanna song) collaboration]
+Observation 4: Could not find Numb (Rihanna song) collaboration. Similar: ['The Monster (song)', 'Rihanna', 'List of songs recorded by Rihanna', 'Unapologetic (redirect from Numb (Rihanna song))', 'Numb/Encore'].
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[Mikkel S. Eriksen, Tor Erik Hermansen, and James Fauntleroy]
+Action 4: Finish[Mikkel S. Eriksen, Tor Erik Hermansen, and James Fauntleroy]
+Observation 4: "Numb" is a song by Barbadian singer Rihanna from her seventh studio album, *Unapologetic* (2012). The track was written by Mikkel S. Eriksen, Tor Erik Hermansen, and James Fauntleroy, and produced by the former two under their production team, Stargate, along with additional production by DJ Mustard.. The song features a moody, atmospheric sound with lyrics that explore themes of emotional numbness and detachment. Rihanna's vocal.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[List of songs recorded by Rihanna]
+Action 5: Search[List of songs recorded by Rihanna]
+Observation 5: Barbadian singer Rihanna has recorded music for her eight studio albums and has collaborated with other artists for duets and featured songs on their respective albums, which also includes charity songs. After signing a record contract with the Def Jam Recordings in February 2005,[1] Rihanna began to work with producers Carl Sturken and Evan Rogers, who co-wrote and co-produced 12 out of the 15 songs on her 2005 debut album, Music of the Sun.[2] Award-winning songwriter Diane Warren co-wrote the title track,[2][3] while Grammy Award-winning singer-songwriter Deniece Williams co-wrote the song "Willing to Wait".[4] Sturken and Rogers co-wrote and co-produced 9 songs out of 16 on Rihanna's 2006 album A Girl like Me.[5] The album's lead single "SOS" was written by Evan "Kidd" Bogart and J. R. Rotem.[5] It contains a sped-up sample of "Tainted Love",[6] written in 1965 by Ed Cobb, who was credited as a co-writer on "SOS".[7]. Rihanna's third studio album Good Girl Gone Bad was developed by songwriters and producers with whom she had previously collaborated as well as different artists.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Finish[Mikkel S. Eriksen, Tor Erik Hermansen, James Fauntleroy, Stargate, DJ
+Action 5: Finish[Mikkel S. Eriksen, Tor Erik Hermansen, James Fauntleroy, Stargate, DJ
+Observation 5: List of songs recorded by Rihanna. Rihanna, the Barbadian singer, songwriter, and actress, has recorded numerous songs throughout her career spanning multiple albums and collaborations. Her discography includes a diverse range of musical styles, from pop and R&B to dance and reggae influences.. Studio Albums and Notable Songs:. 1.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Lookup[Numb]
+Action 6: Lookup[Numb]
+Observation 6: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Lookup[Numb]
+Action 6: Lookup[Numb]
+Observation 6: List of songs recorded by Rihanna. Rihanna, the Barbadian singer, songwriter, and actress, has recorded numerous songs throughout her career spanning multiple albums and collaborations. Her discography includes a diverse range of musical styles, from pop and R&B to dance and reggae influences.. Studio Albums and Notable Songs:. 1.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Search[Numb (Rihanna song) Wikipedia]
+Action 7: Search[Numb (Rihanna song) Wikipedia]
+Observation 7: Could not find Numb (Rihanna song) Wikipedia. Similar: ['Rihanna', 'Super Bowl LVII halftime show (redirect from Rihanna halftime show)', 'Drake (musician) (redirect from These Days (Drake song))', 'The Weeknd (redirect from The Dawn Is Coming (song))', 'Kendrick Lamar (redirect from Purple Hibiscus (song))'].
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Lookup[Numb]
+Action 7: Lookup[Numb]
+Observation 7: "Numb" is a song by Barbadian singer Rihanna from her seventh studio album, *Unapologetic* (2012). The track was written by Mikkel S. Eriksen, Tor Erik Hermansen, and James Fauntleroy, and produced by the former two under their production team, Stargate. "Numb" features a moody, atmospheric sound with lyrics that explore themes of emotional detachment and vulnerability in a troubled relationship.. The song received generally positive reviews from music.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'Eminem', 'question_idx': 509, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 7 
+Number of steps: 25 
+Average reward: 0.28 
+Average time 30.031069955825807
+
+-------------------------------------------------------
+

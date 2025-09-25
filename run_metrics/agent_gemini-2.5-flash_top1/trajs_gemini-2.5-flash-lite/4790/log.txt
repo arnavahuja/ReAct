@@ -1,0 +1,67 @@
+INFO 4790 Question: Roger Stuart Woolhouse is a biographer of a philosopher commonly known as what ?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Roger Stuart Woolhouse]
+Action 1: Search[Roger Stuart Woolhouse]
+Observation 1: Could not find Roger Stuart Woolhouse. Similar: ['Roger Woolhouse', 'Gottfried Wilhelm Leibniz', 'John Locke', 'Thought experiment', 'List of statisticians'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Roger Stuart Woolhouse]
+Action 1: Search[Roger Stuart Woolhouse]
+Observation 1: Roger Stuart Woolhouse (born 1943) is a British historian specializing in the history of science and technology, particularly during the Enlightenment and the Industrial Revolution.. Woolhouse received his education at the University of Cambridge, where he earned his Ph.D. He has held academic positions at several universities, including the University of York and the University of Manchester.. His scholarly work focuses on the intellectual and social context of scientific and technological advancements. Key themes in his research include the development of.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Roger Woolhouse]
+Action 2: Search[Roger Woolhouse]
+Observation 2: Roger Stuart Woolhouse (15 February 1940 – 24 September 2011) was an English philosopher, an expert on empiricism and rationalism and a biographer of John Locke.[1]. He was born in Wath-upon-Dearne and educated at Saltburn Primary School, Sir William Turner's Grammar School, London University (Philosophy) and then Selwyn College, Cambridge for his Doctorate.[2]. From 1969 until his retirement in 2001, Woolhouse worked in the Department of Philosophy at the University of York.[2]. Cambridge University Press requested Woolhouse write a biography of Locke, the last major biography being Maurice Cranston's 1957 work. Woolhouse's biography appeared in 2007..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[biographer]
+Action 2: Lookup[biographer]
+Observation 2: Roger Woolhouse is a British historian specializing in the history of science and medicine. He is particularly known for his work on the Enlightenment and the scientific revolution.. Woolhouse's academic career has been primarily associated with the University of York, where he has held positions as a lecturer and senior lecturer in the Department of History. His research interests have focused on the intellectual and social history of science, with a particular emphasis on the development of scientific ideas and institutions during the 17th and 1.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[John Locke]
+Action 3: Search[John Locke]
+Observation 3: John Locke (/lɒk/; 29 August 1632 (O.S.) – 28 October 1704 (O.S.))[11] was an English philosopher and physician, widely regarded as one of the most influential of the Enlightenment thinkers and commonly known as the "father of liberalism".[12][13][14] Considered one of the first of the British empiricists, following the tradition of Francis Bacon, Locke is equally important to social contract theory. His work greatly affected the development of epistemology and political philosophy.[15]. His writings influenced Voltaire, Jean-Jacques Rousseau, and many Scottish Enlightenment thinkers, as well as the American Revolutionaries. His contributions to classical republicanism and liberal theory are reflected in the United States Declaration of Independence.[16] Internationally, Locke's political-legal principles continue to have a profound influence on the theory and practice of limited representative government and the protection of basic rights and freedoms under the rule of law.[17]. Locke's philosophy of mind is often cited as the origin of modern conceptions of personal identity and the psychology of self, figuring prominently in the work of later philosophers, such as Rousseau, David Hume, and Immanuel Kant.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[biographer]
+Action 3: Lookup[biographer]
+Observation 3: John Locke (1632-1704) was an English philosopher and physician, widely regarded as one of the most influential of Enlightenment thinkers and commonly known as the "Father of Liberalism." His work greatly affected political philosophy and epistemology, influencing many Enlightenment thinkers, as well as the American Revolutionaries.. **Early Life and Education:**. Born in Wrington, Somerset, England, Locke was educated at Westminster School and Christ Church, Oxford. He studied medicine and became a close.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[father of liberalism]
+Action 4: Finish[father of liberalism]
+Observation 4: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[Father of Liberalism]
+Action 4: Finish[Father of Liberalism]
+Observation 4: John Locke (1632-1704) was an English philosopher and physician, widely regarded as one of the most influential of Enlightenment thinkers and commonly known as the "Father of Liberalism." His work greatly affected political philosophy and epistemology, influencing many Enlightenment thinkers, as well as the American Revolutionaries.. **Early Life and Education:**. Born in Wrington, Somerset, England, Locke was educated at Westminster School and Christ Church, Oxford. He studied medicine and became a close.
+
+
+
+INFO {'steps': 7, 'answer': 'father of liberalism', 'gt_answer': 'Father of Liberalism', 'question_idx': 4299, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 5 
+Number of steps: 11 
+Average reward: 0.45454545454545453 
+Average time 9.52902609651739
+
+-------------------------------------------------------
+

@@ -1,0 +1,53 @@
+INFO 6 Question: Did the Sandy and Beaver Canal remain operational until a later date than the Los Angeles Aqueduct?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Sandy and Beaver Canal]
+Action 1: Search[Sandy and Beaver Canal]
+Observation 1: The Sandy and Beaver Canal was a canal and lock transportation system which ran seventy-three miles from the Ohio and Erie Canal at Bolivar, Ohio, to the Ohio River at Glasgow, Pennsylvania.. It was chartered in 1828 and completed twenty years later. It ceased operations in 1852.. In 1828, Major D.B. Douglas of the United States Military Academy surveyed potential new canal routes, including the site that would ultimately be chosen as the location for the Sandy and Beaver Canal.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Sandy and Beaver Canal]
+Action 1: Search[Sandy and Beaver Canal]
+Observation 1: The Sandy and Beaver Canal was a historic canal in the United States that connected the Ohio River at Sandy Creek near Steubenville, Ohio, to the Ohio and Erie Canal at Akron, Ohio. Constructed in the early 19th century, the canal was part of a broader effort to improve transportation and commerce in Ohio and the surrounding regions.. The canal was approximately 73 miles long and featured a series of locks to manage elevation changes along its route. It was intended to facilitate the movement of.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Los Angeles Aqueduct]
+Action 2: Search[Los Angeles Aqueduct]
+Observation 2: The Los Angeles Aqueduct system, comprising the Los Angeles Aqueduct (Owens Valley aqueduct) and the Second Los Angeles Aqueduct, is a water conveyance system, built and operated by the Los Angeles Department of Water and Power.[6] The Owens Valley aqueduct was designed and built by the city's water department, at the time named The Bureau of Los Angeles Aqueduct, under the supervision of the department's Chief Engineer William Mulholland.[7] The system delivers water from the Owens River in the eastern Sierra Nevada mountains to Los Angeles.. The aqueduct's construction was controversial from the start, as water diversions to Los Angeles eliminated the Owens Valley as a viable farming community.[8] Clauses in the city's charter originally stated that the city could not sell or provide surplus water to any area outside the city, forcing adjacent communities to annex themselves into Los Angeles.[9]. The aqueduct's infrastructure also included the completion of the St. Francis Dam in 1926 to provide storage in case of disruption to the system.[10] The dam's collapse two years later killed at least 431 people, halted the rapid pace of annexation, and eventually led to the formation of the Metropolitan Water District of Southern California to build and operate the Colorado River Aqueduct to bring water from the Colorado River to Los Angeles County.[9][11]. The continued operation of the Los Angeles Aqueduct has led to public debate, legislation, and court battles over its environmental impacts on Mono Lake and other ecosystems.[12].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[operational]
+Action 2: Lookup[operational]
+Observation 2: The Los Angeles Aqueduct is a significant engineering feat that supplies water to the city of Los Angeles, California. Constructed between 1908 and 1913, it was designed to transport water from the Owens River in the Eastern Sierra Nevada to the arid Los Angeles Basin. The aqueduct spans approximately 233 miles (375 kilometers) and includes a combination of concrete-lined canals, tunnels, and siphons. Its construction was initiated by William Mulholland, the chief engineer of the Los Angeles.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[No]
+Action 3: Finish[No]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[No]
+Action 3: Finish[No]
+Observation 3: The Los Angeles Aqueduct is a significant engineering feat that supplies water to the city of Los Angeles, California. Constructed between 1908 and 1913, it was designed to transport water from the Owens River in the Eastern Sierra Nevada to the arid Los Angeles Basin. The aqueduct spans approximately 233 miles (375 kilometers) and includes a combination of concrete-lined canals, tunnels, and siphons. Its construction was initiated by William Mulholland, the chief engineer of the Los Angeles.
+
+
+
+INFO {'steps': 5, 'answer': 'No', 'gt_answer': 'no', 'question_idx': 1666, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 4 
+Number of steps: 8 
+Average reward: 0.5 
+Average time 16.008273243904114
+
+-------------------------------------------------------
+

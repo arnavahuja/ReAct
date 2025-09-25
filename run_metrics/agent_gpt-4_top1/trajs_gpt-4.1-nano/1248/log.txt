@@ -1,0 +1,53 @@
+INFO 1248 Question: The current home ground of the Salford Red Devils was built for what season?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Salford Red Devils]
+Action 1: Search[Salford Red Devils]
+Observation 1: The Salford Red Devils are a professional rugby league club in Salford, England. They play home games at Salford Community Stadium in Barton upon Irwell and compete in the Super League, the top tier of British rugby league.. Salford Red Devils have won the League Championship six times and Challenge Cup once. The club's traditional home colours are red white and blue. They have a local rivalry with Swinton Lions and other significant rivalries with Oldham and Rochdale..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Salford Red Devils]
+Action 1: Search[Salford Red Devils]
+Observation 1: The Salford Red Devils are a professional rugby league club based in Salford, Greater Manchester, England. The team competes in the Super League, the top tier of professional rugby league in the United Kingdom. The club was founded in 1873 as Salford Rugby Club and has a long-standing history within the sport.. Historically, the club has experienced various periods of success and challenge. They have won the Championship several times and secured the Challenge Cup in 1938.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Salford Community Stadium]
+Action 2: Search[Salford Community Stadium]
+Observation 2: The Salford Community Stadium is a rugby stadium in Barton-upon-Irwell, England,[5] built to replace Salford rugby league club's ground the Willows for the 2012 season. Sale Sharks rugby union club have also played at the stadium since the 2012–13 season.. In 2005, Salford City Council approved plans for the Reds to move from the Willows to the brownfield site at Barton.[6]. The stadium was originally to be developed by Red City Developments, with construction to be complete for the start of the 2009 season.[7] However, RCD went into administration in July 2008.[8]. Salford City Council formed a joint venture company with Peel Group[2] to develop and deliver the £16 million stadium,[3] which is part of the a £26 million development[3] close to the Manchester Ship Canal and the M60 motorway..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[home ground]
+Action 2: Lookup[home ground]
+Observation 2: Salford Community Stadium, also known as AJ Bell Stadium for sponsorship reasons, is a multi-purpose sports and entertainment venue located in Salford, Greater Manchester, England. The stadium was officially opened in 2012 and serves as the home ground for several sports teams and hosts various events.. The stadium has a seating capacity of approximately 12,000 for rugby matches and around 16,000 for football events, making it a significant sporting venue in the region. It features modern facilities, including hospitality suites.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[2012 season]
+Action 3: Finish[2012 season]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[2012 season]
+Action 3: Finish[2012 season]
+Observation 3: Salford Community Stadium, also known as AJ Bell Stadium for sponsorship reasons, is a multi-purpose sports and entertainment venue located in Salford, Greater Manchester, England. The stadium was officially opened in 2012 and serves as the home ground for several sports teams and hosts various events.. The stadium has a seating capacity of approximately 12,000 for rugby matches and around 16,000 for football events, making it a significant sporting venue in the region. It features modern facilities, including hospitality suites.
+
+
+
+INFO {'steps': 5, 'answer': '2012 season', 'gt_answer': 'the 2012 season', 'question_idx': 3451, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 4 
+Number of steps: 9 
+Average reward: 0.4444444444444444 
+Average time 26.119534995820786
+
+-------------------------------------------------------
+

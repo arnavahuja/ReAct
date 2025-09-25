@@ -1,0 +1,67 @@
+INFO 5514 Question: Who proposed plan in which education in state institutions of Argentina is free at the initial, primary, secondary and tertiary levels and in the undergraduate university level?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Education in Argentina]
+Action 1: Search[Education in Argentina]
+Observation 1: Education in Argentina is a responsibility shared by the national government, the provinces and federal district and private institutions. Education at all levels, including university, is free. President Domingo Sarmiento's assertion that "the sovereign should be educated" has been a keystone of Argentine Education since 1918. Education has been extended nearly universally and its maintenance remains central to political and cultural debate. There are a significant number of private schools and universities despite free schooling..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Free education in Argentina]
+Action 1: Search[Free education in Argentina]
+Observation 1: Education in Argentina is a responsibility shared by the national government, the provinces, and the autonomous city of Buenos Aires. The education system in Argentina is divided into three levels: primary education, secondary education, and higher education. Primary education is compulsory and free for all children aged 6 to 14. Secondary education is also free and lasts for five to six years. Higher education in Argentina is provided by universities and other institutions and is highly regarded in Latin America.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Domingo Sarmiento]
+Action 2: Search[Domingo Sarmiento]
+Observation 2: Domingo Faustino Sarmiento[c] (15 February 1811 – 11 September 1888) was President of Argentina from 1868 to 1874. He was a member of a group of intellectuals, known as the Generation of 1837, who had a great influence on 19th-century Argentina. He was particularly concerned with educational issues and was also an important influence on the region's literature. His works spanned a wide range of genres and topics, from journalism to autobiography, to political philosophy and history.. Sarmiento grew up in a poor but politically active family that paved the way for many of his future accomplishments.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[free education]
+Action 2: Lookup[free education]
+Observation 2: Domingo Faustino Sarmiento (1811-1888) was an Argentine activist, intellectual, writer, and statesman who served as the seventh President of Argentina. He was a leading figure in the political and intellectual landscape of 19th-century Argentina, known for his advocacy of educational and social reforms.. Sarmiento played a key role in the modernization of Argentina, promoting public education and immigration to develop the country. He believed that education was essential for progress and social mobility.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Lookup[free education]
+Action 3: Lookup[free education]
+Observation 3: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Domingo Faustino Sarmiento]
+Action 3: Finish[Domingo Faustino Sarmiento]
+Observation 3: Domingo Faustino Sarmiento (1811-1888) was an Argentine activist, intellectual, writer, and statesman who served as the seventh President of Argentina. He was a leading figure in the political and intellectual landscape of 19th-century Argentina, known for his advocacy of educational and social reforms.. Sarmiento played a key role in the modernization of Argentina, promoting public education and immigration to develop the country. He believed that education was essential for progress and social mobility.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[Domingo Sarmiento]
+Action 4: Finish[Domingo Sarmiento]
+Observation 4: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[Domingo Faustino Sarmiento]
+Action 4: Finish[Domingo Faustino Sarmiento]
+Observation 4: Domingo Faustino Sarmiento (1811-1888) was an Argentine activist, intellectual, writer, and statesman who served as the seventh President of Argentina. He was a leading figure in the political and intellectual landscape of 19th-century Argentina, known for his advocacy of educational and social reforms.. Sarmiento played a key role in the modernization of Argentina, promoting public education and immigration to develop the country. He believed that education was essential for progress and social mobility.
+
+
+
+INFO {'steps': 7, 'answer': 'Domingo Sarmiento', 'gt_answer': 'Dr. Alberto Taquini', 'question_idx': 1450, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 0 
+Number of steps: 3 
+Average reward: 0.0 
+Average time 28.185905694961548
+
+-------------------------------------------------------
+

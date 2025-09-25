@@ -1,0 +1,53 @@
+INFO 1477 Question: Which man, Ibn Tufail or Ali Qushji, is best known for the development of astronomical physics independent from natural philosophy?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Ibn Tufail]
+Action 1: Search[Ibn Tufail]
+Observation 1: Ibn Ṭufayl[a] (c. 1105 – 1185) was an Arab Andalusian Muslim polymath: a writer, Islamic philosopher, Islamic theologian, physician, astronomer, and vizier.[1]. As a philosopher and novelist, he is most famous for writing the first philosophical novel, Hayy ibn Yaqdhan (The Living Son of the Vigilant), considered a major work of Arabic literature emerging from Al-Andalus.[2] As a physician, he was an early supporter of dissection and autopsy, which was expressed in his novel.[3]. Born in Guadix, near Granada, he was educated by Ibn Bajjah (Avempace).[4] His family were from the Arab Qays tribe.[5] He was a secretary for several leaders, including the rulers of Ceuta and Tangier, in 1154.[6] He also served as a secretary for the ruler of Granada, and later as vizier and physician for Abu Yaqub Yusuf, the Almohad caliph,[4] to whom he recommended Ibn Rushd (Averroës) as his own future successor in 1169.[7] Ibn Rushd later reports this event and describes how Ibn Tufayl then inspired him to write his famous Aristotelian commentaries:. Abu Bakr ibn Tufayl summoned me one day and told me that he had heard the Commander of the Faithful complaining about the disjointedness of Aristotle's mode of expression — or that of the translators — and the resultant obscurity of his intentions. He said that if someone took on these books who could summarize them and clarify their aims after first thoroughly understanding them himself, people would have an easier time comprehending them.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Ibn Tufail]
+Action 1: Search[Ibn Tufail]
+Observation 1: Ibn Tufail (c. 1105 – c. 1185) was an Arab Andalusian polymath, philosopher, physician, and novelist born in Guadix, in present-day Spain. He is best known for his philosophical novel "Hayy ibn Yaqzan" ("The Living Son of the Vigilant"), which explores themes of self-discovery, the nature of knowledge, and the relationship between reason and faith.. Ibn Tufail studied in Córdoba and later in.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Ali Qushji]
+Action 2: Search[Ali Qushji]
+Observation 2: Ala al-Dīn Ali ibn Muhammed (1403 – 18 December 1474[1]), Persian: علاءالدین علی بن محمد سمرقندی known as Ali Qushji (Ottoman Turkish : علی قوشچی, kuşçu – falconer in Turkish; Latin: Ali Kushgii) was a Timurid theologian, jurist, astronomer, mathematician and physicist, who settled in the Ottoman Empire some time before 1472.[2] As a disciple of Ulugh Beg, he is best known for the development of astronomical physics independent from natural philosophy, and for providing empirical evidence for the Earth's rotation in his treatise, Concerning the Supposed Dependence of Astronomy upon Philosophy. In addition to his contributions to Ulugh Beg's famous work Zij-i-Sultani and to the founding of Sahn-ı Seman Medrese, one of the first centers for the study of various traditional Islamic sciences in the Ottoman Empire, Ali Kuşçu was also the author of several scientific works and textbooks on astronomy.[3]. Ali Kuşçu was born in 1403 in the city of Samarkand, in present-day Uzbekistan. His full name at birth was Ala al-Dīn Ali ibn Muhammed al-Qushji. The last name Qushji derived from the Turkish term kuşçu—"falconer"[4]—due to the fact that Ali's father Muhammad was the royal falconer of Ulugh Beg.[3] Sources consider him Turkic[5] or Persian.[6].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Ali Qushji]
+Action 2: Search[Ali Qushji]
+Observation 2: Ali Qushji (also spelled Qushji or Qushji, c. 1403 – 1474) was a prominent Ottoman astronomer, mathematician, and theologian of the 15th century. Born in the city of Samarkand, which was then part of the Timurid Empire, he later moved to the Ottoman Empire, where he became a significant figure in the scientific and intellectual circles of his time.. Qushji is renowned for his contributions to astronomy and his.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Ali Qushji]
+Action 3: Finish[Ali Qushji]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[astronomical physics]
+Action 3: Lookup[astronomical physics]
+Observation 3: Ali Qushji (also spelled Qushji or Qushji, c. 1403 – 1474) was a prominent Ottoman astronomer, mathematician, and theologian of the 15th century. Born in the city of Samarkand, which was then part of the Timurid Empire, he later moved to the Ottoman Empire, where he became a significant figure in the scientific and intellectual circles of his time.. Qushji is renowned for his contributions to astronomy and his.
+
+
+
+INFO {'steps': 5, 'answer': 'Ali Qushji', 'gt_answer': 'Ali Qushji', 'question_idx': 1804, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 5 
+Number of steps: 11 
+Average reward: 0.45454545454545453 
+Average time 25.355261737650093
+
+-------------------------------------------------------
+

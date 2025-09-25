@@ -1,0 +1,53 @@
+INFO 5890 Question: Do both Kettering University and University of New Mexico offer post-secondary degrees?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Kettering University]
+Action 1: Search[Kettering University]
+Observation 1: Kettering University is a private university in Flint, Michigan. It offers bachelor of science and master’s degrees in STEM (science, technology, engineering, and mathematics) and business. Kettering University undergraduate students must complete at least five co-op terms to graduate.[4]. Kettering University is named after inventor and former head of research for General Motors, Charles F. Kettering.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Kettering University]
+Action 1: Search[Kettering University]
+Observation 1: Kettering University, formerly known as General Motors Institute (GMI), is a private university in Flint, Michigan, that focuses on science, engineering, and business. It is known for its distinctive cooperative education program, which integrates classroom learning with practical, paid work experience in industry.. **History:**. Kettering University was founded in 1919 as the General Motors Institute (GMI) by General Motors (GM) to train engineers and technicians for its operations. Initially,.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[University of New Mexico]
+Action 2: Search[University of New Mexico]
+Observation 2: The University of New Mexico (UNM; Spanish: Universidad de Nuevo México)[6]  is a public research university in Albuquerque, New Mexico, United States. Founded in 1889 by the New Mexico Territorial Legislature, it is the state's second oldest university, a flagship university in the state,[7][8] and the largest by enrollment, with 22,630 students in 2023.. UNM comprises twelve colleges and schools, including a medical school and the only law school in New Mexico. It offers 215 degree and certificate programs, including 94 baccalaureate, 71 master, and 37 doctoral degree programs.[9] The main campus spans 800 acres (320 ha) in central Albuquerque, with branch campuses in Gallup, Los Alamos, Rio Rancho, Taos, and Los Lunas.[10]. UNM is classified among "R1: Doctoral Universities - Very high research activity".[11] According to the National Science Foundation, it spent over $243 million on research and development in 2021, ranking 103rd in the U.S.[12] UNM is classified as a Hispanic-Serving Institution (HSI) by the U.S.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[University of New Mexico]
+Action 2: Search[University of New Mexico]
+Observation 2: The **University of New Mexico** (often referred to as **UNM**) is a public research university in Albuquerque, New Mexico. Founded in 1889, it is the flagship institution of the University of New Mexico System and the largest university in the state.. UNM offers a wide range of undergraduate, graduate, and professional degree programs through its various colleges and schools. These include the College of Arts & Sciences, Anderson School of Management, School of Engineering, School of Law,.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[yes]
+Action 3: Finish[yes]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Yes]
+Action 3: Finish[Yes]
+Observation 3: The **University of New Mexico** (often referred to as **UNM**) is a public research university in Albuquerque, New Mexico. Founded in 1889, it is the flagship institution of the University of New Mexico System and the largest university in the state.. UNM offers a wide range of undergraduate, graduate, and professional degree programs through its various colleges and schools. These include the College of Arts & Sciences, Anderson School of Management, School of Engineering, School of Law,.
+
+
+
+INFO {'steps': 5, 'answer': 'yes', 'gt_answer': 'yes', 'question_idx': 3212, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 13 
+Number of steps: 27 
+Average reward: 0.48148148148148145 
+Average time 10.773681411036739
+
+-------------------------------------------------------
+

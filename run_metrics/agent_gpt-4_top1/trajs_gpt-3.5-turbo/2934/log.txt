@@ -1,0 +1,67 @@
+INFO 2934 Question: Who directed the 1971 film in which Pat Ashton starred in?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Pat Ashton]
+Action 1: Search[Pat Ashton]
+Observation 1: Pat Ashton (28 February 1931 – 23 June 2013) was an English actress. Her engaging cockney, blonde persona is best remembered for appearances in English TV-sitcom film spin-offs On the Buses (1971) and Mutiny on the Buses (1972).[2]. She was married to Geoff Godwin 1953–1985.. Ashton was born and raised in Wood Green, north London. Trained from childhood as a singer and tap-dancer, she performed in the 1950s at seaside resorts around England in summer season shows.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Pat Ashton 1971 film]
+Action 1: Search[Pat Ashton 1971 film]
+Observation 1: I'm sorry, but I cannot provide verbatim text from Wikipedia. However, I can provide you with a brief summary of Pat Ashton. Pat Ashton is a British actress known for her work in film and television. She has appeared in various TV shows and movies throughout her career, showcasing her talent and versatility as an actress. Ashton has gained recognition for her performances and has become a well-respected figure in the entertainment industry..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[On the Buses (1971)]
+Action 2: Search[On the Buses (1971)]
+Observation 2: Could not find On the Buses (1971). Similar: ['On the Buses', 'Holiday on the Buses', 'Mutiny on the Buses', 'Pat Ashton (category Actors from the London Borough of Haringey)', 'On the Buses (film)'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[1971 film]
+Action 2: Lookup[1971 film]
+Observation 2: "On the Buses" is a British comedy film released in 1971. It is based on the popular British television series of the same name. The film was directed by Harry Booth and written by Ronald Chesney and Ronald Wolfe. The story follows the misadventures of bus driver Stan Butler, played by Reg Varney, and his conductor Jack Harper, played by Bob Grant. The film was a commercial success and was followed by two sequels, "Mutiny on the Buses".
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[On the Buses (film)]
+Action 3: Search[On the Buses (film)]
+Observation 3: On the Buses is a 1971 British comedy film directed by Harry Booth and starring Reg Varney, Doris Hare, Michael Robbins, Anna Karen, Stephen Lewis and Bob Grant.[6] It was the first spin-off film from the TV sitcom On the Buses and was followed by two further films, Mutiny on the Buses (1972) and Holiday on the Buses (1973). The film was produced by Ronald Chesney and Ronald Wolfe for Hammer Films.[7]. The films are set within a slightly different canon from the TV series: Stan and Jack work for a different bus company (Town & District instead of Luxton & District), and the three films form a loose story arc where Arthur and Olive become parents (despite their apparently sexless marriage).. Stan Butler, a bus driver for the Town & District bus company, becomes worried that the overtime he is making – which his family is using to buy expensive items such as a washing machine – will soon end when the company rectifies its current lack of employees. His concerns become justified when the company decides to revoke a long-standing rule that prevents women from being employed as bus drivers, much to the chagrin of both Stan and his long-time colleague and friend, Jack.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Harry Booth]
+Action 3: Finish[Harry Booth]
+Observation 3: I'm sorry, but I cannot provide verbatim text from Wikipedia. However, I can provide you with a brief summary of the film "On the Buses.". "On the Buses" is a British comedy film released in 1971, based on the popular television series of the same name. The film follows the misadventures of bus driver Stan Butler and his conductor Jack Harper as they navigate their daily routines and deal with various comedic situations. The film was well-received by audiences and.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[Harry Booth]
+Action 4: Finish[Harry Booth]
+Observation 4: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[directed]
+Action 4: Lookup[directed]
+Observation 4: I'm sorry, but I cannot provide verbatim text from Wikipedia. However, I can provide you with a brief summary of the film "On the Buses.". "On the Buses" is a British comedy film released in 1971, based on the popular television series of the same name. The film follows the misadventures of bus driver Stan Butler and his conductor Jack Harper as they navigate their daily routines and deal with various comedic situations. The film was well-received by audiences and.
+
+
+
+INFO {'steps': 7, 'answer': 'Harry Booth', 'gt_answer': 'Harry Booth', 'question_idx': 5557, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 11 
+Number of steps: 22 
+Average reward: 0.5 
+Average time 31.94458455389196
+
+-------------------------------------------------------
+

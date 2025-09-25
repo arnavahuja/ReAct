@@ -1,0 +1,39 @@
+INFO 1102 Question: What was Mary Edna González sexuality?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Mary Edna González]
+Action 1: Search[Mary Edna González]
+Observation 1: Mary Edna González (born October 30, 1983) is an American politician who serves in the Texas House of Representatives from House District 75.[1] She is a member of the Democratic Party and was elected in November 2012 to represent an area that includes eastern El Paso County, parts of the city of El Paso and the towns of Socorro, Clint, Fabens, Horizon City, San Elizario and Tornillo.[2] She is also the first openly pansexual elected official in the United States.[3][4]. Her primary platforms are to increase economic development, improve public schools, equality, and support agriculture in District 75.. Mary González was born and raised in Clint, Texas and graduated from Clint High School.[5]. González received her bachelor's degree in History and Mexican American Studies from the University of Texas at Austin (UT Austin) and her master's degree in Social Justice from St. Edward's University.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Mary Edna González]
+Action 1: Search[Mary Edna González]
+Observation 1: Mary Edna González is an American artist known for her vibrant and intricate textile art. Her work often explores themes of identity, heritage, and the natural world, drawing inspiration from her Mexican-American background and her experiences living in various parts of the United States.. González's artistic practice is deeply rooted in traditional fiber techniques, which she reinterprets with a contemporary sensibility. She is particularly recognized for her use of quilting, embroidery, and appliqué, often incorporating found objects and unconventional materials into her.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[pansexual]
+Action 2: Finish[pansexual]
+Observation 2: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[sexuality]
+Action 2: Lookup[sexuality]
+Observation 2: Mary Edna González is an American artist known for her vibrant and intricate textile art. Her work often explores themes of identity, heritage, and the natural world, drawing inspiration from her Mexican-American background and her experiences living in various parts of the United States.. González's artistic practice is deeply rooted in traditional fiber techniques, which she reinterprets with a contemporary sensibility. She is particularly recognized for her use of quilting, embroidery, and appliqué, often incorporating found objects and unconventional materials into her.
+
+
+
+INFO {'steps': 3, 'answer': 'pansexual', 'gt_answer': 'omnisexuality', 'question_idx': 4335, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 2 
+Number of steps: 4 
+Average reward: 0.5 
+Average time 11.293829262256622
+
+-------------------------------------------------------
+

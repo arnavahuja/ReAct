@@ -1,0 +1,39 @@
+INFO 6562 Question: What objects were carried into battle by these naval ships for qhich the QF 6-pounder Hotchkiss were introduced to defend against?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[QF 6-pounder Hotchkiss]
+Action 1: Search[QF 6-pounder Hotchkiss]
+Observation 1: The Ordnance QF Hotchkiss 6 pounder gun Mk I and Mk II or QF 6 pounder 8 cwt were a family of long-lived light 57 mm naval guns introduced in 1885 to defend against new, small and fast vessels such as torpedo boats and later submarines. Many variants were produced, often under license, which ranged in length from 40 to 58 calibres, with 40 calibre the most common.. 6-pounders were widely used by the navies of a number of nations and often used by both sides in a conflict. Due to advances in torpedo delivery and performance, 6-pounder guns were rapidly made obsolete and were replaced with larger guns aboard most larger warships. This led to their being used ashore during World War I as coastal defence guns, the first tank guns and as anti-aircraft guns, whether on improvised or specialized HA/LA mounts.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[QF 6-pounder Hotchkiss]
+Action 1: Search[QF 6-pounder Hotchkiss]
+Observation 1: The **QF 6-pounder Hotchkiss** (Quick-Firing 6-pounder Hotchkiss) was a 57 mm (2.24 inch) naval and coastal defense gun developed by the French company Hotchkiss et Cie in the late 19th century. It was widely adopted by various navies and armies around the world, serving in a variety of roles from anti-torpedo boat defense to close-range support.. ### Development and Design.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[torpedo boats and submarines]
+Action 2: Finish[torpedo boats and submarines]
+Observation 2: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Finish[torpedo boats]
+Action 2: Finish[torpedo boats]
+Observation 2: The **QF 6-pounder Hotchkiss** (Quick-Firing 6-pounder Hotchkiss) was a 57 mm (2.24 inch) naval and coastal defense gun developed by the French company Hotchkiss et Cie in the late 19th century. It was widely adopted by various navies and armies around the world, serving in a variety of roles from anti-torpedo boat defense to close-range support.. ### Development and Design.
+
+
+
+INFO {'steps': 3, 'answer': 'torpedo boats and submarines', 'gt_answer': 'torpedoes', 'question_idx': 5388, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 10 
+Number of steps: 21 
+Average reward: 0.47619047619047616 
+Average time 20.722895622253418
+
+-------------------------------------------------------
+

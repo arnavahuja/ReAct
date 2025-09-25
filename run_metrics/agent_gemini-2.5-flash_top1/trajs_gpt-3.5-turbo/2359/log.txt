@@ -1,0 +1,53 @@
+INFO 2359 Question: Which of the following was founded in 2003: University of Arizona or Presbyterian University College?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[University of Arizona]
+Action 1: Search[University of Arizona]
+Observation 1: The University of Arizona (Arizona, U of A, UArizona, or UA) is a public land-grant research university in Tucson, Arizona, United States. Founded in 1885 by the 13th Arizona Territorial Legislature, it was the first university established in the Arizona Territory. The University of Arizona is one of three universities governed by the Arizona Board of Regents (the University of Arizona, Arizona State University, and Northern Arizona University). As of fall 2023[update], the university enrolled 53,187 students in 22 separate colleges/schools, including the Eller College of Management, the Wyant College of Optical Sciences, the College of Medicine – Phoenix, the College of Medicine – Tucson, and the James E. Rogers College of Law.[10].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[University of Arizona]
+Action 1: Search[University of Arizona]
+Observation 1: The University of Arizona (UA) is a public research university located in Tucson, Arizona, United States. It was founded in 1885 and is the state's land-grant university. The university offers a wide range of undergraduate and graduate programs, including professional degrees in fields such as law, medicine, and pharmacy.. UA is known for its strong research programs, particularly in areas such as astronomy, optical sciences, and environmental science. The university is also home to several research centers and institutes, including.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Presbyterian University College]
+Action 2: Search[Presbyterian University College]
+Observation 2: The Presbyterian University, Ghana (formerly Presbyterian University College, Ghana) is a partially private & public university with multi- campuses and its headquarters located at Abetifi-Kwahu in the Eastern Region of Ghana. It is one of the new universities in Ghana granted accreditation by the Ghana Tertiary Education Commission – GTEC (formerly National Accreditation Board-NAB).[2] It was established by the Presbyterian Church of Ghana (PCG) on 23 November 2003[1] and inaugurated on 27 March 2004 by the former president of Ghana in that republic, John Agyekum Kufuor.[3]. On Tuesday, 30 August 2022, the university was granted a Presidential Charter by President of Ghana Nana Akufo Addo. It has been ranked the best private university in Ghana and third best after the University of Ghana and KNUST by world university ranking website webometrics.. Per historical accounts, the Presbyterian Church of Ghana established Ghana's first elementary school in the country in 1843 which resulted in the institutionalization of formal education in the country.[1][4] In 1848, the church founded a teacher-catechist seminary, the Basel Mission Seminary, later known as the Presbyterian Training College (PTC) at Akropong as the second higher educational institution in West Africa after Fourah Bay College in Sierra Leone.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Presbyterian University College]
+Action 2: Search[Presbyterian University College]
+Observation 2: Presbyterian University College is a private university located in Ghana. It was established in 2003 by the Presbyterian Church of Ghana. The university offers a variety of undergraduate and postgraduate programs in fields such as business, education, nursing, and information technology. The university is known for its commitment to providing quality education and promoting ethical values among its students. It has a diverse student body and a strong emphasis on community service and social responsibility..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Presbyterian University College]
+Action 3: Finish[Presbyterian University College]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Presbyterian University College]
+Action 3: Finish[Presbyterian University College]
+Observation 3: Presbyterian University College is a private university located in Ghana. It was established in 2003 by the Presbyterian Church of Ghana. The university offers a variety of undergraduate and postgraduate programs in fields such as business, education, nursing, and information technology. The university is known for its commitment to providing quality education and promoting ethical values among its students. It has a diverse student body and a strong emphasis on community service and social responsibility..
+
+
+
+INFO {'steps': 5, 'answer': 'Presbyterian University College', 'gt_answer': 'Presbyterian University College', 'question_idx': 3336, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 8 
+Number of steps: 22 
+Average reward: 0.36363636363636365 
+Average time 14.128593098033559
+
+-------------------------------------------------------
+

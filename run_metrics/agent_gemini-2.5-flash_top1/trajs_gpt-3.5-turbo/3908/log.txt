@@ -1,0 +1,53 @@
+INFO 3908 Question: Which American musician and songwriter was born earlier, Adam Duritz or Cherie Currie?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Adam Duritz]
+Action 1: Search[Adam Duritz]
+Observation 1: Adam Fredric Duritz (born August 1, 1964)[1] is an American singer, best known as the frontman for the rock band Counting Crows,[2] for which he serves as a founding member and main composer.[3] Since its founding in 1991, Counting Crows has sold over 20 million records,[4] released seven studio albums that have been certified gold or platinum, and been nominated for two Grammy Awards and an Academy Award.[5][6]. Duritz has recorded solo material of his own and has collaborated with other musical acts. He has also founded two record labels, E Pluribus Unum and Tyrannosaurus Records. His work scoring music for film earned an award from BMI for co-writing the song "Accidentally in Love" for the movie Shrek 2.. Duritz and producer/guitarist David Bryson formed Counting Crows in San Francisco in 1991.[7][8] When Gary Gersh of Geffen Records heard the band's demo tape, he was "blown away".
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Adam Duritz]
+Action 1: Search[Adam Duritz]
+Observation 1: Adam Duritz is an American musician, songwriter, and record producer, best known as the lead vocalist and frontman of the rock band Counting Crows. He was born on August 1, 1964, in Baltimore, Maryland. Duritz co-founded Counting Crows in 1991 and the band achieved commercial success with their debut album "August and Everything After" in 1993. Duritz is known for his distinctive voice and introspective lyrics. In addition to his work.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Cherie Currie]
+Action 2: Search[Cherie Currie]
+Observation 2: Cherie Ann Currie (born November 30, 1959) is an American singer, musician, actress, and artist. Currie was the lead vocalist of the Runaways, a rock band from Los Angeles, in the mid-to-late 1970s. She later became a solo artist. Currie and her identical twin sister, Marie Currie, released the album Messin' With The Boys in 1980 as Cherie & Marie Currie. Their duet "Since You Been Gone" reached number 95 on US charts.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Cherie Currie]
+Action 2: Search[Cherie Currie]
+Observation 2: Cherie Currie is an American musician, actress, and artist. She is best known as the lead vocalist of the pioneering all-female rock band The Runaways. Currie was born on November 30, 1959, in Los Angeles, California. She joined The Runaways in 1975 at the age of 15 and gained fame for her powerful voice and stage presence.. After The Runaways disbanded in 1979, Currie pursued a solo music career and released several.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Cherie Currie]
+Action 3: Finish[Cherie Currie]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Cherie Currie]
+Action 3: Finish[Cherie Currie]
+Observation 3: Cherie Currie is an American musician, actress, and artist. She is best known as the lead vocalist of the pioneering all-female rock band The Runaways. Currie was born on November 30, 1959, in Los Angeles, California. She joined The Runaways in 1975 at the age of 15 and gained fame for her powerful voice and stage presence.. After The Runaways disbanded in 1979, Currie pursued a solo music career and released several.
+
+
+
+INFO {'steps': 5, 'answer': 'Cherie Currie', 'gt_answer': 'Cherie Ann Currie', 'question_idx': 3444, 'reward': False, 'em': False, 'f1': 0.8}
+
+INFO Sum of rewards: 8 
+Number of steps: 23 
+Average reward: 0.34782608695652173 
+Average time 13.823308260544486
+
+-------------------------------------------------------
+

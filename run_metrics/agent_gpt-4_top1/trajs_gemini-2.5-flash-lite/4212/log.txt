@@ -1,0 +1,53 @@
+INFO 4212 Question: Who has a wider scope of profession, Christopher Guest or  Roman Karmen?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Christopher Guest]
+Action 1: Search[Christopher Guest]
+Observation 1: Christopher Haden-Guest, 5th Baron Haden-Guest (born 5 February 1948), known professionally as Christopher Guest, is a British-American actor, comedian, screenwriter and director. Guest has written, directed, and starred in his series of comedy films shot in mockumentary style. He co-wrote and acted in the rock satire This Is Spinal Tap (1984), and later directed a string of satirical mockumentary films such as Waiting for Guffman (1996), Best in Show (2000), A Mighty Wind (2003), For Your Consideration (2006), and Mascots (2016). His acting credits include roles in Death Wish (1974), Little Shop of Horrors (1986), The Princess Bride (1987), and A Few Good Men (1992). He was a regular cast member on Saturday Night Live in 1984–1985..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Christopher Guest]
+Action 1: Search[Christopher Guest]
+Observation 1: Christopher Guest (born Christopher Haden Guest; February 5, 1948) is an American-British filmmaker, actor, comedian, and composer. He is known for his pioneering work in mockumentary films, often starring himself and a troupe of improvisational actors.. **Early Life and Education:**. Guest was born in New York City, the son of English parents. His father, Peter Haden Guest, was a British diplomat, and his mother, Eleanor Haden Guest.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Roman Karmen]
+Action 2: Search[Roman Karmen]
+Observation 2: Roman Lazarevich Karmen[a] (30 November [O.S. 17 November] 1906 – 28 April 1978, born Efraim Leyzorovich Korenman)[b] was a Soviet film director, war cinematographer, documentary filmmaker, journalist, screenwriter, pedagogue, and publicist.[1][2]. Karmen was born to a Jewish family in Odessa. His father was the writer Lazar Karmen [uk] (real name Leyzor Korenman) and his mother was the translator Dina Leypuner.. Karmen was a communist..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Roman Karmen]
+Action 2: Search[Roman Karmen]
+Observation 2: **Roman Karmen** (Russian: Рома́н Ла́заревич Ка́рмен; 17 November 1906 – 28 April 1978) was a Soviet cinematographer and war correspondent. He is widely regarded as one of the most prominent and influential war cinematographers of the 20th century.. **Early Life and Career:**. Born in Odesa, Russian Empire (now Ukraine), Karmen began his career in the late.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Roman Karmen]
+Action 3: Finish[Roman Karmen]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Christopher Guest]
+Action 3: Finish[Christopher Guest]
+Observation 3: **Roman Karmen** (Russian: Рома́н Ла́заревич Ка́рмен; 17 November 1906 – 28 April 1978) was a Soviet cinematographer and war correspondent. He is widely regarded as one of the most prominent and influential war cinematographers of the 20th century.. **Early Life and Career:**. Born in Odesa, Russian Empire (now Ukraine), Karmen began his career in the late.
+
+
+
+INFO {'steps': 5, 'answer': 'Roman Karmen', 'gt_answer': 'Christopher Haden-Guest', 'question_idx': 4334, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 9 
+Number of steps: 25 
+Average reward: 0.36 
+Average time 30.24000087738037
+
+-------------------------------------------------------
+

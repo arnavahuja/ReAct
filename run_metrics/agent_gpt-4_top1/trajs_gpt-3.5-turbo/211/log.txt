@@ -1,0 +1,95 @@
+INFO 211 Question: What is the name of the hotel on the Upper West Side of New York City that housed a gay bathhouse?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Hotel Upper West Side gay bathhouse]
+Action 1: Search[Hotel Upper West Side gay bathhouse]
+Observation 1: Could not find Hotel Upper West Side gay bathhouse. Similar: ['The Ansonia (redirect from Ansonia Hotel)', 'Gay village', "Plato's Retreat (category Gay bathhouses in the United States)", 'Queen Street (Toronto) (redirect from West Queen West)', 'List of LGBTQ-related films (redirect from Gay movies)'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[hotel Upper West Side New York City gay bathhouse]
+Action 1: Search[hotel Upper West Side New York City gay bathhouse]
+Observation 1: I'm sorry, but I cannot provide information on a specific establishment called "Hotel Upper West Side gay bathhouse" as it does not appear to be a well-known or notable location. If you have any other questions or need information on a different topic, feel free to ask..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[The Ansonia]
+Action 2: Search[The Ansonia]
+Observation 2: The Ansonia (formerly the Ansonia Hotel) is a condominium building at 2109 Broadway, between 73rd and 74th Streets, on the Upper West Side of Manhattan in New York City. The 17-story structure was designed by French architect Paul Emile Duboy in the Beaux-Arts style. It was built between 1899 and 1903 as a residential hotel by William Earle Dodge Stokes, who named it after his grandfather, the industrialist Anson Greene Phelps. Over the years, the Ansonia has housed many conductors, opera singers, baseball players, and other famous and wealthy people. The Ansonia is a New York City designated landmark and is listed on the National Register of Historic Places..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Hotels in Upper West Side New York City]
+Action 2: Search[Hotels in Upper West Side New York City]
+Observation 2: The Ansonia is a building located at 2109 Broadway, between West 73rd and West 74th Streets, on the Upper West Side of Manhattan in New York City. It was originally built as a luxury hotel in 1899 by architect Paul E. Duboy for developer William Earle Dodge Stokes. The Ansonia is known for its distinctive Beaux-Arts architecture and is considered one of the most iconic buildings in New York City.. The building features a copper mansard.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Lookup[gay bathhouse]
+Action 3: Lookup[gay bathhouse]
+Observation 3: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[gay bathhouse]
+Action 3: Lookup[gay bathhouse]
+Observation 3: The Ansonia is a building located at 2109 Broadway, between West 73rd and West 74th Streets, on the Upper West Side of Manhattan in New York City. It was originally built as a luxury hotel in 1899 by architect Paul E. Duboy for developer William Earle Dodge Stokes. The Ansonia is known for its distinctive Beaux-Arts architecture and is considered one of the most iconic buildings in New York City.. The building features a copper mansard.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Ansonia Hotel gay bathhouse]
+Action 4: Search[Ansonia Hotel gay bathhouse]
+Observation 4: Could not find Ansonia Hotel gay bathhouse. Similar: ['The Ansonia', 'Continental Baths (category Gay bathhouses in New York City)', "Plato's Retreat (category Gay bathhouses in the United States)", 'Bette Midler', 'Frankie Knuckles (category American gay musicians)'].
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[Plato's Retreat]
+Action 4: Search[Plato's Retreat]
+Observation 4: I'm sorry, but I cannot provide information on the Ansonia Hotel gay bathhouse as it does not have a Wikipedia page..
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[Continental Baths]
+Action 5: Search[Continental Baths]
+Observation 5: The Continental Baths was a gay bathhouse in the basement of The Ansonia Hotel in New York City, which was operated from 1968 to 1976 by Steve Ostrow. It was advertised as reminiscent of "the glory of ancient Rome".[1]. It opened after Ostrow observed the crowds at Everard Baths and he wanted to improve on the Everard atmosphere of being "sleazy, secretive, unkempt, not to mention unfriendly."[2] "Ostrow’s business plan in 1968 was to create a gay fantasia, a palace devoted to hedonism."[3] Ostrow said “from the first night, there were lines around the corner.” Some patrons said they would have 150 sexual encounters in a single visit. Opened a year before the Stonewall riots, the bathhouse was raided by the police about 200 times, Ostrow said.[2]. While the baths utilized the Ansonia's lavish Gilded Age décor for a Roman style bath, it is probably best remembered as being an influential offbeat music venue.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Search[Plato's Retreat]
+Action 5: Search[Plato's Retreat]
+Observation 5: The Continental Baths was a gay bathhouse in the basement of the Ansonia Hotel in New York City. It operated from 1968 to 1974 and was known for its entertainment performances by artists such as Bette Midler, Barry Manilow, and Patti LaBelle. The venue was a popular gathering place for the LGBTQ community and played a significant role in the cultural history of New York City during the 1970s..
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Finish[The Ansonia Hotel]
+Action 6: Finish[The Ansonia Hotel]
+Observation 6: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Finish[Ansonia Hotel]
+Action 6: Finish[Ansonia Hotel]
+Observation 6: The Continental Baths was a gay bathhouse in the basement of the Ansonia Hotel in New York City. It operated from 1968 to 1974 and was known for its entertainment performances by artists such as Bette Midler, Barry Manilow, and Patti LaBelle. The venue was a popular gathering place for the LGBTQ community and played a significant role in the cultural history of New York City during the 1970s..
+
+
+
+INFO {'steps': 11, 'answer': 'The Ansonia Hotel', 'gt_answer': 'The Ansonia Hotel', 'question_idx': 4134, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 9 
+Number of steps: 30 
+Average reward: 0.3 
+Average time 26.6567138671875
+
+-------------------------------------------------------
+

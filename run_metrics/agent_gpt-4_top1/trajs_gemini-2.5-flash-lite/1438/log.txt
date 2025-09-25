@@ -1,0 +1,53 @@
+INFO 1438 Question: Norman Buckley is associated with a family drama for what cable network, formerly known as ABC Family?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Norman Buckley]
+Action 1: Search[Norman Buckley]
+Observation 1: Norman L. Buckley (born November 25, 1955) is an American television director best known for his work on The O.C., Chuck, Gossip Girl,  Pretty Little Liars and The Fosters.. Buckley was born on Loring Air Force Base in Limestone, Maine, to parents Betty Bob (née Diltz), a dancer and journalist, and Ernest Buckley, a lieutenant colonel in the U.S. Air Force and later a college professor and dean of engineering. Buckley grew up in Fort Worth, Texas, studied history at the University of Texas at Arlington before moving to California where he would later graduate from the University of Southern California.[1] In spite of initial disapproval from his father, who wanted him to become a civil engineer like himself and Buckley's two brothers, Norman Buckley attended the film school at the University of Southern California.[2] He intended to become a writer, but was encouraged to take up a craft, in addition to writing, and he soon discovered he had a natural aptitude for film editing.[3].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Norman Buckley]
+Action 1: Search[Norman Buckley]
+Observation 1: Norman Buckley is an American television director and producer. He has directed episodes for a wide range of popular television series, including:. *   **The Vampire Diaries**. *   **Pretty Little Liars**. *   **The Fosters**.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Pretty Little Liars]
+Action 2: Search[Pretty Little Liars]
+Observation 2: Pretty Little Liars is an American mystery teen drama television series created by I. Marlene King, which aired on Freeform[b] from June 8, 2010 to June 27, 2017, based on the novel series of the same name written by Sara Shepard, lasting 160 episodes over seven seasons. Set in the fictional Rosewood, Pennsylvania, the plot follows five best friends whose secrets are consistently threatened by the anonymous "A", who begins harassing them after the disappearance of their clique leader. Troian Bellisario, Ashley Benson, Lucy Hale, Shay Mitchell, Sasha Pieterse, and Janel Parrish lead the ensemble cast, alongside Holly Marie Combs, Ian Harding, Bianca Lawson, Laura Leighton, Chad Lowe, Nia Peeples, Tyler Blackburn, and Andrea Parker.. After an initial order of 10 episodes, ABC Family ordered an additional 12 episodes on June 28, 2010.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Pretty Little Liars]
+Action 2: Search[Pretty Little Liars]
+Observation 2: **Pretty Little Liars** is an American teen drama mystery–thriller television series developed by I. Marlene King, based on the book series of the same name by Sara Shepard. The series premiered on ABC Family (now Freeform) on June 8, 2010, and concluded on June 27, 2017, after seven seasons.. The series centers on the lives of four best friends: Aria Montgomery, Emily Fields, Hanna Marin, and Spencer.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Freeform]
+Action 3: Finish[Freeform]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Freeform]
+Action 3: Finish[Freeform]
+Observation 3: **Pretty Little Liars** is an American teen drama mystery–thriller television series developed by I. Marlene King, based on the book series of the same name by Sara Shepard. The series premiered on ABC Family (now Freeform) on June 8, 2010, and concluded on June 27, 2017, after seven seasons.. The series centers on the lives of four best friends: Aria Montgomery, Emily Fields, Hanna Marin, and Spencer.
+
+
+
+INFO {'steps': 5, 'answer': 'Freeform', 'gt_answer': 'Freeform', 'question_idx': 1671, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 11 
+Number of steps: 28 
+Average reward: 0.39285714285714285 
+Average time 29.677159105028426
+
+-------------------------------------------------------
+

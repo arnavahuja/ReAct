@@ -1,0 +1,53 @@
+INFO 600 Question: What is the species of animal which the town of Antelope, Kansas was named after?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Antelope, Kansas]
+Action 1: Search[Antelope, Kansas]
+Observation 1: Antelope is an unincorporated community in Marion County, Kansas, United States.[1] Antelope got its name from antelope grazing near where the first school was being built.[2]  It is located northeast of Marion, about 0.9 miles west of the intersection of U.S. Route 77 (aka U.S. Route 56) highway and 250th Street along the Union Pacific Railroad.. For many millennia, the Great Plains of North America was inhabited by nomadic Native Americans. From the 16th century to 18th century, the Kingdom of France claimed ownership of large parts of North America.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Antelope, Kansas]
+Action 1: Search[Antelope, Kansas]
+Observation 1: I'm sorry, but I couldn't find specific information about Antelope, Kansas. Would you like me to provide information about a different topic or location?.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Antelope]
+Action 2: Search[Antelope]
+Observation 2: The term antelope refers to numerous extant or recently extinct species of the ruminant artiodactyl family Bovidae that are indigenous to most of Africa, India, the Middle East, Central Asia, and a small area of Russia. Antelopes do not form a monophyletic group, as some antelopes are more closely related to other bovid groups, such as bovines, goats, and sheep, than to other antelopes.. A stricter grouping, known as the true antelopes, includes only the genera Gazella, Nanger, Eudorcas, and Antilope.[1] One North American mammal, the pronghorn or "pronghorn antelope", is colloquially referred to as the "American antelope", despite the fact that it belongs to a completely different family (Antilocapridae) than the true Old-World antelopes; pronghorn are the sole extant member of an extinct prehistoric lineage that once included many unique species.. Although antelope are sometimes referred to, and easily misidentified as "deer" (cervids), true deer are only distant relatives of antelopes. While antelope are found in abundance in Africa, only one deer species is found on the continent—the Barbary red deer of Northern Africa.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Antelope]
+Action 2: Search[Antelope]
+Observation 2: The antelope is a group of herbivorous mammals belonging to the family Bovidae. They are typically found in various habitats across Africa, Asia, and North America. Antelopes are known for their agility and speed, which helps them evade predators in the wild. They have distinctive horns, which vary in size and shape among different species.. Antelopes are social animals and often form herds for protection and mating purposes.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Pronghorn]
+Action 3: Finish[Pronghorn]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[antelope]
+Action 3: Finish[antelope]
+Observation 3: The antelope is a group of herbivorous mammals belonging to the family Bovidae. They are typically found in various habitats across Africa, Asia, and North America. Antelopes are known for their agility and speed, which helps them evade predators in the wild. They have distinctive horns, which vary in size and shape among different species.. Antelopes are social animals and often form herds for protection and mating purposes.
+
+
+
+INFO {'steps': 5, 'answer': 'Pronghorn', 'gt_answer': 'Antilocapra americana', 'question_idx': 2963, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 6 
+Number of steps: 19 
+Average reward: 0.3157894736842105 
+Average time 18.371616313332005
+
+-------------------------------------------------------
+

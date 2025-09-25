@@ -1,0 +1,53 @@
+INFO 4302 Question: How much change in elevation is there at the site of the 1999 FIA GT Hockenheim 500km?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[1999 FIA GT Hockenheim 500km]
+Action 1: Search[1999 FIA GT Hockenheim 500km]
+Observation 1: The 1999 FIA GT Hockenheim 500 km was the third round of the 1999 FIA GT Championship season. It took place at the Hockenheimring Short Circuit, Germany, on June 27, 1999.. Cars failing to complete 70% of winner's distance are marked as Not Classified (NC).. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us. HelpLearn to editCommunity portalRecent changesUpload fileSpecial pages.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[1999 FIA GT Hockenheim 500km]
+Action 1: Search[1999 FIA GT Hockenheim 500km]
+Observation 1: The **1999 FIA GT Hockenheim 500km** was the sixth round of the 1999 FIA GT Championship. It was held on July 18, 1999, at the Hockenheimring in Hockenheim, Germany.. **Race Summary:**. The race was won by the **Porsche 911 GT3-R** of **Team Konrad Motorsport**, driven by **Franz Konrad** and **Toni Se.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Hockenheimring]
+Action 2: Search[Hockenheimring]
+Observation 2: The Hockenheimring, officially Hockenheimring Baden-Württemberg (German: [ˈhɔkŋ̍haɪmʁɪŋ ˌbaːdn̩ ˈvʏʁtəmbɛʁk] ⓘ) is a motor racing circuit situated in the Rhine valley near the town of Hockenheim in Baden-Württemberg, Germany, located on the Bertha Benz Memorial Route. Amongst other motor racing events, it has hosted the German Grand Prix, most recently in 2019. The circuit is nearly flat. The circuit has an FIA Grade 1 licence.[2]. Originally called "Dreieckskurs" (triangle course), the Hockenheimring was built in 1932.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Hockenheimring]
+Action 2: Search[Hockenheimring]
+Observation 2: The Hockenheimring Baden-Württemberg is a motorsport venue located in Hockenheim, Baden-Württemberg, Germany. It is one of Germany's most famous and historic race tracks, renowned for hosting Formula One Grands Prix and other major motorsport events.. **History and Development:**. The circuit's origins date back to the 1930s. Initially, it was a much longer track, incorporating public roads and a significant portion through the forest.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[minimal change in elevation]
+Action 3: Finish[minimal change in elevation]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[elevation]
+Action 3: Lookup[elevation]
+Observation 3: The Hockenheimring Baden-Württemberg is a motorsport venue located in Hockenheim, Baden-Württemberg, Germany. It is one of Germany's most famous and historic race tracks, renowned for hosting Formula One Grands Prix and other major motorsport events.. **History and Development:**. The circuit's origins date back to the 1930s. Initially, it was a much longer track, incorporating public roads and a significant portion through the forest.
+
+
+
+INFO {'steps': 5, 'answer': 'minimal change in elevation', 'gt_answer': 'very little', 'question_idx': 4293, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 16 
+Number of steps: 44 
+Average reward: 0.36363636363636365 
+Average time 26.45844313773242
+
+-------------------------------------------------------
+

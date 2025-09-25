@@ -1,0 +1,60 @@
+INFO 2527 Question: What city is the flying component of the United States Air Force 432d Wing stationed in
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to search for the United States Air Force 432d Wing to find out where the flying component is stationed.
+Action 1: [Search[United States Air Force 432d Wing]] 
+        Action 1: Search[United States Air Force 432d Wing]
+        Observation 1: Could not find United States Air Force 432d Wing. Similar: ['United States Air Force Reserve', 'Fifth Air Force', 'Davis–Monthan Air Force Base', 'Shaw Air Force Base', 'List of United States Air Force fighter squadrons']."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to search United States Air Force 432d Wing and find where the flying component is stationed.
+Action 1: [Search[United States Air Force 432d Wing], Search[432d Wing], Lookup[flying component]] 
+        Action 1: ['Search[United States Air Force 432d Wing]', 'Search[432d Wing]', 'Lookup[flying component]']
+        Observation 1: The 432d Wing is a United States Air Force unit assigned to the Air Force Reserve Command, stationed at Creech Air Force Base, Nevada. The wing was activated in 2009 and is primarily responsible for remotely piloted aircraft operations, including intelligence, surveillance, reconnaissance, and combat missions.. The 432d Wing operates the MQ-9 Reaper and RQ-1 Predator drones, providing real-time intelligence and strike capabilities worldwide. Its mission includes supporting combatant commanders with persistent ISR (."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The search did not yield any results, maybe I can refine the search term.
+Action 2: [Search[432d Wing]] 
+        Action 2: Search[432d Wing]
+        Observation 2: The 432nd Wing is a United States Air Force unit assigned to Air Combat Command at Creech Air Force Base near Indian Springs, Nevada. It flies General Atomics MQ-9 Reaper and RQ-170 Sentinel Unmanned aerial vehicles.. The group operates unmanned reconnaissance aircraft which provide real-time reconnaissance, surveillance, and precision attack against fixed and time-critical targets. The 432nd Air Expeditionary Wing is a provisional unit assigned to Air Combat Command and is the designation for components of the 432nd Wing when deployed into combat areas as part of the Global War on Terror.[4]. The wing is the first United States Air Force wing dedicated to unmanned aircraft systems: MQ-9 Reaper and RQ-170 Sentinel.[5] The wing stood up 1 May 2007 at Creech Air Force Base, Nevada.[6][7] The wing has dual reporting responsibilities to Ninth Air Force and U.S."
+
+SIMULATION TRAJECTORY:
+ Thought 2: The United States Air Force 432d Wing is stationed at Creech Air Force Base, Nevada. Given this is where the wing is stationed, it's reasonable to assume that the flying component is also stationed in the same location.
+Action 2: [Finish[Creech Air Force Base, Nevada], Lookup[flying component], Search[Creech Air Force Base]] 
+        Action 2: ['Search[Creech Air Force Base]', 'Lookup[flying component]', 'Finish[Creech Air Force Base, Nevada]']
+        Observation 2: The 432d Wing is a United States Air Force unit assigned to the Air Combat Command (ACC). It is stationed at Creech Air Force Base, Nevada. The wing was activated in 2007 and is primarily responsible for remotely piloted aircraft (RPA) operations, including intelligence, surveillance, reconnaissance, and combat missions.. The 432d Wing's mission focuses on providing persistent ISR (Intelligence, Surveillance, and Reconnaissance) and combat capabilities through the operation of MQ-1."
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: The 432nd wing of the United States Air Force is stationed at Creech Air Force Base near Indian Springs, Nevada. Therefore, the city where the flying component of the unit is stationed is Indian Springs.
+Action 3: [Finish[Indian Springs]] 
+        Action 3: Finish[Indian Springs]
+        Observation 3: Episode finished, reward = 0
+"
+
+SIMULATION TRAJECTORY:
+ Thought 3: The 432d Wing is stationed at Creech Air Force Base, Nevada. So, this must be the city where the flying component is stationed.
+Action 3: [Finish[Creech Air Force Base, Nevada], Lookup[Stationed], Search[Creech Air Force Base]] 
+        Action 3: ['Search[Creech Air Force Base]', 'Lookup[Stationed]', 'Finish[Creech Air Force Base, Nevada]']
+        Observation 3: The 432d Wing is a United States Air Force unit assigned to the Air Combat Command (ACC). It is stationed at Creech Air Force Base, Nevada. The wing was activated in 2007 and is primarily responsible for remotely piloted aircraft (RPA) operations, including intelligence, surveillance, reconnaissance, and combat missions.. The 432d Wing's mission focuses on providing persistent ISR (Intelligence, Surveillance, and Reconnaissance) and combat capabilities through the operation of MQ-1."
+
+
+
+INFO {'steps': 5, 'answer': 'Indian Springs', 'gt_answer': 'Clark County', 'question_idx': 1477, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 2 
+Number of steps: 6 
+Average reward: 0.3333333333333333 
+Average time 25.399333993593853
+
+--------------------------------------------------
+

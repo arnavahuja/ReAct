@@ -1,0 +1,53 @@
+INFO 3623 Question: Who is the mother of Mary, Crown Princess of Denmark's husband?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Mary, Crown Princess of Denmark]
+Action 1: Search[Mary, Crown Princess of Denmark]
+Observation 1: Queen Margrethe II. Mary (born Mary Elizabeth Donaldson; 5 February 1972) is Queen of Denmark as the wife of King Frederik X.. Mary met Frederik (then Crown Prince of Denmark) while attending the 2000 Summer Olympics in Sydney. They married on 14 May 2004 at Copenhagen Cathedral. They have four children: Christian, Isabella, Vincent and Josephine.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Mary, Crown Princess of Denmark]
+Action 1: Search[Mary, Crown Princess of Denmark]
+Observation 1: Mary, Crown Princess of Denmark, born Mary Elizabeth Donaldson on February 5, 1972, in Hobart, Tasmania, Australia, is the wife of Crown Prince Frederik of Denmark. She is a member of the Danish royal family by marriage and holds the title of Crown Princess of Denmark.. Mary graduated from the University of Tasmania with a degree in Commerce and Law. Before her marriage, she worked in marketing and advertising, including a position at the Australian Broadcasting Corporation. She met Crown Prince Frederik during the 2000 Summer Olympics in Sydney, and they announced their engagement in 2003..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[King Frederik X]
+Action 2: Search[King Frederik X]
+Observation 2: Queen Margrethe II. Frederik X (Frederik André Henrik Christian, pronounced [ˈfʁeðˀʁek, ˈfʁæðˀʁæk]; born 26 May 1968) is King of Denmark. He acceded to the throne following his mother's abdication in 2024.[7][8]. Frederik is the eldest son of Margrethe II and Prince Henrik. He was born during the reign of his maternal grandfather, King Frederik IX, and became Crown Prince of Denmark following his mother's accession in 1972.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Crown Prince Frederik of Denmark]
+Action 2: Search[Crown Prince Frederik of Denmark]
+Observation 2: King Frederik X of Denmark was a Danish monarch who reigned from 1912 until his death in 1947. Born on October 11, 1899, as the eldest son of King Christian X and Queen Alexandrine, Frederik X was the crown prince before ascending to the throne. His reign was marked by significant events in Danish history, including the challenges of World War I and World War II, during which Denmark maintained a policy of neutrality. Frederik X was known for his dedication to public service and his efforts to modernize the Danish monarchy. He married Princess Ingrid of Sweden in 1935, and they had several children.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Margrethe II]
+Action 3: Finish[Margrethe II]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Frederik X of Denmark]
+Action 3: Search[Frederik X of Denmark]
+Observation 3: King Frederik X of Denmark was a Danish monarch who reigned from 1912 until his death in 1947. Born on October 11, 1899, as the eldest son of King Christian X and Queen Alexandrine, Frederik X was the crown prince before ascending to the throne. His reign was marked by significant events in Danish history, including the challenges of World War I and World War II, during which Denmark maintained a policy of neutrality. Frederik X was known for his dedication to public service and his efforts to modernize the Danish monarchy. He married Princess Ingrid of Sweden in 1935, and they had several children.
+
+
+
+INFO {'steps': 5, 'answer': 'Margrethe II', 'gt_answer': 'Queen Margrethe II', 'question_idx': 2485, 'reward': False, 'em': False, 'f1': 0.8}
+
+INFO Sum of rewards: 5 
+Number of steps: 7 
+Average reward: 0.7142857142857143 
+Average time 10.796261991773333
+
+-------------------------------------------------------
+

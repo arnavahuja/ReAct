@@ -1,0 +1,53 @@
+INFO 4903 Question: Were Halldór Laxness and Timothy Leary from the same country?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Halldór Laxness]
+Action 1: Search[Halldór Laxness]
+Observation 1: Halldór Kiljan Laxness (Icelandic: [ˈhaltour ˈcʰɪljan ˈlaksnɛs] ⓘ; born Halldór Guðjónsson; 23 April 1902 – 8 February 1998) was an Icelandic writer and winner of the 1955 Nobel Prize in Literature.[2] He wrote novels, poetry, newspaper articles, essays, plays, travelogues and short stories. Writers who influenced Laxness include August Strindberg, Sigmund Freud, Knut Hamsun, Sinclair Lewis, Upton Sinclair, Bertolt Brecht, and Ernest Hemingway.[3]. Halldór Guðjónsson was born in Reykjavík in 1902. When he was three, his family moved to the Laxnes farm in Mosfellssveit parish.[4] He was brought up and enormously influenced by his grandmother, who "sang me ancient songs before I could talk, told me stories from heathen times and sang me cradle songs from the Catholic era".[5] He started to read books and write stories at an early age and attended the technical school in Reykjavík from 1915 to 1916. His earliest published writings appeared in 1916 in Morgunblaðið and in the children's periodical Æskan.[6] The same year, two letters-to-the-editor Halldór wrote also appeared in the North American-Icelandic children's newspapers Sólskin, which was published in Winnipeg, Manitoba.[7] Laxness then attended and in 1918 graduated from the Reykjavík Lyceum.[8] By the time his first novel, Barn náttúrunnar (Child of Nature, 1919), was published he had already begun his travels on the European continent.[9].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Halldór Laxness]
+Action 1: Search[Halldór Laxness]
+Observation 1: **Halldór Kiljan Laxness** (born Halldór Guðmundsson; April 23, 1902 – February 8, 1998) was an Icelandic writer and poet. He was awarded the Nobel Prize in Literature in 1955.. **Early Life and Influences:**. Born in Reykjavík, Iceland, Laxness spent his childhood in the rural area of Mosfellsdalur. His early exposure to the Icelandic.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Timothy Leary]
+Action 2: Search[Timothy Leary]
+Observation 2: Timothy Francis Leary (October 22, 1920 – May 31, 1996) was an American psychologist and author known for his strong advocacy of psychedelic drugs.[2] Evaluations of Leary are polarized, ranging from "bold oracle" to "publicity hound". According to poet Allen Ginsberg, he was "a hero of American consciousness", while writer Tom Robbins called him a "brave neuronaut".[3] President Richard Nixon disagreed, calling Leary "the most dangerous man in America".[4] During the 1960s and 1970s, at the height of the counterculture movement, Leary was arrested 36 times.[5]. As a clinical psychologist at Harvard University, Leary founded the Harvard Psilocybin Project after a revealing experience with magic mushrooms he had in Mexico in 1960. For two years, he tested psilocybin's therapeutic effects, in the Concord Prison Experiment and the Marsh Chapel Experiment. He also experimented with lysergic acid diethylamide (LSD), which was also legal in the US at the time.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Timothy Leary]
+Action 2: Search[Timothy Leary]
+Observation 2: Timothy Francis Leary (October 22, 1920 – May 31, 1996) was an American psychologist, writer, and professor of Harvard University. He is best known for his advocacy of psychedelic drugs and his role in the counterculture of the 1960s.. Leary was born in Springfield, Massachusetts. He received a B.A. from Holy Cross College, an M.A.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[No]
+Action 3: Finish[No]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[No]
+Action 3: Finish[No]
+Observation 3: Timothy Francis Leary (October 22, 1920 – May 31, 1996) was an American psychologist, writer, and professor of Harvard University. He is best known for his advocacy of psychedelic drugs and his role in the counterculture of the 1960s.. Leary was born in Springfield, Massachusetts. He received a B.A. from Holy Cross College, an M.A.
+
+
+
+INFO {'steps': 5, 'answer': 'No', 'gt_answer': 'no', 'question_idx': 759, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 20 
+Number of steps: 48 
+Average reward: 0.4166666666666667 
+Average time 11.792383899291357
+
+-------------------------------------------------------
+

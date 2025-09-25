@@ -1,0 +1,53 @@
+INFO 6869 Question: Are University of Virginia and Massachusetts Institute of Technology in the same country?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[University of Virginia]
+Action 1: Search[University of Virginia]
+Observation 1: The University of Virginia (UVA) is a public research university in Charlottesville, Virginia, United States. It was founded in 1819 by Thomas Jefferson and contains his Academical Village, a UNESCO World Heritage Site. The original governing Board of Visitors included three U.S. presidents: Jefferson, James Madison, and James Monroe, the latter as sitting president of the United States at the time of its foundation. As its first two rectors, Presidents Jefferson and Madison played key roles in the university's foundation, with Jefferson designing both the original courses of study and the university's architecture..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[University of Virginia]
+Action 1: Search[University of Virginia]
+Observation 1: The University of Virginia (UVA) is a public, land-grant, research university in Charlottesville, Virginia. Founded by Thomas Jefferson in 1819, it is one of the original nine "Public Ivies" and the only American university to be designated a UNESCO World Heritage Site.. **History:**. The university was chartered by the Virginia General Assembly in 1819. Thomas Jefferson served as its first rector and played a pivotal role in its design and curriculum.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Massachusetts Institute of Technology]
+Action 2: Search[Massachusetts Institute of Technology]
+Observation 2: The Massachusetts Institute of Technology (MIT) is a private research university in Cambridge, Massachusetts, United States. Established in 1861, MIT has played a significant role in the development of many areas of modern technology and science.. In response to the increasing industrialization of the United States, William Barton Rogers organized a school in Boston to create "useful knowledge." Initially funded by a federal land grant, the institute adopted a polytechnic model that stressed laboratory instruction in applied science and engineering. MIT moved from Boston to Cambridge in 1916 and grew rapidly through collaboration with private industry, military branches, and new federal basic research agencies, the formation of which was influenced by MIT faculty like Vannevar Bush. In the late twentieth century, MIT became a leading center for research in computer science, digital technology, artificial intelligence and big science initiatives like the Human Genome Project.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Massachusetts Institute of Technology]
+Action 2: Search[Massachusetts Institute of Technology]
+Observation 2: **Massachusetts Institute of Technology (MIT)**. The Massachusetts Institute of Technology (MIT) is a private land-grant research university in Cambridge, Massachusetts. Founded in 1861, MIT has since played a significant role in the development of many areas of modern science and technology.. **History**. MIT was founded by William Barton Rogers, a geologist and educator, who envisioned an institution that would foster "instruction in applied sciences." The institute officially opened its doors on April 10,.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[yes]
+Action 3: Finish[yes]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Yes]
+Action 3: Finish[Yes]
+Observation 3: **Massachusetts Institute of Technology (MIT)**. The Massachusetts Institute of Technology (MIT) is a private land-grant research university in Cambridge, Massachusetts. Founded in 1861, MIT has since played a significant role in the development of many areas of modern science and technology.. **History**. MIT was founded by William Barton Rogers, a geologist and educator, who envisioned an institution that would foster "instruction in applied sciences." The institute officially opened its doors on April 10,.
+
+
+
+INFO {'steps': 5, 'answer': 'yes', 'gt_answer': 'yes', 'question_idx': 2303, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 4 
+Number of steps: 9 
+Average reward: 0.4444444444444444 
+Average time 10.028898265626696
+
+-------------------------------------------------------
+

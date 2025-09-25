@@ -1,0 +1,81 @@
+INFO 5930 Question: What is the 2010 population of the city 2.1 miles southwest of Marietta Air Force Station?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Marietta Air Force Station]
+Action 1: Search[Marietta Air Force Station]
+Observation 1: Could not find Marietta Air Force Station. Similar: ['Dobbins Air Reserve Base', 'Martin Marietta X-24', 'List of accidents and incidents involving the Lockheed C-130 Hercules (redirect from Indonesian Air Force C-130H-30 (A-1324))', 'General Lucius D. Clay National Guard Center (redirect from Atlanta Naval Air Station)', 'List of United States Air Force installations'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Marietta Air Force Station]
+Action 1: Search[Marietta Air Force Station]
+Observation 1: **Marietta Air Force Station** was a United States Air Force facility located in Marietta, Georgia. It served primarily as a radar station during the Cold War, playing a crucial role in the North American air defense system.. **History:**. *   **Establishment:** Marietta Air Force Station was established in the early 1950s as part of the broader effort to create a comprehensive radar network across the United States. This network was designed to detect and track potential Soviet bomber attacks during.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Dobbins Air Reserve Base]
+Action 2: Search[Dobbins Air Reserve Base]
+Observation 2: Dobbins Air Reserve Base or Dobbins ARB (IATA: MGE, ICAO: KMGE, FAA LID: MGE) is a United States Air Force reserve air base located in Marietta, Georgia, a suburb about 20 miles (32 km) northwest of Atlanta. Originally known as Dobbins Air Force Base, it was named in honor of Captain Charles M. Dobbins, a World War II C-47 pilot who died near Sicily.. The installation is the home station of the host wing, the 94th Airlift Wing (94 AW) of the Air Force Reserve Command (AFRC) and its fleet of C-130 Hercules aircraft, and is also the location of the headquarters for AFRC's Twenty-Second Air Force (22 AF).. Dobbins ARB is also home to Army Aviation Service Facility #2 (AASF #2) of the Georgia Army National Guard and their fleet of UH-60 Blackhawks and UH-72 Lakota[2] helicopters.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[city 2.1 miles southwest of Marietta Air Force Station]
+Action 2: Search[city 2.1 miles southwest of Marietta Air Force Station]
+Observation 2: **Dobbins Air Reserve Base (Dobbins ARB)** is a United States Air Force reserve base located in Marietta, Georgia, a suburb northwest of Atlanta. It is a significant military installation in the southeastern United States, serving as a multi-service reserve training and operational facility.. **History:**. *   **Early Years (1941-1945):** The base originated in 1941 as **Rickenbacker Field**, named after World War.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[City 2.1 miles southwest of Dobbins Air Reserve Base]
+Action 3: Search[City 2.1 miles southwest of Dobbins Air Reserve Base]
+Observation 3: Could not find City 2.1 miles southwest of Dobbins Air Reserve Base. Similar: ['Dobbins Air Reserve Base', 'Grissom Air Reserve Base', 'Westover Air Reserve Base', 'Lackland Air Force Base', 'March Air Reserve Base'].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[city 2.1 miles southwest of Marietta Air Force Station]
+Action 3: Search[city 2.1 miles southwest of Marietta Air Force Station]
+Observation 3: **Smyrna, Georgia**. Smyrna is a city located in Cobb County, Georgia, United States. As of the2020 census, the city had a population of 56,661. It is situated approximately 2.1 miles southwest of Dobbins Air Reserve Base.. **History:**.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Cities near Dobbins Air Reserve Base]
+Action 4: Search[Cities near Dobbins Air Reserve Base]
+Observation 4: Could not find Cities near Dobbins Air Reserve Base. Similar: ['Dobbins Air Reserve Base', 'Grissom Air Reserve Base', 'Westover Air Reserve Base', 'Homestead Air Reserve Base', 'March Air Reserve Base'].
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[2010 population]
+Action 4: Lookup[2010 population]
+Observation 4: Dobbins Air Reserve Base (Dobbins ARB) is located in Marietta, Georgia, a city in Cobb County. Due to its strategic location within the Atlanta metropolitan area, several other cities and communities are situated in close proximity. These cities offer a range of residential, commercial, and recreational opportunities for military personnel and their families, as well as for civilians working at or near the base.. Here's a look at some of the notable cities near Dobbins ARB:.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Finish[Unable to find the city 2.1 miles southwest of Dobbins Air Reserve Base.]
+Action 5: Finish[Unable to find the city 2.1 miles southwest of Dobbins Air Reserve Base.]
+Observation 5: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Lookup[cities]
+Action 5: Lookup[cities]
+Observation 5: Dobbins Air Reserve Base (Dobbins ARB) is located in Marietta, Georgia, a city in Cobb County. Due to its strategic location within the Atlanta metropolitan area, several other cities and communities are situated in close proximity. These cities offer a range of residential, commercial, and recreational opportunities for military personnel and their families, as well as for civilians working at or near the base.. Here's a look at some of the notable cities near Dobbins ARB:.
+
+
+
+INFO {'steps': 9, 'answer': 'Unable to find the city 2.1 miles southwest of Dobbins Air Reserve Base.', 'gt_answer': '51,271', 'question_idx': 419, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 10 
+Number of steps: 21 
+Average reward: 0.47619047619047616 
+Average time 31.064512945356825
+
+-------------------------------------------------------
+

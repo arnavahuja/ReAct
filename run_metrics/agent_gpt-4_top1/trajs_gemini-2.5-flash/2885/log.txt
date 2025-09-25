@@ -1,0 +1,109 @@
+INFO 2885 Question: What is the name of the series who's first season was released on Netflix on September 22, 2016 and stars actor pronounced as John-a-kite?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Netflix series released on September 22, 2016]
+Action 1: Search[Netflix series released on September 22, 2016]
+Observation 1: Could not find Netflix series released on September 22, 2016. Similar: ['Netflix, Inc.', 'List of Netflix original programming', 'Daredevil (TV series)', 'House of Cards (American TV series)', 'Netflix and chill'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Netflix series released on September 22, 2016]
+Action 1: Search[Netflix series released on September 22, 2016]
+Observation 1: On September 22, 2016, Netflix released the following series:. **Easy**. *   **Genre:** Comedy-drama, Anthology. *   **Created by:** Joe Swanberg. *   **Starring:** Gugu Mbatha-Raw, Orlando Bloom, Malin Åkerman, Michael Chernus, Marc Maron, Dave Franco, Jane Adams, Elizabeth Reaser, Kiersey Clemons, Emily Ratajkowski, Aya Cash, Zazie Be.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[John-a-kite]
+Action 2: Search[John-a-kite]
+Observation 2: Could not find John-a-kite. Similar: ['John Kite', 'Kite', 'Sport kite', 'Kite (1998 film)', 'Red kite'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[John-a-kite]
+Action 2: Lookup[John-a-kite]
+Observation 2: **John-a-Kite**. John-a-Kite is a traditional English folk song, a nursery rhyme, and a children's game. The song is often associated with the act of flying a kite, and its lyrics typically describe the kite's ascent into the sky. While the exact origins of "John-a-Kite" are not definitively known, it is believed to have been popular in England for several centuries.. **Lyrics and Variations:**.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[John Kite]
+Action 3: Search[John Kite]
+Observation 3: John Kite (died 1537) was successively Archbishop of Armagh, 1513–1521, and Bishop of Carlisle, 1521–1537.. John Kite was educated at Eton College and then at King's College, Cambridge,[1] where he was graduated Bachelor of Canon Law. He was appointed a prebendary of Exeter Cathedral and Sub-Dean of the King's Chapel, Westminster in 1510. From 1510–1518 he was prebendary of Stratton in the diocese of Salisbury.. In 1518, as archbishop, he accompanied John Bourchier, 2nd Baron Berners on an embassy to Charles I of Spain and was present at the Field of the Cloth of Gold in 1520.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Jonah Kite]
+Action 3: Search[Jonah Kite]
+Observation 3: **John Kite** (born c. 1483 – died 1537) was an English clergyman who served as Archbishop of Armagh and later as Bishop of Carlisle. His career spanned a period of significant religious and political upheaval in England, marked by the early stages of the English Reformation.. **Early Life and Education:**. Little is known about John Kite's early life and family background.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[List of Netflix original programming 2016]
+Action 4: Search[List of Netflix original programming 2016]
+Observation 4: Could not find List of Netflix original programming 2016. Similar: ['List of Netflix India original programming', 'List of Netflix original programming', 'List of ended Netflix original programming', 'List of Netflix original stand-up comedy specials', 'List of Netflix original films (2015–2017)'].
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[List of Netflix original programming 2016]
+Action 4: Search[List of Netflix original programming 2016]
+Observation 4: ## Netflix Original Programming (2016). In 2016, Netflix continued to significantly expand its slate of original programming, investing heavily in a diverse range of scripted and unscripted content across various genres. This year saw the debut of several critically acclaimed series, the return of popular shows, and the expansion into new content categories.. ### Scripted Series. Netflix's scripted offerings in 2016 included a mix of dramas, comedies, and genre-specific.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[List of Netflix original programming]
+Action 5: Search[List of Netflix original programming]
+Observation 5: Netflix is an American global streaming-on-demand media provider that has distributed a number of original streaming television shows, including original series, specials, miniseries, documentaries and films since 2007. Netflix's original productions also include continuations of canceled series from other networks, as well as licensing or co-producing content from international broadcasters for exclusive broadcast in other territories, which is also branded in those regions as Netflix original content. Netflix previously produced content through Red Envelope Entertainment. The company has since increased its original content. All programming is in English unless stated otherwise, is organized by its primary genre or format, and is sorted by premiere date.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Lookup[September 22, 2016]
+Action 5: Lookup[September 22, 2016]
+Observation 5: The following is a list of original programming produced or acquired by Netflix. Netflix acquires and distributes programming worldwide. The company refers to its self-produced or co-produced content as "Netflix Originals".. ## Current Programming. ### Drama.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Lookup[series released on September 22, 2016]
+Action 6: Lookup[series released on September 22, 2016]
+Observation 6: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Lookup[September 22, 2016]
+Action 6: Lookup[September 22, 2016]
+Observation 6: The following is a list of original programming produced or acquired by Netflix. Netflix acquires and distributes programming worldwide. The company refers to its self-produced or co-produced content as "Netflix Originals".. ## Current Programming. ### Drama.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Search[Jonah Kite]
+Action 7: Search[Jonah Kite]
+Observation 7: Could not find Jonah Kite. Similar: ['Harley Quinn (TV series)', 'Kites with Lights', 'List of Little House on the Prairie episodes', 'Tethered balloon', 'Lance Reddick'].
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Lookup[September 22, 2016]
+Action 7: Lookup[September 22, 2016]
+Observation 7: **Jonah Kite** (born c. 1990s) is an American musician, producer, and songwriter, best known as one half of the experimental electronic duo **Kite Base** and for his solo work under various monikers, including **Jonah Parzen-Johnson**. His music often incorporates elements of jazz, ambient, and electronic music, characterized by a unique blend of acoustic instrumentation and digital manipulation.. **Early Life and Education:**. Kite's early.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'Netflix', 'question_idx': 4211, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 10 
+Number of steps: 17 
+Average reward: 0.5882352941176471 
+Average time 31.2137769390555
+
+-------------------------------------------------------
+

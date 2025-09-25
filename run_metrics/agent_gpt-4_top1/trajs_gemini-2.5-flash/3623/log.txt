@@ -1,0 +1,67 @@
+INFO 3623 Question: Which genus's family comes first alphabetically, Crepis or Isatis?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Crepis]
+Action 1: Search[Crepis]
+Observation 1: about 200, see text. Crepis, commonly known in some parts of the world as hawksbeard or hawk's-beard (but not to be confused with the related genus Hieracium with a similar common name), is a genus of annual and perennial flowering plants of the family Asteraceae superficially resembling the dandelion, the most conspicuous difference being that Crepis usually has branching scapes with multiple heads (though solitary heads can occur). The genus name Crepis derives from the Greek krepis, meaning "slipper" or "sandal", possibly in reference to the shape of the fruit.[1]. The genus is distributed throughout the Northern Hemisphere and Africa,[2] and several plants are known as introduced species practically worldwide.[1] The center of diversity is in the Mediterranean.[2]. Crepis species are used as food plants by the larvae of some Lepidoptera species including the broad-barred white moth.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Crepis]
+Action 1: Search[Crepis]
+Observation 1: **Crepis**. **Crepis** is a genus of flowering plants in the family Asteraceae, commonly known as **hawksbeard** or **hawk's-beard**. The genus is widespread, with species found across Europe, Asia, Africa, and North America. It is closely related to the genus *Hieracium* (hawkweeds), and the two genera are sometimes difficult to distinguish.. **Description**.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Isatis]
+Action 2: Search[Isatis]
+Observation 2: About 30 species, including:. Isatis boissieriana. Isatis glauca. Isatis tinctoria. others (see text).
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Isatis]
+Action 2: Search[Isatis]
+Observation 2: **Isatis**. **Isatis** is a genus of flowering plants in the family Brassicaceae, commonly known as **woad** or **dyer's woad**. It comprises approximately 80 species, primarily native to the Mediterranean region, Central Asia, and East Asia. The most well-known species is *Isatis tinctoria*, historically cultivated for its blue dye.. **Description**.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Lookup[family]
+Action 3: Lookup[family]
+Observation 3: (Result 1 / 1) **Isatis** is a genus of flowering plants in the family Brassicaceae, commonly known as **woad** or **dyer's woad**.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Asteraceae]
+Action 3: Finish[Asteraceae]
+Observation 3: **Isatis**. **Isatis** is a genus of flowering plants in the family Brassicaceae, commonly known as **woad** or **dyer's woad**. It comprises approximately 80 species, primarily native to the Mediterranean region, Central Asia, and East Asia. The most well-known species is *Isatis tinctoria*, historically cultivated for its blue dye.. **Description**.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[Asteraceae]
+Action 4: Finish[Asteraceae]
+Observation 4: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[Isatis]
+Action 4: Finish[Isatis]
+Observation 4: **Isatis**. **Isatis** is a genus of flowering plants in the family Brassicaceae, commonly known as **woad** or **dyer's woad**. It comprises approximately 80 species, primarily native to the Mediterranean region, Central Asia, and East Asia. The most well-known species is *Isatis tinctoria*, historically cultivated for its blue dye.. **Description**.
+
+
+
+INFO {'steps': 7, 'answer': 'Asteraceae', 'gt_answer': 'Crepis', 'question_idx': 5458, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 2 
+Number of steps: 7 
+Average reward: 0.2857142857142857 
+Average time 21.41444488934108
+
+-------------------------------------------------------
+

@@ -1,0 +1,56 @@
+INFO 1438 Question: 1956 Night Series Cup games were played at what inner suburb of Melbourne that is 3km south of Melbourne's central business district?
+
+STEP: 1
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[1956 Night Series Cup]
+Action 1: Search[1956 Night Series Cup]
+Observation 1: The 1956 VFL Night Premiership Cup was the Victorian Football League end of season cup competition played between the eight teams that didn't make the finals of that season. It was held between 23 August to 17 September 1956 with games being played at the Lake Oval, home ground of South Melbourne as it was the only ground equipped to host night games.. Eight teams played in the first competition with the final seeing an attendance of 32,450 as South Melbourne defeated Carlton in the final by 6 points (13.16.94 to 13.10.88).. The opening match of the 1956 edition saw South Melbourne record the first victory of the new competition by 20 points over St Kilda. But the match was remembered for the brawl that happened in the third quarter which featured all of the players, umpires and some spectators in scenes not since the 1945 VFL Grand Final between Carlton and South Melbourne.[1] The following match which was played five days later saw a surprise victory by North Melbourne who defeated Essendon by two points with North Melbourne leading at every change to get the win.[2] Richmond and Carlton also recorded narrow wins over Hawthorn and Fitzroy in the remaining two quarter-finals which was played on 30 August and the 4 September.[3][4].
+
+SIMULATION TRAJECTORY:
+ Thought 1: None
+Action 1: Search[1956 Night Series Cup]
+Observation 1: The 1956 Night Series Cup was a football (soccer) competition held in Australia, specifically in the state of Victoria. It was one of the early iterations of a night series tournament, designed to capitalize on the growing popularity of floodlit matches and offer an alternative to the traditional daytime league fixtures.. **Overview:**. *   **Competition Name:** 1956 Night Series Cup (often referred to simply as the "Night Series" or "Night Cup" of that year.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[South Melbourne]
+Action 2: Search[South Melbourne]
+Observation 2: South Melbourne is an inner suburb in Melbourne, Victoria, Australia, 3 kilometres (1.9 mi) south of Melbourne's Central Business District, located within the City of Port Phillip local government area. South Melbourne recorded a population of 11,548 at the 2021 census.[1]. Historically known as Emerald Hill, South Melbourne was one of the first of Melbourne's suburbs to adopt full municipal status and is one of Melbourne's oldest suburban areas, notable for its well preserved Victorian era streetscapes.. The current boundaries are complex. Starting at the east end of Dorcas Street, it runs along the rear of properties on St Kilda Road, then south along Albert Road, north up Canterbury Road, along the rear of the north side of St Vincent Place, zigzags west along St Vincent Street, then north up Pickles Street.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[Melbourne]
+Action 2: Lookup[Melbourne]
+Observation 2: **South Melbourne** is an inner suburb of Melbourne, Victoria, Australia, 3 km south of Melbourne's Central Business District, located within the City of Port Phillip local government area. South Melbourne recorded a population of 12,044 at the 2021 census.. The area was settled in 1840 and was originally known as Emerald Hill. It was one of the first municipalities to be created in Victoria, being incorporated as a borough in 1.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[South Melbourne]
+Action 3: Finish[South Melbourne]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[South Melbourne]
+Action 3: Finish[South Melbourne]
+Observation 3: **South Melbourne** is an inner suburb of Melbourne, Victoria, Australia, 3 km south of Melbourne's Central Business District, located within the City of Port Phillip local government area. South Melbourne recorded a population of 12,044 at the 2021 census.. The area was settled in 1840 and was originally known as Emerald Hill. It was one of the first municipalities to be created in Victoria, being incorporated as a borough in 1.
+
+
+
+INFO {'steps': 5, 'answer': 'South Melbourne', 'gt_answer': 'Albert Park', 'question_idx': 461, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 12 
+Number of steps: 28 
+Average reward: 0.42857142857142855 
+Average time 22.16429010459355
+
+-------------------------------------------------------
+

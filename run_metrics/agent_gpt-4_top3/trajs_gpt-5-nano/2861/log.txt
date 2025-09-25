@@ -1,0 +1,124 @@
+INFO 2861 Question: William Bromley-Davenport held political office under the Prime Minister who was of which party?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: To find out the party of the Prime Minister under whom William Bromley-Davenport held political office, I need to first search for William Bromley-Davenport and discover details about his political career.
+Action 1: [Search[William Bromley-Davenport]] 
+        Action 1: Search[William Bromley-Davenport]
+        Observation 1: Could not find [William Bromley-Davenport]. Similar: ['William Bromley-Davenport', 'Bromley-Davenport', 'A. Bromley Davenport', 'William Bromley-Davenport (British Army officer)', 'William Bromley-Davenport (Lord Lieutenant)']."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to search for information on William Bromley-Davenport, find out which Prime Minister he served under, then determine which party that Prime Minister belonged to.
+Action 1: [Search[William Bromley-Davenport], Lookup[William Bromley-Davenport], Search[Bromley-Davenport]] 
+        Action 1: ['Search[William Bromley-Davenport]', 'Search[Bromley-Davenport]', 'Lookup[William Bromley-Davenport]']
+        Observation 1: "
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The search for William Bromley-Davenport didn't return the anticipated entry, but there are some similar options available which might be relevant. I will try the option which appears to be about his political career.
+Action 2: [Search[William Bromley-Davenport (Lord Lieutenant)]] 
+        Action 2: Search[William Bromley-Davenport (Lord Lieutenant)]
+        Observation 2: Sir William Arthur Bromley-Davenport, KCVO (born 7 March 1935) is a British landowner, accountant and public servant.. Born in 1935, he is the son of the politician and landowner Sir Walter Bromley-Davenport. He attended Cornell University and completed his national service as an officer in the Grenadier Guards. He became an accountant in 1966 and is a landowner, the owner of Capesthorne Hall.[1]. Bromley-Davenport became a magistrate for Cheshire in 1975 and was appointed a deputy lieutenant in 1982; after serving as High Sheriff of Cheshire for the 1983–84 year, he served as Lord Lieutenant from 1990 to 2010."
+
+SIMULATION TRAJECTORY:
+ Thought 2: The information doesn't specify under which Prime Minister William Bromley-Davenport served. Therefore, I need to locate this information. 
+Action 2: [Lookup[Prime Minister], Lookup[political career], Lookup[parliament]] 
+        Action 2: ['Lookup[Prime Minister]', 'Lookup[political career]', 'Lookup[parliament]']
+        Observation 2: "
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: The search for William Bromley-Davenport (Lord Lieutenant) did not provide specific information on his political career or the Prime Minister under whom he served. However, it mentions his father Sir Walter Bromley-Davenport who was a politician. I could search for him for possible information.
+Action 3: [Search[Sir Walter Bromley-Davenport]] 
+        Action 3: Search[Sir Walter Bromley-Davenport]
+        Observation 3: Could not find Sir Walter Bromley-Davenport. Similar: ['Walter Bromley-Davenport', 'Bromley-Davenport', 'William Bromley-Davenport (Lord Lieutenant)', 'Macclesfield', 'William Bromley-Davenport (British Army officer)']."
+
+SIMULATION TRAJECTORY:
+ Thought 3: The description of William Bromley-Davenport's role as a Lord Lieutenant does not mention his political career or the Prime Minister he served under. Therefore, I need to look for more specific information about these aspects within the text.
+Action 3: [Lookup[Prime Minister], Lookup[political], Lookup[party]] 
+        Action 3: ['Lookup[Prime Minister]', 'Lookup[political]', 'Lookup[party]']
+        Observation 3: "
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Information on Sir Walter Bromley-Davenport's political career wasn't found as well. The search did propose an entry which apparently refers to him by his non-honorary name, Walter Bromley-Davenport. This could potentially contain the information I need.
+Action 4: [Search[Walter Bromley-Davenport]] 
+        Action 4: Search[Walter Bromley-Davenport]
+        Observation 4: Lieutenant-Colonel Sir Walter Henry Bromley-Davenport TD DL (15 September 1903 – 26 December 1989) was a British Conservative Party politician.. One of the four sons of Walter Arthur Bromley-Davenport (28 September 1863 – 5 November 1942) of Capesthorne Hall, Macclesfield, Cheshire, and his wife, Dame Lilian Emily Isabel Bromley-Davenport, Bromley-Davenport was educated at Malvern College.[1]. He joined the Grenadier Guards in 1922. In 1926, he was British Army welterweight boxing champion,[2] a fact usually mentioned on his election literature during his subsequent political career. At the outbreak of World War II he raised and commanded the 5th Battalion of the Cheshire Regiment.[citation needed]."
+
+SIMULATION TRAJECTORY:
+ Thought 4: The information on Sir Walter Bromley-Davenport states that he was a politician. However, it did not specify under which Prime Minister he served or the party of that Prime Minister. My next steps should focus on finding those details.
+Action 4: [Search[Sir Walter Bromley-Davenport Prime Minister], Lookup[Prime Minister], Lookup[party]] 
+        Action 4: ['Search[Sir Walter Bromley-Davenport Prime Minister]', 'Lookup[Prime Minister]', 'Lookup[party]']
+        Observation 4: "
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Walter Bromley-Davenport was a Conservative Party politician. However, it doesn't mention the term of his office or who the Prime Minister was during that time. I should look up "Prime Minister" to find that information.
+Action 5: [Lookup[Prime Minister]] 
+        Action 5: Lookup[Prime Minister]
+        Observation 5: No more results.
+"
+
+SIMULATION TRAJECTORY:
+ Thought 5: The entry on Walter Bromley-Davenport provides the needed information on his party association. He was a member of the Conservative Party, so he served under the Prime Minister who was also of the Conservative Party. 
+Action 5: [Finish[Conservative Party], Lookup[Conservative Party], Search[Conservative Party]] 
+        Action 5: ['Search[Conservative Party]', 'Lookup[Conservative Party]', 'Finish[Conservative Party]']
+        Observation 5: "
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: The Lookup for "Prime Minister" returned no results which means there is no direct reference to a Prime Minister in the information provided. Since Walter Bromley-Davenport was a British Conservative Party politician, it's plausible he served under a Prime Minister from the same party. However, without enough information, an accurate conclusion can't be achieved . I should attempt a search for "British Conservative Party" to gather information about the Prime Ministers from this party during Bromley-Davenport's lifetime.
+Action 6: [Search[British Conservative Party]] 
+        Action 6: Search[British Conservative Party]
+        Observation 6: The Conservative and Unionist Party, commonly the Conservative Party and colloquially the Tories,[17] is one of the two main political parties in the United Kingdom, along with the Labour Party. It sits on the centre-right[24] to right-wing[31] of the left–right political spectrum. Following its defeat by Labour at the 2024 general election it is currently the second-largest party by the number of votes cast and number of seats in the House of Commons; as such it has the formal parliamentary role of His Majesty's Most Loyal Opposition. It encompasses various ideological factions including one-nation conservatives, Thatcherites and traditionalist conservatives. There have been 20 Conservative prime ministers.."
+
+SIMULATION TRAJECTORY:
+ Thought 6: The lookup for "Prime Minister" didn't return any information. The Prime Minister under whom Walter Bromley-Davenport served isn't stated explicitly in this text. However, we know that he was a member of the Conservative Party, which may be relevant. Without further specific information in the current observation, I will need to consider possible actions.
+Action 6: [Search[Conservative Party], Lookup[Conservative Party], Lookup[political career]] 
+        Action 6: ['Search[Conservative Party]', 'Lookup[Conservative Party]', 'Lookup[political career]']
+        Observation 6: "
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: The search for "British Conservative Party" gives an overview of the party but does not supply specific details about the Prime Ministers during Walter Bromley-Davenport's tenure. In order to narrow down the list of Conservative Prime Ministers during his lifetime, I could try searching for 'List of UK Prime Ministers'.  
+Action 7: [Search[List of UK Prime Ministers]] 
+        Action 7: Search[List of UK Prime Ministers]
+        Observation 7: The prime minister of the United Kingdom is the principal minister of the crown of His Majesty's Government, and the head of the British Cabinet.. There is no specific date for when the office of prime minister first appeared, as the role was not created but rather evolved over time through a merger of duties.[1] The term was regularly, if informally, used by Robert Walpole by the 1730s.[2] It was used in the House of Commons as early as 1805,[3] and it was certainly in parliamentary use by the 1880s,[4] although did not become the official title until 1905, when Henry Campbell-Bannerman was prime minister.. Historians generally consider Robert Walpole, who led the government of the Kingdom of Great Britain for over twenty years from 1721,[5] to be the first prime minister. Walpole is also the longest-serving British prime minister by this definition.[6] The first prime minister of the United Kingdom of Great Britain and Ireland was William Pitt the Younger at its creation on 1 January 1801.[7] The first to use the title in an official act was Benjamin Disraeli who signed the 1878 Treaty of Berlin as "Prime Minister of Her Britannic Majesty".[8]. In 1905, the post of prime minister was officially given recognition in the order of precedence,[9] with the incumbent Henry Campbell-Bannerman the first officially referred to as "prime minister"."
+
+SIMULATION TRAJECTORY:
+ Thought 7: The information about the British Conservative Party might reveal the Prime Ministers in power during the relevant years of Walter Bromley-Davenport's political career. 
+Action 7: [Lookup[Walter Bromley-Davenport], Lookup[Conservative Party Politician], Lookup[1903 - 1989]] 
+        Action 7: ['Lookup[Walter Bromley-Davenport]', 'Lookup[Conservative Party Politician]', 'Lookup[1903 - 1989]']
+        Observation 7: "
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'Conservative', 'question_idx': 6494, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 7 
+Number of steps: 18 
+Average reward: 0.3888888888888889 
+Average time 58.79592767026689
+
+--------------------------------------------------
+

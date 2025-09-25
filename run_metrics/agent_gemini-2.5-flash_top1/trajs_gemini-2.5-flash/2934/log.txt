@@ -1,0 +1,53 @@
+INFO 2934 Question: The Westchester Knicks are a basketball team in a minor league basketball organization that was known as what from 2001 to 2005?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Westchester Knicks]
+Action 1: Search[Westchester Knicks]
+Observation 1: The Westchester Knicks are an American professional basketball team in the NBA G League based in White Plains, New York, and are affiliated with the New York Knicks. The Knicks play their home games at Westchester County Center in White Plains, New York.. The Knicks became the seventh D-League team to be owned by an NBA team and replaced the Erie BayHawks as the Knicks' D-League affiliate.[4]. The Knicks had filed for trademarks for five possible names: New York 914s, New York 'Bockers, New York Plainsmen, New York Empire, and New York Hutch.[5]  On May 14, 2014, the Westchester Knicks name and logo were announced; in addition to retaining the parent club's "Knicks" name, the Knicks had also incorporated the original "Father Knickerbocker" logo (drawn by Willard Mullin) which was in use by the parent Knicks from the team's founding in 1946 until 1964.[6] The logo later changed to the current one, which resembles the New York Knicks' current logo.. On September 3, 2014, the Westchester Knicks acquired 16 players on the 2014 NBA Development League Expansion Draft.[7] On October 13 Kevin Whitted was named as the first coach of Westchester.[8] On November 1, in the 2014 NBA D-League Draft, the Westchester Knicks made second-round guard Joseph Bertrand their first ever selection.[9] On November 16 they made their regular season debut in an 84–91 loss against the local Oklahoma City Blue.[10] Three days later they made their home debut, again losing, this time against the Canton Charge on an 84–88 affair.[11] Their first win came on November 21 against the Grand Rapids Drive in their third game, which they won by 97–83 at home.[12].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Westchester Knicks]
+Action 1: Search[Westchester Knicks]
+Observation 1: The **Westchester Knicks** are an American professional basketball team of the NBA G League, based in White Plains, New York. The team is the NBA G League affiliate of the New York Knicks of the National Basketball Association (NBA). The Knicks play their home games at the Westchester County Center.. **Franchise History:**. The Westchester Knicks were established on August 14, 2014, when the New York Knicks announced their intention to purchase and operate their own NBA Development.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[NBA G League]
+Action 2: Search[NBA G League]
+Observation 2: The NBA G League, or simply the G League, is a professional basketball league in North America that serves as the developmental league of the National Basketball Association (NBA). The league comprises 31 teams; as of the 2024–25 season, all are single-affiliated or owned by an NBA team except for the independent Mexico City Capitanes.. The league was founded in 2001 as the National Basketball Development League (NBDL), renamed the NBA Development League (NBA D-League) in 2005. It received its present name in 2017 under a deal with Gatorade, becoming the first U.S. professional sports league named for an advertiser.[1][2].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[NBA G League]
+Action 2: Search[NBA G League]
+Observation 2: The **NBA G League**, formerly known as the **NBA Development League (D-League)**, is the official minor league basketball organization of the National Basketball Association (NBA). Founded in 2001, the league serves as a proving ground for players, coaches, and referees, and a laboratory for experimental rules.. ## History. The league was established in 2001 as the **National Basketball Development League (NBDL)**, with eight teams, all owned by the.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[National Basketball Development League (NBDL)]
+Action 3: Finish[National Basketball Development League (NBDL)]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[National Basketball Development League (NBDL)]
+Action 3: Finish[National Basketball Development League (NBDL)]
+Observation 3: The **NBA G League**, formerly known as the **NBA Development League (D-League)**, is the official minor league basketball organization of the National Basketball Association (NBA). Founded in 2001, the league serves as a proving ground for players, coaches, and referees, and a laboratory for experimental rules.. ## History. The league was established in 2001 as the **National Basketball Development League (NBDL)**, with eight teams, all owned by the.
+
+
+
+INFO {'steps': 5, 'answer': 'National Basketball Development League (NBDL)', 'gt_answer': 'National Basketball Development League', 'question_idx': 3676, 'reward': False, 'em': False, 'f1': 0.888888888888889}
+
+INFO Sum of rewards: 7 
+Number of steps: 22 
+Average reward: 0.3181818181818182 
+Average time 13.911861864003269
+
+-------------------------------------------------------
+

@@ -1,0 +1,98 @@
+INFO 2038 Question: In the NASA mission where Moon trees were taken into space, what was the nickname of the Command Module?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Moon trees]
+Action 1: Search[Moon trees]
+Observation 1: Moon trees are trees grown from seeds taken into orbit around the Moon, initially by Apollo 14 in 1971, and later by Artemis I in 2022.[1] The idea was first proposed by Edward P. Cliff, then the Chief of the United States Forest Service, who convinced Stuart Roosa, the Command Module Pilot on the Apollo 14 mission, to bring a small canister containing about 500 seeds aboard the module in 1971. Seeds for the experiment were chosen from five species of tree: loblolly pine, sycamore, sweetgum, redwood, and Douglas fir.[2][3] In 2022, NASA announced it would be reviving the Moon tree program by carrying 1,000 seeds aboard Artemis I.[4]. After the flight, the seeds were sent to the southern Forest Service station in Gulfport, Mississippi, and to the western station in Placerville, California, with the intent to germinate them.[5] Nearly all the seeds germinated successfully, and after a few years, the Forest Service had about 420 seedlings. Some of these were planted alongside their Earth-bound counterparts, which were specifically set aside as controls.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Moon trees NASA mission]
+Action 1: Search[Moon trees NASA mission]
+Observation 1: ## Moon Trees. **Moon Trees** are trees grown from seeds that were carried into orbit around the Moon by the Apollo 14 mission in 1971. The seeds were part of a joint NASA/US Forest Service experiment to determine the effects of space travel on seed germination and subsequent tree growth.. ### History. The idea for the Moon Trees originated with Stuart Roosa, the Command Module Pilot for Apollo 14.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Apollo 14 Command Module nickname]
+Action 2: Search[Apollo 14 Command Module nickname]
+Observation 2: Could not find Apollo 14 Command Module nickname. Similar: ['Apollo 16', 'Saturn IB (category Apollo program)', 'Thomas P. Stafford (category Apollo 10)', 'Gus Grissom (category Apollo 1)', 'Alan Shepard (category Apollo 14)'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Apollo 14 Command Module]
+Action 2: Search[Apollo 14 Command Module]
+Observation 2: **Kitty Hawk**. Kitty Hawk was the command module for the Apollo 14 mission, launched on January 31, 1971. It was named after the site of the Wright brothers' first successful flight in 1903, symbolizing the pioneering spirit of space exploration. The module carried astronauts Alan Shepard, Stuart Roosa, and Edgar Mitchell to lunar orbit. While Shepard and Mitchell descended to the moon in the lunar module "Antares," Roosa remained in Kitty.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Apollo 14 Command Module]
+Action 3: Search[Apollo 14 Command Module]
+Observation 3: Could not find Apollo 14 Command Module. Similar: ['Apollo command and service module', 'Apollo 14', 'Apollo Lunar Module', 'Apollo 1', 'Apollo (spacecraft)'].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Kitty Hawk]
+Action 3: Finish[Kitty Hawk]
+Observation 3: The **Apollo 14 Command Module (CM-110)**, officially designated **_Kitty Hawk_**, was the spacecraft that carried astronauts Alan Shepard, Stuart Roosa, and Edgar Mitchell to lunar orbit and back to Earth during the Apollo 14 mission in January–February 1971. It was the ninth Block II Apollo Command Module to fly and the eighth to carry a crew.. **Key Features and Mission Role:**. *   **Crew Accommodation:** _Kitty.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Apollo 14]
+Observation 4: Apollo 14 was the eighth crewed mission in the United States Apollo program, and the third to land on the Moon. It was the last of the "H missions", missions to land on the Moon with a limited stay and two EVAs, or moonwalks. The crew consisted of Commander Alan Shepard, Command Module Pilot Stuart Roosa,
+Action 4: Search[Apollo 14]
+Observation 4: Apollo 14 was the eighth crewed mission in the United States Apollo program, and the third to land on the Moon. It was the last of the "H missions", missions to land on the Moon with a limited stay and two EVAs, or moonwalks. The crew consisted of Commander Alan Shepard, Command Module Pilot Stuart Roosa,
+Observation 4: Invalid action: search[Apollo 14]
+Observation 4: Apollo 14 was the eighth crewed mission in the United States Apollo program, and the third to land on the Moon. It was the last of the "H missions", missions to land on the Moon with a limited stay and two EVAs, or moonwalks. The crew consisted of Commander Alan Shepard, Command Module Pilot Stuart Roosa,
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[Kitty Hawk]
+Action 4: Finish[Kitty Hawk]
+Observation 4: The **Apollo 14 Command Module (CM-110)**, officially designated **_Kitty Hawk_**, was the spacecraft that carried astronauts Alan Shepard, Stuart Roosa, and Edgar Mitchell to lunar orbit and back to Earth during the Apollo 14 mission in January–February 1971. It was the ninth Block II Apollo Command Module to fly and the eighth to carry a crew.. **Key Features and Mission Role:**. *   **Crew Accommodation:** _Kitty.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Lookup[Command Module]
+Action 5: Lookup[Command Module]
+Observation 5: (Result 1 / 2) The **Apollo 14 Command Module (CM-110)**, officially designated **_Kitty Hawk_**, was the spacecraft that carried astronauts Alan Shepard, Stuart Roosa, and Edgar Mitchell to lunar orbit and back to Earth during the Apollo 14 mission in January–February 1971.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Finish[Kitty Hawk]
+Action 5: Finish[Kitty Hawk]
+Observation 5: The **Apollo 14 Command Module (CM-110)**, officially designated **_Kitty Hawk_**, was the spacecraft that carried astronauts Alan Shepard, Stuart Roosa, and Edgar Mitchell to lunar orbit and back to Earth during the Apollo 14 mission in January–February 1971. It was the ninth Block II Apollo Command Module to fly and the eighth to carry a crew.. **Key Features and Mission Role:**. *   **Crew Accommodation:** _Kitty.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Finish[Kitty Hawk]
+Action 6: Finish[Kitty Hawk]
+Observation 6: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Finish[Kitty Hawk]
+Action 6: Finish[Kitty Hawk]
+Observation 6: The **Apollo 14 Command Module (CM-110)**, officially designated **_Kitty Hawk_**, was the spacecraft that carried astronauts Alan Shepard, Stuart Roosa, and Edgar Mitchell to lunar orbit and back to Earth during the Apollo 14 mission in January–February 1971. It was the ninth Block II Apollo Command Module to fly and the eighth to carry a crew.. **Key Features and Mission Role:**. *   **Crew Accommodation:** _Kitty.
+
+
+
+INFO {'steps': 11, 'answer': 'Kitty Hawk', 'gt_answer': '"Kitty Hawk"', 'question_idx': 3436, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 3 
+Number of steps: 15 
+Average reward: 0.2 
+Average time 16.570289389292398
+
+-------------------------------------------------------
+

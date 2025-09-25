@@ -1,0 +1,95 @@
+INFO 23 Question: Of all the teams John Nyskohus played for, which team was known as "the Black and Whites?"
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[John Nyskohus]
+Action 1: Search[John Nyskohus]
+Observation 1: John Nyskohus (born 15 October 1951) is an Australian former soccer player who played as a forward for USC Lion in the South Australian State League and Adelaide City in the National Soccer League. At international level, he played 36 times for Australia, including 22 in full international matches.[1]. This biographical article related to a soccer forward from Australia is a stub. You can help Wikipedia by expanding it.. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[John Nyskohus]
+Action 1: Search[John Nyskohus]
+Observation 1: I'm sorry, but I couldn't find any information about John Nyskohus..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[USC Lion]
+Action 2: Search[USC Lion]
+Observation 2: Could not find USC Lion. Similar: ['USC', 'Bugsy Nyskohus', 'Amon-Ra St. Brown (category USC Trojans football players)', 'USC Trojans', 'South Australian Amateur Soccer League'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[the Black and Whites]
+Action 2: Search[the Black and Whites]
+Observation 2: USC Lion is a soccer club based in Adelaide, South Australia. The club was founded in 1946 and currently competes in the South Australian State League. USC Lion has a rich history in South Australian soccer and has a strong presence in the local community. The club's colors are red and white, and their home matches are played at the Grange Reserve. USC Lion has a dedicated fan base and is known for its competitive spirit and commitment to developing young talent..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[USC Lion (South Australian State League)]
+Action 3: Search[USC Lion (South Australian State League)]
+Observation 3: Could not find USC Lion (South Australian State League). Similar: ['USC', 'Football South Australia', 'Bugsy Nyskohus (category Sportsmen from South Australia)', 'South Australian Amateur Soccer League', 'Trinity League'].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Adelaide City]
+Action 3: Search[Adelaide City]
+Observation 3: USC Lion is a soccer club based in Adelaide, South Australia, competing in the South Australian State League. The club was founded in 1946 and has a rich history in South Australian football. USC Lion's home ground is the Grange Reserve in the western suburbs of Adelaide. The club has a strong focus on developing young talent and providing opportunities for players of all ages and skill levels to participate in the sport. USC Lion has a dedicated fan base and is known for its competitive spirit and community.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Adelaide City]
+Action 4: Search[Adelaide City]
+Observation 4: Adelaide City Football Club is a semi-professional soccer club based in Oakden, a north-eastern suburb of Adelaide. The club was a founding member of the now-defunct National Soccer League (NSL) and currently competes in the National Premier Leagues South Australia (NPL SA).. The club was founded in 1946 by Adelaide's Italian community, who named the club Juventus. Adelaide City was one of 14 founding members of the National Soccer League in 1977 and competed concurrently in every edition of the competition before withdrawing a few weeks before the beginning of the league's final season. The club is one of Australia's most successful, their first major silverware coming in 1979 when they defeated St George in the NSL Cup final.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[Black and Whites]
+Action 4: Lookup[Black and Whites]
+Observation 4: Adelaide is the capital city of the state of South Australia, and the fifth-most populous city in Australia. It is known for its vibrant arts scene, festivals, and sporting events. Adelaide is situated on the Adelaide Plains north of the Fleurieu Peninsula, between the Gulf St Vincent in the west and the Mount Lofty Ranges in the east. The city was founded in 1836 and named after Queen Adelaide, the consort of King William IV. Adelaide is often referred to as the ".
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Lookup[Black and Whites]
+Action 5: Lookup[Black and Whites]
+Observation 5: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Search[Adelaide City (soccer club)]
+Action 5: Search[Adelaide City (soccer club)]
+Observation 5: Adelaide is the capital city of the state of South Australia, and the fifth-most populous city in Australia. It is known for its vibrant arts scene, festivals, and sporting events. Adelaide is situated on the Adelaide Plains north of the Fleurieu Peninsula, between the Gulf St Vincent in the west and the Mount Lofty Ranges in the east. The city was founded in 1836 and named after Queen Adelaide, the consort of King William IV. Adelaide is often referred to as the ".
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Finish["The question cannot be answered with the provided information."]
+Action 6: Finish["The question cannot be answered with the provided information."]
+Observation 6: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Lookup[Black and Whites]
+Action 6: Lookup[Black and Whites]
+Observation 6: Adelaide is the capital city of the state of South Australia, and the fifth-most populous city in Australia. It is known for its vibrant arts scene, festivals, and sporting events. Adelaide is situated on the Adelaide Plains north of the Fleurieu Peninsula, between the Gulf St Vincent in the west and the Mount Lofty Ranges in the east. The city was founded in 1836 and named after Queen Adelaide, the consort of King William IV. Adelaide is often referred to as the ".
+
+
+
+INFO {'steps': 11, 'answer': '"The question cannot be answered with the provided information."', 'gt_answer': 'Adelaide City', 'question_idx': 6107, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 1 
+Number of steps: 2 
+Average reward: 0.5 
+Average time 14.680821537971497
+
+-------------------------------------------------------
+

@@ -1,0 +1,67 @@
+INFO 1438 Question: Which 1962 film starring Tom Courtenay is based on a short story of the same name?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Tom Courtenay 1962 films]
+Action 1: Search[Tom Courtenay 1962 films]
+Observation 1: Could not find Tom Courtenay 1962 films. Similar: ['Tom Courtenay', 'The Night of the Generals (redirect from The Night of the Generals (film))', 'Billy Liar (film)', '1962 in film', 'King Rat (film)'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Tom Courtenay]
+Action 1: Search[Tom Courtenay]
+Observation 1: **Tom Courtenay**. **Born:** February 25, 1937, Hull, Yorkshire, England. **Career Highlights:** Tom Courtenay is a highly acclaimed English actor with a career spanning over six decades. He rose to prominence in the early 1960s, becoming a key figure in the British New Wave cinema movement.. **1962 Films:**.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Tom Courtenay]
+Action 2: Search[Tom Courtenay]
+Observation 2: Sir Thomas Daniel Courtenay (/ˈkɔːrtni/; born 25 February 1937) is an English actor. After studying at the Royal Academy of Dramatic Art, he achieved prominence in the 1960s as part of actors of the British New Wave. Courtenay has received numerous accolades including three BAFTA Awards, a Golden Globe Award, the Silver Bear, and the Volpi Cup for Best Actor as well as nominations for two Academy Awards, two Tony Awards, and a Emmy Award. He was knighted for his services to cinema and theatre in the 2001 New Year Honours.[1]. Courtenay earned the BAFTA Award for Most Promising Newcomer for his role in the coming-of-age film The Loneliness of the Long Distance Runner (1962)⁠ and a nomination for the Academy Award for Best Supporting Actor for his role in David Lean's epic Doctor Zhivago (1965).
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Tom Courtenay filmography 1962]
+Action 2: Search[Tom Courtenay filmography 1962]
+Observation 2: **Thomas Daniel Courtenay** (born 25 February 1937) is an English actor. He is known for his roles in films such as *The Loneliness of the Long Distance Runner* (1962), *Billy Liar* (1963), *Doctor Zhivago* (1965), *The Dresser* (1983), and *45 Years* (2015). He has also had.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[The Loneliness of the Long Distance Runner (film)]
+Action 3: Search[The Loneliness of the Long Distance Runner (film)]
+Observation 3: The Loneliness of the Long Distance Runner is a 1962 British coming-of-age film directed by Tony Richardson, one of the new young directors emerging from the English Stage Company at the Royal Court. The screenplay was written by Alan Sillitoe, based on his 1959 short story of the same title, and concerns a rebellious youth who has been sentenced to a borstal for burgling a bakery. He gains privileges in the institution through his prowess as a long-distance runner, but reveries of important events before his incarceration that he has during his solitary runs lead him to re-evaluate his status as the prize athlete of the Governor.. The film opens with Colin Smith running, alone, along a bleak country road somewhere in rural England. In a brief voiceover, he says that running is the way his family has always coped with the world's troubles, but that, in the end, the runner is always alone and cut off from spectators, left to deal with life on his own..
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[The Loneliness of the Long Distance Runner (film)]
+Action 3: Search[The Loneliness of the Long Distance Runner (film)]
+Observation 3: **The Loneliness of the Long Distance Runner** is a 1962 British drama film directed by Tony Richardson. It is based on the 1959 novel of the same name by Alan Sillitoe, who also wrote the screenplay. The film stars Tom Courtenay as Colin Smith, a rebellious working-class teenager sent to a Borstal (a type of youth detention center) for theft.. **Plot:**. Colin is a gifted runner, and the governor of.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[The Loneliness of the Long Distance Runner]
+Action 4: Finish[The Loneliness of the Long Distance Runner]
+Observation 4: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[The Loneliness of the Long Distance Runner]
+Action 4: Finish[The Loneliness of the Long Distance Runner]
+Observation 4: **The Loneliness of the Long Distance Runner** is a 1962 British drama film directed by Tony Richardson. It is based on the 1959 novel of the same name by Alan Sillitoe, who also wrote the screenplay. The film stars Tom Courtenay as Colin Smith, a rebellious working-class teenager sent to a Borstal (a type of youth detention center) for theft.. **Plot:**. Colin is a gifted runner, and the governor of.
+
+
+
+INFO {'steps': 7, 'answer': 'The Loneliness of the Long Distance Runner', 'gt_answer': 'The Loneliness of the Long Distance Runner', 'question_idx': 4978, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 14 
+Number of steps: 28 
+Average reward: 0.5 
+Average time 10.805189899035863
+
+-------------------------------------------------------
+

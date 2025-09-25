@@ -1,0 +1,60 @@
+INFO 1267 Question: The rifle cartridge created by the Swedish was also shared by which other nation?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: To answer the question, I need to find the name of the rifle cartridge created by the Swedish and then find which other nation also used it.
+Action 1: Search[Swedish rifle cartridge] 
+        Action 1: Search[Swedish rifle cartridge]
+        Observation 1: Could not find Swedish rifle cartridge. Similar: ['6.5×55mm Swedish', 'Table of handgun and rifle cartridges', 'Swedish Mauser', 'Fully powered cartridge', '6.5-284 Norma (category Pistol and rifle cartridges)']."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to search for the type of rifle cartridge created by the Swedes, then find out the other nation that used the same cartridge.
+Action 1: Search[Swedish rifle cartridge], Search[Sweden rifle cartridge], Search[rifle cartridge created by Sweden] 
+        Action 1: ['Search[Swedish rifle cartridge]', 'Search[Sweden rifle cartridge]', 'Search[rifle cartridge created by Sweden]']
+        Observation 1: "
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The correct information is not readily available. The suggestion '6.5×55mm Swedish' seems relevant. I will look that up.
+Action 2: Search[6.5×55mm Swedish] 
+        Action 2: Search[6.5×55mm Swedish]
+        Observation 2: 6.5×55mm Swedish, also known simply as 6.5×55mm, 6.5x55 SE, 6.5x55 Swede, or in its native military as 6,5 mm patron m/94 (6,5 mm ptr m/94), meaning "6.5 mm cartridge model 94", referring to 1894, is a first-generation smokeless powder rimless bottlenecked rifle cartridge. The cartridge has most users in the Scandinavian countries, where it is known as the 6,5×55 or just "the 6,5".. It was introduced in the 1890s, and is still one of the most common cartridges in modern rifles built for the Scandinavian market today. The cartridge was developed in a joint Norwegian and Swedish effort starting in 1891 for use in the new service rifles then under consideration by the United Kingdoms of Sweden and Norway.[6] In 1893, the cartridge was standardized and adopted under the name 6.5×55mm to facilitate logistical cooperation between Norway and Sweden. The two nations had independent armies and consequently the normal procedure at the time was for their respective governments to use the same ammunition and then purchase small arms of their choice."
+
+SIMULATION TRAJECTORY:
+ Thought 2: The search did not provide the specific information on the rifle cartridge created by the Swedish. I might conduct a more specific search to get results containing such information.
+Action 2: [Search[Swedish Mauser], Search[6.5×55mm Swedish], Search[Service rifle cartridges by Sweden]] 
+        Action 2: ['Search[Swedish Mauser]', 'Search[6.5×55mm Swedish]', 'Search[Service rifle cartridges by Sweden]']
+        Observation 2: "
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: The 6.5×55mm Swedish is the rifle cartridge created by Swedish and it's also used by Norway according to the information. So, the other nation that the Swedish shared the rifle cartridge with is Norway.
+Action 3: Finish[Norway] 
+        Action 3: Finish[Norway]
+        Observation 3: Episode finished, reward = 1
+"
+
+SIMULATION TRAJECTORY:
+ Thought 3: 6.5×55mm Swedish is a rifle cartridge that was created by Sweden. Now I need to look for information about any other nation that also used it.
+Action 3: Lookup[used by], Lookup[other nation], Lookup[shared] 
+        Action 3: ['Lookup[used by]', 'Lookup[other nation]', 'Lookup[shared]']
+        Observation 3: "
+
+
+
+INFO {'steps': 5, 'answer': 'Norway', 'gt_answer': 'Norway', 'question_idx': 1768, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 2 
+Number of steps: 5 
+Average reward: 0.4 
+Average time 35.44642276763916
+
+--------------------------------------------------
+

@@ -1,0 +1,53 @@
+INFO 2359 Question: Sachem Central School District encompasses the CDPs that include the hamlet in which New York county?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Sachem Central School District]
+Action 1: Search[Sachem Central School District]
+Observation 1: The Sachem Central School District is the second largest school district by population on Long Island and among the biggest suburban school districts in New York, United States. Founded in 1955, the district now encompasses residents of the Census-Designated Places of Holbrook, Holtsville and Farmingville, as well as some parts of the Incorporated Village of Lake Grove and the CDPs of Lake Ronkonkoma, Ronkonkoma, Nesconset, Bohemia and Bayport.[2] As of 2011, its district office is located in Lake Ronkonkoma at Samoset Middle School.. As of 2015, the Sachem School District has nearly 15,000 students enrolled annually.[3]. Sachem School District's colors are red, black and gold. Though each school uses the same fight song which starts out with "Here's to Red, Black, and Gold...", since the split in 2004, Sachem High School North has used black and gold while Sachem High School East uses red and gold as its principal colors.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Sachem Central School District]
+Action 1: Search[Sachem Central School District]
+Observation 1: The Sachem Central School District is a public school district located in Suffolk County, New York, United States. It serves the communities of Lake Ronkonkoma, Holbrook, Holtsville, Farmingville, and parts of Ronkonkoma, Nesconset, and Centereach. The district operates 15 schools, including nine elementary schools, three middle schools, two high schools, and one alternative high school. Sachem Central School District is the third-largest school district in New.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Holbrook, New York]
+Action 2: Search[Holbrook, New York]
+Observation 2: Holbrook is a hamlet and census-designated place (CDP) within the Towns of Brookhaven and Islip, in Suffolk County, New York, United States. The population was 26,487 at the time of the 2020 census. The community borders the eastern side of Long Island MacArthur Airport.. Holbrook is believed to have derived its name from a stream which was called, in various narratives,  either "Old Brook" or "Hollow Brook."[2]. The area was part of the 51,000 acre Islip Grange estate, acquired in 1697 by William Nicoll (son of Matthias Nicoll, who was the sixth mayor of New York City).[3]  It was largely a rural area until Alexander McCotter acquired 5,000 acres in the area in 1848 (after the Long Island Rail Road reached it in 1844) and platted the community.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Finish[Suffolk County]
+Action 2: Finish[Suffolk County]
+Observation 2: Holbrook is a hamlet and census-designated place (CDP) in Suffolk County, New York, United States. It is located within the Town of Islip. As of the 2010 census, Holbrook's population was 27,195. The hamlet has a total area of 7.2 square miles, all of it land.. Holbrook is known for its suburban feel, with a mix of residential and commercial areas.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Suffolk County]
+Action 3: Finish[Suffolk County]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Suffolk County]
+Action 3: Finish[Suffolk County]
+Observation 3: Holbrook is a hamlet and census-designated place (CDP) in Suffolk County, New York, United States. It is located within the Town of Islip. As of the 2010 census, Holbrook's population was 27,195. The hamlet has a total area of 7.2 square miles, all of it land.. Holbrook is known for its suburban feel, with a mix of residential and commercial areas.
+
+
+
+INFO {'steps': 5, 'answer': 'Suffolk County', 'gt_answer': 'Suffolk', 'question_idx': 3630, 'reward': False, 'em': False, 'f1': 0.6666666666666666}
+
+INFO Sum of rewards: 11 
+Number of steps: 24 
+Average reward: 0.4583333333333333 
+Average time 30.998402973016102
+
+-------------------------------------------------------
+

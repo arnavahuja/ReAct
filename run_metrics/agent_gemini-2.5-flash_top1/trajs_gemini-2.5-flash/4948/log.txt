@@ -1,0 +1,53 @@
+INFO 4948 Question: How many times was the writer, who invited Hu Lanqi to meet him in Moscow, a nominee for the Nobel Prize in Literature ?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Hu Lanqi]
+Action 1: Search[Hu Lanqi]
+Observation 1: Hu Lanqi (Chinese: 胡兰畦; pinyin: Hú Lánqí; Wade–Giles: Hu Lan-ch'i; 1901 – 13 December 1994), also spelled Hu Lanxi, was a Chinese writer and military leader. She joined the National Revolutionary Army in 1927 and the Chinese branch of the Communist Party of Germany in 1930. She was imprisoned by Nazi Germany in 1933 and wrote an influential memoir of her experience, for which she was invited by Maxim Gorky to meet him in Moscow. After the outbreak of the Second Sino-Japanese War in 1937, she organized a team of women soldiers to resist the Japanese invasion, and became the first woman to be awarded the rank of Major General by the Republic of China. She supported the Communists during the Chinese Civil War, but was persecuted in Mao Zedong's political campaigns following the Communist victory in mainland China.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Hu Lanqi]
+Action 1: Search[Hu Lanqi]
+Observation 1: **Hu Lanqi** (Chinese: 胡兰畦; 1901 – 1994) was a Chinese revolutionary, politician, and writer. She was a prominent figure in the early Chinese Communist Party and a close associate of many key leaders, including Zhou Enlai and Deng Yingchao.. **Early Life and Education:**. Hu Lanqi was born in Chengdu, Sichuan province, in 1901. Her family was relatively well-off, and she.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Maxim Gorky]
+Action 2: Search[Maxim Gorky]
+Observation 2: Alexei Maximovich Peshkov[a] (Russian: Алексей Максимович Пешков;[b] 28 March [O.S. 16 March] 1868 – 18 June 1936), popularly known as Maxim Gorky (/ˈɡɔːrki/; Максим Горький), was a Russian and Soviet writer and proponent of socialism.[1] He was nominated five times for the Nobel Prize in Literature.[2] Before his success as an author, he travelled widely across the Russian Empire, changing jobs frequently; these experiences would later influence his writing. He associated with fellow Russian writers Leo Tolstoy and Anton Chekhov, both mentioned by Gorky in his memoirs.. Gorky was active in the emerging Marxist socialist movement and later supported the Bolsheviks. He publicly opposed the Tsarist regime and for a time closely associated himself with Vladimir Lenin and Alexander Bogdanov's Bolshevik wing of the Russian Social Democratic Labour Party.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[Moscow]
+Action 2: Lookup[Moscow]
+Observation 2: **Alexei Maximovich Peshkov** (Russian: Алексе́й Макси́мович Пешко́в; 28 March 1868 – 18 June 1936), most famously known as **Maxim Gorky** (Макси́м Го́рький), was a Russian and Soviet writer, a founder of the socialist realism literary method, and a political activist. He was a five-time nominee for the Nobel Prize in Literature.. **.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[five]
+Action 3: Finish[five]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[five]
+Action 3: Finish[five]
+Observation 3: **Alexei Maximovich Peshkov** (Russian: Алексе́й Макси́мович Пешко́в; 28 March 1868 – 18 June 1936), most famously known as **Maxim Gorky** (Макси́м Го́рький), was a Russian and Soviet writer, a founder of the socialist realism literary method, and a political activist. He was a five-time nominee for the Nobel Prize in Literature.. **.
+
+
+
+INFO {'steps': 5, 'answer': 'five', 'gt_answer': 'a five-time nominee', 'question_idx': 5147, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 5 
+Number of steps: 19 
+Average reward: 0.2631578947368421 
+Average time 14.528660887166074
+
+-------------------------------------------------------
+

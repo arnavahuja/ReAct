@@ -1,0 +1,67 @@
+INFO 653 Question: Are McFarland, USA and The Black Hole both sports films?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[McFarland, USA]
+Action 1: Search[McFarland, USA]
+Observation 1: McFarland, USA (also known as McFarland) is a 2015 American sports drama film directed by Niki Caro, produced by Mark Ciardi and Gordon Gray, written by Christopher Cleveland, Bettina Gilois and Grant Thompson with music composed by Antônio Pinto. The film was co-produced by Walt Disney Pictures and Mayhem Pictures. Based on the true story of a 1987 cross country team from a mainly Latino high school in McFarland, California, the film stars Kevin Costner as Jim White, the school's coach, who leads the team to win a state championship.[4] The film also stars Maria Bello and Morgan Saylor.. McFarland, USA was released on February 20, 2015, received positive reviews from critics, and grossed over $45 million. The film was released on DVD and Blu-ray on June 2, 2015, by Walt Disney Studios Home Entertainment..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[McFarland, USA]
+Action 1: Search[McFarland, USA]
+Observation 1: **McFarland, USA** is a 2015 American sports drama film directed by Niki Caro. The film is inspired by the true story of a group of Latino teenagers from the predominantly Latino city of McFarland, California, who, under the guidance of their coach, Jim White, formed a championship cross-country team.. **Plot:**. The film follows Jim White (played by Kevin Costner), a disgraced high school football coach who, after a series of personal and professional setbacks.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[The Black Hole]
+Action 2: Search[The Black Hole]
+Observation 2: A black hole is a region of extreme gravitational pull.. Black hole or blackhole may also refer to:. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us. HelpLearn to editCommunity portalRecent changesUpload fileSpecial pages. Donate.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[The Black Hole]
+Action 2: Search[The Black Hole]
+Observation 2: A **black hole** is a region of spacetime where gravity is so strong that nothing—no particles or even electromagnetic radiation such as light—can escape from it. The theory of general relativity predicts that a sufficiently compact mass can deform spacetime to form a black hole.. The boundary of the region from which no escape is possible is called the **event horizon**. Although the event horizon has an area, it has no well-defined surface or physical boundary. The event horizon is a boundary in spacetime beyond.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[The Black Hole (film)]
+Action 3: Search[The Black Hole (film)]
+Observation 3: The Black Hole is a 1979 American science fiction film directed by Gary Nelson and produced by Walt Disney Productions. The film stars Maximilian Schell, Robert Forster, Joseph Bottoms, Yvette Mimieux, Anthony Perkins and Ernest Borgnine, while the voices of the main robot characters are provided by Roddy McDowall and Slim Pickens (both uncredited). The music for the film was composed by John Barry. With a production budget of $20 million, plus another $6 million for advertising,[1][3] it was at the time the most expensive picture ever produced by Disney.[4]. In the early 1970s, the film was initially conceived as a space-themed disaster film.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[The Black Hole film]
+Action 3: Search[The Black Hole film]
+Observation 3: **The Black Hole** is a 1979 American science fiction film produced and directed by Gary Nelson, and written by Richard Landau and Earl E. Robinson. It stars Maximilian Schell, Ernest Borgnine, Yvette Mimieux, and Anthony Perkins. The film was released by Walt Disney Productions and was the first film released by the studio to be rated PG.. **Plot**.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[no]
+Action 4: Finish[no]
+Observation 4: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[no]
+Action 4: Finish[no]
+Observation 4: **The Black Hole** is a 1979 American science fiction film produced and directed by Gary Nelson, and written by Richard Landau and Earl E. Robinson. It stars Maximilian Schell, Ernest Borgnine, Yvette Mimieux, and Anthony Perkins. The film was released by Walt Disney Productions and was the first film released by the studio to be rated PG.. **Plot**.
+
+
+
+INFO {'steps': 7, 'answer': 'no', 'gt_answer': 'no', 'question_idx': 2708, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 1 
+Number of steps: 2 
+Average reward: 0.5 
+Average time 29.310683488845825
+
+-------------------------------------------------------
+

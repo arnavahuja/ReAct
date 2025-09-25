@@ -1,0 +1,53 @@
+INFO 5890 Question: Gabriela Mistral and Alan Sillitoe were both in what profession?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Gabriela Mistral]
+Action 1: Search[Gabriela Mistral]
+Observation 1: Lucila Godoy Alcayaga (Latin American Spanish: [luˈsila ɣoˈðoj alkaˈʝaɣa]; 7 April 1889 – 10 January 1957), known by her pseudonym Gabriela Mistral (Spanish: [ɡaˈβɾjela misˈtɾal]), was a Chilean poet-diplomat, journalist and educator. She read widely in theosophy, became a member of the Secular Franciscan Order or Third Franciscan order in 1925, but rarely attended mass.[1] She was the first Latin American author to receive a Nobel Prize in Literature in 1945, "for her lyric poetry which, inspired by powerful emotions, has made her name a symbol of the idealistic aspirations of the entire Latin American world".[2] Some central themes in her poems are nature, betrayal, love, a mother's love, sorrow and recovery, travel, and Latin American identity as formed from a mixture of Native American and European influences. She also wrote an immense body of prose, about 800 articles that circulated throughout the Spanish-speaking world, on a range of topics: geography, education, profiles of her fellow writers, politics, and more. Her image is featured on the 5,000 Chilean peso banknote.. Mistral was born in Vicuña, Chile,[3] but grew up in Montegrande, an Andean village where she attended a primary school taught by her older sister, Emelina Molina.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Gabriela Mistral]
+Action 1: Search[Gabriela Mistral]
+Observation 1: **Gabriela Mistral** (born **Lucila Godoy Alcayaga**; April 7, 1889 – January 10, 1957) was a Chilean poet, educator, diplomat, and feminist who was the first Latin American author to receive the Nobel Prize in Literature in 1945. Her work is characterized by themes of love, motherhood, nature, sorrow, and the plight of the poor and marginalized.. **Early Life and.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Alan Sillitoe]
+Action 2: Search[Alan Sillitoe]
+Observation 2: Alan Sillitoe FRSL (4 March 1928 – 25 April 2010)[1][2] was an English writer and one of the so-called "angry young men" of the 1950s.[3][4][5] He disliked the label, as did most of the other writers to whom it was applied. He is best known for his debut novel Saturday Night and Sunday Morning and his early short story "The Loneliness of the Long Distance Runner", both of which were adapted into films.. Sillitoe was born in Nottingham to working-class parents, Christopher Sillitoe and Sabina (née Burton). Like Arthur Seaton, the anti-hero of his first novel, Saturday Night and Sunday Morning, his father worked at the Raleigh Bicycle Company's factory in the town.[2] His father was illiterate, violent,[6] and unsteady with his jobs, and the family was often on the brink of starvation.[2]. Sillitoe left school at the age of 14, having failed the entrance examination to grammar school.[4] He worked at the Raleigh factory for the next four years, spending his free time reading prodigiously and being a "serial lover of local girls".[6] He joined the Air Training Corps in 1942,[7] then the Royal Air Force (RAF), albeit too late to serve in the Second World War.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Alan Sillitoe]
+Action 2: Search[Alan Sillitoe]
+Observation 2: **Alan Sillitoe (1928 – 2010)**. Alan Sillitoe was a prominent English writer, best known for his gritty and realistic portrayals of working-class life in post-war Britain. He was a key figure in the "Angry Young Men" movement of the 1950s, a group of working-class and lower-middle-class British writers who expressed disillusionment with traditional English society and its class system.. **Early.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[writer]
+Action 3: Finish[writer]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[writer]
+Action 3: Finish[writer]
+Observation 3: **Alan Sillitoe (1928 – 2010)**. Alan Sillitoe was a prominent English writer, best known for his gritty and realistic portrayals of working-class life in post-war Britain. He was a key figure in the "Angry Young Men" movement of the 1950s, a group of working-class and lower-middle-class British writers who expressed disillusionment with traditional English society and its class system.. **Early.
+
+
+
+INFO {'steps': 5, 'answer': 'writer', 'gt_answer': 'writers', 'question_idx': 3275, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 15 
+Number of steps: 27 
+Average reward: 0.5555555555555556 
+Average time 11.269849379857382
+
+-------------------------------------------------------
+

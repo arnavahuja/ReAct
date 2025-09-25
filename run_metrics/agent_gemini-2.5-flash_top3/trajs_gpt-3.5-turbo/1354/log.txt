@@ -1,0 +1,60 @@
+INFO 1354 Question: Which  Australian singer-songwriter wrote  Cold Hard Bitch
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to identify the Australian singer-songwriter who wrote "Cold Hard Bitch". I can start by searching for the song title to see who wrote it.
+Action 1: Search[Cold Hard Bitch] 
+        Action 1: Search[Cold Hard Bitch]
+        Observation 1: "Cold Hard Bitch" is a song by Australian rock band Jet, released as the fourth single (second in the United States) from their 2003 debut album, Get Born. The song was written by band members Chris Cester, Nic Cester, and Cameron Muncey.[3][4] Heavily inspired by prior heavy bands such as AC/DC, the song is one of the heaviest in the group's catalog, being a tough hard rock tune with a simplistic chord structure.[5]. The song was released in the United States on 9 February 2004 and in Australia on 26 July 2004. In addition to peaking at number 33 in Australia, it topped the US Billboard Mainstream Rock and Modern Rock Tracks charts and reached number 55 on the Billboard Hot 100. In Canada, the song reached number two on the Radio & Records Rock Top 30, while in Europe, it charted in the United Kingdom, peaking at number 34 in September 2004.."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to identify the Australian singer-songwriter who wrote "Cold Hard Bitch". I should start by searching for the song title to find who wrote it.
+Action 1: Search[Cold Hard Bitch], Search[writer of Cold Hard Bitch], Lookup[Cold Hard Bitch] 
+        Action 1: ['Search[Cold Hard Bitch]', 'Search[writer of Cold Hard Bitch]', 'Lookup[Cold Hard Bitch]']
+        Observation 1: I'm sorry, but I cannot provide verbatim text from Wikipedia as it is copyrighted material. However, I can provide you with a brief summary of the song "Cold Hard Bitch" by Jet.. "Cold Hard Bitch" is a song by the Australian rock band Jet, released in 2004 as a single from their debut album "Get Born." The song features a catchy guitar riff and energetic vocals, reflecting the band's classic rock influences. "Cold Hard Bitch" received."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The song "Cold Hard Bitch" was written by Chris Cester, Nic Cester, and Cameron Muncey, who are members of the Australian band Jet. I need to confirm if they are singer-songwriters and then determine which one fits the singular "singer-songwriter" in the question, or if all apply.
+Action 2: Search[Chris Cester] 
+        Action 2: Search[Chris Cester]
+        Observation 2: Christopher James Cester (born 16 September 1981) is an Australian musician, songwriter, producer and founding mainstay drummer and backing vocalist of rock band Jet. As a member of Jet, Cester has won awards as a songwriter from the Australasian Performing Right Association (APRA), including in 2005 as Songwriter of the Year, and 2011 for "Seventeen", which won "Most Played Australian Work" and "Rock Work of the Year".. Christopher James Cester was born in Melbourne, Australia, 16 September 1981.[1][2] He has one older brother, Nicholas John "Nic" Cester (born 6 July 1979), and two younger brothers. Their parents were both children of immigrants to Australia. Their mother, Helen Isobel née McIvor (born 1957), has Scottish descent; and their father, Giovanni "John" Cester (1957–August 2004), had Italian descent.[3]."
+
+SIMULATION TRAJECTORY:
+ Thought 2: The observation states that "Cold Hard Bitch" is a song by the Australian rock band Jet. Therefore, the singer-songwriter would be associated with this band. I need to find out who are the singer-songwriters in Jet.
+Action 2: Search[Jet (band)], Lookup[singer-songwriter], Finish[Jet] 
+        Action 2: ['Search[Jet (band)]', 'Lookup[singer-songwriter]', 'Finish[Jet]']
+        Observation 2: Chris Cester is an Australian musician, singer, and songwriter, best known as the lead vocalist and drummer of the rock band Jet. He was born on October 16, 1980, in Melbourne, Australia. Cester formed Jet in 2001 with his brother Nic Cester and two friends, Cameron Muncey and Mark Wilson. The band achieved international success with their debut album "Get Born" in 2003, which featured hit singles like "Are You Gonna Be My."
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Chris Cester is an Australian musician, songwriter, and a member of Jet. He co-wrote "Cold Hard Bitch". He fits the description of an Australian singer-songwriter.
+Action 3: Finish[Chris Cester] 
+        Action 3: Finish[Chris Cester]
+        Observation 3: Episode finished, reward = 0
+"
+
+SIMULATION TRAJECTORY:
+ Thought 3: Chris Cester is an Australian singer-songwriter. The question asks for "an Australian singer-songwriter" (singular), and Chris Cester fits this perfectly. He is listed as one of the writers of the song. Therefore, I can conclude with Chris Cester as the answer.
+Action 3: [Finish[Chris Cester], Search[Nic Cester], Search[Cameron Muncey]] 
+        Action 3: ['Search[Nic Cester]', 'Search[Cameron Muncey]', 'Finish[Chris Cester]']
+        Observation 3: Chris Cester is an Australian musician, singer, and songwriter, best known as the lead vocalist and drummer of the rock band Jet. He was born on October 16, 1980, in Melbourne, Australia. Cester formed Jet in 2001 with his brother Nic Cester and two friends, Cameron Muncey and Mark Wilson. The band achieved international success with their debut album "Get Born" in 2003, which featured hit singles like "Are You Gonna Be My."
+
+
+
+INFO {'steps': 5, 'answer': 'Chris Cester', 'gt_answer': 'Nicholas John "Nic" Cester', 'question_idx': 6531, 'reward': False, 'em': False, 'f1': 0.3333333333333333}
+
+INFO Sum of rewards: 6 
+Number of steps: 12 
+Average reward: 0.5 
+Average time 11.598410348097483
+
+--------------------------------------------------
+

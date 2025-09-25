@@ -1,0 +1,67 @@
+INFO 1076 Question: The 2014 All-Pac-12 Conference football team featured players from the team led by which second-year head coach, who led his team to the conference title?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[2014 All-Pac-12 Conference football team]
+Action 1: Search[2014 All-Pac-12 Conference football team]
+Observation 1: The 2014 All-Pac-12 Conference football team consists of American football players chosen by various organizations for All-Pac-12 Conference teams for the 2014 Pac-12 Conference football season.[1] The Oregon Ducks won the conference, defeating the Arizona Wildcats 51 to 13 in the Pac-12 Championship game. Oregon was then the national runner-up, in the College Football Playoff semifinal beating the ACC champion Florida States Seminoles 59 to 20; then losing to the Big Ten champion Ohio State Buckeyes 42 to 20 in the national championship game. Oregon quarterback Marcus Mariota won the Heisman Trophy and was voted Pac-12 Offensive Player of the Year. Arizona linebacker Scooby Wright III was voted Pat Tillman Pac-12 Defensive Player of the Year.. Coaches = selected by the Pac-12 coaches.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[2014 Pac-12 Conference football season]
+Action 1: Search[2014 Pac-12 Conference football season]
+Observation 1: The 2014 All-Pac-12 Conference football team was a selection of college football players from the Pac-12 Conference chosen by various selectors for their performance during the 2014 NCAA Division I FBS football season. The team was composed of both an offensive and defensive unit, as well as special teams players. Notable players included Marcus Mariota, Shaq Thompson, and Scooby Wright III. The selections were based on votes by conference coaches and media members..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Oregon Ducks football 2014]
+Action 2: Search[Oregon Ducks football 2014]
+Observation 2: Could not find Oregon Ducks football 2014. Similar: ['2014 Oregon Ducks football team', 'Oregon Ducks', 'Oregon Ducks football', 'Oregon–Oregon State football rivalry', '2001 Oregon Ducks football team'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[conference title]
+Action 2: Lookup[conference title]
+Observation 2: The 2014 Oregon Ducks football team represented the University of Oregon in the 2014 NCAA Division I FBS football season. The team was led by head coach Mark Helfrich and played their home games at Autzen Stadium in Eugene, Oregon. The Ducks finished the season with a 13-2 record, winning the Pac-12 Championship Game against Arizona and earning a spot in the inaugural College Football Playoff.. In the playoff semifinal, Oregon defeated Florida State in the Rose Bowl, advancing.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[2014 Oregon Ducks football team]
+Action 3: Search[2014 Oregon Ducks football team]
+Observation 3: The 2014 Oregon Ducks football team represented the University of Oregon in the 2014 NCAA Division I FBS football season. The team was led by second-year head coach Mark Helfrich and played their home games at Autzen Stadium for the 48th straight year. They are a member of the Pac-12 Conference in the North Division.. The 2014 Ducks finished the season with a 13–2 overall record, went 8–1 in Pac-12 play, and outscored their opponents by a combined total of 681 to 354. The Ducks won the Pac-12 North Division for the second time since the division's creation in 2011, advancing to the Pac-12 Football Championship Game, where they defeated the Arizona Wildcats 51–13.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Mark Helfrich]
+Action 3: Search[Mark Helfrich]
+Observation 3: The 2014 Oregon Ducks football team represented the University of Oregon in the 2014 NCAA Division I FBS football season. The team was led by head coach Mark Helfrich and played their home games at Autzen Stadium in Eugene, Oregon. The Ducks finished the season with a 13-2 record, winning the Pac-12 Championship Game against Arizona and earning a spot in the inaugural College Football Playoff.. Oregon's high-powered offense was led by Heisman Trophy-winning quarterback Marcus Mariota.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[Mark Helfrich]
+Action 4: Finish[Mark Helfrich]
+Observation 4: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[Mark Helfrich]
+Action 4: Search[Mark Helfrich]
+Observation 4: The 2014 Oregon Ducks football team represented the University of Oregon in the 2014 NCAA Division I FBS football season. The team was led by head coach Mark Helfrich and played their home games at Autzen Stadium in Eugene, Oregon. The Ducks finished the season with a 13-2 record, winning the Pac-12 Championship Game against Arizona and earning a spot in the inaugural College Football Playoff.. Oregon's high-powered offense was led by Heisman Trophy-winning quarterback Marcus Mariota.
+
+
+
+INFO {'steps': 7, 'answer': 'Mark Helfrich', 'gt_answer': 'Mark Helfrich', 'question_idx': 4573, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 19 
+Number of steps: 41 
+Average reward: 0.4634146341463415 
+Average time 16.87578868284458
+
+-------------------------------------------------------
+

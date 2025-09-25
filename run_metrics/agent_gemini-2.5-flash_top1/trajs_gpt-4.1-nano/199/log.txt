@@ -1,0 +1,53 @@
+INFO 199 Question: Which university was founded first, University of California, Berkeley or Saint Louis University?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[University of California, Berkeley]
+Action 1: Search[University of California, Berkeley]
+Observation 1: The University of California, Berkeley (UC Berkeley, Berkeley, Cal, or California)[11][12] is a public land-grant research university in Berkeley, California, United States. Founded in 1868 and named after the Anglo-Irish philosopher George Berkeley, it is the state's first land-grant university and is the founding campus of the University of California system.[13]. Berkeley has an enrollment of more than 45,000 students. The university is organized around fifteen schools of study on the same campus, including the College of Chemistry, the College of Engineering, College of Letters and Science, and the Haas School of Business. It is classified among "R1: Doctoral Universities – Very high research activity".[14] Lawrence Berkeley National Laboratory was originally founded as part of the university.[15].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[University of California, Berkeley]
+Action 1: Search[University of California, Berkeley]
+Observation 1: The University of California, Berkeley (UC Berkeley) is a prestigious public research university located in Berkeley, California. Established in 1868, it is the flagship institution of the University of California system and is renowned for its rigorous academic programs, distinguished faculty, and vibrant campus community.. Academics and Research:. UC Berkeley offers over 350 undergraduate and more than 150 graduate degree programs across various disciplines, including arts and humanities, social sciences, natural sciences, engineering, and business. The university is recognized for its groundbreaking research and has produced numerous Nobel laureates, Fields Medalists, and other distinguished scholars.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Saint Louis University]
+Action 2: Search[Saint Louis University]
+Observation 2: Saint Louis University (SLU) is a private Jesuit research university in St. Louis, Missouri, United States.[3] Founded in 1818 by Louis William Valentine DuBourg,[8] it is the oldest university west of the Mississippi River and one of the oldest Jesuit universities in the United States. The university is accredited by the Higher Learning Commission.[9]. In the 2023–2024 academic year, SLU had an enrollment of 15,204 students. The student body included 8,502 undergraduate students and 6,702 graduate students that represent all 50 states and 96 countries.[4]  The university is classified among "R1: Doctoral Universities – Very High Spending and Doctorate Production".[10].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Saint Louis University]
+Action 2: Search[Saint Louis University]
+Observation 2: Saint Louis University (SLU) is a private Catholic research university located in St. Louis, Missouri. Founded in 1818 by the Society of Jesus (Jesuits), it is one of the oldest universities west of the Mississippi River and the oldest university west of the Mississippi still operating under its original name. The university offers undergraduate, graduate, and professional degree programs across various disciplines, including arts and sciences, business, education, health sciences, and law.. SLU is known for its strong emphasis on research, community service, and the integration of faith and learning.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Saint Louis University]
+Action 3: Finish[Saint Louis University]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Saint Louis University]
+Action 3: Finish[Saint Louis University]
+Observation 3: Saint Louis University (SLU) is a private Catholic research university located in St. Louis, Missouri. Founded in 1818 by the Society of Jesus (Jesuits), it is one of the oldest universities west of the Mississippi River and the oldest university west of the Mississippi still operating under its original name. The university offers undergraduate, graduate, and professional degree programs across various disciplines, including arts and sciences, business, education, health sciences, and law.. SLU is known for its strong emphasis on research, community service, and the integration of faith and learning.
+
+
+
+INFO {'steps': 5, 'answer': 'Saint Louis University', 'gt_answer': 'Saint Louis University', 'question_idx': 1961, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 10 
+Number of steps: 16 
+Average reward: 0.625 
+Average time 11.110538005828857
+
+-------------------------------------------------------
+

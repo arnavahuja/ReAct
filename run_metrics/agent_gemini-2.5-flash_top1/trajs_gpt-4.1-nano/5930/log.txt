@@ -1,0 +1,67 @@
+INFO 5930 Question: Who wrote the TV serial in which Rosemary Martin played Marjorie ?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Rosemary Martin]
+Action 1: Search[Rosemary Martin]
+Observation 1: Rosemary Martin (17 December 1936 – 14 August 1998)[1] was an English actress, born in Birmingham.[1] She appeared in dozens of films from 1964 to 1998 and is also known  for television roles including Mrs. Partridge in Last of the Summer Wine, Vera in Oh No It's Selwyn Froggitt, Marjorie in Pennies from Heaven, Miss Weber in The Insurance Man, Renie Fox in Fox and Verna Johnson in Tenko.. Other TV credits include: Z-Cars, Crown Court, Bill Brand, Coronation Street, The Gentle Touch, The Sweeney, Looking For Clancy, Maggie: It's Me, Thomas & Sarah, Bergerac, The Chinese Detective, The Insurance Man, Jeeves and Wooster, Drop the Dead Donkey, Pie in the Sky, Cracker, Heartbeat, The Bill, Outside Edge, Peak Practice and EastEnders.. Her film credits include It Shouldn't Happen to a Vet (1976), Tess (1979), Britannia Hospital (1982), Slayground (1983), Secret Places (1984), The Dressmaker (1988), The Raggedy Rawney (1988), A Dry White Season (1989) and The Object of Beauty (1991).[1]. Martin died on 14 August 1998.[1].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Rosemary Martin]
+Action 1: Search[Rosemary Martin]
+Observation 1: Rosemary Martin was a prominent British business executive known for her influential role in the financial services industry. She held several key leadership positions throughout her career, notably serving as the Chief Executive Officer of the London Stock Exchange from 1990 to 1994. Martin was recognized for her pioneering efforts in modernizing and expanding the operations of the exchange during a period of significant technological and regulatory change. Her leadership contributed to the transformation of the London Stock Exchange into a more competitive and globally integrated financial institution. Rosemary.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Pennies from Heaven (TV serial)]
+Action 2: Search[Pennies from Heaven (TV serial)]
+Observation 2: Could not find Pennies from Heaven (TV serial). Similar: ['Pennies from Heaven (TV series)', 'Pennies from Heaven (1981 film)', 'Quatermass (TV serial)', 'Lipstick on Your Collar (TV series)', 'Cheryl Campbell (category Short description is different from Wikidata)'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Rosemary Martin Marjorie]
+Action 2: Search[Rosemary Martin Marjorie]
+Observation 2: Pennies from Heaven (TV serial) is a British television drama series that originally aired in 1978. The series was created by Dennis Potter and is renowned for its innovative narrative style, blending musical numbers with a gritty portrayal of working-class life in 1930s Britain. The show features a mix of drama and musical performances, with characters often breaking into song to express their inner feelings, a hallmark of Potter's distinctive storytelling approach.. Set against the backdrop of the Great Depression, the series follows.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Pennies from Heaven (TV series)]
+Action 3: Search[Pennies from Heaven (TV series)]
+Observation 3: Pennies from Heaven is a 1978 BBC musical drama serial written by Dennis Potter. The title is taken from the song "Pennies from Heaven" written by Johnny Burke and Arthur Johnston. It was one of several Potter serials (another being The Singing Detective) to mix the reality of the drama with a dark fantasy content, and the earliest of his works where the characters burst into extended performances of popular songs.. The serial was directed by Piers Haggard and produced by frequent Potter collaborator Kenith Trodd.[2][3] Bob Hoskins became an established actor in the United Kingdom following his role in this serial.[a] It also featured Nigel Havers as Conrad Baker (the suave salesman), Jenny Logan as Irene (Joan's friend), Freddie Jones as Mr. Warner (Eileen's headmaster), Michael Bilton as Eileen's dad, Tudor Davies as the cafe customer (Davies was also choreographer for the series), and Peter Bowles as the Prosecuting Counsel.[6].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Dennis Potter]
+Action 3: Finish[Dennis Potter]
+Observation 3: Pennies from Heaven (TV series) is a British television drama series that originally aired in 1978. The series was created by Dennis Potter and is known for its innovative use of music and its exploration of themes such as love, despair, and social issues in 1930s Britain.. The show stars Bob Hoskins as Arthur Parker, a sheet music salesman, and Cheryl Campbell as Joan, a young woman with whom he becomes involved. The narrative is set against the backdrop of the Great.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[Dennis Potter]
+Action 4: Finish[Dennis Potter]
+Observation 4: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[Dennis Potter]
+Action 4: Finish[Dennis Potter]
+Observation 4: Pennies from Heaven (TV series) is a British television drama series that originally aired in 1978. The series was created by Dennis Potter and is known for its innovative use of music and its exploration of themes such as love, despair, and social issues in 1930s Britain.. The show stars Bob Hoskins as Arthur Parker, a sheet music salesman, and Cheryl Campbell as Joan, a young woman with whom he becomes involved. The narrative is set against the backdrop of the Great.
+
+
+
+INFO {'steps': 7, 'answer': 'Dennis Potter', 'gt_answer': 'Dennis Potter.', 'question_idx': 4049, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 10 
+Number of steps: 21 
+Average reward: 0.47619047619047616 
+Average time 15.91906323887053
+
+-------------------------------------------------------
+

@@ -1,0 +1,67 @@
+INFO 3908 Question: What team plays within the Big 12 Conference and has Kevin Bookout playing for them?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Kevin Bookout]
+Action 1: Search[Kevin Bookout]
+Observation 1: Kevin Bookout (born March 16, 1983) is an American former professional basketball player. Born in Stroud, Oklahoma, he attended Stroud High School where he competed in basketball, baseball, shot put and discus.[1] He played college basketball for the Oklahoma Sooners as he wanted to attend a college with quality basketball and track-and-field programs.[1] While with the Sooners basketball team, Bookout scored 1,018 points and pulled in 682 rebounds. He also participated on the track team and appeared in the 2007 NCAA finals in shot put.. Bookout aspired to earn a spot on the United States shot put team for the 2008 Olympics but delayed his efforts until the 2012 Olympics.[2] He instead played basketball professionally with the Rio Grande Valley Vipers in 2007.[2][3]. Bookout worked out for the New York Jets of the National Football League (NFL) in 2012.[4].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Kevin Bookout]
+Action 1: Search[Kevin Bookout]
+Observation 1: **Kevin Bookout** (born October 21, 1983) is an American former professional football player who was a fullback in the National Football League (NFL). He played college football for the Oklahoma Sooners and was drafted by the Cincinnati Bengals in the seventh round of the 2006 NFL Draft.. **Early Life and High School:**. Bookout was born in Stroud, Oklahoma. He attended Stroud High School, where he was a standout multi-.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Oklahoma Sooners]
+Action 2: Search[Oklahoma Sooners]
+Observation 2: The Oklahoma Sooners are the athletic teams that represent the University of Oklahoma, located in Norman. The 19 men's and women's varsity teams are called the "Sooners", a reference to a nickname given to the early participants in the Land Run of 1889, which initially opened the Unassigned Lands in the future state of Oklahoma to non-native settlement.[2][3] The university's athletic teams compete in the National Collegiate Athletic Association (NCAA)'s Division I in the Southeastern Conference (SEC). The university's current athletic director is Joe Castiglione.. The Sooners have won 45 team national championships. In 2002, the University of Oklahoma was ranked as the third best college sports program in America by Sports Illustrated.[4].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Oklahoma Sooners]
+Action 2: Search[Oklahoma Sooners]
+Observation 2: The **Oklahoma Sooners** are the intercollegiate athletic teams that represent the University of Oklahoma (OU), located in Norman, Oklahoma. The university's athletic program is a member of the Big 12 Conference and competes in NCAA Division I. The Sooners are particularly renowned for their highly successful football program, but also boast strong traditions and achievements in numerous other sports.. **History and Overview:**. The University of Oklahoma's athletic programs date back to the late 19th century.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Lookup[Big 12 Conference]
+Action 3: Lookup[Big 12 Conference]
+Observation 3: (Result 1 / 1) The university's athletic program is a member of the Big 12 Conference and competes in NCAA Division I.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Oklahoma Sooners]
+Action 3: Finish[Oklahoma Sooners]
+Observation 3: The **Oklahoma Sooners** are the intercollegiate athletic teams that represent the University of Oklahoma (OU), located in Norman, Oklahoma. The university's athletic program is a member of the Big 12 Conference and competes in NCAA Division I. The Sooners are particularly renowned for their highly successful football program, but also boast strong traditions and achievements in numerous other sports.. **History and Overview:**. The University of Oklahoma's athletic programs date back to the late 19th century.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[Oklahoma Sooners]
+Action 4: Finish[Oklahoma Sooners]
+Observation 4: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[Oklahoma Sooners]
+Action 4: Finish[Oklahoma Sooners]
+Observation 4: The **Oklahoma Sooners** are the intercollegiate athletic teams that represent the University of Oklahoma (OU), located in Norman, Oklahoma. The university's athletic program is a member of the Big 12 Conference and competes in NCAA Division I. The Sooners are particularly renowned for their highly successful football program, but also boast strong traditions and achievements in numerous other sports.. **History and Overview:**. The University of Oklahoma's athletic programs date back to the late 19th century.
+
+
+
+INFO {'steps': 7, 'answer': 'Oklahoma Sooners', 'gt_answer': "Oklahoma Sooners men's basketball", 'question_idx': 1539, 'reward': False, 'em': False, 'f1': 0.6666666666666666}
+
+INFO Sum of rewards: 7 
+Number of steps: 25 
+Average reward: 0.28 
+Average time 13.226377506256103
+
+-------------------------------------------------------
+

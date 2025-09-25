@@ -1,0 +1,53 @@
+INFO 1880 Question: Is there fruit juice in both a Fizz and a Painkiller cocktail?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Fizz (cocktail)]
+Action 1: Search[Fizz (cocktail)]
+Observation 1: A "fizz" is a mixed drink variation on the older sours family of cocktail. Its defining features are an acidic juice (such as lemon or lime) and carbonated water. It typically includes gin or rum as its alcoholic ingredient.. The fizz became widely popular in America between 1900 and the 1940s. Known as a hometown specialty of New Orleans, the gin fizz was so popular that bars would employ teams of bartenders that would take turns shaking the drinks.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Fizz (cocktail)]
+Action 1: Search[Fizz (cocktail)]
+Observation 1: A fizz is a mixed drink that includes acidic fruit juice and carbonated water, along with other ingredients such as liquor and sugar. The fizz is typically served in a tall glass over ice and is known for its effervescence and refreshing taste. Variations of the fizz cocktail include the Gin Fizz, Whiskey Fizz, and Ramos Gin Fizz. The fizz cocktail has been a popular choice among cocktail enthusiasts for many years due to its light and bubbly nature..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Painkiller (cocktail)]
+Action 2: Search[Painkiller (cocktail)]
+Observation 2: A Painkiller is a rum cocktail often associated with the British Virgin Islands, its place of origin. The Painkiller is a blend of rum with four parts pineapple juice, one part cream of coconut and one part orange juice, well shaken and served on the rocks with a generous amount of fresh grated nutmeg on top. One serving may be made with two, three, or four ounces of rum.. The original Painkiller was created in the 1970s at the Soggy Dollar Bar at White Bay on the island of Jost Van Dyke in the British Virgin Islands. The inventor may have been Daphne Henderson, or George and Marie Myrick, previous owners of the Soggy Dollar.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Painkiller (cocktail)]
+Action 2: Search[Painkiller (cocktail)]
+Observation 2: The Painkiller is a cocktail made with rum, pineapple juice, orange juice, and cream of coconut, typically served over ice and garnished with nutmeg. It is a popular tropical drink that originated in the British Virgin Islands. The Painkiller is known for its sweet and fruity flavor profile, making it a refreshing choice for warm weather or beachside sipping. It is often compared to the Piña Colada due to its similar ingredients, but the Painkiller has a distinct taste of its own.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[yes]
+Action 3: Finish[yes]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Yes]
+Action 3: Finish[Yes]
+Observation 3: The Painkiller is a cocktail made with rum, pineapple juice, orange juice, and cream of coconut, typically served over ice and garnished with nutmeg. It is a popular tropical drink that originated in the British Virgin Islands. The Painkiller is known for its sweet and fruity flavor profile, making it a refreshing choice for warm weather or beachside sipping. It is often compared to the Piña Colada due to its similar ingredients, but the Painkiller has a distinct taste of its own.
+
+
+
+INFO {'steps': 5, 'answer': 'yes', 'gt_answer': 'yes', 'question_idx': 2318, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 15 
+Number of steps: 43 
+Average reward: 0.3488372093023256 
+Average time 25.278822610544605
+
+-------------------------------------------------------
+

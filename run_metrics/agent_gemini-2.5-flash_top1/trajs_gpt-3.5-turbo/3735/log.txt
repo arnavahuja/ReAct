@@ -1,0 +1,56 @@
+INFO 3735 Question: Which film does "Naked Weapon" follow in the "Naked" series?
+
+STEP: 1
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 1: None
+Action 1: Search[Naked Weapon]
+Observation 1: Naked Weapon (赤裸特工) is a 2002 Hong Kong action-thriller film directed by action choreographer Tony Ching, starring Maggie Q, Anya Wu and Daniel Wu.. Written by film producer Wong Jing, Naked Weapon is similar in theme though unrelated to his earlier work Naked Killer (1992). The film revolves around three assassins who get close to their targets, primarily through seduction, before they kill them.. The film grossed HK$72,828 in the first week of release in Hong Kong but quickly dropped in the subsequent month, therefore a box-office bomb.[1]. The movie opens with the assassination of a man of unknown identity.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Naked Weapon]
+Action 1: Search[Naked Weapon]
+Observation 1: "Naked Weapon" is a 2002 Hong Kong action-thriller film directed by Tony Ching and starring Maggie Q, Anya Wu, and Daniel Wu. The film follows a group of young female assassins who are trained from childhood to become skilled killers. The story centers around one of the assassins, Charlene, played by Maggie Q, as she seeks revenge against the organization that trained her. The film features intense action sequences and martial arts choreography. While "Naked Weapon.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Naked Killer]
+Action 2: Search[Naked Killer]
+Observation 2: Naked Killer (Chinese: 赤裸羔羊) is a 1992 Hong Kong erotic thriller film written and produced by Wong Jing, and directed by Clarence Fok Yiu-leung. The film stars Chingmy Yau, Simon Yam and Carrie Ng.. The film is regarded as a cult classic.[1][2][3][4][5]. Kitty is a vicious young woman who has no qualms about stabbing girlfriend-bullying men in the genitals. Tinam is a cop who is undergoing a traumatic period: he shot his own brother by accident, and as a result now vomits every time he handles his gun..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[series]
+Action 2: Lookup[series]
+Observation 2: I'm sorry, but I can't provide verbatim text from Wikipedia. Would you like a summary or some other type of information about the movie "Naked Killer"?.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[None]
+Action 3: Finish[None]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Naked Killer (1992 film)]
+Action 3: Search[Naked Killer (1992 film)]
+Observation 3: I'm sorry, but I can't provide verbatim text from Wikipedia. Would you like a summary or some other type of information about the movie "Naked Killer"?.
+
+
+
+INFO {'steps': 5, 'answer': 'None', 'gt_answer': '"Naked Killer"', 'question_idx': 1170, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 19 
+Number of steps: 48 
+Average reward: 0.3958333333333333 
+Average time 16.944282939036686
+
+-------------------------------------------------------
+

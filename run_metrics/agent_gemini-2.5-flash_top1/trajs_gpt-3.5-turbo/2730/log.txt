@@ -1,0 +1,112 @@
+INFO 2730 Question: Which band has released more albums with their original members, Sick Puppies or Third Eye Blind?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Sick Puppies]
+Action 1: Search[Sick Puppies]
+Observation 1: Sick Puppies are an Australian rock band formed in Sydney in 1997. After releasing their debut album Welcome to the Real World in 2001, the band rose to prominence in 2006 when their song "All the Same" was uploaded, along with a video, to YouTube. The video supported the Free Hugs Campaign, which was launched in Sydney by Juan Mann, and has since received over 78 million views on the website.[6] This success was followed up with their second studio album, Dressed Up as Life, in 2007, which entered the Billboard 200 at number 181. Their third studio album, Tri-Polar, came out in 2009. The band's fourth studio album, Connect, was released in 2013.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Sick Puppies]
+Action 1: Search[Sick Puppies]
+Observation 1: Sick Puppies are an Australian rock band formed in 1997. The band consists of vocalist and guitarist Shimon Moore, bassist Emma Anzai, and drummer Mark Goodwin. They gained popularity with their hit singles "All the Same" and "You're Going Down." Sick Puppies have released several albums, including "Dressed Up as Life," "Tri-Polar," and "Connect." The band's music is characterized by powerful vocals, heavy guitar riffs, and energetic.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Lookup[members]
+Action 2: Lookup[members]
+Observation 2: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[original members]
+Action 2: Lookup[original members]
+Observation 2: Sick Puppies are an Australian rock band formed in 1997. The band consists of vocalist and guitarist Shimon Moore, bassist Emma Anzai, and drummer Mark Goodwin. They gained popularity with their hit singles "All the Same" and "You're Going Down." Sick Puppies have released several albums, including "Dressed Up as Life," "Tri-Polar," and "Connect." The band's music is characterized by powerful vocals, heavy guitar riffs, and energetic.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Sick Puppies original members]
+Action 3: Search[Sick Puppies original members]
+Observation 3: Could not find Sick Puppies original members. Similar: ['Sick Puppies', 'Sick Puppy', 'Shimon Moore (section Sick Puppies)', 'Welcome to the Real World (Sick Puppies album)', 'Sad Puppies'].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Sick Puppies original members]
+Action 3: Search[Sick Puppies original members]
+Observation 3: Sick Puppies are an Australian rock band formed in 1997. The original members of the band were Shimon Moore (vocals, guitar), Emma Anzai (bass, vocals), and Chris Mileski (drums). The band gained popularity with their debut album "Welcome to the Real World" in 2001. Chris Mileski was later replaced by Mark Goodwin on drums. The band's original lineup remained intact until Shimon Moore's departure in 2014.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Sick Puppies lineup]
+Action 4: Search[Sick Puppies lineup]
+Observation 4: Could not find Sick Puppies lineup. Similar: ['Sick Puppies', 'Sick New World', 'X-Fest (section Lineups)', 'My Darkest Days (section Sick and Twisted Affair (2012))', 'Through Fire'].
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[Third Eye Blind]
+Action 4: Search[Third Eye Blind]
+Observation 4: Sick Puppies are an Australian rock band formed in 1997. The band's current lineup consists of Emma Anzai on bass guitar and backing vocals, Mark Goodwin on drums, and Bryan Scott on lead vocals and guitar. Previous members include Shimon Moore, Chris Mileski, and Josh Anzai. The band is known for their energetic live performances and alternative rock sound..
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[Sick Puppies albums with original members]
+Action 5: Search[Sick Puppies albums with original members]
+Observation 5: Could not find Sick Puppies albums with original members. Similar: ['Sick Puppies', 'Shimon Moore (category All articles with dead external links)', 'Welcome to the Real World (Sick Puppies album)', 'Shim (band) (category Articles with short description)', 'Skinny Puppy'].
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Search[Third Eye Blind]
+Action 5: Search[Third Eye Blind]
+Observation 5: Sick Puppies is an Australian rock band formed in 1997. The band's original members were Shimon Moore (vocals, guitar), Emma Anzai (bass, vocals), and Mark Goodwin (drums).. The band released their debut album, "Welcome to the Real World," in 2001. The album received positive reviews and helped establish Sick Puppies as a rising force in the rock music scene.. In 2007, Sick Puppies released their.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Search[Shimon Moore]
+Action 6: Search[Shimon Moore]
+Observation 6: Shimon "Shim" Moore (born 11 November 1982) is an Australian rock singer, guitarist, songwriter, and occasional actor.. Moore's first movie role was as the lead in the 2000 fantasy film Selkie, when he was 17.[3] Three years later, he appeared in an episode of the TV show All Saints,[4] and he had a part in the 2011 Canadian post-apocalyptic film The Day.. In 1997, Moore co-founded the rock band Sick Puppies and remained their frontman, lead singer, guitarist, and co-songwriter for 17 years, releasing four studio albums with them. In 2012, he shared a Songwriter Award at the BMI Pop Awards for the 2010 Sick Puppies track "Maybe".[5] In 2014, he was fired from the band for undisclosed reasons.[6]. Later in 2014, Moore co-wrote the song "Wasted Love" for Matt McAndrew, which was debuted on season 7 of The Voice.
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Search[Third Eye Blind]
+Action 6: Search[Third Eye Blind]
+Observation 6: I'm sorry, but I cannot provide verbatim text from Wikipedia. However, I can provide you with a brief summary of Shimon Moore. Shimon Moore is an Australian singer, songwriter, and musician best known as the former lead vocalist and guitarist of the rock band Sick Puppies. He was born on June 22, 1982, in Melbourne, Australia. Moore left Sick Puppies in 2014 to pursue a solo career and has since released music independently.
+
+
+
+STEP: 7
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Search[Third Eye Blind]
+Action 7: Search[Third Eye Blind]
+Observation 7: Third Eye Blind is an American rock band formed in San Francisco, California, in 1993. After years of lineup changes in the early and mid-1990s, the songwriting duo of Stephan Jenkins and Kevin Cadogan signed the band's first major-label recording contract with Elektra Records in 1996. The band released their self-titled debut album in 1997, with the band largely consisting of Jenkins (vocals, rhythm guitar), Cadogan (lead guitar), Arion Salazar (bass guitar), and Brad Hargreaves (drums). Shortly after the release of the band's second album in 1999, Blue, with the same line-up, Cadogan was released from the band under controversial circumstances.. The band continued, but with many line-up changes and long gaps between album releases for the next fifteen years.
+
+SIMULATION TRAJECTORY:
+ Thought 7: None
+Action 7: Search[Emma Anzai]
+Observation 7: Third Eye Blind is an American rock band formed in San Francisco, California, in 1993. The band's current lineup consists of Stephan Jenkins (lead vocals, rhythm guitar), Brad Hargreaves (drums), Kryz Reid (lead guitar), Alex LeCavalier (bass), and Colin CreeV (keyboards/guitar). They are known for their catchy melodies and lyrics that often touch on themes of relationships, heartbreak, and personal struggles.. Third Eye Blind gained.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'Sick Puppies', 'question_idx': 2433, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 19 
+Number of steps: 46 
+Average reward: 0.41304347826086957 
+Average time 17.04189035166865
+
+-------------------------------------------------------
+

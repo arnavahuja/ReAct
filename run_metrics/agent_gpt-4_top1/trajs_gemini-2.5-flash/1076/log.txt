@@ -1,0 +1,39 @@
+INFO 1076 Question: Alison Castle is the editor of what publication with a connection to the Beatles?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Alison Castle]
+Action 1: Search[Alison Castle]
+Observation 1: Alison Castle is an American photographer and book editor who most prominently worked on The Stanley Kubrick Archives for Taschen[1] She is also the editor of Linda McCartney's Life in Photography, Some Like It Hot, Kubrick's Napoleon: The Greatest Movie Never Made, Marc Newson: Works, and Saturday Night Live: The Book, all published by TASCHEN.. From 2012 to 2019 she worked on a major, 5-volume retrospective of the life and work of Jacques Tati, published by TASCHEN in the fall of 2019.. Castle is the daughter of Nancy Jurs and Wendell Castle, prominent artists who reside in Scottsville, New York. She attended Allendale Columbia School in Pittsford.[2]. Castle studied philosophy as an undergraduate at Columbia University and received her graduate degree in photography and film from the New York University/International Center of Photography masters program.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Alison Castle]
+Action 1: Search[Alison Castle]
+Observation 1: **Alison Castle** is an American editor and author, primarily known for her extensive work with the German art book publisher Taschen. She has carved a niche for herself in the world of art and photography books, curating and editing numerous high-quality, often large-format, and visually stunning publications.. **Early Life and Education:**. Information regarding Alison Castle's early life and formal education is not widely publicized. However, her career trajectory suggests a strong background and passion for art history, photography.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[Linda McCartney's Life in Photography]
+Action 2: Finish[Linda McCartney's Life in Photography]
+Observation 2: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[Beatles]
+Action 2: Lookup[Beatles]
+Observation 2: **Alison Castle** is an American editor and author, primarily known for her extensive work with the German art book publisher Taschen. She has carved a niche for herself in the world of art and photography books, curating and editing numerous high-quality, often large-format, and visually stunning publications.. **Early Life and Education:**. Information regarding Alison Castle's early life and formal education is not widely publicized. However, her career trajectory suggests a strong background and passion for art history, photography.
+
+
+
+INFO {'steps': 3, 'answer': "Linda McCartney's Life in Photography", 'gt_answer': '"Linda McCartney\'s Life in Photography"', 'question_idx': 2916, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 19 
+Number of steps: 40 
+Average reward: 0.475 
+Average time 21.173548299074174
+
+-------------------------------------------------------
+

@@ -1,0 +1,53 @@
+INFO 3735 Question: Which professional tennis player was born first, Lucie Hradecká or Raffaella Reggi?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Lucie Hradecká]
+Action 1: Search[Lucie Hradecká]
+Observation 1: Lucie Hradecká (Czech pronunciation: [ˈlutsɪjɛ ˈɦradɛtskaː]; born 21 May 1985) is a Czech former professional tennis player. A three-time Grand Slam doubles champion and 26-time WTA Tour doubles titlist, she reached her career-high doubles ranking of world No. 4 in October 2012. She was also an integral member of the Czech Republic's national team and helped her country to win five titles at the Fed Cup (now Billie Jean King Cup) between 2011 and 2016, in addition to winning two Olympic medals in both women's doubles with Andrea Sestini Hlaváčková in 2012 and in mixed doubles with Radek Štěpánek in 2016. Hradecká also reached the top 45 in singles and was a finalist in seven tour-level singles tournaments.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Lucie Hradecká]
+Action 1: Search[Lucie Hradecká]
+Observation 1: Lucie Hradecká is a professional tennis player from the Czech Republic. She was born on May 21, 1985, in Prague, Czechoslovakia. Hradecká has won multiple WTA titles in both singles and doubles throughout her career. She is known for her powerful serve and aggressive playing style on the court. Hradecká has also achieved success in doubles, winning several Grand Slam titles and reaching the number 3 ranking in the world.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Raffaella Reggi]
+Action 2: Search[Raffaella Reggi]
+Observation 2: Raffaella Reggi (Italian pronunciation: [raffaˈɛlla ˈreddʒi]; born 27 November 1965) is an Italian TV pundit and former professional tennis player.. As a junior, Reggi won the Orange Bowl 16 and under in 1981. She was a member of the Continental Players Cup Team in 1982.. Reggi won the mixed doubles title at the US Open in 1986, partnering Sergio Casal. She was a singles quarter-finalist at the French Open in 1987, and reached a career-high singles ranking of World No.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Raffaella Reggi]
+Action 2: Search[Raffaella Reggi]
+Observation 2: I'm sorry, but I cannot provide verbatim text from Wikipedia. However, I can provide you with a brief summary of Raffaella Reggi. Raffaella Reggi is an Italian former professional tennis player who was born on September 27, 1965, in Italy. She reached a career-high singles ranking of No. 13 in the world in 1985.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Raffaella Reggi]
+Action 3: Finish[Raffaella Reggi]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Raffaella Reggi]
+Action 3: Finish[Raffaella Reggi]
+Observation 3: I'm sorry, but I cannot provide verbatim text from Wikipedia. However, I can provide you with a brief summary of Raffaella Reggi. Raffaella Reggi is an Italian former professional tennis player who was born on September 27, 1965, in Italy. She reached a career-high singles ranking of No. 13 in the world in 1985.
+
+
+
+INFO {'steps': 5, 'answer': 'Raffaella Reggi', 'gt_answer': 'Raffaella Reggi', 'question_idx': 2287, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 17 
+Number of steps: 47 
+Average reward: 0.3617021276595745 
+Average time 25.799405726980655
+
+-------------------------------------------------------
+

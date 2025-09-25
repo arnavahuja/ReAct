@@ -1,0 +1,118 @@
+INFO 600 Question: During the Carnival in Rio de Janeiro who is the official singer of the samba school Mangueira?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Mangueira]
+Action 1: Search[Mangueira]
+Observation 1: Mangueira (Mango Tree) is a shantytown neighborhood (favela) in the city of Rio de Janeiro, Brazil, centered on the Mangueira hill or morro.[1] It is most famous for its samba school,[2] the Estação Primeira de Mangueira (First Mangueira [train] Station) or simply Mangueira, which is one of strongest competitors in the annual Rio Carnival samba competition.[3]. This Rio de Janeiro state, Brazil location article is a stub. You can help Wikipedia by expanding it.. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us. HelpLearn to editCommunity portalRecent changesUpload fileSpecial pages.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Mangueira]
+Action 1: Search[Mangueira]
+Observation 1: **Estação Primeira de Mangueira**. **Estação Primeira de Mangueira** (Portuguese for "First Station of Mangueira"), commonly known as **G.R.E.S. Estação Primeira de Mangueira** or simply **Mangueira**, is one of the most traditional and famous samba schools in Rio de Janeiro, Brazil. Founded on April 28, 1928, in the Mangueira favela, it is one of the.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Lookup[singer]
+Action 2: Lookup[singer]
+Observation 2: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[singer]
+Action 2: Lookup[singer]
+Observation 2: **Estação Primeira de Mangueira**. **Estação Primeira de Mangueira** (Portuguese for "First Station of Mangueira"), commonly known as **G.R.E.S. Estação Primeira de Mangueira** or simply **Mangueira**, is one of the most traditional and famous samba schools in Rio de Janeiro, Brazil. Founded on April 28, 1928, in the Mangueira favela, it is one of the.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Estação Primeira de Mangueira]
+Action 3: Search[Estação Primeira de Mangueira]
+Observation 3: Grêmio Recreativo Escola de Samba Estação Primeira de Mangueira, or simply Mangueira, is a samba school in Rio de Janeiro, Brazil.. The school was founded on April 28, 1928, by Carlos Cachaça [pt], Cartola, Zé Espinguela, among others. It is located in the Mangueira neighborhood, near the neighborhood of Maracanã.. Mangueira is one of the most traditional samba schools in Brazil. It has won the Rio de Janeiro Carnaval competition 20 times, second only to Portela (samba school) (with 22 victories).
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Estação Primeira de Mangueira official singer]
+Action 3: Search[Estação Primeira de Mangueira official singer]
+Observation 3: **Estação Primeira de Mangueira**. Estação Primeira de Mangueira, commonly known as **Mangueira**, is one of the most traditional and famous samba schools in Rio de Janeiro, Brazil. Founded on April 28, 1928, in the Mangueira favela, it is renowned for its rich history, vibrant parades, and significant contributions to the development of samba and Carnival culture.. **History and Foundation:**. Mangueira was founded by.
+
+
+
+STEP: 4
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 4: None
+Action 4: Lookup[official singer]
+Observation 4: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[singer]
+Action 4: Lookup[singer]
+Observation 4: **Estação Primeira de Mangueira**. Estação Primeira de Mangueira, commonly known as **Mangueira**, is one of the most traditional and famous samba schools in Rio de Janeiro, Brazil. Founded on April 28, 1928, in the Mangueira favela, it is renowned for its rich history, vibrant parades, and significant contributions to the development of samba and Carnival culture.. **History and Foundation:**. Mangueira was founded by.
+
+
+
+STEP: 5
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 5: None
+Action 5: Lookup[singer]
+Observation 5: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Search[Estação Primeira de Mangueira official singer]
+Action 5: Search[Estação Primeira de Mangueira official singer]
+Observation 5: **Estação Primeira de Mangueira**. Estação Primeira de Mangueira, commonly known as **Mangueira**, is one of the most traditional and famous samba schools in Rio de Janeiro, Brazil. Founded on April 28, 1928, in the Mangueira favela, it is renowned for its rich history, vibrant parades, and significant contributions to the development of samba and Carnival culture.. **History and Foundation:**. Mangueira was founded by.
+
+
+
+STEP: 6
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Search[Mangueira official singer]
+Action 6: Search[Mangueira official singer]
+Observation 6: Could not find Mangueira official singer. Similar: ['Estação Primeira de Mangueira', 'Péricles (singer)', 'Gracyanne Barbosa', 'Gretchen (singer)', 'Zuco 103'].
+
+SIMULATION TRAJECTORY:
+ Thought 6: None
+Action 6: Search[Estação Primeira de Mangueira official singer]
+Observation 6: **Jamile Al-Alam**. **Jamile Al-Alam** is a Brazilian singer and songwriter, best known for her tenure as the official singer of **G.R.E.S. Estação Primeira de Mangueira**, one of Rio de Janeiro's most traditional and celebrated samba schools. Her powerful voice and deep connection to samba have made her a significant figure in the carnival landscape.. **Early Life and Career:**.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Search[Estação Primeira de Mangueira official singer]
+Action 7: Search[Estação Primeira de Mangueira official singer]
+Observation 7: Could not find Estação Primeira de Mangueira official singer. Similar: ['Estação Primeira de Mangueira', 'Gracyanne Barbosa (category Federal University of Rio de Janeiro alumni)', 'Samba school (redirect from Escolas de samba)', 'Samba (redirect from Samba de roda)', 'Brazilian Carnival (section Rio de Janeiro)'].
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Finish[Jamile Al-Alam]
+Action 7: Finish[Jamile Al-Alam]
+Observation 7: **Jamile**. Jamile, born Jamile de Oliveira, is a prominent Brazilian singer and songwriter, widely recognized as the official singer of the Estação Primeira de Mangueira, one of Rio de Janeiro's most traditional and celebrated samba schools. Her powerful voice and deep connection to samba have made her a beloved figure in the genre.. Born and raised in Rio de Janeiro, Jamile developed a passion for samba from a young age, influenced by the vibrant culture of her city and.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'José Bispo Clementino dos Santos', 'question_idx': 2461, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 10 
+Number of steps: 18 
+Average reward: 0.5555555555555556 
+Average time 10.47453878985511
+
+-------------------------------------------------------
+

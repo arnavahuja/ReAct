@@ -1,0 +1,60 @@
+INFO 7356 Question: Graveraet River is a tributary of a lake that is shared between which US states ?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: To answer this question, I should start by finding out which lake Graveraet River is a tributary to, then figure out which US states share that lake.
+Action 1: Search[Graveraet River] 
+        Action 1: Search[Graveraet River]
+        Observation 1: The Graveraet River is an 8.7-mile-long (14.0 km)[1] river in Houghton County on the Upper Peninsula of Michigan in the United States. It is a tributary of Lake Superior.. 47°06′53″N 88°50′49″W﻿ / ﻿47.11472°N 88.84694°W﻿ / 47.11472; -88.84694. This Houghton County, Michigan location article is a stub. You can help Wikipedia by expanding it.."
+
+SIMULATION TRAJECTORY:
+ Thought 1: To find out which states share the lake that Graveraet River is a tributary to, I will start by finding which lake Graveraet River flows into.
+Action Candidates: Search[Graveraet River], Lookup[Graveraet River], Search[Graveraet River tributary] 
+        Action 1: ['Search[Graveraet River]', 'Search[Graveraet River tributary]', 'Lookup[Graveraet River]']
+        Observation 1: The Graveraet River is a river located in the Upper Peninsula of Michigan, United States. It is a relatively small river, primarily known for its scenic beauty and recreational opportunities, particularly fishing.. **Geography and Course:**. The Graveraet River originates in the northern part of Marquette County, Michigan. Its headwaters are typically found in a series of small lakes and wetlands within the extensive forestland of the region."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The Graveraet River is a tributary of Lake Superior. I should search for Lake Superior to understand which US states share this lake.
+Action 2: Search[Lake Superior] 
+        Action 2: Search[Lake Superior]
+        Observation 2: Lake Superior is a lake in central North America. The northernmost, westernmost, and highest of the Great Lakes, Lake Superior straddles the Canada–United States border with the Canadian province of Ontario to the north and east and the U.S. states of Minnesota to the west and Michigan and Wisconsin to the south.[12] It is the largest freshwater lake in the world by surface area[a] and the third-largest freshwater lake by volume.[13] It drains into Lake Huron via St. Marys River, then through the lower Great Lakes to the St. Lawrence River and ultimately the Atlantic Ocean.."
+
+SIMULATION TRAJECTORY:
+ Thought 2: The observation does not specify which lake the Graveraet River flows into. Therefore, I should look up further information pertaining to its course.
+Action 2: Lookup[Geography and Course] 
+        Action 2: ['Lookup[Geography and Course]']
+        Observation 2: Lake Superior is the largest of the Great Lakes of North America, and among the world's largest freshwater lakes by surface area. It is shared by Canada (Ontario) to the north and east, and the United States (Minnesota, Wisconsin, and Michigan) to the south and west.. **Geography and Hydrology**. *   **Surface Area:** Approximately 82,100 square kilometers (31,700 sq mi), making it the largest freshwater lake in the."
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: The lake that the Graveraet River is a tributary of, Lake Superior, is shared between the US states of Minnesota, Michigan, and Wisconsin.
+Action 3: Finish[Minnesota, Michigan, and Wisconsin] 
+        Action 3: Finish[Minnesota, Michigan, and Wisconsin]
+        Observation 3: Episode finished, reward = 0
+"
+
+SIMULATION TRAJECTORY:
+ Thought 3: The search results show that Lake Superior - to which Graveraet River is a tributary - is shared by Minnesota, Wisconsin, and Michigan. I now have the answer to the question.
+Action 3: [Finish[Minnesota, Wisconsin, and Michigan], Lookup[shared], Lookup[states]] 
+        Action 3: ['Lookup[shared]', 'Lookup[states]', 'Finish[Minnesota, Wisconsin, and Michigan]']
+        Observation 3: Lake Superior is the largest of the Great Lakes of North America, and among the world's largest freshwater lakes by surface area. It is shared by Canada (Ontario) to the north and east, and the United States (Minnesota, Wisconsin, and Michigan) to the south and west.. **Geography and Hydrology**. *   **Surface Area:** Approximately 82,100 square kilometers (31,700 sq mi), making it the largest freshwater lake in the."
+
+
+
+INFO {'steps': 5, 'answer': 'Minnesota, Michigan, and Wisconsin', 'gt_answer': 'Minnesota to the west, and Wisconsin and the Upper Peninsula of Michigan to the south', 'question_idx': 4292, 'reward': False, 'em': False, 'f1': 0.5}
+
+INFO Sum of rewards: 4 
+Number of steps: 10 
+Average reward: 0.4 
+Average time 38.69454219341278
+
+--------------------------------------------------
+

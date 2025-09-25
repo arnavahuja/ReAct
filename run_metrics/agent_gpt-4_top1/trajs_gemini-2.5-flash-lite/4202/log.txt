@@ -1,0 +1,39 @@
+INFO 4202 Question: What was Rosario Dawson of Josie and the Pussycats film debut
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Rosario Dawson]
+Action 1: Search[Rosario Dawson]
+Observation 1: Rosario Isabel Dawson[2] (born May 9, 1979)[3] is an American actress. She made her feature-film debut in the 1995 independent drama Kids. Her subsequent film roles include He Got Game (1998), Josie and the Pussycats (2001), Men in Black II (2002), The Rundown (2003), Rent (2005), Sin City (2005), Clerks II (2006), Death Proof (2007), Seven Pounds (2008), Percy Jackson & the Olympians: The Lightning Thief (2010), Unstoppable (2010), Zookeeper (2011), Trance (2013), Top Five (2014), Zombieland: Double Tap (2019), and Clerks 3 (2022). Dawson has provided voice-over work for Disney/Marvel, Warner Bros./DC Comics, and ViacomCBS's Nickelodeon unit. She is also recognized for her portrayal of the live-action Ahsoka Tano in the Star Wars franchise..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Rosario Dawson]
+Action 1: Search[Rosario Dawson]
+Observation 1: **Rosario Dawson**. Rosario Dawson (born May 9, 1979) is an American actress and producer. She is known for her roles in films such as *Kids* (1995), *Men in Black II* (2002), *Sin City* (2005), *Rent* (2005), *Clerks II* (2006), *Death Proof* (2007),.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[Kids]
+Action 2: Finish[Kids]
+Observation 2: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Finish[Kids]
+Action 2: Finish[Kids]
+Observation 2: **Rosario Dawson**. Rosario Dawson (born May 9, 1979) is an American actress and producer. She is known for her roles in films such as *Kids* (1995), *Men in Black II* (2002), *Sin City* (2005), *Rent* (2005), *Clerks II* (2006), *Death Proof* (2007),.
+
+
+
+INFO {'steps': 3, 'answer': 'Kids', 'gt_answer': 'She made her film debut in the 1995 teen drama "Kids".', 'question_idx': 3111, 'reward': False, 'em': False, 'f1': 0.18181818181818182}
+
+INFO Sum of rewards: 3 
+Number of steps: 6 
+Average reward: 0.5 
+Average time 17.64624281724294
+
+-------------------------------------------------------
+

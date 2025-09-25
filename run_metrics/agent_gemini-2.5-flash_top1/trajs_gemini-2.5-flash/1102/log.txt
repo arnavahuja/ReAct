@@ -1,0 +1,53 @@
+INFO 1102 Question: Was Suzanne Chun Oakland a member of the upper of lower chamber of the Hawaii State Legislature?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Suzanne Chun Oakland]
+Action 1: Search[Suzanne Chun Oakland]
+Observation 1: Suzanne N.J. 'Susie' Chun Oakland (born June 27, 1961) is an American politician and former Democratic member of the Hawaii Senate who represented the 13th District from 1996 to 2016. Previously she was a member of the Hawaii House of Representatives from 1990 to 1996. She is generally considered to have liberal political views.[citation needed]. Chun Oakland received her Bachelor of Arts degree in communications and psychology from the University of Hawaiʻi.[citation needed].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Suzanne Chun Oakland]
+Action 1: Search[Suzanne Chun Oakland]
+Observation 1: **Suzanne Chun Oakland**. Suzanne Chun Oakland is an American politician who served as a member of the Hawaii House of Representatives, representing the 34th district from 1990 to 2020. She is a member of the Democratic Party.. **Early Life and Education:**. Born and raised in Honolulu, Hawaii, Suzanne Chun Oakland attended the University of Hawaii at Manoa, where she earned a Bachelor of Arts degree in Sociology.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Hawaii State Legislature]
+Action 2: Search[Hawaii State Legislature]
+Observation 2: The Hawaii State Legislature (Hawaiian: Ka ‘Aha‘ōlelo kau kānāwai o ka Moku‘āina o Hawai‘i) is the bicameral state legislature of the U.S. state of Hawaii, consisting of the Hawaii State Senate (upper house with 25 senators) and the Hawaii State House of Representatives (lower house with 51 representatives). Each lawmaker represents single member districts across the state. The powers of the legislature are granted under Article III of the Constitution of Hawaii. The legislature convenes at the Hawaii State Capitol building in the state capital of Honolulu, on the island of Oahu..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Hawaii House of Representatives]
+Action 2: Search[Hawaii House of Representatives]
+Observation 2: The **Hawaii State Legislature** is the bicameral state legislature of the U.S. state of Hawaii. It is composed of two chambers: the **Hawaii House of Representatives** and the **Hawaii Senate**. Both chambers convene at the Hawaii State Capitol in Honolulu.. ### Structure and Composition.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Both the upper and lower chamber]
+Action 3: Finish[Both the upper and lower chamber]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Both the upper and lower chamber]
+Action 3: Finish[Both the upper and lower chamber]
+Observation 3: The **Hawaii State Legislature** is the bicameral state legislature of the U.S. state of Hawaii. It is composed of two chambers: the **Hawaii House of Representatives** and the **Hawaii Senate**. Both chambers convene at the Hawaii State Capitol in Honolulu.. ### Structure and Composition.
+
+
+
+INFO {'steps': 5, 'answer': 'Both the upper and lower chamber', 'gt_answer': 'lower chamber', 'question_idx': 2344, 'reward': False, 'em': False, 'f1': 0.5714285714285715}
+
+INFO Sum of rewards: 1 
+Number of steps: 4 
+Average reward: 0.25 
+Average time 14.635790288448334
+
+-------------------------------------------------------
+

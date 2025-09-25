@@ -1,0 +1,53 @@
+INFO 4790 Question: What kind of energy does a plasma weapon produce?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[plasma weapon]
+Action 1: Search[plasma weapon]
+Observation 1: A directed-energy weapon (DEW) is a ranged weapon that damages its target with highly focused energy without a solid projectile, including lasers, microwaves, particle beams, and sound beams. Potential applications of this technology include weapons that target personnel, missiles, vehicles, and optical devices.[1][2]. In the United States, the Pentagon, DARPA, the Air Force Research Laboratory, United States Army Armament Research Development and Engineering Center, and the Naval Research Laboratory are researching directed-energy weapons to counter ballistic missiles, hypersonic cruise missiles, and hypersonic glide vehicles. These systems of missile defense are expected to come online no sooner than the mid to late 2020s.[3]. China,[4][5][6][7] France,[8][9][10][11] Germany,[8][9] the United Kingdom,[12][13] Russia,[14][15][16] India,[17][18][19][20][21] Israel[22][23][24] are also developing military-grade directed-energy weapons, while Iran[25][26][27][28] and Turkey claim to have them in active service.[29][30][31] The first use of directed-energy weapons in combat between military forces was claimed to have occurred in Libya in August 2019 by Turkey, which claimed to use the ALKA directed-energy weapon.[32] After decades of research and development, most directed-energy weapons are still at the experimental stage and it remains to be seen if or when they will be deployed as practical, high-performance military weapons.[33][34].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[plasma weapon]
+Action 1: Search[plasma weapon]
+Observation 1: A plasma weapon is a type of futuristic weapon that uses ionized gas, or plasma, as a projectile. The plasma is typically created by superheating a gas or by using electromagnetic fields to strip electrons from the gas atoms, creating a highly energized state. When fired, the plasma is directed towards the target, causing damage through heat and kinetic energy.. Plasma weapons are often featured in science fiction, where they are portrayed as powerful and destructive weapons capable of cutting through armor and shields. While.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Lookup[plasma]
+Action 2: Lookup[plasma]
+Observation 2: (Result 1 / 4) A plasma weapon is a type of futuristic weapon that uses ionized gas, or plasma, as a projectile.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Finish[heat and kinetic energy]
+Action 2: Finish[heat and kinetic energy]
+Observation 2: A plasma weapon is a type of futuristic weapon that uses ionized gas, or plasma, as a projectile. The plasma is typically created by superheating a gas or by using electromagnetic fields to strip electrons from the gas atoms, creating a highly energized state. When fired, the plasma is directed towards the target, causing damage through heat and kinetic energy.. Plasma weapons are often featured in science fiction, where they are portrayed as powerful and destructive weapons capable of cutting through armor and shields. While.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[plasma energy]
+Action 3: Finish[plasma energy]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Heat and kinetic energy]
+Action 3: Finish[Heat and kinetic energy]
+Observation 3: A plasma weapon is a type of futuristic weapon that uses ionized gas, or plasma, as a projectile. The plasma is typically created by superheating a gas or by using electromagnetic fields to strip electrons from the gas atoms, creating a highly energized state. When fired, the plasma is directed towards the target, causing damage through heat and kinetic energy.. Plasma weapons are often featured in science fiction, where they are portrayed as powerful and destructive weapons capable of cutting through armor and shields. While.
+
+
+
+INFO {'steps': 5, 'answer': 'plasma energy', 'gt_answer': 'electromagnetic field', 'question_idx': 1017, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 2 
+Number of steps: 11 
+Average reward: 0.18181818181818182 
+Average time 27.81162056055936
+
+-------------------------------------------------------
+

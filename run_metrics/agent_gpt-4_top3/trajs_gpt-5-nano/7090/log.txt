@@ -1,0 +1,60 @@
+INFO 7090 Question: Which shore does the castle, which Sir James Montgomery, 4th Baronet is the tenth laird of, stand?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to search Sir James Montgomery, 4th Baronet, find the castle he is the tenth laird of, then find which shore the castle stands.
+Action 1: Search[Sir James Montgomery, 4th Baronet] 
+        Action 1: Search[Sir James Montgomery, 4th Baronet]
+        Observation 1: Sir James Montgomery, 4th Baronet (or Montgomerie, died 1694) was the tenth laird of Skelmorlie. He was a Scottish politician known for the Montgomery Plot, a Jacobite scheme to restore King James VII and II to the thrones of Scotland, England and Ireland.. He was eldest son of Sir Robert Montgomery, 3rd Baronet, by his wife Anna or Antonia, second daughter and coheiress of Sir John Scott of Rossie, Fife. His father died on 7 February 1684, and James became his heir on 3 February 1685. In April 1684 his widowed mother made a strong appeal to him to make suitable provision for her and her fatherless children, but to this he replied that, for the sake of peace, he had already conceded more than legal obligations required.[1] On 2 October 1684 Montgomery was imprisoned and fined for harbouring covenanters, religious rebels,[2] and on 7 May 1685 he and his mother were pursued on account of conventicles held in his father's lifetime, but both pleaded that they were not responsible.[3]."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to search Sir James Montgomery, 4th Baronet and find which castle he is the tenth laird of.
+Action 1: [Search[Sir James Montgomery, 4th Baronet], Search[James Montgomery], Lookup[James Montgomery]] 
+        Action 1: ['Search[Sir James Montgomery, 4th Baronet]', 'Search[James Montgomery]', 'Lookup[James Montgomery]']
+        Observation 1: "
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The text mentions that Sir James Montgomery was the tenth laird of Skelmorlie. The castle in question is likely located in Skelmorlie. I will search Skelmorlie to find which shore the castle stands on.
+Action 2: Search[Skelmorlie] 
+        Action 2: Search[Skelmorlie]
+        Observation 2: Skelmorlie is a village in North Ayrshire in the southwest of Scotland. Although it is the northernmost settlement in the council area of North Ayrshire it is contiguous with Wemyss Bay, which is in Inverclyde, and has a PA zone postcode unlike the rest of Ayrshire which is in the KA zone. The dividing line is the Kelly Burn, which flows into the Firth of Clyde just south of the Rothesay ferry terminal. Despite their proximity, the two villages have historically been divided, Skelmorlie in Ayrshire and Wemyss Bay in Renfrewshire.. Skelmorlie itself is divided into two sections, Lower and Upper Skelmorlie."
+
+SIMULATION TRAJECTORY:
+ Thought 2: Thought 1: The search result doesn't give information about the castle that Sir James Montgomery is the laird of. I need to continue looking.
+Action 1: [Lookup[castle], Search[James Montgomery castle], Lookup[Sir James Montgomery]] 
+        Action 2: ['Search[James Montgomery castle]', 'Lookup[castle]', 'Lookup[Sir James Montgomery]']
+        Observation 2: "
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Skelmorlie is a village in North Ayrshire in the southwest of Scotland that is divided into a Lower and an Upper part and is adjacent to the Firth of Clyde. The castle most likely stands on the shore of the Firth of Clyde.
+Action 3: Finish[Firth of Clyde] 
+        Action 3: Finish[Firth of Clyde]
+        Observation 3: Episode finished, reward = 1
+"
+
+SIMULATION TRAJECTORY:
+ Thought 3: The Observation 2 should provide information about the location of Skelmorlie. I need to look up this information before deciding the next step.
+Action 3: Lookup[shore], Lookup[location], Lookup[castle] 
+        Action 3: ['Lookup[shore]', 'Lookup[location]', 'Lookup[castle]']
+        Observation 3: "
+
+
+
+INFO {'steps': 5, 'answer': 'Firth of Clyde', 'gt_answer': 'Firth of Clyde', 'question_idx': 1330, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 5 
+Number of steps: 13 
+Average reward: 0.38461538461538464 
+Average time 61.3429775421436
+
+--------------------------------------------------
+

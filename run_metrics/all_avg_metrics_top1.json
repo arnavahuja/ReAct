@@ -1,0 +1,96 @@
+{
+    "google/gemini-2.5-flash": {
+        "openai/gpt-4.1-nano": {
+            "general": 0.43433333333333335,
+            "Search": 0.3753333333333333,
+            "Lookup": 0.10666666666666667,
+            "Finish": 0.42,
+            "normal_avg_searchtime": 0.49812324677605097,
+            "sim_avg_searchtime": 1.7237136168975598
+        },
+        "openai/gpt-3.5-turbo": {
+            "general": 0.33711111111111114,
+            "Search": 0.3197777777777777,
+            "Lookup": 0.07777777777777778,
+            "Finish": 0.2977777777777778,
+            "normal_avg_searchtime": 0.5586256913544061,
+            "sim_avg_searchtime": 1.4071460541735092
+        },
+        "google/gemini-2.5-flash": {
+            "general": 0.4206666666666667,
+            "Search": 0.3795555555555555,
+            "Lookup": 0.08266666666666667,
+            "Finish": 0.44666666666666666,
+            "normal_avg_searchtime": 0.5226933009828134,
+            "sim_avg_searchtime": 1.0424819906255145
+        },
+        "google/gemini-2.5-flash-lite": {
+            "general": 0.358,
+            "Search": 0.31711111111111107,
+            "Lookup": 0.057777777777777775,
+            "Finish": 0.3466666666666667,
+            "normal_avg_searchtime": 0.5603668878241849,
+            "sim_avg_searchtime": 0.8141567927606453
+        }
+    },
+    "openai/gpt-4": {
+        "openai/gpt-4.1-nano": {
+            "general": 0.2618279569892473,
+            "Search": 0.15860215053763438,
+            "Lookup": 0.16129032258064516,
+            "Finish": 0.2903225806451613,
+            "normal_avg_searchtime": 0.5408851837001649,
+            "sim_avg_searchtime": 1.7716446778621533
+        },
+        "openai/gpt-3.5-turbo": {
+            "general": 0.32488888888888884,
+            "Search": 0.2924444444444444,
+            "Lookup": 0.11555555555555558,
+            "Finish": 0.30666666666666664,
+            "normal_avg_searchtime": 0.5273894488736213,
+            "sim_avg_searchtime": 1.4865608846936504
+        },
+        "google/gemini-2.5-flash": {
+            "general": 0.2702222222222222,
+            "Search": 0.20977777777777776,
+            "Lookup": 0.07777777777777778,
+            "Finish": 0.3333333333333333,
+            "normal_avg_searchtime": 0.5406390005215588,
+            "sim_avg_searchtime": 1.1254984828067633
+        },
+        "google/gemini-2.5-flash-lite": {
+            "general": 0.2837777777777778,
+            "Search": 0.25,
+            "Lookup": 0.14222222222222222,
+            "Finish": 0.2,
+            "normal_avg_searchtime": 0.544018729970504,
+            "sim_avg_searchtime": 0.84675921177639
+        }
+    },
+    "openai/gpt-5": {
+        "openai/gpt-4.1-nano": {
+            "general": 0.619047619047619,
+            "Search": 0.35714285714285715,
+            "Lookup": 0.4523809523809524,
+            "Finish": 0.42857142857142855,
+            "normal_avg_searchtime": 0.5986836488051007,
+            "sim_avg_searchtime": 2.1171881864457167
+        },
+        "openai/gpt-3.5-turbo": {
+            "general": 0.25,
+            "Search": 0.3333333333333333,
+            "Lookup": 0.0,
+            "Finish": 0.16666666666666666,
+            "normal_avg_searchtime": 0.5491333578344589,
+            "sim_avg_searchtime": 1.9736737601067744
+        },
+        "google/gemini-2.5-flash-lite": {
+            "general": 0.36578947368421055,
+            "Search": 0.3508771929824561,
+            "Lookup": 0.13157894736842105,
+            "Finish": 0.21052631578947367,
+            "normal_avg_searchtime": 0.5431731963865133,
+            "sim_avg_searchtime": 0.9257670206460988
+        }
+    }
+}

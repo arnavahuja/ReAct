@@ -1,0 +1,109 @@
+INFO 1007 Question: Many right wing WNP were  connected to a clandestine operation ran by a "stay-behind"  operation ran by what organization?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[WNP]
+Action 1: Search[WNP]
+Observation 1: Could not find [WNP]. Similar: ['WNP-3 and WNP-5', 'WNP-1 and WNP-4', 'WNP', 'Columbia Generating Station (redirect from WNP-2)', 'White Nationalist Party'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[WNP]
+Action 1: Search[WNP]
+Observation 1: **WNP** may refer to:. *   **WNP (company)**: A Polish telecommunications company.. *   **WNP (album)**: A 2011 album by the American band The New Pornographers.. *   **WNP (file format)**: A file format used by the Windows NT operating system..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[right wing WNP]
+Action 2: Search[right wing WNP]
+Observation 2: Could not find right wing WNP. Similar: ['Right-wing terrorism', 'List of British far-right groups (1945–present)', 'Opinion polling for the next Polish parliamentary election', 'Westland New Post (section WNP and the Belgian State Security Service)', 'White Nationalist Party'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Westland New Post]
+Action 2: Search[Westland New Post]
+Observation 2: The **White Nationalist Party (WNP)** is a political organization that advocates for policies and ideologies centered on the belief in the superiority of the white race and the preservation of white culture and identity. While specific details about the WNP's origins, leadership, and exact platform can vary depending on the specific iteration or group using this name, the core tenets generally align with broader white nationalist movements.. **Ideology and Platform:**. *   **White Supremacy:** A central tenet of the.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Westland New Post]
+Action 3: Search[Westland New Post]
+Observation 3: Westland New Post (WNP) was a short-lived Belgian extreme right-wing organization founded in March 1981 by Paul Latinus and members of the Front de la Jeunesse (FJ). The organization ceased to exist after the Front de la Jeunesse disbanded in 1983 and Paul Latinus was found dead in his girlfriend's home in April 1984.. Marcel Barbier, a WNP member, was convicted in May 1987 for a gruesome double murder on the la rue de la Pastorale in Anderlecht on February 18, 1982. One of the victims, Alphonse Vandermeulen, had been married to Barbier's current girlfriend, Marcelle Gobert. The police interrogated Barbier and his girlfriend, and searched both their homes, but no arrests were made.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup["stay-behind" operation]
+Action 3: Lookup["stay-behind" operation]
+Observation 3: Westland New Post is a locality in the Westland District of the South Island of New Zealand. It is situated on the coast, north of Hokitika and south of Punakaiki.. **History and Development:**. The area's history is closely tied to the West Coast's gold rushes and subsequent logging industries. Like many settlements in the region, its development was influenced by the availability of natural resources and the challenges of the rugged West Coast environment..
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Lookup[stay-behind]
+Action 4: Lookup[stay-behind]
+Observation 4: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[Westland New Post and stay-behind operation]
+Action 4: Search[Westland New Post and stay-behind operation]
+Observation 4: Westland New Post is a locality in the Westland District of the South Island of New Zealand. It is situated on the coast, north of Hokitika and south of Punakaiki.. **History and Development:**. The area's history is closely tied to the West Coast's gold rushes and subsequent logging industries. Like many settlements in the region, its development was influenced by the availability of natural resources and the challenges of the rugged West Coast environment..
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[clandestine operation WNP]
+Action 5: Search[clandestine operation WNP]
+Observation 5: Could not find clandestine operation WNP. Similar: ['Brabant killers (section Method of operation)'].
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Lookup[operation]
+Action 5: Lookup[operation]
+Observation 5: I cannot provide information about a clandestine operation named "WNP" as there is no publicly available information or record of such an operation in Wikipedia or other reliable sources. Clandestine operations, by their very nature, are secret and not disclosed to the public. Therefore, any details about them would not be found in publicly accessible encyclopedias or databases..
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Search[Paul Latinus]
+Action 6: Search[Paul Latinus]
+Observation 6: Could not find Paul Latinus. Similar: ['Westland New Post (section Latinus suicide)', 'Brabant killers', 'Belgian stay-behind network', 'Alba Longa', 'Calypso (mythology)'].
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Search[stay-behind]
+Action 6: Search[stay-behind]
+Observation 6: **Paul Latinus**. Paul Latinus is a name that may refer to several individuals. Without further context, it is difficult to pinpoint a specific prominent figure. However, if you are referring to a person of note, please provide additional details such as their profession, nationality, or any specific achievements, and I will do my best to provide relevant information..
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Search[Belgian stay-behind network]
+Action 7: Search[Belgian stay-behind network]
+Observation 7: The Belgian stay-behind network, colloquially called "Gladio" (meaning "sword"), was a secret mixed civilian and military unit, trained to form a resistance movement in the event of a Soviet invasion and part of a network of similar organizations in North Atlantic Treaty Organization states. It functioned from at least 1951 until 1990, when the Belgian branch was promptly and officially dissolved after its existence became publicly known following revelations concerning the Italian branch of the stay-behind network.. The history of the Belgian branch of the Gladio network starts in 1948 when Prime Minister Paul-Henri Spaak and Minister of Justice Paul Struye gave the Staatsveiligheid (State Security Service) permission to discuss with allied intelligence services the organization of a clandestine stay-behind network. These negotiations mainly happened with Sir Stewart Menzies of the British SIS and representatives of the then freshly founded CIA. The explicit objectives of this collaboration were outlined in a top-secret letter from Menzies to Spaak:[citation needed].
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Lookup[clandestine operation]
+Action 7: Lookup[clandestine operation]
+Observation 7: ## Belgian Stay-Behind Network. The **Belgian stay-behind network**, also known as **Operation Gladio** in Belgium, was a clandestine paramilitary organization established in Belgium as part of a broader NATO-led initiative during the Cold War. The primary objective of these stay-behind networks was to prepare for and conduct resistance operations in the event of a Soviet invasion or occupation of Western Europe.. **Background and Formation:**. Following World War II and the escalating tensions of the Cold War, NATO.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'NATO', 'question_idx': 2640, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 3 
+Number of steps: 8 
+Average reward: 0.375 
+Average time 28.75219863653183
+
+-------------------------------------------------------
+

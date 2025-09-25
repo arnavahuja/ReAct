@@ -1,0 +1,53 @@
+INFO 1880 Question: When was the author of "Albert Speer: His Battle with Truth"  convicted?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Albert Speer: His Battle with Truth]
+Action 1: Search[Albert Speer: His Battle with Truth]
+Observation 1: Could not find Albert Speer: His Battle with Truth. Similar: ['Albert Speer (born 1934)', 'Gitta Sereny (category Articles with short description)', 'Hilde Schramm (redirect from Hilde Speer)', 'Speer und Er', 'Martin Bormann (category Articles with short description)'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Albert Speer: His Battle with Truth]
+Action 1: Search[Albert Speer: His Battle with Truth]
+Observation 1: Albert Speer: His Battle with Truth is a book written by Gitta Sereny, published in 1995. It explores the life of Albert Speer, who was Adolf Hitler's chief architect and later Minister of Armaments and War Production during World War II. The book delves into Speer's personal and professional life, examining his role in the Nazi regime and his claims of ignorance regarding the Holocaust. Sereny's work sheds light on Speer's complex character and his attempts to come.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Gitta Sereny]
+Action 2: Search[Gitta Sereny]
+Observation 2: Gitta Sereny, CBE (13 March 1921 – 14 June 2012) was an Austrian-British biographer, historian, and investigative journalist who became known for her interviews and profiles of infamous figures, including Mary Bell, who was convicted in 1968 of killing two children when she herself was a child, and Franz Stangl, the commandant of the Treblinka extermination camp.. Born and initially raised in Austria, she was the author of five books, including The Case of Mary Bell: A Portrait of a Child Who Murdered (1972) and Albert Speer: His Battle with Truth (1995).. Sereny was awarded the Duff Cooper Prize and the James Tait Black Memorial Prize for her book on Albert Speer in 1995, and the Stig Dagerman Prize in 2002. She was appointed a Commander of the Order of the British Empire in 2004 for services to journalism.. Sereny was born in Vienna, Austria, in 1921.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Gitta Sereny]
+Action 2: Search[Gitta Sereny]
+Observation 2: Gitta Sereny (13 March 1921 – 14 June 2012) was an Austrian-British biographer, historian, and investigative journalist. She was known for her in-depth interviews and research on prominent figures such as Albert Speer, Franz Stangl, and Mary Bell. Sereny's work often focused on understanding the motivations and psychology of individuals involved in significant historical events, particularly those related to World War II and the Holocaust. She was praised for her meticulous approach to.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Gitta Sereny was not convicted.]
+Action 3: Finish[Gitta Sereny was not convicted.]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[convicted]
+Action 3: Lookup[convicted]
+Observation 3: Gitta Sereny (13 March 1921 – 14 June 2012) was an Austrian-British biographer, historian, and investigative journalist. She was known for her in-depth interviews and research on prominent figures such as Albert Speer, Franz Stangl, and Mary Bell. Sereny's work often focused on understanding the motivations and psychology of individuals involved in significant historical events, particularly those related to World War II and the Holocaust. She was praised for her meticulous approach to.
+
+
+
+INFO {'steps': 5, 'answer': 'Gitta Sereny was not convicted.', 'gt_answer': '1968', 'question_idx': 4732, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 19 
+Number of steps: 44 
+Average reward: 0.4318181818181818 
+Average time 16.840943547812376
+
+-------------------------------------------------------
+

@@ -1,0 +1,53 @@
+INFO 190 Question: Carlos Alberto Hurtado played on loan from a mexican team which plays where?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Carlos Alberto Hurtado]
+Action 1: Search[Carlos Alberto Hurtado]
+Observation 1: Carlos Alberto Hurtado Arteaga (born January 22, 1984, in Zacatepec, Morelos) is a former Mexican professional footballer who last played for Correcaminos UAT. He retired after the 2017–2018 season. He played used to play midfield.. This biographical article relating to Mexican association football is a stub. You can help Wikipedia by expanding it..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Carlos Alberto Hurtado]
+Action 1: Search[Carlos Alberto Hurtado]
+Observation 1: **Carlos Alberto Hurtado** (born 22 January 1990) is a Bolivian professional footballer who plays as a forward for Club Aurora in the Bolivian Primera División.. **Early Life and Career**. Hurtado began his football career in the youth ranks of Club Bolívar, one of Bolivia's most successful clubs. He quickly rose through the ranks, showcasing his natural talent and goal-scoring ability.. **Club Career**.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Correcaminos UAT]
+Action 2: Search[Correcaminos UAT]
+Observation 2: Club de Fútbol Correcaminos de la Universidad Autónoma de Tamaulipas, simply known as Correcaminos UAT, is a Mexican professional football club based in Ciudad Victoria, Tamaulipas. It competes in Liga de Expansión MX, the second level division of Mexican football.. Correcaminos played in the Primera División de México from the 1987–88 season to the 1994–95 season. They play in the Estadio Marte R. Gómez, which has a capacity of 10,520, the team is named after the Greater Roadrunner native to the region, which is also the Universidad Autónoma de Tamaulipas' official mascot..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[loan]
+Action 2: Lookup[loan]
+Observation 2: {{Infobox football club. | clubname = Correcaminos UAT. | image = Correcaminos UAT logo.png. | fullname = Club de Fútbol Correcaminos de la Universidad Autónoma de Tamaulipas. | nickname = Correcaminos (Roadrunners).
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Ciudad Victoria]
+Action 3: Finish[Ciudad Victoria]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[venue]
+Action 3: Lookup[venue]
+Observation 3: {{Infobox football club. | clubname = Correcaminos UAT. | image = Correcaminos UAT logo.png. | fullname = Club de Fútbol Correcaminos de la Universidad Autónoma de Tamaulipas. | nickname = Correcaminos (Roadrunners).
+
+
+
+INFO {'steps': 5, 'answer': 'Ciudad Victoria', 'gt_answer': 'Estadio Victoria', 'question_idx': 4565, 'reward': False, 'em': False, 'f1': 0.5}
+
+INFO Sum of rewards: 21 
+Number of steps: 46 
+Average reward: 0.45652173913043476 
+Average time 12.248812478521597
+
+-------------------------------------------------------
+

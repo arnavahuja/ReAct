@@ -1,0 +1,100 @@
+INFO 2316 Question: In what year did the brother-in-law of Ezzo, Count Palatine of Lotharingia, die?
+
+STEP: 1
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+STEP: 2
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+NORMAL TRAJECTORY:
+ Thought 2:  
+        Action 2: Search[Ezzo, Count Palatine of Lotharingia]
+        Observation 2: Ezzo (c. 955 – 21 March 1034), sometimes called Ehrenfried, a member of the Ezzonid dynasty, was Count Palatine of Lotharingia from 1015 until his death. As brother-in-law of Emperor Otto III, father of Queen Richeza of Poland and several other illustrious children, he was one of the most important figures of the Rhenish history of his time.. Ezzo was the son of the Lotharingian count palatine Herman I[1] and his wife Heylwig of Dillingen. He was sent as a child to be educated by Bishop Ulrich of Augsburg (episcopate 923–973), a relative of his mother. Nothing is known about his youth.."
+
+SIMULATION TRAJECTORY:
+ Thought 2:  
+        Action 2: ['Search[Ezzo, Count Palatine of Lotharingia]', 'Lookup[brother-in-law]', 'Finish[1002]']
+        Observation 2: Ezzo, Count Palatine of Lotharingia, was a noble figure of the 10th century, known for his role within the Holy Roman Empire. He was a member of the Ezzonid dynasty, a prominent noble family that held significant influence in the region of Lotharingia (a medieval region roughly corresponding to parts of modern-day western Germany, eastern Belgium, and the Netherlands). Ezzo served as Count Palatine of Lotharingia, a position that involved judicial."
+
+
+
+STEP: 3
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+NORMAL TRAJECTORY:
+ Thought 3:  
+        Action 3: Search[Ezzo, Count Palatine of Lotharingia]
+        Observation 3: Ezzo (c. 955 – 21 March 1034), sometimes called Ehrenfried, a member of the Ezzonid dynasty, was Count Palatine of Lotharingia from 1015 until his death. As brother-in-law of Emperor Otto III, father of Queen Richeza of Poland and several other illustrious children, he was one of the most important figures of the Rhenish history of his time.. Ezzo was the son of the Lotharingian count palatine Herman I[1] and his wife Heylwig of Dillingen. He was sent as a child to be educated by Bishop Ulrich of Augsburg (episcopate 923–973), a relative of his mother. Nothing is known about his youth.."
+
+SIMULATION TRAJECTORY:
+ Thought 3:  
+        Action 3: ['Search[Ezzo, Count Palatine of Lotharingia]', 'Search[Otto III, Holy Roman Emperor]', 'Finish[1002]']
+        Observation 3: Ezzo, Count Palatine of Lotharingia, was a noble figure of the 10th century, known for his role within the Holy Roman Empire. He was a member of the Ezzonid dynasty, a prominent noble family in the region of Lotharingia (a medieval kingdom roughly corresponding to parts of modern-day western Germany, eastern Belgium, and the Netherlands). Ezzo held the title of Count Palatine, a significant judicial and administrative position, which involved acting as a."
+
+
+
+STEP: 4
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+NORMAL TRAJECTORY:
+ Thought 4: The brother-in-law is Emperor Otto III; I should look up his death year.
+Action 4: Search[Otto III] 
+        Action 4: Search[Otto III]
+        Observation 4: Otto III (June/July 980 – 23 January 1002) was the Holy Roman emperor and King of Italy from 996 until his death in 1002. A member of the Ottonian dynasty, Otto III was the only son of Emperor Otto II and his wife Theophanu.. Otto III was crowned as king of Germany in 983 at the age of three, shortly after his father's death in Southern Italy while campaigning against the Byzantine Empire and the Emirate of Sicily. Though the nominal ruler of Germany, Otto III's minor status ensured his various regents held power over the Empire. His cousin Duke Henry II of Bavaria, initially claimed regency over the young king and attempted to seize the throne for himself in 984."
+
+SIMULATION TRAJECTORY:
+ Thought 4:  
+        Action 4: ['Search[Ezzo, Count Palatine of Lotharingia]', 'Search[Otto III, Holy Roman Emperor]', 'Finish[1002]']
+        Observation 4: Otto III (23 April 980 – 23 January 1002) was Holy Roman Emperor from 996 until his death. He was a member of the Ottonian dynasty and the son of Emperor Otto II and Theophanu. Otto III is known for his ambitious efforts to revive the Roman Empire and his interest in religious and cultural reform.. Born in 980 in Aachen, Otto III was crowned King of Germany in 983 at the age of three, following the death of his father."
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: We found Otto III (Ezzo's brother-in-law) died in 1002, so we can finish with that year.
+Action 5: [Finish[1002]] 
+        Action 5: Finish[1002]
+        Observation 5: Episode finished, reward = 1
+"
+
+SIMULATION TRAJECTORY:
+ Thought 5: Otto III’s lifespan shows he died on 23 January 1002, so the answer year is 1002.
+Action 5: Finish[1002], Lookup[death], Search[Otto III death] 
+        Action 5: ['Search[Otto III death]', 'Lookup[death]', 'Finish[1002]']
+        Observation 5: Otto III (23 April 980 – 23 January 1002) was Holy Roman Emperor from 996 until his death. He was a member of the Ottonian dynasty and the son of Emperor Otto II and Theophanu. Otto III is known for his ambitious efforts to revive the Roman Empire and his interest in religious and cultural reform.. Born in 980 in Aachen, Otto III was crowned King of Germany in 983 at the age of three, following the death of his father."
+
+
+
+INFO {'steps': 7, 'answer': '1002', 'gt_answer': '1002', 'question_idx': 3574, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 3 
+Number of steps: 7 
+Average reward: 0.42857142857142855 
+Average time 334.96808617455616
+
+--------------------------------------------------
+

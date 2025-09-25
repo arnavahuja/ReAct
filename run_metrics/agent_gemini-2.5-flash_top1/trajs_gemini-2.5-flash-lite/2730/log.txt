@@ -1,0 +1,87 @@
+INFO 2730 Question: Who is the father of the Prince in which William Joseph Weaver is most famous for painting a full length portrait of?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[William Joseph Weaver]
+Action 1: Search[William Joseph Weaver]
+Observation 1: Could not find William Joseph Weaver. Similar: ['Ruby Ridge standoff (redirect from Sammy Weaver)', 'William J. Weaver', 'Dennis Weaver', 'Richard M. Weaver', 'Warren Weaver'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[William Joseph Weaver]
+Action 1: Search[William Joseph Weaver]
+Observation 1: William Joseph Weaver (born 1952) is an American politician and businessman. He served as the Mayor of Plano, Texas, from 2000 to 2007.. **Early Life and Education:**. William Joseph Weaver was born in 1952. He earned a Bachelor of Science degree in Electrical Engineering from the University of Texas at Arlington..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[William J. Weaver]
+Action 2: Search[William J. Weaver]
+Observation 2: William Joseph Weaver[1] (1759-1817) was an artist born in London who came to prominence in North America. His portrait of Alexander Hamilton hangs in the United States State Department, and his full-length portrait of Prince Edward, Duke of Kent and Strathearn, hangs in Province House (Nova Scotia), Canada. He also worked for Joseph Booth's Polygraphic Society.. Former Director and Chief Curator of the Munson-Williams-Proctor Arts Institute  Paul Schweizer writes that Weaver's work "convey [s] a chaste elegance that is similar in look and mood to the finest neoclassical portraits made in North America."[2]  Weaver's composition reflects a knowledge of British and French military portraiture.[3]  He painted portraits and  miniatures in many of the principal cities along the Atlantic seaboard from Halifax, Nova Scotia, to Savannah, Georgia. He also produced portraits of Martha and George Washington, though their locations are unknown.[4].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[William Joseph Weaver painter]
+Action 2: Search[William Joseph Weaver painter]
+Observation 2: William J. Weaver is a name that could refer to several individuals. Without further context, it is difficult to pinpoint a specific prominent figure.. However, if you are referring to **William J. Weaver**, a notable individual in the field of **education and educational technology**, here is some information presented in a Wikipedia-style format:.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Prince Edward, Duke of Kent and Strathearn]
+Action 3: Search[Prince Edward, Duke of Kent and Strathearn]
+Observation 3: Prince Edward, Duke of Kent and Strathearn (Edward Augustus; 2 November 1767 – 23 January 1820), was the fourth son and fifth child of King George III and Queen Charlotte. His only child, Victoria, became Queen of the United Kingdom 17 years after his death.. Edward was created Duke of Kent and Strathearn and Earl of Dublin on 23 April 1799[2] and, a few weeks later, appointed a General and commander-in-chief of British forces in the Maritime Provinces of North America.[3] On 23 March 1802, he was appointed Governor of Gibraltar and nominally retained that post until his death. The Duke was appointed Field-Marshal of the Forces on 3 September 1805.[4]. Edward lived in Lower Canada and Nova Scotia from 1791 to 1800.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[William Joseph Weaver painter]
+Action 3: Search[William Joseph Weaver painter]
+Observation 3: **Prince Edward, Duke of Kent and Strathearn**. **Prince Edward, Duke of Kent and Strathearn** (Edward Augustus; 2 November 1767 – 23 January 1820) was a member of the British royal family, the fourth son of King George III. He held the titles Duke of Kent and Strathearn and Earl of Dublin.. **Early Life and Military Career:**. Born at Buckingham House, London, Prince Edward was.
+
+
+
+STEP: 4
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Lookup[father]
+Action 4: Lookup[father]
+Observation 4: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 4: None
+Action 4: Finish[King George III]
+Observation 4: **Prince Edward, Duke of Kent and Strathearn**. **Prince Edward, Duke of Kent and Strathearn** (Edward Augustus; 2 November 1767 – 23 January 1820) was a member of the British royal family, the fourth son of King George III. He held the titles Duke of Kent and Strathearn and Earl of Dublin.. **Early Life and Military Career:**. Born at Buckingham House, London, Prince Edward was.
+
+
+
+STEP: 5
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Finish[King George III]
+Action 5: Finish[King George III]
+Observation 5: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 5: None
+Action 5: Finish[King George III]
+Observation 5: **Prince Edward, Duke of Kent and Strathearn**. **Prince Edward, Duke of Kent and Strathearn** (Edward Augustus; 2 November 1767 – 23 January 1820) was a member of the British royal family, the fourth son of King George III. He held the titles Duke of Kent and Strathearn and Earl of Dublin.. **Early Life and Military Career:**. Born at Buckingham House, London, Prince Edward was.
+
+
+
+INFO {'steps': 9, 'answer': 'King George III', 'gt_answer': 'George III', 'question_idx': 3488, 'reward': False, 'em': False, 'f1': 0.8}
+
+INFO Sum of rewards: 18 
+Number of steps: 45 
+Average reward: 0.4 
+Average time 12.057842180464004
+
+-------------------------------------------------------
+

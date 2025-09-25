@@ -1,0 +1,81 @@
+INFO 5619 Question: What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Kiss and Tell]
+Action 1: Search[Kiss and Tell]
+Observation 1: Could not find [Kiss and Tell]. Similar: ['Kiss and Tell', 'Kiss and Tell (Bryan Ferry song)', 'Kiss & Tell (Selena Gomez & the Scene album)', 'Kiss & Tell (1997 film)', 'Kiss and Tell (1945 film)'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Kiss and Tell (film)]
+Action 1: Search[Kiss and Tell (film)]
+Observation 1: **Kiss and Tell**. "Kiss and Tell" can refer to several distinct concepts:. **1. The Act of Revealing Intimate Details:**. In its most common usage, "kiss and tell" refers to the act of publicly disclosing private or intimate details about a romantic or sexual relationship, often without the consent of the other party involved.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Kiss and Tell (1945 film)]
+Action 2: Search[Kiss and Tell (1945 film)]
+Observation 2: Kiss and Tell is a 1945 American comedy film starring then 17-year-old Shirley Temple as Corliss Archer. In the film, two teenage girls cause their respective parents much concern when they start to become interested in boys. The parents' bickering about which girl is the worse influence causes more problems than it solves.[2]. The movie was based on the Broadway play Kiss and Tell, which was based on the Corliss Archer short stories. The stories, play and movie were all written by F.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Kiss and Tell (film)]
+Action 2: Search[Kiss and Tell (film)]
+Observation 2: **Kiss and Tell** is a 1945 American comedy film directed by Richard Wallace and starring Shirley Temple, Jerome Courtland, and Walter Abel. The screenplay by F. Hugh Herbert is based on his 1943 Broadway play of the same name.. **Plot:**. The film centers on two teenage girls, Corliss Archer (Shirley Temple) and Mildred Pringle (Katharine Alexander), who are best friends living in a suburban neighborhood.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Shirley Temple]
+Action 3: Search[Shirley Temple]
+Observation 3: This is an accepted version of this page. Shirley Temple Black (born Shirley Jane Temple; April 23, 1928 – February 10, 2014) was an American actress, singer, dancer, politician, and diplomat, who was Hollywood's number-one box-office draw as a child actress from 1934 to 1938. Later, she was named United States Ambassador to Ghana and Czechoslovakia, and also served as Chief of Protocol of the United States.. Temple began her film career in 1931 when she was three years old and became well known for her performance in Bright Eyes, released in 1934. She won a special Juvenile Academy Award in February 1935 for her outstanding contribution as a juvenile performer in motion pictures during 1934 and continued to appear in popular films through the remainder of the 1930s, although her subsequent films became less popular as she grew older.[1] She appeared in her last film, A Kiss for Corliss, in 1949.[2][3].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Shirley Temple]
+Action 3: Search[Shirley Temple]
+Observation 3: **Shirley Temple Black** (April 23, 1928 – February 10, 2014) was an American actress, singer, dancer, and public servant who was the most famous child star in Hollywood history. She rose to fame in the 1930s during the Great Depression, becoming a symbol of hope and optimism for millions.. **Early Life and Career:**. Born in Santa Monica, California, Temple began her career at the.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[United States Ambassador to Ghana, United
+Action 4: Finish[United States Ambassador to Ghana, United
+Observation 4: Invalid action: finish[United States Ambassador to Ghana, United
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[public servant]
+Action 4: Lookup[public servant]
+Observation 4: **Shirley Temple Black** (April 23, 1928 – February 10, 2014) was an American actress, singer, dancer, and public servant who was the most famous child star in Hollywood history. She rose to fame in the 1930s during the Great Depression, becoming a symbol of hope and optimism for millions.. **Early Life and Career:**. Born in Santa Monica, California, Temple began her career at the.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Finish[United States Ambassador to Ghana, United States Ambassador to Czechoslovakia, Chief of Protocol of the United States]
+Action 5: Finish[United States Ambassador to Ghana, United States Ambassador to Czechoslovakia, Chief of Protocol of the United States]
+Observation 5: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Finish[United States Ambassador to Ghana, United States Ambassador to Czechoslovakia, Chief of Protocol of the United States]
+Action 5: Finish[United States Ambassador to Ghana, United States Ambassador to Czechoslovakia, Chief of Protocol of the United States]
+Observation 5: **Shirley Temple Black** (April 23, 1928 – February 10, 2014) was an American actress, singer, dancer, and public servant who was the most famous child star in Hollywood history. She rose to fame in the 1930s during the Great Depression, becoming a symbol of hope and optimism for millions.. **Early Life and Career:**. Born in Santa Monica, California, Temple began her career at the.
+
+
+
+INFO {'steps': 9, 'answer': 'United States Ambassador to Ghana, United States Ambassador to Czechoslovakia, Chief of Protocol of the United States', 'gt_answer': 'Chief of Protocol', 'question_idx': 1, 'reward': False, 'em': False, 'f1': 0.3157894736842105}
+
+INFO Sum of rewards: 1 
+Number of steps: 2 
+Average reward: 0.5 
+Average time 12.47686243057251
+
+-------------------------------------------------------
+

@@ -1,0 +1,53 @@
+INFO 2038 Question: Which football club did Michael Whitham briefly manage in Lincolnshire, England?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Michael Whitham]
+Action 1: Search[Michael Whitham]
+Observation 1: Michael Whitham (6 November 1867 – 6 May 1924) was an English international footballer, who played as a right back. Born in Ecclesfield, Sheffield he played for both The Wednesday and Sheffield United where he spent seven years. Whitham gained one cap for England and went on to become a trainer at a number of clubs following his retirement from playing as well as a brief spell as manager of Gainsborough Trinity.. Whitham started his career in and around the Sheffield area where he played semi-professionally for a number of clubs (often registered with more than one club during the same period as was allowed at the time.)[2] After making one appearance for The Wednesday he turned fully professional and signed for Rotherham Swifts in 1889.[2]  The club were soon in financial trouble however and Whitham and two other players, Rab Howell and Arthur Watson were sold to newly formed Sheffield United in March 1890.[2]. After his move to Bramall Lane Whitham was virtually ever present for the next six years, being a stalwart of the side as they were promoted into the First Division in 1892.[2].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Michael Whitham]
+Action 1: Search[Michael Whitham]
+Observation 1: Michael Whitham is a mathematician and researcher known for his work in applied mathematics, particularly in the areas of fluid dynamics, wave propagation, and nonlinear systems. He has contributed to the understanding of complex physical phenomena through mathematical modeling and analysis. Whitham's research often involves the study of nonlinear wave equations, solitons, and the behavior of waves in various media. He has published numerous papers and books on these topics, making significant impacts in both theoretical and applied mathematics..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Gainsborough Trinity]
+Action 2: Search[Gainsborough Trinity]
+Observation 2: Gainsborough Trinity Football Club is a football club based in Gainsborough, Lincolnshire, England. Established in 1873, the club became members of the Football League in 1893 and remained members of the Second Division until 1912, making Gainsborough one of the smallest towns in England to have had a Football League team.[citation needed] They are currently members of the Northern Premier League Premier Division, the seventh tier of English football, and play at the Northolme.. The club was established in 1873 as Trinity Recreationists by the Reverend George Langton Hodgkinson, vicar of Holy Trinity parish, Gainsborough.[2] In 1889 the club were founder members of the Midland League, which they won in 1890–91.[3] The club finished as runners-up the following season and again in 1895–96, after which they applied for election to the Football League. In the vote they finished third, ahead of existing members Port Vale and Crewe Alexandra, and were elected into the Second Division.[4] The club's first season in Division Two of the League saw them finish seventh, but a gradual decline in form saw them finish in the bottom half of the table every season until 1904. In 1901–02 Trinity finished bottom of the division, but were re-elected.[5] In 1904–05 the club finished sixth in Division Two, their best performance during their Football League membership.[3].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Michael Whitham football manager]
+Action 2: Search[Michael Whitham football manager]
+Observation 2: Gainsborough Trinity Football Club is a semi-professional football club based in Gainsborough, Lincolnshire, England. Founded in 1873, the club is one of the oldest football clubs in the country. They are nicknamed "The Holy Blues" due to their traditional blue kit.. Gainsborough Trinity competes in the Northern Premier League, which is part of the seventh tier of the English football league system. The club's home ground is the Northolme Stadium, which has a.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Gainsborough Trinity]
+Action 3: Finish[Gainsborough Trinity]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Gainsborough Trinity]
+Action 3: Finish[Gainsborough Trinity]
+Observation 3: Gainsborough Trinity Football Club is a semi-professional football club based in Gainsborough, Lincolnshire, England. Founded in 1873, the club is one of the oldest football clubs in the country. They are nicknamed "The Holy Blues" due to their traditional blue kit.. Gainsborough Trinity competes in the Northern Premier League, which is part of the seventh tier of the English football league system. The club's home ground is the Northolme Stadium, which has a.
+
+
+
+INFO {'steps': 5, 'answer': 'Gainsborough Trinity', 'gt_answer': 'Gainsborough Trinity Football Club is a football club based in Gainsborough, Lincolnshire, England.', 'question_idx': 6084, 'reward': False, 'em': False, 'f1': 0.2857142857142857}
+
+INFO Sum of rewards: 6 
+Number of steps: 15 
+Average reward: 0.4 
+Average time 16.383589394887288
+
+-------------------------------------------------------
+

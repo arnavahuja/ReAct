@@ -1,0 +1,39 @@
+INFO 6 Question: To where did the war criminal who is the fictional defendant in the film After the Truth flee in real life ?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[After the Truth]
+Action 1: Search[After the Truth]
+Observation 1: After the Truth (German: Nichts als die Wahrheit) is a 1999 German film depicting the fictional trial of Dr. Josef Mengele, known as the "death angel of Auschwitz".. The film, starring Götz George as Mengele and Kai Wiesinger as his lawyer, is based on the original English-language screenplay by American writers Christopher and Kathleen Riley.[1] The German title translates to "Nothing but the truth".[2]. The infamous Nazi doctor Josef Mengele, who performed unethical medical experiments and is considered to be personally responsible for the selection of mass groups of detainees to be murdered in the gas chambers at the Auschwitz concentration camp, comes back from his hideout in Argentina as an 87-year-old man who is in his last days. Back in Germany, he must face trial for his crimes.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[After the Truth]
+Action 1: Search[After the Truth]
+Observation 1: "After the Truth" is a 1999 German film directed by Roland Suso Richter. The film is based on the true story of the trial of the former East German leader Erich Honecker. It explores the moral and legal complexities of prosecuting individuals for crimes committed under a totalitarian regime. The film stars Kai Wiesinger, Günther Maria Halmer, and Hannes Jaenicke. "After the Truth" received critical acclaim for its performances and its examination of justice and accountability.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[Argentina]
+Action 2: Finish[Argentina]
+Observation 2: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Erich Honecker]
+Action 2: Search[Erich Honecker]
+Observation 2: "After the Truth" is a 1999 German film directed by Roland Suso Richter. The film is based on the true story of the trial of the former East German leader Erich Honecker. It explores the moral and legal complexities of prosecuting individuals for crimes committed under a totalitarian regime. The film stars Kai Wiesinger, Günther Maria Halmer, and Hannes Jaenicke. "After the Truth" received critical acclaim for its performances and its examination of justice and accountability.
+
+
+
+INFO {'steps': 3, 'answer': 'Argentina', 'gt_answer': 'South America', 'question_idx': 1799, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 1 
+Number of steps: 6 
+Average reward: 0.16666666666666666 
+Average time 15.834264318148294
+
+-------------------------------------------------------
+

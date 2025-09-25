@@ -1,0 +1,39 @@
+INFO 2527 Question: Lex Antonia nullified the dictatorial laws set up by which Roman general?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Lex Antonia]
+Action 1: Search[Lex Antonia]
+Observation 1: The Leges Antoniae (lit. 'Antonine's laws') were an ensemble of Roman laws passed by Mark Antony in the aftermath of the assassination of Julius Caesar, on 15 March 44 BC.. After the assassination of Julius Caesar, the consul Mark Antony became the most powerful man in Rome and passed a series of laws to secure his position. The most famous of these laws was the lex Antonia de dictatura in perpetuum tollenda, which abolished the dictatorship. It was the second law to do so (the first being passed after the Second Punic War, replacing the Dictatorship with the final decree of the Senate); however, the earlier law had essentially been nullified by the subsequent dictatorships of Sulla and Caesar. The lex Antonia was mainly intended to provide Antony, who was beginning his consolidation of power, with some support from the Senatorial class, who had been alienated by the perpetual Dictatorships of Sulla and (especially) Caesar.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Lex Antonia]
+Action 1: Search[Lex Antonia]
+Observation 1: **Lex Antonia**. Lex Antonia (born 1980) is a contemporary artist known for her work in sculpture, installation, and performance art. Her practice often explores themes of memory, identity, and the ephemeral nature of human experience.. **Early Life and Education:**. Antonia was born in [City, Country - if known, otherwise omit].
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[Julius Caesar]
+Action 2: Finish[Julius Caesar]
+Observation 2: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Lex Antonia Roman law]
+Action 2: Search[Lex Antonia Roman law]
+Observation 2: **Lex Antonia**. Lex Antonia (born 1980) is a contemporary artist known for her work in sculpture, installation, and performance art. Her practice often explores themes of memory, identity, and the ephemeral nature of human experience.. **Early Life and Education:**. Antonia was born in [City, Country - if known, otherwise omit].
+
+
+
+INFO {'steps': 3, 'answer': 'Julius Caesar', 'gt_answer': 'Sulla', 'question_idx': 3007, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 4 
+Number of steps: 20 
+Average reward: 0.2 
+Average time 26.878444039821623
+
+-------------------------------------------------------
+

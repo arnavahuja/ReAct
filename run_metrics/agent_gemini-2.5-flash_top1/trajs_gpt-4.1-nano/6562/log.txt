@@ -1,0 +1,109 @@
+INFO 6562 Question: Where was the set for the winner of the WD Weatherford Award in 1998?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[WD Weatherford Award]
+Action 1: Search[WD Weatherford Award]
+Observation 1: Could not find WD Weatherford Award. Similar: ['October Sky (book)', 'Storming Heaven (Giardina novel)', 'Fair and Tender Ladies', 'The Unquiet Earth', 'Cold Mountain (novel) (category National Book Award for Fiction–winning works)'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[WD Weatherford Award]
+Action 1: Search[WD Weatherford Award]
+Observation 1: The WD Weatherford Award is an annual literary honor presented to authors of books that depict the American South in a compelling and authentic manner. Established in 1951, the award is sponsored by the Southern Literary Collection at the University of Mississippi and is named in honor of William D. Weatherford, a prominent supporter of Southern literature and culture. The award recognizes both fiction and nonfiction works that explore themes related to the Southern experience, including history, culture, and social issues. Recipients of the WD Weatherford Award receive a monetary prize and are celebrated for their contributions to Southern literature.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[WD Weatherford Award 1998 winner]
+Action 2: Search[WD Weatherford Award 1998 winner]
+Observation 2: Could not find WD Weatherford Award 1998 winner. Similar: ['Cold Mountain (novel) (category National Book Award for Fiction–winning works)', 'Bruce Devlin', 'Fort Worth, Texas'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[1998]
+Action 2: Lookup[1998]
+Observation 2: The WD Weatherford Award for 1998 was awarded to William H. Gass for his contributions to literature. The WD Weatherford Award is presented annually to recognize outstanding works of fiction that explore the American experience. William H. Gass, an acclaimed novelist, essayist, and philosopher, is known for his intricate prose style and profound exploration of human consciousness.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Weatherford Award]
+Action 3: Search[Weatherford Award]
+Observation 3: Could not find Weatherford Award. Similar: ['Carole Boston Weatherford', 'October Sky (book)', 'Alessandro Portelli', 'Cold Mountain (novel) (category National Book Award for Fiction–winning works)', 'Storming Heaven (Giardina novel)'].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[WD Weatherford Award winners list]
+Action 3: Search[WD Weatherford Award winners list]
+Observation 3: The Weatherford Award is a literary honor established in 1955 by the Appalachian Studies Association to recognize outstanding books that depict Appalachian culture, history, or people. Named after the Weatherford family, who were prominent in the region, the award aims to promote understanding and appreciation of Appalachian heritage through literature. It is awarded annually in various categories, including fiction, non-fiction, and poetry, and is considered one of the most prestigious recognitions for authors focusing on Appalachian themes. The award ceremony typically takes place during the Appalachian Studies Association's annual conference, and recipients receive a monetary prize and a certificate. The Weatherford Award has played a significant role in highlighting Appalachian voices and stories in American literature..
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[October Sky (book)]
+Action 4: Search[October Sky (book)]
+Observation 4: October Sky  is the first memoir in a series of four, by American engineer Homer Hickam Jr. originally published in 1998 as Rocket Boys. Later editions were published under the title October Sky as a tie-in to the 1999 film adaptation.. It is a story of growing up in a mining town, and a boy's pursuit of amateur rocketry in a coal mining town. The book won the W.D.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[Weatherford Award 1998 winner]
+Action 4: Search[Weatherford Award 1998 winner]
+Observation 4: "October Sky" is a memoir written by Homer Hickam Jr., published in 1998. The book recounts Hickam's childhood and teenage years in Coalwood, West Virginia, during the late 1950s and early 1960s, focusing on his fascination with rocketry and his efforts to build and launch rockets inspired by the Soviet Union's Sputnik satellite launch in 1957. The narrative explores themes of perseverance, ambition, and the pursuit of scientific knowledge amidst the challenges of a small mining town and a working-class environment.. The memoir details Hickam's journey from a young boy inspired by the space race to a young man who overcomes societal and economic obstacles to pursue his passion for engineering and science. "October Sky" highlights the importance of education, mentorship, and determination in achieving one's dreams..
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Lookup[set]
+Action 5: Lookup[set]
+Observation 5: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Finish[Coalwood, West Virginia]
+Action 5: Finish[Coalwood, West Virginia]
+Observation 5: "October Sky" is a memoir written by Homer Hickam Jr., published in 1998. The book recounts Hickam's childhood and teenage years in Coalwood, West Virginia, during the late 1950s and early 1960s, focusing on his fascination with rocketry and his efforts to build and launch rockets inspired by the Soviet Union's Sputnik satellite launch in 1957. The narrative explores themes of perseverance, ambition, and the pursuit of scientific knowledge amidst the challenges of a small mining town and a working-class environment.. The memoir details Hickam's journey from a young boy inspired by the space race to a young man who overcomes societal and economic obstacles to pursue his passion for engineering and science. "October Sky" highlights the importance of education, mentorship, and determination in achieving one's dreams..
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Lookup[mining town]
+Action 6: Lookup[mining town]
+Observation 6: (Result 1 / 1) The narrative explores themes of perseverance, ambition, and the pursuit of scientific knowledge amidst the challenges of a small mining town and a working-class environment..
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Finish[Coalwood, West Virginia]
+Action 6: Finish[Coalwood, West Virginia]
+Observation 6: "October Sky" is a memoir written by Homer Hickam Jr., published in 1998. The book recounts Hickam's childhood and teenage years in Coalwood, West Virginia, during the late 1950s and early 1960s, focusing on his fascination with rocketry and his efforts to build and launch rockets inspired by the Soviet Union's Sputnik satellite launch in 1957. The narrative explores themes of perseverance, ambition, and the pursuit of scientific knowledge amidst the challenges of a small mining town and a working-class environment.. The memoir details Hickam's journey from a young boy inspired by the space race to a young man who overcomes societal and economic obstacles to pursue his passion for engineering and science. "October Sky" highlights the importance of education, mentorship, and determination in achieving one's dreams..
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Lookup[mining town]
+Action 7: Lookup[mining town]
+Observation 7: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Finish[Coalwood, West Virginia]
+Action 7: Finish[Coalwood, West Virginia]
+Observation 7: "October Sky" is a memoir written by Homer Hickam Jr., published in 1998. The book recounts Hickam's childhood and teenage years in Coalwood, West Virginia, during the late 1950s and early 1960s, focusing on his fascination with rocketry and his efforts to build and launch rockets inspired by the Soviet Union's Sputnik satellite launch in 1957. The narrative explores themes of perseverance, ambition, and the pursuit of scientific knowledge amidst the challenges of a small mining town and a working-class environment.. The memoir details Hickam's journey from a young boy inspired by the space race to a young man who overcomes societal and economic obstacles to pursue his passion for engineering and science. "October Sky" highlights the importance of education, mentorship, and determination in achieving one's dreams..
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'Coalwood', 'question_idx': 5437, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 10 
+Number of steps: 21 
+Average reward: 0.47619047619047616 
+Average time 13.88683363369533
+
+-------------------------------------------------------
+

@@ -1,0 +1,60 @@
+INFO 1248 Question: Where was the founder of the Trussed Concrete Steel Company raised?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: To answer the question, I first need to find who the founder of the Trussed Concrete Steel Company is. 
+Action 1: Search[Trussed Concrete Steel Company] 
+        Action 1: Search[Trussed Concrete Steel Company]
+        Observation 1: Could not find Trussed Concrete Steel Company. Similar: ['Owen Williams (engineer)', 'Julius Kahn (inventor) (category Concrete pioneers)', 'Truscon Laboratories (section Iron and steel protection products)', 'William V. Zinn', 'Ivar Kreuger (section Companies controlled by Kreuger, c. 1930)']."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to search for the Trussed Concrete Steel Company, find its founder, and then search for the founder's upbringing.
+Action 1: [Search[Trussed Concrete Steel Company], Search[Founder of Trussed Concrete Steel Company], Lookup[Trussed Concrete Steel Company]] 
+        Action 1: ['Search[Trussed Concrete Steel Company]', 'Search[Founder of Trussed Concrete Steel Company]', 'Lookup[Trussed Concrete Steel Company]']
+        Observation 1: Trussed Concrete Steel Company (TCC) was an American manufacturer specializing in the production of reinforced concrete products, particularly pre-stressed and pre-tensioned concrete components. Founded in the early 20th century, TCC played a significant role in the development of concrete technology and construction methods, contributing to infrastructure projects across the United States. The company was known for its innovative use of steel reinforcement in concrete, which enhanced the strength and durability of various structural elements such as beams, slabs, and bridges."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The exact entity "Trussed Concrete Steel Company" could not be found. However, 'Julius Kahn (inventor)' shows up in the similar entities and he seems related to the topic of Concrete, he might be relevant to this task.
+Action 2: Search[Julius Kahn (inventor)] 
+        Action 2: Search[Julius Kahn (inventor)]
+        Observation 2: Julius Kahn  (March 8, 1874 – November 4, 1942) was an American engineer, industrialist, and manufacturer. He was the inventor of the Kahn system, a reinforced concrete engineering technique for building construction.[1] The Kahn system, which he patented in 1903, was used worldwide for housing, factories, offices and industrial buildings. He formed his own company, Trussed Concrete Steel Company, as a manufacturing source for his inventions. He also founded United Steel Company and was chairman of Truscon Laboratories.. Kahn was born in Münstereifel, Germany, March 8, 1874."
+
+SIMULATION TRAJECTORY:
+ Thought 2: The observation does not mention who the founder is. I need to look up "founder" to find this information. 
+Action 2: Lookup[founder], Search[founder of Trussed Concrete Steel Company], Lookup[Founded] 
+        Action 2: ['Search[founder of Trussed Concrete Steel Company]', 'Lookup[founder]', 'Lookup[Founded]']
+        Observation 2: Julius Kahn was an American inventor and engineer known for his contributions to mechanical and industrial design. Although specific details about his early life and career are limited, Kahn is recognized for developing innovative solutions in manufacturing processes and machinery. His work has had a lasting impact on the fields of engineering and industrial production, and he holds several patents related to mechanical devices. Kahn's inventions have been utilized in various industries, enhancing efficiency and productivity. His legacy continues through the ongoing use and development of his."
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Julius Kahn, the founder of the Trussed Concrete Steel Company, was born in Münstereifel, Germany. So he was raised in Germany.
+Action 3: Finish[Germany] 
+        Action 3: Finish[Germany]
+        Observation 3: Episode finished, reward = 0
+"
+
+SIMULATION TRAJECTORY:
+ Thought 3: The information about Julius Kahn does not mention anything related to the Trussed Concrete Steel Company. However, considering that he is known for his contributions to mechanical and industrial design, he might still be the founder of the Trussed Concrete Steel Company. Before concluding that, I need to find confirmation about this possible connection. 
+Action 3: Lookup[Trussed Concrete Steel Company], Lookup[founder], Lookup[company] 
+        Action 3: ['Lookup[Trussed Concrete Steel Company]', 'Lookup[founder]', 'Lookup[company]']
+        Observation 3: Julius Kahn was an American inventor and engineer known for his contributions to mechanical and industrial design. Although specific details about his early life and career are limited, Kahn is recognized for developing innovative solutions in manufacturing processes and machinery. His work has had a lasting impact on the fields of engineering and industrial production, and he holds several patents related to mechanical devices. Kahn's inventions have been utilized in various industries, enhancing efficiency and productivity. His legacy continues through the ongoing use and development of his."
+
+
+
+INFO {'steps': 5, 'answer': 'Germany', 'gt_answer': 'Detroit, Michigan', 'question_idx': 2808, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 3 
+Number of steps: 9 
+Average reward: 0.3333333333333333 
+Average time 36.51650802294413
+
+--------------------------------------------------
+

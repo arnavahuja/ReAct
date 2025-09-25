@@ -1,0 +1,39 @@
+INFO 165 Question: Jean Hudson Boyd is known for her controversial sentencing of Ethan Couch. What was his sentence?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Ethan Couch]
+Action 1: Search[Ethan Couch]
+Observation 1: Ethan Anthony Couch (born April 11, 1997) killed four people at the age of 16 while driving under the influence on June 15, 2013, in Burleson, Texas. Couch, while intoxicated and under the influence of drugs, was driving on a restricted license and speeding in a residential area when he lost control of his vehicle, which slammed into a group of people assisting another driver with a disabled car. The collision killed four people and injured nine others.[4] Two passengers in Couch's pickup truck were critically injured, one of whom was completely paralyzed.[5]. Couch was indicted on four counts of intoxication manslaughter for recklessly driving under the influence. In December 2013, Judge Jean Hudson Boyd sentenced Couch to ten years of probation, subsequently ordering him to undergo therapy at a long term inpatient facility.[6] Before sentencing, Couch's attorneys had argued that Couch had "affluenza" and needed rehabilitation instead of prison, arguing that Couch had no understanding of boundaries as his affluent parents had never given him any.[7] Couch's sentence, judged by many as outrageously lenient, set off what The New York Times called "an emotional, angry debate that has stretched far beyond the North Texas suburbs".[8].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Ethan Couch]
+Action 1: Search[Ethan Couch]
+Observation 1: Ethan Anthony Couch (born April 11, 1997) is an American man who gained national attention after being involved in a high-profile drunk driving incident that resulted in the deaths of four people. The case drew widespread media coverage due to Couch's age, the severity of the incident, and the controversial legal defense used during his trial.. Early Life and Background:. Ethan Couch was born in Tarrant County, Texas. He was described as a privileged teenager from a wealthy family, which became a focal point in discussions about his case.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[ten years of probation and therapy at a long term inpatient facility]
+Action 2: Finish[ten years of probation and therapy at a long term inpatient facility]
+Observation 2: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[sentence]
+Action 2: Lookup[sentence]
+Observation 2: Ethan Anthony Couch (born April 11, 1997) is an American man who gained national attention after being involved in a high-profile drunk driving incident that resulted in the deaths of four people. The case drew widespread media coverage due to Couch's age, the severity of the incident, and the controversial legal defense used during his trial.. Early Life and Background:. Ethan Couch was born in Tarrant County, Texas. He was described as a privileged teenager from a wealthy family, which became a focal point in discussions about his case.
+
+
+
+INFO {'steps': 3, 'answer': 'ten years of probation and therapy at a long term inpatient facility', 'gt_answer': 'ten years of probation', 'question_idx': 3273, 'reward': False, 'em': False, 'f1': 0.5333333333333333}
+
+INFO Sum of rewards: 10 
+Number of steps: 19 
+Average reward: 0.5263157894736842 
+Average time 13.151483523218255
+
+-------------------------------------------------------
+

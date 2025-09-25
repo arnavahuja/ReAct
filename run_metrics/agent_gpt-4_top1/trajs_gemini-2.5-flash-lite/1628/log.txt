@@ -1,0 +1,39 @@
+INFO 1628 Question: Meghan Strange is an American actress and voice actress, known for her role as Robin on what American animated television series produced for Disney Channel?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Meghan Strange]
+Action 1: Search[Meghan Strange]
+Observation 1: Meghan Strange is an American actress. She is best known for her roles as Ruby from The Land Before Time television series and Robin from Sofia the First. She also voiced the character Harley Quinn on Batman: The Brave and the Bold and has appeared in a number of short films and children's TV shows.. Strange began her acting career as a member of a chorus line in the 1994 Woody Allen film Bullets Over Broadway. She would later make an appearance as the character Marcy on a January 1999 episode of the soap opera As the World Turns, as well as the 1999 films Entropy and 30 Days.[1].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Meghan Strange]
+Action 1: Search[Meghan Strange]
+Observation 1: Meghan Strange is an American actress and voice actress. She is known for her work in animation and video games.. **Notable Roles:**. *   **Animation:**. *   **Miraculous: Tales of Ladybug & Cat Noir:** Alya Césaire / Rena Rouge.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[Sofia the First]
+Action 2: Finish[Sofia the First]
+Observation 2: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[Robin]
+Action 2: Lookup[Robin]
+Observation 2: Meghan Strange is an American actress and voice actress. She is known for her work in animation and video games.. **Notable Roles:**. *   **Animation:**. *   **Miraculous: Tales of Ladybug & Cat Noir:** Alya Césaire / Rena Rouge.
+
+
+
+INFO {'steps': 3, 'answer': 'Sofia the First', 'gt_answer': 'Sofia the First', 'question_idx': 4061, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 14 
+Number of steps: 35 
+Average reward: 0.4 
+Average time 27.944843346732004
+
+-------------------------------------------------------
+

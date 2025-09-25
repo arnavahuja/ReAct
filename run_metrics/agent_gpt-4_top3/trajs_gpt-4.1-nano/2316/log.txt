@@ -1,0 +1,44 @@
+INFO 2316 Question: Gaia is a space observatory of the European Space Agency, what is Astrosat?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: For finding out what Astrosat is, I need to perform a search on it.
+Action 1: [Search[Astrosat]] 
+        Action 1: Search[Astrosat]
+        Observation 1: AstroSat is India's first dedicated multi-wavelength space telescope. It was launched on a PSLV-XL on 28 September 2015.[1][2] With the success of this satellite, ISRO has proposed launching AstroSat-2 as a successor for AstroSat.[3]. After the success of the satellite-borne Indian X-ray Astronomy Experiment (IXAE), which was launched in 1996, the Indian Space Research Organisation (ISRO) approved further development for a full-fledged astronomy satellite, AstroSat, in 2004.[4]. A number of astronomy research institutions in India, and abroad have jointly built instruments for the satellite. Important areas requiring coverage include studies of astrophysical objects ranging from nearby Solar System objects to distant stars and objects at cosmological distances; timing studies of variables ranging from pulsations of hot white dwarfs to those of active galactic nuclei can be conducted with AstroSat as well, with time scales ranging from milliseconds to days.."
+
+SIMULATION TRAJECTORY:
+ Thought 1: From the question, it's clear that Astrosat is likely to be a similar entity like Gaia, possibly another space observatory. So I need to search Astrosat to find its definition.
+Action 1: [Search[Astrosat], Lookup[Astrosat], Search[European Space Agency]] 
+        Action 1: ['Search[Astrosat]', 'Search[European Space Agency]', 'Lookup[Astrosat]']
+        Observation 1: Astrosat is India's first dedicated multi-wavelength space observatory, launched by the Indian Space Research Organisation (ISRO). It was launched on September 28, 2015, aboard a Polar Satellite Launch Vehicle (PSLV-C30) from the Satish Dhawan Space Centre. The primary objective of Astrosat is to observe celestial sources in different wavelengths such as X-ray, ultraviolet, and optical, providing comprehensive data to study the universe.. Astrosat is equipped with five scientific instruments,."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Astrosat is India's first dedicated multi-wavelength space telescope. Now that I know what Astrosat is, I can answer the question.
+Action 2: [Finish[Astrosat is India's first dedicated multi-wavelength space telescope.]] 
+        Action 2: Finish[Astrosat is India's first dedicated multi-wavelength space telescope.]
+        Observation 2: Episode finished, reward = 0
+"
+
+SIMULATION TRAJECTORY:
+ Thought 2: Astrosat is India's first dedicated multi-wavelength space observatory launched by the ISRO that observes celestial sources in different wavelengths.
+Action 2: [Finish[Astrosat is India's first dedicated multi-wavelength space observatory], Lookup[observatory], Lookup[ISRO]] 
+        Action 2: ['Lookup[observatory]', 'Lookup[ISRO]', "Finish[Astrosat is India's first dedicated multi-wavelength space observatory]"]
+        Observation 2: Astrosat is India's first dedicated multi-wavelength space observatory, launched by the Indian Space Research Organisation (ISRO). It was launched on September 28, 2015, aboard a Polar Satellite Launch Vehicle (PSLV-C30) from the Satish Dhawan Space Centre. The primary objective of Astrosat is to observe celestial sources in different wavelengths such as X-ray, ultraviolet, and optical, providing comprehensive data to study the universe.. Astrosat is equipped with five scientific instruments,."
+
+
+
+INFO {'steps': 3, 'answer': "Astrosat is India's first dedicated multi-wavelength space telescope.", 'gt_answer': "India's first dedicated multi-wavelength space observatory.", 'question_idx': 6609, 'reward': False, 'em': False, 'f1': 0.7142857142857143}
+
+INFO Sum of rewards: 3 
+Number of steps: 7 
+Average reward: 0.42857142857142855 
+Average time 33.87691943986075
+
+--------------------------------------------------
+

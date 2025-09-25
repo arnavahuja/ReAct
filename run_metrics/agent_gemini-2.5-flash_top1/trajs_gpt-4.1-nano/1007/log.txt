@@ -1,0 +1,67 @@
+INFO 1007 Question: How high on the US "Billboard" Hot 100 chart did Dan Smith's song reach in 2013?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Dan Smith]
+Action 1: Search[Dan Smith]
+Observation 1: Could not find [Dan Smith]. Similar: ['Dan Smith (singer)', 'Dan Smith', 'T. Dan Smith', 'Dan Smith (artist)', 'Killer7 (redirect from Dan Smith (Killer7))'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Dan Smith]
+Action 1: Search[Dan Smith]
+Observation 1: Dan Smith (born December 15, 1980) is a British singer, songwriter, and musician best known as the lead vocalist and founding member of the British band Bastille. Born in London, England, Smith co-founded Bastille in 2010, and the band gained widespread recognition with their debut album "Bad Blood" in 2013, which included hit singles such as "Pompeii" and "Things We Lost in the Fire.". Throughout his career, Dan Smith has been praised for his distinctive voice and lyrical songwriting, often addressing themes of social issues, personal introspection, and storytelling. In addition to his work with Bastille, Smith has collaborated with various artists and contributed to multiple projects within the music industry.. Smith is known for his charismatic stage presence and his commitment to social causes, often using his platform to raise awareness about mental health and other important issues.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Dan Smith (singer)]
+Action 2: Search[Dan Smith (singer)]
+Observation 2: Daniel Campbell Smith (born 14 July 1986) is an English singer, songwriter and record producer, best known as the founder, lead singer and primary songwriter of the English pop rock band Bastille. The band formed in 2010 and gained mass popularity in 2013 when the song "Pompeii" was released with their album Bad Blood. The band then released their second album, Wild World in September 2016. In June 2019, the band released their third album Doom Days. In February 2022, they released their fourth album Give Me the Future.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Pompeii Billboard Hot 100]
+Action 2: Search[Pompeii Billboard Hot 100]
+Observation 2: Dan Smith is a British singer, songwriter, and musician best known as the lead vocalist and primary songwriter for the British band Bastille. Born on July 14, 1988, in London, England, Smith co-founded Bastille in 2010, and the band quickly gained recognition with their debut album "Bad Blood" released in 2013, which included hit singles such as "Pompeii" and "Things We Lost in the Fire.". Dan Smith is known for his distinctive voice and lyrical style, often blending genres such as indie pop, synth-pop, and alternative rock. Throughout his career, he has been praised for his songwriting abilities and his energetic stage presence. Bastille has received numerous awards and nominations, including BRIT Awards and Grammy nominations..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Pompeii (song)]
+Action 3: Search[Pompeii (song)]
+Observation 3: "Pompeii" is a song by British indie pop band Bastille. It is the fourth single from their debut studio album Bad Blood and was released on 11 January 2013. The song's title and lyrics refer to the Roman town of the same name that was destroyed and buried in the eruption of Mount Vesuvius in AD 79.[5]. "Pompeii" became the band's breakthrough hit, peaking at number two on the UK Singles Chart and became the eleventh best-selling song that year and, until June 2014, was the country's most streamed single of all time.[6][7] It was also successful worldwide, reaching the top ten in fifteen countries, including the United States where it peaked at number five on the Billboard Hot 100, becoming Bastille's most successful single to date, until "Happier" reached number two on both the UK and US charts in October 2018 and February 2019 respectively.. The song was nominated for British Single of the Year at the 2014 BRIT Awards.[8] A mashup of the song with Rudimental and Ella Eyre's "Waiting All Night" was performed live by Rudimental, Eyre and Bastille at the aforementioned ceremony,[9] which reached number 21 in the UK..
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Pompeii (song)]
+Action 3: Search[Pompeii (song)]
+Observation 3: "Pompeii" is a song by the British rock band Bastille. It was released as a single in 2013 and is included on their debut studio album, *Bad Blood*, which was released in 2013. The song was written by band members Dan Smith, William Farquarson, and Chris "Woody" Wood, and produced by Mark Crew and Dan Smith.. "Pompeii" gained widespread popularity for its catchy melody and distinctive chorus, which features a chant-like vocal hook. The lyrics of the song reference the ancient Roman city of Pompeii, famously destroyed by the eruption of Mount Vesuvius in AD 79, and use the historical event as a metaphor for feelings of stagnation, loss, and the desire for change..
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[number five]
+Action 4: Finish[number five]
+Observation 4: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[Billboard Hot 100]
+Action 4: Lookup[Billboard Hot 100]
+Observation 4: "Pompeii" is a song by the British rock band Bastille. It was released as a single in 2013 and is included on their debut studio album, *Bad Blood*, which was released in 2013. The song was written by band members Dan Smith, William Farquarson, and Chris "Woody" Wood, and produced by Mark Crew and Dan Smith.. "Pompeii" gained widespread popularity for its catchy melody and distinctive chorus, which features a chant-like vocal hook. The lyrics of the song reference the ancient Roman city of Pompeii, famously destroyed by the eruption of Mount Vesuvius in AD 79, and use the historical event as a metaphor for feelings of stagnation, loss, and the desire for change..
+
+
+
+INFO {'steps': 7, 'answer': 'number five', 'gt_answer': 'number 5', 'question_idx': 1335, 'reward': False, 'em': False, 'f1': 0.5}
+
+INFO Sum of rewards: 5 
+Number of steps: 8 
+Average reward: 0.625 
+Average time 11.38619640469551
+
+-------------------------------------------------------
+

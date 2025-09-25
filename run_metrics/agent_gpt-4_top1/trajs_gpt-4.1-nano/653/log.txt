@@ -1,0 +1,39 @@
+INFO 653 Question: Where is the stadium at which 1964 Georgia Tech Yellow Jackets football team played their home game located?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[1964 Georgia Tech Yellow Jackets football team]
+Action 1: Search[1964 Georgia Tech Yellow Jackets football team]
+Observation 1: The 1964 Georgia Tech Yellow Jackets football team represented the Georgia Institute of Technology during the 1964 NCAA University Division football season. The Yellow Jackets were led by 20th-year head coach Bobby Dodd, and played their home games at Grant Field in Atlanta. They competed as independents for the first time since 1920, after dropping from the Southeastern Conference in 1963.[1]. This college football 1964 season article is a stub. You can help Wikipedia by expanding it..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[1964 Georgia Tech Yellow Jackets football team]
+Action 1: Search[1964 Georgia Tech Yellow Jackets football team]
+Observation 1: The 1964 Georgia Tech Yellow Jackets football team represented the Georgia Institute of Technology during the 1964 NCAA University Division football season. Led by head coach Bobby Dodd in his 20th year at the helm, the Yellow Jackets played their home games at Grant Field in Atlanta, Georgia.. The team finished the season with an overall record of 7 wins, 3 losses, and 0 ties (7–3). In the Southeastern Conference (SEC), they compiled a conference record of.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[Atlanta]
+Action 2: Finish[Atlanta]
+Observation 2: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Finish[Grant Field in Atlanta, Georgia.]
+Action 2: Finish[Grant Field in Atlanta, Georgia.]
+Observation 2: The 1964 Georgia Tech Yellow Jackets football team represented the Georgia Institute of Technology during the 1964 NCAA University Division football season. Led by head coach Bobby Dodd in his 20th year at the helm, the Yellow Jackets played their home games at Grant Field in Atlanta, Georgia.. The team finished the season with an overall record of 7 wins, 3 losses, and 0 ties (7–3). In the Southeastern Conference (SEC), they compiled a conference record of.
+
+
+
+INFO {'steps': 3, 'answer': 'Atlanta', 'gt_answer': 'North Avenue at Techwood Drive', 'question_idx': 103, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 0 
+Number of steps: 2 
+Average reward: 0.0 
+Average time 23.67008101940155
+
+-------------------------------------------------------
+

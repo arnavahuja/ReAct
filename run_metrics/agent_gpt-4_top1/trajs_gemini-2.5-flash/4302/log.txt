@@ -1,0 +1,67 @@
+INFO 4302 Question: Which show was Andrew "Andy" Spade's brother in n the 1990s?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Andrew "Andy" Spade]
+Action 1: Search[Andrew "Andy" Spade]
+Observation 1: Could not find Andrew "Andy" Spade. Similar: ['Andy Spade', 'Saturday Night Live season 16', 'Jeff Richards (actor, born 1974)', 'MTV Movie Award for Best On-Screen Duo', 'Primetime Emmy Award for Outstanding Writing for a Variety Special'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Andrew "Andy" Spade]
+Action 1: Search[Andrew "Andy" Spade]
+Observation 1: **Andrew "Andy" Spade** (born December 24, 1962) is an American businessman, entrepreneur, and creative director. He is best known as the co-founder of the fashion brand Kate Spade New York, alongside his late wife, Kate Spade.. **Early Life and Education:**. Spade was born in Scottsdale, Arizona, and grew up in a family with a strong entrepreneurial spirit. His brother is actor and comedian David Spade.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Andy Spade]
+Action 2: Search[Andy Spade]
+Observation 2: Andrew Spade (born May 5, 1962) is an American businessman.[1] He co-founded the fashion brand Kate Spade New York with his wife, Kate Spade, as well as the design company Partners & Spade.. Spade was born in Michigan, the middle child in a family of three brothers. His younger brother is actor and comedian David Spade.[2] The family moved to Arizona when Andy was six. He attended Arizona State University, where he met his future wife. During college, he and a friend founded the advertising firm Spade & Hannawell, which was named one of Arizona's Top 10 New Companies in 1987.[3][4].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[David Spade]
+Action 2: Search[David Spade]
+Observation 2: **Andrew "Andy" Spade (1962 – 2018)** was an American businessman, entrepreneur, and creative director, best known for co-founding the fashion brand Kate Spade New York with his wife, Kate Spade. He was a significant figure in the fashion and design industries, recognized for his innovative marketing strategies and his role in building a globally recognized lifestyle brand.. **Early Life and Education:**. Born Andrew Jack Spade in 1962, Andy Spade.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[David Spade]
+Action 3: Search[David Spade]
+Observation 3: David Wayne Spade (born July 22, 1964) is an American stand-up comedian, actor and podcaster. His comedic style, in both his stand-up material and acting roles, relies heavily on sarcasm and self-deprecation.[1][2] For his roles on television, Spade has received nominations for four Primetime Emmy Awards and two Golden Globe Awards. In 2003, he received a star on the Hollywood Walk of Fame.. After several years as a stand-up comedian, Spade rose to prominence as a writer and cast member on the NBC sketch comedy series Saturday Night Live from 1990 to 1996. He played Dennis Finch in the NBC sitcom Just Shoot Me! (1997–2003) for which he was nominated for the Primetime Emmy Award for Outstanding Supporting Actor in a Comedy Series.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[brother]
+Action 3: Lookup[brother]
+Observation 3: **David Wayne Spade (born July 22, 1964) is an American actor, stand-up comedian, writer, and television personality.** He is best known for his five-year tenure as a cast member on the NBC sketch comedy series *Saturday Night Live* from 1990 to 1995, and for his roles in the films *Tommy Boy* (1995), *Black Sheep* (1996), *Joe.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[Saturday Night Live]
+Action 4: Finish[Saturday Night Live]
+Observation 4: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[Saturday Night Live]
+Action 4: Finish[Saturday Night Live]
+Observation 4: **David Wayne Spade (born July 22, 1964) is an American actor, stand-up comedian, writer, and television personality.** He is best known for his five-year tenure as a cast member on the NBC sketch comedy series *Saturday Night Live* from 1990 to 1995, and for his roles in the films *Tommy Boy* (1995), *Black Sheep* (1996), *Joe.
+
+
+
+INFO {'steps': 7, 'answer': 'Saturday Night Live', 'gt_answer': '"Saturday Night Live"', 'question_idx': 5645, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 20 
+Number of steps: 44 
+Average reward: 0.45454545454545453 
+Average time 21.36479399962859
+
+-------------------------------------------------------
+

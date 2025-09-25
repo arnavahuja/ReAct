@@ -1,0 +1,53 @@
+INFO 4349 Question: Which of the university at which Jack M. Guttentag  is a professor emeritus of finance was established in 1881 through a donation?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Jack M. Guttentag]
+Action 1: Search[Jack M. Guttentag]
+Observation 1: Jack Mack Guttentag (December 9, 1923 – February 6, 2024) was an American banker and academic who was a professor of finance at the Wharton School of the University of Pennsylvania.[1] He was also a consumer advocate and creator of The Mortgage Professor, a website that provides free and disinterested advice to consumers on mortgage-related issues.. Jack Mack Guttentag was born in Brooklyn, New York, on December 9, 1923.[2] He received his B.S. from Purdue University, and his M.S. and Ph.D. from Columbia University.[3].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Jack M. Guttentag]
+Action 1: Search[Jack M. Guttentag]
+Observation 1: **Jack M. Guttentag** (born 1929) is an American economist, academic, and author, widely recognized for his expertise in mortgage finance and consumer financial education. He is often referred to as "The Mortgage Professor" due to his extensive work in demystifying complex mortgage concepts for the general public.. **Early Life and Education:**. Guttentag was born in 1929.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[University of Pennsylvania]
+Action 2: Search[University of Pennsylvania]
+Observation 2: The University of Pennsylvania (Penn[note 3] or UPenn[note 4]) is a private Ivy League research university in Philadelphia, Pennsylvania, United States. One of nine colonial colleges, it was chartered in 1755 through the efforts of founder and first president Benjamin Franklin, who had advocated for an educational institution that trained leaders in academia, commerce, and public service.. The university has four undergraduate schools and 12 graduate and professional schools. Schools enrolling undergraduates include the College of Arts and Sciences, the School of Engineering and Applied Science, the Wharton School, and the School of Nursing. Among its graduate schools are its law school, whose first professor, James Wilson, helped write the U.S.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[university]
+Action 2: Lookup[university]
+Observation 2: The **University of Pennsylvania** (commonly referred to as **Penn** or **UPenn**) is a private Ivy League research university in Philadelphia, Pennsylvania. It is one of the nine colonial colleges founded before the American Revolution, and is considered one of the most prestigious universities in the world.. **History:**. Penn traces its origins to the establishment of the Academy of Philadelphia in 1740 by Benjamin Franklin, who advocated for an educational institution that would train leaders in commerce, government,.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[None]
+Action 3: Finish[None]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Purdue University]
+Action 3: Search[Purdue University]
+Observation 3: The **University of Pennsylvania** (commonly referred to as **Penn** or **UPenn**) is a private Ivy League research university in Philadelphia, Pennsylvania. It is one of the nine colonial colleges founded before the American Revolution, and is considered one of the most prestigious universities in the world.. **History:**. Penn traces its origins to the establishment of the Academy of Philadelphia in 1740 by Benjamin Franklin, who advocated for an educational institution that would train leaders in commerce, government,.
+
+
+
+INFO {'steps': 5, 'answer': 'None', 'gt_answer': 'Wharton School of the University', 'question_idx': 6855, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 10 
+Number of steps: 16 
+Average reward: 0.625 
+Average time 29.414932057261467
+
+-------------------------------------------------------
+

@@ -1,0 +1,53 @@
+INFO 3021 Question: Which season did the UCF Knights represent at an American metropolitan public research university in Orlando, Florida?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[UCF Knights]
+Action 1: Search[UCF Knights]
+Observation 1: The UCF Knights are the athletic teams that represent the University of Central Florida in unincorporated Orange County, Florida near Orlando. The Knights participate in the National Collegiate Athletic Association's (NCAA) Division I (FBS for football) as a member of the Big 12 Conference. Since men's soccer is not sponsored by the Big 12, they play in the Sun Belt Conference.. The university has asked to be identified as UCF when being referenced as opposed to Central Florida, though they formerly asked to be identified as either. Television networks and other media outlets, most notably ESPN, were initially slow to adopt this policy, but had mostly adapted by 2017.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[UCF Knights]
+Action 1: Search[UCF Knights]
+Observation 1: The UCF Knights are the athletic teams that represent the University of Central Florida in Orlando, Florida. The Knights compete in the NCAA Division I as a member of the American Athletic Conference (AAC). UCF fields teams in a variety of sports, including football, basketball, soccer, volleyball, and more.. The UCF Knights football team has gained national attention in recent years, including an undefeated season in 2017 and a Peach Bowl victory over Auburn. The team plays its home games at Spectrum Stadium.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Lookup[season]
+Action 2: Lookup[season]
+Observation 2: (Result 1 / 1) The UCF Knights football team has gained national attention in recent years, including an undefeated season in 2017 and a Peach Bowl victory over Auburn.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Finish[2017]
+Action 2: Finish[2017]
+Observation 2: The UCF Knights are the athletic teams that represent the University of Central Florida in Orlando, Florida. The Knights compete in the NCAA Division I as a member of the American Athletic Conference (AAC). UCF fields teams in a variety of sports, including football, basketball, soccer, volleyball, and more.. The UCF Knights football team has gained national attention in recent years, including an undefeated season in 2017 and a Peach Bowl victory over Auburn. The team plays its home games at Spectrum Stadium.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[2017]
+Action 3: Finish[2017]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[2017]
+Action 3: Finish[2017]
+Observation 3: The UCF Knights are the athletic teams that represent the University of Central Florida in Orlando, Florida. The Knights compete in the NCAA Division I as a member of the American Athletic Conference (AAC). UCF fields teams in a variety of sports, including football, basketball, soccer, volleyball, and more.. The UCF Knights football team has gained national attention in recent years, including an undefeated season in 2017 and a Peach Bowl victory over Auburn. The team plays its home games at Spectrum Stadium.
+
+
+
+INFO {'steps': 5, 'answer': '2017', 'gt_answer': '2010 NCAA Division', 'question_idx': 3767, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 4 
+Number of steps: 12 
+Average reward: 0.3333333333333333 
+Average time 15.552161494890848
+
+-------------------------------------------------------
+

@@ -1,0 +1,56 @@
+INFO 656 Question: Dahlia and Aruncus are both examples of what type of plant catagorization?
+
+STEP: 1
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 1: None
+Action 1: Search[Dahlia]
+Observation 1: Dahlia (UK: /ˈdeɪliə/ DAY-lee-ə, US: /ˈdæljə, ˈdɑːljə, ˈdeɪljə/ DA(H)L-yə, DAYL-yə)[3] is a genus of bushy, tuberous, herbaceous perennial plants native to Mexico and Central America. Dahlias are members of the Asteraceae (synonym name: Compositae) family of dicotyledonous plants,[4] its relatives include the sunflower, daisy, chrysanthemum, and zinnia. There are 49 species of dahlia,[4] with flowers in almost every hue (except blue), with hybrids commonly grown as garden plants.. Dahlias were known only to the Aztecs and other southern North American peoples until the Spanish conquest, after which the plants were brought to Europe.[5][6][7] The tubers of some varieties are of medicinal and dietary value to humans because, in common with species of Inula and many other flowering plants, they use inulin, a polymer of the fruit sugar fructose, instead of starch as a storage polysaccharide.. Dahlias are perennial plants with tuberous roots.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Dahlia]
+Action 1: Search[Dahlia]
+Observation 1: **Dahlia**. Dahlia is a genus of bushy, tuberous, herbaceous perennial plants native to Mexico, Central America, and Colombia. A member of the Asteraceae family, the genus Dahlia is the national flower of Mexico.. **Description**. Dahlias are characterized by their tuberous roots, which store nutrients and allow the plant to perennialize.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Aruncus]
+Action 2: Search[Aruncus]
+Observation 2: Aruncus is a genus of clump-forming herbaceous perennial plants in the family Rosaceae. Botanical opinion of the number of species differs, with from one to four species accepted. They are closely related to the genera Filipendula and Spiraea, and are native to mountainous damp woodland in temperate regions of the Northern Hemisphere. Creamy white plumes of flowers are produced above veined and toothed leaflets.[1]. Tragopogon is also known as "goatsbeard" but is not closely related..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Aruncus]
+Action 2: Search[Aruncus]
+Observation 2: **Aruncus** is a genus of flowering plants in the family Rosaceae. It is native to temperate regions of the Northern Hemisphere, with species found in Europe, Asia, and North America. The genus is characterized by its large, feathery plumes of white or creamy-white flowers, which typically appear in late spring or early summer.. **Taxonomy and Classification:**. The genus *Aruncus* was first described by the German botanist Michel Adanson in 176.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Perennial plants]
+Action 3: Finish[Perennial plants]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[genus]
+Action 3: Finish[genus]
+Observation 3: **Aruncus** is a genus of flowering plants in the family Rosaceae. It is native to temperate regions of the Northern Hemisphere, with species found in Europe, Asia, and North America. The genus is characterized by its large, feathery plumes of white or creamy-white flowers, which typically appear in late spring or early summer.. **Taxonomy and Classification:**. The genus *Aruncus* was first described by the German botanist Michel Adanson in 176.
+
+
+
+INFO {'steps': 5, 'answer': 'Perennial plants', 'gt_answer': 'genus', 'question_idx': 5007, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 13 
+Number of steps: 34 
+Average reward: 0.38235294117647056 
+Average time 28.47725474133211
+
+-------------------------------------------------------
+

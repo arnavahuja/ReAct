@@ -1,0 +1,39 @@
+INFO 1248 Question: Q:The 7.92×57mm Mauser rifle cartridge was used by which country's military in the 20th century?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[7.92×57mm Mauser]
+Action 1: Search[7.92×57mm Mauser]
+Observation 1: The 7.92×57mm Mauser (designated as the 8mm Mauser or 8×57mm by the SAAMI[2] and 8 × 57 IS by the C.I.P.[3]) is a rimless bottlenecked rifle cartridge. The 7.92×57mm Mauser cartridge was adopted by the German Empire in 1903–1905, and was the German service cartridge in both World Wars. In the first half of the 20th century, the 7.92×57mm Mauser cartridge was one of the world's most popular military cartridges. In the 21st century, it is a popular civiliansport and hunting cartridge in the West.. The parent cartridge, upon which the 7.92×57mm Mauser is based, was adopted by Germany in 1888 as the Patrone 88 (cartridge 88) or M/88 (along with the Gewehr 1888 service rifle).
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[7.92×57mm Mauser]
+Action 1: Search[7.92×57mm Mauser]
+Observation 1: The 7.92×57mm Mauser, also known as 8×57mm Mauser or 8×57 JS, is a rimless, bottlenecked rifle cartridge developed by the German company Mauser. It was first introduced in 1888 for the Gewehr 1888 rifle.. **Development and History:**. The cartridge was developed in response to the growing trend of smokeless powder cartridges and the need for a more powerful and.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[Germany]
+Action 2: Finish[Germany]
+Observation 2: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[used by]
+Action 2: Lookup[used by]
+Observation 2: The 7.92×57mm Mauser, also known as 8×57mm Mauser or 8×57 JS, is a rimless, bottlenecked rifle cartridge developed by the German company Mauser. It was first introduced in 1888 for the Gewehr 1888 rifle.. **Development and History:**. The cartridge was developed in response to the growing trend of smokeless powder cartridges and the need for a more powerful and.
+
+
+
+INFO {'steps': 3, 'answer': 'Germany', 'gt_answer': 'German service cartridge', 'question_idx': 2748, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 3 
+Number of steps: 9 
+Average reward: 0.3333333333333333 
+Average time 24.609502209557427
+
+-------------------------------------------------------
+

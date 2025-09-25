@@ -1,0 +1,70 @@
+INFO 3631 Question: King of Norway Magnus Barefoot launched aggressive military campaigns in this region that was at times independent of external control and was known to the Norse as what?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Magnus Barefoot]
+Action 1: Search[Magnus Barefoot]
+Observation 1: Magnus III Olafsson (Old Norse: Magnús Óláfsson, Norwegian: Magnus Olavsson; 1073 – 24 August 1103), better known as Magnus Barefoot (Old Norse: Magnús berfœttr, Norwegian: Magnus Berrføtt),[1] was the King of Norway from 1093 until his death in 1103. His reign was marked by aggressive military campaigns and conquest, particularly in the Norse-dominated parts of Ireland and Britain, where he extended his rule to the Kingdom of the Isles and Dublin.. As the only son of King Olaf Kyrre, Magnus was proclaimed king in southeastern Norway shortly after his father's death in 1093. In the north his claim was contested by his cousin, Haakon Magnusson (son of King Magnus Haraldsson), and the two co-ruled uneasily until Haakon's death in 1095. Disgruntled members of the nobility refused to recognise Magnus after his cousin's death, but the insurrection was short-lived.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Magnus Barefoot]
+Action 1: Search[Magnus Barefoot]
+Observation 1: Magnus Olafsson, better known as Magnus Barefoot, was a Norse King who ruled as King of Norway from 1093 until his death in 1103. He was known for his military campaigns and conquests, expanding his kingdom's territory and influence. Magnus was also a skilled naval commander, leading successful expeditions in the British Isles and Ireland. He earned the nickname "Barefoot" due to his preference for wearing simple clothing and going barefoot, in contrast to the traditional.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Lookup[Norse as what]
+Action 2: Lookup[Norse as what]
+Observation 2: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[military campaigns]
+Action 2: Lookup[military campaigns]
+Observation 2: Magnus Olafsson, better known as Magnus Barefoot, was a Norse King who ruled as King of Norway from 1093 until his death in 1103. He was known for his military campaigns and conquests, expanding his kingdom's territory and influence. Magnus was also a skilled naval commander, leading successful expeditions in the British Isles and Ireland. He earned the nickname "Barefoot" due to his preference for wearing simple clothing and going barefoot, in contrast to the traditional.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Kingdom of the Isles]
+Action 3: Search[Kingdom of the Isles]
+Observation 3: The Kingdom of the Isles, also known as Sodor, was a Norse–Gaelic kingdom comprising the Isle of Man, the Hebrides and the islands of the Clyde from the 9th to the 13th centuries. The islands were known in Old Norse as the Suðreyjar, or "Southern Isles" as distinct from the Norðreyjar or Northern Isles of Orkney and Shetland. In Scottish Gaelic, the kingdom is known as Rìoghachd nan Eilean. The territory is sometimes called the Kingdom of Mann and the Isles, although only some of the later rulers claimed that title. The historical record is incomplete, and the kingdom was not a continuous entity throughout the entire period.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Kingdom of the Isles]
+Action 3: Search[Kingdom of the Isles]
+Observation 3: The Kingdom of the Isles was a historical Norse kingdom that existed in the Irish Sea region from the 9th to the 13th centuries. It encompassed the Hebrides, the Isle of Man, and parts of the western coast of Scotland. The kingdom was founded by Norse settlers and maintained close ties with the Scandinavian world.. The rulers of the Kingdom of the Isles, known as the Kings of Mann and the Isles, held power over a network of islands and coastal territories. They engaged in.
+
+
+
+STEP: 4
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[Suðreyjar]
+Action 4: Finish[Suðreyjar]
+Observation 4: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 4: None
+Action 4: Finish[Kingdom of the Isles]
+Observation 4: The Kingdom of the Isles was a historical Norse kingdom that existed in the Irish Sea region from the 9th to the 13th centuries. It encompassed the Hebrides, the Isle of Man, and parts of the western coast of Scotland. The kingdom was founded by Norse settlers and maintained close ties with the Scandinavian world.. The rulers of the Kingdom of the Isles, known as the Kings of Mann and the Isles, held power over a network of islands and coastal territories. They engaged in.
+
+
+
+INFO {'steps': 7, 'answer': 'Suðreyjar', 'gt_answer': 'Southern Isles', 'question_idx': 4372, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 20 
+Number of steps: 51 
+Average reward: 0.39215686274509803 
+Average time 16.67776309742647
+
+-------------------------------------------------------
+

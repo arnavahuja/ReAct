@@ -1,0 +1,112 @@
+INFO 4184 Question: The company that created the Data Universal Numbering System has a database that contains how many business records?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Data Universal Numbering System]
+Action 1: Search[Data Universal Numbering System]
+Observation 1: The Data Universal Numbering System, abbreviated as DUNS or D-U-N-S, is a proprietary system developed and managed by Dun & Bradstreet (D&B) that assigns a unique numeric identifier, referred to as a "DUNS number" to a single business entity. It was introduced in 1963 to support D&B's credit reporting practice. It is standard worldwide. DUNS users include the European Commission, the United Nations, Google, and Apple. More than 50 global industry and trade associations recognize, recommend, or require DUNS.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Data Universal Numbering System]
+Action 1: Search[Data Universal Numbering System]
+Observation 1: The Data Universal Numbering System (DUNS) is a proprietary system developed and managed by Dun & Bradstreet (D&B) that assigns a unique nine-digit identifier to businesses. The DUNS number is used to establish a business credit file, which can be helpful for companies seeking to do business with other organizations. It is widely used by both government and private entities for various purposes, such as tracking financial performance, conducting due diligence, and identifying suppliers and partners. The system is recognized globally and has.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Dun & Bradstreet]
+Action 2: Search[Dun & Bradstreet]
+Observation 2: Dun most commonly refers to:. Dun or DUN may also refer to:. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us. HelpLearn to editCommunity portalRecent changesUpload fileSpecial pages. Donate.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Dun & Bradstreet]
+Action 2: Search[Dun & Bradstreet]
+Observation 2: Dun & Bradstreet is an American business services company that provides commercial data, analytics, and insights for businesses. It is headquartered in Short Hills, New Jersey. The company is known for its Data Universal Numbering System (D-U-N-S Number) which is a unique identifier for businesses. Dun & Bradstreet offers a wide range of services including credit risk assessment, sales and marketing solutions, supply chain management, and compliance tools. The company was founded in 1841 and has a long history.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Dun & Bradstreet (company)]
+Action 3: Search[Dun & Bradstreet (company)]
+Observation 3: Dun most commonly refers to:. Dun or DUN may also refer to:. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us. HelpLearn to editCommunity portalRecent changesUpload fileSpecial pages. Donate.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[business records]
+Action 3: Lookup[business records]
+Observation 3: Dun & Bradstreet is an American business services company that provides commercial data, analytics, and insights for businesses. It is headquartered in Short Hills, New Jersey. The company offers a wide range of services, including credit risk assessment, sales and marketing solutions, supply chain management, and compliance tools.. Dun & Bradstreet was founded in 1841 by Lewis Tappan and Benjamin Douglass in New York City. It is one of the oldest and most well-known providers of business information and.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Dun & Bradstreet]
+Action 4: Search[Dun & Bradstreet]
+Observation 4: Dun most commonly refers to:. Dun or DUN may also refer to:. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us. HelpLearn to editCommunity portalRecent changesUpload fileSpecial pages. Donate.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[database]
+Action 4: Lookup[database]
+Observation 4: Dun & Bradstreet is an American business services company that provides commercial data, analytics, and insights for businesses. It is headquartered in Short Hills, New Jersey. The company offers a wide range of services, including credit risk assessment, sales and marketing solutions, supply chain management, and compliance tools. Dun & Bradstreet is known for its Data Universal Numbering System (D-U-N-S Number), a unique identifier for businesses worldwide. The company was founded in 1841 and has since grown to.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[Dun & Bradstreet]
+Action 5: Search[Dun & Bradstreet]
+Observation 5: Dun most commonly refers to:. Dun or DUN may also refer to:. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us. HelpLearn to editCommunity portalRecent changesUpload fileSpecial pages. Donate.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Lookup[database]
+Action 5: Lookup[database]
+Observation 5: Dun & Bradstreet is an American business services company that provides commercial data, analytics, and insights for businesses. It is headquartered in Short Hills, New Jersey. The company offers a wide range of services, including credit risk assessment, sales and marketing solutions, supply chain management, and compliance tools. Dun & Bradstreet is known for its Data Universal Numbering System (D-U-N-S Number), a unique identifier for businesses worldwide. The company was founded in 1841 and has since grown to.
+
+
+
+STEP: 6
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Search[Dun & Bradstreet Corporation]
+Action 6: Search[Dun & Bradstreet Corporation]
+Observation 6: Dun most commonly refers to:. Dun or DUN may also refer to:. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us. HelpLearn to editCommunity portalRecent changesUpload fileSpecial pages. Donate.
+
+SIMULATION TRAJECTORY:
+ Thought 6: None
+Action 6: Lookup[business records]
+Observation 6: Dun & Bradstreet Corporation is a leading American business services company that provides commercial data, analytics, and insights for businesses worldwide. The company is headquartered in Short Hills, New Jersey, and has a history dating back to 1841. Dun & Bradstreet is known for its data and analytics solutions that help businesses make informed decisions, manage risk, and drive growth. The company offers a wide range of products and services, including credit reporting, business credit scores, marketing data, and supply chain management.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Search[Dun & Bradstreet database]
+Action 7: Search[Dun & Bradstreet database]
+Observation 7: Dun most commonly refers to:. Dun or DUN may also refer to:. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us. HelpLearn to editCommunity portalRecent changesUpload fileSpecial pages. Donate.
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Search[Dun & Bradstreet database business records]
+Action 7: Search[Dun & Bradstreet database business records]
+Observation 7: Dun & Bradstreet is a global commercial data and analytics company headquartered in Short Hills, New Jersey, United States. The company provides commercial data, analytics, and insights for businesses worldwide. Dun & Bradstreet's database contains information on over 330 million businesses, including data on financials, credit risk, supply chain, and marketing.. The company was founded in 1841 by Lewis Tappan and Benjamin Douglass in New York City. Over the years, Dun & Bradstreet has grown.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': '265 million', 'question_idx': 2712, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 17 
+Number of steps: 39 
+Average reward: 0.4358974358974359 
+Average time 16.94693376467778
+
+-------------------------------------------------------
+

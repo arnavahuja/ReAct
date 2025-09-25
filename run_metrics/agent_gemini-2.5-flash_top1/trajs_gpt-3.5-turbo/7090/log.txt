@@ -1,0 +1,53 @@
+INFO 7090 Question: Mischa Anne Barton's first major film role was the protagonist of a movie written by who?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Mischa Anne Barton]
+Action 1: Search[Mischa Anne Barton]
+Observation 1: Mischa Anne Marsden Barton[1] (born 24 January 1986)[2] is a British and American film, television, and stage actress. She began her career on the stage, appearing in Tony Kushner's Slavs! and took the lead in James Lapine's Twelve Dreams at New York City's Lincoln Center. She made her screen debut with a guest appearance on the American soap opera All My Children (1995), and voicing Betty Ann Bongo on the Nickelodeon cartoon series KaBlam! (1996–97). Her first major film role was as the protagonist of Lawn Dogs (1997), a drama co-starring Sam Rockwell. She appeared in major pictures such as the romantic comedy Notting Hill (1999) and M.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Mischa Anne Barton]
+Action 1: Search[Mischa Anne Barton]
+Observation 1: Mischa Anne Barton is a British-American actress and model. She was born on January 24, 1986, in Hammersmith, London, England. Barton began her acting career at a young age, appearing in various stage productions and television shows. She gained international fame for her role as Marissa Cooper on the television series "The O.C." which aired from 2003 to 2006.. In addition to her work on television, Barton has also appeared in several films,.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Lawn Dogs]
+Action 2: Search[Lawn Dogs]
+Observation 2: Lawn Dogs is a 1997 British fantasy-drama film directed by John Duigan and starring Mischa Barton and Sam Rockwell. The film tells the story of a precocious young girl (Barton) from a gated community who befriends a landscape worker (Rockwell), and examines the societal repercussions of their friendship. Written by Naomi Wallace, the film was released by Rank Organisation, and was the company's last production.. Although filmed in Louisville and Danville, Kentucky, in the United States, Lawn Dogs was a British film produced by Duncan Kenworthy. Lawn Dogs won numerous film awards at film festivals in Europe and met with generally positive reviews, with praise for the performances of Barton and Rockwell in particular..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[first major film role]
+Action 2: Lookup[first major film role]
+Observation 2: "Lawn Dogs" is a 1997 drama film directed by John Duigan. The film stars Mischa Barton and Sam Rockwell in lead roles. It tells the story of a young girl named Devon, played by Barton, who befriends a working-class man named Trent, played by Rockwell, who mows lawns in her upscale neighborhood. The film explores themes of social class, friendship, and the impact of prejudice and judgment. "Lawn Dogs" received positive reviews for its performances.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Naomi Wallace]
+Action 3: Finish[Naomi Wallace]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[written by]
+Action 3: Lookup[written by]
+Observation 3: "Lawn Dogs" is a 1997 drama film directed by John Duigan. The film stars Mischa Barton and Sam Rockwell in lead roles. It tells the story of a young girl named Devon, played by Barton, who befriends a working-class man named Trent, played by Rockwell, who mows lawns in her upscale neighborhood. The film explores themes of social class, friendship, and the impact of prejudice and judgment. "Lawn Dogs" received positive reviews for its performances.
+
+
+
+INFO {'steps': 5, 'answer': 'Naomi Wallace', 'gt_answer': 'Naomi Wallace', 'question_idx': 3093, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 4 
+Number of steps: 11 
+Average reward: 0.36363636363636365 
+Average time 16.275848258625377
+
+-------------------------------------------------------
+

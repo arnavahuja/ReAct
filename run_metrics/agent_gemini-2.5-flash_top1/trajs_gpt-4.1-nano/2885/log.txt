@@ -1,0 +1,112 @@
+INFO 2885 Question: What was the population in 2010 of the town where The Stelljes House is located ?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[The Stelljes House]
+Action 1: Search[The Stelljes House]
+Observation 1: Could not find The Stelljes House. Similar: ['Stelljes House', 'Bobbie the Wonder Dog', 'National Register of Historic Places listings in Sullivan County, New Hampshire', 'Little Red School House (Newport, New Hampshire)', 'Union Episcopal Church (Claremont, New Hampshire) (category Churches on the National Register of Historic Places in New Hampshire)'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[The Stelljes House]
+Action 1: Search[The Stelljes House]
+Observation 1: The Stelljes House is a historic residence located in the United States, notable for its architectural style and historical significance. Although specific details about its construction date and architectural features are limited, it is recognized as a noteworthy example of regional architecture. The house has been preserved as part of local heritage efforts and may be listed on historic registers, reflecting its importance to the community's history. The Stelljes House exemplifies the residential design and construction techniques of its era, contributing to the understanding of local historical development..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Stelljes House]
+Action 2: Search[Stelljes House]
+Observation 2: The Stelljes House is a historic house on New Hampshire Route 31 in Goshen, New Hampshire. Built about 1800, it is one of the oldest of a cluster of plank-frame houses in Goshen. The house was listed on the National Register of Historic Places in 1985.[1] It has possibly been demolished.. The Stelljes House stands in a rural area of southern Goshen, on the east side of NH 31. It is a 1+1⁄2-story wooden structure, with a gabled roof and clapboarded exterior.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[location]
+Action 2: Lookup[location]
+Observation 2: Stelljes House is a historic residence located in the United States, notable for its architectural style and historical significance. The house is recognized for its distinctive design features, which may include elements such as period-specific construction materials, craftsmanship, and architectural details that reflect the era in which it was built. It has been preserved as a part of local heritage and may be listed on historic registers, highlighting its importance to the community's cultural and architectural history. The property often serves as a representation of regional architectural trends.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Goshen, New Hampshire]
+Action 3: Search[Goshen, New Hampshire]
+Observation 3: Goshen is a town in Sullivan County, New Hampshire, United States. The population was 796 at the 2020 census.[2]. Incorporated in 1791, Goshen was first settled in 1768 as a part of Saville (now Sunapee). The name "Goshen" may have been taken from Goshen, Connecticut, where many residents had relatives.. According to the United States Census Bureau, the town has a total area of 22.5 square miles (58.4 km2), of which 22.4 square miles (58.1 km2) are land and 0.1 square miles (0.2 km2) are water, comprising 0.41% of the town.[1] Goshen is drained by the South Branch Sugar River and its tributaries Blood Brook and Gunnison Brook, and hence lies almost fully within the Connecticut River watershed.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Stelljes House New Hampshire]
+Action 3: Search[Stelljes House New Hampshire]
+Observation 3: Goshen is a small town located in Sullivan County, New Hampshire, United States. Established in the early 19th century, Goshen is characterized by its rural landscape, scenic natural beauty, and a close-knit community. The town covers an area of approximately 44 square miles (114 km²), much of which is forested and includes several lakes and ponds, making it a popular destination for outdoor recreation such as hiking, fishing, and boating.. Historically, Goshen's economy was.
+
+
+
+STEP: 4
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Lookup[2010]
+Action 4: Lookup[2010]
+Observation 4: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 4: None
+Action 4: Lookup[population]
+Observation 4: Goshen is a small town located in Sullivan County, New Hampshire, United States. Established in the early 19th century, Goshen is characterized by its rural landscape, scenic natural beauty, and a close-knit community. The town covers an area of approximately 44 square miles (114 km²), much of which is forested and includes several lakes and ponds, making it a popular destination for outdoor recreation such as hiking, fishing, and boating.. Historically, Goshen's economy was.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[Goshen, New Hampshire population 2010]
+Action 5: Search[Goshen, New Hampshire population 2010]
+Observation 5: Could not find Goshen, New Hampshire population 2010. Similar: ['Goshen, New Hampshire', 'Goshen, Massachusetts', 'Unity, New Hampshire', 'New Hampshire', 'Newport, New Hampshire'].
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Lookup[population]
+Action 5: Lookup[population]
+Observation 5: Goshen is a small town located in Sullivan County, New Hampshire, United States. According to the 2010 United States Census, the population of Goshen was 1,052 residents. The town is characterized by its rural landscape, historic sites, and a close-knit community. Goshen is known for its scenic beauty, including lakes, forests, and outdoor recreational opportunities. The town's economy traditionally centered around agriculture, small businesses, and tourism..
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Search[Goshen, New
+Action 6: Search[Goshen, New
+Observation 6: Invalid action: search[Goshen, New
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Finish[1,052]
+Action 6: Finish[1,052]
+Observation 6: Goshen is a small town located in Sullivan County, New Hampshire, United States. According to the 2010 United States Census, the population of Goshen was 1,052 residents. The town is characterized by its rural landscape, historic sites, and a close-knit community. Goshen is known for its scenic beauty, including lakes, forests, and outdoor recreational opportunities. The town's economy traditionally centered around agriculture, small businesses, and tourism..
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Search[Goshen, New Hampshire 2010 census]
+Action 7: Search[Goshen, New Hampshire 2010 census]
+Observation 7: Could not find Goshen, New Hampshire 2010 census. Similar: ['Goshen, New Hampshire', 'Hampshire County, Massachusetts', 'Goshen, Massachusetts', 'Unity, New Hampshire', 'Sullivan County, New Hampshire'].
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Finish[1,052]
+Action 7: Finish[1,052]
+Observation 7: Goshen, New Hampshire, is a small town located in Sullivan County in the western part of the state. According to the 2010 United States Census, the town had a population of 1,095 residents. Goshen is characterized by its rural landscape, scenic natural beauty, and a close-knit community. The town covers an area of approximately 44.4 square miles (115.0 km²), of which a small portion is water. Goshen is known for its outdoor recreational.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': '810', 'question_idx': 6934, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 6 
+Number of steps: 17 
+Average reward: 0.35294117647058826 
+Average time 17.140066469416897
+
+-------------------------------------------------------
+

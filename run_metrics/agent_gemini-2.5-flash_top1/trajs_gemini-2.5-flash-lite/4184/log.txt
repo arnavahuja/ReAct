@@ -1,0 +1,95 @@
+INFO 4184 Question: What are the names of the co-directors of the psychological horror film starring Emily Browning and Elizabeth Banks?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Emily Browning]
+Action 1: Search[Emily Browning]
+Observation 1: Emily Jane Browning is an Australian actress. She made her film debut in the television film The Echo of Thunder (1998), and subsequently appeared in television shows such as High Flyers (1999), Something in the Air (2000–2001), and Blue Heelers (2000–2002). Her breakthrough role was in the 2002 horror film Ghost Ship, which introduced her to a wider audience. In 2005, Browning won the Australian Film Institute International Award for Best Actress for her portrayal of Violet Baudelaire in the film Lemony Snicket's A Series of Unfortunate Events (2004).. Browning is also known for her roles in the horror film The Uninvited (2009), the action film Sucker Punch (2011), the independent drama Sleeping Beauty (2011), and the epic romantic historical disaster film Pompeii (2014).
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Emily Browning]
+Action 1: Search[Emily Browning]
+Observation 1: **Emily Browning**. Emily Browning is an Australian actress. She began her acting career in the late 1990s and gained international recognition for her roles in films such as *Lemony Snicket's A Series of Unfortunate Events* (2004), *The Uninvited* (2009), and *Sucker Punch* (2011).. **Early Life and Career:**. Born on December 7, 1988,.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Elizabeth Banks]
+Action 2: Search[Elizabeth Banks]
+Observation 2: Elizabeth Irene Banks (née Mitchell;[1] February 10, 1974)[2] is an American actress, comedian, director, and producer. She is known for playing chaperone Effie Trinket in The Hunger Games film series (2012–2015) and an ICCA commentator in the Pitch Perfect film series (2012–2017). She made her directorial film debut with Pitch Perfect 2 (2015), whose $69 million opening-weekend gross set a record for a first-time director.[3][4] She directed the action comedy Charlie's Angels (2019) and the horror comedy film Cocaine Bear (2023). Banks founded the film and television production company Brownstone Productions in 2002 with her husband, Max Handelman.. Banks made her film debut in the low-budget independent film Surrender Dorothy (1998).
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[The Uninvited (2009 film)]
+Action 2: Search[The Uninvited (2009 film)]
+Observation 2: **Elizabeth Banks**. Elizabeth Banks (born Elizabeth Irene Baldwin; September 10, 1974) is an American actress, producer, and director. She is known for her versatile roles in both comedy and drama, and has established herself as a prominent figure in Hollywood.. **Early Life and Education:**. Banks was born in Pittsfield, Massachusetts, the daughter of Ann (née Sutherland), a bank teller, and Mark Baldwin, who worked in the automotive industry.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Emily Browning Elizabeth Banks films]
+Action 3: Search[Emily Browning Elizabeth Banks films]
+Observation 3: Could not find Emily Browning Elizabeth Banks films. Similar: ['The Uninvited (2009 film)', 'Arielle Kebbel (category American film actresses)', 'Outer Banks (TV series)', 'Emily Mortimer filmography', 'Elizabeth Hartman'].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Films starring Emily Browning and Elizabeth Banks]
+Action 3: Search[Films starring Emily Browning and Elizabeth Banks]
+Observation 3: Emily Browning and Elizabeth Banks have not appeared in any films together.. **Emily Browning**. Emily Browning is an Australian actress. She began her acting career in the late 1990s and gained international recognition for her role as Violet Baudelaire in the 2004 film *Lemony Snicket's A Series of Unfortunate Events*.. **Notable Films:**.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Emily Browning filmography]
+Action 4: Search[Emily Browning filmography]
+Observation 4: Emily Jane Browning is an Australian actress. She made her film debut in the television film The Echo of Thunder (1998), and subsequently appeared in television shows such as High Flyers (1999), Something in the Air (2000–2001), and Blue Heelers (2000–2002). Her breakthrough role was in the 2002 horror film Ghost Ship, which introduced her to a wider audience. In 2005, Browning won the Australian Film Institute International Award for Best Actress for her portrayal of Violet Baudelaire in the film Lemony Snicket's A Series of Unfortunate Events (2004).. Browning is also known for her roles in the horror film The Uninvited (2009), the action film Sucker Punch (2011), the independent drama Sleeping Beauty (2011), and the epic romantic historical disaster film Pompeii (2014).
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[Emily Browning psychological horror films]
+Action 4: Search[Emily Browning psychological horror films]
+Observation 4: **Emily Browning Filmography**. Emily Browning is an Australian actress who has appeared in a variety of film and television productions.. **Film**. | Year | Title | Role | Notes |. |---|---|---|---|.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[The Uninvited (2009 film)]
+Action 5: Search[The Uninvited (2009 film)]
+Observation 5: The Uninvited is a 2009 American psychological horror film directed by the Guard Brothers and starring Emily Browning, Elizabeth Banks, Arielle Kebbel, and David Strathairn. It is a remake of the 2003 South Korean horror film A Tale of Two Sisters, which is in turn one of several film adaptations of the Korean folk tale Janghwa Hongryeon jeon. The film grossed $42.7 million, and received mixed-to-negative reviews from critics, with the Rotten Tomatoes' critical consensus stating that it "suffers from predictable plot twists", but called it "moody and reasonably involving".. Following a suicide attempt after her terminally ill mother died in a house fire, Anna Ivers is discharged from a psychiatric institution after ten months; she has no memory of the actual fire, though recurring nightmares from that night frequently plague her. Back at home, Anna reunites with her older sister Alex and learns their father Steven has a new girlfriend, Rachel Summers, who was their mother's live-in nurse..
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Lookup[horror]
+Action 5: Lookup[horror]
+Observation 5: **The Uninvited** is a 2009 supernatural horror film directed by the Wachowskis and starring Emily Browning, Arielle Kebbel, David Strathairn, and Elizabeth Banks. The film is a remake of the 2003 South Korean horror film *A Tale of Two Sisters*.. **Plot**. Anna Rydell (Emily Browning) is released from a psychiatric hospital after the death of her mother. She returns home to her father (David Strathairn.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Finish[The Guard Brothers]
+Action 6: Finish[The Guard Brothers]
+Observation 6: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Finish[The Wachowskis]
+Action 6: Finish[The Wachowskis]
+Observation 6: **The Uninvited** is a 2009 supernatural horror film directed by the Wachowskis and starring Emily Browning, Arielle Kebbel, David Strathairn, and Elizabeth Banks. The film is a remake of the 2003 South Korean horror film *A Tale of Two Sisters*.. **Plot**. Anna Rydell (Emily Browning) is released from a psychiatric hospital after the death of her mother. She returns home to her father (David Strathairn.
+
+
+
+INFO {'steps': 11, 'answer': 'The Guard Brothers', 'gt_answer': 'Charles and Thomas Guard', 'question_idx': 2017, 'reward': False, 'em': False, 'f1': 0.3333333333333333}
+
+INFO Sum of rewards: 16 
+Number of steps: 38 
+Average reward: 0.42105263157894735 
+Average time 12.269993455786453
+
+-------------------------------------------------------
+

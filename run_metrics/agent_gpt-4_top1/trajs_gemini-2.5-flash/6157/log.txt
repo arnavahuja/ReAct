@@ -1,0 +1,109 @@
+INFO 6157 Question: Who is older Craig Nicholls or Norman Blake ?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Craig Nicholls]
+Action 1: Search[Craig Nicholls]
+Observation 1: Craig Robert Nicholls (born 31 August 1977) is an Australian musician, best known as the lead singer, songwriter, and guitarist of the Australian alternative rock band The Vines, of which he is the sole continuous member.. Nicholls was born in Sydney.[1] Terry Nicholls, his father, was the guitarist and vocalist in a 1960s group named The Vynes.[2] He later worked as an accountant for Sony Music Australia.[2] Nicholls has an older brother, Matt, an older sister, Tara, who is a solicitor, and a younger sister, Jessica.[3][4][5] Nicholls' father taught him to play guitar during childhood.[2][6] He spent his free time listening to The Beatles, painting artworks, and skateboarding. He stated, "I grew up a loner... I never socialised. I stayed at home and listened to music all day.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Craig Nicholls]
+Action 1: Search[Craig Nicholls]
+Observation 1: **Craig Nicholls** (born 31 August 1977) is an Australian musician, singer, and songwriter. He is best known as the frontman, guitarist, and primary songwriter of the rock band The Vines.. **Early Life and Career:**. Nicholls was born in Sydney, Australia. He formed The Vines in 1994 with his childhood friend Patrick Matthews (bass) and David Oliffe (drums).
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Norman Blake]
+Action 2: Search[Norman Blake]
+Observation 2: Could not find [Norman Blake]. Similar: ['Norman Blake (American musician)', 'Norman Blake', 'Norman Blake (Scottish musician)', 'Teenage Fanclub', 'Bernard Butler (section Bernard Butler, Norman Blake & James Grant)'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Norman Blake]
+Action 2: Search[Norman Blake]
+Observation 2: **Norman Blake** (born October 20, 1938) is an American guitarist, mandolinist, singer, and songwriter known for his significant contributions to American folk, bluegrass, and country music. His career spans over six decades, marked by a distinctive flatpicking guitar style, a deep understanding of traditional music, and a prolific output of recordings.. **Early Life and Career:**. Born in Chattanooga, Tennessee, Blake grew up immersed in the rich musical traditions of the.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Norman Blake (Scottish musician)]
+Action 3: Search[Norman Blake (Scottish musician)]
+Observation 3: Norman Blake is a Scottish singer, instrumentalist and songwriter in the Glasgow-based band Teenage Fanclub.. Blake and Sean Dickson (The Soup Dragons) were in The Faith Healers together, which also contained various members at different times: Stevie Gray, Hugh McLaughlin, Brian Carson and Colin Murray to name but a few.. Blake was a member of Glasgow group The Pretty Flowers with school friend Duglas T. Stewart, Frances McKee, Janice Cochrane and Sean Dickson. After the group split, Blake formed the Boy Hairdressers in 1986, assisted in the original lineup by Dickson and Stewart.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Norman Blake]
+Action 3: Finish[Norman Blake]
+Observation 3: **Norman Blake** (born 20 October 1965) is a Scottish singer, songwriter, and guitarist, best known as a founding member of the acclaimed indie rock band Teenage Fanclub. He is a prominent figure in the Scottish alternative music scene, recognized for his distinctive vocal style, melodic songwriting, and contributions to the jangle-pop and power-pop genres.. **Early Life and Career:**. Born in Bellshill, North Lanarkshire, Scotland, Blake.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Lookup[birth]
+Action 4: Lookup[birth]
+Observation 4: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[Norman Blake]
+Action 4: Finish[Norman Blake]
+Observation 4: **Norman Blake** (born 20 October 1965) is a Scottish singer, songwriter, and guitarist, best known as a founding member of the acclaimed indie rock band Teenage Fanclub. He is a prominent figure in the Scottish alternative music scene, recognized for his distinctive vocal style, melodic songwriting, and contributions to the jangle-pop and power-pop genres.. **Early Life and Career:**. Born in Bellshill, North Lanarkshire, Scotland, Blake.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[Norman Blake birth date]
+Action 5: Search[Norman Blake birth date]
+Observation 5: Could not find Norman Blake birth date. Similar: ['List of 20th-century classical composers (redirect from List of composers by birth date)', '2025 deaths in the United States', 'Don Edwards (cowboy singer) (category Year of birth missing)', 'William Caxton (category Year of birth uncertain)', 'List of 21st-century classical composers (redirect from List of 21st-century classical composers by birth date)'].
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Finish[Norman Blake]
+Action 5: Finish[Norman Blake]
+Observation 5: Norman Blake (born 20 October 1965) is a Scottish singer, songwriter and guitarist. He is the lead vocalist and primary songwriter of the Glasgow-based alternative rock band Teenage Fanclub..
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Lookup[born]
+Action 6: Lookup[born]
+Observation 6: (Result 1 / 1) Norman Blake (born 20 October 1965) is a Scottish singer, songwriter and guitarist.
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Finish[Norman Blake]
+Action 6: Finish[Norman Blake]
+Observation 6: Norman Blake (born 20 October 1965) is a Scottish singer, songwriter and guitarist. He is the lead vocalist and primary songwriter of the Glasgow-based alternative rock band Teenage Fanclub..
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Finish[Norman Blake]
+Action 7: Finish[Norman Blake]
+Observation 7: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Finish[Norman Blake]
+Action 7: Finish[Norman Blake]
+Observation 7: Norman Blake (born 20 October 1965) is a Scottish singer, songwriter and guitarist. He is the lead vocalist and primary songwriter of the Glasgow-based alternative rock band Teenage Fanclub..
+
+
+
+INFO {'steps': 13, 'answer': 'Norman Blake', 'gt_answer': 'Norman Blake', 'question_idx': 2826, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 11 
+Number of steps: 26 
+Average reward: 0.4230769230769231 
+Average time 22.934382649568413
+
+-------------------------------------------------------
+

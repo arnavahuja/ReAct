@@ -1,0 +1,45 @@
+INFO 2316 Question: Which town does Ronald F. Collins represent that a town in York County, Maine, United States?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to search Ronald F. Collins and find which town in York County, Maine he represents.
+Action 1: Search[Ronald F. Collins] 
+        Action 1: Search[Ronald F. Collins]
+        Observation 1: Ronald F. Collins is an American politician from Maine. A Wells resident, Collins formerly represented the second district in the Maine Senate.[1][2] Prior to being elected a state senator, he was a member of the Maine House of Representatives representing Wells from 1998 to 2006.[3][4]. Collins endorsed Mitt Romney for president in the 2012 election.[5]. This article about a member of the Maine House of Representatives is a stub."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to search for Ronald F. Collins to find out which town in York County, Maine, United States he represents.
+
+Action 1: [Search[Ronald F. Collins], Lookup[Ronald F. Collins], Search[York County, Maine]] 
+        Action 1: ['Search[Ronald F. Collins]', 'Search[York County, Maine]', 'Lookup[Ronald F. Collins]']
+        Observation 1: Ronald F. Collins is an American attorney and author. He is known for his work in the field of legal scholarship, particularly in areas related to criminal law, constitutional law, and legal history.. Collins has authored or co-authored several books and numerous articles on legal topics. His writings often explore the historical development of legal principles and their contemporary application."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Ronald F. Collins is a resident of Wells, Maine and represented Wells in the Maine House of Representatives. Therefore, the town he represents in York County, Maine is Wells.
+Action 2: Finish[Wells] 
+        Action 2: Finish[Wells]
+        Observation 2: Episode finished, reward = 0
+"
+
+SIMULATION TRAJECTORY:
+ Thought 2: The current information about Ronald F. Collins doesn't specify which town he represents. I need to find more details. 
+Action 2: Lookup[Ronald F. Collins], Search[Ronald F. Collins (Maine)], Lookup[Maine] 
+        Action 2: ['Search[Ronald F. Collins (Maine)]', 'Lookup[Ronald F. Collins]', 'Lookup[Maine]']
+        Observation 2: Ronald F. Collins is an American attorney and author. He is known for his work in the field of legal scholarship, particularly in areas related to criminal law, constitutional law, and legal history.. Collins has authored or co-authored several books and numerous articles on legal topics. His writings often explore the historical development of legal principles and their contemporary application."
+
+
+
+INFO {'steps': 3, 'answer': 'Wells', 'gt_answer': 'Limerick', 'question_idx': 1449, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 2 
+Number of steps: 7 
+Average reward: 0.2857142857142857 
+Average time 27.89257938521249
+
+--------------------------------------------------
+

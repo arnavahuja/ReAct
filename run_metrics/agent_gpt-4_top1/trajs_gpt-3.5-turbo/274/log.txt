@@ -1,0 +1,53 @@
+INFO 274 Question: The Good Dinosaur features the voice of what Canadian-born New Zealand actress?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[The Good Dinosaur]
+Action 1: Search[The Good Dinosaur]
+Observation 1: The Good Dinosaur is a 2015 American animated comedy-drama adventure film[7] produced by Pixar Animation Studios for Walt Disney Pictures. The film was directed by Peter Sohn and produced by Denise Ream, from a screenplay written by Meg LeFauve, who also wrote the film's story with Sohn, Bob Peterson, Kelsey Mann, and Erik Benson. It stars the voices of Raymond Ochoa, Jack Bright, Steve Zahn, Sam Elliott, Anna Paquin, A. J. Buckley, Jeffrey Wright, and Frances McDormand.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[The Good Dinosaur]
+Action 1: Search[The Good Dinosaur]
+Observation 1: "The Good Dinosaur" is a 2015 American 3D computer-animated adventure film produced by Pixar Animation Studios and released by Walt Disney Pictures. The film is directed by Peter Sohn in his directorial debut. The story follows a young Apatosaurus named Arlo who meets a human boy named Spot on his journey home. The film explores themes of friendship, family, and overcoming fears.. Despite receiving mixed reviews from critics, "The Good Dinosaur" was praised for its stunning.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Anna Paquin]
+Action 2: Search[Anna Paquin]
+Observation 2: Anna Helene Paquin[3] (/ˈpækwɪn/ PAK-win; born 24 July 1982) is a New Zealand actress.[4][5] Born in Winnipeg, Canada, and raised in Wellington, she made her acting debut in the romantic drama film The Piano (1993), for which she won the Academy Award for Best Supporting Actress at age 11, becoming the second-youngest winner in Oscar history.[6][7] As a child actress, she had roles in Fly Away Home (1996), Jane Eyre (1996), Amistad (1997), The Member of the Wedding (1997), and A Walk on the Moon (1999), as well as in Cameron Crowe's comedy drama film Almost Famous (2000).. Paquin continued to perform prominent roles into adulthood, portraying Rogue in the X-Men franchise (2000–2006; 2014). Her other film credits include 25th Hour (2002), Trick 'r Treat (2007), Margaret (2011), The Good Dinosaur (2015), and The Irishman (2019). She played the lead role of Sookie Stackhouse in the HBO vampire drama television series True Blood (2008–2014), for which she won a Golden Globe Award for Best Actress in 2009.[8] Among other accolades, Paquin was nominated for a Primetime Emmy Award and a Golden Globe Award for her work in the television film Bury My Heart at Wounded Knee (2007), in addition to a further Golden Globe nomination for her work in the television film The Courageous Heart of Irena Sendler (2009).. Paquin was born on 24 July 1982 in Winnipeg, Manitoba, Canada.[9] Her father, Brian Paquin, is a Canadian retired physical education teacher,[10] and her mother, Mary[11] (née Brophy), is a New Zealand[12][13] teacher of English from Wellington.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[voice]
+Action 2: Lookup[voice]
+Observation 2: Anna Helene Paquin is a New Zealand-Canadian actress. She was born on July 24, 1982, in Winnipeg, Manitoba, Canada. Paquin made her acting debut in the film "The Piano" (1993), for which she won the Academy Award for Best Supporting Actress at the age of 11, making her the second-youngest Oscar winner in history. She is also known for her role as Rogue in the "X-Men" film series and as Sookie.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Anna Paquin]
+Action 3: Finish[Anna Paquin]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Anna Paquin]
+Action 3: Finish[Anna Paquin]
+Observation 3: Anna Helene Paquin is a New Zealand-Canadian actress. She was born on July 24, 1982, in Winnipeg, Manitoba, Canada. Paquin made her acting debut in the film "The Piano" (1993), for which she won the Academy Award for Best Supporting Actress at the age of 11, making her the second-youngest Oscar winner in history. She is also known for her role as Rogue in the "X-Men" film series and as Sookie.
+
+
+
+INFO {'steps': 5, 'answer': 'Anna Paquin', 'gt_answer': 'Anna Helene Paquin', 'question_idx': 3828, 'reward': False, 'em': False, 'f1': 0.8}
+
+INFO Sum of rewards: 3 
+Number of steps: 17 
+Average reward: 0.17647058823529413 
+Average time 26.828307418262256
+
+-------------------------------------------------------
+

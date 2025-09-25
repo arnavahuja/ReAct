@@ -1,0 +1,39 @@
+INFO 4023 Question: After Patrick Mercer's suspension in April 2014, who won the seat for Newark?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[2014 Newark by-election]
+Action 1: Search[2014 Newark by-election]
+Observation 1: On 5 June 2014, a by-election was held for the UK parliamentary constituency of Newark,[1][2] following the resignation of  Patrick Mercer.[3] Conservative Robert Jenrick won the seat with a majority of 7,403.. Mercer resigned the Conservative Party whip on 31 May 2013 after an investigation by the BBC's Panorama programme regarding allegations of paid lobbying without registering the interest.[4] He was paid £4,000 for asking questions in Parliament, and the Panorama team considered that he asked five parliamentary questions, but declared only £2,000 of the £4,000.[5] As a consequence, he said at the time that he would not stand in the 2015 general election.[6]. On 29 April, after being told that the Committee on Standards would recommend that he be suspended from the House of Commons for six months, Mercer announced that he would resign his seat: he told journalists on College Green that he was standing down from "God's county of Nottinghamshire".[3][7] Mercer was appointed Steward and Bailiff of the Three Chiltern Hundreds on 30 April 2014, a mechanism by which MPs resign.[8]. The writ was moved on 1 May 2014 for the by-election to be held on 5 June.[1][9]. The nominations closed at 4pm on Tuesday 13 May with 11 candidates being nominated.[10].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Newark by-election 2014]
+Action 1: Search[Newark by-election 2014]
+Observation 1: The 2014 Newark by-election was held on 5 June 2014 in the Newark constituency in Nottinghamshire, England. The by-election was triggered by the resignation of the incumbent Member of Parliament, Patrick Mercer, following a lobbying scandal. The Conservative Party candidate, Robert Jenrick, won the by-election with a majority of over 7,000 votes. The by-election was closely watched as a test of public opinion ahead of the 2015 general election..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[Robert Jenrick]
+Action 2: Finish[Robert Jenrick]
+Observation 2: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Finish[Robert Jenrick]
+Action 2: Finish[Robert Jenrick]
+Observation 2: The 2014 Newark by-election was held on 5 June 2014 in the Newark constituency in Nottinghamshire, England. The by-election was triggered by the resignation of the incumbent Member of Parliament, Patrick Mercer, following a lobbying scandal. The Conservative Party candidate, Robert Jenrick, won the by-election with a majority of over 7,000 votes. The by-election was closely watched as a test of public opinion ahead of the 2015 general election..
+
+
+
+INFO {'steps': 3, 'answer': 'Robert Jenrick', 'gt_answer': 'Robert Jenrick', 'question_idx': 2833, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 11 
+Number of steps: 32 
+Average reward: 0.34375 
+Average time 25.79415000230074
+
+-------------------------------------------------------
+

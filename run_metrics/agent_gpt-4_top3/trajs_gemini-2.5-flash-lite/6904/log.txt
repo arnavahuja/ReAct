@@ -1,0 +1,60 @@
+INFO 6904 Question: Are Willard Mack and Subhash Ghai both involved in film?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to find out if Willard Mack and Subhash Ghai have both been involved in the film industry.
+Action 1: Search[Willard Mack] 
+        Action 1: Search[Willard Mack]
+        Observation 1: Willard Mack (September 18, 1873 – November 18, 1934) was a Canadian-American actor, director, and playwright.. He was born Charles Willard McLaughlin in Morrisburg, Ontario. At an early age his family moved to Brooklyn, New York. After two years, they moved to Cedar Rapids, Iowa, where McLaughlin finished high school. His parents returned to Canada, but he went on to study at Georgetown University in Washington, D."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to search both Willard Mack and Subhash Ghai, and find whether both of them are connected to the film industry.
+Action 1: [Search[Willard Mack], Search[Subhash Ghai], Lookup[Willard Mack]] 
+        Action 1: ['Search[Willard Mack]', 'Search[Subhash Ghai]', 'Lookup[Willard Mack]']
+        Observation 1: Willard Mack (born Willard Mack, 1873 – 1934) was an American playwright, actor, and director. He was a prominent figure in early 20th-century American theater, known for his fast-paced, often melodramatic, and sometimes controversial plays.. **Early Life and Career:**. Mack began his career as an actor, performing in various stage productions. He soon transitioned to writing and directing, finding success with his own plays."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Willard Mack was involved in the film industry as an actor, director, and playwright. The next step is to search for Subhash Ghai and confirm his involvement in film as well.
+Action 2: Search[Subhash Ghai] 
+        Action 2: Search[Subhash Ghai]
+        Observation 2: Subhash Ghai  (born 24 January 1945) is an Indian film director, producer, actor, lyricist, music director and screenwriter, primarily known for his work in Hindi cinema. He was one of the most prominent Hindi filmmakers in the 1980s and 1990s.[2] His notable films include Kalicharan (1976), Vishwanath (1978), Karz (1980), Krodhi (1981), Hero (1983), Vidhaata (1982), Meri Jung (1985), Karma (1986), Ram Lakhan (1989), Saudagar (1991), Khalnayak (1993), Pardes (1997), and Taal (1999).[3]. In 1982, Ghai founded Mukta Arts,[4] which became a public company in 2000, with Ghai serving as its executive chairman. In 2006, he received the National Film Award for Best Film on Other Social Issues for producing Iqbal, a film addressing social issues. That same year, he established Whistling Woods International, a film and media institution in Mumbai.[5] In 2015, Ghai was honoured with the IIFA Award for Outstanding Contribution to Indian Cinema.[6] His films are noted for their iconic characters, grand sets, dramatic climaxes, and themes of divine justice and duty.."
+
+SIMULATION TRAJECTORY:
+ Thought 2: Willard Mack was indeed involved in film as an actor, playwright, and director. For the next action, I should search for Subhash Ghai to determine his involvement in the film industry.
+Action 2: Search[Subhash Ghai], Lookup[Subhash Ghai], Search[Subhash Ghai film career] 
+        Action 2: ['Search[Subhash Ghai]', 'Search[Subhash Ghai film career]', 'Lookup[Subhash Ghai]']
+        Observation 2: Subhash Ghai is an Indian film director, producer, and screenwriter, widely recognized for his contributions to Hindi cinema. He is often referred to as the "Showman of Indian Cinema" due to his flair for creating grand, musical, and entertaining films.. **Early Life and Background:**. Subhash Ghai was born on January 24, 1945, in Nagpur, Maharashtra, India. He initially pursued a degree in commerce before moving to Pune to study at the."
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Subhash Ghai was involved in the film industry as a director, producer, actor, lyricist, music director, and screenwriter. So both Willard Mack and Subhash Ghai have been involved in film.
+Action 3: Finish[yes] 
+        Action 3: Finish[yes]
+        Observation 3: Episode finished, reward = 1
+"
+
+SIMULATION TRAJECTORY:
+ Thought 3: Subhash Ghai has made significant contributions to Hindi cinema as a director, producer, and screenwriter. This confirms that both Willard Mack and Subhash Ghai are involved in the film industry.
+Action 3: [Finish[yes], Finish[yes], Finish[yes]] 
+        Action 3: ['Finish[yes]', 'Finish[yes]', 'Finish[yes]']
+        Observation 3: Subhash Ghai is an Indian film director, producer, and screenwriter, widely recognized for his contributions to Hindi cinema. He is often referred to as the "Showman of Indian Cinema" due to his flair for creating grand, musical, and entertaining films.. **Early Life and Background:**. Subhash Ghai was born on January 24, 1945, in Nagpur, Maharashtra, India. He initially pursued a degree in commerce before moving to Pune to study at the."
+
+
+
+INFO {'steps': 5, 'answer': 'yes', 'gt_answer': 'yes', 'question_idx': 1997, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 2 
+Number of steps: 4 
+Average reward: 0.5 
+Average time 30.325386941432953
+
+--------------------------------------------------
+

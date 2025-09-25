@@ -1,0 +1,90 @@
+INFO 5619 Question: The Gap band was from what neighbor hood that was known as the black wall street?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[The Gap Band]
+Action 1: Search[The Gap Band]
+Observation 1: The Gap Band was an American R&B and funk band that rose to fame during the 1970s and 1980s. The band consisted of three brothers: Charlie, Ronnie, and Robert Wilson, along with other members; it was named after streets (Greenwood, Archer, and Pine)[1][2] in the historic Greenwood neighborhood in the brothers' hometown of Tulsa, Oklahoma.[3]. The band formed in Tulsa in 1967, based around the three Wilson brothers, but often included other musicians as well. The name "Greenwood, Archer, and Pine Band" originally started as a joke, reflecting the band's origins, and was shortened to GAP Band later.[4]   The band received its first big break by being the back up band for fellow Oklahoman Leon Russell's Stop All That Jazz album released in 1974.[5][6]. Early on, the group took on a funk sound typical of the early 1970s.[7] This style failed to catch on, and their first two LP's, 1974's Magicians Holiday which was recorded at Leon Russell's historic The Church Studio and 1977's The Gap Band (not to be confused with their 1979 album), failed to chart or produce any charting singles.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[The Gap Band]
+Action 1: Search[The Gap Band]
+Observation 1: The Gap Band was an American R&B and funk band that originated in Tulsa, Oklahoma. The group was formed in 1967 by three brothers: Charlie, Ronnie, and Robert Wilson. The name "The Gap Band" is derived from the "Greenwood, Archer, and Pine" neighborhoods in Tulsa, which were collectively known as "The Gap" due to their proximity and significance in the city's history.. Throughout their career, The Gap Band was known for their distinctive blend of funk, soul,.
+
+
+
+STEP: 2
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 2: None
+Action 2: Lookup[Black Wall Street]
+Observation 2: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[black wall street]
+Action 2: Lookup[black wall street]
+Observation 2: The Gap Band was an American R&B and funk band that originated in Tulsa, Oklahoma. The group was formed in 1967 by three brothers: Charlie, Ronnie, and Robert Wilson. The name "The Gap Band" is derived from the "Greenwood, Archer, and Pine" neighborhoods in Tulsa, which were collectively known as "The Gap" due to their proximity and significance in the city's history.. Throughout their career, The Gap Band was known for their distinctive blend of funk, soul,.
+
+
+
+STEP: 3
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 3: None
+Action 3: Search[Black Wall Street]
+Observation 3: Could not find [Black Wall Street]. Similar: ['Black Wall Street', 'The Game (rapper) (redirect from Black Wall Street Records)', 'Tulsa race massacre (redirect from Bombing of Black Wall Street)', 'Wall Street crash of 1929', 'Greenwood District, Tulsa (redirect from Black Wall Street Greenwood Tulsa Oklahoma)'].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Black Wall Street]
+Action 3: Search[Black Wall Street]
+Observation 3: Black Wall Street refers to the historic African American community in the Greenwood District of Tulsa, Oklahoma, which was known for its prosperous Black-owned businesses and vibrant economic activity during the early 20th century. The area earned the nickname "Black Wall Street" due to its wealth and economic independence.. The Greenwood District became a thriving commercial and residential hub for African Americans, featuring numerous businesses including banks, hotels, restaurants, theaters, and retail stores, many of which were owned and operated by Black entrepreneurs. This.
+
+
+
+STEP: 4
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 4: None
+Action 4: Search[Greenwood District, Tulsa]
+Observation 4: Greenwood is a historic freedom colony in Tulsa, Oklahoma. As one of the most prominent concentrations of African-American businesses in the United States during the early 20th century, it was popularly known as America's "Black Wall Street". It was burned to the ground in the Tulsa race massacre of 1921, in which a local white mob gathered and attacked the area. Between 75 and 300 Black Americans were killed, hundreds more were injured, and the homes of 5,000 were destroyed, leaving them homeless. The massacre was one of the largest in the history of U.S.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[Greenwood District of Tulsa, Oklahoma]
+Action 4: Finish[Greenwood District of Tulsa, Oklahoma]
+Observation 4: Greenwood District, Tulsa, also known as "Black Wall Street," was a historically significant neighborhood in Tulsa, Oklahoma, renowned for its prosperous African American community during the early 20th century. Established in the early 1900s, Greenwood became a vibrant center of commerce, culture, and social life, featuring numerous businesses, churches, schools, and entertainment venues operated primarily by African Americans.. The district's economic success was driven by a thriving business community, including hotels, restaurants, theaters, and.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Finish[Greenwood]
+Action 5: Finish[Greenwood]
+Observation 5: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Finish[Greenwood]
+Action 5: Finish[Greenwood]
+Observation 5: Greenwood District, Tulsa, also known as "Black Wall Street," was a historically significant neighborhood in Tulsa, Oklahoma, renowned for its prosperous African American community during the early 20th century. Established in the early 1900s, Greenwood became a vibrant center of commerce, culture, and social life, featuring numerous businesses, churches, schools, and entertainment venues operated primarily by African Americans.. The district's economic success was driven by a thriving business community, including hotels, restaurants, theaters, and.
+
+
+
+INFO {'steps': 9, 'answer': 'Greenwood', 'gt_answer': 'Greenwood neighborhood in their hometown of Tulsa, Oklahoma', 'question_idx': 3647, 'reward': False, 'em': False, 'f1': 0.2222222222222222}
+
+INFO Sum of rewards: 0 
+Number of steps: 2 
+Average reward: 0.0 
+Average time 23.828417539596558
+
+-------------------------------------------------------
+

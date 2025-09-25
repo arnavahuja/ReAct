@@ -1,0 +1,53 @@
+INFO 3631 Question: What South Korean actor was a member of the pop duo TVXQ and stared in Heading to the Ground, a 2009 MBC television series?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Heading to the Ground]
+Action 1: Search[Heading to the Ground]
+Observation 1: Heading to the Ground (Korean: 맨땅에 헤딩; RR: Maenttange heding), also known as No Limit is a 2009 South Korean television series starring Jung Yun-ho, Go Ara, Lee Yoon-ji, and Lee Sang-yoon. It aired on MBC on Wednesdays to Thursdays at 21:55 for 16 episodes beginning September 9, 2009.[1]. The drama about a man trying to achieve what is thought to be impossible: fulfilling his dreams of being a great soccer player. He meets Kang Hae Bin, a sports agent who tries to live her life away from the influence of her rich father.. This article related to South Korean television is a stub.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Heading to the Ground]
+Action 1: Search[Heading to the Ground]
+Observation 1: {{Infobox television. | show_name = Heading to the Ground. | image = Heading to the Ground.jpg. | caption = Promotional poster. | genre = Sports, Romance, Comedy.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Jung Yun-ho]
+Action 2: Search[Jung Yun-ho]
+Observation 2: Jung Yunho[1][2] (Korean: 정윤호; born February 6, 1986), better known by his stage name U-Know Yunho (유노윤호) or simply U-Know, is a South Korean singer-songwriter, actor, and a member of the pop duo TVXQ. Born and raised in Gwangju, South Korea, Yunho started his musical training under the talent agency SM Entertainment in 2001 and joined TVXQ in 2003 as the band's leader.[3] Fluent in Korean and Japanese, Yunho has released chart-topping albums throughout Asia as a member of TVXQ. He has made occasional acting appearances in television dramas.[4]. Yunho was born and raised in Gwangju, South Korea. He has one younger sister.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[actor]
+Action 2: Lookup[actor]
+Observation 2: **Jung Yun-ho** (Korean: 정윤호; born February 6, 1986), also known by his stage name **U-Know Yunho** (유노윤호), is a South Korean singer, actor, and dancer. He is best known as the leader and main dancer of the boy group TVXQ.. **Early Life and Career Beginnings:**. Jung Yun-ho was born in Gwangju, South Korea. From a young age.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Jung Yun-ho]
+Action 3: Finish[Jung Yun-ho]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Jung Yun-ho]
+Action 3: Finish[Jung Yun-ho]
+Observation 3: **Jung Yun-ho** (Korean: 정윤호; born February 6, 1986), also known by his stage name **U-Know Yunho** (유노윤호), is a South Korean singer, actor, and dancer. He is best known as the leader and main dancer of the boy group TVXQ.. **Early Life and Career Beginnings:**. Jung Yun-ho was born in Gwangju, South Korea. From a young age.
+
+
+
+INFO {'steps': 5, 'answer': 'Jung Yun-ho', 'gt_answer': 'Jung Yun-ho', 'question_idx': 372, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 1 
+Number of steps: 1 
+Average reward: 1.0 
+Average time 15.78148603439331
+
+-------------------------------------------------------
+

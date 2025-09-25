@@ -1,0 +1,56 @@
+INFO 2817 Question: ICI House is now named after the company that provides what type of item?
+
+STEP: 1
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[ICI House]
+Action 1: Search[ICI House]
+Observation 1: 1 Nicholson St. (formerly ICI House) is a 19-storey office building in Nicholson Street, East Melbourne, Victoria, Australia.[1] Begun in 1955 to house the headquarters of the Australian subsidiary of Imperial Chemical Industries (since spun off as an independent public company and renamed Orica), it was the tallest building in Australia upon completion in 1958.[2] It broke Melbourne's longstanding 132 ft height limit and was the first International Style skyscraper in the country.[3] It symbolised progress, modernity, efficiency and corporate power in postwar Melbourne, and heralded the construction of the high-rise office buildings, changing the shape of Australia's major urban centres forever.. The building's design, by Osborn McCutcheon (of Bates Smart McCutcheon) was closely modelled on the best of corporate design being pioneered in the United States with all-glass high-rises such as the United Nations Secretariat Building. Detail and documentation of the building's design was managed by Douglas Gardiner who was a partner of BSM.[4][5]. The building made headlines soon after construction as panes of the coloured glass shattered and fell to the street below due to impurities and the heat of Melbourne's summers.[6].
+
+SIMULATION TRAJECTORY:
+ Thought 1: None
+Action 1: Search[ICI House]
+Observation 1: ICI House is a historic building located in Melbourne, Australia. It was completed in 1958 and was designed by the architectural firm Bates, Smart & McCutcheon. The building is considered a prime example of modernist architecture in Australia and is listed on the Victorian Heritage Register. ICI House was the headquarters of the Australian branch of the Imperial Chemical Industries (ICI) until the company's operations were sold in the 1990s. The building features a distinctive blue glass curtain wall facade and is.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Orica]
+Action 2: Search[Orica]
+Observation 2: Orica Limited (ASX: ORI) is an Australian-based multinational corporation that is one of the world's largest providers of commercial explosives and blasting systems to the mining, quarrying, oil and gas, and construction markets, a supplier of sodium cyanide for gold extraction, and a specialist provider of ground support services in mining and tunnelling.. Orica has a workforce of around 15,000 employees and contractors, servicing customers across more than 100 countries. Orica is listed on the Australian Securities Exchange. It has in recent years been subject to a number of high-profile industrial accidents and fatalities.. Founded in 1874 as Jones, Scott and Co, a supplier of explosives during the Victorian gold rush, the company was bought by Nobel Industries.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[named after]
+Action 2: Lookup[named after]
+Observation 2: Orica Limited is an Australian multinational corporation that provides commercial explosives and blasting systems to the mining, quarrying, oil and gas, and construction industries. The company was founded in 1874 and is headquartered in Melbourne, Australia. Orica operates in more than 50 countries and has a workforce of over 11,500 employees.. Orica's products and services include explosives, initiating systems, and blasting services, as well as mining chemicals and equipment. The company also offers technical support and consulting services.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[explosives]
+Action 3: Finish[explosives]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[commercial explosives and blasting systems]
+Action 3: Finish[commercial explosives and blasting systems]
+Observation 3: Orica Limited is an Australian multinational corporation that provides commercial explosives and blasting systems to the mining, quarrying, oil and gas, and construction industries. The company was founded in 1874 and is headquartered in Melbourne, Australia. Orica operates in more than 50 countries and has a workforce of over 11,500 employees.. Orica's products and services include explosives, initiating systems, and blasting services, as well as mining chemicals and equipment. The company also offers technical support and consulting services.
+
+
+
+INFO {'steps': 5, 'answer': 'explosives', 'gt_answer': 'explosives', 'question_idx': 1553, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 3 
+Number of steps: 15 
+Average reward: 0.2 
+Average time 25.889519945780435
+
+-------------------------------------------------------
+

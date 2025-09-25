@@ -1,0 +1,67 @@
+INFO 6950 Question: Which How to Steal a Million actor attended the Royal Academy of Dramatic Art?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[How to Steal a Million]
+Action 1: Search[How to Steal a Million]
+Observation 1: How to Steal a Million is a 1966 American heist comedy film directed by William Wyler and starring Audrey Hepburn, Peter O'Toole, Eli Wallach, Hugh Griffith, and Charles Boyer. The film is set and was filmed in Paris, though the characters speak entirely in English. Hepburn's clothes were designed by Givenchy.. Prominent Paris art collector Charles Bonnet forges and sells famous artists' paintings. His disapproving daughter, Nicole, constantly fears his being caught.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[How to Steal a Million]
+Action 1: Search[How to Steal a Million]
+Observation 1: {{short description|1966 American heist comedy film}}. {{More citations needed|date=February 2023}}. {{Use mdy dates|date=February 2023}}. {{Infobox film. | name = How to Steal a Million.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Audrey Hepburn]
+Action 2: Search[Audrey Hepburn]
+Observation 2: Audrey Kathleen Hepburn (née Ruston; 4 May 1929 – 20 January 1993) was a British[a] actress. Recognised as a film and fashion icon, she was ranked by the American Film Institute as the third-greatest female screen legend from the Classical Hollywood cinema, inducted into the International Best Dressed Hall of Fame List, and is one of a few entertainers who have won competitive Academy, Emmy, Grammy and Tony Awards.. Born into an aristocratic family in Ixelles, Brussels, Hepburn spent parts of her childhood in Belgium, the United Kingdom and the Netherlands. She attended boarding school in Kent from 1936 to 1939. Hepburn returned to the Netherlands with the Second World War's outbreak.[3] She studied ballet at the Arnhem Conservatory during the war.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[How to Steal a Million cast]
+Action 2: Search[How to Steal a Million cast]
+Observation 2: **Audrey Hepburn**. **Born:** Audrey Kathleen Ruston. May 4, 1929. Ixelles, Brussels, Belgium. **Died:** January 20, 1993 (aged 63).
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Peter O'Toole]
+Action 3: Search[Peter O'Toole]
+Observation 3: Peter Seamus O'Toole (/oʊˈtuːl/; 2 August 1932 – 14 December 2013) was an English actor known for his leading roles on stage and screen. His numerous accolades include the Academy Honorary Award, a BAFTA Award, a Primetime Emmy Award, and four Golden Globe Awards as well as nominations for a Grammy Award and a Laurence Olivier Award.. O'Toole started his training at the Royal Academy of Dramatic Art (RADA) in London and began working in the theatre, gaining recognition as a Shakespearean actor at the Bristol Old Vic and with the English Stage Company. In 1959, he made his West End debut in The Long and the Short and the Tall, and played the title role in Hamlet in the National Theatre's first production in 1963. Excelling on stage, O'Toole was known for his "hellraiser" lifestyle off-stage.[2] He received a nomination for the Laurence Olivier Award for Best Comedy Performance for his portrayal of Jeffrey Bernard in the play Jeffrey Bernard Is Unwell (1990)..
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[Royal Academy of Dramatic Art]
+Action 3: Lookup[Royal Academy of Dramatic Art]
+Observation 3: **Peter Seamus O'Toole** (2 August 1932 – 14 December 2013) was a British actor of Irish descent. He achieved international recognition for his portrayal of T. E. Lawrence in the 1962 epic film *Lawrence of Arabia*, for which he received his first Academy Award nomination. O'Toole went on to receive a total of eight Academy Award nominations for Best Actor, making him the most nominated actor in that.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[Peter O'Toole]
+Action 4: Finish[Peter O'Toole]
+Observation 4: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[Royal Academy of Dramatic Art]
+Action 4: Lookup[Royal Academy of Dramatic Art]
+Observation 4: **Peter Seamus O'Toole** (2 August 1932 – 14 December 2013) was a British actor of Irish descent. He achieved international recognition for his portrayal of T. E. Lawrence in the 1962 epic film *Lawrence of Arabia*, for which he received his first Academy Award nomination. O'Toole went on to receive a total of eight Academy Award nominations for Best Actor, making him the most nominated actor in that.
+
+
+
+INFO {'steps': 7, 'answer': "Peter O'Toole", 'gt_answer': "Peter O'Toole", 'question_idx': 4168, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 7 
+Number of steps: 13 
+Average reward: 0.5384615384615384 
+Average time 21.245228712375347
+
+-------------------------------------------------------
+

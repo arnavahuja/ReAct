@@ -1,0 +1,67 @@
+INFO 2359 Question: The Bee Cliff in northeast Tennessee overlooks a river that is how many miles long?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Bee Cliff]
+Action 1: Search[Bee Cliff]
+Observation 1: Could not find Bee Cliff. Similar: ['Bee Cliff (Tennessee)', 'Mad honey', 'Apis laboriosa (redirect from Himalayan cliff honey bee)', 'Bee (disambiguation)', 'Honey bee'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Bee Cliff]
+Action 1: Search[Bee Cliff]
+Observation 1: **Bee Cliff**. Bee Cliff is a prominent natural rock formation located in the [Specific geographical region, e.g., Ozark Mountains of Arkansas, or a more general region if exact location is unknown]. It is characterized by its sheer, vertical rock face, often composed of [Type of rock, e.g., sandstone, limestone, granite]. The name "Bee Cliff" is widely believed to derive from the historical presence of numerous wild bee colonies that would nest in the crevices and overhangs.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Bee Cliff (Tennessee)]
+Action 2: Search[Bee Cliff (Tennessee)]
+Observation 2: The Bee Cliff is a prominent northeast Tennessee geological limestone feature with high caves that overlooks the Watauga River and the Siam community of Carter County, Tennessee.. Bee Cliff is located in northeastern Tennessee at 36°21′07″N 82°08′11″W﻿ / ﻿36.35194°N 82.13639°W﻿ / 36.35194; -82.13639 36.351944° North, -82.136389° West.. The lower face of the Bee Cliff is across and immediately above the Watauga River from Wilbur Dam Road.. The summit of the Bee Cliff is located off Blue Springs Road across the Watauga River from the Wilbur Dam Road.. The elevation at the Bee Cliff summit is 1,968 feet (600 m)..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Bee Cliff Tennessee]
+Action 2: Search[Bee Cliff Tennessee]
+Observation 2: **Bee Cliff** is a prominent geological feature located in **Fentress County, Tennessee, United States**. It is a significant landmark within the **Big South Fork National River and Recreation Area**, a protected area managed by the National Park Service.. **Geography and Geology:**. Bee Cliff is characterized by its towering sandstone bluffs, which rise dramatically above the **Clear Fork River**. These cliffs are part of the **Cumberland Plateau**, a physiographic province known for its rugged terrain, deep gorges.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Watauga River]
+Action 3: Search[Watauga River]
+Observation 3: The Watauga River (/wəˈtɔːɡə/)[4] is a large stream of western North Carolina and East Tennessee. It is 78.5 miles (126.3 km) long with its headwaters in Linville Gap to the South Fork Holston River at Boone Lake.. The Watauga River rises from a spring located south to the base of Peak Mountain at Linville Gap in Avery County, North Carolina. The spring emanates from the western side of the Tennessee Valley Divide, which is, at this location, congruent with the Eastern Continental Divide. On the other side of the divide at Linville Gap are the headwaters of the Linville River in the Upper Catawba watershed.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Clear Fork River]
+Action 3: Search[Clear Fork River]
+Observation 3: The **Watauga River** is a tributary of the South Fork Holston River. It is approximately 78.5 miles (126.3 km) long and flows through the mountains of western North Carolina and eastern Tennessee in the United States.. **Course:**. The Watauga River originates in the Appalachian Mountains of western North Carolina, specifically in the Grandfather Mountain area of Watauga County. Its headwaters are formed by numerous small streams and springs.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[78.5 miles]
+Action 4: Finish[78.5 miles]
+Observation 4: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[78.5 miles]
+Action 4: Finish[78.5 miles]
+Observation 4: The **Watauga River** is a tributary of the South Fork Holston River. It is approximately 78.5 miles (126.3 km) long and flows through the mountains of western North Carolina and eastern Tennessee in the United States.. **Course:**. The Watauga River originates in the Appalachian Mountains of western North Carolina, specifically in the Grandfather Mountain area of Watauga County. Its headwaters are formed by numerous small streams and springs.
+
+
+
+INFO {'steps': 7, 'answer': '78.5 miles', 'gt_answer': '78.5 mi long', 'question_idx': 5806, 'reward': False, 'em': False, 'f1': 0.4}
+
+INFO Sum of rewards: 7 
+Number of steps: 24 
+Average reward: 0.2916666666666667 
+Average time 13.388829072316488
+
+-------------------------------------------------------
+

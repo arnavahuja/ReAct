@@ -1,0 +1,118 @@
+INFO 373 Question: Who has won more olympic medals: Angelique Kerber or Amélie Mauresmo?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Angelique Kerber]
+Action 1: Search[Angelique Kerber]
+Observation 1: Angelique Kerber (German: [ʔan.d͡ʒɛˈliːk ˈkɛɐ̯bɐ] ⓘ; born 18 January 1988) is a German former professional tennis player. She was ranked as the world No. 1 in women's singles by the Women's Tennis Association (WTA) for 34 weeks, including as the year-end No. 1 in 2016. Kerber won 14 WTA Tour-level singles titles, including three majors at the 2016 Australian Open, the 2016 US Open, and the 2018 Wimbledon Championships.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Angelique Kerber]
+Action 1: Search[Angelique Kerber]
+Observation 1: Angelique Kerber is a German professional tennis player. She was born on January 18, 1988, in Bremen, Germany. Kerber turned professional in 2003 and has since achieved great success in her career. She has won multiple Grand Slam titles, including the Australian Open in 2016, the US Open in 2016, and Wimbledon in 2018. Kerber has also been ranked world No.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Lookup[Olympic]
+Action 2: Lookup[Olympic]
+Observation 2: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[Olympic medals]
+Action 2: Lookup[Olympic medals]
+Observation 2: Angelique Kerber is a German professional tennis player. She was born on January 18, 1988, in Bremen, Germany. Kerber turned professional in 2003 and has since achieved great success in her career. She has won multiple Grand Slam titles, including the Australian Open in 2016, the US Open in 2016, and Wimbledon in 2018. Kerber has also been ranked world No.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Angelique Kerber Olympic medals]
+Action 3: Search[Angelique Kerber Olympic medals]
+Observation 3: Could not find Angelique Kerber Olympic medals. Similar: ['Angelique Kerber', "Tennis at the 2024 Summer Olympics – Women's singles", "Tennis at the 2016 Summer Olympics – Women's singles", 'Tennis at the 2024 Summer Olympics', 'Angelique Kerber career statistics'].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[medals]
+Action 3: Lookup[medals]
+Observation 3: Angelique Kerber is a German professional tennis player who has competed in the Olympic Games. She won a silver medal in women's singles at the 2016 Rio Olympics, where she was defeated by Monica Puig of Puerto Rico in the final. Kerber also competed in the 2020 Tokyo Olympics, where she reached the quarterfinals in women's singles before being eliminated by Elena Rybakina of Kazakhstan..
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Tennis at the 2016 Summer Olympics – Women's singles]
+Action 4: Search[Tennis at the 2016 Summer Olympics – Women's singles]
+Observation 4: Puerto Rico's Monica Puig defeated Germany's Angelique Kerber in the final, 6–4, 4–6, 6–1 to win the gold medal in women's singles tennis at the 2016 Summer Olympics.[1] It was Puerto Rico's first Olympic gold medal, and Puig became the first unseeded female player to win the Olympic tennis gold medal. In the bronze medal match, the Czech Republic's Petra Kvitová defeated the United States' Madison Keys 7–5, 2–6, 6–2. It was Germany's first medal in women's singles since 1992 and the Czech Republic's first since 1996.. The tournament was held from 6 to 13 August 2016 at the Olympic Tennis Centre in the Barra Olympic Park in Barra da Tijuca in the west zone of Rio de Janeiro. There were 64 competitors from 36 nations.[2].
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[Amélie Mauresmo]
+Action 4: Search[Amélie Mauresmo]
+Observation 4: The women's singles tennis event at the 2016 Summer Olympics was held at the Olympic Tennis Centre in Rio de Janeiro, Brazil from August 6 to August 13, 2016. The tournament was played on outdoor hard courts.. In the gold medal match, Monica Puig of Puerto Rico defeated Angelique Kerber of Germany to win the first-ever Olympic gold medal for Puerto Rico in any sport. The bronze medal was won by Petra Kvitová of the Czech Republic.. The event.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[Amélie Mauresmo]
+Action 5: Search[Amélie Mauresmo]
+Observation 5: Wimbledon (Bartoli). 2x ATP World Tour Masters 1000 (Murray). Amélie Simone Mauresmo (French pronunciation: [ameli simɔn moʁɛsmo]; born 5 July 1979) is a French former professional tennis player, tennis coach, and tournament director. She was ranked as the world No. 1 in women's singles by the Women's Tennis Association (WTA) for 39 weeks.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Search[Amélie Mauresmo]
+Action 5: Search[Amélie Mauresmo]
+Observation 5: Amélie Mauresmo is a retired French professional tennis player. She was born on July 5, 1979, in Saint-Germain-en-Laye, France. Mauresmo achieved the world No. 1 ranking in singles in September 2004, becoming the first French player to reach the top spot since the computer rankings were introduced in 1975. She won two Grand Slam singles titles, the Australian Open and Wimbledon, both in 2006.
+
+
+
+STEP: 6
+
+ERROR Action not found in None 
+Retrying to get action...
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 6: None
+Action 6: Lookup[Olympic]
+Observation 6: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 6: None
+Action 6: Lookup[Olympic]
+Observation 6: Amélie Mauresmo is a retired French professional tennis player. She was born on July 5, 1979, in Saint-Germain-en-Laye, France. Mauresmo achieved the world No. 1 ranking in singles in September 2004, becoming the first French player to reach the top spot since the computer rankings were introduced in 1975. She won two Grand Slam singles titles, the Australian Open and Wimbledon, both in 2006.
+
+
+
+STEP: 7
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 7: None
+Action 7: Search[Amélie Mauresmo Olympic medals]
+Observation 7: Could not find Amélie Mauresmo Olympic medals. Similar: ['Amélie Mauresmo', 'Tennis at the 2024 Summer Olympics', 'Amélie Mauresmo career statistics', "Tennis at the 2004 Summer Olympics – Women's singles", 'List of Olympic medalists in tennis'].
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Search[Amélie Mauresmo Olympic medals]
+Action 7: Search[Amélie Mauresmo Olympic medals]
+Observation 7: Amélie Mauresmo, a retired French professional tennis player, has won two Olympic medals during her career. She won a silver medal in women's singles at the 2004 Athens Olympics, and a silver medal in women's doubles at the 2004 Athens Olympics partnering with Mary Pierce. Mauresmo is known for her successful tennis career, which includes winning two Grand Slam singles titles and reaching the world No. 1 ranking in 2004..
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'Amélie Simone Mauresmo', 'question_idx': 1755, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 0 
+Number of steps: 1 
+Average reward: 0.0 
+Average time 22.31552481651306
+
+-------------------------------------------------------
+

@@ -1,0 +1,109 @@
+INFO 6562 Question: The W. H. Shipman House is in what Hawaii county?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[W. H. Shipman House]
+Action 1: Search[W. H. Shipman House]
+Observation 1: W. H. Shipman House is a historic home used by William Herbert Shipman. It is located at 141 Kaʻiulani Street, named for Princess Kaʻiulani, the last crown princess of the Kingdom and Liliʻuokalani's niece.. In 1856 King Kamehameha IV leased an area known as Kolo iki to William Reed for cattle pasture.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[W. H. Shipman House]
+Action 1: Search[W. H. Shipman House]
+Observation 1: The W. H. Shipman House is a historic home located in Hilo, Hawaii. It was built in 1899 for William Herbert Shipman, a prominent businessman and landowner in the area. The house is a fine example of Colonial Revival architecture and is listed on the National Register of Historic Places..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Kaʻiulani Street]
+Action 2: Search[Kaʻiulani Street]
+Observation 2: Could not find Kaʻiulani Street. Similar: ['Kaʻiulani', 'W. H. Shipman House', 'ʻĀinahau', "Q'orianka Kilcher (category American street performers)", 'Likelike'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Hilo, Hawaii]
+Action 2: Search[Hilo, Hawaii]
+Observation 2: Kaʻiulani Street is a street located in the neighborhood of Waikiki in Honolulu, Hawaii. It is named after Princess Victoria Kaʻiulani, who was the heir to the throne of the Kingdom of Hawaii. The street runs parallel to Kalākaua Avenue and is known for its shops, restaurants, and hotels catering to tourists visiting Waikiki. Kaʻiulani Street is a popular destination for both locals and visitors looking to experience the vibrant.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: The initial search for "W. H. Shipman House" provided an address: "141 Kaʻiulani Street". I need to find what county this street or the W. H. Shipman House itself is located in. I will look up "Hawaii county" to see if there's any mention of location for the house.
+Action 3: Lookup[Hawaii county]
+Observation 3: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[county]
+Action 3: Lookup[county]
+Observation 3: Kaʻiulani Street is a street located in the neighborhood of Waikiki in Honolulu, Hawaii. It is named after Princess Victoria Kaʻiulani, who was the heir to the throne of the Kingdom of Hawaii. The street runs parallel to Kalākaua Avenue and is known for its shops, restaurants, and hotels catering to tourists visiting Waikiki. Kaʻiulani Street is a popular destination for both locals and visitors looking to experience the vibrant.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Princess Kaʻiulani]
+Action 4: Search[Princess Kaʻiulani]
+Observation 4: Princess Kaʻiulani (Hawaiian pronunciation: [kəʔiu'lɐni]; Victoria Kawēkiu Kaʻiulani Lunalilo Kalaninuiahilapalapa Cleghorn; October 16, 1875 – March 6, 1899) was a Hawaiian royal, the only child of Princess Miriam Likelike, and the last heir apparent to the throne of the Hawaiian Kingdom. She was the niece of King Kalākaua and Queen Liliʻuokalani. After the death of her mother, Kaʻiulani was sent to Europe at age 13 to complete her education under the guardianship of British businessman and Hawaiian sugar investor Theo H. Davies. She had not yet reached her eighteenth birthday when the 1893 overthrow of the Hawaiian Kingdom altered her life.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[W. H. Shipman House]
+Action 4: Search[W. H. Shipman House]
+Observation 4: Victoria Kaʻiulani Kalaninuiahilapalapa Kawekiu i Lunalilo Cleghorn (October 16, 1875 – March 6, 1899) was a Hawaiian princess and heir to the throne of the Kingdom of Hawaii. She was born in Honolulu, Hawaii, and was the only child of Princess Miriam Likelike and Archibald Scott Cleghorn, a Scottish businessman.. Princess Kaʻiulani was.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[W. H. Shipman House]
+Action 5: Search[W. H. Shipman House]
+Observation 5: W. H. Shipman House is a historic home used by William Herbert Shipman. It is located at 141 Kaʻiulani Street, named for Princess Kaʻiulani, the last crown princess of the Kingdom and Liliʻuokalani's niece.. In 1856 King Kamehameha IV leased an area known as Kolo iki to William Reed for cattle pasture.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Search[141 Kaʻiulani Street]
+Action 5: Search[141 Kaʻiulani Street]
+Observation 5: The W. H. Shipman House is a historic building located in Hilo, Hawaii. It was built in 1904 for William Herbert Shipman, a prominent businessman and landowner in Hawaii. The house is a fine example of Colonial Revival architecture, featuring a large veranda, intricate woodwork, and a distinctive hipped roof..
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Search[W. H. Shipman House Hawaii county]
+Action 6: Search[W. H. Shipman House Hawaii county]
+Observation 6: Could not find W. H. Shipman House Hawaii county. Similar: ['W. H. Shipman House', 'Shipman House', 'Hawaiʻi County, Hawaii', 'Puna, Hawaii', 'Shipman'].
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Search[Hilo, Hawaii]
+Action 6: Search[Hilo, Hawaii]
+Observation 6: The W. H. Shipman House is a historic building located in Hawaii County, Hawaii. It was built in the early 1900s and is a fine example of Colonial Revival architecture. The house is named after William Herbert Shipman, a prominent businessman and landowner in Hawaii during the early 20th century.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Search[W. H. Shipman House]
+Action 7: Search[W. H. Shipman House]
+Observation 7: W. H. Shipman House is a historic home used by William Herbert Shipman. It is located at 141 Kaʻiulani Street, named for Princess Kaʻiulani, the last crown princess of the Kingdom and Liliʻuokalani's niece.. In 1856 King Kamehameha IV leased an area known as Kolo iki to William Reed for cattle pasture.
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Finish[Hawaii County]
+Action 7: Finish[Hawaii County]
+Observation 7: The W. H. Shipman House is a historic building located in Hilo, Hawaii. It was built in 1904 for William Herbert Shipman, a prominent businessman and landowner in Hawaii. The house is a fine example of Colonial Revival architecture and is listed on the National Register of Historic Places.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'Hawaii County', 'question_idx': 5542, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 7 
+Number of steps: 22 
+Average reward: 0.3181818181818182 
+Average time 18.291239727627147
+
+-------------------------------------------------------
+

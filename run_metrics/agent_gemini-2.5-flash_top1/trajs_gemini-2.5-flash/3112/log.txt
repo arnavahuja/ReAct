@@ -1,0 +1,53 @@
+INFO 3112 Question: What is the original name of the place where The 1st Minnesota Light Artillery Battery mustered?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[1st Minnesota Light Artillery Battery]
+Action 1: Search[1st Minnesota Light Artillery Battery]
+Observation 1: The 1st Minnesota Light Artillery Battery   was a Minnesota USV artillery battery that served in the Union Army during the American Civil War. The battery was mustered in at Fort Snelling, Minnesota. on  November 21, 1861.. The 1st Minnesota Light Artillery Battery was mustered out at St. Paul, Minnesota, on July 1, 1865..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[1st Minnesota Light Artillery Battery]
+Action 1: Search[1st Minnesota Light Artillery Battery]
+Observation 1: The **1st Minnesota Light Artillery Battery** was a Union Army artillery battery during the American Civil War. It was one of the few artillery units raised by the state of Minnesota and saw extensive service in the Western Theater of the war.. ### Formation and Early Service. The battery was organized at St. Paul, Minnesota, and mustered into federal service on November 21, 1861.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Fort Snelling]
+Action 2: Search[Fort Snelling]
+Observation 2: Fort Snelling is a former military fortification and National Historic Landmark in the U.S. state of Minnesota on the bluffs overlooking the confluence of the Minnesota and Mississippi Rivers. The military site was initially named Fort Saint Anthony, but it was renamed Fort Snelling when its construction was completed in 1825.. Before the American Civil War, the U.S. Army supported slavery at the fort by allowing its soldiers to bring their personal enslaved people.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[St. Paul, Minnesota]
+Action 2: Search[St. Paul, Minnesota]
+Observation 2: **Fort Snelling** is a former military fortification located at the confluence of the Minnesota and Mississippi Rivers in Hennepin County, Minnesota, United States. It is a significant historical site, recognized for its role in early American expansion, Native American relations, and the development of the Upper Midwest.. ### History. **Establishment and Early Years (1819-1858):**. The fort was initially established as **Fort Saint Anthony** in 1819 by Colonel.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Fort Saint Anthony]
+Action 3: Finish[Fort Saint Anthony]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Fort Saint Anthony]
+Action 3: Finish[Fort Saint Anthony]
+Observation 3: **Fort Snelling** is a former military fortification located at the confluence of the Minnesota and Mississippi Rivers in Hennepin County, Minnesota, United States. It is a significant historical site, recognized for its role in early American expansion, Native American relations, and the development of the Upper Midwest.. ### History. **Establishment and Early Years (1819-1858):**. The fort was initially established as **Fort Saint Anthony** in 1819 by Colonel.
+
+
+
+INFO {'steps': 5, 'answer': 'Fort Saint Anthony', 'gt_answer': 'Fort Saint Anthony', 'question_idx': 4627, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 17 
+Number of steps: 31 
+Average reward: 0.5483870967741935 
+Average time 11.586932128475558
+
+-------------------------------------------------------
+

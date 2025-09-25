@@ -1,0 +1,53 @@
+INFO 4184 Question: What is the population of the city where the Akademisches Kunstmuseum is?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Akademisches Kunstmuseum]
+Action 1: Search[Akademisches Kunstmuseum]
+Observation 1: Akademisches Kunstmuseum (Academic Art Museum) is an art museum in Bonn, Germany. It is one of the oldest museums in Bonn and houses the antique collection of the University of Bonn with more than 2,700 plaster casts of antique statues and reliefs, and over 25,000 originals. It is located in a neoclassical building at the southern end of the Hofgarten, near the Electoral Palace. During the renovation of the historic building, the museum can currently be visited at Römerstraße 164 in 53117 Bonn.. The museum was founded in 1818 and has one of the largest collections of plaster casts of ancient Greek and Roman sculptures in the world.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Akademisches Kunstmuseum]
+Action 1: Search[Akademisches Kunstmuseum]
+Observation 1: The Akademisches Kunstmuseum is an art museum located in Bonn, Germany. It is part of the University of Bonn and houses a collection of ancient sculptures, plaster casts, and original works of art. The museum was founded in 1818 and has since grown to become one of the most important academic art collections in Germany. The collection includes works from ancient Greece, Rome, and Egypt, as well as medieval and Renaissance art. The museum is open to the public and also serves.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Bonn]
+Action 2: Search[Bonn]
+Observation 2: Bonn (German pronunciation: [bɔn] ⓘ) is a federal city in the German state of North Rhine-Westphalia, located on the banks of the Rhine. With a population exceeding 300,000, it lies about 24 km (15 mi) south-southeast of Cologne, in the southernmost part of the Rhine-Ruhr region.. Bonn served as the capital of West Germany from 1949 until 1990 and was the seat of government for reunified Germany until 1999, when the government relocated to Berlin. The city holds historical significance as the birthplace of Germany's current constitution, the Basic Law.. Founded in the 1st century BC as a settlement of the Ubii and later part of the Roman province Germania Inferior, Bonn is among Germany's oldest cities.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Bonn]
+Action 2: Search[Bonn]
+Observation 2: Bonn is a city in Germany located on the banks of the Rhine River. It is the former capital of West Germany and the official seat of government until reunification in 1990. With a population of around 330,000 residents, Bonn is known for its picturesque old town, historic buildings, and cultural attractions.. The city has a rich history dating back to Roman times when it was founded as a military settlement. Bonn is also famous for being the birthplace of Ludwig van.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[over 300,000]
+Action 3: Finish[over 300,000]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[around 330,000]
+Action 3: Finish[around 330,000]
+Observation 3: Bonn is a city in Germany located on the banks of the Rhine River. It is the former capital of West Germany and the official seat of government until reunification in 1990. With a population of around 330,000 residents, Bonn is known for its picturesque old town, historic buildings, and cultural attractions.. The city has a rich history dating back to Roman times when it was founded as a military settlement. Bonn is also famous for being the birthplace of Ludwig van.
+
+
+
+INFO {'steps': 5, 'answer': 'over 300,000', 'gt_answer': '300,000', 'question_idx': 6554, 'reward': False, 'em': False, 'f1': 0.6666666666666666}
+
+INFO Sum of rewards: 13 
+Number of steps: 38 
+Average reward: 0.34210526315789475 
+Average time 25.447591712600307
+
+-------------------------------------------------------
+

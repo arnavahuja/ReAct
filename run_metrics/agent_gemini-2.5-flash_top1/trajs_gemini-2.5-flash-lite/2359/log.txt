@@ -1,0 +1,76 @@
+INFO 2359 Question: What other name is the Moor Park Mansion known as?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Moor Park Mansion]
+Action 1: Search[Moor Park Mansion]
+Observation 1: Moor Park is a Neo-Palladian mansion set within several hundred acres of parkland to the south-east of Rickmansworth in Hertfordshire, England. It is called Moor Park Mansion because it is in the old park of the Manor of the More, a 16th-century palace. It now serves as the clubhouse of Moor Park Golf Club.. The house is listed Grade I on the National Heritage List for England, and the landscaped park is listed Grade II* on the Register of Historic Parks and Gardens.[1][2]. The Manor of the More had become a ruin by the early 17th century, and Edward Russell, 3rd Earl of Bedford built the original version of this house as a replacement c.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Moor Park Mansion]
+Action 1: Search[Moor Park Mansion]
+Observation 1: Moor Park Mansion is a historic country house located in Moor Park, Hertfordshire, England. It is one of the largest and most significant stately homes in England, with a rich and varied history spanning several centuries.. **History:**. The earliest known structure on the site was a monastic grange belonging to the Benedictine monastery of St Albans. After the Dissolution of the Monasteries, the estate passed through various hands..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Lookup[another name]
+Action 2: Lookup[another name]
+Observation 2: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[other name]
+Action 2: Lookup[other name]
+Observation 2: Moor Park Mansion is a historic country house located in Moor Park, Hertfordshire, England. It is one of the largest and most significant stately homes in England, with a rich and varied history spanning several centuries.. **History:**. The earliest known structure on the site was a monastic grange belonging to the Benedictine monastery of St Albans. After the Dissolution of the Monasteries, the estate passed through various hands..
+
+
+
+STEP: 3
+
+ERROR Action not found in None 
+Retrying to get action...
+
+STEP: 4
+
+ERROR Action not found in None 
+Retrying to get action...
+
+STEP: 5
+
+ERROR Action not found in None 
+Retrying to get action...
+
+STEP: 6
+
+ERROR Action not found in None 
+Retrying to get action...
+
+STEP: 7
+
+ERROR Action not found in The initial search result for "Moor Park Mansion" did not directly state another name for it, but it did mention "the old park of the Manor of the More" and that the house was built as a replacement for "the Manor of the More". This suggests that "Manor of the More" might be the other name. I will search for "Manor of the More" to confirm if it refers to the same place or is considered another name for it. 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 7: The initial search result for "Moor Park Mansion" did not directly state another name for it, but it did mention "the old park of the Manor of the More" and that the house was built as a replacement for "the Manor of the More". This suggests that "Manor of the More" might be the other name. I will search for "Manor of the More" to confirm if it refers to the same place or is considered another name for it.
+Action 7: Search[Manor of the More]
+Observation 7: 51°38′02″N 0°26′18″W﻿ / ﻿51.634014°N 0.438408°W﻿ / 51.634014; -0.438408. The More (also known as the Manor of the More) was a 16th-century palace in the parish of Rickmansworth, Hertfordshire, England, where Catherine of Aragon lived after the annulment of her marriage to Henry VIII. It had been owned by Cardinal Wolsey. It lay at the northeast corner of the later More Park estate on the edge of the Colne flood plain.[1] The Treaty of the More was celebrated here by Henry VIII and the French ambassadors.[2] In 1527, the French ambassador, Jean du Bellay, thought the house more splendid than Hampton Court.[3] Nothing now remains above ground. The site is a scheduled ancient monument.[4][5].
+
+SIMULATION TRAJECTORY:
+ Thought 7: The previous lookup did not provide an alternative name for Moor Park Mansion. I need to re-examine the initial search result to see if it mentions any other names.
+Action 7: Lookup[known as]
+Observation 7: **Manor of the More**. The Manor of the More, also known as Moor Hall, is a historic country house located in the parish of High Ongar, Essex, England. It is a Grade II listed building, signifying its importance as a heritage asset.. **History:**. The origins of the Manor of the More can be traced back to the medieval period.
+
+
+
+INFO {'steps': 7, 'answer': '', 'gt_answer': 'The More', 'question_idx': 6822, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 8 
+Number of steps: 24 
+Average reward: 0.3333333333333333 
+Average time 10.8106942375501
+
+-------------------------------------------------------
+

@@ -1,0 +1,81 @@
+INFO 2195 Question: When was the English-born South Australian brewer whose brewery was amalgamated with W. K. Simms's West End Brewery. born
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[English-born South Australian brewer W. K. Simms's West End Brewery]
+Action 1: Search[English-born South Australian brewer W. K. Simms's West End Brewery]
+Observation 1: Could not find English-born South Australian brewer W. K. Simms's West End Brewery. Similar: ['W. H. Clark (brewer)', 'Pirie Street Brewery', 'Edgar Chapman (category Australian brewers)', 'Charles Mallen (redirect from Waverley Brewery)'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[West End Brewery amalgamation]
+Action 1: Search[West End Brewery amalgamation]
+Observation 1: **West End Brewery (South Australia)**. The West End Brewery was a prominent brewery in South Australia, founded by English-born brewer William Knox Simms. While the brewery itself is no longer operational under its original name, its legacy is deeply intertwined with the history of brewing in the region.. **Early Life and Arrival in South Australia:**. William Knox Simms was born in England in 1830.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[West End Brewery]
+Action 2: Search[West End Brewery]
+Observation 2: Could not find [West End Brewery]. Similar: ['West End Brewery', 'South Australian Brewing Company (redirect from Southwark Brewery)', 'West End Brewery (Hindley Street)', 'West End Draught', 'List of breweries in Australia'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Finish[1830]
+Action 2: Finish[1830]
+Observation 2: **West End Brewery**. West End Brewery was a prominent Australian brewing company with a rich history, primarily based in South Australia. While the company itself no longer operates as an independent entity, its legacy is deeply intertwined with the state's industrial and cultural heritage.. **History**. The origins of West End Brewery can be traced back to the mid-19th century.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Lookup[West End Brewery]
+Action 3: Lookup[West End Brewery]
+Observation 3: (Result 1 / 3) **West End Brewery**.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[W. K. Simms]
+Action 3: Search[W. K. Simms]
+Observation 3: **West End Brewery**. West End Brewery was a prominent Australian brewing company with a rich history, primarily based in South Australia. While the company itself no longer operates as an independent entity, its legacy is deeply intertwined with the state's industrial and cultural heritage.. **History**. The origins of West End Brewery can be traced back to the mid-19th century.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[W. K. Simms]
+Action 4: Search[W. K. Simms]
+Observation 4: William Knox Simms (1830 – 25 December 1897) was a brewer, businessman and politician in the early days of South Australia.. Simms migrated to South Australia from England, arriving in December 1845.[1]. He formed a partnership with John Hayter and in 1852 purchased the Pirie Street Brewery from its founder James Walsh.. In 1853 Simms & Hayter took over the mail business of John and James Chambers, which proved highly profitable. Hayter left in 1855, then was proved insolvent in 1859.[2].
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[History]
+Action 4: Lookup[History]
+Observation 4: **W. K. Simms**. W. K.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Finish[1830]
+Action 5: Finish[1830]
+Observation 5: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Lookup[birth]
+Action 5: Lookup[birth]
+Observation 5: **W. K. Simms**. W. K.
+
+
+
+INFO {'steps': 9, 'answer': '1830', 'gt_answer': '6 April 1830', 'question_idx': 1154, 'reward': False, 'em': False, 'f1': 0.5}
+
+INFO Sum of rewards: 10 
+Number of steps: 23 
+Average reward: 0.43478260869565216 
+Average time 21.725556643112846
+
+-------------------------------------------------------
+

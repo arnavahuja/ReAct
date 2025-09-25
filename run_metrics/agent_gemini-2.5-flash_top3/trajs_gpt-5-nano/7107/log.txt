@@ -1,0 +1,66 @@
+INFO 7107 Question: The Rhymers' Club met at Ye Olde Cheshire Cheese listed as what type of house?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to search "Rhymers' Club" and "Ye Olde Cheshire Cheese" to see if there's any information about their meeting place.
+Action 1: Search[Rhymers' Club] 
+        Action 1: Search[Rhymers' Club]
+        Observation 1: The Rhymers' Club was a group of London-based male poets, founded in 1890 by W. B. Yeats and Ernest Rhys. Originally not much more than a dining club, it produced anthologies of poetry in 1892 and 1894.[1] They met at the London pub ‘Ye Olde Cheshire Cheese’ in Fleet Street and in the 'Domino Room' of the Café Royal.[2]. Those who took part also included Ernest Dowson, Lionel Johnson, Francis Thompson, Richard Le Gallienne, John Gray, John Davidson, Edwin J."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to search "The Rhymers' Club" and "Ye Olde Cheshire Cheese" to find information about their meeting place. After this, I need to identify what type of house Ye Olde Cheshire Cheese is listed as.
+Action 1: Search[The Rhymers' Club]
+Observation 1: The Rhymers' Club was a London-based group of English poets, founded in 1890 by W. B. Yeats and Ernest Rhys.
+Thought 2: I have found information about The Rhymers' Club. Now I need to find where they met and what type of house it was. I should look up "Ye Olde Cheshire Cheese" in the context of the Rhymers' Club or search for Ye Olde Cheshire Cheese directly.
+Action 2: Search[Ye Olde Cheshire Cheese]
+Observation 2: Ye Olde Cheshire Cheese is a grade II listed public house at 145 Fleet Street, London, with a history dating back to 1538.
+Thought 3: The Rhymers' Club met at Ye Olde Cheshire Cheese, which is listed as a public house.
+Action 3: Finish[public house] 
+        Action 1: ["Search[The Rhymers' Club]", 'Search[Ye Olde Cheshire Cheese]', 'Finish[public house]']
+        Observation 1: "
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The result says the club met at Ye Olde Cheshire Cheese. I need to find what type of house it is. I can search "Ye Olde Cheshire Cheese".
+Action 2: Search[Ye Olde Cheshire Cheese] 
+        Action 2: Search[Ye Olde Cheshire Cheese]
+        Observation 2: Ye Olde Cheshire Cheese is a Grade II listed public house at 145 Fleet Street, on Wine Office Court, City of London.[1] Rebuilt shortly after the Great Fire of 1666, the pub is known for its literary associations, with its regular patrons having included Charles Dickens, G. K. Chesterton and Mark Twain.. The pub is on the Campaign for Real Ale's National Inventory of Historic Pub Interiors.[2]. Ye Olde Cheshire Cheese is one of a number of pubs in London to have been rebuilt shortly after the Great Fire of 1666."
+
+SIMULATION TRAJECTORY:
+ Thought 2: The observation was empty, meaning the search for "Rhymers' Club" did not yield a result. I should try searching for "Ye Olde Cheshire Cheese" instead, or a slightly different search for "Rhymers' Club" to confirm it exists and for more context.
+Action 2: Search[Ye Olde Cheshire Cheese], Search[Rhymers Club], Lookup[Rhymers' Club] 
+        Action 2: ['Search[Ye Olde Cheshire Cheese]', 'Search[Rhymers Club]', "Lookup[Rhymers' Club]"]
+        Observation 2: "
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Ye Olde Cheshire Cheese is listed as a "public house". This means it's a pub.
+Action 3: Finish[public house] 
+        Action 3: Finish[public house]
+        Observation 3: Episode finished, reward = 0
+"
+
+SIMULATION TRAJECTORY:
+ Thought 3: The Observation 2 is empty which means the search didn't provide any direct information about "Ye Olde Cheshire Cheese" being a "type of house". However, the previous observation mentions it's a "London pub". I will look for clarification within information that I already have.
+Action 3: [Lookup['type of house'], Lookup['pub type'], Finish['pub']] 
+        Action 3: ["Lookup['type of house']", "Lookup['pub type']", "Finish['pub']"]
+        Observation 3: "
+
+
+
+INFO {'steps': 5, 'answer': 'public house', 'gt_answer': 'public', 'question_idx': 6354, 'reward': False, 'em': False, 'f1': 0.6666666666666666}
+
+INFO Sum of rewards: 0 
+Number of steps: 1 
+Average reward: 0.0 
+Average time 20.824458122253418
+
+--------------------------------------------------
+

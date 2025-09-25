@@ -1,0 +1,39 @@
+INFO 1267 Question: Who was the woman whose execution for treason by German firing squad was the reason for Prussian Generalleutnant (Lieutenant General) Traugott von Sauberzweig's replacement as Military Governor of Brussels in 1915?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Traugott von Sauberzweig]
+Action 1: Search[Traugott von Sauberzweig]
+Observation 1: Traugott Martin von Sauberzweig (October 28, 1863 to April 14, 1920, in Kassel) was a Prussian Generalleutnant (Lieutenant General) who served on both the Eastern and Western Front in the German Army during World War I. In 1915 he had been Military Governor of Brussels in the days of Edith Cavell's execution, and in connection with this tragedy his name was prominently mentioned.[1] The Cavell case was the reason that von Sauberzweig was supplanted.[2] He served as chief of staff on the 8th Army in Ukraine in 1916 and was awarded the Pour le Mérite on 6 September 1917.[citation needed]. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us. HelpLearn to editCommunity portalRecent changesUpload fileSpecial pages. Donate.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Traugott von Sauberzweig]
+Action 1: Search[Traugott von Sauberzweig]
+Observation 1: **Traugott von Sauberzweig**. Traugott von Sauberzweig was a German military officer who served in the Prussian Army and later the Imperial German Army. His military career spanned several decades, encompassing periods of significant military reform and conflict.. **Early Life and Military Career**. Details regarding Traugott von Sauberzweig's early life, including his birth date and place, are not readily available in public records.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[Edith Cavell]
+Action 2: Finish[Edith Cavell]
+Observation 2: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[replacement]
+Action 2: Lookup[replacement]
+Observation 2: **Traugott von Sauberzweig**. Traugott von Sauberzweig was a German military officer who served in the Prussian Army and later the Imperial German Army. His military career spanned several decades, encompassing periods of significant military reform and conflict.. **Early Life and Military Career**. Details regarding Traugott von Sauberzweig's early life, including his birth date and place, are not readily available in public records.
+
+
+
+INFO {'steps': 3, 'answer': 'Edith Cavell', 'gt_answer': 'Edith Louisa Cavell', 'question_idx': 2084, 'reward': False, 'em': False, 'f1': 0.8}
+
+INFO Sum of rewards: 1 
+Number of steps: 5 
+Average reward: 0.2 
+Average time 5.33010835647583
+
+-------------------------------------------------------
+

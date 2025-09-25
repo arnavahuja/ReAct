@@ -1,0 +1,39 @@
+INFO 2527 Question: John Douglas Gibson lived his whole life in a suburb of what city?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[John Douglas Gibson]
+Action 1: Search[John Douglas Gibson]
+Observation 1: John Douglas Gibson (1925 or 1926 – 21 May 1984)[1] was an Australian amateur ornithologist who became an internationally respected expert on the Diomedeidae or albatross family.. Gibson lived in Thirroul, New South Wales all his life, and worked at the nearby Port Kembla steelworks. Doug Gibson's interest in ornithology soon focused on seabirds, and from 1953 he was involved in banding at the seabird colonies at the Five Islands Nature Reserve. This led to experiments with banding albatrosses and the first successful program of banding them away from their breeding sites. This led in turn to the formation of the New South Wales Albatross Study Group.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[John Douglas Gibson]
+Action 1: Search[John Douglas Gibson]
+Observation 1: **John Douglas Gibson (1925-1987)** was a distinguished British theoretical physicist, known for his contributions to quantum field theory and elementary particle physics. He spent the majority of his career at the University of Cambridge, where he was a prominent figure in the Cavendish Laboratory.. **Early Life and Education:**. Born in London, England, Gibson displayed an early aptitude for mathematics and science. He attended St.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[New South Wales]
+Action 2: Finish[New South Wales]
+Observation 2: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Finish[London]
+Action 2: Finish[London]
+Observation 2: **John Douglas Gibson (1925-1987)** was a distinguished British theoretical physicist, known for his contributions to quantum field theory and elementary particle physics. He spent the majority of his career at the University of Cambridge, where he was a prominent figure in the Cavendish Laboratory.. **Early Life and Education:**. Born in London, England, Gibson displayed an early aptitude for mathematics and science. He attended St.
+
+
+
+INFO {'steps': 3, 'answer': 'New South Wales', 'gt_answer': 'Wollongong, Australia', 'question_idx': 4940, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 10 
+Number of steps: 20 
+Average reward: 0.5 
+Average time 30.544466698169707
+
+-------------------------------------------------------
+

@@ -1,0 +1,39 @@
+INFO 274 Question: What novella was "Eyes Wide Shut," starring Vinessa Elizabeth Shaw, based on?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search["Eyes Wide Shut"]
+Action 1: Search["Eyes Wide Shut"]
+Observation 1: Eyes Wide Shut is a 1999 erotic drama film directed, produced, and co-written by Stanley Kubrick. It is based on the 1926 novella Dream Story (German: Traumnovelle) by Arthur Schnitzler, transferring the story's setting from early twentieth-century Vienna to 1990s New York City. The plot centers on a doctor (Tom Cruise) who is shocked when his wife (Nicole Kidman) reveals that she had contemplated cheating on him the previous summer. He then embarks on a night-long adventure, during which he infiltrates a masked orgy of a secret society.. Kubrick obtained the filming rights for Dream Story in the 1960s, considering it a perfect text for a film adaptation about sexual relations.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search["Eyes Wide Shut"]
+Action 1: Search["Eyes Wide Shut"]
+Observation 1: {{short description|1999 film by Stanley Kubrick}}. {{More citations needed|date=December 2023}}. {{Use mdy dates|date=December 2023}}. {{Infobox film. | name           = Eyes Wide Shut.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[Dream Story]
+Action 2: Finish[Dream Story]
+Observation 2: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[based on]
+Action 2: Lookup[based on]
+Observation 2: {{short description|1999 film by Stanley Kubrick}}. {{More citations needed|date=December 2023}}. {{Use mdy dates|date=December 2023}}. {{Infobox film. | name           = Eyes Wide Shut.
+
+
+
+INFO {'steps': 3, 'answer': 'Dream Story', 'gt_answer': '"Traumnovelle" ("Dream Story")', 'question_idx': 6431, 'reward': False, 'em': False, 'f1': 0.8}
+
+INFO Sum of rewards: 9 
+Number of steps: 17 
+Average reward: 0.5294117647058824 
+Average time 21.24678171382231
+
+-------------------------------------------------------
+

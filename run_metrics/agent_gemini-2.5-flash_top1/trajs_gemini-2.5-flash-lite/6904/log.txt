@@ -1,0 +1,39 @@
+INFO 6904 Question: How long does the lower level degree program, offered at Helene Fuld College of Nursing, typically last?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Helene Fuld College of Nursing]
+Action 1: Search[Helene Fuld College of Nursing]
+Observation 1: Helene Fuld College of Nursing is a private nursing school in New York City. The college offers associate and comprehensive baccalaureate science degrees to Licensed Practical Nurses, Registered Nurses, and individuals who are not already nurses. The college is located in the East Harlem section of Manhattan in the Mount Morris Park Historic District across from Marcus Garvey Park. It was founded in 1945.[1]. A school of nursing was founded October 15, 1945, by New York City's Hospital for Joint Diseases, offering a one-year curriculum leading to becoming a Licensed Practical Nurse.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Helene Fuld College of Nursing]
+Action 1: Search[Helene Fuld College of Nursing]
+Observation 1: **Helene Fuld College of Nursing** is a private, for-profit nursing school located in New York City. It offers Associate of Science in Nursing (ASN) and Bachelor of Science in Nursing (BSN) degree programs. The college is accredited by the Accreditation Commission for Education in Nursing (ACEN).. Founded in 1945 as the Helene Fuld Hospital School of Nursing, the institution was established to address the nursing shortage in the post-World War II era. It.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[one year]
+Action 2: Finish[one year]
+Observation 2: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[duration]
+Action 2: Lookup[duration]
+Observation 2: **Helene Fuld College of Nursing** is a private, for-profit nursing school located in New York City. It offers Associate of Science in Nursing (ASN) and Bachelor of Science in Nursing (BSN) degree programs. The college is accredited by the Accreditation Commission for Education in Nursing (ACEN).. Founded in 1945 as the Helene Fuld Hospital School of Nursing, the institution was established to address the nursing shortage in the post-World War II era. It.
+
+
+
+INFO {'steps': 3, 'answer': 'one year', 'gt_answer': 'two years', 'question_idx': 3258, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 1 
+Number of steps: 4 
+Average reward: 0.25 
+Average time 5.489479243755341
+
+-------------------------------------------------------
+

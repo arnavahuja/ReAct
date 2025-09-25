@@ -1,0 +1,53 @@
+INFO 2727 Question: What was the birth name of the ex-slave abolitionist featured in the art installation The Dinner Party?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[The Dinner Party]
+Action 1: Search[The Dinner Party]
+Observation 1: The Dinner Party is an installation artwork by American feminist artist Judy Chicago. There are 39 elaborate place settings on a triangular table for 39 mythical and historical famous women. Sacajawea, Sojourner Truth, Eleanor of Aquitaine, Empress Theodora of Byzantium, Virginia Woolf, Susan B. Anthony, and Georgia O'Keeffe are among the symbolic guests.. Each place setting includes a hand-painted china plate, ceramic cutlery and chalice, and a napkin with an embroidered gold edge.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[The Dinner Party]
+Action 1: Search[The Dinner Party]
+Observation 1: The Dinner Party is a conceptual art installation created by American artist Judy Chicago. It is considered one of the most significant works of feminist art.. **Concept and Creation:**. The Dinner Party is a triangular table, 48 feet on each side, set with 39 elaborate place settings, each commemorating an important mythical or historical woman. Each place setting includes a unique, hand-painted ceramic plate with a butterfly or insect motif, a gold goblet, a gold knife, a gold spoon,.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Sojourner Truth]
+Action 2: Search[Sojourner Truth]
+Observation 2: Sojourner Truth (/soʊˈdʒɜːrnər, ˈsoʊdʒɜːrnər/;[1] born Isabella Bomefree; c. 1797 – November 26, 1883) was an American abolitionist and activist for African-American civil rights, women's rights, and alcohol temperance.[2] Truth was born into slavery in Swartekill, New York, but escaped with her infant daughter to freedom in 1826. After going to court to recover her son in 1828, she became the first black woman to win such a case against a white man.. She gave herself the name Sojourner Truth in 1843 after she became convinced that God had called her to leave the city and go into the countryside "testifying to the hope that was in her."[3] Her best-known speech was delivered extemporaneously, in 1851, at the Ohio Women's Convention in Akron, Ohio. The speech became widely known during the Civil War by the title "Ain't I a Woman?", a variation of the original speech that was published in 1863 as being spoken in a stereotypical Black dialect, then more commonly spoken in the South.[4] Sojourner Truth, however, grew up speaking Dutch as her first language.[5][6][7]. During the Civil War, Truth helped recruit Black men into the Union army; after the war, she tried unsuccessfully to secure land grants from the federal government for formerly enslaved people (summarized as the promise of "forty acres and a mule").
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[abolitionist]
+Action 2: Lookup[abolitionist]
+Observation 2: **Sojourner Truth** (born Isabella Baumfree; c. 1797 – November 26, 1883) was an American abolitionist and women's rights activist. Truth was born into slavery in Swartekill, Ulster County, New York, but escaped with her infant daughter to freedom in 1826. She successfully sued for her son's return in 1828, one of the first Black women to win such.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Isabella Bomefree]
+Action 3: Finish[Isabella Bomefree]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Isabella Baumfree].
+Action 3: Finish[Isabella Baumfree].
+Observation 3: **Sojourner Truth** (born Isabella Baumfree; c. 1797 – November 26, 1883) was an American abolitionist and women's rights activist. Truth was born into slavery in Swartekill, Ulster County, New York, but escaped with her infant daughter to freedom in 1826. She successfully sued for her son's return in 1828, one of the first Black women to win such.
+
+
+
+INFO {'steps': 5, 'answer': 'Isabella Bomefree', 'gt_answer': 'Isabella (Belle) Baumfree', 'question_idx': 1830, 'reward': False, 'em': False, 'f1': 0.4}
+
+INFO Sum of rewards: 14 
+Number of steps: 37 
+Average reward: 0.3783783783783784 
+Average time 27.780806109711932
+
+-------------------------------------------------------
+

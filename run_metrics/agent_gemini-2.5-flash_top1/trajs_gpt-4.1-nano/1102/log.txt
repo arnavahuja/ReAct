@@ -1,0 +1,67 @@
+INFO 1102 Question: John Rhys-Davies played General Pushkin in the Bond Film that starred whom as James Bond?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[John Rhys-Davies]
+Action 1: Search[John Rhys-Davies]
+Observation 1: John Rhys-Davies (born 5 May 1944) is a Welsh actor known for portraying Gimli in The Lord of the Rings trilogy and Sallah in the Indiana Jones franchise. He has received three Screen Actors Guild Award nominations, with one win, and a Primetime Emmy Award nomination.. Rhys-Davies is also known for his performances in the films Sahara (1983), The Living Daylights (1987), Glory Daze (1995), The Medallion (2003) and One Night with the King (2006). He is also known for his extensive voice work including Cats Don't Dance (1997), Sinbad: Beyond the Veil of Mists (2000), SpongeBob SquarePants (2000–2002), and TripTank (2015–2016).. Rhys-Davies also gained acclaim for his television roles as Macro in I, Claudius (1976), Vasco Rodrigues in Shōgun (1980), and Michael Malone in The Untouchables (1993).
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[John Rhys-Davies]
+Action 1: Search[John Rhys-Davies]
+Observation 1: John Rhys-Davies is a Welsh actor and voice actor, born on May 5, 1944, in Ammanford, Carmarthenshire, Wales. He is best known for his roles as Gimli in the "The Lord of the Rings" film trilogy directed by Peter Jackson and as Sallah in the "Indiana Jones" film series. Rhys-Davies has also appeared in numerous television series, including "Sliders," where he played Professor Maximillian P. Arturo, and has provided voice work for various animated projects.. He studied at the University of Bristol and later trained at the Royal Academy of Dramatic Art (RADA).
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Lookup[General Pushkin]
+Action 2: Lookup[General Pushkin]
+Observation 2: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[John Rhys-Davies General Pushkin]
+Action 2: Search[John Rhys-Davies General Pushkin]
+Observation 2: John Rhys-Davies is a Welsh actor and voice actor, born on May 5, 1944, in Ammanford, Carmarthenshire, Wales. He is best known for his roles as Gimli in the "The Lord of the Rings" film trilogy directed by Peter Jackson and as Sallah in the "Indiana Jones" film series. Rhys-Davies has also appeared in numerous television series, including "Sliders," where he played Professor Maximillian P. Arturo, and has provided voice work for various animated projects.. He studied at the University of Bristol and later trained at the Royal Academy of Dramatic Art (RADA).
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[The Living Daylights]
+Action 3: Search[The Living Daylights]
+Observation 3: The Living Daylights is a 1987 spy film, the fifteenth entry in the James Bond series produced by Eon Productions, and the first of two to star Timothy Dalton as the fictional MI6 agent James Bond.[4]. The fourth film in the series to be directed by John Glen, the film's title is taken from Ian Fleming's short story "The Living Daylights", the plot of which also forms the basis of the first act of the film. It was the last film to use the title of an Ian Fleming story until the 2006 instalment Casino Royale. It is also the first film to have Caroline Bliss as Miss Moneypenny, replacing Lois Maxwell.. The Living Daylights was produced by Albert R.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[The Living Daylights]
+Action 3: Search[The Living Daylights]
+Observation 3: The Living Daylights is a 1987 spy film and the fifteenth entry in the James Bond series produced by Eon Productions. It is directed by John Glen and stars Timothy Dalton in his first outing as the British secret agent James Bond. The film is based on the short story "The Living Daylights" by Ian Fleming, which was first published in 1966.. Plot:. The story follows James Bond as he is assigned to assist a Soviet general who is defecting to the West.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[Timothy Dalton]
+Action 4: Finish[Timothy Dalton]
+Observation 4: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[Timothy Dalton]
+Action 4: Finish[Timothy Dalton]
+Observation 4: The Living Daylights is a 1987 spy film and the fifteenth entry in the James Bond series produced by Eon Productions. It is directed by John Glen and stars Timothy Dalton in his first outing as the British secret agent James Bond. The film is based on the short story "The Living Daylights" by Ian Fleming, which was first published in 1966.. Plot:. The story follows James Bond as he is assigned to assist a Soviet general who is defecting to the West.
+
+
+
+INFO {'steps': 7, 'answer': 'Timothy Dalton', 'gt_answer': 'Timothy Dalton', 'question_idx': 3085, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 4 
+Number of steps: 4 
+Average reward: 1.0 
+Average time 11.3528972864151
+
+-------------------------------------------------------
+

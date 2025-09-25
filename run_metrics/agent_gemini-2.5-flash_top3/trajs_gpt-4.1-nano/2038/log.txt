@@ -1,0 +1,60 @@
+INFO 2038 Question: When was the college which Albert Simons taught at founded?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to find the college where Albert Simons taught and then find the founding date of that college. I will start by searching for "Albert Simons."
+Action 1: [Search[Albert Simons]] 
+        Action 1: Search[Albert Simons]
+        Observation 1: Albert Simons (1890 – 1980), had a sixty-year career as an architect and preservationist in Charleston, South Carolina, where he is known for his preservation work and architectural design. He played a key role in the Charleston Renaissance. Simons helped to create many nationally prominent preservation functions such as the zoning ordinance for the historic district, the first such ordinance in America, with municipal austerity, and the first  Board of Architectural Review. As a professor at the College of Charleston for over 20 years, he started the School of the Arts whose building is named after him and is honored yearly through the Simons Medal of Excellence.[1]. Born in 1890, Albert Simons descended from a long line of influential Charlestonians."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to find the college where Albert Simons taught, and then find when that college was founded.
+Action 1: Search[Albert Simons] 
+        Action 1: ['Search[Albert Simons]']
+        Observation 1: Albert Simons (1887–1981) was a prominent American architect, educator, and preservationist known for his significant contributions to the architectural landscape and historical preservation efforts in Charleston, South Carolina. Born in Charleston, Simons dedicated much of his career to the study and preservation of the city's historic architecture, advocating for the conservation of its unique cultural heritage.. He was a founding member of the Preservation Society of Charleston and played a key role in the preservation and restoration of numerous historic buildings and districts within."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Albert Simons was a professor at the College of Charleston. I need to find the founding date of the College of Charleston.
+Action 2: [Search[College of Charleston]] 
+        Action 2: Search[College of Charleston]
+        Observation 2: The College of Charleston (CofC or Charleston) is a public university in Charleston, South Carolina, United States. Founded in 1770 and chartered in 1785, it is the oldest university in South Carolina, the 13th-oldest institution of higher learning in the United States, and the country's oldest municipal college.. The founders of the College of Charleston included six Founding Fathers of the United States, including three who signed the Declaration of Independence: Thomas Heyward Jr., Arthur Middleton, and Edward Rutledge; and three who signed the Constitution of the United States: Charles Pinckney, Charles Cotesworth Pinckney, and John Rutledge.. The College of Charleston was founded in 1770, making it the 13th-oldest institution of higher education and oldest municipal college in the nation.[8][9] The college's original structure, located at the site of what is now Randolph Hall, was designed similar to a barracks. In March 1785, the South Carolina General Assembly issued a charter to the college, which officially opened in 1790 and hosted its first commencement in 1794."
+
+SIMULATION TRAJECTORY:
+ Thought 2: The provided text about Albert Simons does not mention where he taught. I need to find information about his educational career or the institutions he was associated with to identify the college. Since no college is explicitly mentioned, a Lookup action for "taught" might reveal more about his teaching career from the current text, or I may need to expand my search.
+Action 2: [Lookup[educator], Search[Albert Simons college], Lookup[career]] 
+        Action 2: ['Search[Albert Simons college]', 'Lookup[educator]', 'Lookup[career]']
+        Observation 2: The College of Charleston is a public liberal arts college located in Charleston, South Carolina. Established in 1770, it is one of the oldest institutions of higher education in the United States. The college offers a wide range of undergraduate programs across various disciplines, including arts, sciences, business, education, and the humanities. It is known for its historic campus, which features Georgian architecture and is situated in the heart of downtown Charleston.. The College of Charleston is accredited by the Southern Association of Colleges and Schools."
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: The College of Charleston was founded in 1770.
+Action 3: [Finish[1770]] 
+        Action 3: Finish[1770]
+        Observation 3: Episode finished, reward = 1
+"
+
+SIMULATION TRAJECTORY:
+ Thought 3: The College of Charleston was established in 1770. I have the founding date, so I can now answer the question.
+Action 3: [Finish[1770], Search[College of Charleston history], Lookup[established]] 
+        Action 3: ['Search[College of Charleston history]', 'Lookup[established]', 'Finish[1770]']
+        Observation 3: The College of Charleston is a public liberal arts college located in Charleston, South Carolina. Established in 1770, it is one of the oldest institutions of higher education in the United States. The college offers a wide range of undergraduate programs across various disciplines, including arts, sciences, business, education, and the humanities. It is known for its historic campus, which features Georgian architecture and is situated in the heart of downtown Charleston.. The College of Charleston is accredited by the Southern Association of Colleges and Schools."
+
+
+
+INFO {'steps': 5, 'answer': '1770', 'gt_answer': '1770', 'question_idx': 2949, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 6 
+Number of steps: 15 
+Average reward: 0.4 
+Average time 17.5815767288208
+
+--------------------------------------------------
+

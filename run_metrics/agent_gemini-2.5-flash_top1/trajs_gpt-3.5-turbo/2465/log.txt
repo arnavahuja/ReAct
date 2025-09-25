@@ -1,0 +1,53 @@
+INFO 2465 Question: The Jeep Cherokee was originally sold as a variant of a Jeep model produced during what years?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Jeep Cherokee]
+Action 1: Search[Jeep Cherokee]
+Observation 1: The Jeep Cherokee is a line of sport utility vehicles (SUV) manufactured and marketed by Jeep over six generations. Marketed initially as a variant of the Jeep Wagoneer (SJ), the Cherokee has evolved from a full-size station wagon (before the SUV description came into use) to one of the first compact SUVs and into its latest generation as a crossover SUV.. Named after the Cherokee tribe of Native Americans in the United States, Jeep has used the nameplate in some capacity since late 1973 when American Motors Corporation (AMC) introduced the 1974 model year line.. Production of the Cherokee ended in February 2023. The Cherokee nameplate has since been used by the Grand Cherokee and its extended version, the Grand Cherokee L.[7].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Jeep Cherokee]
+Action 1: Search[Jeep Cherokee]
+Observation 1: The Jeep Cherokee is a line of SUVs manufactured by Jeep. It was first introduced in 1974 and has since gone through several generations of redesigns and updates. The Cherokee is known for its rugged off-road capabilities, making it a popular choice for outdoor enthusiasts and adventure seekers. The vehicle offers a range of features such as four-wheel drive, advanced safety technology, and a comfortable interior. The Jeep Cherokee has received positive reviews for its performance both on and off the road, making it a versatile.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Jeep Wagoneer (SJ)]
+Action 2: Search[Jeep Wagoneer (SJ)]
+Observation 2: The Jeep Wagoneer is a luxury 4x4 produced and marketed under the Jeep brand from the 1963 to 1991 model years.[4]  Introduced as the replacement for the Jeep Station Wagon, the Wagoneer was the first Jeep model line completely distinct from the Jeep CJ.[5]  Designed as a truck-based station wagon, the model line became a progenitor of the modern sport-utility vehicle (SUV).. Designed by a team led by industrial designer Brooks Stevens[6], the Wagoneer shared its Jeep SJ chassis with the Jeep Gladiator full-size pickup truck (later renamed the J-Series). Alongside the five-door wagon, the Wagoneer was also marketed as a three-door wagon and a two-door panel truck (effectively giving Jeep its own van). After 1968, the Wagoneer was sold exclusively as the five-door wagon; the three-door wagon was reintroduced as the Jeep Cherokee for 1974.. Along with developing a sport-utility vehicle smaller than the Chevrolet Suburban and International Travelall, Jeep conceived the Wagoneer to balance the capabilities and features of both of an off-road vehicle and a premium-brand sedan or station wagon.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Jeep Cherokee original variant]
+Action 2: Search[Jeep Cherokee original variant]
+Observation 2: The Jeep Wagoneer (SJ) is a full-size luxury SUV that was produced by Jeep from 1963 to 1991. It was one of the first luxury SUVs on the market and is considered a pioneering vehicle in the segment. The Wagoneer was known for its rugged off-road capabilities combined with a comfortable and spacious interior, making it popular with families and outdoor enthusiasts alike. The SJ generation of the Wagoneer featured a classic boxy design and was available in both two.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[1963 to 1991]
+Action 3: Finish[1963 to 1991]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[1963 to 1991]
+Action 3: Finish[1963 to 1991]
+Observation 3: The Jeep Wagoneer (SJ) is a full-size luxury SUV that was produced by Jeep from 1963 to 1991. It was one of the first luxury SUVs on the market and is considered a pioneering vehicle in the segment. The Wagoneer was known for its rugged off-road capabilities combined with a comfortable and spacious interior, making it popular with families and outdoor enthusiasts alike. The SJ generation of the Wagoneer featured a classic boxy design and was available in both two.
+
+
+
+INFO {'steps': 5, 'answer': '1963 to 1991', 'gt_answer': '1963 to 1991', 'question_idx': 404, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 16 
+Number of steps: 37 
+Average reward: 0.43243243243243246 
+Average time 16.576374672554635
+
+-------------------------------------------------------
+

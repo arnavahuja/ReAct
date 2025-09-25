@@ -1,0 +1,81 @@
+INFO 3908 Question: In what event was Harold Davis a former record holder, but now is held by Usain Bolt?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Harold Davis]
+Action 1: Search[Harold Davis]
+Observation 1: Could not find [Harold Davis]. Similar: ['Harold Davis', 'Charles Harold Davis', 'Evan Davis', 'Harold Davis (photographer)', 'Harold A. Davis'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Harold Davis]
+Action 1: Search[Harold Davis]
+Observation 1: Harold Davis (born 1963) is an American politician and businessman. He is a member of the Republican Party and currently serves as the Mayor of Spring Hill, Kansas.. **Early Life and Education:**. Davis was born and raised in Kansas. He attended Spring Hill High School and later pursued higher education at Johnson County Community College..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Harold Davis athletics
+Action 2: Search[Harold Davis athletics
+Observation 2: Invalid action: search[Harold Davis athletics
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Harold Davis athlete]
+Action 2: Search[Harold Davis athlete]
+Observation 2: Harold Davis (born 1963) is an American politician and businessman. He is a member of the Republican Party and currently serves as the Mayor of Spring Hill, Kansas.. **Early Life and Education:**. Davis was born and raised in Kansas. He attended Spring Hill High School and later pursued higher education at Johnson County Community College..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Harold Davis (sprinter)]
+Action 3: Search[Harold Davis (sprinter)]
+Observation 3: Harold Davis (born January 5, 1921, in Salinas, California, died August 12, 2007) was an American Track and Field athlete. He was a World Record holder in the 100 metres. In 1974, he was elected to the USA Track & Field National Track and Field Hall of Fame.. Nicknamed the "California Comet", he tied Jesse Owens world record running into a headwind at the Compton Relays on June 6, 1941, and was regarded as the fastest sprinter in the world for a four-year period. Unfortunately for Davis, this was during World War II and the Olympics were cancelled, depriving him of an opportunity for international recognition..
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Harold Davis sprinter]
+Action 3: Search[Harold Davis sprinter]
+Observation 3: Harold Davis (born January 14, 1921, in Brooklyn, New York – died November 16, 1994, in Los Angeles, California) was an American sprinter.. Davis was a prominent figure in American track and field during the 1940s. He competed in the 100 meters and 200 meters events.. **Key Achievements:**. *   **Olympic Games:** Davis represented the United States at the.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Usain Bolt]
+Action 4: Search[Usain Bolt]
+Observation 4: Usain St. Leo Bolt (/ˈjuːseɪn/;[10] born 21 August 1986) is a Jamaican retired sprinter who is widely regarded as the greatest sprinter of all time.[11][12][13] He is an eight-time Olympic gold medalist and the world record holder in the 100 metres, 200 metres, and 4 × 100 metres relay.. Bolt is the only sprinter to win Olympic 100 m and 200 m titles at three consecutive Olympics (2008, 2012, and 2016). He also won two 4 × 100 relay gold medals. He gained worldwide fame for his double sprint victory in world record times at the 2008 Beijing Olympics, which made him the first person to hold both records since fully automatic time became mandatory..
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[Usain Bolt]
+Action 4: Search[Usain Bolt]
+Observation 4: **Usain Bolt**. Usain St. Leo Bolt (born 21 August 1986) is a Jamaican retired sprinter, widely regarded as the greatest sprinter of all time. He is the world record holder in the 100 metres, 200 metres, and 4 × 100 metres relay. His reign as the Olympic Games champion in these events spans three consecutive Olympics, from 2008 to 2016, making.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Finish[100 metres]
+Action 5: Finish[100 metres]
+Observation 5: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Finish[100 metres]
+Action 5: Finish[100 metres]
+Observation 5: **Usain Bolt**. Usain St. Leo Bolt (born 21 August 1986) is a Jamaican retired sprinter, widely regarded as the greatest sprinter of all time. He is the world record holder in the 100 metres, 200 metres, and 4 × 100 metres relay. His reign as the Olympic Games champion in these events spans three consecutive Olympics, from 2008 to 2016, making.
+
+
+
+INFO {'steps': 9, 'answer': '100 metres', 'gt_answer': '100 metres', 'question_idx': 2813, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 9 
+Number of steps: 25 
+Average reward: 0.36 
+Average time 10.92450647354126
+
+-------------------------------------------------------
+

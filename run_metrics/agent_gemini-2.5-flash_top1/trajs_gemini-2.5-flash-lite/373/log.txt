@@ -1,0 +1,39 @@
+INFO 373 Question: Where does the team coached by someone with the nickname "Coach K" play?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Coach K]
+Action 1: Search[Coach K]
+Observation 1: Michael William Krzyzewski (US: /ʃɪˈʒɛfski/ shizh-EF-skee,[1] Polish: [kʂɨˈʐɛfskʲi]; born February 13, 1947), nicknamed "Coach K", is an American former college basketball coach. He served as the head coach at Duke University from 1980 to 2022, during which he led the Blue Devils to five national titles, 13 Final Four appearances, 15 ACC tournament championships, and 13 ACC regular season titles. Among men's college basketball coaches, only UCLA's John Wooden has won more NCAA championships (10). Krzyzewski is widely regarded as one of the greatest college basketball coaches of all time.[2][3][4]. Krzyzewski has also coached the United States national team, which he led to gold medals at the 2008, 2012, and 2016 Olympics.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Coach K]
+Action 1: Search[Coach K]
+Observation 1: **Michael William Krzyzewski** (born February 13, 1947), most famously known as **Coach K**, is an American basketball coach. He is widely regarded as one of the greatest college basketball coaches of all time.. Krzyzewski served as the head men's basketball coach at Duke University from 1980 to 2022. During his tenure, he led the Blue Devils to five NCAA championships (1991, 19.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[Duke University]
+Action 2: Finish[Duke University]
+Observation 2: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Finish[Duke University]
+Action 2: Finish[Duke University]
+Observation 2: **Michael William Krzyzewski** (born February 13, 1947), most famously known as **Coach K**, is an American basketball coach. He is widely regarded as one of the greatest college basketball coaches of all time.. Krzyzewski served as the head men's basketball coach at Duke University from 1980 to 2022. During his tenure, he led the Blue Devils to five NCAA championships (1991, 19.
+
+
+
+INFO {'steps': 3, 'answer': 'Duke University', 'gt_answer': 'Cameron Indoor Stadium', 'question_idx': 4871, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 1 
+Number of steps: 3 
+Average reward: 0.3333333333333333 
+Average time 5.9230349858601885
+
+-------------------------------------------------------
+

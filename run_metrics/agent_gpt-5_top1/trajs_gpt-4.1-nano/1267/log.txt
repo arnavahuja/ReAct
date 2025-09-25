@@ -1,0 +1,67 @@
+INFO 1267 Question: The Aviation Hall of Fame and Museum of New Jersey is located at the airport in which New Jersey county?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to search for The Aviation Hall of Fame and Museum of New Jersey to find the airport it is located at and determine the county.
+Action 1: Search[The Aviation Hall of Fame and Museum of New Jersey]
+Observation 1: Could not find The Aviation Hall of Fame and Museum of New Jersey. Similar: ['Aviation Hall of Fame and Museum of New Jersey', 'List of halls and walks of fame', 'List of museums in New Jersey', 'Aviation in the New York metropolitan area', "Women's Hall of Fame"].
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to search for the Aviation Hall of Fame and Museum of New Jersey to find the airport it’s located at and determine the county.
+Action 1: Search[Aviation Hall of Fame and Museum of New Jersey]
+Observation 1: The Aviation Hall of Fame and Museum of New Jersey is an institution dedicated to honoring the history and achievements of aviation in the state of New Jersey. Located in Teterboro, New Jersey, the museum serves as a repository for aircraft, memorabilia, and exhibits that highlight the contributions of New Jersey aviators and the development of aviation technology in the region.. Established in 1972, the museum aims to preserve the legacy of pioneering pilots, aircraft manufacturers, and aviation industry leaders associated with New Jersey. It.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The exact page likely omits "The" at the beginning, so I should search for "Aviation Hall of Fame and Museum of New Jersey".
+Action 2: Search[Aviation Hall of Fame and Museum of New Jersey]
+Observation 2: The Aviation Hall of Fame & Museum of New Jersey was founded in 1972 and preserves New Jersey's aviation and space heritage. The museum displays historic aircraft, space equipment, artifacts, photographs, art and an aircraft model collection.[1] The library has more than 4,000 volumes and a collection of aviation video.[1] It is located at Teterboro Airport, the oldest operating airport in the Tri-State Region, at 400 Fred Wehran Drive, Teterboro, New Jersey.. The museum was founded in 1972 by Pat Reilly and Donald G. Borg. Initially located in a radio tower at Teterboro Airport, it moved to a nearby building in 1985, and again in 1997 to a much larger facility.[2].
+
+SIMULATION TRAJECTORY:
+ Thought 2: The museum is in Teterboro, likely at Teterboro Airport; I should confirm the airport’s county.
+Action 2: Search[Teterboro Airport]
+Observation 2: The Aviation Hall of Fame and Museum of New Jersey is an institution dedicated to preserving and celebrating the history of aviation in the state of New Jersey. Located in Teterboro, New Jersey, the museum showcases a diverse collection of aircraft, artifacts, and exhibits that highlight the achievements of New Jersey aviators and the development of aviation technology.. Established in 1972, the museum aims to honor individuals who have made significant contributions to aviation, including pilots, engineers, and industry pioneers. It features a variety.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Now that I know the museum is at Teterboro Airport, I should find which county Teterboro Airport is in.
+Action 3: Search[Teterboro Airport]
+Observation 3: Teterboro Airport (IATA: TEB[3], ICAO: KTEB, FAA LID: TEB) is a general aviation relief airport situated in the boroughs of Teterboro, Moonachie, and Hasbrouck Heights in Bergen County, New Jersey.[4] It is owned and managed by the Port Authority of New York and New Jersey, and operated by AFCO AvPORTS Management. The airport is in the New Jersey Meadowlands, 12 miles (19 km) north-northwest of Midtown Manhattan, making it popular for private and corporate aircraft. The airport has a weight limit of 100,000 pounds (45,000 kg) on aircraft, making it nonviable for any commercial service.. The airport takes up almost all of Teterboro and consists of 827 acres (3.35 km2): 90 acres (0.36 km2) for aircraft hangar and offices, 408 acres (1.65 km2) for aeronautical use and runways, and 329 acres (1.33 km2) undeveloped. The airport has more than 1,137 employees, of whom more than 90% work full-time..
+
+SIMULATION TRAJECTORY:
+ Thought 3: The museum is located in Teterboro; I should check Teterboro Airport’s page to find which county it’s in.
+Action 3: Search[Teterboro Airport]
+Observation 3: Teterboro Airport (IATA: TEB, ICAO: KTEB) is a public-use airport located in Teterboro, Bergen County, New Jersey, United States. It is situated approximately 12 miles (19 km) northwest of Midtown Manhattan in New York City. The airport is primarily used for general aviation and corporate aircraft operations, serving as a major hub for private jet traffic in the New York metropolitan area.. History and Development:. Teterboro Airport was established in 191.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Teterboro Airport is in Bergen County, so the museum located at that airport is in Bergen County.
+Action 4: Finish[Bergen County]
+Observation 4: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 4: Teterboro Airport is located in Teterboro, Bergen County, New Jersey, so the county is Bergen County.
+Action 4: Finish[Bergen County]
+Observation 4: Teterboro Airport (IATA: TEB, ICAO: KTEB) is a public-use airport located in Teterboro, Bergen County, New Jersey, United States. It is situated approximately 12 miles (19 km) northwest of Midtown Manhattan in New York City. The airport is primarily used for general aviation and corporate aircraft operations, serving as a major hub for private jet traffic in the New York metropolitan area.. History and Development:. Teterboro Airport was established in 191.
+
+
+
+INFO {'steps': 7, 'answer': 'Bergen County', 'gt_answer': 'Bergen', 'question_idx': 733, 'reward': False, 'em': False, 'f1': 0.6666666666666666}
+
+INFO Sum of rewards: 2 
+Number of steps: 5 
+Average reward: 0.4 
+Average time 176.8018624305725
+
+-------------------------------------------------------
+

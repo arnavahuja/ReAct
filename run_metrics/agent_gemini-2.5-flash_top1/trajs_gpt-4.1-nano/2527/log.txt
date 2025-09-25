@@ -1,0 +1,53 @@
+INFO 2527 Question: Which casino closed first The Atlantic Club Casino Hotel or Trump Plaza Hotel and Casino ?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[The Atlantic Club Casino Hotel]
+Action 1: Search[The Atlantic Club Casino Hotel]
+Observation 1: The Atlantic Club Casino Hotel, formerly known as Golden Nugget, Bally's Grand, The Grand, Atlantic City Hilton and ACH, is an abandoned hotel and casino located at the southern end of the boardwalk in Atlantic City, New Jersey, owned and operated by Colony Capital. It was the city's first and only "locals casino". The Atlantic Club permanently closed on January 13, 2014, at 12:01 AM, largely as a result of dwindling casino visitors to Atlantic City due to increased competition in neighboring states. A third of Atlantic City's boardwalk casinos closed the same year, the others being Revel, Trump Plaza, and Showboat.[1] Redevelopment proposals include a water park.[2][3][4]. On November 6, 2013, Atlantic Club owner Resorts International Holdings, itself owned by Colony Capital, filed for chapter 11 bankruptcy protection[5] and a source revealed to the Wall Street Journal that a bankruptcy sale would occur.[6] On December 23, 2013, Federal Bankruptcy Judge Gloria M.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[The Atlantic Club Casino Hotel]
+Action 1: Search[The Atlantic Club Casino Hotel]
+Observation 1: The Atlantic Club Casino Hotel was a casino and hotel located in Atlantic City, New Jersey. Originally opened in 1980 as the Sands Hotel and Casino, it was later rebranded as the Atlantic Club in 2011 following a change in ownership. The property featured a gaming floor with slot machines, table games, and a variety of entertainment options, along with hotel accommodations, dining facilities, and other amenities typical of a casino resort.. The Atlantic Club was known for its more modest size compared to.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Trump Plaza Hotel and Casino]
+Action 2: Search[Trump Plaza Hotel and Casino]
+Observation 2: Trump Plaza was a hotel and casino on the Boardwalk in Atlantic City, New Jersey, owned by Trump Entertainment Resorts. Designed by architect Alan Lapidus, it operated from May 14, 1984, until September 16, 2014.. The Trump Organization, a company owned by real estate developer Donald Trump, began[2] construction of the casino in June 1982.[3] Harrah's, the gaming unit of Holiday Inn, joined as a partner a month later.[4] Trump would oversee the construction, while Harrah's would operate the property, referred to as Harrah's Boardwalk, after opening.[3]. The property opened as Harrah's at Trump Plaza on May 14, 1984.[5] The complex contained 614 rooms, seven restaurants, a health club, a 750-seat showroom and a 60,000 sq ft (5,574.2 m2) casino, all on a narrow 2.6 acres (1.1 ha) plot of land next to Caesars Atlantic City. Five months after opening, the name was changed to simply Trump Plaza, to avoid confusion with Harrah's Marina.[6] Part of the reason for this is that Harrah's was commonly associated with and attracted low-rolling gamblers, but Trump had built 85 high-roller suites, which were rarely used.[7] The casino performed poorly, with pre-tax profits of just $144,000 in the first half of 1985.[8] The poor results exacerbated disagreements between Trump and Harrah's,[8] leading to Trump buying out Harrah's interest in the property for $70 million in May 1986.[9].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Trump Plaza Hotel and Casino]
+Action 2: Search[Trump Plaza Hotel and Casino]
+Observation 2: Trump Plaza Hotel and Casino was a hotel and casino located in Atlantic City, New Jersey. It was owned by Trump Entertainment Resorts and operated under the Trump brand. The property opened in 1984 and was a prominent part of Atlantic City's skyline for several decades. The hotel featured a 39-story tower with numerous guest rooms and suites, along with a casino floor offering a variety of gaming options including slot machines and table games.. The casino was known for its association with Donald Trump, who was a prominent.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[The Atlantic Club Casino Hotel]
+Action 3: Finish[The Atlantic Club Casino Hotel]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[closed]
+Action 3: Lookup[closed]
+Observation 3: Trump Plaza Hotel and Casino was a hotel and casino located in Atlantic City, New Jersey. It was owned by Trump Entertainment Resorts and operated under the Trump brand. The property opened in 1984 and was a prominent part of Atlantic City's skyline for several decades. The hotel featured a 39-story tower with numerous guest rooms and suites, along with a casino floor offering a variety of gaming options including slot machines and table games.. The casino was known for its association with Donald Trump, who was a prominent.
+
+
+
+INFO {'steps': 5, 'answer': 'The Atlantic Club Casino Hotel', 'gt_answer': 'The Atlantic Club Casino Hotel', 'question_idx': 2300, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 9 
+Number of steps: 20 
+Average reward: 0.45 
+Average time 16.004183447360994
+
+-------------------------------------------------------
+

@@ -1,0 +1,60 @@
+INFO 2527 Question: The Pioneer Helmet and the Benty Grange helmet are linked because of which feature?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to search the Pioneer Helmet and the Benty Grange helmet, and find their common feature.
+Action 1: Search[Pioneer Helmet] 
+        Action 1: Search[Pioneer Helmet]
+        Observation 1: The Pioneer Helmet (also known as the Wollaston Helmet or Northamptonshire Helmet), is an Anglo-Saxon boar-crested helmet from the late seventh century found in Wollaston, Northamptonshire, United Kingdom. It was discovered during a March 1997 excavation before the land was to be mined for gravel and was part of the grave of a young man. Other objects in the grave, such as a hanging bowl and a pattern welded sword, suggest that it was the burial mound of a high-status warrior.. The sparsely decorated nature of the helmet, a utilitarian iron fighting piece, belies its rarity. It is one of just six Anglo-Saxon helmets yet discovered, joined by finds from Benty Grange (1848), Sutton Hoo (1939), Coppergate (1982), Shorwell (2004) and Staffordshire (2009); its basic form is nearly identical to that of the richer Coppergate helmet found in York."
+
+SIMULATION TRAJECTORY:
+ Thought 1: To know what links the Pioneer Helmet and the Benty Grange helmet, I need to find a common feature between them. Searching for each helmet individually would be a good start.
+Action 1: [Search[Pioneer Helmet], Search[Benty Grange helmet], Search[helmet feature]] 
+        Action 1: ['Search[Pioneer Helmet]', 'Search[Benty Grange helmet]', 'Search[helmet feature]']
+        Observation 1: The term "Pioneer Helmet" does not refer to a specific, widely recognized historical artifact or piece of equipment with a dedicated Wikipedia entry. However, the term can be understood in a few contexts:. **1. Historical Pioneers (e.g., American West, Frontier Exploration):**. In the context of historical pioneers, particularly those who settled or explored new territories like the American West, the concept of a "pioneer helmet" is largely anachronistic."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The Pioneer Helmet is an Anglo-Saxon boar-crested helmet. It is one of just six Anglo-Saxon helmets yet discovered, and one of them is from Benty Grange. I now need to look up information on the Benty Grange helmet to see if it too is boar-crested.
+Action 2: Search[Benty Grange helmet] 
+        Action 2: Search[Benty Grange helmet]
+        Observation 2: The Benty Grange helmet is an Anglo-Saxon boar-crested helmet from the 7th century AD. It was excavated by Thomas Bateman in 1848 from a tumulus at the Benty Grange farm in Monyash in western Derbyshire. The grave had probably been looted by the time of Bateman's excavation, but still contained other high-status objects suggestive of a richly furnished burial, such as the fragmentary remains of a hanging bowl. The helmet is displayed at Sheffield's Weston Park Museum, which purchased it from Bateman's estate in 1893.. The helmet was constructed by covering the outside of an iron framework with plates of horn and the inside with cloth or leather; the organic material has since decayed."
+
+SIMULATION TRAJECTORY:
+ Thought 2: The search for Pioneer Helmet did not provide clear information. It seems that a search for Benty Grange helmet may provide more context.
+Action 2: Search[Benty Grange helmet], Lookup[pioneer helmet], Search[Pioneer Helmet (Historical Pioneers)] 
+        Action 2: ['Search[Benty Grange helmet]', 'Search[Pioneer Helmet (Historical Pioneers)]', 'Lookup[pioneer helmet]']
+        Observation 2: The Benty Grange helmet is an Anglo-Saxon helmet discovered in 1848 by local farmer Thomas Bateman at Benty Grange, near Monyash in the Peak District, Derbyshire, England. It is a significant artifact from the 7th century, providing valuable insights into the craftsmanship and military equipment of the Anglo-Saxon period.. **Discovery and Context:**. The helmet was found in a burial mound, likely belonging to a high-status individual, possibly a warrior or chieftain.."
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: The Benty Grange helmet is also an Anglo-Saxon boar-crested helmet. Given that both Pioneer Helmet and Benty Grange helmet are boar-crested, this boar-cresting appears to be the linking feature. 
+Action 3: Finish[boar-crested feature] 
+        Action 3: Finish[boar-crested feature]
+        Observation 3: Episode finished, reward = 0
+"
+
+SIMULATION TRAJECTORY:
+ Thought 3: The Benty Grange helmet is also an Anglo-Saxon helmet discovered from a burial mound. However, the information about whether it is boar-crested is not stated. It would be useful to look up the keyword "boar-crested" in the passage.
+Action 3: [Lookup[boar-crested], Lookup[Anglo-Saxon helmet], Lookup[Benty Grange]] 
+        Action 3: ['Lookup[boar-crested]', 'Lookup[Anglo-Saxon helmet]', 'Lookup[Benty Grange]']
+        Observation 3: The Benty Grange helmet is an Anglo-Saxon helmet discovered in 1848 by local farmer Thomas Bateman at Benty Grange, near Monyash in the Peak District, Derbyshire, England. It is a significant artifact from the 7th century, providing valuable insights into the craftsmanship and military equipment of the Anglo-Saxon period.. **Discovery and Context:**. The helmet was found in a burial mound, likely belonging to a high-status individual, possibly a warrior or chieftain.."
+
+
+
+INFO {'steps': 5, 'answer': 'boar-crested feature', 'gt_answer': 'A simple iron boar crest', 'question_idx': 1515, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 10 
+Number of steps: 20 
+Average reward: 0.5 
+Average time 31.130729389190673
+
+--------------------------------------------------
+

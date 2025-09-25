@@ -1,0 +1,109 @@
+INFO 5252 Question: How many pornographic films did the actress, who co-hosted the 29th AVN Awards with Dave Attell and Sunny Leone, appear in ?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[29th AVN Awards]
+Action 1: Search[29th AVN Awards]
+Observation 1: The 29th AVN Awards ceremony, presented by Adult Video News, honored the best pornographic movies and adult entertainment products of 2011 of the United States and took place January 21, 2012, at a new venue, The Joint inside the Hard Rock Hotel and Casino in Paradise, Nevada. Movies or products released between Oct. 1, 2010 and Sept. 30, 2011 were eligible. The ceremony was televised in the United States by Showtime.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[29th AVN Awards]
+Action 1: Search[29th AVN Awards]
+Observation 1: The 29th AVN Awards was a major event in the adult entertainment industry, celebrating achievements in the previous year. While specific details about the 29th AVN Awards are not readily available in a dedicated Wikipedia-style entry, the AVN Awards themselves are a significant annual ceremony.. **General Information about AVN Awards:**. The AVN Awards, often referred to as the "Oscars of Porn," are presented annually by *Adult Video News* magazine. They are considered.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Lookup[co-host]
+Action 2: Lookup[co-host]
+Observation 2: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Dave Attell]
+Action 2: Search[Dave Attell]
+Observation 2: The 29th AVN Awards was a major event in the adult entertainment industry, celebrating achievements in the previous year. While specific details about the 29th AVN Awards are not readily available in a dedicated Wikipedia-style entry, the AVN Awards themselves are a significant annual ceremony.. **General Information about AVN Awards:**. The AVN Awards, often referred to as the "Oscars of Porn," are presented annually by *Adult Video News* magazine. They are considered.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[29th AVN Awards hosts]
+Action 3: Search[29th AVN Awards hosts]
+Observation 3: Could not find 29th AVN Awards hosts. Similar: ['29th AVN Awards', 'Joshua Broome (section Awards and nominations)', 'NightMoves Awards', '30th AVN Awards', '28th AVN Awards'].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Sunny Leone]
+Action 3: Search[Sunny Leone]
+Observation 3: The 29th AVN Awards, celebrating achievements in the adult film industry, were held on January 10, 2012, at the Palms Casino Resort in Las Vegas, Nevada. The ceremony was hosted by **James Deen** and **Andy San Dimas**.. James Deen is an American pornographic actor and director. He has been a prominent figure in the industry for many years, known for his prolific work and numerous awards.. Andy San Dimas is.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Dave Attell]
+Action 4: Search[Dave Attell]
+Observation 4: David Attell (born January 18, 1965)[1][2]  is an American stand-up comedian, actor and writer best known as the host of Comedy Central's Insomniac with Dave Attell.[3]. Attell was born in the New York City borough of Queens to a Jewish family.[4][5] He was raised in Rockville Centre on Long Island.[6] He graduated from South Side High School.[7]. After graduating from New York University in 1987 with a degree in communications, Attell began performing at open-mic nights.[6]. Attell's first appearance on television was in 1988 on VH1's Stand-Up Spotlight, which also featured early appearances by Lewis Black, Margaret Cho, Jeff Garlin, Jay Mohr and Wanda Sykes.[8]. On November 23, 1993, he made his first appearance on Late Show with David Letterman.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[Andy San Dimas]
+Action 4: Search[Andy San Dimas]
+Observation 4: **David Attell** (born January 18, 1965) is an American stand-up comedian, actor, and writer. He is best known for his Comedy Central show, *Insomniac with Dave Attell*, and his distinctive, often dark and observational, comedic style.. **Early Life and Career:**. Attell was born in Queens, New York City. He began his stand-up career in the late 1980s, performing in.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[Sunny Leone]
+Action 5: Search[Sunny Leone]
+Observation 5: Karenjit "Karen"[3][4] Kaur Vohra (born May 13, 1981), known by her stage name Sunny Leone, is a Canadian American actress, model, and former pornographic actress.[5][6] She was named Penthouse Pet of the Year in 2003, was a contract performer for Vivid Entertainment, and was named by Maxim as one of the 12 top porn stars in 2010. She was inducted into the AVN Hall of Fame in 2018.[7]. She has played roles in independent mainstream events, films, and television series. Her first mainstream appearance was in 2005, when she worked as a red carpet reporter for the MTV Video Music Awards on MTV India. In 2011, she participated in the Indian reality television series Bigg Boss.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Search[Sunny Leone]
+Action 5: Search[Sunny Leone]
+Observation 5: **Karenjit Kaur Vohra** (born May 13, 1981), most famously known as **Sunny Leone**, is a Canadian-American former adult film actress, model, and entrepreneur. She transitioned to mainstream acting in Bollywood and other Indian film industries.. Born in Sarnia, Ontario, Canada, to Sikh parents, Leone moved to the United States with her family at a young age. She began her career in the adult film industry in 2003.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Search[Sunny Leone filmography]
+Action 6: Search[Sunny Leone filmography]
+Observation 6: Sunny Leone is a Canadian-American actress, model, and former pornstar,[1][2] currently active in Indian film industry.[3] She was named Penthouse Pet of the Year in 2003, was a contract performer for Vivid Entertainment, and was named by Maxim as one of the 12 top porn stars in 2010. She has played roles in independent mainstream events, films and television shows. Her first mainstream appearance was in 2005, when she worked as a red carpet reporter for the MTV Video Music Awards on MTV India. She participated in the Indian reality television series Bigg Boss (2011–12). She also has been co-hosting the Indian reality TV show Splitsvilla (2014–present).
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Lookup[adult film] in Sunny Leone's Wikipedia page.
+Action 6: Lookup[adult film] in Sunny Leone's Wikipedia page.
+Observation 6: **Sunny Leone Filmography**. Sunny Leone is an Indian-Canadian-American former adult film actress and model who transitioned into mainstream Bollywood cinema. She has appeared in a variety of films across different genres.. **Early Career and Transition to Bollywood**. Leone began her career in the adult film industry, where she gained significant recognition.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Lookup[pornographic]
+Action 7: Lookup[pornographic]
+Observation 7: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Lookup[adult film]
+Action 7: Lookup[adult film]
+Observation 7: **Sunny Leone Filmography**. Sunny Leone is an Indian-Canadian-American former adult film actress and model who transitioned into mainstream Bollywood cinema. She has appeared in a variety of films across different genres.. **Early Career and Transition to Bollywood**. Leone began her career in the adult film industry, where she gained significant recognition.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': '281', 'question_idx': 1438, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 5 
+Number of steps: 12 
+Average reward: 0.4166666666666667 
+Average time 29.798401673634846
+
+-------------------------------------------------------
+

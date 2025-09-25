@@ -1,0 +1,67 @@
+INFO 191 Question: What bird of prey can be found around Brackendale?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Brackendale]
+Action 1: Search[Brackendale]
+Observation 1: Brackendale is the name of two towns in Canada and Australia:. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us. HelpLearn to editCommunity portalRecent changesUpload fileSpecial pages. Donate. Create account.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Brackendale]
+Action 1: Search[Brackendale]
+Observation 1: Brackendale is a community within the **District of Squamish**, British Columbia, Canada. It is located on the eastern side of the Squamish River, directly across from the town of Squamish.. **Geography and Location:**. Brackendale is situated in the Sea to Sky Corridor, a scenic region known for its mountainous terrain and proximity to Howe Sound. The community is nestled between the Tantalus Range to the north and the Coast Mountains to the east.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Brackendale (Canada)]
+Action 2: Search[Brackendale (Canada)]
+Observation 2: Could not find Brackendale (Canada). Similar: ['Brackendale', 'Brackendale, British Columbia', 'Paradise Valley (section Canada)', 'Channel 9 TV stations in Canada', 'Squamish, British Columbia'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[bird of prey]
+Action 2: Lookup[bird of prey]
+Observation 2: Brackendale is a community in the Squamish Valley, British Columbia, Canada. It is located approximately 6 kilometers north of the town of Squamish.. **History:**. The area was first settled by Europeans in the late 19th century, with logging and agriculture being the primary industries. The community grew as a service center for the surrounding rural areas..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Brackendale, British Columbia]
+Action 3: Search[Brackendale, British Columbia]
+Observation 3: Brackendale is a small community in the Canadian province of British Columbia just north of Squamish town centre, but still within the District of Squamish. It is located near the confluence of the Squamish River and the Cheakamus River. It is intersected primarily by Government Road and Depot Road. The CN railway (formerly BC Rail) traverses it north–south. It includes the remarkable "Eagle Run" area, the wintering home of thousands of bald eagles.[1].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Brackendale birds of prey]
+Action 3: Search[Brackendale birds of prey]
+Observation 3: Brackendale is a community in the Squamish-Lillooet Regional District of British Columbia, Canada. It is located on the west side of the Squamish River, approximately 6 kilometres north of the town of Squamish.. **History:**. The area that is now Brackendale was originally inhabited by the Skwxwú7mesh (Squamish) First Nation. European settlement began in the late 19th century, with logging and agriculture being the primary industries.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[bald eagles]
+Action 4: Finish[bald eagles]
+Observation 4: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[bird of prey]
+Action 4: Lookup[bird of prey]
+Observation 4: Brackendale is a community in the Squamish-Lillooet Regional District of British Columbia, Canada. It is located on the west side of the Squamish River, approximately 6 kilometres north of the town of Squamish.. **History:**. The area that is now Brackendale was originally inhabited by the Skwxwú7mesh (Squamish) First Nation. European settlement began in the late 19th century, with logging and agriculture being the primary industries.
+
+
+
+INFO {'steps': 7, 'answer': 'bald eagles', 'gt_answer': 'The bald eagle', 'question_idx': 3898, 'reward': False, 'em': False, 'f1': 0.5}
+
+INFO Sum of rewards: 14 
+Number of steps: 29 
+Average reward: 0.4827586206896552 
+Average time 10.801155246537308
+
+-------------------------------------------------------
+

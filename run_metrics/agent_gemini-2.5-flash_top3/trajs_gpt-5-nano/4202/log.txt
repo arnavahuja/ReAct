@@ -1,0 +1,60 @@
+INFO 4202 Question: Which game was published first, Near and Far or King of Tokyo?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to find the publication date for Near and Far and King of Tokyo, and then compare them.
+Action 1: Search[Near and Far] 
+        Action 1: Search[Near and Far]
+        Observation 1: Near and Far is a board game for 2 to 4 players designed by Ryan Laukat and published by Red Raven Games in 2017. In this map based  storytelling board game,[1] players seek fame and fortune and the eventual discovery of a mysterious last ruin.[2] The gameplay blends resource management with a storybook, with players controlling heroes that equip and provision themselves in a town, and then set out to explore the map, setting up camps and completing quests.[3] The game is a sequel to Laukat's Above and Below, which is set in the same fictional universe (Arzium).[4]. The game can be played as an ongoing, 10 game campaign, with each session being played on a different map.[5]. The game was originally sold via a Kickstarter campaign in July 2016, raising over $520,000 from over 7,000. backers.[6]."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to find the publication date of Near and Far and King of Tokyo, then compare them to determine which one was published first. I will start by searching for "Near and Far".
+Action 1: Search[Near and Far], Search[Near and Far (game)], Search[Near&Far] 
+        Action 1: ['Search[Near and Far]', 'Search[Near and Far (game)]', 'Search[Near&Far]']
+        Observation 1: "
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Near and Far was published in 2017. I need to find the publication date for King of Tokyo.
+Action 1: Search[King of Tokyo] 
+        Action 2: Search[King of Tokyo]
+        Observation 2: King of Tokyo is a monster movie-themed tabletop game using custom dice, cards, and boards, designed by Richard Garfield and released in 2011.[1] A New York City-based edition, King of New York, was published in 2014.[2] The game was re-released in 2016, with all-new artwork and characters.. Players choose one of the six monsters, consisting of mutant monsters, gigantic robots and other creatures. Each monster has no difference from each other apart from name and design. Players take turn rolling six dice, and may reroll some of them as they wish, as in the dice game Yahtzee.[3][4]. Die faces are energy, health, attack, 1, 2, and 3."
+
+SIMULATION TRAJECTORY:
+ Thought 2: The current search resulted in no direct match. I should try to clarify the search for "Near and Far" which might be a board game, or look into similar games.
+Action 2: [Search[Near and Far board game], Lookup[Near], Search[Near and Far (game)]] 
+        Action 2: ['Search[Near and Far board game]', 'Search[Near and Far (game)]', 'Lookup[Near]']
+        Observation 2: "
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Near and Far was published in 2017 and King of Tokyo was released in 2011. Since 2011 is earlier than 2017, King of Tokyo was published first.
+Action 3: Finish[King of Tokyo] 
+        Action 3: Finish[King of Tokyo]
+        Observation 3: Episode finished, reward = 1
+"
+
+SIMULATION TRAJECTORY:
+ Thought 3: Thought 1: Near and Far was published in 2017. Now I need to find the publication date for King of Tokyo to compare.
+Action 1: Search[King of Tokyo] 
+        Action 3: ['Search[King of Tokyo]']
+        Observation 3: "
+
+
+
+INFO {'steps': 5, 'answer': 'King of Tokyo', 'gt_answer': 'King of Tokyo', 'question_idx': 4905, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 3 
+Number of steps: 6 
+Average reward: 0.5 
+Average time 26.101627151171368
+
+--------------------------------------------------
+

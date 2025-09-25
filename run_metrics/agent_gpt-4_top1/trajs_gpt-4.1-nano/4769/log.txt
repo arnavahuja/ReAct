@@ -1,0 +1,53 @@
+INFO 4769 Question: Are Werther and The Odyssey both operas?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Werther]
+Action 1: Search[Werther]
+Observation 1: Werther is an opera (drame lyrique) in four acts by Jules Massenet to a French libretto by Édouard Blau, Paul Milliet and Georges Hartmann (who used the pseudonym Henri Grémont). It is loosely based on Goethe's epistolary novel The Sorrows of Young Werther, which itself was based on Goethe's own early life. Earlier examples of operas using the story were made by Kreutzer (1792) and Pucitta (1802).[1]. Massenet started composing Werther in 1885, completing it in 1887. He submitted it to Léon Carvalho, the director of the Paris Opéra-Comique, that year, but Carvalho declined to accept it on the grounds that the scenario was too serious.[1] With the disruption of the fire at the Opéra-Comique and Massenet's work on other operatic projects (especially Esclarmonde), it was put to one side, until the Vienna Opera, pleased with the success of Manon, asked the composer for a new work.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Werther]
+Action 1: Search[Werther]
+Observation 1: Werther is a small town located in the district of Gotha in Thuringia, Germany. It is best known for its association with the famous German writer Johann Wolfgang von Goethe, who set his novel "The Sorrows of Young Werther" in the town. The novel, published in 1774, is considered a seminal work of the Sturm und Drang literary movement and has had a lasting influence on European literature.. The town of Werther features several historical sites, including the Werther.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[The Odyssey]
+Action 2: Search[The Odyssey]
+Observation 2: The Odyssey (/ˈɒdɪsi/;[1] Ancient Greek: Ὀδύσσεια, romanized: Odýsseia)[2] is one of two major epics of ancient Greek literature attributed to Homer. It is one of the oldest surviving works of literature and remains popular with modern audiences. Like the Iliad, the Odyssey is divided into 24 books. It follows the heroic king of Ithaca, Odysseus, also known by the Latin variant Ulysses, and his homecoming journey after the ten-year long Trojan War. His journey from Troy to Ithaca lasts an additional ten years, during which time he encounters many perils and all of his crewmates are killed.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Werther Opera]
+Action 2: Search[Werther Opera]
+Observation 2: The Odyssey is an ancient Greek epic poem attributed to Homer. It is one of the oldest and most significant works of Western literature, composed in the 8th century BCE. The poem is a sequel to the Iliad and recounts the adventures of Odysseus, the king of Ithaca, as he attempts to return home after the Trojan War.. The narrative of The Odyssey covers a span of ten years during which Odysseus faces numerous challenges, including encounters with mythical creatures such as.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[no]
+Action 3: Finish[no]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[no]
+Action 3: Finish[no]
+Observation 3: The Odyssey is an ancient Greek epic poem attributed to Homer. It is one of the oldest and most significant works of Western literature, composed in the 8th century BCE. The poem is a sequel to the Iliad and recounts the adventures of Odysseus, the king of Ithaca, as he attempts to return home after the Trojan War.. The narrative of The Odyssey covers a span of ten years during which Odysseus faces numerous challenges, including encounters with mythical creatures such as.
+
+
+
+INFO {'steps': 5, 'answer': 'no', 'gt_answer': 'no', 'question_idx': 7038, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 3 
+Number of steps: 5 
+Average reward: 0.6 
+Average time 18.73165383338928
+
+-------------------------------------------------------
+

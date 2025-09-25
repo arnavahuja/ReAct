@@ -1,0 +1,39 @@
+INFO 1076 Question: What kind of creative artist was Howell Conant, famed for his work with Grace Kelly?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Howell Conant]
+Action 1: Search[Howell Conant]
+Observation 1: Howell Thomas Conant, Sr. (March 13, 1916 – March 11, 1999)[2] was an American fashion photographer noted for his portraits of the American actress and later Princess Consort of Monaco, Grace Kelly.[3]. Conant's father was a professional photographer who owned a studio in Marinette, Wisconsin.[4] Conant studied photography at the University of Wisconsin and at the Art Center College of Design in Pasadena. During World War II Conant was stationed at Pearl Harbor[5] and was part of the Naval photographic team operating under Admiral Chester W. Nimitz.[4] Conant later took pictures for Life, Look and Paris Match among other publications, and photographed celebrities from Elizabeth Taylor and Audrey Hepburn to American presidents Richard Nixon and John F.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Howell Conant]
+Action 1: Search[Howell Conant]
+Observation 1: Howell Conant (born 1927) is an American photographer known for his portraits of prominent figures in the arts, politics, and literature.. **Early Life and Career:**. Conant began his career in the 1950s, quickly establishing himself as a sought-after portraitist. His work often captured the essence of his subjects with a candid and intimate style.. **Notable Subjects:**.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[fashion photographer]
+Action 2: Finish[fashion photographer]
+Observation 2: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Finish[photographer]
+Action 2: Finish[photographer]
+Observation 2: Howell Conant (born 1927) is an American photographer known for his portraits of prominent figures in the arts, politics, and literature.. **Early Life and Career:**. Conant began his career in the 1950s, quickly establishing himself as a sought-after portraitist. His work often captured the essence of his subjects with a candid and intimate style.. **Notable Subjects:**.
+
+
+
+INFO {'steps': 3, 'answer': 'fashion photographer', 'gt_answer': 'photographer', 'question_idx': 6635, 'reward': False, 'em': False, 'f1': 0.6666666666666666}
+
+INFO Sum of rewards: 14 
+Number of steps: 40 
+Average reward: 0.35 
+Average time 27.47313442826271
+
+-------------------------------------------------------
+

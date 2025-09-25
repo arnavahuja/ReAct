@@ -1,0 +1,53 @@
+INFO 3623 Question: What is the war that No. 22 Squadron RAAF followed as far as the Philippines sometimes called?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[No. 22 Squadron RAAF]
+Action 1: Search[No. 22 Squadron RAAF]
+Observation 1: No. 22 (City of Sydney) Squadron is a Royal Australian Air Force (RAAF) mixed Permanent and Reserve squadron that provides support for the RAAF in the Sydney region. Formed in 1936, the squadron served in Papua New Guinea during the Second World War, and later followed the Pacific War as far as the Philippines. Following the war, the squadron was re-formed in 1948 but was converted to a non-flying support role in mid-1960. It is currently based at RAAF Base Richmond, New South Wales..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[No. 22 Squadron RAAF]
+Action 1: Search[No. 22 Squadron RAAF]
+Observation 1: No. 22 Squadron RAAF is a Royal Australian Air Force (RAAF) squadron that was formed in 1936. The squadron has a long history of service, including during World War II where it operated in the European and Pacific theaters. No. 22 Squadron RAAF has been involved in various operations and exercises, contributing to the RAAF's overall capabilities.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Pacific War]
+Action 2: Search[Pacific War]
+Observation 2: Allied occupation of Japan. Second Sino-Japanese War. Mediterranean and Middle East. The Pacific War, sometimes called the Asia–Pacific War or the Pacific Theater,[37] was the theater of World War II fought between the Empire of Japan and the Allies in East and Southeast Asia, the Pacific and Indian Oceans, and Oceania. It was geographically the largest theater of the war, including the Pacific Ocean theater, the South West Pacific theater, the Second Sino-Japanese War, and the brief Soviet–Japanese War, and included some of the largest naval battles in history.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[Philippines]
+Action 2: Lookup[Philippines]
+Observation 2: The Pacific War, also known as the Asia-Pacific War, was a major theater of World War II that took place in the Pacific and East Asia. It was fought between the Allies, primarily the United States, United Kingdom, and Australia, against the Axis powers, primarily Japan. The conflict began on December 7, 1941, when Japan launched a surprise attack on the United States naval base at Pearl Harbor in Hawaii. This attack led to the United States' entry into World War II..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Asia-Pacific War or the Pacific Theater]
+Action 3: Finish[Asia-Pacific War or the Pacific Theater]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Asia-Pacific War]
+Action 3: Finish[Asia-Pacific War]
+Observation 3: The Pacific War, also known as the Asia-Pacific War, was a major theater of World War II that took place in the Pacific and East Asia. It was fought between the Allies, primarily the United States, United Kingdom, and Australia, against the Axis powers, primarily Japan. The conflict began on December 7, 1941, when Japan launched a surprise attack on the United States naval base at Pearl Harbor in Hawaii. This attack led to the United States' entry into World War II..
+
+
+
+INFO {'steps': 5, 'answer': 'Asia-Pacific War or the Pacific Theater', 'gt_answer': 'the Asia-Pacific War', 'question_idx': 5034, 'reward': False, 'em': False, 'f1': 0.5714285714285715}
+
+INFO Sum of rewards: 1 
+Number of steps: 7 
+Average reward: 0.14285714285714285 
+Average time 28.067316838673182
+
+-------------------------------------------------------
+

@@ -1,0 +1,53 @@
+INFO 1477 Question: Who was born first, Aleksandr Ivanovsky or Arthur Lubin?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Aleksandr Ivanovsky]
+Action 1: Search[Aleksandr Ivanovsky]
+Observation 1: Aleksandr Viktorovich Ivanovsky (Russian: Александр Викторович Ивановский; November 29, 1881 – January 12, 1968) was a screenwriter and film director in the Soviet Union.[1] He was awarded the Stalin Prize in 1941, for his work on the 1940 film Musical Story. His 1944 operetta film Silva was one of the most popular releases in the Soviet Union that year.[2]. This article about a Soviet film director is a stub. You can help Wikipedia by expanding it.. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Aleksandr Ivanovsky]
+Action 1: Search[Aleksandr Ivanovsky]
+Observation 1: Aleksandr Ivanovsky (Russian: Александр Иванович Ивановский) was a prominent Russian film director and screenwriter. He is best known for his work in the Soviet era, particularly for his contributions to historical dramas and biographical films.. Born in 1893, Ivanovsky began his career in filmmaking in the early days of Soviet cinema. He worked with many of the leading figures of the time and developed a distinctive directorial style characterized by its visual richness and dramatic storytelling.. Throughout his career,.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Arthur Lubin]
+Action 2: Search[Arthur Lubin]
+Observation 2: Arthur Lubin (July 25, 1898 – May 11, 1995) was an American film director and producer who directed several Abbott & Costello films, Phantom of the Opera (1943), the Francis the Talking Mule series and created the talking-horse TV series Mister Ed. A prominent director for Universal Pictures in the 1940s and 1950s, he is perhaps best known today as the man who gave Clint Eastwood his first contract in film.. Arthur William Lubovsky was born in Los Angeles in 1898.[1] His father, William Lubovsky, had come to the US from Poland in 1889. He originally lived in Willsborough, Pennsylvania then moved to California. Lubovsky changed his name to Lubin in honour of filmmaker Siegmund Lubin and became a salesman.[2] Lubin says his father "became quite wealthy" due to his success selling clothes and investments in copper mines in Arizona.[3].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Arthur Lubin]
+Action 2: Search[Arthur Lubin]
+Observation 2: Arthur Lubin (1903 – 1997) was an American film and television director, producer, and actor. He was known for his work in Hollywood, particularly for his comedies and musicals.. **Early Life and Career:**. Born in New York City, Lubin began his career as an actor on Broadway and in early sound films. He transitioned to directing in the late 1930s, working for various studios..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Aleksandr Ivanovsky]
+Action 3: Finish[Aleksandr Ivanovsky]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Aleksandr Ivanovsky]
+Action 3: Finish[Aleksandr Ivanovsky]
+Observation 3: Arthur Lubin (1903 – 1997) was an American film and television director, producer, and actor. He was known for his work in Hollywood, particularly for his comedies and musicals.. **Early Life and Career:**. Born in New York City, Lubin began his career as an actor on Broadway and in early sound films. He transitioned to directing in the late 1930s, working for various studios..
+
+
+
+INFO {'steps': 5, 'answer': 'Aleksandr Ivanovsky', 'gt_answer': 'Aleksandr Ivanovsky', 'question_idx': 979, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 2 
+Number of steps: 11 
+Average reward: 0.18181818181818182 
+Average time 9.464562524448741
+
+-------------------------------------------------------
+

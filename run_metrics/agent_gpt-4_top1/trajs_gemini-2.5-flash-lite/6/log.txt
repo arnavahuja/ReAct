@@ -1,0 +1,67 @@
+INFO 6 Question: The Argentine PGA Championship record holder has won how many tournaments worldwide?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Argentine PGA Championship record holder]
+Action 1: Search[Argentine PGA Championship record holder]
+Observation 1: Could not find Argentine PGA Championship record holder. Similar: ['Argentine PGA Championship', 'The Open Championship', '2019 Open Championship', 'Timeline of golf history (1945–1999)', '1967 in sports'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Argentine PGA Championship record holder]
+Action 1: Search[Argentine PGA Championship record holder]
+Observation 1: The Argentine PGA Championship is a professional golf tournament held annually in Argentina. The record holder for the most wins at the Argentine PGA Championship is **Roberto De Vicenzo**, who has won the tournament **five times**.. De Vicenzo's victories came in the following years:. *   1944. *   1945.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Argentine PGA Championship]
+Action 2: Search[Argentine PGA Championship]
+Observation 2: The Argentine PGA Championship is a golf tournament played in Argentina since 1920. It was generally supported by the leading Argentine golfers and its list of champions includes Eduardo Romero (8 times), José Jurado (7 times), Vicente Fernández (5 times), José Cóceres (twice) and Ángel Cabrera.[1] However, the record holder is former British Open champion Roberto De Vicenzo, who recorded 16 victories between 1944 and 1985.[2]. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us. HelpLearn to editCommunity portalRecent changesUpload fileSpecial pages. Donate.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Roberto De Vicenzo]
+Action 2: Search[Roberto De Vicenzo]
+Observation 2: The Argentine PGA Championship is a professional golf tournament held annually in Argentina. It is one of the most prestigious events on the PGA Tour of Argentina.. **History:**. The tournament has a long and storied history, dating back to its inception in [Insert Year if known, otherwise state "the mid-20th century" or similar]. It has been a significant event for Argentine golfers, providing a platform to showcase their talent and compete against both domestic and international players.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Roberto De Vicenzo]
+Action 3: Search[Roberto De Vicenzo]
+Observation 3: Roberto De Vicenzo (14 April 1923 – 1 June 2017) was a professional golfer from Argentina. He won a record 229 professional tournaments worldwide during his career, including seven on the PGA Tour[1] and most famously the 1967 Open Championship.[2][3] He is perhaps best remembered for signing an incorrect scorecard that kept him out of a playoff for the 1968 Masters Tournament.[4]. De Vicenzo was born on 14 April 1923 in Villa Ballester, a northern suburb of Buenos Aires, Argentina. He was raised in the Villa Pueyrredón neighborhood of Buenos Aires, and acquired the game of golf as a caddie. He developed his skills at the Ranelagh Golf Club, and later relocated to the town of the same name..
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[record holder]
+Action 3: Lookup[record holder]
+Observation 3: Roberto De Vicenzo (1923 – 2017) was an Argentine professional golfer. He is widely regarded as one of the greatest golfers from South America and a significant figure in the history of the sport.. **Early Life and Career:**. Born in Buenos Aires, Argentina, De Vicenzo turned professional in 1944. He quickly established himself as a dominant force in South American golf, winning numerous tournaments across the continent.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[229]
+Action 4: Finish[229]
+Observation 4: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[won tournaments]
+Action 4: Lookup[won tournaments]
+Observation 4: Roberto De Vicenzo (1923 – 2017) was an Argentine professional golfer. He is widely regarded as one of the greatest golfers from South America and a significant figure in the history of the sport.. **Early Life and Career:**. Born in Buenos Aires, Argentina, De Vicenzo turned professional in 1944. He quickly established himself as a dominant force in South American golf, winning numerous tournaments across the continent.
+
+
+
+INFO {'steps': 7, 'answer': '229', 'gt_answer': '230', 'question_idx': 115, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 3 
+Number of steps: 8 
+Average reward: 0.375 
+Average time 26.05834048986435
+
+-------------------------------------------------------
+

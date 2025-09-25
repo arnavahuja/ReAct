@@ -1,0 +1,93 @@
+INFO 373 Question: What contest did Drew Barry's younger brother win in 1996?
+
+STEP: 1
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+NORMAL TRAJECTORY:
+ Thought 1: Thought: I should look up Drew Barry to identify his younger brother and the 1996 contest he won.
+
+Action 1: Search[Drew Barry] 
+        Action 1: Search[Drew Barry]
+        Observation 1: Drew William Barry (born February 17, 1973) is an American former professional basketball player. He is the son of Basketball Hall of Famer Rick Barry and has four brothers: Scooter, Jon, Canyon and Brent, who also share his profession. His grandfather Bruce Hale also played in the NBA and was Rick's college coach at Miami of Florida. His stepmother is Lynn Barry.. Born in Oakland, California, Barry graduated from De La Salle High School in Concord in 1991 and played four seasons with the Yellow Jackets basketball team at the Georgia Institute of Technology (Georgia Tech) after redshirting his freshman year."
+
+SIMULATION TRAJECTORY:
+ Thought 1:  
+        Action 1: ['Search[Drew Barry]']
+        Observation 1: Drew Barrymore is an American actress, producer, director, and author, born on February 22, 1975, in Culver City, California. She is a member of the Barrymore family of actors, which has a long history in the entertainment industry. Barrymore gained fame as a child actress with her role in the film "E.T. the Extra-Terrestrial" (1982), directed by Steven Spielberg, which established her as a household name at a young age.."
+
+
+
+STEP: 2
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+STEP: 3
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+STEP: 4
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+STEP: 5
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+STEP: 6
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+NORMAL TRAJECTORY:
+ Thought 6:  
+        Action 6: Search[Drew Barry]
+        Observation 6: Drew William Barry (born February 17, 1973) is an American former professional basketball player. He is the son of Basketball Hall of Famer Rick Barry and has four brothers: Scooter, Jon, Canyon and Brent, who also share his profession. His grandfather Bruce Hale also played in the NBA and was Rick's college coach at Miami of Florida. His stepmother is Lynn Barry.. Born in Oakland, California, Barry graduated from De La Salle High School in Concord in 1991 and played four seasons with the Yellow Jackets basketball team at the Georgia Institute of Technology (Georgia Tech) after redshirting his freshman year."
+
+SIMULATION TRAJECTORY:
+ Thought 6:  
+        Action 6: ['Search[Drew Barry]', 'Lookup[1996]', 'Finish[NBA Slam Dunk Contest]']
+        Observation 6: Drew Barrymore is an American actress, producer, director, and author, born on February 22, 1975, in Culver City, California. She is a member of the Barrymore family of actors, which has a long-standing history in the entertainment industry. Barrymore gained fame as a child actress with her role in the film "E.T. the Extra-Terrestrial" (1982), directed by Steven Spielberg, which established her as a household name.. Throughout her career."
+
+
+
+STEP: 7
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+INFO {'steps': 5, 'answer': '', 'gt_answer': 'the 1996 NBA Slam Dunk Contest', 'question_idx': 4463, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 0 
+Number of steps: 3 
+Average reward: 0.0 
+Average time 339.9230686823527
+
+--------------------------------------------------
+

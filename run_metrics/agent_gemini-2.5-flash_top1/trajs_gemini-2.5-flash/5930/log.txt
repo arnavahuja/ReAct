@@ -1,0 +1,70 @@
+INFO 5930 Question: Where is the movie from that is directed by Raymond Yip and stars the winner of Miss Chinese International Pageant of 1988?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Raymond Yip]
+Action 1: Search[Raymond Yip]
+Observation 1: Raymond Yip Wai-man (葉偉民) is a film director from Hong Kong.[1]. This article about an Asian film director is a stub. You can help Wikipedia by expanding it.. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us. HelpLearn to editCommunity portalRecent changesUpload fileSpecial pages.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Raymond Yip]
+Action 1: Search[Raymond Yip]
+Observation 1: **Raymond Yip Wai-man (葉偉民)** is a Hong Kong film director and screenwriter. He is known for his work in various genres, including horror, comedy, and action.. **Early Life and Career:**. Information regarding Raymond Yip's early life and education is not widely available in public sources. He began his career in the Hong Kong film industry in the late 1980s and early 1990s, initially working as an assistant director.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Miss Chinese International Pageant of 1988]
+Action 2: Search[Miss Chinese International Pageant of 1988]
+Observation 2: Could not find Miss Chinese International Pageant of 1988. Similar: ['Miss Chinese International Pageant', 'Miss Chinese International Pageant 1988', 'Miss Chinese Vancouver Pageant', 'Miss Hong Kong Pageant', 'Miss Chinese Toronto Pageant'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Miss Chinese
+Action 2: Search[Miss Chinese
+Observation 2: The **Miss Chinese International Pageant 1988** was the first-ever Miss Chinese International Pageant, held on January 17, 1988, at the Hong Kong Coliseum in Hong Kong. The pageant was organized and broadcast by TVB in Hong Kong.. The pageant featured 17 delegates from various cities around the world with significant Chinese populations. The primary goal of the pageant was to unite Chinese communities globally and celebrate Chinese culture and beauty.. **Results.
+
+
+
+STEP: 3
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Miss Chinese International Pageant 1988]
+Action 3: Search[Miss Chinese International Pageant 1988]
+Observation 3: Miss Chinese International Pageant 1988, the 1st Miss Chinese International Pageant was held on October 2, 1988 in Hong Kong. The pageant was organized and broadcast by TVB in Hong Kong. At the end of the pageant, Run Run Shaw crowned Michelle Reis of Hong Kong as the first Miss Chinese International. Hong Kong would not win the pageant, until 12 years later when Sonija Kwok won the crown in 2000.. The theme to this year's pageant is "Chinese Light Shines Throughout the World, TVB Makes New History" 「華裔光采耀全球  無線電視創新猶」.
+
+SIMULATION TRAJECTORY:
+ Thought 3: None
+Action 3: Lookup[winner]
+Observation 3: The **Miss Chinese International Pageant 1988** was the inaugural edition of the Miss Chinese International Pageant, held on January 18, 1988, at the Hong Kong Coliseum in Hong Kong. The event was organized and broadcast by TVB.. **Results**. | Final Results | Contestant | Country/Region |. |---|---|---|.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[Hong Kong]
+Action 4: Finish[Hong Kong]
+Observation 4: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[Final Results]
+Action 4: Lookup[Final Results]
+Observation 4: The **Miss Chinese International Pageant 1988** was the inaugural edition of the Miss Chinese International Pageant, held on January 18, 1988, at the Hong Kong Coliseum in Hong Kong. The event was organized and broadcast by TVB.. **Results**. | Final Results | Contestant | Country/Region |. |---|---|---|.
+
+
+
+INFO {'steps': 7, 'answer': 'Hong Kong', 'gt_answer': 'Hong Kong', 'question_idx': 1224, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 7 
+Number of steps: 21 
+Average reward: 0.3333333333333333 
+Average time 14.126863411494664
+
+-------------------------------------------------------
+

@@ -1,0 +1,53 @@
+INFO 199 Question: Butautas tried to depose his uncle who between which years ?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Butautas]
+Action 1: Search[Butautas]
+Observation 1: Butautas (baptized Henryk; died on May 7, 1380, in Prague) was a son of Kęstutis, Grand Duke of Lithuania.[1] He attempted to depose his uncle Algirdas and usurp power in Lithuania, but failed and was forced into exile.[1] He joined the court of the Holy Roman Emperor and even inspired a poem about conversion to Christianity.[1] Butautas is sometimes confused with his brother Vaidotas.[2]. Butautas' son Jonas Vaidutis in 1401 became the Rector of the Jagiellonian University in Kraków.[1]. The first written record about Butautas comes from Jan Długosz. The historian describes Lithuanian raids into Masuria in 1336 and mentions Butautas, son of Gediminas. Because of confused fathers, this information is not considered reliable.[3].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Butautas]
+Action 1: Search[Butautas]
+Observation 1: **Butautas** (died 1381) was a Lithuanian prince, son of Kęstutis, Grand Duke of Lithuania, and brother of Vytautas the Great. He is primarily known for his defection to the Teutonic Knights and his subsequent attempts to claim the Lithuanian throne.. **Early Life and Family:**. Butautas was born into the powerful Gediminid dynasty, which ruled the Grand Duchy of Lithuania. His father, Kęstutis, was a.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Algirdas]
+Action 2: Search[Algirdas]
+Observation 2: Algirdas[a] (c. 1296 – May 1377) was Grand Duke of Lithuania from 1345 to 1377.[1] With the help of his brother Kęstutis (who defended the western border of the Duchy) he created an empire stretching from the present Baltic states to the Black Sea and to within 80 kilometres (50 miles) of Moscow.[2]. Algirdas was one of the seven sons of Grand Duke Gediminas. Before his death in 1341, Gediminas divided his domain, leaving his youngest son Jaunutis in possession of the capital, Vilnius. With the aid of his brother, Kęstutis, Algirdas drove out the incompetent Jaunutis and declared himself Grand Duke in 1345. He devoted the next thirty-two years to the development and expansion of the Grand Duchy of Lithuania.[3].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[depose his uncle]
+Action 2: Lookup[depose his uncle]
+Observation 2: **Algirdas** (Lithuanian: *Algirdas*; Belarusian: Альгерд, *Alhierd*; Polish: *Olgierd*; c. 1296 – May 1377) was the Grand Duke of Lithuania from 1345 to 1377. He ruled over a vast and expanding state, significantly increasing its territory and influence, and is considered one of the most successful rulers in Lithuanian history.. **Early Life.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[1345 and 1377]
+Action 3: Finish[1345 and 1377]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[1345 and 1377]
+Action 3: Finish[1345 and 1377]
+Observation 3: **Algirdas** (Lithuanian: *Algirdas*; Belarusian: Альгерд, *Alhierd*; Polish: *Olgierd*; c. 1296 – May 1377) was the Grand Duke of Lithuania from 1345 to 1377. He ruled over a vast and expanding state, significantly increasing its territory and influence, and is considered one of the most successful rulers in Lithuanian history.. **Early Life.
+
+
+
+INFO {'steps': 5, 'answer': '1345 and 1377', 'gt_answer': 'from 1345 to 1377', 'question_idx': 6936, 'reward': False, 'em': False, 'f1': 0.5714285714285715}
+
+INFO Sum of rewards: 9 
+Number of steps: 16 
+Average reward: 0.5625 
+Average time 11.140685260295868
+
+-------------------------------------------------------
+

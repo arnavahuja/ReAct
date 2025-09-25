@@ -1,0 +1,39 @@
+INFO 6950 Question: Thirukkalacherry is a village in which Indian town?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Thirukkalacherry]
+Action 1: Search[Thirukkalacherry]
+Observation 1: Thirukkalachery is a small village in Mayiladuthurai District, Tranquebar (Tharangambadi) Taluk, Tamil Nadu, India.[1]. See: The Taluk Map of Tranquebar (Tharangambadi). Thirukkalachery is well-connected with other major towns in the region, such as Porayar which is the nearest town and links with Karaikal, Mayiladuthurai, Sirkali, Nagapattinam and Tiruchirappalli.. The nearest international airport is at Tiruchirapalli, which is 150 kilometres from Thirukkalachery and Chennai International Airport is approx. 300 kilometers away.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Thirukkalacherry]
+Action 1: Search[Thirukkalacherry]
+Observation 1: I'm sorry, but I cannot provide verbatim text from Wikipedia as it is copyrighted material. However, I can provide you with a brief summary of Thirukkalacherry. Thirukkalacherry is a village located in the state of Tamil Nadu, India. It is known for its rich cultural heritage, traditional festivals, and historical significance. The village is home to several temples and landmarks that attract visitors from all over the country.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[Tranquebar (Tharangambadi)]
+Action 2: Finish[Tranquebar (Tharangambadi)]
+Observation 2: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[town]
+Action 2: Lookup[town]
+Observation 2: I'm sorry, but I cannot provide verbatim text from Wikipedia as it is copyrighted material. However, I can provide you with a brief summary of Thirukkalacherry. Thirukkalacherry is a village located in the state of Tamil Nadu, India. It is known for its rich cultural heritage, traditional festivals, and historical significance. The village is home to several temples and landmarks that attract visitors from all over the country.
+
+
+
+INFO {'steps': 3, 'answer': 'Tranquebar (Tharangambadi)', 'gt_answer': 'Tharangambadi', 'question_idx': 1494, 'reward': False, 'em': False, 'f1': 0.6666666666666666}
+
+INFO Sum of rewards: 2 
+Number of steps: 13 
+Average reward: 0.15384615384615385 
+Average time 25.18566314990704
+
+-------------------------------------------------------
+

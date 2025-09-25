@@ -1,0 +1,39 @@
+INFO 4903 Question: In what league does the team play that has Marko Dmitrović as a player ?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Marko Dmitrović]
+Action 1: Search[Marko Dmitrović]
+Observation 1: Marko Dmitrović (Serbian Cyrillic: Марко Дмитровић, pronounced [mâːrko dmîtroʋitɕ]; born 24 January 1992) is a Serbian professional footballer who plays for La liga club  Espanyol as a goalkeeper. He has also previously played for the Serbia national team.. Born in Subotica, Dmitrović was a Red Star Belgrade youth graduate, being promoted to the main squad in 2010.[citation needed] On 3 September 2013, after not making appearances for its senior team, he moved to Nemzeti Bajnokság I club Újpest FC in Hungary.[4] Dmitrović made his professional debut on 1 March 2014, starting in a 3–2 away loss against Budapest Honvéd FC.[citation needed] He finished the campaign with 12 appearances, as his side narrowly avoided relegation[citation needed]. On 6 January 2015, Dmitrović signed an 18-month contract with Charlton Athletic for an undisclosed fee.[5] He made his debut for the club on 24 January, starting in a goalless away draw against Wolverhampton Wanderers.[6]. On 27 July 2015, Dmitrović moved to Spanish Segunda División club AD Alcorcón on a-year loan.[7] The following year on 7 July, after being an undisputed starter, he signed a permanent three-year contract with the club.[8].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Marko Dmitrović]
+Action 1: Search[Marko Dmitrović]
+Observation 1: **Marko Dmitrović** (Serbian Cyrillic: Марко Дмитровић; born 24 January 1992) is a Serbian professional footballer who plays as a goalkeeper for Spanish club Sevilla and the Serbia national team.. **Club Career**. Dmitrović began his senior career in Serbia with **Srem Jakovo** before moving to **Spartak Subotica**. He then joined **OFK Beograd**, where he made his Serbian SuperLiga.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[La Liga]
+Action 2: Finish[La Liga]
+Observation 2: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Sevilla FC]
+Action 2: Search[Sevilla FC]
+Observation 2: **Marko Dmitrović** (Serbian Cyrillic: Марко Дмитровић; born 24 January 1992) is a Serbian professional footballer who plays as a goalkeeper for Spanish club Sevilla and the Serbia national team.. **Club Career**. Dmitrović began his senior career in Serbia with **Srem Jakovo** before moving to **Spartak Subotica**. He then joined **OFK Beograd**, where he made his Serbian SuperLiga.
+
+
+
+INFO {'steps': 3, 'answer': 'La Liga', 'gt_answer': 'La Liga', 'question_idx': 6351, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 17 
+Number of steps: 48 
+Average reward: 0.3541666666666667 
+Average time 25.513583729664486
+
+-------------------------------------------------------
+

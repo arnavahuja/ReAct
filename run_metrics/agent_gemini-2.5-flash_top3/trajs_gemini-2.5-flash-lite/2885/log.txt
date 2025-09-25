@@ -1,0 +1,60 @@
+INFO 2885 Question: Are Rob Parissi and Robert Pollard both musicians
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to search Rob Parissi and Robert Pollard, find their professions, then find if they are both musicians.
+Action 1: Search[Rob Parissi] 
+        Action 1: Search[Rob Parissi]
+        Observation 1: Robert Parissi (born 29 December 1950) is an American singer, songwriter, and musician, best known as frontman for the American funk group Wild Cherry.[1][2] He also wrote the group's only hit, the 1976 chart-topping "Play That Funky Music".[3] He was raised in the steel mill town of Mingo Junction, Ohio. He graduated from Mingo High School in 1968. Rob formed the band Wild Cherry in 1970 in Steubenville, Ohio, one mile north of Mingo Junction along the Ohio River. The band played the Ohio Valley region, Wheeling, West Virginia and the rest of the Northern West Virginia panhandle, and Pittsburgh, Pennsylvania.. After Wild Cherry disbanded in 1979 without another major hit, Parissi became a producer and dedicated himself to adult contemporary music."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to search Rob Parissi and Robert Pollard, find their professions, then find if they are both musicians.
+Action 1: Search[Rob Parissi],Search[Robert Pollard],Lookup[musicians] 
+        Action 1: ['Search[Rob Parissi]', 'Search[Robert Pollard]', 'Lookup[musicians]']
+        Observation 1: **Rob Parissi** is an American musician, songwriter, and record producer, best known as the founder and frontman of the funk band **Wild Cherry**.. Born in **Mingo Junction, Ohio**, Parissi displayed an early aptitude for music. He formed Wild Cherry in the early 1970s, initially as a trio with bassist Allen Wentz and drummer Ron Beitle. The band relocated to Columbus, Ohio, and later to Los Angeles, California, in pursuit of a record."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Rob Parissi is a musician. I need to search Robert Pollard next and find his profession.
+Action 2: Search[Robert Pollard] 
+        Action 2: Search[Robert Pollard]
+        Observation 2: Robert Ellsworth Pollard Jr.[1] (born October 31, 1957)[2] is an American singer and songwriter. He is the frontman and leader of indie rock band Guided by Voices, of which he is also the only constant member. In addition to this, he has also released 22 solo albums.. He has nearly 3,000 songs registered to his name with BMI.[1] In 2006, Paste magazine listed him as the 78th-greatest living songwriter.[3] In 2007, he was nominated for the Shortlist Music Prize.[4]. Pollard was born in Dayton, Ohio, where he has lived all his life."
+
+SIMULATION TRAJECTORY:
+ Thought 2: Rob Parissi is a musician. I need to search Robert Pollard next and find his profession to determine if he is also a musician.
+Action 2: Search[Robert Pollard], Search[Robert Pollard musician], Lookup[musician] 
+        Action 2: ['Search[Robert Pollard]', 'Search[Robert Pollard musician]', 'Lookup[musician]']
+        Observation 2: Robert Pollard (born July 31, 1957) is an American musician, singer, songwriter, and record producer. He is best known as the frontman and primary songwriter for the influential indie rock band Guided by Voices, which he formed in 1983. Pollard is renowned for his prolific output, distinctive vocal style, and a vast catalog of songs characterized by lo-fi production, surreal lyrics, and catchy, often anthemic, melodies.. **Early Life and."
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Robert Pollard is a singer and songwriter, which means he is also a musician. Since both Rob Parissi and Robert Pollard are musicians, the answer is yes.
+Action 3: Finish[yes] 
+        Action 3: Finish[yes]
+        Observation 3: Episode finished, reward = 1
+"
+
+SIMULATION TRAJECTORY:
+ Thought 3: Both Rob Parissi and Robert Pollard are musicians. Therefore, I can conclude that they are both musicians.
+Action 3: [Finish[yes], Search[musician], Lookup[musician]] 
+        Action 3: ['Search[musician]', 'Lookup[musician]', 'Finish[yes]']
+        Observation 3: Robert Pollard (born July 31, 1957) is an American musician, singer, songwriter, and record producer. He is best known as the frontman and primary songwriter for the influential indie rock band Guided by Voices, which he formed in 1983. Pollard is renowned for his prolific output, distinctive vocal style, and a vast catalog of songs characterized by lo-fi production, surreal lyrics, and catchy, often anthemic, melodies.. **Early Life and."
+
+
+
+INFO {'steps': 5, 'answer': 'yes', 'gt_answer': 'yes', 'question_idx': 2628, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 9 
+Number of steps: 17 
+Average reward: 0.5294117647058824 
+Average time 12.214585640851189
+
+--------------------------------------------------
+

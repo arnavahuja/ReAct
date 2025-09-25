@@ -1,0 +1,53 @@
+INFO 6031 Question: Which formed first, Fireflight or Dirty Three?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Fireflight]
+Action 1: Search[Fireflight]
+Observation 1: Fireflight is an American Christian rock band formed in Eustis, Florida, in 1999.[1] The band was signed by Flicker Records.. The band currently consists of vocalist Dawn Michele, Glenn and Wendy Drennen, guitarist and bassist respectively, and guitarist Justin Cox (who left in 2013 but rejoined in 2019). They have released seven studio albums and have played in tours, including ShoutFest, Revelation Generation and Winter Jam. The band has also been featured on the Scars Remain tour with Disciple, Family Force 5, and Decyfer Down. Their fourth full-length album For Those Who Wait (2010) was nominated in the 2011 Grammy Awards..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Fireflight]
+Action 1: Search[Fireflight]
+Observation 1: Fireflight is an American Christian rock band formed in Eustis, Florida in 1999. The band consists of Dawn Michele (vocals), Wendy Drennen (bass, backing vocals), Glenn Drennen (guitars), and Adam McMillion (drums). Fireflight's music is characterized by its hard rock sound with elements of alternative rock and post-grunge. They have released several albums, including "The Healing of Harms" (2006), ".
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Dirty Three]
+Action 2: Search[Dirty Three]
+Observation 2: Dirty Three are an Australian instrumental rock band, consisting of Warren Ellis (violin, keyboards), Mick Turner (electric guitar, organ and bass) and Jim White (drums), which formed in 1992.[2] Their 1996 album Horse Stories was voted by Rolling Stone as one of the top three albums of the year.[citation needed] Two of their albums have peaked into the top 50 on the ARIA Albums Chart, Ocean Songs (1998) and Toward the Low Sun (2012). During their career they have spent much of their time overseas when not performing together. Turner is based in Melbourne, White lives in New York, and Ellis in Paris. Australian rock music historian Ian McFarlane described them as providing a "rumbling, dynamic sound incorporated open-ended, improvisational, electric rock ... minus the jazz-rock histrionics".
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Dirty Three]
+Action 2: Search[Dirty Three]
+Observation 2: Dirty Three is an instrumental rock band from Melbourne, Australia, consisting of Warren Ellis (violin), Mick Turner (guitar), and Jim White (drums). Formed in 1992, the band is known for their unique blend of folk, rock, and post-rock elements. They have released several critically acclaimed albums, including "Horse Stories" and "Ocean Songs". Dirty Three is renowned for their intense and emotive live performances, often characterized by improvisation and a raw, visceral.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Dirty Three]
+Action 3: Finish[Dirty Three]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Dirty Three]
+Action 3: Finish[Dirty Three]
+Observation 3: Dirty Three is an instrumental rock band from Melbourne, Australia, consisting of Warren Ellis (violin), Mick Turner (guitar), and Jim White (drums). Formed in 1992, the band is known for their unique blend of folk, rock, and post-rock elements. They have released several critically acclaimed albums, including "Horse Stories" and "Ocean Songs". Dirty Three is renowned for their intense and emotive live performances, often characterized by improvisation and a raw, visceral.
+
+
+
+INFO {'steps': 5, 'answer': 'Dirty Three', 'gt_answer': 'Dirty Three', 'question_idx': 2856, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 5 
+Number of steps: 24 
+Average reward: 0.20833333333333334 
+Average time 26.653465966383617
+
+-------------------------------------------------------
+

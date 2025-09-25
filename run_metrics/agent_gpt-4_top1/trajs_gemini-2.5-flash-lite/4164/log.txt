@@ -1,0 +1,124 @@
+INFO 4164 Question: What year was the brother of this first round draft pick by the Washington Redskins drafted?
+
+STEP: 1
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[First round draft pick by the Washington Redskins]
+Action 1: Search[First round draft pick by the Washington Redskins]
+Observation 1: Could not find First round draft pick by the Washington Redskins. Similar: ['List of Washington Commanders first-round draft picks', 'List of Dallas Cowboys first-round draft picks', 'List of Chicago Bears first-round draft picks', 'List of Cleveland Browns first-round draft picks', 'List of first overall NFL draft picks'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: None
+Action 1: Search[Washington Redskins first round draft picks]
+Observation 1: The Washington Redskins (now Washington Commanders) have a long history of selecting players in the first round of the NFL Draft. Here's a look at some notable first-round draft picks:. **Notable First-Round Draft Picks:**. *   **Sammy Baugh (1937):** A legendary quarterback and punter, Baugh was the Redskins' first-ever first-round pick. He led the team to three NFL championships and is a member of the Pro Football Hall.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[List of Washington Commanders first-round draft picks]
+Action 2: Search[List of Washington Commanders first-round draft picks]
+Observation 2: The Washington Commanders are a professional American football franchise based in the Washington metropolitan area. They are members of the East division in the National Football Conference (NFC) of the National Football League (NFL). The Commanders were founded in 1932 as the Boston Braves, named after the local baseball franchise.[1] The franchise changed its name the following year to the Redskins and moved to Washington, D.C. in 1937.[1] In 2020, the team retired the Redskins name after longstanding controversies surrounding it and briefly played as the Washington Football Team before becoming the Commanders in 2022.[1] Washington's first draft selection was Riley Smith, a blocking back from Alabama, in 1936.[2]. Washington have selected a draft's first overall pick twice: Harry Gilmer in 1948 and Ernie Davis in 1962.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[first round draft pick]
+Action 2: Lookup[first round draft pick]
+Observation 2: The Washington Commanders, formerly known as the Washington Redskins, have a long history of selecting players in the first round of the National Football League (NFL) Draft. These picks represent significant investments by the team, often targeting players expected to become foundational pieces for years to come.. Here is a list of Washington Commanders' first-round draft picks, presented in a style similar to Wikipedia entries:. **Washington Commanders First-Round Draft Picks**. The following is a list of players selected by the Washington.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Lookup[brother]
+Action 3: Lookup[brother]
+Observation 3: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[brother]
+Action 3: Lookup[brother]
+Observation 3: The Washington Commanders, formerly known as the Washington Redskins, have a long history of selecting players in the first round of the National Football League (NFL) Draft. These picks represent significant investments by the team, often targeting players expected to become foundational pieces for years to come.. Here is a list of Washington Commanders' first-round draft picks, presented in a style similar to Wikipedia entries:. **Washington Commanders First-Round Draft Picks**. The following is a list of players selected by the Washington.
+
+
+
+STEP: 4
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[List of NFL first round draft picks]
+Action 4: Search[List of NFL first round draft picks]
+Observation 4: Could not find List of NFL first round draft picks. Similar: ['List of first overall NFL draft picks', 'List of Green Bay Packers first-round draft picks', 'List of New York Giants first-round draft picks', 'List of Dallas Cowboys first-round draft picks', 'List of Chicago Bears first-round draft picks'].
+
+SIMULATION TRAJECTORY:
+ Thought 4: None
+Action 4: Lookup[brother]
+Observation 4: The NFL Draft is an annual event in which National Football League (NFL) teams select eligible college football players to join their rosters. The first round of the draft is highly anticipated, as it features the top prospects available and often sets the tone for a team's future success.. **Structure of the First Round:**. *   **Order of Selection:** The order of selection in the first round is determined by the reverse order of the previous season's standings. The team with the worst record.
+
+
+
+STEP: 5
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 5: None
+Action 5: Search[List of first overall NFL draft picks]
+Observation 5: The NFL draft is an annual sports draft in which National Football League (NFL) teams select newly eligible players for their rosters.[1][2][3] To be eligible for the NFL draft, a player must be at least three years removed from high school. While the regulations do not explicitly require collegiate attendance, players must either exhaust their college eligibility or seek a special exemption from the league.[4] Each NFL franchise seeks to add new players through the draft as it is the league's most common source of player recruitment.[5] Each team is assigned a position in the drafting order based on the reverse of its record from the previous year. The team with the worst record selects first, followed by the team with the second-worst record, and so forth. Teams also have the option to trade with another team to move up to a better draft position. Teams that did not make the playoffs are ordered by their regular-season record, with any remaining ties broken by strength of schedule.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Search[List of Washington Redskins first-round draft picks]
+Action 5: Search[List of Washington Redskins first-round draft picks]
+Observation 5: The following is a list of the first overall picks in the National Football League (NFL) Draft, presented in a style similar to Wikipedia.. ***. ## First Overall NFL Draft Picks. The **first overall pick** in the National Football League (NFL) Draft is the player selected by a team with the earliest selection in the draft. This pick is considered the most valuable in the draft, as it allows the selecting team to choose any eligible player from the available pool.
+
+
+
+STEP: 6
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 6: None
+Action 6: Lookup[brother]
+Observation 6: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Search[Notable brothers in the NFL]
+Action 6: Search[Notable brothers in the NFL]
+Observation 6: The following is a list of the first overall picks in the National Football League (NFL) Draft, presented in a style similar to Wikipedia.. ***. ## First Overall NFL Draft Picks. The **first overall pick** in the National Football League (NFL) Draft is the player selected by a team with the earliest selection in the draft. This pick is considered the most valuable in the draft, as it allows the selecting team to choose any eligible player from the available pool.
+
+
+
+STEP: 7
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 7: None
+Action 7: Search[Brother of Washington Redskins first round draft pick]
+Observation 7: Could not find Brother of Washington Redskins first round draft pick. Similar: ['2018 NFL draft', 'History of the Washington Commanders', '2006 NFL draft', '2016 NFL draft', '1989 NFL draft'].
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Finish[I am sorry, I do not have enough information to answer the question.]
+Action 7: Finish[I am sorry, I do not have enough information to answer the question.]
+Observation 7: **Charles "Chuck" Washington**. Charles Washington, often referred to as "Chuck" Washington, is the elder brother of the Washington Redskins' first-round draft pick, [Insert Name of Redskins Draft Pick Here]. While not a professional athlete himself, Chuck Washington has played a significant role in his younger brother's development and career.. **Early Life and Family Background:**. Born and raised in [Insert Hometown Here], Charles Washington is the eldest of [Number] siblings.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': '2003', 'question_idx': 102, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 17 
+Number of steps: 49 
+Average reward: 0.3469387755102041 
+Average time 25.877235144984965
+
+-------------------------------------------------------
+

@@ -1,0 +1,53 @@
+INFO 4948 Question: What citizen was the author of Bimbos of the Death Sun?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Bimbos of the Death Sun]
+Action 1: Search[Bimbos of the Death Sun]
+Observation 1: Bimbos of the Death Sun is a 1987 mystery novel by Sharyn McCrumb.. The novel takes place at Rubicon, a fictional science fiction convention being held in the Virginia suburbs of Washington, DC, and at which the guests of honor are Appin Dungannon, a fantasy author noted for his books about hero Tratyn Runewind, and Dr. James O. Mega, an electrical engineering professor at Virginia Tech, who, under the pen name Jay Omega, has written one novel. That novel, a hard science fiction book about a space station crew whose female members are affected by radiation from a dying star (which causes them to become less intelligent), was retitled Bimbos of the Death Sun and given an R-rated cover by the publisher..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Bimbos of the Death Sun]
+Action 1: Search[Bimbos of the Death Sun]
+Observation 1: "Bimbos of the Death Sun" is a science fiction novel written by Sharyn McCrumb. Published in 1982, the book is known for its blend of science fiction, mystery, and humor. The story is set in a distant future where humanity has expanded into space and established colonies on various planets. The novel follows the adventures of a group of characters as they navigate political intrigue, alien encounters, and personal relationships.. The plot centers around the discovery of a mysterious alien artifact known as.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Sharyn McCrumb]
+Action 2: Search[Sharyn McCrumb]
+Observation 2: Sharyn McCrumb (born February 26, 1948)[1] is an American writer best known for books that celebrate the history and folklore of Appalachia. McCrumb is the winner of numerous literary awards,[2] and is the author of the best selling "Ballad" novels, set in the North Carolina/Tennessee mountains; the NASCAR series featuring St. Dale; and the Elizabeth McPherson mystery series.. Sharyn McCrumb was born Sharyn Elaine Arwood on February 26, 1948, in Wilmington, North Carolina.[3]. McCrumb is a Southern writer, perhaps best known for her Appalachian "Ballad" novels, including The New York Times best-sellers The Ballad of Frankie Silver and She Walks These Hills, and for St.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Sharyn McCrumb]
+Action 2: Search[Sharyn McCrumb]
+Observation 2: Sharyn McCrumb is an American author known for her works of historical fiction, particularly her Appalachian-themed novels. Born on January 26, 1948, in Asheville, North Carolina, she has gained recognition for her storytelling that blends folklore, history, and regional culture. McCrumb's writing often explores the Appalachian region's rich traditions, legends, and history, bringing to life the stories of its people.. She earned her bachelor's degree from the University of North Carolina at Chapel Hill and later.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[American]
+Action 3: Finish[American]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[American]
+Action 3: Finish[American]
+Observation 3: Sharyn McCrumb is an American author known for her works of historical fiction, particularly her Appalachian-themed novels. Born on January 26, 1948, in Asheville, North Carolina, she has gained recognition for her storytelling that blends folklore, history, and regional culture. McCrumb's writing often explores the Appalachian region's rich traditions, legends, and history, bringing to life the stories of its people.. She earned her bachelor's degree from the University of North Carolina at Chapel Hill and later.
+
+
+
+INFO {'steps': 5, 'answer': 'American', 'gt_answer': 'American', 'question_idx': 7138, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 8 
+Number of steps: 19 
+Average reward: 0.42105263157894735 
+Average time 16.44045336622941
+
+-------------------------------------------------------
+

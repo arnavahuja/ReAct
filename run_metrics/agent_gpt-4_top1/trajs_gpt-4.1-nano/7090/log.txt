@@ -1,0 +1,39 @@
+INFO 7090 Question: What is Old Orchard Shopping Center currently called?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Old Orchard Shopping Center]
+Action 1: Search[Old Orchard Shopping Center]
+Observation 1: Westfield Old Orchard, formerly Old Orchard Shopping Center, is a shopping center in the Chicago metropolitan area. It is located in Skokie, Illinois. The shopping center features the traditional retailers Macy's and Nordstrom, in addition to a CMX luxury cinema. The mall features prominent specialty retailers such as Vineyard Vines, Madewell, Anthropologie, Fabletics, Kendra Scott, Tory Burch, and Warby Parker.[1][2]. The huge Marshall Field & Company anchor store was the first portion of the mall to open, on October 22, 1956.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Old Orchard Shopping Center]
+Action 1: Search[Old Orchard Shopping Center]
+Observation 1: Old Orchard Shopping Center is a prominent shopping mall located in Skokie, Illinois, a suburb of Chicago. Opened in 1956, it is one of the earliest and most significant shopping centers in the United States, exemplifying the development of suburban retail complexes in the post-World War II era. The mall features a diverse mix of retail stores, dining options, and entertainment venues, serving as a major commercial hub for the North Shore area.. The shopping center was developed by the Federated.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[Westfield Old Orchard]
+Action 2: Finish[Westfield Old Orchard]
+Observation 2: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[currently called]
+Action 2: Lookup[currently called]
+Observation 2: Old Orchard Shopping Center is a prominent shopping mall located in Skokie, Illinois, a suburb of Chicago. Opened in 1956, it is one of the earliest and most significant shopping centers in the United States, exemplifying the development of suburban retail complexes in the post-World War II era. The mall features a diverse mix of retail stores, dining options, and entertainment venues, serving as a major commercial hub for the North Shore area.. The shopping center was developed by the Federated.
+
+
+
+INFO {'steps': 3, 'answer': 'Westfield Old Orchard', 'gt_answer': 'Westfield Old Orchard', 'question_idx': 7185, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 6 
+Number of steps: 13 
+Average reward: 0.46153846153846156 
+Average time 25.37603845963111
+
+-------------------------------------------------------
+

@@ -1,0 +1,109 @@
+INFO 4202 Question: What was the middle name of the actress who was cast alongside Harvey Fierstein, Linda Hart, Dick Latessa, Clarke Thorell, Mary Bond Davis, Laura Bell Bundy, Matthew Morrison, Corey Reynolds, and Marissa Jaret Winokur in Hairspray?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Hairspray (musical)]
+Action 1: Search[Hairspray (musical)]
+Observation 1: Hairspray is an American musical with music by Marc Shaiman and lyrics by Marc Shaiman and Scott Wittman, with a book by Mark O'Donnell and Thomas Meehan, based on John Waters's 1988 film of the same name. The songs include 1960s-style dance music and "downtown" rhythm and blues. Set in 1962 Baltimore, Maryland, the production follows teenage Tracy Turnblad's dream to dance on The Corny Collins Show, a local TV dance program based on the real-life Buddy Deane Show.[1] When Tracy wins a role on the show, she becomes a celebrity overnight, leading to social change as Tracy campaigns for the show's integration.. The musical opened in Seattle in 2002 and moved to Broadway later that year. In 2003, Hairspray won eight Tony Awards, including one for Best Musical, out of 13 nominations.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Hairspray (musical)]
+Action 1: Search[Hairspray (musical)]
+Observation 1: Hairspray is an American musical with music by Marc Shaiman, lyrics by Scott Wittman and Shaiman, and a book by Mark O'Donnell and Thomas Meehan. The musical is based on the 1988 John Waters film of the same name.. **Synopsis**. The story is set in Baltimore, Maryland, in 1962. Tracy Turnblad, a plump and optimistic teenager, dreams of dancing on "The Corny Collins Show," a local TV.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Lookup[cast]
+Action 2: Lookup[cast]
+Observation 2: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Hairspray musical cast]
+Action 2: Search[Hairspray musical cast]
+Observation 2: Hairspray is an American musical with music by Marc Shaiman, lyrics by Scott Wittman and Shaiman, and a book by Mark O'Donnell and Thomas Meehan. The musical is based on the 1988 John Waters film of the same name.. **Synopsis**. The story is set in Baltimore, Maryland, in 1962. Tracy Turnblad, a plump and optimistic teenager, dreams of dancing on "The Corny Collins Show," a local TV.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Hairspray musical cast]
+Action 3: Search[Hairspray musical cast]
+Observation 3: Could not find Hairspray musical cast. Similar: ['Hairspray (musical)', 'Hairspray', 'Hairspray Live!', 'Hairspray (2007 film)', 'Hairspray (2002 album)'].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Hairspray Broadway cast]
+Action 3: Search[Hairspray Broadway cast]
+Observation 3: ## Hairspray (Musical) - Principal Casts. This section details the principal cast members of major professional productions of the musical *Hairspray*.. ### Original Broadway Production (2002). | Character | Actor |. |---|---|.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Hairspray (musical)]
+Action 4: Search[Hairspray (musical)]
+Observation 4: Hairspray is an American musical with music by Marc Shaiman and lyrics by Marc Shaiman and Scott Wittman, with a book by Mark O'Donnell and Thomas Meehan, based on John Waters's 1988 film of the same name. The songs include 1960s-style dance music and "downtown" rhythm and blues. Set in 1962 Baltimore, Maryland, the production follows teenage Tracy Turnblad's dream to dance on The Corny Collins Show, a local TV dance program based on the real-life Buddy Deane Show.[1] When Tracy wins a role on the show, she becomes a celebrity overnight, leading to social change as Tracy campaigns for the show's integration.. The musical opened in Seattle in 2002 and moved to Broadway later that year. In 2003, Hairspray won eight Tony Awards, including one for Best Musical, out of 13 nominations.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[Harvey Fierstein]
+Action 4: Lookup[Harvey Fierstein]
+Observation 4: Hairspray is an American musical with music by Marc Shaiman, lyrics by Scott Wittman and Shaiman, and a book by Mark O'Donnell and Thomas Meehan. The musical is based on the 1988 John Waters film of the same name.. **Synopsis**. The story is set in Baltimore, Maryland, in 1962. Tracy Turnblad, a plump and optimistic teenager, dreams of dancing on "The Corny Collins Show," a local TV.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[
+Action 5: Search[
+Observation 5: Invalid action: search[
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Search[Hairspray (musical) original Broadway cast]
+Action 5: Search[Hairspray (musical) original Broadway cast]
+Observation 5: Hairspray is an American musical with music by Marc Shaiman, lyrics by Scott Wittman and Shaiman, and a book by Mark O'Donnell and Thomas Meehan. The musical is based on the 1988 John Waters film of the same name.. **Synopsis**. The story is set in Baltimore, Maryland, in 1962. Tracy Turnblad, a plump and optimistic teenager, dreams of dancing on "The Corny Collins Show," a local TV.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Search[Hairspray (musical) cast]
+Action 6: Search[Hairspray (musical) cast]
+Observation 6: Could not find Hairspray (musical) cast. Similar: ['Hairspray (musical)', 'Hairspray', 'Hairspray Live!', 'Hairspray (2007 film)', 'Hairspray (2002 album)'].
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Search[Hairspray (2002 musical cast)]
+Action 6: Search[Hairspray (2002 musical cast)]
+Observation 6: ## Hairspray (Musical) - Original Broadway Cast (2002). **Hairspray** is a musical with music by Marc Shaiman, lyrics by Scott Wittman and Shaiman, and a book by Mark O'Donnell and Thomas Meehan, based on John Waters's 1988 film of the same name. The musical premiered on Broadway in 2002 and won eight Tony Awards, including Best Musical.. The original Broadway cast was a.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Search[Hairspray (musical)]
+Action 7: Search[Hairspray (musical)]
+Observation 7: Hairspray is an American musical with music by Marc Shaiman and lyrics by Marc Shaiman and Scott Wittman, with a book by Mark O'Donnell and Thomas Meehan, based on John Waters's 1988 film of the same name. The songs include 1960s-style dance music and "downtown" rhythm and blues. Set in 1962 Baltimore, Maryland, the production follows teenage Tracy Turnblad's dream to dance on The Corny Collins Show, a local TV dance program based on the real-life Buddy Deane Show.[1] When Tracy wins a role on the show, she becomes a celebrity overnight, leading to social change as Tracy campaigns for the show's integration.. The musical opened in Seattle in 2002 and moved to Broadway later that year. In 2003, Hairspray won eight Tony Awards, including one for Best Musical, out of 13 nominations.
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Lookup[Original Broadway Cast]
+Action 7: Lookup[Original Broadway Cast]
+Observation 7: Hairspray is an American musical with music by Marc Shaiman, lyrics by Scott Wittman and Shaiman, and a book by Mark O'Donnell and Thomas Meehan. The musical is based on the 1988 John Waters film of the same name.. **Synopsis**. The story is set in Baltimore, Maryland, in 1962. Tracy Turnblad, a plump and optimistic teenager, dreams of dancing on "The Corny Collins Show," a local TV.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'Marie', 'question_idx': 1720, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 1 
+Number of steps: 6 
+Average reward: 0.16666666666666666 
+Average time 15.161852836608887
+
+-------------------------------------------------------
+

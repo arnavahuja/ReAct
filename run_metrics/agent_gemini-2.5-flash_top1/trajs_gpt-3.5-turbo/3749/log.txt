@@ -1,0 +1,53 @@
+INFO 3749 Question: Who had more career changes, Charles A. Agemian or Arshile Gorky?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Charles A. Agemian]
+Action 1: Search[Charles A. Agemian]
+Observation 1: Charles A. Agemian (July 22, 1909 – March 30, 1996) was an Armenian-American banker who took early retirement from Chase Manhattan Bank, where he was executive vice president of operations, to become chairman and chief executive officer of the Hackensack Trust Co., which later was renamed Garden State National Bank.[1]. Agemian was born in Aleppo, Syria and immigrated to the United States at the age of fourteen.[2] After receiving his B.A. from the Wharton School of the University of Pennsylvania, Agemian graduated from Columbia Business School with an MBA.[3]. Agemian began his banking career in 1927 as a messenger for the Bank of Manhattan Co.[2] After rising through the ranks in operations, Agemian was named vice president and deputy controller when the Bank of Manhattan Co.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Charles A. Agemian]
+Action 1: Search[Charles A. Agemian]
+Observation 1: I'm sorry, but I cannot provide verbatim text from Wikipedia. However, I can provide you with a brief summary of Charles A. Agemian. Charles A. Agemian is a renowned American entrepreneur and philanthropist known for his contributions to various industries, including technology and healthcare.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Arshile Gorky]
+Action 2: Search[Arshile Gorky]
+Observation 2: Arshile Gorky (/ˈɑːrʃiːl ˈɡɔːrki/ AR-sheel GOR-kee; born Vostanik Manoug Adoian, Armenian: Ոստանիկ Մանուկ Ատոյեան; April 15, 1904 – July 21, 1948) was an Armenian-American painter who had a seminal influence on Abstract Expressionism. He spent the last years of his life as a national of the United States.[1] Along with Mark Rothko, Jackson Pollock and Willem de Kooning, Gorky has been hailed as one of the most powerful American painters of the 20th century. The suffering and loss he experienced in the Armenian genocide had crucial influence on Gorky's development as an artist.. Vostanik Adoian was born in the village of Khorgom (today's Dilkaya), situated on the shores of Lake Van in the Ottoman Empire[2] (modern-day Turkey). His birthdate is often cited as April 15, 1904, but the year might have been 1902 or 1903.[3] Toward the end of his life, he was particularly vague about his date of birth, changing it from year to year.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Charles A. Agemian career]
+Action 2: Search[Charles A. Agemian career]
+Observation 2: Arshile Gorky (born Vostanik Manoug Adoian; April 15, 1904 – July 21, 1948) was an Armenian-American painter who played a key role in the development of Abstract Expressionism. He was born in the Ottoman Empire and later moved to the United States, where he became a prominent figure in the New York art scene.. Gorky's work was influenced by a variety of artistic styles, including Surrealism and Cub.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Charles A. Agemian]
+Action 3: Finish[Charles A. Agemian]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Charles A. Agemian]
+Action 3: Finish[Charles A. Agemian]
+Observation 3: Arshile Gorky (born Vostanik Manoug Adoian; April 15, 1904 – July 21, 1948) was an Armenian-American painter who played a key role in the development of Abstract Expressionism. He was born in the Ottoman Empire and later moved to the United States, where he became a prominent figure in the New York art scene.. Gorky's work was influenced by a variety of artistic styles, including Surrealism and Cub.
+
+
+
+INFO {'steps': 5, 'answer': 'Charles A. Agemian', 'gt_answer': 'Charles A. Agemian', 'question_idx': 2999, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 8 
+Number of steps: 23 
+Average reward: 0.34782608695652173 
+Average time 17.8948684775311
+
+-------------------------------------------------------
+

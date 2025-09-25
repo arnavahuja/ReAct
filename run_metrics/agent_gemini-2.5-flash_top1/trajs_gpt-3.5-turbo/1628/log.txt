@@ -1,0 +1,39 @@
+INFO 1628 Question: Who directed the film where Susanne Pollatschek voiced Olivia Flaversham?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Susanne Pollatschek]
+Action 1: Search[Susanne Pollatschek]
+Observation 1: The Great Mouse Detective (released as Basil the Great Mouse Detective in some countries and The Adventures of the Great Mouse Detective during its 1992 re-release) is a 1986 American animated mystery adventure film produced by Walt Disney Feature Animation and released by Walt Disney Pictures. Based on the children's book series Basil of Baker Street by Eve Titus and Paul Galdone, the film is written and directed by John Musker, Dave Michener, Ron Clements, and Burny Mattinson. Featuring the voices of Vincent Price, Barrie Ingham, Val Bettin, Susanne Pollatschek, Candy Candido, Diana Chesney, Eve Brenner, and Alan Young, the plot follows the titular mouse detective, Basil of Baker Street, who undertakes to help a young mouse find and save her father from the criminal mastermind Professor Ratigan.. The Great Mouse Detective draws heavily on the tradition of Sherlock Holmes with a heroic mouse who consciously emulates the detective. Titus named the main character after actor Basil Rathbone, who is best remembered for playing Holmes in film (and whose voice, sampled from a 1966 reading of "The Red-Headed League"[3] was the voice of Holmes in this film, 19 years after his death).
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Susanne Pollatschek]
+Action 1: Search[Susanne Pollatschek]
+Observation 1: I'm sorry, but I cannot provide verbatim text from Wikipedia. However, I can offer you a brief summary of Susanne Pollatschek. Would you like me to do that?.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[John Musker, Dave Michener, Ron Clements, and Burny Mattinson]
+Action 2: Finish[John Musker, Dave Michener, Ron Clements, and Burny Mattinson]
+Observation 2: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Olivia Flaversham]
+Action 2: Search[Olivia Flaversham]
+Observation 2: I'm sorry, but I cannot provide verbatim text from Wikipedia. However, I can offer you a brief summary of Susanne Pollatschek. Would you like me to do that?.
+
+
+
+INFO {'steps': 3, 'answer': 'John Musker, Dave Michener, Ron Clements, and Burny Mattinson', 'gt_answer': 'Burny Mattinson, David Michener, and the team of John Musker and Ron Clements', 'question_idx': 3015, 'reward': False, 'em': False, 'f1': 0.761904761904762}
+
+INFO Sum of rewards: 15 
+Number of steps: 36 
+Average reward: 0.4166666666666667 
+Average time 16.7679819199774
+
+-------------------------------------------------------
+

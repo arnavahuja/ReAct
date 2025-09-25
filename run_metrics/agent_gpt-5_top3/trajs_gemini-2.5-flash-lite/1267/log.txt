@@ -1,0 +1,91 @@
+INFO 1267 Question: Which Grammy Nominated album was created by a band whose members include John Bowman?
+
+STEP: 1
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+NORMAL TRAJECTORY:
+ Thought 1:  
+        Action 1: Search[John Bowman]
+        Observation 1: Could not find [John Bowman]. Similar: ['John Bowman', 'John Bowman (broadcaster)', 'Chrome Hearts', 'John Bowman (screenwriter)', 'John Candy']."
+
+SIMULATION TRAJECTORY:
+ Thought 1:  
+        Action 1: ['Search[John Bowman (musician)]', 'Search[The Boxcars]', 'Lookup[Grammy]', "Finish[All In and It's Just a Road]"]
+        Observation 1: John Bowman is a name that has been associated with several notable individuals across different fields. Without further specification, it's challenging to pinpoint a single, universally recognized "John Bowman" that would have a dedicated Wikipedia entry. However, based on common historical and contemporary figures, here's information that might be relevant, presented in a Wikipedia-style format:. ---. **John Bowman** may refer to:."
+
+
+
+STEP: 2
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+STEP: 3
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+STEP: 4
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+STEP: 5
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+NORMAL TRAJECTORY:
+ Thought 5:  
+        Action 5: Search[John Bowman (musician)]
+        Observation 5: Could not find John Bowman (musician). Similar: ['Steve Bowman', 'Bowman (surname)', 'Tom Smith (Editors musician)', 'Ronnie Bowman', 'Thea Bowman']."
+
+SIMULATION TRAJECTORY:
+ Thought 5:  
+        Action 5: ['Search[John Bowman (musician)]', 'Search[The Boxcars (band)]']
+        Observation 5: John Bowman is an American musician, songwriter, and producer. He is best known as the lead singer and guitarist for the alternative rock band The Lemonheads.. Born in Boston, Massachusetts, Bowman joined The Lemonheads in 1992, replacing original vocalist and guitarist Evan Dando. He contributed to the band's critically acclaimed album *Come on Over* (1992) and the commercially successful *Create Your Own Reality* (1993). His tenure with the."
+
+
+
+STEP: 6
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+STEP: 7
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+INFO {'steps': 5, 'answer': '', 'gt_answer': "Nature's Symphony in 432", 'question_idx': 6010, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 0 
+Number of steps: 2 
+Average reward: 0.0 
+Average time 261.8616714477539
+
+--------------------------------------------------
+

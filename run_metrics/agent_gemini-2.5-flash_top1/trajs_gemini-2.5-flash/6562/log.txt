@@ -1,0 +1,53 @@
+INFO 6562 Question: Where is the headquarter of the American multinational chemical corporation who's part is Dow AgroSciences?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Dow AgroSciences]
+Action 1: Search[Dow AgroSciences]
+Observation 1: Dow AgroSciences LLC was a wholly owned subsidiary of the Dow Chemical Company specializing in not only agricultural chemicals such as pesticides,[1]  but also seeds and biotechnology solutions.[2]  The company was based in Indianapolis, Indiana, in the United States. On 31 January 2006, Dow AgroSciences announced that it had received regulatory approval for the world's first plant-cell-produced vaccine against Newcastle disease virus from USDA Center for Veterinary Biologics.[3]  Dow AgroSciences operates brand names such as Sentricon, Vikane, Mycogen®, SmartStax®, Enlist™, Pfister Seed®, PhytoGen®, Prairie Brand Seed®, Alforex Seeds®, Profume, Dairyland Seed®, and Brodbeck Seed®.. Dow AgroSciences also produces Omega-9 canola and sunflower oils.. In 2017, the Dow Chemical Company merged into DowDuPont[4] and in April 2019, the company's parent, Dow Inc. was separated into a public company via a corporate spin-off.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Dow AgroSciences]
+Action 1: Search[Dow AgroSciences]
+Observation 1: **Dow AgroSciences LLC** was a wholly owned subsidiary of The Dow Chemical Company, specializing in agricultural chemicals, seeds, and biotechnology. It was a major player in the global agricultural industry, developing and marketing products designed to enhance crop yields, protect against pests and diseases, and improve the nutritional value of food.. **History:**. Dow AgroSciences was formed in 1997 through the merger of DowElanco (a joint venture between Dow Chemical and Eli Lilly and Company) and Dow.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Dow Chemical Company]
+Action 2: Search[Dow Chemical Company]
+Observation 2: The Dow Chemical Company is an American multinational corporation headquartered in Midland, Michigan, United States. The company was among the three largest chemical producers in the world in 2021.[2] It is the operating subsidiary of Dow Inc., a publicly traded holding company incorporated under Delaware law.[3]. With a presence in approximately 160 countries, it employs about 36,000 people worldwide.[1] Dow has been called the "chemical companies' chemical company",[4] referring to its sales to other industries rather than sales made directly to end-use consumers. Dow is a member of the American Chemistry Council.[5]. In 2015, Dow and fellow chemical company, DuPont, agreed to a corporate reorganization involving the merger of Dow and DuPont followed by a separation into three different entities.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[The Dow Chemical Company]
+Action 2: Search[The Dow Chemical Company]
+Observation 2: **The Dow Chemical Company** (commonly referred to as **Dow**) is an American multinational chemical corporation headquartered in Midland, Michigan, United States. It is one of the world's largest chemical producers, with operations in over 160 countries and a diverse portfolio of products and services. Dow is a leading manufacturer of plastics, chemicals, and agricultural products, serving a wide range of industries including packaging, infrastructure, consumer care, and automotive.. **History**. Dow was founded in.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Midland, Michigan]
+Action 3: Finish[Midland, Michigan]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Midland, Michigan]
+Action 3: Finish[Midland, Michigan]
+Observation 3: **The Dow Chemical Company** (commonly referred to as **Dow**) is an American multinational chemical corporation headquartered in Midland, Michigan, United States. It is one of the world's largest chemical producers, with operations in over 160 countries and a diverse portfolio of products and services. Dow is a leading manufacturer of plastics, chemicals, and agricultural products, serving a wide range of industries including packaging, infrastructure, consumer care, and automotive.. **History**. Dow was founded in.
+
+
+
+INFO {'steps': 5, 'answer': 'Midland, Michigan', 'gt_answer': 'Midland, Michigan, United States', 'question_idx': 3425, 'reward': False, 'em': False, 'f1': 0.6666666666666666}
+
+INFO Sum of rewards: 12 
+Number of steps: 21 
+Average reward: 0.5714285714285714 
+Average time 10.90968818891616
+
+-------------------------------------------------------
+

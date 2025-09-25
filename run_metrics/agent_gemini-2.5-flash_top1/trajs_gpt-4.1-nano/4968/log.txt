@@ -1,0 +1,53 @@
+INFO 4968 Question: The comedian who starred in "Gone Are the Dayes" made his big break in which show?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Gone Are the Dayes]
+Action 1: Search[Gone Are the Dayes]
+Observation 1: Gone Are the Dayes is a 1984 American made-for-television crime comedy film produced by Walt Disney Productions directed by Gabrielle Beaumont and starring Harvey Korman, Susan Anspach and Robert Hogan. It originally aired in May 1984 on the Disney Channel as their second feature film.[2]. When the Daye family goes out for food at a Japanese restaurant, they witness a gangland slaying. A federal agent, named Mitchell, persuades the parents to be witnesses in the trial against the gang boss who ordered the hit.. Gone Are the Dayes was released by Walt Disney Home Video through VHS and Betamax in December 1984.[3][4] Disney Channel president James P.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Gone Are the Dayes]
+Action 1: Search[Gone Are the Dayes]
+Observation 1: Gone Are the Dayes is a 2023 Indian Tamil-language action drama film directed by S. A. Chandrasekhar. The film stars Vijayakanth in the lead role, with supporting performances from a cast that includes various notable actors. The story revolves around themes of justice, redemption, and the struggles faced by the protagonist in a society riddled with corruption and violence.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Harvey Korman]
+Action 2: Search[Harvey Korman]
+Observation 2: Harvey Herschel Korman (February 15, 1927 – May 29, 2008) was an American actor and comedian who performed in television and film productions. He is best remembered as a main cast member alongside Carol Burnett, Tim Conway and Vicki Lawrence on the CBS sketch comedy series The Carol Burnett Show (1967–1977) for which he won four Primetime Emmy Awards and a Golden Globe Award.. His early roles were on The Danny Kaye Show and The Lucy Show. Korman briefly starred in his own sitcom The Harvey Korman Show (1978) and continued to work with his The Carol Burnett Show cast mates in projects such as The Tim Conway Show (1980), and Mama's Family (1983–1984). He starred in several comedy films by Mel Brooks including Blazing Saddles (1974), High Anxiety (1977), and History of the World, Part 1 (1981).
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Gone Are the Dayes comedian]
+Action 2: Search[Gone Are the Dayes comedian]
+Observation 2: Harvey Korman (February 15, 1927 – May 29, 2008) was an American actor and comedian, best known for his work on the television comedy series "The Carol Burnett Show." Born in Chicago, Illinois, Korman began his career in entertainment as a stage actor before transitioning to television and film.. Korman gained widespread recognition for his versatile comedic performances, often portraying a variety of characters with impeccable timing and wit. His work on "The Carol Burnett Show" from 1967 to 1978 earned him multiple Emmy Awards and established him as a prominent figure in American comedy.. In addition to his television success, Korman appeared in numerous films, including "Blazing Saddles" (1974), "The Great Race" (1965), and "History of the World: Part I" (1981). His distinctive voice and comedic talent made him a sought-after performer in both live-action and voice roles..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[The Carol Burnett Show]
+Action 3: Finish[The Carol Burnett Show]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[The Carol Burnett Show]
+Action 3: Finish[The Carol Burnett Show]
+Observation 3: Harvey Korman (February 15, 1927 – May 29, 2008) was an American actor and comedian, best known for his work on the television comedy series "The Carol Burnett Show." Born in Chicago, Illinois, Korman began his career in entertainment as a stage actor before transitioning to television and film.. Korman gained widespread recognition for his versatile comedic performances, often portraying a variety of characters with impeccable timing and wit. His work on "The Carol Burnett Show" from 1967 to 1978 earned him multiple Emmy Awards and established him as a prominent figure in American comedy.. In addition to his television success, Korman appeared in numerous films, including "Blazing Saddles" (1974), "The Great Race" (1965), and "History of the World: Part I" (1981). His distinctive voice and comedic talent made him a sought-after performer in both live-action and voice roles..
+
+
+
+INFO {'steps': 5, 'answer': 'The Carol Burnett Show', 'gt_answer': 'The Danny Kaye Show', 'question_idx': 4686, 'reward': False, 'em': False, 'f1': 0.3333333333333333}
+
+INFO Sum of rewards: 6 
+Number of steps: 10 
+Average reward: 0.6 
+Average time 12.383425402641297
+
+-------------------------------------------------------
+

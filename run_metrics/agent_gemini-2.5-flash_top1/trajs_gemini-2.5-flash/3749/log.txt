@@ -1,0 +1,53 @@
+INFO 3749 Question: Which writer is older, Joseph Epstein or Milan Kundera?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Joseph Epstein]
+Action 1: Search[Joseph Epstein]
+Observation 1: Joseph Epstein (October 16, 1911 – April 11, 1944), also known as Colonel Gilles and as Joseph Andrej, was a Polish-born Jewish communist activist and a French Resistance leader during World War II. He was executed by the Germans.. Joseph Epstein was born in Zamość, Congress Poland. He studied law at Warsaw University. There he became aware of the Communist Party of Poland, which was outlawed at the time, and later he joined it.[1].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Joseph Epstein]
+Action 1: Search[Joseph Epstein]
+Observation 1: **Joseph Epstein** (born 1937) is an American essayist, short story writer, and literary critic. He is known for his witty, often provocative, and sometimes controversial essays on a wide range of cultural and social topics.. **Early Life and Education:**. Epstein was born in Chicago, Illinois, and grew up in a Jewish family. He attended the University of Chicago, where he earned a Bachelor of Arts degree in 1959.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Milan Kundera]
+Action 2: Search[Milan Kundera]
+Observation 2: Milan Kundera (UK: /ˈkʊndərə, ˈkʌn-/ KU(U)N-dər-ə;[1][2] Czech: [ˈmɪlan ˈkundɛra] ⓘ; 1 April 1929 – 11 July 2023) was a Czech and French novelist. Kundera went into exile in France in 1975, acquiring citizenship in 1981. His Czechoslovak citizenship was revoked in 1979, but he was granted Czech citizenship in 2019.[3]. Kundera's best-known work is The Unbearable Lightness of Being. Before the Velvet Revolution of 1989, the country's ruling Communist Party of Czechoslovakia banned his books.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Milan Kundera]
+Action 2: Search[Milan Kundera]
+Observation 2: **Milan Kundera** (1 April 1929 – 11 July 2023) was a Czech-born French writer who wrote in Czech and French. He is best known for his novels, which often explore themes of identity, exile, love, and the human condition, frequently employing philosophical and political undertones.. **Early Life and Education:**. Kundera was born in Brno, Czechoslovakia (now the Czech Republic), into a middle-class family. His.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Joseph Epstein]
+Action 3: Finish[Joseph Epstein]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Joseph Epstein]
+Action 3: Finish[Joseph Epstein]
+Observation 3: **Milan Kundera** (1 April 1929 – 11 July 2023) was a Czech-born French writer who wrote in Czech and French. He is best known for his novels, which often explore themes of identity, exile, love, and the human condition, frequently employing philosophical and political undertones.. **Early Life and Education:**. Kundera was born in Brno, Czechoslovakia (now the Czech Republic), into a middle-class family. His.
+
+
+
+INFO {'steps': 5, 'answer': 'Joseph Epstein', 'gt_answer': 'Milan Kundera', 'question_idx': 6926, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 12 
+Number of steps: 22 
+Average reward: 0.5454545454545454 
+Average time 10.74723813750527
+
+-------------------------------------------------------
+

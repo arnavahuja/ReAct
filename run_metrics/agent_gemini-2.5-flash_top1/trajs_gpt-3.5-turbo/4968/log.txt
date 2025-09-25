@@ -1,0 +1,109 @@
+INFO 4968 Question: When was the American film, television and theater actress born who was a star in the film the Matchmaker and also received the 40th AFI Life Achievement Award?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[The Matchmaker]
+Action 1: Search[The Matchmaker]
+Observation 1: The Matchmaker is a 1954 Broadway play by Thornton Wilder, a rewritten version of his 1938 play The Merchant of Yonkers.. The play has a long and colorful history. John Oxenford's 1835 one-act farce A Day Well Spent had been extended into the full-length play  Einen Jux will er sich machen (He'll Have Himself a Good Time) by Austrian playwright Johann Nestroy in 1842. In 1938, Wilder adapted Nestroy's version into the Americanized comedy  The Merchant of Yonkers, which attracted the attention of German director Max Reinhardt, who mounted a Broadway production, which was a flop, running for only 39 performances.[1]. Fifteen years later, director Tyrone Guthrie expressed interest in a new production of the play, which Wilder extensively rewrote and rechristened The Matchmaker.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[40th AFI Life Achievement Award]
+Action 1: Search[40th AFI Life Achievement Award]
+Observation 1: "The Matchmaker" is a play by Thornton Wilder, first performed in 1954. It is a farce about a matchmaker named Dolly Gallagher Levi who meddles in the romantic lives of others while seeking a match for herself. The play is set in Yonkers, New York, in the 1880s and explores themes of love, marriage, and social class. "The Matchmaker" has been adapted into various forms, including the musical "Hello, Dolly.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[The Matchmaker (film)]
+Action 2: Search[The Matchmaker (film)]
+Observation 2: A matchmaker, or marriage broker, is a person who engages in pairing single people for marriage, sometimes as a profession. More broadly, this may refer to other brokers to find suitable pairings in business or other fields.. Matchmaker or The Matchmaker may also refer to:. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us. HelpLearn to editCommunity portalRecent changesUpload fileSpecial pages.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[The Matchmaker (film)]
+Action 2: Search[The Matchmaker (film)]
+Observation 2: "The Matchmaker" is a 1997 romantic comedy film directed by Mark Joffe and starring Janeane Garofalo, David O'Hara, and Denis Leary. The film is based on the play "The Matchmaker" by Thornton Wilder. It follows the story of a woman named Marcy Tizard, played by Janeane Garofalo, who is sent to Ireland to find the perfect match for an American senator's son. As she navigates the small Irish town of.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[The Matchmaker (1958 film)]
+Action 3: Search[The Matchmaker (1958 film)]
+Observation 3: The Matchmaker is a 1958 American comedy film directed by Joseph Anthony. The film stars Shirley Booth in her final film, Anthony Perkins, and Shirley MacLaine. The screenplay by John Michael Hayes is based on the 1955 play of the same name by Thornton Wilder. The costumes were by Edith Head.. Set in 1884, the story focuses on Dolly Gallagher Levi, a widow who supports herself by a variety of means, with matchmaking as her primary source of income.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[40th AFI Life Achievement Award]
+Action 3: Search[40th AFI Life Achievement Award]
+Observation 3: "The Matchmaker" is a 1958 American comedy film directed by Joseph Anthony and starring Shirley Booth, Anthony Perkins, and Shirley MacLaine. The film is based on the 1955 play of the same name by Thornton Wilder. It follows the story of Dolly Gallagher Levi, a matchmaker who travels to Yonkers, New York, to find a match for the wealthy Horace Vandergelder. Along the way, she gets involved in various romantic entanglements and comedic.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: The film stars Shirley Booth. I need to search for Shirley Booth.
+Action 4: Search[Shirley Booth]
+Observation 4: Shirley Booth (born Marjory Ford; August 30, 1898 – October 16, 1992) was an American actress. One of 24 performers to achieve the Triple Crown of Acting, Booth was the recipient of an Academy Award, two Primetime Emmy Awards, and three Tony Awards.. Primarily a theater actress, Booth began her career on Broadway in 1915. Her most significant success was as Lola Delaney, in the drama Come Back, Little Sheba, for which she received her second Tony Award in 1950 (she would go on to win three). She made her film debut, reprising her role in the 1952 film version, for which she won the Academy Award for Best Actress and the Golden Globe Award for Best Actress for her performance.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[Shirley Booth]
+Action 4: Search[Shirley Booth]
+Observation 4: Shirley Booth (August 30, 1898 – October 16, 1992) was an American actress. She was born in New York City and began her career on Broadway before transitioning to film and television. Booth is best known for her role as Hazel Burke in the television sitcom "Hazel," which aired from 1961 to 1966. She also won an Academy Award for Best Actress for her performance in the film "Come Back, Little Sheba" in.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Lookup[40th AFI Life Achievement Award]
+Action 5: Lookup[40th AFI Life Achievement Award]
+Observation 5: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Search[AFI Life Achievement Award]
+Action 5: Search[AFI Life Achievement Award]
+Observation 5: Shirley Booth (August 30, 1898 – October 16, 1992) was an American actress. She was born in New York City and began her career on Broadway before transitioning to film and television. Booth is best known for her role as Hazel Burke in the television sitcom "Hazel," which aired from 1961 to 1966. She also won an Academy Award for Best Actress for her performance in the film "Come Back, Little Sheba" in.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Search[40th AFI Life Achievement Award]
+Action 6: Search[40th AFI Life Achievement Award]
+Observation 6: Could not find 40th AFI Life Achievement Award. Similar: ['Shirley MacLaine (category AFI Life Achievement Award recipients)', 'List of awards and nominations received by Shirley MacLaine', 'List of awards and nominations received by John Williams', 'List of awards and nominations received by Barbra Streisand', 'Jack Nicholson (category AFI Life Achievement Award recipients)'].
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Lookup[40th AFI Life Achievement Award]
+Action 6: Lookup[40th AFI Life Achievement Award]
+Observation 6: The 40th AFI Life Achievement Award was presented by the American Film Institute (AFI) to actor Denzel Washington on June 6, 2012, at a gala tribute in Los Angeles, California. The award honors individuals in the film industry for their lifetime contribution to enriching American culture through motion pictures. Denzel Washington became the 40th recipient of this prestigious award in recognition of his outstanding achievements as an actor, director, and producer in the film industry. The AFI.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Search[Shirley MacLaine]
+Action 7: Search[Shirley MacLaine]
+Observation 7: Shirley MacLaine (born Shirley MacLean Beaty; April 24, 1934)[1] is an American actress and author. With a career spanning over 70 years, she has received numerous accolades, including an Academy Award, an Emmy Award, two BAFTA Awards, six Golden Globe Awards, two Volpi Cups, and two Silver Bears. She has been honored with the Film Society of Lincoln Center Tribute in 1995, the Cecil B. DeMille Award in 1998, the AFI Life Achievement Award in 2012, and the Kennedy Center Honor in 2014. MacLaine is one of the last remaining stars from the Golden Age of Hollywood..
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Search[40th AFI Life Achievement Award]
+Action 7: Search[40th AFI Life Achievement Award]
+Observation 7: Shirley MacLaine is an American actress, singer, author, and former dancer. She has won the Academy Award for Best Actress for her role in the film "Terms of Endearment" (1983). MacLaine has also received five Golden Globe Awards and a Kennedy Center Honor. In addition to her acting career, she is known for her beliefs in New Age spirituality and reincarnation. MacLaine has written several books on these subjects, as well as her experiences in Hollywood.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'April 24, 1934', 'question_idx': 4937, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 4 
+Number of steps: 11 
+Average reward: 0.36363636363636365 
+Average time 19.6911921934648
+
+-------------------------------------------------------
+

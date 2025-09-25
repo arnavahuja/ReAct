@@ -1,0 +1,109 @@
+INFO 600 Question: Which singer of the Bee Gees sung a middle part of a song in which the majority was sung by Barry Gibb?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Bee Gees]
+Action 1: Search[Bee Gees]
+Observation 1: This is an accepted version of this page. The Bee Gees. were a musical group formed in 1958 by brothers Barry, Robin, and Maurice Gibb. The trio was especially successful in popular music in the late 1960s and early 1970s, and later as prominent performers in the disco music era in the mid-to-late 1970s. The group sang recognisable three-part tight harmonies: Robin's clear vibrato lead vocals were a hallmark of their earlier hits, while Barry's R&B falsetto became their signature sound during the mid-to-late 1970s and 1980s.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Bee Gees]
+Action 1: Search[Bee Gees]
+Observation 1: The **Bee Gees** were a pop music group formed in 1958. The group's members were the trio of brothers Barry, Robin, and Maurice Gibb. The Bee Gees were active for over five decades, and their music spanned disco, pop, R&B, and rock.. **Early Life and Formation:**. Barry, Robin, and Maurice Gibb were born on the Isle of Man to English parents Hugh and Barbara Gibb.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Bee Gees song vocals]
+Action 2: Search[Bee Gees song vocals]
+Observation 2: Could not find Bee Gees song vocals. Similar: ['Massachusetts (Bee Gees song)', "Bee Gees' 1st", 'List of songs recorded by the Bee Gees', "If I Can't Have You (Bee Gees song)", 'How Deep Is Your Love (Bee Gees song)'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[Barry Gibb song]
+Action 2: Lookup[Barry Gibb song]
+Observation 2: The Bee Gees, a vocal group formed in 1958, are renowned for their distinctive and influential vocal arrangements, primarily characterized by their close harmonies and the falsetto singing of Barry Gibb. The core vocalists throughout their career were the three Gibb brothers: Barry, Robin, and Maurice.. **Barry Gibb's Falsetto:** Barry Gibb's high-pitched falsetto became a signature element of the Bee Gees' sound, particularly from the mid-1.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Bee Gees songs]
+Action 3: Search[Bee Gees songs]
+Observation 3: Could not find Bee Gees songs. Similar: ['List of songs recorded by the Bee Gees', 'The Bee Gees Sing and Play 14 Barry Gibb Songs', 'Tragedy (Bee Gees song)', "Stayin' Alive (redirect from Stayin' Alive (Bee Gees song))", 'Massachusetts (Bee Gees song)'].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[Bee Gees singing parts]
+Action 3: Lookup[Bee Gees singing parts]
+Observation 3: The Bee Gees were a pop music group formed in 1958. The group's members were Barry Gibb, Robin Gibb, and Maurice Gibb. They were known for their distinctive three-part vocal harmonies and their ability to adapt to changing musical styles.. **Early Years and Rise to Fame:**. The Gibb brothers were born in the Isle of Man and grew up in Manchester, England, and later in Brisbane, Australia.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Lookup[Bee Gees] in [List of songs recorded by the Bee Gees]
+Action 4: Lookup[Bee Gees] in [List of songs recorded by the Bee Gees]
+Observation 4: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[Barry Gibb]
+Action 4: Search[Barry Gibb]
+Observation 4: The Bee Gees were a pop music group formed in 1958. The group's members were Barry Gibb, Robin Gibb, and Maurice Gibb. They were known for their distinctive three-part vocal harmonies and their ability to adapt to changing musical styles.. **Early Years and Rise to Fame:**. The Gibb brothers were born in the Isle of Man and grew up in Manchester, England, and later in Brisbane, Australia.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[Barry Gibb]
+Action 5: Search[Barry Gibb]
+Observation 5: Sir Barry Alan Crompton Gibb AC CBE (born 1 September 1946[6][7]) is a British musician, singer and songwriter. Along with his younger fraternal twin brothers, Robin and Maurice, he rose to global fame as a member of the Bee Gees, one of the most commercially successful groups in the history of popular music. Gibb is well known for his wide vocal range including a far-reaching high-pitched falsetto. Gibb's career has spanned over 70 years.. As a songwriter, he shares with John Lennon and Paul McCartney the record for most consecutive Billboard Hot 100 number ones, each having six.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Lookup[vocal]
+Action 5: Lookup[vocal]
+Observation 5: **Barry Alan Gibb** (born September 1, 1946) is a British singer, songwriter, and record producer. He is best known as the leader and co-founder of the Bee Gees, a group he formed with his younger brothers, Robin and Maurice Gibb.. **Early Life and Career:**. Born in the Isle of Man, Gibb and his family later moved to Manchester, England, and then to Redcliffe, Queensland, Australia. He began his musical career.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Search[songs where both Barry Gibb and another Bee Gees member sung]
+Action 6: Search[songs where both Barry Gibb and another Bee Gees member sung]
+Observation 6: Could not find songs where both Barry Gibb and another Bee Gees member sung. Similar: ['Bee Gees', 'Barry Gibb', 'Robin Gibb', 'Grease (1978 soundtrack) (section Additional vocalists and musicians)', 'Lulu (singer) (category Official website different in Wikidata and Wikipedia)'].
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Lookup[middle part of a song]
+Action 6: Lookup[middle part of a song]
+Observation 6: Here's information about songs where Barry Gibb and another Bee Gees member sang lead or prominent harmony, presented in a Wikipedia-style format:. **"Massachusetts"**. *   **Released:** 1967. *   **Album:** *Horizontal*. *   **Lead Vocals:** Barry Gibb, Robin Gibb.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Search[Bee Gees song contributions]
+Action 7: Search[Bee Gees song contributions]
+Observation 7: Could not find Bee Gees song contributions. Similar: ["If I Can't Have You (Bee Gees song)", 'Too Much Heaven (redirect from Too Much Heaven (Bee Gees song))', 'Bee Gees', 'How Deep Is Your Love (Bee Gees song)', 'Robin Gibb (redirect from An Evening of the Bee Gees Greatest Hits Tour)'].
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Finish[Robin Gibb]
+Action 7: Finish[Robin Gibb]
+Observation 7: The Bee Gees, a vocal group consisting of brothers Barry, Robin, and Maurice Gibb, have a prolific and influential career in popular music. Their songwriting contributions are central to their success, spanning multiple genres and decades.. **Early Career and Beatlemania Influence (1960s):**. The Bee Gees' early songwriting was heavily influenced by the popular music of the time, particularly the Beatles. Their initial hits, such as "New York Mining Disaster 1941.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'Robin Gibb', 'question_idx': 3778, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 7 
+Number of steps: 18 
+Average reward: 0.3888888888888889 
+Average time 31.083406170209248
+
+-------------------------------------------------------
+

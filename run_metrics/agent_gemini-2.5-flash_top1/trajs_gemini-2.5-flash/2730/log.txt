@@ -1,0 +1,53 @@
+INFO 2730 Question: Reeves Plains Power Station is a proposal from a company owned by who?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Reeves Plains Power Station]
+Action 1: Search[Reeves Plains Power Station]
+Observation 1: Reeves Plains Power Station is a proposal from Alinta Energy to build a gas-fired power station at Reeves Plains between Gawler and Mallala in South Australia. The proposed site borders both the Moomba-Adelaide gas pipe and an electricity transmission line.[1] The power station is proposed to use six gas turbines to produce up to 300 megawatts (400,000 hp) of electricity. It is expected to be operated as a peaking plant rather than running full time. The primary source of fuel will be the gas pipeline, however the plant will also be able to operate on diesel fuel, and will have diesel storage on site.[2] Stage 1 is expected to only be two or three of the turbines, generating 100 to 150 MW of electricity.[3] The power station was originally expected to take 12 months to build, and be commissioned in January 2019.[4] An extension of time request granted an additional 12 months in February 2019, but as of November 2019, the Alinta board had not yet decided to make the investment.[5]. Alinta Energy had previously operated the coal-fired power stations in South Australia known as Northern Power Station and the older Playford A and Playford B Power Stations, all near Port Augusta.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Reeves Plains Power Station]
+Action 1: Search[Reeves Plains Power Station]
+Observation 1: The **Reeves Plains Power Station** is a proposed gas-fired power station to be located near Reeves Plains, South Australia. The project is being developed by Neoen, a French renewable energy company, and is intended to provide dispatchable power to the South Australian electricity grid, complementing the increasing penetration of intermittent renewable energy sources like wind and solar.. ### Location. The proposed site for the power station is approximately 60 kilometers north of Adelaide, near the rural locality of Reeves Plains in.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Alinta Energy]
+Action 2: Search[Alinta Energy]
+Observation 2: Alinta Energy is an Australian electricity generating and gas retailing private company owned by Hong Kong–based Chow Tai Fook Enterprises (CTFE). The sale for $4 billion was approved by Treasurer Scott Morrison in 2017.[2] Alinta Energy has an owned and contracted generation portfolio of up to 1,957 MW, approximately 1.1 million combined electricity and gas retail customers and around 800 employees across Australia and New Zealand.[1]. In March 2011, due to a deleveraging transaction by the TPG Group, Alinta became Alinta Energy.[3] Alinta Energy was acquired by Hong Kong–based Chow Tai Fook Enterprises in 2017. Chow Tai Fook Enterprises also acquired Loy Yang B power station with assists from Alinta Energy staff.[4][5]. In May 2018, Alinta Energy was announced as the principal partner of the Australian Men's cricket team on a four-year deal, the longest in Australian Cricket history.[6][7] The Alinta Energy logo will feature on the players' kits for all international matches played in Australia..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Finish[Neoen]
+Action 2: Finish[Neoen]
+Observation 2: {{Infobox company. | name = Alinta Energy. | logo = [[File:Alinta Energy logo.svg|200px]]. | type = Private. | industry = Energy.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Chow Tai Fook Enterprises]
+Action 3: Finish[Chow Tai Fook Enterprises]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[owner]
+Action 3: Lookup[owner]
+Observation 3: {{Infobox company. | name = Alinta Energy. | logo = [[File:Alinta Energy logo.svg|200px]]. | type = Private. | industry = Energy.
+
+
+
+INFO {'steps': 5, 'answer': 'Chow Tai Fook Enterprises', 'gt_answer': 'Chow Tai Fook Enterprises', 'question_idx': 7065, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 21 
+Number of steps: 45 
+Average reward: 0.4666666666666667 
+Average time 12.346650955412123
+
+-------------------------------------------------------
+

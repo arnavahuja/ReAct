@@ -1,0 +1,53 @@
+INFO 3021 Question: Did both the Beaulieu Mine and Colomac Mine fall into bankruptcy?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Beaulieu Mine]
+Action 1: Search[Beaulieu Mine]
+Observation 1: The Beaulieu Mine was a post-World War II gold mining operation near Yellowknife, Northwest Territories. It entered production in October 1947 but by the end of November only 7 ounces (200 grams) of rough gold were recovered. Additional gold was recovered during 1948, but the mine recovered only 30 troy ounces (930 g) of fine gold altogether. The operation folded in chaos and bankruptcy.[1]. This Canadian Northwest Territories location article is a stub.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Beaulieu Mine]
+Action 1: Search[Beaulieu Mine]
+Observation 1: The Beaulieu Mine is a historic gold mine located in the Northwest Territories of Canada, approximately 50 kilometers northeast of Yellowknife. It is situated in the Beaulieu River area, a region known for its rich mineral deposits.. **History and Operations:**. The Beaulieu Mine was primarily active during the mid-20th century, a period of significant gold exploration and mining in the Canadian North. While specific dates of operation can vary depending on the source, it is generally.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Colomac Mine]
+Action 2: Search[Colomac Mine]
+Observation 2: The Colomac Mine was a privately owned and operated open pit gold mine located 200 km northwest of Yellowknife in the Northwest Territories in Canada. It operated between 1990–1992, and 1994–1997. It was operated by Neptune Resources Limited, which had little success in making a profit during its operation. In 1994, the mine had reopened under Royal Oak Mines Inc.[1] Both Neptune Resources and Royal Oak Mines were both owned and operated by Peggy Witte. Due to low gold prices and high cost of mining, Royal Oak Mines was forced into bankruptcy.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[bankruptcy]
+Action 2: Lookup[bankruptcy]
+Observation 2: The **Colomac Mine** was a gold mine located in the Northwest Territories of Canada, approximately 220 kilometers north of Yellowknife. It was situated in the Indin Lake greenstone belt, a region known for its gold mineralization.. **History and Operations:**. *   **Discovery and Early Exploration:** Gold mineralization at Colomac was first identified in the 1940s. However, significant exploration and development did not begin until much later..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[yes]
+Action 3: Finish[yes]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[bankruptcy]
+Action 3: Lookup[bankruptcy]
+Observation 3: The **Colomac Mine** was a gold mine located in the Northwest Territories of Canada, approximately 220 kilometers north of Yellowknife. It was situated in the Indin Lake greenstone belt, a region known for its gold mineralization.. **History and Operations:**. *   **Discovery and Early Exploration:** Gold mineralization at Colomac was first identified in the 1940s. However, significant exploration and development did not begin until much later..
+
+
+
+INFO {'steps': 5, 'answer': 'yes', 'gt_answer': 'yes', 'question_idx': 3521, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 9 
+Number of steps: 14 
+Average reward: 0.6428571428571429 
+Average time 30.34018906525203
+
+-------------------------------------------------------
+

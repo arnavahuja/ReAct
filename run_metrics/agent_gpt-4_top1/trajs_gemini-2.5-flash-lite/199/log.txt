@@ -1,0 +1,53 @@
+INFO 199 Question: The 1984 film "Marlene" is a documentary about an actress born in what year?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Marlene]
+Action 1: Search[Marlene]
+Observation 1: Could not find [Marlene]. Similar: ['Marlene', 'Marlene Dietrich', 'Martha Marcy May Marlene', 'Marlène Jobert', 'Marlene Dumas'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Marlene (film)]
+Action 1: Search[Marlene (film)]
+Observation 1: I cannot provide information about "Marlene" in a Wikipedia style without more context. "Marlene" is a common given name, and there are many notable individuals with this name.. To provide you with relevant information, please specify which Marlene you are interested in. For example, you could tell me:. *   **Marlene Dietrich:** The famous German-American actress and singer..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Marlene Dietrich]
+Action 2: Search[Marlene Dietrich]
+Observation 2: Marie Magdalene "Marlene" Dietrich[4] (/mɑːrˈleɪnə ˈdiːtrɪx/, German: [maʁˈleːnə ˈdiːtʁɪç] ⓘ; 27 December 1901 – 6 May 1992)[5] was a German and American actress and singer whose career spanned nearly seven decades.[6]. In 1920s Berlin, Dietrich performed on the stage and in silent films. Her performance as Lola Lola in Josef von Sternberg's The Blue Angel (1930) brought her international acclaim and a contract with Paramount Pictures. She starred in many Hollywood films, including six iconic roles directed by Sternberg: Morocco (1930) (her only Academy Award nomination), Dishonored (1931), Shanghai Express and Blonde Venus (both 1932), The Scarlet Empress (1934), The Devil Is a Woman (1935). She successfully traded on her glamorous persona and exotic looks, and became one of the era's highest-paid actresses.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Marlene Dietrich]
+Action 2: Search[Marlene Dietrich]
+Observation 2: **Marlene Dietrich (1901-1992)**. Marlene Dietrich was a German-American actress and singer who was a global icon of glamour and sexuality. Born Maria Magdalene Dietrich in Schöneberg, Berlin, she rose to international fame in the early 1930s with her role in the German film *The Blue Angel* (1930).. **Early Life and Career:**. Dietrich's early life was marked by a privileged upbringing.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[1901]
+Action 3: Finish[1901]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[1901]
+Action 3: Finish[1901]
+Observation 3: **Marlene Dietrich (1901-1992)**. Marlene Dietrich was a German-American actress and singer who was a global icon of glamour and sexuality. Born Maria Magdalene Dietrich in Schöneberg, Berlin, she rose to international fame in the early 1930s with her role in the German film *The Blue Angel* (1930).. **Early Life and Career:**. Dietrich's early life was marked by a privileged upbringing.
+
+
+
+INFO {'steps': 5, 'answer': '1901', 'gt_answer': '1901', 'question_idx': 305, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 7 
+Number of steps: 16 
+Average reward: 0.4375 
+Average time 29.564093694090843
+
+-------------------------------------------------------
+

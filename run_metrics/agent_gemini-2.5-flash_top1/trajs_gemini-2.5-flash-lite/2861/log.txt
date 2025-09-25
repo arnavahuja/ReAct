@@ -1,0 +1,53 @@
+INFO 2861 Question: ...Ready for It? is a Taylor Swift song from the album scheduled to be released on what date?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[...Ready for It?]
+Action 1: Search[...Ready for It?]
+Observation 1: "...Ready for It?" is a song by the American singer-songwriter Taylor Swift from her sixth studio album, Reputation (2017). She wrote the song with its producers: Max Martin, Shellback, and Ali Payami. An electro, electropop and industrial pop song, "...Ready for It?" incorporates elements of dancehall, tropical house, hip-hop, and trap. It features Swift rapping and singing over heavy synthesizers, bass drops, and programmed drums. Lyrically, the track uses criminal imagery such as a bank heist and ransom to depict lust and infatuation in a newfound romantic connection..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[...Ready for It?]
+Action 1: Search[...Ready for It?]
+Observation 1: "Ready for It?" is a song by American singer Taylor Swift, from her sixth studio album, *Reputation* (2017). The song was released as the second single from the album on September 3, 2017, by Big Machine Records.. **Background and Release:**. Following the release of "...Ready for It?" as a promotional single, it was officially sent to radio stations as the second single from *Reputation* on September 3,.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Reputation (Taylor Swift album)]
+Action 2: Search[Reputation (Taylor Swift album)]
+Observation 2: Reputation (stylized in all lowercase) is the sixth studio album by the American singer-songwriter Taylor Swift. It was released on November 10, 2017, through Big Machine Records. Swift conceived the album amidst media scrutiny on her personal life that blemished her once-wholesome "America's Sweetheart" image.. Swift employed an autobiographical songwriting approach on Reputation, which references her romantic relationships and celebrity disputes. Its songs form a linear narrative of a narrator seeking vengeance against wrongdoers but ultimately finding solace in a blossoming love.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Reputation (Taylor Swift album)]
+Action 2: Search[Reputation (Taylor Swift album)]
+Observation 2: **Reputation** is the sixth studio album by American singer-songwriter Taylor Swift. It was released on November 10, 2017, by Big Machine Records.. **Background and Development:**. Following the highly publicized legal battles and media scrutiny surrounding her previous album *Reputation*, Swift took a hiatus from public life. During this period, she began writing and recording *Reputation*, aiming to reclaim her narrative and address the public perception of her.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[November 10, 2017]
+Action 3: Finish[November 10, 2017]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[November 10, 2017]
+Action 3: Finish[November 10, 2017]
+Observation 3: **Reputation** is the sixth studio album by American singer-songwriter Taylor Swift. It was released on November 10, 2017, by Big Machine Records.. **Background and Development:**. Following the highly publicized legal battles and media scrutiny surrounding her previous album *Reputation*, Swift took a hiatus from public life. During this period, she began writing and recording *Reputation*, aiming to reclaim her narrative and address the public perception of her.
+
+
+
+INFO {'steps': 5, 'answer': 'November 10, 2017', 'gt_answer': 'November 10, 2017', 'question_idx': 6488, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 7 
+Number of steps: 18 
+Average reward: 0.3888888888888889 
+Average time 8.780253264639112
+
+-------------------------------------------------------
+

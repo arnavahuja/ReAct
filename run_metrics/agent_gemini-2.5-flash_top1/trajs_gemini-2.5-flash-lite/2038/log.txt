@@ -1,0 +1,53 @@
+INFO 2038 Question: Bill Woodfull opened pairing with what cricketer who died in April of 1991?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Bill Woodfull]
+Action 1: Search[Bill Woodfull]
+Observation 1: William Maldon Woodfull  OBE (22 August 1897 – 11 August 1965) was an Australian cricketer of the 1920s and 1930s. He captained both Victoria and Australia, and was best known for his dignified and moral conduct during the tumultuous bodyline series in 1932–33. Trained as a schoolteacher, Woodfull was known for his benevolent attitude towards his players, and his patience and defensive technique as an opening batsman. Woodfull was not a flamboyant player, but was known for his calm, unruffled style and his reliability in difficult situations. His opening pairing with fellow Victorian Bill Ponsford for both his state and Australia remains one of the most successful in history.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Bill Woodfull]
+Action 1: Search[Bill Woodfull]
+Observation 1: **William "Bill" Woodfull (1897-1965)**. William "Bill" Woodfull was an Australian cricketer who captained the Australian national team in 33 Test matches between 1930 and 1934. He was a right-handed opening batsman known for his resolute defense and ability to wear down opposition bowlers.. **Early Life and Career:**. Born in Bendigo, Victoria, Woodfull made his first-class debut for.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Bill Ponsford]
+Action 2: Search[Bill Ponsford]
+Observation 2: William Harold Ponsford MBE (19 October 1900 – 6 April 1991) was an Australian cricketer. Usually playing as an opening batsman, he formed a successful and long-lived partnership opening the batting for Victoria and Australia with Bill Woodfull, his friend and state and national captain. Ponsford is the only player to twice break the world record for the highest individual score in first-class cricket; Ponsford and Brian Lara are the only cricketers to twice score 400 runs in an innings. Ponsford holds the Australian record for a partnership in Test cricket, set in 1934 in combination with Don Bradman (451 for 2nd wicket)—the man who broke many of Ponsford's other individual records. In fact, he along with Bradman set the record for the highest partnership ever for any wicket in Test cricket history when playing on away soil (451 runs for the second wicket)[2].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[pairing]
+Action 2: Lookup[pairing]
+Observation 2: **William Alfred Ponsford** (born 25 October 1900, died 7 April 1991) was an Australian cricketer who played for Victoria and Australia. A stylish and prolific opening batsman, Ponsford was one of the dominant batsmen of the interwar period.. **Early Life and Career:**. Born in North Melbourne, Victoria, Ponsford made his first-class debut for Victoria in 1923. He quickly established himself as a formidable batsman.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Bill Ponsford]
+Action 3: Finish[Bill Ponsford]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Bill Ponsford]
+Action 3: Finish[Bill Ponsford]
+Observation 3: **William Alfred Ponsford** (born 25 October 1900, died 7 April 1991) was an Australian cricketer who played for Victoria and Australia. A stylish and prolific opening batsman, Ponsford was one of the dominant batsmen of the interwar period.. **Early Life and Career:**. Born in North Melbourne, Victoria, Ponsford made his first-class debut for Victoria in 1923. He quickly established himself as a formidable batsman.
+
+
+
+INFO {'steps': 5, 'answer': 'Bill Ponsford', 'gt_answer': 'Bill Ponsford', 'question_idx': 7258, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 4 
+Number of steps: 15 
+Average reward: 0.26666666666666666 
+Average time 9.147609647115072
+
+-------------------------------------------------------
+

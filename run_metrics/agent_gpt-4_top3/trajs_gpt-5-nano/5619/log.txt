@@ -1,0 +1,77 @@
+INFO 5619 Question: Which novelist was educated in London, C. S. Forester or Helen Zahavi?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I must first search for information on the education of C. S. Forester.
+Action 1: [Search[C. S. Forester]] 
+        Action 1: Search[C. S. Forester]
+        Observation 1: Cecil Louis Troughton Smith (27 August 1899 – 2 April 1966), known by his pen name Cecil Scott "C. S." Forester, was an English novelist known for writing tales of naval warfare, such as the 12-book Horatio Hornblower series depicting a Royal Navy officer during the Napoleonic Wars.. The Hornblower novels A Ship of the Line and Flying Colours were jointly awarded the 1938 James Tait Black Memorial Prize for fiction. Other works include The African Queen and The Good Shepherd, both of which were later adapted as movies.. During World War II, he moved to Washington, D.C."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to search for information about where C. S. Forester and Helen Zahavi were educated, starting with one of them. 
+Action Options: [Search[C. S. Forester], Search[Helen Zahavi], Lookup[educated in London]] 
+        Action 1: ['Search[C. S. Forester]', 'Search[Helen Zahavi]', 'Lookup[educated in London]']
+        Observation 1: "
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The information provided tells me C. S. Forester is English, but does not specify where he was educated. I should lookup for Forester's education details next.
+Action 2: [Lookup[educated]] 
+        Action 2: Lookup[educated]
+        Observation 2: No more results.
+"
+
+SIMULATION TRAJECTORY:
+ Thought 2: C. S. Forester's education information is not provided in the first paragraph. I need to look up "education" in his page.
+Action 2: [Lookup[education], Lookup[London], Lookup[school]] 
+        Action 2: ['Lookup[education]', 'Lookup[London]', 'Lookup[school]']
+        Observation 2: "
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: I failed to find education information on C. S. Forester from the current source. I should now search for Helen Zahavi to compare.
+Action 3: [Search[Helen Zahavi]] 
+        Action 3: Search[Helen Zahavi]
+        Observation 3: Helen Zahavi (born 1966) is an English novelist and screenwriter born and educated in London. Her father was sent to Britain with the Polish Army in the Second World War, while her mother's parents came from Odessa. Before becoming a writer, Zahavi worked as a Russian translator. She has spent several years in Paris.[1]. Zahavi's first novel, Dirty Weekend (1991), caused a media storm on publication: critical reaction was extreme and polarised."
+
+SIMULATION TRAJECTORY:
+ Thought 3: The search for C. S. Forester's education did not return anything specific, it may be useful to try a specific search for C. S. Forester's education.
+Action 3: [Search[C. S. Forester education]], [Lookup[C. S. Forester]], [Lookup[school]] 
+        Action 3: ['Search[C. S. Forester education]', 'Lookup[C. S. Forester]', 'Lookup[school]']
+        Observation 3: "
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Helen Zahavi was educated in London. Forester's education information is not found. Focusing on the question "Which novelist was educated in London, C. S. Forester or Helen Zahavi?" The answer will be Helen Zahavi.
+Action 4: [Finish[Helen Zahavi]] 
+        Action 4: Finish[Helen Zahavi]
+        Observation 4: Episode finished, reward = 1
+"
+
+SIMULATION TRAJECTORY:
+ Thought 4: The information provided tells me Helen Zahavi is a Brighton-based author, but it does not mention where she was educated. To determine which of these novelists was educated in London it is necessary to find more specific educational information about each.
+Action 4: [Search[C. S. Forester education], Search[Helen Zahavi education], Lookup[education]] 
+        Action 4: ['Search[C. S. Forester education]', 'Search[Helen Zahavi education]', 'Lookup[education]']
+        Observation 4: "
+
+
+
+INFO {'steps': 7, 'answer': 'Helen Zahavi', 'gt_answer': 'Helen Zahavi', 'question_idx': 3361, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 1 
+Number of steps: 2 
+Average reward: 0.5 
+Average time 44.37962448596954
+
+--------------------------------------------------
+

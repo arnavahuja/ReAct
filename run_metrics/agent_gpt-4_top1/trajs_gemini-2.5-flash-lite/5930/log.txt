@@ -1,0 +1,109 @@
+INFO 5930 Question: What is represented on the cover art of the studio album that includes the song "Speed of Sound"?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search["Speed of Sound" song]
+Action 1: Search["Speed of Sound" song]
+Observation 1: Could not find "Speed of Sound" song. Similar: ['Speed of Sound (song)', 'Wings at the Speed of Sound', "She's My Baby (Wings song)", "Let 'Em In (category Single chart called without song)", 'Supersonic speed'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search["Speed of Sound" song]
+Action 1: Search["Speed of Sound" song]
+Observation 1: "Speed of Sound" is a song by the British rock band Coldplay, released on 22 March 2014 as the lead single from their sixth studio album, *Ghost Stories* (2014).. **Background and Release:**. The song was first performed live by Coldplay at the SXSW festival in Austin, Texas, on March 14, 2014. It was officially released as a digital download on March 22, 20.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search["Speed of Sound (song)"]
+Action 2: Search["Speed of Sound (song)"]
+Observation 2: "Speed of Sound" is a song by British rock band Coldplay. It was released as the lead single for their third studio album, X&Y (2005), on 19 April 2005, following its radio premiere on the previous day at Steve Lamacq's BBC Radio 1 show. Written by all members of the band, the song was built around a piano and guitar riff, peaking into a synthesiser-heavy chorus. A physical version of the single was issued on 23 May in the United Kingdom, containing the B-sides "Things I Don't Understand" and "Proof".. Vocalist and pianist Chris Martin stated that the song was written after the band had listened to English singer Kate Bush.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Ghost Stories (Coldplay album)]
+Action 2: Search[Ghost Stories (Coldplay album)]
+Observation 2: "Speed of Sound" is a song by the British rock band Coldplay, released as the second single from their fifth studio album, *Ghost Stories* (2014).. **Background and Release:**. The song was first performed live by Coldplay in December 2013 at the O2 Arena in London. It was officially released as a digital download on February 26, 2014, by Parlophone. "Speed of Sound" was also made available as.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[X&Y]
+Action 3: Search[X&Y]
+Observation 3: X, or x, is the twenty-fourth letter of the Latin alphabet, used in the modern English alphabet, the alphabets of other western European languages and others worldwide. Its name in English is ex (pronounced /ˈɛks/ ⓘ), plural exes.[2]. The letter ⟨X⟩, representing /ks/, was inherited from the Etruscan alphabet. It perhaps originated in the ⟨Χ⟩ of the Euboean alphabet or another Western Greek alphabet, which also represented /ks/. Its relationship with the ⟨Χ⟩ of the Eastern Greek alphabets, which represented /kʰ/, is uncertain..
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Ghost Stories (album)]
+Action 3: Search[Ghost Stories (album)]
+Observation 3: **X&Y** is the third studio album by the British rock band Coldplay, released on 6 June 2005. The album was a commercial success, debuting at number one on the UK Albums Chart and the US Billboard 200. It has since sold over 15 million copies worldwide, making it one of the best-selling albums of the 21st century.. **Background and Recording:**. Following the success of their second album, *A Rush.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[X&Y (album)]
+Action 4: Search[X&Y (album)]
+Observation 4: X, or x, is the twenty-fourth letter of the Latin alphabet, used in the modern English alphabet, the alphabets of other western European languages and others worldwide. Its name in English is ex (pronounced /ˈɛks/ ⓘ), plural exes.[2]. The letter ⟨X⟩, representing /ks/, was inherited from the Etruscan alphabet. It perhaps originated in the ⟨Χ⟩ of the Euboean alphabet or another Western Greek alphabet, which also represented /ks/. Its relationship with the ⟨Χ⟩ of the Eastern Greek alphabets, which represented /kʰ/, is uncertain..
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[cover art]
+Action 4: Lookup[cover art]
+Observation 4: **X&Y** is the third studio album by the British rock band Coldplay, released on 6 June 2005. The album was recorded between 2004 and 2005 and produced by Coldplay and Ken Nelson.. **Background and Recording:**. Following the success of their second album, *A Rush of Blood to the Head* (2002), Coldplay began writing new material for their follow-up. The band aimed to create an album.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search["X&Y (Coldplay album)"]
+Action 5: Search["X&Y (Coldplay album)"]
+Observation 5: Could not find "X&Y (Coldplay album)". Similar: ['ISBN', 'MacOS (redirect from MacOS X)', 'Malcolm X', 'QR code', 'EuroBasket'].
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Lookup[cover art]
+Action 5: Lookup[cover art]
+Observation 5: **X&Y** is the third studio album by the British rock band Coldplay, released on 6 June 2005. The album was a commercial success, debuting at number one on the UK Albums Chart and number two on the US Billboard 200. It has since sold over 13 million copies worldwide, making it one of the best-selling albums of the 21st century.. **Background and Recording:**. Following the critical and commercial success of their.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Lookup[cover art]
+Action 6: Lookup[cover art]
+Observation 6: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Lookup[cover art]
+Action 6: Lookup[cover art]
+Observation 6: **X&Y** is the third studio album by the British rock band Coldplay, released on 6 June 2005. The album was a commercial success, debuting at number one on the UK Albums Chart and number two on the US Billboard 200. It has since sold over 13 million copies worldwide, making it one of the best-selling albums of the 21st century.. **Background and Recording:**. Following the critical and commercial success of their.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Search[Coldplay X&Y]
+Action 7: Search[Coldplay X&Y]
+Observation 7: Could not find Coldplay X&Y. Similar: ['X&Y', 'Coldplay', 'List of songs by Coldplay', 'My Universe (song) (redirect from My Universe (Coldplay and BTS song))', 'Fix You (redirect from The World Turned Upside Down (Coldplay song))'].
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Lookup[X&Y]
+Action 7: Lookup[X&Y]
+Observation 7: **X&Y** is the third studio album by the British rock band Coldplay, released on 6 June 2005. The album was a commercial success, debuting at number one on the UK Albums Chart and number two on the US Billboard 200. It has since sold over 13 million copies worldwide, making it one of the best-selling albums of the 21st century.. **Background and Recording:**. Following the success of their second album,.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'Baudot code', 'question_idx': 3309, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 4 
+Number of steps: 21 
+Average reward: 0.19047619047619047 
+Average time 27.61350212778364
+
+-------------------------------------------------------
+

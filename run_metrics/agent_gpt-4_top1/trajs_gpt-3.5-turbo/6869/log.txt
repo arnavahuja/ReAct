@@ -1,0 +1,95 @@
+INFO 6869 Question: What type of development, currently existing in Pasay, is currently being considered for malls such as one in M.A. Roxas Avenue in Clark Freeport, Angeles City in Pampanga Philippines?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Pasay development]
+Action 1: Search[Pasay development]
+Observation 1: Could not find Pasay development. Similar: ['Pasay', 'Cultural Center of the Philippines Complex (redirect from Cultural Center of the Philippines Complex, Bay City, Pasay)', 'Land reclamation in Metro Manila (section Pasay Harbor City)', 'Asian Development Bank', 'Bay City, Metro Manila (redirect from Bay City, Pasay, Metro Manila)'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Pasay]
+Action 1: Search[Pasay]
+Observation 1: Pasay, officially the City of Pasay, is a highly urbanized city in Metro Manila, Philippines. It is bordered to the north by the City of Manila, Makati to the northeast, Taguig to the east, and Parañaque to the south. Pasay City was one of the original four cities of Metro Manila, established in 1947. It has since grown into a major commercial and entertainment hub in the region.. Pasay is known for its numerous shopping centers,.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Pasay]
+Action 2: Search[Pasay]
+Observation 2: Pasay, officially the City of Pasay (Filipino: Lungsod ng Pasay; IPA: [ˈpaː.saɪ̯]), is a highly urbanized city in the National Capital Region of the Philippines. According to the 2020 census, it has a population of 440,656 people.[5]. Due to its location just south of Manila, Pasay quickly became an urban town during the American colonial period. It is now best known for being the site of most of Ninoy Aquino International Airport and of complexes such as Newport City and the SM Central Business Park.. There are possible explanations on the origins of the city's name:.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[M.A. Roxas Avenue development]
+Action 2: Search[M.A. Roxas Avenue development]
+Observation 2: Pasay, officially the City of Pasay, is a highly urbanized city in Metro Manila, Philippines. It is bordered to the north by the City of Manila, Makati to the northeast, Taguig to the east, and Parañaque to the south. Pasay City was one of the original four cities of Metro Manila, established in 1947. It is known for being a major entertainment and leisure hub, with attractions such as the SM Mall of Asia, the Cultural Center.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Newport City]
+Action 3: Search[Newport City]
+Observation 3: Newport (Welsh: Casnewydd [kasˈnɛwɨð]) is a city and county borough in Wales, on the River Usk near its confluence with the Severn Estuary, approximately 12 mi (19 km) northeast of Cardiff. The population grew significantly between the 2011 and the 2021 census, increasing from 145,700 to 159,587,[3] the largest growth of any unitary authority in Wales. Newport is the third-largest principal authority with city status in Wales and the sixth most populous overall.[4] Newport became a unitary authority in 1996 and forms part of the Cardiff-Newport metropolitan area,[5] and the Cardiff Capital Region.. Newport has been a port since medieval times, originating with the construction of Newport Castle by the Normans. The town eventually outgrew the earlier Roman settlement of Caerleon, located just upstream and now incorporated into the city.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[M.A. Roxas Avenue Clark Freeport development]
+Action 3: Search[M.A. Roxas Avenue Clark Freeport development]
+Observation 3: Newport City is a city in the United States, located in the state of Rhode Island. It is known for its historic architecture, including the famous Gilded Age mansions along the coast. Newport is also a popular tourist destination, attracting visitors with its scenic waterfront, beaches, and sailing opportunities. The city is home to the Naval Station Newport, as well as several museums and cultural institutions. Newport is also known for hosting the annual Newport Jazz Festival and Newport Folk Festival, two of the oldest music.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[SM Central Business Park]
+Action 4: Search[SM Central Business Park]
+Observation 4: Could not find SM Central Business Park. Similar: ['SM Mall of Asia', 'Iloilo Business Park', 'Bay City, Metro Manila (section Central Business Park)', 'SM City Olongapo Central', 'Cebu Business Park'].
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[SM Central Business Park]
+Action 4: Lookup[SM Central Business Park]
+Observation 4: SM Central Business Park is a commercial development located in Pasay, Metro Manila, Philippines. It is a part of the SM Mall of Asia Complex, which is one of the largest shopping and entertainment destinations in the country. The business park offers office spaces for lease, catering to various businesses and industries. It is strategically situated near the Manila Bay area, providing a picturesque view for tenants and visitors. The location also offers convenient access to transportation hubs, hotels, restaurants, and other amenities.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[SM Mall of Asia]
+Action 5: Search[SM Mall of Asia]
+Observation 5: SM Mall of Asia, also abbreviated as SM MoA, or simply Mall of Asia or MoA, [ˈmoː.ɐ], is a shopping mall in Bay City, Pasay, Philippines. It is located within the SM Central Business Park, a reclaimed area along Manila Bay, at the southern end of EDSA. The mall is owned and developed by SM Prime. Mall of Asia is the largest shopping mall in the Philippines, the second-largest in Southeast Asia after IOI City Mall in Malaysia, and the sixth-largest in the world.[2] It currently occupies 16 hectares (40 acres) of land area and a gross floor area of approximately 589,891 m2 (6,349,530 sq ft), and offers 46,647 m2 (502,100 sq ft) of floor area space for conventions and social functions.[3] It attracts a daily average foot traffic of about 200,000 people.[2]. Following the mall's opening in 2006, it caused several smaller shopping malls nearby to close, such as the Pearl Plaza and the Uniwide Coastal Mall, both located in nearby Barangay Tambo, Parañaque.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Search[M.A. Roxas Avenue development]
+Action 5: Search[M.A. Roxas Avenue development]
+Observation 5: SM Mall of Asia, also known as MOA, is a shopping mall in Bay City, Pasay, Philippines. It is the largest mall in the Philippines and the 4th largest shopping mall in the world in terms of gross floor size. The mall opened on May 21, 2006, and is owned and developed by SM Prime Holdings, the largest mall operator in the Philippines. SM Mall of Asia features a wide range of retail shops, restaurants, entertainment facilities, and attractions,.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Finish[Large scale shopping complex development]
+Action 6: Finish[Large scale shopping complex development]
+Observation 6: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Search[M.A. Roxas Avenue mall in Clark Freeport]
+Action 6: Search[M.A. Roxas Avenue mall in Clark Freeport]
+Observation 6: SM Mall of Asia, also known as MOA, is a shopping mall in Bay City, Pasay, Philippines. It is the largest mall in the Philippines and the 4th largest shopping mall in the world in terms of gross floor size. The mall opened on May 21, 2006, and is owned and developed by SM Prime Holdings, the largest mall operator in the Philippines. SM Mall of Asia features a wide range of retail shops, restaurants, entertainment facilities, and attractions,.
+
+
+
+INFO {'steps': 11, 'answer': 'Large scale shopping complex development', 'gt_answer': 'SM Lifestyle Cities', 'question_idx': 1959, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 2 
+Number of steps: 9 
+Average reward: 0.2222222222222222 
+Average time 29.10809914271037
+
+-------------------------------------------------------
+

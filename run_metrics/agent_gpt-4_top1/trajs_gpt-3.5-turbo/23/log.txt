@@ -1,0 +1,53 @@
+INFO 23 Question: Jomar Brun contributed to an operation designed to prevent what country from producing nuclear weapons?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Jomar Brun]
+Action 1: Search[Jomar Brun]
+Observation 1: Jomar Brun MBE (18 June 1904 – 26 August 1993) was a Norwegian chemical engineer.. Brun graduated from the Norwegian Institute of Technology in 1926, and worked for Norsk Hydro from 1929.[1] He was central in the planning and running of the world's first industrial heavy water plant at Norsk Hydro Rjukan. During World War II he was called to London, and contributed to the planning phase of Operation Freshman and Operation Gunnerside, the heavy water sabotage at Vemork.[2][3] He was decorated with the Order of the British Empire, and Officer of the French Legion of Honour. From 1951 he was appointed professor of electrochemistry at the Norwegian Institute of Technology in Trondheim.[1]. Brun was born in Trondheim on 18 June 1904, to Lorentz H.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Jomar Brun]
+Action 1: Search[Jomar Brun]
+Observation 1: I'm sorry, but I cannot provide verbatim text from Wikipedia. However, I can offer you a brief summary of Jomar Brun. Jomar Brun is a Norwegian professional footballer who plays as a midfielder. He was born on January 6, 1999, in Norway. Brun has played for various clubs in Norway and has represented his country at the youth level.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Operation Freshman]
+Action 2: Search[Operation Freshman]
+Observation 2: Operation Freshman was the codename given to a British airborne operation conducted in November 1942 during World War II. It was the first British airborne operation using Airspeed Horsa gliders, and its target was the Vemork Norsk Hydro hydrogen electrolysis plant in Telemark, Norway which produced heavy water as a by-product.. By 1942, the German nuclear weapons programme had come close to being able to develop a nuclear reactor, but for the reactor to function it would require a great deal of heavy water. The source of the heavy water was the Norsk Hydro plant, which had been occupied since 1940.. When the British government learned of the German nuclear developments, it was decided that a raid would be launched to destroy the plant and deny the Germans the heavy water required to develop a nuclear weapon.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[operations against nuclear weapons production]
+Action 2: Search[operations against nuclear weapons production]
+Observation 2: Operation Freshman was a British military operation during World War II that took place in November 1942. The operation aimed to sabotage a German-controlled heavy water plant in Norway as part of the Allied efforts to prevent the Nazis from developing nuclear weapons. The operation involved a glider-borne assault by British airborne troops, but it ultimately ended in failure due to a combination of bad weather, navigational errors, and enemy action. The surviving British commandos were captured by the Germans, and several were executed.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Germany]
+Action 3: Finish[Germany]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Germany]
+Action 3: Finish[Germany]
+Observation 3: Operation Freshman was a British military operation during World War II that took place in November 1942. The operation aimed to sabotage a German-controlled heavy water plant in Norway as part of the Allied efforts to prevent the Nazis from developing nuclear weapons. The operation involved a glider-borne assault by British airborne troops, but it ultimately ended in failure due to a combination of bad weather, navigational errors, and enemy action. The surviving British commandos were captured by the Germans, and several were executed.
+
+
+
+INFO {'steps': 5, 'answer': 'Germany', 'gt_answer': 'prevent the German nuclear weapon project', 'question_idx': 4141, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 0 
+Number of steps: 1 
+Average reward: 0.0 
+Average time 17.452213048934937
+
+-------------------------------------------------------
+

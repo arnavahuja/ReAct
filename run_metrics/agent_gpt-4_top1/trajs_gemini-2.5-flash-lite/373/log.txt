@@ -1,0 +1,53 @@
+INFO 373 Question: Who hosted the ITV show Celebrities Under Pressure and All Star Family Fortunes?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Celebrities Under Pressure]
+Action 1: Search[Celebrities Under Pressure]
+Observation 1: Celebrities Under Pressure is a British game show that aired on ITV from 13 September 2003 to 7 August 2004. It was first hosted by Melanie Sykes for series 1 & 2 and then hosted by Vernon Kay for series 3.. The show follows families allowing a celebrity to live with them for a week as they attempt to learn a new skill from their hosts. The celebrity's progress is followed through a video diary, before they are tested in a live studio situation. If successful, the celebrity will win a string of prizes for the family they stayed with, however, if they fail, the family goes home with nothing.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Celebrities Under Pressure]
+Action 1: Search[Celebrities Under Pressure]
+Observation 1: **Celebrities Under Pressure**. "Celebrities Under Pressure" is a term used to describe the intense scrutiny, public expectation, and personal challenges faced by individuals who achieve widespread fame and recognition. This phenomenon is not a formally defined academic concept but rather a widely recognized aspect of modern celebrity culture.. **Key Aspects of Pressure on Celebrities:**. *   **Public Scrutiny:** Celebrities live under a constant microscope.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[All Star Family Fortunes]
+Action 2: Search[All Star Family Fortunes]
+Observation 2: Family Fortunes is a British television game show based on the American game show Family Feud. The programme ran on ITV from 6 January 1980 to 6 December 2002. A celebrity version, All Star Family Fortunes, followed from 2006 to 2015.. In 2020, the original version of the show returned after 17 years with Gino D'Acampo as host[3] which ran until 2023. A third series of 10 episodes[4] was planned for broadcast but was shelved in February 2025 following sexual misconduct allegations aimed towards D'Acampo on other ITV shows.[5][6][7][8].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[host]
+Action 2: Lookup[host]
+Observation 2: **All Star Family Fortunes** is a British game show that aired on ITV from 1980 to 2002, and then revived in 2006. It is a celebrity version of the original *Family Fortunes*, where two families, each composed of well-known personalities, compete against each other. The show's premise involves contestants guessing the most popular answers to survey questions posed to a group of 100 people.. **Gameplay:**.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Vernon Kay]
+Action 3: Finish[Vernon Kay]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[hosted by]
+Action 3: Lookup[hosted by]
+Observation 3: **All Star Family Fortunes** is a British game show that aired on ITV from 1980 to 2002, and then revived in 2006. It is a celebrity version of the original *Family Fortunes*, where two families, each composed of well-known personalities, compete against each other. The show's premise involves contestants guessing the most popular answers to survey questions posed to a group of 100 people.. **Gameplay:**.
+
+
+
+INFO {'steps': 5, 'answer': 'Vernon Kay', 'gt_answer': 'Vernon Kay', 'question_idx': 6198, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 2 
+Number of steps: 3 
+Average reward: 0.6666666666666666 
+Average time 17.98250389099121
+
+-------------------------------------------------------
+

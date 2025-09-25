@@ -1,0 +1,125 @@
+INFO 3021 Question: When was the conference the The 1998 West Virginia Mountaineers football team was part of  created?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to search The 1998 West Virginia Mountaineers football team, find the conference it was part of, then search that conference and find when it was created.
+Action 1: Search[The 1998 West Virginia Mountaineers football team] 
+        Action 1: Search[The 1998 West Virginia Mountaineers football team]
+        Observation 1: Could not find The 1998 West Virginia Mountaineers football team. Similar: ['1998 West Virginia Mountaineers football team', 'West Virginia Mountaineers football', 'West Virginia Mountaineers', '2010 West Virginia Mountaineers football team', 'West Virginia Mountaineer']."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to search The 1998 West Virginia Mountaineers football team, find the conference it was part of, then find when the conference was created.
+Action 1: Search[The 1998 West Virginia Mountaineers football team], Search[West Virginia Mountaineers football], Search[1998 WVU football team] 
+        Action 1: ['Search[The 1998 West Virginia Mountaineers football team]', 'Search[West Virginia Mountaineers football]', 'Search[1998 WVU football team]']
+        Observation 1: The 1998 West Virginia Mountaineers football team represented West Virginia University in the 1998 NCAA Division I-A football season. The Mountaineers were led by head coach Don Nehlen, in his 19th season, and played their home games at Mountaineer Field in Morgantown, West Virginia. They competed as members of the Big East Conference.. **Season Summary:**. The 1998 season saw the Mountaineers finish with a record of **."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The search for the specific 1998 team doesn't return results. Searching for the general team might result in information about the conference they played in.
+Action 2: Search[West Virginia Mountaineers football] 
+        Action 2: Search[West Virginia Mountaineers football]
+        Observation 2: The West Virginia Mountaineers football team represents West Virginia University (WVU) in the NCAA Division I Football Bowl Subdivision (FBS) of college football. West Virginia plays its home games at Milan Puskar Stadium on the campus of West Virginia University in Morgantown, West Virginia. The Mountaineers have won or shared a total of 15 conference championships, including eight Southern Conference titles and seven Big East Conference titles. The Mountaineers compete in the Big 12 Conference.. The West Virginia University football program traces its origin back to November 28, 1891, when its first team fell to Washington & Jefferson 72–0 on a converted cow pasture.[3]  Despite its humble beginning, West Virginia enjoyed a 25–23–3 overall record prior to 1900, which proved to be a fruitful century of Mountaineer football."
+
+SIMULATION TRAJECTORY:
+ Thought 2: The 1998 West Virginia Mountaineers football team was part of the Big East Conference. So I need to search Big East Conference and find when it was created.
+Action 2: [Search[Big East Conference], Lookup[Big East Conference], Finish[Big East Conference]] 
+        Action 2: ['Search[Big East Conference]', 'Lookup[Big East Conference]', 'Finish[Big East Conference]']
+        Observation 2: The **West Virginia Mountaineers football** team represents West Virginia University in the sport of American football. The Mountaineers compete in the Football Bowl Subdivision (FBS) of the National Collegiate Athletic Association (NCAA) and are members of the Big 12 Conference. They play their home games at Milan Puskar Stadium in Morgantown, West Virginia.. **History:**. *   **Early Years (1891-1949):** West Virginia University first fielded a football team."
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: The West Virginia Mountaineers football team competes in the Big 12 Conference. I need to search the Big 12 Conference next.
+Action 3: Search[Big 12 Conference] 
+        Action 3: Search[Big 12 Conference]
+        Observation 3: Fox One. HBO Max. The Big 12 Conference (stylized XII) is a collegiate athletic conference in the United States. It consists of 16 full-member universities (3 private universities and 13 public universities) in the states of Arizona, Colorado, Florida, Iowa, Kansas, Ohio, Oklahoma, Texas, Utah, and West Virginia. It is headquartered in Irving, Texas.."
+
+SIMULATION TRAJECTORY:
+ Thought 3: The West Virginia Mountaineers football team is part of the Big 12 Conference. I need to search Big 12 Conference next and find when it was created.
+Action 3: [Search[Big 12 Conference], Lookup[Big 12 Conference], Search[NCAA]] 
+        Action 3: ['Search[Big 12 Conference]', 'Search[NCAA]', 'Lookup[Big 12 Conference]']
+        Observation 3: The Big 12 Conference is a collegiate athletic conference headquartered in Irving, Texas. It is a member of the National Collegiate Athletic Association (NCAA) Division I, the highest level of intercollegiate athletics in the United States. The conference was formed in 1994, with competition beginning in the 1995–96 academic year, through the merger of the Big Eight Conference and four schools from the Southwest Conference.. **History**. The Big 12 Conference."
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: The paragraph does not mention when the Big 12 Conference was created. I need to look up "created" or "founded". 
+Action 4: Lookup[created] 
+        Action 4: Lookup[created]
+        Observation 4: No more results.
+"
+
+SIMULATION TRAJECTORY:
+ Thought 4: The Big 12 Conference was formed in 1994. So the answer is 1994.
+Action 4: Finish[1994], Lookup[formed in], Lookup[conference was] 
+        Action 4: ['Lookup[formed in]', 'Lookup[conference was]', 'Finish[1994]']
+        Observation 4: The Big 12 Conference is a collegiate athletic conference headquartered in Irving, Texas. It is a member of the National Collegiate Athletic Association (NCAA) Division I, the highest level of intercollegiate athletics in the United States. The conference was formed in 1994, with competition beginning in the 1995–96 academic year, through the merger of the Big Eight Conference and four schools from the Southwest Conference.. **History**. The Big 12 Conference."
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: The first Lookup action did not yield any information about the creation of the Big 12 Conference. I should try a different keyword to find this information.
+Action 5: Lookup[founded] 
+        Action 5: Lookup[founded]
+        Observation 5: No more results.
+"
+
+SIMULATION TRAJECTORY:
+ Thought 5: The Big 12 Conference was formed in 1994. So there is no need to search or lookup further.
+Action 5: [Finish[1994], Finish[1994], Finish[1994]] 
+        Action 5: ['Finish[1994]', 'Finish[1994]', 'Finish[1994]']
+        Observation 5: The Big 12 Conference is a collegiate athletic conference headquartered in Irving, Texas. It is a member of the National Collegiate Athletic Association (NCAA) Division I, the highest level of intercollegiate athletics in the United States. The conference was formed in 1994, with competition beginning in the 1995–96 academic year, through the merger of the Big Eight Conference and four schools from the Southwest Conference.. **History**. The Big 12 Conference."
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Given that the "created" or "founded" keyword findings did not yield results, I might need to instead search for the history of the Big 12 Conference to find when it was created.
+Action 6: Search[Big 12 Conference history] 
+        Action 6: Search[Big 12 Conference history]
+        Observation 6: Could not find Big 12 Conference history. Similar: ['Big 12 Conference', 'History of the Big 12 Conference', 'Big 12 Conference football', 'Pac-12 Conference', 'Big Eight Conference']."
+
+SIMULATION TRAJECTORY:
+ Thought 6: The Big 12 Conference was formed in 1994. This is the information needed to answer the question.
+Action 6: Finish[1994], Finish[In 1994], Finish[The Big 12 Conference was formed in 1994] 
+        Action 6: ['Finish[1994]', 'Finish[In 1994]', 'Finish[The Big 12 Conference was formed in 1994]']
+        Observation 6: The Big 12 Conference is a collegiate athletic conference headquartered in Irving, Texas. It is a member of the NCAA's Division I for all sports. Its 10 members, located in Iowa, Kansas, Oklahoma, Texas, and West Virginia, are all public universities.. ## History. ### Formation and Early Years (1994-1996)."
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Seeing the search return "History of the Big 12 Conference", I should attempt to search for this directly.
+Action 7: [Search[History of the Big 12 Conference]] 
+        Action 7: Search[History of the Big 12 Conference]
+        Observation 7: The Big 12 Conference is a 16-school collegiate athletic conference headquartered in Irving, Texas. The Big 12 is a member of the Division I of the National Collegiate Athletic Association (NCAA) for all sports. Its football teams compete in the Football Bowl Subdivision (FBS; formerly Division I-A), the higher of two levels of NCAA Division I football competition. Member schools are located in Arizona, Colorado. Florida, Iowa, Kansas, Ohio, Oklahoma, Texas, Utah,  and West Virginia.."
+
+SIMULATION TRAJECTORY:
+ Thought 7: The paragraph begins to mention the formation and early years of the Big 12 Conference, but it cuts off. I should probably look up "formation" or "early years" to find out when it was created.
+Action 7: [Lookup[formation], Lookup[early years], Search[Big 12 Conference formation]] 
+        Action 7: ['Search[Big 12 Conference formation]', 'Lookup[formation]', 'Lookup[early years]']
+        Observation 7: The Big 12 Conference is one of the major collegiate athletic conferences in the United States, primarily known for its football and basketball programs. Its history is marked by significant realignments and a dynamic evolution since its inception.. ## Formation and Early Years (1994-1996). The Big 12 Conference was officially formed in **1994** through the merger of two established conferences: the **Big Eight Conference** and four schools from the **South."
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': '1979', 'question_idx': 4510, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 5 
+Number of steps: 14 
+Average reward: 0.35714285714285715 
+Average time 36.90636963503702
+
+--------------------------------------------------
+

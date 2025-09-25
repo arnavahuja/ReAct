@@ -1,0 +1,53 @@
+INFO 2730 Question: Armand Castelmary played Horatio in the 1868 version of the opera set to a play by whom?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Armand Castelmary]
+Action 1: Search[Armand Castelmary]
+Observation 1: Armand Castelmary, real name Comte Armand de Castan (16 August 1834 – 10 February 1897), was a French operatic bass. He created roles in three major premieres at the Paris Opera –  Don Diego in L'Africaine  by Meyerbeer (1865), the Monk in Verdi's  Don Carlos (1867), and Horatio in Ambroise Thomas's Hamlet (1868). Castelmary also appeared at opera houses in England and the United States, and died onstage at the Metropolitan Opera House, New York, during a performance of Martha by Friedrich von Flotow.[1]. Castelmary was born in Toulouse. He was a member of the Paris Opera from 1863 to 1870, where he created the three significant roles in the French grand operas listed above.[2] He was married (later divorced) to the soprano Marie Sasse, who created the role of Élisabeth in Verdi's Don Carlos.[3] He made his debut at the Royal Opera House, London, in 1889 and sang there in many subsequent seasons.[1] Castelmary toured the United States with several different opera companies in 1870, 1879 and 1890 and made his debut at the Metropolitan Opera in New York in 1893.[1] He died onstage at the Metropolitan Opera in New York during a performance of Flotow's Martha.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Armand Castelmary]
+Action 1: Search[Armand Castelmary]
+Observation 1: **Armand Castelmary** (1834 – 10 February 1897) was a French operatic bass.. Castelmary was born in Toulouse, France. He studied at the Paris Conservatoire and made his debut at the Opéra-Comique in 1861. He went on to sing at the Paris Opéra, La Scala in Milan, and the Royal Opera House, Covent Garden, in London.. Castelmary was known for.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Hamlet]
+Action 2: Search[Hamlet]
+Observation 2: The Tragedy of Hamlet, Prince of Denmark, often shortened to Hamlet (/ˈhæmlɪt/), is a tragedy written by William Shakespeare sometime between 1599 and 1601. It is Shakespeare's longest play. Set in Denmark, the play depicts Prince Hamlet and his attempts to exact revenge against his uncle, Claudius, who has murdered Hamlet's father in order to seize his throne and marry Hamlet's mother.. Hamlet is considered among the "most powerful and influential tragedies in the English language", with a story capable of "seemingly endless retelling and adaptation by others."[1] It is widely considered one of the greatest plays of all time.[2] Three different early versions of the play are extant: the First Quarto (Q1, 1603); the Second Quarto (Q2, 1604); and the First Folio (F1, 1623). Each version includes lines and passages missing from the others.[3] Many works have been pointed to as possible sources for Shakespeare's play, from ancient Greek tragedies to Elizabethan dramas..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[Horatio]
+Action 2: Lookup[Horatio]
+Observation 2: **Hamlet**. **Prince Hamlet** is the titular protagonist and tragic hero of William Shakespeare's tragedy *Hamlet*. He is the Prince of Denmark, nephew to the usurping King Claudius, and son of the recently deceased King Hamlet, and Queen Gertrude.. **Character Overview**. Hamlet is one of the most complex and frequently analyzed characters in literature.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[William Shakespeare]
+Action 3: Finish[William Shakespeare]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[William Shakespeare]
+Action 3: Finish[William Shakespeare]
+Observation 3: **Hamlet**. **Prince Hamlet** is the titular protagonist and tragic hero of William Shakespeare's tragedy *Hamlet*. He is the Prince of Denmark, nephew to the usurping King Claudius, and son of the recently deceased King Hamlet, and Queen Gertrude.. **Character Overview**. Hamlet is one of the most complex and frequently analyzed characters in literature.
+
+
+
+INFO {'steps': 5, 'answer': 'William Shakespeare', 'gt_answer': 'William Shakespeare', 'question_idx': 4012, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 21 
+Number of steps: 45 
+Average reward: 0.4666666666666667 
+Average time 21.216903999116685
+
+-------------------------------------------------------
+

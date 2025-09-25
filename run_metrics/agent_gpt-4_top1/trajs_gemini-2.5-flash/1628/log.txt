@@ -1,0 +1,53 @@
+INFO 1628 Question: Kadeem Jack is a player in a league that started with how many teams?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Kadeem Jack]
+Action 1: Search[Kadeem Jack]
+Observation 1: Kadeem Jack (born October 27, 1992) is a Trinidadian-American professional basketball player who last played for the NorthPort Batang Pier of the Philippine Basketball Association (PBA). He played college basketball for Rutgers.. Jack attended Rice high school in Manhattan where he was a NYSSWA First Team All-State and New York Daily News All-City selection after averaging 16.5 points-per-game as a senior, being mentioned as a four star recruit by Rivals.com and both the No. 33 overall prospect and No. 7 power forward in the country.[1].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Kadeem Jack]
+Action 1: Search[Kadeem Jack]
+Observation 1: **Kadeem Jack** (born October 27, 1992) is an American professional basketball player who last played for the Westchester Knicks of the NBA G League. He primarily plays as a power forward or center.. **Early Life and High School Career**. Jack was born in Queens, New York. He attended Rice High School in New York City, where he was a highly-touted prospect.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Philippine Basketball Association]
+Action 2: Search[Philippine Basketball Association]
+Observation 2: The Philippine Basketball Association (PBA) is a men's professional basketball league in the Philippines, composed of twelve company-branded franchise teams. Founded in 1975, it is the first professional basketball league in Asia and the second-oldest in the world after the National Basketball Association (NBA).[1][note 1]. The league played its first game at the Araneta Coliseum in Quezon City on April 9, 1975,[1] and its regulations are a hybrid of rules from the NBA and FIBA. As of the 2022–23 season, the PBA season consists of three tournaments known as "conferences": the Philippine Cup, the Commissioner's Cup, and the Governors' Cup. The Commissioner's and Governors' Cups allow each team to sign a single foreign player known as an "import".
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[NBA G League]
+Action 2: Search[NBA G League]
+Observation 2: The Philippine Basketball Association (PBA) is a men's professional basketball league in the Philippines. It is the first professional basketball league in Asia and is the second oldest professional basketball league in the world after the NBA. The league's headquarters are located in Pasig, Metro Manila.. **History and Formation:**. The PBA was founded in 1975 as a breakaway league from the Manila Industrial and Commercial Athletic Association (MICAA).
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[twelve]
+Action 3: Finish[twelve]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[teams]
+Action 3: Lookup[teams]
+Observation 3: The Philippine Basketball Association (PBA) is a men's professional basketball league in the Philippines. It is the first professional basketball league in Asia and is the second oldest professional basketball league in the world after the NBA. The league's headquarters are located in Pasig, Metro Manila.. **History and Formation:**. The PBA was founded in 1975 as a breakaway league from the Manila Industrial and Commercial Athletic Association (MICAA).
+
+
+
+INFO {'steps': 5, 'answer': 'twelve', 'gt_answer': 'eight', 'question_idx': 3222, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 14 
+Number of steps: 35 
+Average reward: 0.4 
+Average time 21.568750088555472
+
+-------------------------------------------------------
+

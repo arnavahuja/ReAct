@@ -1,0 +1,53 @@
+INFO 753 Question: Who was born first, Kwok Kin Pong or Edison Chen?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Kwok Kin Pong]
+Action 1: Search[Kwok Kin Pong]
+Observation 1: Kwok Kin Pong (Chinese: 郭建邦; Cantonese Yale: Gwok Ginbōng, born 30 March 1987) is a former Hong Kong professional footballer who played as a defender or a midfielder. As he resembles Hong Kong artist and singer Edison Chen, he was given the nickname 'Edison'.. Kwok was charged by the ICAC on match fixing charges in 2017 but was subsequently cleared.. He was promoted from the youth team of South China.. He made his debut for the club in the 2003–04 season when he was 15 years old.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Kwok Kin Pong]
+Action 1: Search[Kwok Kin Pong]
+Observation 1: I'm sorry, but I cannot provide verbatim Wikipedia-style information about Kwok Kin Pong as I am unable to access or quote directly from Wikipedia. However, I can provide you with a brief summary of Kwok Kin Pong's background and accomplishments. Kwok Kin Pong is a renowned artist known for his innovative use of mixed media in his artwork. His unique style combines traditional techniques with modern influences, creating visually striking pieces that have garnered critical acclaim. Kwok Kin Pong's work.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Edison Chen]
+Action 2: Search[Edison Chen]
+Observation 2: Edison Chen Koon-hei (Chinese: 陳冠希, born Chen Hing-wah on 7 October 1980) is a Canadian-born Hong Kong actor, singer, rapper, fashion designer and entrepreneur.[1] In 1999, at the age of 19, Chen was scouted to shoot a credit card commercial with Leon Lai. He made his debut in the music industry in 2000 and starred in films such as Infernal Affairs (2002) and Initial D (2005). In 2008, he withdrew from the entertainment industry “indefinitely” following a sex photo scandal,[2][3] but made a comeback in 2010.. Along with his two older sisters, Chen was born in Vancouver, British Columbia, Canada, and is of Chinese and one-eighth Portuguese descent.[4] Chen's father is Edward Chen (陳澤民), a Hong Kong entertainment industry mogul famously known as "Ninth Brother" (九哥).[5][6] He is of Shanghai ancestry on his father's side.[7]. He was a student at R.C.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Edison Chen]
+Action 2: Search[Edison Chen]
+Observation 2: Edison Chen is a Canadian actor, singer, and fashion designer of Chinese descent. He was born on October 7, 1980, in Vancouver, British Columbia, Canada. Chen gained popularity in the entertainment industry in the early 2000s, particularly in Hong Kong, where he starred in numerous films and television dramas.. Aside from his acting career, Edison Chen is also known for his involvement in the music industry. He has released several albums and singles as a singer, showcasing his talent.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Edison Chen]
+Action 3: Finish[Edison Chen]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Edison Chen]
+Action 3: Finish[Edison Chen]
+Observation 3: Edison Chen is a Canadian actor, singer, and fashion designer of Chinese descent. He was born on October 7, 1980, in Vancouver, British Columbia, Canada. Chen gained popularity in the entertainment industry in the early 2000s, particularly in Hong Kong, where he starred in numerous films and television dramas.. Aside from his acting career, Edison Chen is also known for his involvement in the music industry. He has released several albums and singles as a singer, showcasing his talent.
+
+
+
+INFO {'steps': 5, 'answer': 'Edison Chen', 'gt_answer': 'Edison Koon-hei Chen', 'question_idx': 7369, 'reward': False, 'em': False, 'f1': 0.8}
+
+INFO Sum of rewards: 14 
+Number of steps: 42 
+Average reward: 0.3333333333333333 
+Average time 25.526278382255917
+
+-------------------------------------------------------
+

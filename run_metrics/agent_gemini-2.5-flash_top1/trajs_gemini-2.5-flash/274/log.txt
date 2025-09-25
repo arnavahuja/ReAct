@@ -1,0 +1,53 @@
+INFO 274 Question: Who is both an Austrialian-born British independent filmaker and is known for his work  with the YouTube series THE PERIODIC TABLE OF VIDEOS?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[THE PERIODIC TABLE OF VIDEOS]
+Action 1: Search[THE PERIODIC TABLE OF VIDEOS]
+Observation 1: Periodic Videos (also known as The Periodic Table of Videos) is a video project and YouTube channel on chemistry. It consists of a series of videos about chemical elements and the periodic table, with additional videos on other topics in chemistry and related fields. They are published on YouTube and produced by Brady Haran, a former BBC video journalist, mainly featuring Sir Martyn Poliakoff, Peter Licence, Stephen Liddle, Debbie Kays, Neil Barnes, Sam Tang, and other scientists at the University of Nottingham.[3]. The project began recording on 9 June 2008 and the initial videos were completed on 17 July 2008.[4] The collection includes videos, each just a few minutes long, for all 118 known elements with a video for each element, as well as many additional supplemental chemistry videos. The 118 element videos and introduction videos were all shot unscripted in June and July 2008.[5].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[THE PERIODIC TABLE OF VIDEOS]
+Action 1: Search[THE PERIODIC TABLE OF VIDEOS]
+Observation 1: The Periodic Table of Videos is a series of videos created by Brady Haran, a British filmmaker and video journalist, in collaboration with the School of Chemistry at the University of Nottingham. The project aims to provide an engaging and informative video for every element on the periodic table.. **History and Development:**. The project began in 2008 with a video for each of the then-known 118 elements. The initial concept was to have a short, accessible video for each element.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Brady Haran]
+Action 2: Search[Brady Haran]
+Observation 2: Brady John Haran OAM (born 18 June 1976) is an Australian-British independent filmmaker and video journalist who produces educational videos and documentary films for his YouTube channels, the most notable being Periodic Videos and Numberphile.[1][2] Haran is also the co-host of the Hello Internet podcast along with fellow educational YouTuber CGP Grey. On 22 August 2017, Haran launched his second podcast, called The Unmade Podcast, and on 11 November 2018, he launched his third podcast, The Numberphile Podcast, based on his mathematics-centered channel of the same name.. Brady Haran studied journalism for a year before being hired by The Adelaide Advertiser. In 2002, he moved from Australia to Nottingham, United Kingdom. In Nottingham, he worked for the BBC, began to work with film, and reported for East Midlands Today, BBC News Online and BBC radio stations.[3][4][5].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Brady Haran]
+Action 2: Search[Brady Haran]
+Observation 2: **Brady Haran** (born June 18, 1976) is an Australian independent filmmaker and video journalist, best known for his educational YouTube channels, which include *Numberphile*, *Periodic Videos*, *Sixty Symbols*, *Objectivity*, and *Hello Internet*. His work primarily focuses on science, mathematics, and other academic subjects, presented in an accessible and engaging manner.. **Early Life and Career:**. Haran was born in Adelaide, South Australia..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Brady Haran]
+Action 3: Finish[Brady Haran]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[British]
+Action 3: Lookup[British]
+Observation 3: **Brady Haran** (born June 18, 1976) is an Australian independent filmmaker and video journalist, best known for his educational YouTube channels, which include *Numberphile*, *Periodic Videos*, *Sixty Symbols*, *Objectivity*, and *Hello Internet*. His work primarily focuses on science, mathematics, and other academic subjects, presented in an accessible and engaging manner.. **Early Life and Career:**. Haran was born in Adelaide, South Australia..
+
+
+
+INFO {'steps': 5, 'answer': 'Brady Haran', 'gt_answer': 'Brady Haran', 'question_idx': 6086, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 10 
+Number of steps: 17 
+Average reward: 0.5882352941176471 
+Average time 10.977356532040764
+
+-------------------------------------------------------
+

@@ -1,0 +1,39 @@
+INFO 3749 Question: Which Dutch media tycoon transferred all of its media activities to Talpa Holding?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Talpa Holding]
+Action 1: Search[Talpa Holding]
+Observation 1: Talpa Network is a Dutch media conglomerate created by John de Mol Jr. in 2017.. Talpa Network was created in 2017 by John de Mol when he merged all his various media assets, De Mol wanted to create a Dutch media conglomerate that could stand against foreign media companies entering the Dutch market.[1] When Talpa Holding and Sanoma acquired SBS Broadcasting in 2011,[2] the Netherlands Authority for Consumers and Markets forced De Mol to sell his minority stake in RTL Nederland. De Mol would remain a minority shareholder in SBS Broadcasting, until 2017 when his Talpa Holding acquired all remaining shares in SBS Broadcasting from Sanoma for €237 million.[3] After the sale of RTL Nederland, De Mol took full ownership of Radio 538, SLAM! FM and Radio 10 Gold.[4] In October 2016 De Mol merged his radio stations with the radio stations of the Telegraaf Media Groep into Talpa Radio, a joint venture in which he would hold a 77% stake. He also wanted to fully acquire the Telegraaf Media Groep in which he already had a minority share and merge it with SBS Broadcasting.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Dutch media tycoon Talpa Holding]
+Action 1: Search[Dutch media tycoon Talpa Holding]
+Observation 1: Talpa Holding is a Dutch media company founded by John de Mol in 2004. The company is known for creating and producing television shows, including popular formats such as "The Voice" and "Big Brother." Talpa Holding also operates several television channels in the Netherlands, including SBS6, Net5, and Veronica. In addition to its television production and broadcasting activities, Talpa Holding is involved in radio, music, and digital media. The company has expanded its presence internationally, with.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[John de Mol]
+Action 2: Finish[John de Mol]
+Observation 2: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[John de Mol]
+Action 2: Search[John de Mol]
+Observation 2: Talpa Holding is a Dutch media company founded by John de Mol in 2004. The company is known for creating and producing television shows, including popular formats such as "The Voice" and "Big Brother." Talpa Holding also operates several television channels in the Netherlands, including SBS6, Net5, and Veronica. In addition to its television production and broadcasting activities, Talpa Holding is involved in radio, music, and digital media. The company has expanded its presence internationally, with.
+
+
+
+INFO {'steps': 3, 'answer': 'John de Mol', 'gt_answer': 'John de Mol Jr.', 'question_idx': 2149, 'reward': False, 'em': False, 'f1': 0.8571428571428571}
+
+INFO Sum of rewards: 4 
+Number of steps: 22 
+Average reward: 0.18181818181818182 
+Average time 26.219561869447883
+
+-------------------------------------------------------
+

@@ -1,0 +1,44 @@
+INFO 4948 Question: Where is the head quarter of the Blue Bird Body Company?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to search for the Blue Bird Body Company to find out where their headquarters is located.
+Action 1: Search[Blue Bird Body Company] 
+        Action 1: Search[Blue Bird Body Company]
+        Observation 1: The Blue Bird Corporation (originally known as the Blue Bird Body Company) is an American bus manufacturer headquartered in Fort Valley, Georgia. Best known for its production of school buses, the company has also manufactured a wide variety of other bus types, including transit buses, motorhomes, and specialty vehicles such as mobile libraries and mobile police command centers. Currently, Blue Bird concentrates its product lineup on school buses, school pupil activity buses, and specialty vehicle derivatives.[4]. Since the 1990s, the company has concentrated on the development of alternative-fuel vehicles in the segment. Along with the production of propane, natural gas, and gasoline-fuel buses,  Blue Bird has expanded the development of zero-emissions vehicles, introducing electric-powered versions of each of its product lines.."
+
+SIMULATION TRAJECTORY:
+ Thought 1: To find the location of the head quarter of the Blue Bird Body Company, I need to search for Blue Bird Body Company.
+Action 1: [Search[Blue Bird Body Company], Search[Blue Bird Company head quarter], Lookup[head quarter]] 
+        Action 1: ['Search[Blue Bird Body Company]', 'Search[Blue Bird Company head quarter]', 'Lookup[head quarter]']
+        Observation 1: "
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The headquarters of the Blue Bird Body Company is located in Fort Valley, Georgia.
+Action 2: Finish[Fort Valley, Georgia] 
+        Action 2: Finish[Fort Valley, Georgia]
+        Observation 2: Episode finished, reward = 1
+"
+
+SIMULATION TRAJECTORY:
+ Thought 2: The information provided does not mention the location of the headquarters of the company. I need to look up the key phrase "headquarters" in the observed paragraph.
+Action 2: Lookup[headquarters], Search[Blue Bird Body Company headquarters], Lookup[Blue Bird Body Company] 
+        Action 2: ['Search[Blue Bird Body Company headquarters]', 'Lookup[headquarters]', 'Lookup[Blue Bird Body Company]']
+        Observation 2: "
+
+
+
+INFO {'steps': 3, 'answer': 'Fort Valley, Georgia', 'gt_answer': 'Fort Valley, Georgia', 'question_idx': 4614, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 8 
+Number of steps: 19 
+Average reward: 0.42105263157894735 
+Average time 56.81016556840194
+
+--------------------------------------------------
+

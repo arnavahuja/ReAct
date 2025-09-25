@@ -1,0 +1,109 @@
+INFO 4023 Question: Jessica Jones is a television series created for Netflix, the second in the series of the shows that lead to "The Defenders" miniseries after what show released on Netflix earlier?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Jessica Jones (TV series)]
+Action 1: Search[Jessica Jones (TV series)]
+Observation 1: Marvel's Jessica Jones is an American television series created by Melissa Rosenberg for the streaming service Netflix, based on the Marvel Comics character of the same name. It is set in the Marvel Cinematic Universe (MCU), sharing continuity with the franchise's films, and was the second Marvel Netflix series leading to the crossover miniseries The Defenders (2017). The series was produced by Marvel Television in association with ABC Studios and Tall Girls Productions, with Rosenberg serving as showrunner. Scott Reynolds was co-showrunner for the third season.. Krysten Ritter stars as Jessica Jones, an ex-superhero turned private investigator who opens her own detective agency, Alias Investigations.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[The Defenders]
+Action 1: Search[The Defenders]
+Observation 1: "Jessica Jones" is an American television series created by Melissa Rosenberg, based on the Marvel Comics character of the same name. The show premiered on Netflix on November 20, 2015, as part of the Marvel Cinematic Universe (MCU). It stars Krysten Ritter as Jessica Jones, a former superhero turned private investigator with superhuman strength and a troubled past.. The series follows Jessica as she navigates the dark and gritty world of New York City, taking on cases while dealing.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Lookup[first]
+Action 2: Lookup[first]
+Observation 2: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[The Defenders]
+Action 2: Lookup[The Defenders]
+Observation 2: "Jessica Jones" is an American television series created by Melissa Rosenberg, based on the Marvel Comics character of the same name. The show premiered on Netflix on November 20, 2015, as part of the Marvel Cinematic Universe (MCU). It stars Krysten Ritter as Jessica Jones, a former superhero turned private investigator with superhuman strength and a troubled past.. The series follows Jessica as she navigates the dark and gritty world of New York City, taking on cases while dealing.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Marvel Netflix series leading to The Defenders]
+Action 3: Search[Marvel Netflix series leading to The Defenders]
+Observation 3: Could not find Marvel Netflix series leading to The Defenders. Similar: ["Marvel's Netflix television series", 'List of Marvel Cinematic Universe television series', 'Marvel Cinematic Universe timeline', 'The Defenders (miniseries)', 'Marvel Cinematic Universe'].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[second Marvel Netflix series leading to the crossover miniseries The Defenders (2017)]
+Action 3: Lookup[second Marvel Netflix series leading to the crossover miniseries The Defenders (2017)]
+Observation 3: The Marvel Netflix series leading to The Defenders is a group of interconnected television series produced by Marvel Television and released on the streaming service Netflix. The series include Daredevil, Jessica Jones, Luke Cage, and Iron Fist. These individual series follow the stories of street-level superheroes in the Marvel Cinematic Universe.. "Daredevil" premiered in April 2015 and follows the story of Matt Murdock, a blind lawyer who fights crime as the vigilante Daredevil in Hell's Kitchen, New York City.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[The Defenders (miniseries)]
+Action 4: Search[The Defenders (miniseries)]
+Observation 4: Marvel's The Defenders is an American television miniseries created by Douglas Petrie and Marco Ramirez for the streaming service Netflix, based on the Marvel Comics characters Daredevil, Jessica Jones, Luke Cage, and Iron Fist, who form the eponymous superhero team. It is set in the Marvel Cinematic Universe (MCU), sharing continuity with the franchise's films. The miniseries is a crossover event and the culmination of four previously released interconnected series from Marvel and Netflix starring each superhero. It was produced by Marvel Television in association with ABC Studios, Nine and a Half Fingers, Inc., and Goddard Textiles, with Ramirez serving as showrunner.. The series stars Charlie Cox as Matt Murdock / Daredevil, Krysten Ritter as Jessica Jones, Mike Colter as Luke Cage, and Finn Jones as Danny Rand / Iron Fist, all reprising their roles from their individual series.
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[Daredevil]
+Action 4: Finish[Daredevil]
+Observation 4: "The Defenders" is a miniseries created by Douglas Petrie and Marco Ramirez for Netflix, based on the Marvel Comics superhero team of the same name. The series features the characters Daredevil, Jessica Jones, Luke Cage, and Iron Fist, who come together to form a team in New York City to fight against a common enemy. The miniseries premiered on August 18, 2017, and consists of eight episodes. It received generally positive reviews from critics and fans for its character.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Lookup[second]
+Action 5: Lookup[second]
+Observation 5: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Search[Marvel Cinematic Universe timeline]
+Action 5: Search[Marvel Cinematic Universe timeline]
+Observation 5: "The Defenders" is a miniseries created by Douglas Petrie and Marco Ramirez for Netflix, based on the Marvel Comics superhero team of the same name. The series features the characters Daredevil, Jessica Jones, Luke Cage, and Iron Fist, who come together to form a team in New York City to fight against a common enemy. The miniseries premiered on August 18, 2017, and consists of eight episodes. It received generally positive reviews from critics and fans for its character.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Search[Daredevil (TV series)]
+Action 6: Search[Daredevil (TV series)]
+Observation 6: Marvel's Daredevil is an American television series created by Drew Goddard for the streaming service Netflix, based on the Marvel Comics character Daredevil. It is set in the Marvel Cinematic Universe (MCU), sharing continuity with the films of the franchise, and was the first Marvel Netflix series leading to the crossover miniseries The Defenders (2017). Daredevil was produced by Marvel Television in association with ABC Studios. Steven S. DeKnight served as showrunner for the first season, with Doug Petrie and Marco Ramirez taking over as co-showrunners for the second, and Erik Oleson joining the series as showrunner for the third; Goddard served as a consultant for the series..
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Search[Daredevil (TV series)]
+Action 6: Search[Daredevil (TV series)]
+Observation 6: "Daredevil" is an American television series created by Drew Goddard for the streaming service Netflix, based on the Marvel Comics character of the same name. The show premiered on April 10, 2015, and ran for three seasons before being canceled in November 2018. The series stars Charlie Cox as Matt Murdock, a blind lawyer who fights crime as the masked vigilante Daredevil in the Hell's Kitchen neighborhood of New York City. The show received critical acclaim for its dark.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Finish[Marvel's Daredevil]
+Action 7: Finish[Marvel's Daredevil]
+Observation 7: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Finish[Daredevil]
+Action 7: Finish[Daredevil]
+Observation 7: "Daredevil" is an American television series created by Drew Goddard for the streaming service Netflix, based on the Marvel Comics character of the same name. The show premiered on April 10, 2015, and ran for three seasons before being canceled in November 2018. The series stars Charlie Cox as Matt Murdock, a blind lawyer who fights crime as the masked vigilante Daredevil in the Hell's Kitchen neighborhood of New York City. The show received critical acclaim for its dark.
+
+
+
+INFO {'steps': 13, 'answer': "Marvel's Daredevil", 'gt_answer': 'Daredevil', 'question_idx': 4545, 'reward': False, 'em': False, 'f1': 0.6666666666666666}
+
+INFO Sum of rewards: 14 
+Number of steps: 33 
+Average reward: 0.42424242424242425 
+Average time 16.990453604495887
+
+-------------------------------------------------------
+

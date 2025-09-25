@@ -1,0 +1,53 @@
+INFO 245 Question: Who is the mother of Mary, Crown Princess of Denmark's husband?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Mary, Crown Princess of Denmark]
+Action 1: Search[Mary, Crown Princess of Denmark]
+Observation 1: Queen Margrethe II. Mary (born Mary Elizabeth Donaldson; 5 February 1972) is Queen of Denmark as the wife of King Frederik X.. Mary met Frederik (then Crown Prince of Denmark) while attending the 2000 Summer Olympics in Sydney. They married on 14 May 2004 at Copenhagen Cathedral. They have four children: Christian, Isabella, Vincent and Josephine.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Mary, Crown Princess of Denmark]
+Action 1: Search[Mary, Crown Princess of Denmark]
+Observation 1: Mary, Crown Princess of Denmark, Countess of Monpezat, R.E. (born Mary Elizabeth Donaldson on 5 February 1972) is the wife of Frederik, Crown Prince of Denmark. Mary was born in Hobart, Tasmania, Australia. She met Crown Prince Frederik at the 2000 Sydney Olympics, and they married in 2004. Mary became Crown Princess of Denmark when Frederik ascended to the throne in 2022.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Frederik X]
+Action 2: Search[Frederik X]
+Observation 2: Queen Margrethe II. Frederik X (Frederik André Henrik Christian, pronounced [ˈfʁeðˀʁek, ˈfʁæðˀʁæk]; born 26 May 1968) is King of Denmark. He acceded to the throne following his mother's abdication in 2024.[7][8]. Frederik is the eldest son of Margrethe II and Prince Henrik. He was born during the reign of his maternal grandfather, King Frederik IX, and became Crown Prince of Denmark following his mother's accession in 1972.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Frederik, Crown Prince of Denmark]
+Action 2: Search[Frederik, Crown Prince of Denmark]
+Observation 2: Frederik IX (Christian Frederik Franz Michael Carl Valdemar Georg) was the King of Denmark from 1947 until his death in 1972. He was born on March 11, 1899, in Sorgenfri Palace, Denmark, as the eldest son of King Christian X and Queen Alexandrine. Frederik IX became king following the death of his father and played a significant role in modernizing the Danish monarchy.. During his reign, Frederik IX was known for.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Margrethe II]
+Action 3: Finish[Margrethe II]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[King Frederik X]
+Action 3: Search[King Frederik X]
+Observation 3: Frederik IX (Christian Frederik Franz Michael Carl Valdemar Georg) was the King of Denmark from 1947 until his death in 1972. He was born on March 11, 1899, in Sorgenfri Palace, Denmark, as the eldest son of King Christian X and Queen Alexandrine. Frederik IX became king following the death of his father and played a significant role in modernizing the Danish monarchy.. During his reign, Frederik IX was known for.
+
+
+
+INFO {'steps': 5, 'answer': 'Margrethe II', 'gt_answer': 'Queen Margrethe II', 'question_idx': 2485, 'reward': False, 'em': False, 'f1': 0.8}
+
+INFO Sum of rewards: 19 
+Number of steps: 42 
+Average reward: 0.4523809523809524 
+Average time 16.742061592283704
+
+-------------------------------------------------------
+

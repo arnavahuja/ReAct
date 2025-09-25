@@ -1,0 +1,67 @@
+INFO 4212 Question: How far is Sadie Macdonald's home town from Sydney?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Sadie Macdonald]
+Action 1: Search[Sadie Macdonald]
+Observation 1: Sadie Macdonald OBE (née Murn; 3 July 1886 – 12 May 1966) was a New Zealand nurse and community leader. She was born in Gulgong, New South Wales, Australia, on 3 July 1886.[1]. In the 1938 King's Birthday Honours, Macdonald was appointed an Officer of the Order of the British Empire, for social welfare services.[2]. This biography related to medicine in New Zealand is a stub. You can help Wikipedia by expanding it..
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Sadie Macdonald]
+Action 1: Search[Sadie Macdonald]
+Observation 1: Sadie Macdonald is a Canadian actress and comedian. She is known for her work in television and film, as well as her stand-up comedy performances.. Macdonald has appeared in a number of television shows, including "The Kids in the Hall," "Corner Gas," and "Schitt's Creek." She has also lent her voice to animated series such as "Bob's Burgers" and "Family Guy.". In addition to her television work, Macdonald has acted in films like ".
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Distance Gulgong Sydney]
+Action 2: Search[Distance Gulgong Sydney]
+Observation 2: Could not find Distance Gulgong Sydney. Similar: ['Northern Line (Sydney)', 'Greater Western Sydney', 'Jimmy Governor', 'North Shore & Western Line (redirect from Western railway line, Sydney)', 'Main North railway line, New South Wales'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[home town]
+Action 2: Lookup[home town]
+Observation 2: Gulgong is a historic town in the Central West region of New South Wales, Australia. It is located approximately 310 kilometres (193 mi) west of Sydney.. **Distance and Travel Time:**. The driving distance between Gulgong and Sydney is approximately 310 kilometres (193 miles). The journey typically takes around 3.5 to 4 hours, depending on traffic conditions and the route taken..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Gulgong]
+Action 3: Search[Gulgong]
+Observation 3: Gulgong is a 19th-century gold rush town in the Central Tablelands and the wider Central West regions of the Australian state of New South Wales. The town is situated within the Mid-Western Regional Council local government area. It is located about 300 km (190 mi) north west of Sydney, and about 30 km north of Mudgee along the Castlereagh Highway. At the 2021 census, Gulgong had a population of 2,680.[2]. Today, much of the 19th-century character of the town remains, contributing to its appeal as a tourist destination.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[310 kilometres (193 mi)]
+Action 3: Finish[310 kilometres (193 mi)]
+Observation 3: Gulgong is a historic town in the Central West region of New South Wales, Australia. It is located on the Gulgong Creek, approximately 316 kilometres (196 mi) north-west of Sydney. The town is situated within the Mid-Western Regional Council local government area.. **History:**. Gulgong's origins are tied to the gold rushes of the 1870s.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[300 km (190 mi)]
+Action 4: Finish[300 km (190 mi)]
+Observation 4: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[316 kilometres (196 miles)]
+Action 4: Finish[316 kilometres (196 miles)]
+Observation 4: Gulgong is a historic town in the Central West region of New South Wales, Australia. It is located on the Gulgong Creek, approximately 316 kilometres (196 mi) north-west of Sydney. The town is situated within the Mid-Western Regional Council local government area.. **History:**. Gulgong's origins are tied to the gold rushes of the 1870s.
+
+
+
+INFO {'steps': 7, 'answer': '300 km (190 mi)', 'gt_answer': '300 km north west', 'question_idx': 4076, 'reward': False, 'em': False, 'f1': 0.5}
+
+INFO Sum of rewards: 12 
+Number of steps: 25 
+Average reward: 0.48 
+Average time 10.212148208618164
+
+-------------------------------------------------------
+

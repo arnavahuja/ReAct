@@ -1,0 +1,58 @@
+INFO 6904 Question: Which continent have a distribution of both the Ternstroemia and Cussonia genus of plants?
+
+STEP: 1
+
+ERROR Action not found in None 
+Retrying to get action...
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Ternstroemia]
+Action 2: Search[Ternstroemia]
+Observation 2: Ternstroemia is a genus of flowering plants in the family Pentaphylacaceae.[1] It is distributed in tropical and subtropical regions in Africa, Asia, and the Americas.[2]. These are evergreen shrubs and trees. The leaves are alternately arranged, sometimes in clusters. Species are androdioecious, with some individuals bearing bisexual flowers and others with flowers that are functionally male. Flowers are solitary or borne in clusters.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Ternstroemia]
+Action 2: Search[Ternstroemia]
+Observation 2: Ternstroemia is a genus of flowering plants in the family Pentaphylacaceae. It consists of around 100 species of evergreen trees and shrubs that are native to tropical and subtropical regions of Asia, Africa, and the Americas. The genus is known for its attractive foliage and colorful, often fragrant flowers. Ternstroemia species are commonly cultivated as ornamental plants in gardens and landscapes. The plants typically have glossy, leathery leaves and produce small, berry.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Cussonia]
+Action 3: Search[Cussonia]
+Observation 3: Cussonia is a genus of plants of the family Araliaceae, which is native to the Afrotropics. It originated in Africa and has its center of distribution in South Africa and the Mascarene Islands. Due to their striking habit, they are a conspicuous and easily recognizable group of plants. Their genus name commemorates the botanist Pierre Cusson.[1] The Afro-Malagasy and Asian Schefflera, and Afrotropical Seemannaralia genera are related taxa that share several of its morphological characteristics, among which the leaves borne on the end of branches, inflorescences carried on terminal branches or stems, and reduced leaf complexity in developing inflorescences.[2]. They occur in grasslands, woodlands and forests, from sea level to over 2,000 metres in altitude.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Cussonia]
+Action 3: Search[Cussonia]
+Observation 3: Cussonia is a genus of flowering plants in the family Araliaceae. It consists of around 20 species of trees and shrubs native to Africa and Madagascar. These plants are known for their distinctive foliage and are commonly grown as ornamental plants in gardens and landscapes. Cussonia species typically have large, lobed leaves and produce small, clustered flowers that are followed by berries or drupes. Some species, such as Cussonia spicata, are used.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[Africa]
+Action 4: Finish[Africa]
+Observation 4: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[Africa and Asia]
+Action 4: Finish[Africa and Asia]
+Observation 4: Cussonia is a genus of flowering plants in the family Araliaceae. It consists of around 20 species of trees and shrubs native to Africa and Madagascar. These plants are known for their distinctive foliage and are commonly grown as ornamental plants in gardens and landscapes. Cussonia species typically have large, lobed leaves and produce small, clustered flowers that are followed by berries or drupes. Some species, such as Cussonia spicata, are used.
+
+
+
+INFO {'steps': 5, 'answer': 'Africa', 'gt_answer': 'Africa', 'question_idx': 5913, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 3 
+Number of steps: 4 
+Average reward: 0.75 
+Average time 26.12496656179428
+
+-------------------------------------------------------
+

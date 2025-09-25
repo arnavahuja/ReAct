@@ -1,0 +1,64 @@
+INFO 2527 Question: What running back ended his career in 2006 and was one of the rushers Matt O'Dwyer blocked for?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I should look up Matt O'Dwyer to find the running backs he blocked for, then identify which one ended his career in 2006.
+Action 1: Search[Matt O'Dwyer]
+Observation 1: Matt O'Dwyer (born September 1, 1972) is an American former professional football player who was a guard who played in the National Football League (NFL) from 1995 to 2005. He played college football for the Northwestern Wildcats and in the NFL for the New York Jets (1995–1998), the Cincinnati Bengals (1999–2003), and the Tampa Bay Buccaneers (2004).[1] He blocked on lines that produced a 1,000-yard rusher in seven of his 10 NFL seasons (Adrian Murrell 1996–1997, Curtis Martin 1998 and Corey Dillon 1999–2002). He also helped Dillon to break Walter Payton's single-game NFL record, a 278-yard performance vs. Denver, October 22, 2000 (since surpassed by Jamal Lewis in 2003 and Adrian Peterson in 2007).. Selected by the Jets as the first pick in the second round (33rd overall) of the 1995 NFL draft, O'Dwyer started 64 consecutive games at guard for the Jets (1996–1998) and Bengals (1999).[2] In 2002, he was Cincinnati's only player on the field for every snap.
+
+SIMULATION TRAJECTORY:
+ Thought 1: I should look up Matt O'Dwyer’s Wikipedia page to find the list of rushers he blocked for, then identify which of those ended his career in 2006.
+Action 1: Search[Matt O'Dwyer]
+Observation 1: **Matthew O'Dwyer** (born 1987) is an American professional mixed martial artist who competes in the flyweight division of the Ultimate Fighting Championship (UFC).. **Background:**. O'Dwyer began his professional MMA career in 2011. He competed in various regional promotions before signing with the UFC.. **UFC Career:**.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: From the listed rushers (Adrian Murrell, Curtis Martin, Corey Dillon), I should check which one’s career ended in 2006; likely Corey Dillon, so I will verify his career end year.
+Action 2: Search[Corey Dillon]
+Observation 2: Corey James Dillon (born October 24, 1974) is an American former professional football running back who played in the National Football League (NFL) for 10 seasons with the Cincinnati Bengals and New England Patriots. He played college football for the Washington Huskies, earning third-team All-American and first-team All-Pac-10 honors in 1996, and was selected by the Bengals in the second round of the 1997 NFL draft.. During his seven years with the Bengals, Dillon set several franchise records and earned three consecutive Pro Bowl selections. He played for the Patriots in his last three seasons, where he was named to his fourth Pro Bowl and won Super Bowl XXXIX. Dillon retired with over 11,000 rushing yards and is 21st in NFL career rushing yards.
+
+SIMULATION TRAJECTORY:
+ Thought 2: The result is for an MMA fighter, not the NFL offensive lineman. I need the American football player's page to see which rushers he blocked for.
+Action 2: Search[Matt O'Dwyer (American football)]
+Observation 2: Corey Dillon is an English former professional footballer who played as a striker.. **Club Career:**. Dillon began his career at **Wolverhampton Wanderers**, where he made his senior debut in 1992. He quickly established himself as a prolific goalscorer for the club, helping them to promotion to the Premier League in 1997.. In 1997, Dillon moved to **Everton** for a fee of £3.5 million.
+
+
+
+STEP: 3
+
+ERROR Action not found in None 
+Retrying to get action...
+
+STEP: 4
+
+ERROR Action not found in None 
+Retrying to get action...
+
+STEP: 5
+
+ERROR Action not found in None 
+Retrying to get action...
+
+STEP: 6
+
+ERROR Action not found in None 
+Retrying to get action...
+
+STEP: 7
+
+ERROR Action not found in None 
+Retrying to get action...
+
+INFO {'steps': 5, 'answer': '', 'gt_answer': 'Curtis Martin', 'question_idx': 4888, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 0 
+Number of steps: 2 
+Average reward: 0.0 
+Average time 375.6220849752426
+
+-------------------------------------------------------
+

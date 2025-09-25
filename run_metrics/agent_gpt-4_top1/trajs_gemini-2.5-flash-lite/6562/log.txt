@@ -1,0 +1,111 @@
+INFO 6562 Question: Who was one of the stars who played the two oldest children in a TV series which had a 2010 movie based on it?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action To begin, I'll search for TV series which had a movie based on it in 2010.
+
+Action 1: To begin, I'll search for TV series which had a movie based on it in 2010.
+
+Observation 1: Invalid action: to begin, I'll search for TV series which had a movie based on it in 2010.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[2010 movies based on TV series]
+Action 1: Search[2010 movies based on TV series]
+Observation 1: Bernhard Heiden (1910–1984) was a German-American composer and music educator.. **Early Life and Education:**. Born in Germany, Heiden received his musical training at the Hochschule für Musik in Berlin, where he studied composition with Paul Hindemith. He also studied musicology at the University of Berlin.. **Career in the United States:**.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[TV series turned into movies in 2010]
+Action 2: Search[TV series turned into movies in 2010]
+Observation 2: Could not find TV series turned into movies in 2010. Similar: ['Supernatural (American TV series)', 'Little House on the Prairie (TV series)', 'Sherlock (TV series)', 'At the Movies (1986 TV program)', 'Lost (TV series)'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[2010 movies based on TV series]
+Action 2: Search[2010 movies based on TV series]
+Observation 2: **Television Series Turned into Movies in 2010**. In 2010, several television series made the leap to the big screen, offering fans a chance to experience their favorite characters and storylines in a new format. These adaptations ranged from direct continuations of beloved shows to reboots and new interpretations.. **Notable Examples:**. *   **The A-Team:** Based on the popular 1980s action-adventure series of the same name, the.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[movies based on TV series 2010]
+Action 3: Search[movies based on TV series 2010]
+Observation 3: Could not find movies based on TV series 2010. Similar: ['List of films based on television programs', 'List of television series based on DC Comics publications', 'List of television programs based on films', 'Nickelodeon Movies', 'Little House on the Prairie (TV series)'].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[The A-Team TV series cast]
+Action 3: Search[The A-Team TV series cast]
+Observation 3: ## Films Based on Television Series Released in 2010. Several films released in 2010 were based on pre-existing television series, continuing a trend of adapting popular small-screen content for the big screen. These adaptations spanned various genres and aimed to capture the essence of their source material while offering a cinematic experience.. ### Notable Releases:. *   **The A-Team:** This action-comedy film, released in June 2010, was a modern.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[List of films based on television programs]
+Action 4: Search[List of films based on television programs]
+Observation 4: This is a list of television programs that were later adapted into feature films.. Television pilots that were soon or later adapted into feature films for either a release or re-release to movie theaters or direct-to-video.. Many other series have released pilots or edited multi-part episodes as films overseas, including The Greatest American Hero and The X-Files.. Some feature films began as a pilot for a TV series that was not picked up by any networks; most of these many failed pilots have been aired as television films.. The following are television films that never saw theatrical release..
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[The A-Team TV series]
+Action 4: Search[The A-Team TV series]
+Observation 4: ## Films Based on Television Programs. This is a list of films that have been adapted from television programs. These adaptations can take various forms, including feature films, direct-to-video releases, and sometimes even theatrical shorts that were later compiled into longer features. The source material can range from live-action series, animated shows, game shows, reality television, and even news programs.. ### Notable Examples and Trends.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Lookup[2010]
+Action 5: Lookup[2010]
+Observation 5: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Lookup[2010]
+Action 5: Lookup[2010]
+Observation 5: ## Films Based on Television Programs. This is a list of films that have been adapted from television programs. These adaptations can take various forms, including feature films, direct-to-video releases, and sometimes even theatrical shorts that were later compiled into longer features. The source material can range from live-action series, animated shows, game shows, reality television, and even news programs.. ### Notable Examples and Trends.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Search[2010 movies]
+Action 6: Search[2010 movies]
+Observation 6: In 2010, there was a dramatic increase and prominence in the use of 3D-technology in filmmaking after the success of Avatar in the format, with releases such as Alice in Wonderland, Clash of the Titans, Jackass 3D, Megamind and numerous other titles being released in 3D formats. 20th Century Fox and Republic Pictures celebrated their 75th anniversaries.. In his article highlighting the best movies of 2010, Richard Brody of The New Yorker said:. "At times it feels as if we’re living in something of a cinematic golden age, but one that’s altogether different from earlier halcyon days. Where some celebrate the former genius of the system to explain an earlier day’s proliferation of fine movies, now the system is something of a blunderer that often flings itself into follies or even crushes inspiration under its weight, but sometimes gets carried away, for reasons good or bad, and hands surprising control of vast resources over to artists who make stunningly audacious and personal use of them.
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Lookup[2010]
+Action 6: Lookup[2010]
+Observation 6: ## 2010 in Film. The year **2010** saw a diverse range of films released across various genres, continuing the trends of blockbuster franchises, independent cinema, and animated features. The global box office experienced significant growth, with several films achieving massive commercial success.. ### Major Box Office Successes. The highest-grossing film of 2010 was **Avatar**, James Cameron's groundbreaking science fiction epic, which continued its phenomenal run from late 2.
+
+
+
+STEP: 7
+
+NORMAL TRAJECTORY:
+ Thought 7: Let me do the action Search[family TV shows made into movies in 2010]
+Action 7: Search[family TV shows made into movies in 2010]
+Observation 7: Could not find family TV shows made into movies in 2010. Similar: ['List of television programs based on films (redirect from List of movies made into TV shows)', 'Television film (redirect from Made-for-TV movies)', 'List of films considered the worst (redirect from Lists of the worst movies ever made)', 'List of films based on television programs (redirect from List of TV shows made into movies)', 'List of films and television shows set in Miami'].
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Search[List of 2010 movies]
+Action 7: Search[List of 2010 movies]
+Observation 7: **Family TV Shows Made into Movies in 2010**. In 2010, several popular family television shows were adapted into feature films, bringing beloved characters and storylines to the big screen for a new generation of viewers and long-time fans alike.. **The A-Team**. *   **Based on:** The 1980s action-adventure television series of the same name.. *   **Synopsis:** A team of former U.S..
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': 'Michael Seater', 'question_idx': 629, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 7 
+Number of steps: 21 
+Average reward: 0.3333333333333333 
+Average time 31.889151243936446
+
+-------------------------------------------------------
+

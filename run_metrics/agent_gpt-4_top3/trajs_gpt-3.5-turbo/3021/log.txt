@@ -1,0 +1,62 @@
+INFO 3021 Question: Mutton Lane Cemetery is located in a town 13 mi north of where?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to search Mutton Lane Cemetery and find the town it's located in, then find where the town is 13 mi north of.
+Action 1: Search[Mutton Lane Cemetery] 
+        Action 1: Search[Mutton Lane Cemetery]
+        Observation 1: Mutton Lane Cemetery, officially known as St Mary's Cemetery, is a cemetery in Mutton Lane, Potters Bar, Hertfordshire, that is associated with nearby St Mary the Virgin and All Saints church. The cemetery includes a garden of remembrance for prisoners of war.. In 1909 a gothic-style lychgate was built on the northern side of the cemetery which is locally listed by Hertsmere Borough Council.[1]. The cemetery contains thirteen Commonwealth war graves of service personnel, three from World War I and ten from World War II.[2]. The cemetery was closed to new burials in the 1970s, however, ashes may still be interred there.[3]."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to search for Mutton Lane Cemetery and find the town it is located in. Then, I would search for the town and find the place it is 13 mi north of.
+Action 1: Search[Mutton Lane Cemetery], Search[Mutton Lane], Lookup[Mutton Lane] 
+        Action 1: ['Search[Mutton Lane Cemetery]', 'Search[Mutton Lane]', 'Lookup[Mutton Lane]']
+        Observation 1: Mutton Lane Cemetery is a historic cemetery located in the town of Potters Bar in Hertfordshire, England. It is known for its picturesque setting and serene atmosphere, making it a popular destination for visitors seeking a peaceful place to reflect and pay their respects to the deceased. The cemetery is home to a variety of graves and memorials, some of which date back several centuries. Many notable individuals are buried in Mutton Lane Cemetery, adding to its significance as a cultural and historical site.."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The Mutton Lane Cemetery is located in Potters Bar, Hertfordshire. I need to find the location that Potters Bar is 13 mi north of.
+Action 2: Search[Potters Bar] 
+        Action 2: Search[Potters Bar]
+        Observation 2: Potters Bar is a town in Hertfordshire, England,[1] 13 miles (21 km) north of central London. In 2011, it had a population of 21,882.[2][n 1] In the 2021 census, the four wards that make up Potters Bar - Bentley Heath & The Royds, Furzefield, Oakmere and Parkfield - had a combined population of 22,536; this includes several smaller outlying hamlets contained in the Bentley Heath & The Royds ward, such as Bentley Heath and Ganwick Corner. In 2022, the population was around 23,325.[3]. Within the historic county of Middlesex until 1965, the town dates to the early 13th century but remained a small, mainly agricultural, settlement until the arrival of the Great Northern Railway in 1850.[4] It is now part of the London commuter belt.[5]. The origin of the Potters element of the town's name is uncertain; it is generally thought to be either a reference to a Roman pottery, believed to have been sited locally, or alternatively to the Pottere family who lived in neighbouring South Mimms parish.[6]."
+
+SIMULATION TRAJECTORY:
+ Thought 2: Mutton Lane Cemetery is in Potters Bar, Hertfordshire, England. I need to find which place is 13 mi south of Potters Bar.
+Action 2: Search[Potters Bar]
+Action 3: Lookup[Potters Bar]
+Action 4: Search[Hertfordshire] 
+        Action 2: ['Search[Potters Bar]', 'Search[Hertfordshire]', 'Lookup[Potters Bar]']
+        Observation 2: Potters Bar is a town in Hertfordshire, England, located about 18 miles north of Central London. It is part of the London commuter belt and has a population of approximately 22,000 residents. The town is known for its good transport links, with a railway station connecting it to London and other nearby towns. Potters Bar is also home to a variety of shops, restaurants, and amenities, making it a popular place to live for commuters and families. The town."
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Potters Bar is located 13 miles north of central London. So Mutton Lane Cemetery, situated in Potters Bar, is 13 miles north of Central London. 
+Action 3: Finish[Central London] 
+        Action 3: Finish[Central London]
+        Observation 3: Episode finished, reward = 0
+"
+
+SIMULATION TRAJECTORY:
+ Thought 3: Potters Bar is located about 18 miles north of Central London. So, the town that Mutton Lane Cemetery (in Potters Bar) is 13 miles north of would be someplace in London.
+Action 3: Finish[Central London], Finish[London], Search[London] 
+        Action 3: ['Search[London]', 'Finish[Central London]', 'Finish[London]']
+        Observation 3: Potters Bar is a town in Hertfordshire, England, located about 18 miles north of Central London. It is part of the London commuter belt and has a population of approximately 22,000 residents. The town is known for its good transport links, with a railway station connecting it to London and other nearby towns. Potters Bar is also home to a variety of shops, restaurants, and amenities, making it a popular place to live for commuters and families. The town."
+
+
+
+INFO {'steps': 5, 'answer': 'Central London', 'gt_answer': 'London', 'question_idx': 3037, 'reward': False, 'em': False, 'f1': 0.6666666666666666}
+
+INFO Sum of rewards: 5 
+Number of steps: 14 
+Average reward: 0.35714285714285715 
+Average time 52.24611634867532
+
+--------------------------------------------------
+

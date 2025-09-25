@@ -1,0 +1,67 @@
+INFO 191 Question: Choi Jun-hong  is best known as a member of a group formed in which year ?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Choi Jun-hong]
+Action 1: Search[Choi Jun-hong]
+Observation 1: Could not find Choi Jun-hong. Similar: ['Yeonjun (redirect from Choi Yeon-jun)', 'Zelo', 'Jun Ji-hyun', 'Zelos', 'Choi (Korean surname)'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Choi Jun-hong]
+Action 1: Search[Choi Jun-hong]
+Observation 1: Choi Jun-hong, more commonly known by his stage name Zelo, is a South Korean singer, rapper, and dancer. He is best known as a former member of the K-pop boy group B.A.P.. Born on June 15, 1996, in Mokpo, South Jeolla Province, South Korea, Zelo's real name is Choi Jun-hong. He began his career in entertainment at a young age, showing a talent.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Zelo]
+Action 2: Search[Zelo]
+Observation 2: Choi Jun-hong (Korean: 최준홍; born October 15, 1996), better known by his stage name Zelo, is a South Korean rapper and dancer best known as the former member of the South Korean boy group B.A.P. He made his recording debut with the single "Never Give Up" under B.A.P's sub-unit Bang&Zelo in November 2011. He departed TS Entertainment in December 2018.. Zelo was born on October 15, 1996, in Mokpo, South Korea.[1][unreliable source?][2] He has one older brother.[3] He aspired to be a soccer player when he was young, but then changed his dreams to becoming a singer as he chanced upon music and grew interested in it.[4] He started practising beatboxing and dancing at home.[4] In 5th grade, Zelo was introduced by an acquaintance who recognized his talent to Joy Dance - Plug In Music Academy located in Gwangju, which is a well-known music academy. He auditioned for several recording companies but did not succeed generally because he was too young.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[B.A.P]
+Action 2: Search[B.A.P]
+Observation 2: **Zelo** (Korean: 젤로; Japanese: ジェロ) is a South Korean singer, rapper, and dancer. He is best known as a former member of the K-pop boy group B.A.P.. **Early Life and Education:**. Born Choi Jun-hong (최준홍) on June 15, 1996, in Mokpo, South Jeolla Province, South Korea. He attended the School of Performing Arts Seoul (S.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[B.A.P]
+Action 3: Search[B.A.P]
+Observation 3: Bang & Jung & Yoo & Moon (Korean: 방용국&정대현&유영재&문종업) is a South Korean boy band under MA Entertainment. The group, originally consisting of Yongguk, Himchan, Daehyun, Youngjae, Jong-up, and Zelo is best known for their 7 year tenure as B.A.P (Korean: 비에이피; an acronym for Best Absolute Perfect), under TS Entertainment, debuting with the song "Warrior" in 2012.. B.A.P quietly disbanded on February 18, 2019, following the group's contract expiration with TS Entertainment.[3] In 2024, the group officially reunited under the name Bang & Jung & Yoo & Moon to release their next album, Curtain Call in August. Members Zelo and Himchan will not be included in the comeback as a result of Zelo's military service and Himchan's sexual assault convictions.[4]. Group leader[5] Yongguk was the first member to be introduced in 2011, featuring on labelmate Song Ji-eun's song "Going Crazy".[6] He also made a solo debut on August 12 with the single "I Remember", featuring Beast's Yang Yo-seob.[7] Himchan was the second member to be introduced to the public, as an MC for MTV Korea television program The Show.[8] On November 23, Zelo was introduced as the third member of the group through a collaboration with Yongguk as the group Bang&Zelo.[9][unreliable source?] The duo released the single "Never Give Up".[10][unreliable source?].
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[B.A.P]
+Action 3: Search[B.A.P]
+Observation 3: **B.A.P** (Korean: 비에이피; an acronym for **Best Absolute Perfect**) was a South Korean boy band formed by TS Entertainment. The group debuted on January 27, 2012, with the single "Warrior". B.A.P was known for their powerful music, intense performances, and socially conscious lyrics, often addressing themes such as education reform, mental health, and political issues.. The group consisted of six members:. *.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[2012]
+Action 4: Finish[2012]
+Observation 4: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[2012]
+Action 4: Finish[2012]
+Observation 4: **B.A.P** (Korean: 비에이피; an acronym for **Best Absolute Perfect**) was a South Korean boy band formed by TS Entertainment. The group debuted on January 27, 2012, with the single "Warrior". B.A.P was known for their powerful music, intense performances, and socially conscious lyrics, often addressing themes such as education reform, mental health, and political issues.. The group consisted of six members:. *.
+
+
+
+INFO {'steps': 7, 'answer': '2012', 'gt_answer': '2012', 'question_idx': 6780, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 12 
+Number of steps: 29 
+Average reward: 0.41379310344827586 
+Average time 29.57617655293695
+
+-------------------------------------------------------
+

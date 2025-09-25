@@ -1,0 +1,76 @@
+INFO 6904 Question: What year was the branch of military, who is credited with Operation Tidal Wave, created?
+
+STEP: 1
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+NORMAL TRAJECTORY:
+ Thought 1: Thought: I should first find the Wikipedia page for Operation Tidal Wave to identify the credited branch, then look up that branch’s creation year.
+
+Action 1: Search[Operation Tidal Wave] 
+        Action 1: Search[Operation Tidal Wave]
+        Observation 1: Operation Tidal Wave was an air attack by bombers of the United States Army Air Forces (USAAF) based in Libya on nine oil refineries around Ploiești, Romania, on 1 August 1943, during World War II. It was a strategic bombing mission and part of the "oil campaign" to deny petroleum-based fuel to the Axis powers.[4] The mission resulted in "no curtailment of overall product output".[7]. This operation was one of the costliest for the USAAF in the European Theater, with 53 aircraft and 500 aircrewmen lost. It was proportionally the most costly major Allied air raid of the war,[8] and its date was later referred to as "Black Sunday". Five Medals of Honor and 56 Distinguished Service Crosses, along with numerous other awards, went to Operation Tidal Wave crew members.[9] A 1999 research report prepared for the Air War College at Maxwell Air Force Base in Alabama concluded that the bombing campaign in Ploiești was "one of the bloodiest and most heroic missions of all time".[10] One of the downed American planes crashed into a female prison in Ploiești, resulting in about half of the civilian casualties from the total of 101 killed and 238 injured.[11]."
+
+SIMULATION TRAJECTORY:
+ Thought 1:  
+        Action 1: ['Search[Operation Tidal Wave]']
+        Observation 1: Operation Tidal Wave was a major Allied air raid conducted by the United States Army Air Forces (USAAF) during World War II. The primary objective of the operation was to destroy the oil refineries at Ploiești, Romania, a vital source of petroleum for Nazi Germany and its allies.. **Background:**. By 1943, Romania's Ploiești oil fields were producing a significant portion of the oil needed to fuel the German war machine. The Allies recognized that disrupting this supply."
+
+
+
+STEP: 2
+
+ERROR Actions not found in Thought 2: The credited branch is the USAAF; I should get its creation year ( 
+Retrying to get actions...
+
+ERROR Actions not found in Thought 2: The credited branch is the USAAF; I should get its creation year ( 
+Retrying to get actions...
+
+ERROR Actions not found in Thought 2: The credited branch is the USAAF; I should get its creation year ( 
+Retrying to get actions...
+
+NORMAL TRAJECTORY:
+ Thought 2: The credited branch is the United States Army Air Forces; I should search its page to find its creation year.
+Action 2: [Search[United States Army Air Forces]] 
+        Action 2: Search[United States Army Air Forces]
+        Observation 2: The United States Army Air Forces (USAAF or AAF)[2] was the major land-based aerial warfare service component of the United States Army and de facto aerial warfare service branch of the United States[3] during and immediately after World War II (1941–1947). It was created on 20 June 1941 as successor to the previous United States Army Air Corps and is the direct predecessor of the United States Air Force, today one of the six armed forces of the United States. The AAF was a component of the United States Army, which on 2 March 1942[2] was divided functionally by executive order into three autonomous forces: the Army Ground Forces, the United States Army Services of Supply (which in 1943 became the Army Service Forces), and the Army Air Forces. Each of these forces had a commanding general who reported directly to the Army Chief of Staff.. The AAF administered all parts of military aviation formerly distributed among the Air Corps, General Headquarters Air Force, and the ground forces' corps area commanders and thus became the first air organization of the U.S."
+
+SIMULATION TRAJECTORY:
+ Thought 2: The credited branch is the USAAF; I should get its creation year ( 
+        Action 2: ['Search[Operation Tidal Wave]']
+        Observation 2: The **United States Army Air Forces (USAAF)** was the aviation arm of the United States Army and, concurrently, the de facto air force of the United States from 1941 to 1947. It was a successor to the earlier United States Army Air Corps.. **History:**. The USAAF was established on June 20, 1941, by the reorganization of the Army Air Corps. This reorganization was a response to the growing demands of."
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: The credited branch is the United States Army Air Forces, created on 20 June 1941; the year is 1941.
+
+Action 3: Finish[1941] 
+        Action 3: Finish[1941]
+        Observation 3: Episode finished, reward = 0
+"
+
+SIMULATION TRAJECTORY:
+ Thought 3: Thought: The credited branch is the United States Army Air Forces, established June 20, 1941; the answer is 1941, but I can either finish or do a quick lookup to confirm within the current passage.
+
+Action 3: Finish[1941], Lookup[1941], Lookup[established] 
+        Action 3: ['Lookup[1941]', 'Lookup[established]', 'Finish[1941]']
+        Observation 3: The **United States Army Air Forces (USAAF)** was the aviation arm of the United States Army and, concurrently, the de facto air force of the United States from 1941 to 1947. It was a successor to the earlier United States Army Air Corps.. **History:**. The USAAF was established on June 20, 1941, by the reorganization of the Army Air Corps. This reorganization was a response to the growing demands of."
+
+
+
+INFO {'steps': 5, 'answer': '1941', 'gt_answer': '1942', 'question_idx': 7239, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 0 
+Number of steps: 1 
+Average reward: 0.0 
+Average time 211.33572101593018
+
+--------------------------------------------------
+

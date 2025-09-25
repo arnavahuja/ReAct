@@ -1,0 +1,60 @@
+INFO 5619 Question: Which band was formed first, Circus Diablo or Magic Dirt?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: To determine which band was formed first, I'll need to compare their formation dates. I'll start by searching for information on the band Circus Diablo.
+Action 1: Search[Circus Diablo] 
+        Action 1: Search[Circus Diablo]
+        Observation 1: Circus Diablo is an American rock band formed in early 2006 by Billy Morrison (vocals), Billy Duffy (lead guitar) and Ricky Warwick (rhythm guitar). Fuel frontman Brett Scallions and Velvet Revolver drummer Matt Sorum subsequently joined the band on bass and drums, respectively. To date, Circus Diablo have released one studio album, entitled Circus Diablo.. The band's most recent touring incarnation featured Morrison alongside Rob Patterson (lead guitar), Patrick Cornell (bass) and Charles Ruggiero (drums). The band is not currently active, however, in a 2009 interview Morrison stated that "Circus Diablo is always together."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I should first search for Circus Diablo to find out when they were formed.
+Action 1: [Search[Circus Diablo], Search[Circus Diablo band], Lookup[Circus Diablo]] 
+        Action 1: ['Search[Circus Diablo]', 'Search[Circus Diablo band]', 'Lookup[Circus Diablo]']
+        Observation 1: Circus Diablo was a rock band formed in 2006 by Billy Morrison, known for his work with The Cult and Camp Freddy. The band also featured bassist Stu Brooks (of City and Colour), guitarist Steve Stevens (of Billy Idol), and drummer Matt Cameron (of Soundgarden and Pearl Jam).. The band's sound was characterized by a blend of hard rock, blues, and a touch of psychedelic influence. Their music often featured driving guitar riffs, powerful vocals, and a strong."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Circus Diablo was formed in 2006. Next, I need to search for Magic Dirt to find out when they were formed. 
+Action 2: Search[Magic Dirt] 
+        Action 2: Search[Magic Dirt]
+        Observation 2: Magic Dirt is an Australian rock band, which formed in 1991 in Geelong, Victoria, with Daniel Herring on guitar, Adam Robertson on drums, Adalita Srsen on vocals and guitar, and Dean Turner on bass guitar. Initially forming an alternative underground band called Deer Bubbles  which split and formed into the much heavier, rock based group called The Jim Jims, they were renamed as Magic Dirt. Their top 40 releases on the ARIA Albums Chart are Friends in Danger (1996), What Are Rock Stars Doing Today (2000), Tough Love (2003) and Snow White (2005). They have received nine ARIA Music Award nominations including four at the ARIA Music Awards of 1995 for Life Was Better – their second extended play. Turner died in August 2009 of dermatofibrosarcoma protuberans (a soft tissue cancer)."
+
+SIMULATION TRAJECTORY:
+ Thought 2: Circus Diablo was formed in 2006. Now, to compare this with Magic Dirt's formation date, I need to search for information on Magic Dirt.
+Action 2: [Search[Magic Dirt], Lookup[Magic Dirt], Search[Magic Dirt formation year]] 
+        Action 2: ['Search[Magic Dirt]', 'Search[Magic Dirt formation year]', 'Lookup[Magic Dirt]']
+        Observation 2: Magic Dirt is an Australian rock band formed in 1991 in Geelong, Victoria. The band's original lineup consisted of Adalita Srsen (vocals, guitar), Dean Turner (bass), Adam Robertson (drums), and Mike Gooch (guitar). They are known for their raw, energetic sound, often characterized by heavy guitar riffs, powerful vocals, and introspective lyrics.. **Formation and Early Years:**. Magic Dirt formed in 1991, quickly gaining."
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Magic Dirt was formed in 1991, which is before Circus Diablo was formed in 2006. Therefore, Magic Dirt was the band that was formed first.
+Action 3: Finish[Magic Dirt] 
+        Action 3: Finish[Magic Dirt]
+        Observation 3: Episode finished, reward = 1
+"
+
+SIMULATION TRAJECTORY:
+ Thought 3: Magic Dirt was formed in 1991. Comparing the formation dates, Magic Dirt was formed before Circus Diablo. 
+Action 3: ["Finish[Magic Dirt]", "Search[Magic Dirt history]", "Lookup[Magic Dirt formation]"] 
+        Action 3: ['Search[Magic Dirt history]', 'Lookup[Magic Dirt formation]', 'Finish[Magic Dirt]']
+        Observation 3: Magic Dirt is an Australian rock band formed in 1991 in Geelong, Victoria. The band's original lineup consisted of Adalita Srsen (vocals, guitar), Dean Turner (bass), Adam Robertson (drums), and Mike Gooch (guitar). They are known for their raw, energetic sound, often characterized by heavy guitar riffs, powerful vocals, and introspective lyrics.. **Formation and Early Years:**. Magic Dirt formed in 1991, quickly gaining."
+
+
+
+INFO {'steps': 5, 'answer': 'Magic Dirt', 'gt_answer': 'Magic Dirt', 'question_idx': 1429, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 1 
+Number of steps: 2 
+Average reward: 0.5 
+Average time 39.701441407203674
+
+--------------------------------------------------
+

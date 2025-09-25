@@ -1,0 +1,81 @@
+INFO 1267 Question: What is common between Matt Vasgersian and Michael Casey?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Matt Vasgersian]
+Action 1: Search[Matt Vasgersian]
+Observation 1: Matt Vasgersian (né Vasgerdsian;[1][2] /væˈskɜːrdʒɪn/ va-SKUR-jin;[3] September 28, 1967)[4][5] is an American sportscaster and television host. Vasgersian is the alternative play-by-play announcer for the Los Angeles Angels, as well as a studio host for MLB Network and FOX Sports. In the past, he has served as an announcer for Fox Sports' National Football League and Major League Baseball coverage, ESPN's coverage of Major League Baseball, NBC Sports' coverage of the Olympic Games, NBC Sports' coverage of the original XFL, and was a commentator for the MLB: The Show video game series.[6][7] He formerly called play-by-play for the Milwaukee Brewers and the San Diego Padres.[6]. Vasgersian was born in Berkeley, California, and raised in nearby Moraga.[5] He is of Armenian descent.[5] He started his media career as a child actor, becoming a member of the Screen Actors Guild at age seven. He appeared in an episode of The Streets of San Francisco and the movie The Candidate starring Robert Redford, which was filmed mostly in Berkeley, California.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Matt Vasgersian]
+Action 1: Search[Matt Vasgersian]
+Observation 1: **Matthew "Matt" Vasgersian** (born September 28, 1967) is an American sportscaster, known for his play-by-play commentary in baseball and other sports. He has worked for various networks, including ESPN, MLB Network, and Fox Sports.. **Early Life and Career:**. Vasgersian was born in East Northport, New York, and raised in Southern California. He attended the University of Southern California, where he majored.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Michael Casey]
+Action 2: Search[Michael Casey]
+Observation 2: Could not find [Michael Casey]. Similar: ['Michael Casey', 'List of Sons of Anarchy and Mayans M.C. characters (redirect from Michael Casey (Sons of Anarchy))', 'Kaelan Casey', 'Casey Rogers', 'Michael Casey (academic)'].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Michael Casey]
+Action 2: Search[Michael Casey]
+Observation 2: **Michael Casey** may refer to:. *   **Michael Casey (author and journalist)**: An American author, journalist, and academic specializing in cryptocurrencies, blockchain, and financial technology. He is best known for his work at CoinDesk, where he served as a senior advisor and columnist, and for co-authoring books such as "The Age of Cryptocurrency: How Bitcoin and Digital Money Are Challenging the Global Economic Order" and "Blockchain Revolution: How the Technology Behind Bitcoin Is Changing.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Michael Casey (
+Action 3: Search[Michael Casey (
+Observation 3: Invalid action: search[Michael Casey (
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Michael Casey]
+Action 3: Search[Michael Casey]
+Observation 3: **Michael Casey** may refer to:. *   **Michael Casey (author and journalist)**: An American author, journalist, and academic specializing in cryptocurrencies, blockchain, and financial technology. He is best known for his work at CoinDesk, where he served as a senior advisor and columnist, and for co-authoring books such as "The Age of Cryptocurrency: How Bitcoin and Digital Money Are Challenging the Global Economic Order" and "Blockchain Revolution: How the Technology Behind Bitcoin Is Changing.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Michael Casey (academic)]
+Action 4: Search[Michael Casey (academic)]
+Observation 4: Michael A. Casey is James Wright Professor  of Music at Dartmouth College, where he is also the Chair of the Department of Music.[1]. He was educated at Lutterworth College, the University of East Anglia where he received a BA in music, at Dartmouth College where he received an MA in music, and at the Massachusetts Institute of Technology where he completed his PhD in media arts and sciences in 1998. He was previously Professor of Computer Science at Goldsmiths, University of London, where he directed the Media Futures Laboratory. He has an h-index of 32 according to Google Scholar.[2].
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Search[Michael Casey (academic)]
+Action 4: Search[Michael Casey (academic)]
+Observation 4: **Michael Casey (academic)**. Michael Casey is an American academic and author known for his work in the fields of digital currencies, blockchain technology, and financial innovation. He has held various prominent positions in academia and journalism, contributing significantly to public understanding of these complex topics.. **Early Life and Education:**. Information regarding Michael Casey's early life and specific educational background is not widely available in public sources.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Finish[They do not have a common profession.]
+Action 5: Finish[They do not have a common profession.]
+Observation 5: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 5: Let me do the action Finish[They do not have a common profession.]
+Action 5: Finish[They do not have a common profession.]
+Observation 5: **Michael Casey (academic)**. Michael Casey is an American academic and author known for his work in the fields of digital currencies, blockchain technology, and financial innovation. He has held various prominent positions in academia and journalism, contributing significantly to public understanding of these complex topics.. **Early Life and Education:**. Information regarding Michael Casey's early life and specific educational background is not widely available in public sources.
+
+
+
+INFO {'steps': 9, 'answer': 'They do not have a common profession.', 'gt_answer': 'American', 'question_idx': 5158, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 1 
+Number of steps: 5 
+Average reward: 0.2 
+Average time 13.682871770858764
+
+-------------------------------------------------------
+

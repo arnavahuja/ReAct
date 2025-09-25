@@ -1,0 +1,39 @@
+INFO 245 Question: The wolf pack football team represented what university?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search["Wolf Pack football team"]
+Action 1: Search["Wolf Pack football team"]
+Observation 1: Could not find "Wolf Pack football team". Similar: ['1997 Nevada Wolf Pack football team', '1939 Nevada Wolf Pack football team', '1990 Nevada Wolf Pack football team', '1996 Nevada Wolf Pack football team', '1933 Nevada Wolf Pack football team'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[wolf pack football team]
+Action 1: Search[wolf pack football team]
+Observation 1: The term "Wolf Pack football team" most commonly refers to the **Nevada Wolf Pack football team**, representing the University of Nevada, Reno.. **Nevada Wolf Pack Football Team**. The Nevada Wolf Pack football team is an NCAA Division I Football Bowl Subdivision (FBS) college football program that competes in the Mountain West Conference. The team plays its home games at Mackay Stadium in Reno, Nevada.. **History and Overview:**.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[University of Nevada]
+Action 2: Finish[University of Nevada]
+Observation 2: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Finish[University of Nevada, Reno]
+Action 2: Finish[University of Nevada, Reno]
+Observation 2: The term "Wolf Pack football team" most commonly refers to the **Nevada Wolf Pack football team**, representing the University of Nevada, Reno.. **Nevada Wolf Pack Football Team**. The Nevada Wolf Pack football team is an NCAA Division I Football Bowl Subdivision (FBS) college football program that competes in the Mountain West Conference. The team plays its home games at Mackay Stadium in Reno, Nevada.. **History and Overview:**.
+
+
+
+INFO {'steps': 3, 'answer': 'University of Nevada', 'gt_answer': 'University of Nevada, Reno', 'question_idx': 1601, 'reward': False, 'em': False, 'f1': 0.8571428571428571}
+
+INFO Sum of rewards: 19 
+Number of steps: 41 
+Average reward: 0.4634146341463415 
+Average time 20.899760758004536
+
+-------------------------------------------------------
+

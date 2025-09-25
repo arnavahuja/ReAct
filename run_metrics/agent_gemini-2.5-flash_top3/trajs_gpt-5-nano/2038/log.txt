@@ -1,0 +1,60 @@
+INFO 2038 Question: Elle Royal's video "What Can I Say" went viral after she was featured as “Female Artist of the Week” by a video blog founded in what year?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to find the video blog that featured Elle Royal as "Female Artist of the Week" and then find the year it was founded. I'll start by searching for "Elle Royal".
+Action 1: Search[Elle Royal] 
+        Action 1: Search[Elle Royal]
+        Observation 1: Danielle Prendergast (born September 8, 1990), better known by her stage name Elle Royal (formerly known as Patwa), is an independent Hip-Hop artist hailing from The Bronx, New York.[1] Her breakthrough came in 2010 when her video "What Can I Say" went viral after WorldStarHipHop featured her as the “Female Artist of the Week”. Elle Royal later released the mixtape One Gyal Army under Patwa in 2010, followed by the singles “Jammin”, “Lights”, and “Statements” in 2015 under her current stage name, Elle Royal.[citation needed]. Elle Royal (formerly Patwa) was born in New York and raised in the Wakefield area of the Bronx, and later, Lawrenceville, Georgia. Both of her parents are from Kingston, Jamaica. Growing up, Elle lived in a multi-family home shared with many cousins, one of which had a studio in his home."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to find the video blog that featured Elle Royal, and then find the year it was founded. I can start by searching for "What Can I Say" by Elle Royal.
+Action 1: Search[What Can I Say Elle Royal], Search[Elle Royal], Search[What Can I Say] 
+        Action 1: ['Search[What Can I Say Elle Royal]', 'Search[Elle Royal]', 'Search[What Can I Say]']
+        Observation 1: "
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The passage indicates that WorldStarHipHop featured Elle Royal. Therefore, I need to search for WorldStarHipHop to find out what year it was founded.
+Action 2: Search[WorldStarHipHop] 
+        Action 2: Search[WorldStarHipHop]
+        Observation 2: WorldStarHipHop is a content-aggregating video blog.[3] Founded in 2005, the site averaged 1.2 million unique visitors a day in 2011.[4] The site, operated by Worldstar, LLC,[5] was founded by Lee "Q" O'Denat.[6]  Described by Vibe as a "remnant of the GeoCities generation", the site regularly features shocking events caught on video, music videos and assorted content targeted to young  audiences. O'Denat, who referred to himself as a "Haitian ghetto nerd",[7] described WorldStarHipHop as the "CNN of the ghetto".[8]. The website first became infamous for posting shock videos.[8] Many of the early videos of shocking events had gone viral.[3] According to Gothamist's John Del Signore, "The site's popularity has created a sort of voyeuristic feedback loop, in which disassociated bystanders immediately videotape shocking incidents and act as if they're already watching a video on the Internet".[9] Jeff Himmelman of The New York Times stated in 2013 that the website "does many things but mostly hosts videos of fights."[10]. By 2012, BET had voted WorldStarHipHop as the "top hip hop and urban culture website" for three years in a row.[5]. Lee "Q" O'Denat (November 2nd, 1973 – January 23rd, 2017) was a Hollis, Queens–based hip-hop fan[4] who attended Grover Cleveland High School before graduating.[11] He started the website in August 2005 with Ari Armani as a distributor of mixtapes.[8][12] Shortly after the website's launch, hackers destroyed the website."
+
+SIMULATION TRAJECTORY:
+ Thought 2: The current search for Elle Royal returned nothing directly useful regarding the video "What Can I Say" or a video blog. I need to widen my search to include the song title, or try searching for "What Can I Say" by Elle Royal to see if that leads to the relevant video blog.
+Action 2: Search[What Can I Say Elle Royal], Search[Elle Royal Female Artist of the Week], Search[What Can I Say video blog] 
+        Action 2: ['Search[What Can I Say Elle Royal]', 'Search[Elle Royal Female Artist of the Week]', 'Search[What Can I Say video blog]']
+        Observation 2: "
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: WorldStarHipHop was founded in 2005. So the answer is 2005.
+Action 3: Finish[2005] 
+        Action 3: Finish[2005]
+        Observation 3: Episode finished, reward = 1
+"
+
+SIMULATION TRAJECTORY:
+ Thought 3: WorldStarHipHop is the video blog that featured Elle Royal. I need to find the founding year of WorldStarHipHop. The passage for WorldStarHipHop should contain this information.
+Action 3: [Lookup[founded], Lookup[year], Finish[unknown]] 
+        Action 3: ['Lookup[founded]', 'Lookup[year]', 'Finish[unknown]']
+        Observation 3: "
+
+
+
+INFO {'steps': 5, 'answer': '2005', 'gt_answer': '2005', 'question_idx': 2705, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 9 
+Number of steps: 15 
+Average reward: 0.6 
+Average time 28.714186334609984
+
+--------------------------------------------------
+

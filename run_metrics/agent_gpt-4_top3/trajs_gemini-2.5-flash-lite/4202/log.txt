@@ -1,0 +1,61 @@
+INFO 4202 Question: Which breed, Chinese Chongqing Dog or Kanni, is used for hunting?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to search Chinese Chongqing Dog and Kanni, find their main uses, then find which is used for hunting.
+Action 1: Search[Chinese Chongqing Dog] 
+        Action 1: Search[Chinese Chongqing Dog]
+        Observation 1: The Chongqing dog (Chinese: 重庆犬; pinyin: Chóngqìng quǎn) is an ancient mastiff Tugou historically used for hunting and guarding in Chongqing, China.[1][2][3] Today this breed is prized as a fearless and tough protector of their family and home.[2][4]. The term "Chongqing Dog" may also be used to refer to the Chuandong hound. It is found in Singapore. Both dogs share a common foundation stock and are part of the Tugou.[5]. Chongqing Dogs are medium sized with compact muscular bodies."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to search Chinese Chongqing Dog and Kanni to find out if they are used for hunting or not.
+Action 1: [Search[Chinese Chongqing Dog], Search[Kanni], Search[hunting dogs]] 
+        Action 1: ['Search[Chinese Chongqing Dog]', 'Search[Kanni]', 'Search[hunting dogs]']
+        Observation 1: The **Chongqing Dog** (Chinese: 重庆犬; pinyin: *Chóngqìng quǎn*) is a dog breed originating from the Chongqing municipality in China. It is a rare breed, primarily found in its native region, and is known for its distinctive appearance and historical role as a hunting and guard dog.. **Appearance:**. The Chongqing Dog is a medium-sized dog with a muscular and compact build. It is characterized by its short, rough coat, which."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The Chinese Chongqing Dog was historically used for hunting. I need to search Kanni next and find its main use.
+Action 2: Search[Kanni] 
+        Action 2: Search[Kanni]
+        Observation 2: The Kanni (கன்னி), meaning pure (also known as the Maiden's Beastmaster), is a rare indigenous South Indian sighthound breed of dog found in the state of Tamil Nadu.[2] Their native breeding tract is located around villages in the Tirunelveli, Virudhunagar and Thoothukudi districts. The breed is used mainly for coursing. "Kanni" refers to the black and tan and black and sable varieties, while the solid-coloured variety is known as the Chippiparai. However, some experts claim that the Kanni and the Chippiparai are distinct breeds.[3]. In the beginning, Kanni dogs existed only in several pockets of Southern Tamilnadu, especially in Southern districts such as the northernmost part of Tirunelveli, Tuticorin, and the southern part of Virudhunagar.."
+
+SIMULATION TRAJECTORY:
+ Thought 2: The Chongqing Dog is used for hunting. Now, I need to search for Kanni to learn its main use.
+Action 2: [Search[Kanni], Lookup[hunting], Finish[Chinese Chongqing Dog]] 
+        Action 2: ['Search[Kanni]', 'Lookup[hunting]', 'Finish[Chinese Chongqing Dog]']
+        Observation 2: **Kanni**. The Kanni (Tamil: கண்ணி) is a breed of dog native to Tamil Nadu, India. It is a sighthound, meaning it hunts by sight rather than scent. The Kanni is a lean, athletic dog, typically standing between 25 and 30 inches tall at the shoulder and weighing between 40 and 60 pounds. They have a short, smooth coat that can be any color, though black and tan is common.."
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: The Kanni is used mainly for coursing which involves pursuing game. Both breeds have a historic relation to hunting but might be used differently in the modern day. However, since the question didn't specify the type of hunting, both could technically be considered as hunting dogs.
+Action 3: Finish[Both] 
+        Action 3: Finish[Both]
+        Observation 3: Episode finished, reward = 0
+"
+
+SIMULATION TRAJECTORY:
+ Thought 3: The Kanni is a breed of dog used for hunting by sight. Since both the Chinese Chongqing Dog and Kanni have been used for hunting, the answer is both.
+
+Action 3: Finish[Both] 
+        Action 3: ['Finish[Both]']
+        Observation 3: **Kanni**. The Kanni (Tamil: கண்ணி) is a breed of dog native to Tamil Nadu, India. It is a sighthound, meaning it hunts by sight rather than scent. The Kanni is a lean, athletic dog, typically standing between 25 and 30 inches tall at the shoulder and weighing between 40 and 60 pounds. They have a short, smooth coat that can be any color, though black and tan is common.."
+
+
+
+INFO {'steps': 5, 'answer': 'Both', 'gt_answer': 'Kanni', 'question_idx': 6419, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 2 
+Number of steps: 6 
+Average reward: 0.3333333333333333 
+Average time 30.76630647977193
+
+--------------------------------------------------
+

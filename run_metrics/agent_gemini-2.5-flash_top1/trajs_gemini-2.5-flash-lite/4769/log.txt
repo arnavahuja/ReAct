@@ -1,0 +1,39 @@
+INFO 4769 Question: Edoardo Soleri is playing on loan from which Italian football club?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Edoardo Soleri]
+Action 1: Search[Edoardo Soleri]
+Observation 1: Edoardo Soleri (born 19 October 1997) is an Italian footballer who plays as a striker for Serie B club Spezia.. Born in Rome, Soleri joined Roma's youth setup in 2013, from SSD Futbolclub.[2] He was subsequently included in the Primavera squad, and also featured in the 2015–16 and 2016–17 UEFA Youth Leagues.. Soleri made his professional debut on 29 September 2015, coming on as a late substitute for Alessandro Florenzi in a 3–2 away loss against FC BATE Borisov, for the season's UEFA Champions League.[3]. On 30 June 2017, after finishing his formation, Soleri was loaned to Serie B side Spezia for one year.[4] He made his debut for the club on 12 August, playing the last 24 minutes in a 2–0 Coppa Italia away loss against Sassuolo.. On 19 January 2018, Soleri's loan was cut short after only five league appearances.[5] The following day, he joined Spanish Segunda División side UD Almería on loan until June.[6].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Edoardo Soleri]
+Action 1: Search[Edoardo Soleri]
+Observation 1: **Edoardo Soleri**. Edoardo Soleri is an Italian professional footballer who plays as a forward.. **Club Career**. Soleri began his youth career at Empoli before moving to Juventus's youth system. He signed his first professional contract with Juventus in 2015..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[Roma]
+Action 2: Finish[Roma]
+Observation 2: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[loan]
+Action 2: Lookup[loan]
+Observation 2: **Edoardo Soleri**. Edoardo Soleri is an Italian professional footballer who plays as a forward.. **Club Career**. Soleri began his youth career at Empoli before moving to Juventus's youth system. He signed his first professional contract with Juventus in 2015..
+
+
+
+INFO {'steps': 3, 'answer': 'Roma', 'gt_answer': 'A.S. Roma', 'question_idx': 2015, 'reward': False, 'em': False, 'f1': 0.6666666666666666}
+
+INFO Sum of rewards: 2 
+Number of steps: 5 
+Average reward: 0.4 
+Average time 9.852996635437012
+
+-------------------------------------------------------
+

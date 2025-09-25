@@ -1,0 +1,53 @@
+INFO 7107 Question: What African country is bordered by Libya and the Sudan and is known for the Dar Sila region?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Dar Sila region]
+Action 1: Search[Dar Sila region]
+Observation 1: Could not find Dar Sila region. Similar: ['Sila (region)', 'Dar Sila', 'Provinces of Chad', 'Ouaddaï (region)', 'Koukou Angarana (category Sila Region)'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Dar Sila region]
+Action 1: Search[Dar Sila region]
+Observation 1: The Dar Sila region, also known as Dar Sila Sultanate, is a historical and cultural area located in eastern Chad, bordering Sudan. It is primarily inhabited by the Dadjo people, who have a long and rich history in the region.. **History**. The Dar Sila Sultanate was established in the 17th century by the Dadjo people, who migrated from the Nile Valley. The Sultanate quickly rose to prominence as a powerful regional state, controlling important trade routes.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Dar Sila]
+Action 2: Search[Dar Sila]
+Observation 2: Dar Sila is the name of the wandering sultanate of the Dar Sila Daju, a multi-tribal ethnic group in Chad and Sudan. The number of the people in this group exceeds 50,000. They speak the Sila language, a Nilo-Saharan language. Most members of this ethnic group are Muslims.. Geographically, Dar Sila is located in southeastern territory of the Republic of Chad.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Chad]
+Action 2: Search[Chad]
+Observation 2: **Dar Sila**. Dar Sila is a traditional sultanate located in eastern Chad, in the region of Ouaddaï. It is one of the historical states of the Sahelian belt, characterized by a long and rich history of trade, Islamic scholarship, and political influence. The sultanate's territory is primarily inhabited by the Dadjo people, who are the dominant ethnic group and from whom the ruling dynasty traditionally hails.. **Geography and Location:**.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Chad]
+Action 3: Finish[Chad]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[Chad]
+Action 3: Finish[Chad]
+Observation 3: **Dar Sila**. Dar Sila is a traditional sultanate located in eastern Chad, in the region of Ouaddaï. It is one of the historical states of the Sahelian belt, characterized by a long and rich history of trade, Islamic scholarship, and political influence. The sultanate's territory is primarily inhabited by the Dadjo people, who are the dominant ethnic group and from whom the ruling dynasty traditionally hails.. **Geography and Location:**.
+
+
+
+INFO {'steps': 5, 'answer': 'Chad', 'gt_answer': 'Chad', 'question_idx': 4498, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 1 
+Number of steps: 1 
+Average reward: 1.0 
+Average time 22.603986978530884
+
+-------------------------------------------------------
+

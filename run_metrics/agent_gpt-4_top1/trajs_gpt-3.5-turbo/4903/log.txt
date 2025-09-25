@@ -1,0 +1,67 @@
+INFO 4903 Question: Sinch when has the rank held by Sir Charles Comyn Egertong been the highest in the British Army?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Sir Charles Comyn Egerton]
+Action 1: Search[Sir Charles Comyn Egerton]
+Observation 1: Could not find Sir Charles Comyn Egerton. Similar: ['Charles Egerton (Indian Army officer)', 'Egerton family', 'Grey family', 'Oxford period poetry anthologies', 'List of Old Rossallians'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Sir Charles Comyn Egerton]
+Action 1: Search[Sir Charles Comyn Egerton]
+Observation 1: Sir Charles Comyn Egerton (1855–1921) was a British colonial administrator who served as the Governor of the Punjab in British India from 1907 to 1912. He was born in 1855 and educated at Eton College and the Royal Military College, Sandhurst. Egerton joined the Indian Civil Service in 1877 and held various administrative positions in India before being appointed as the Governor of the Punjab.. During his tenure as Governor, Egerton focused on improving agricultural.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Charles Egerton (Indian Army officer)]
+Action 2: Search[Charles Egerton (Indian Army officer)]
+Observation 2: Field Marshal Sir Charles Comyn Egerton GCB, DSO (10 November 1848 – 20 February 1921) was a senior Indian Army officer from the Egerton family.. Early in his career he took part in the Second Anglo-Afghan War, the Hazara Expedition and operations in the Khyber Pass. He went on to command the Bannu column during operations in Waziristan in 1894 and to serve as senior staff officer for the Tochi Expedition in 1897. Egerton took command of the troops in British Somaliland fighting the Dervish leader Sayid Abdullah Hassan in June 1903; he had a significant success at Jidbali in January 1904 killing 1,000 of Hassan's men. His last appointment was as General Officer Commanding Secunderabad District in 1904 before retiring in 1907..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[rank]
+Action 2: Lookup[rank]
+Observation 2: Charles Egerton was an officer in the Indian Army during the British Raj. He served as the Commander-in-Chief of the Indian Army from 1928 to 1930. Egerton was known for his leadership and strategic skills, and he played a key role in modernizing the Indian Army during his tenure. He was also involved in various military campaigns and operations in India and the surrounding regions. Egerton's contributions to the Indian Army have been recognized and appreciated by historians and military experts..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Search[Field Marshal (British Army)]
+Action 3: Search[Field Marshal (British Army)]
+Observation 3: Field marshal (FM) has been the highest rank in the British Army since 1736. A five-star rank with NATO code OF-10, it is equivalent to an Admiral of the Fleet in the Royal Navy or a Marshal of the Royal Air Force in the Royal Air Force (RAF). A Field Marshal's insignia consists of two crossed batons surrounded by yellow leaves below the Tudor Crown. Like Marshals of the Royal Air Force and Admirals of the Fleet, Field Marshals traditionally remain officers for life, though on half-pay when not in an appointment or retired.[1][2]  The rank has been used sporadically throughout its history, and was vacant during parts of the 18th and 19th centuries (when all former holders of the rank were deceased). After the Second World War, it became standard practice to appoint the Chief of the Imperial General Staff (later renamed Chief of the General Staff) to the rank on his last day in the post.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[highest rank in the British Army]
+Action 3: Search[highest rank in the British Army]
+Observation 3: Field Marshal is the highest rank in the British Army, equivalent to a five-star general in other countries. It is a ceremonial rank and is only awarded in exceptional circumstances. Field Marshals are appointed by the Monarch on the advice of the Prime Minister. The rank of Field Marshal has been held by distinguished military leaders such as Bernard Montgomery, Douglas Haig, and Bernard Law Montgomery. The last active-duty officer to hold the rank of Field Marshal was Prince Philip, Duke of Edinburgh..
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Finish[since 1736]
+Action 4: Finish[since 1736]
+Observation 4: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Lookup[highest rank]
+Action 4: Lookup[highest rank]
+Observation 4: Field Marshal is the highest rank in the British Army, equivalent to a five-star general in other countries. It is a ceremonial rank and is only awarded in exceptional circumstances. Field Marshals are appointed by the Monarch on the advice of the Prime Minister. The rank of Field Marshal has been held by distinguished military leaders such as Bernard Montgomery, Douglas Haig, and Bernard Law Montgomery. The last active-duty officer to hold the rank of Field Marshal was Prince Philip, Duke of Edinburgh..
+
+
+
+INFO {'steps': 7, 'answer': 'since 1736', 'gt_answer': '1736', 'question_idx': 1152, 'reward': False, 'em': False, 'f1': 0.6666666666666666}
+
+INFO Sum of rewards: 17 
+Number of steps: 48 
+Average reward: 0.3541666666666667 
+Average time 25.774837399522465
+
+-------------------------------------------------------
+

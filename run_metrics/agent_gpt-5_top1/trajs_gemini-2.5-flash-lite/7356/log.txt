@@ -1,0 +1,53 @@
+INFO 7356 Question: The King who opened Newcastle Civic Center in 1968 was born in what year?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to find who opened Newcastle Civic Centre in 1968, then look up that King's birth year. I'll start by searching the Newcastle Civic Centre page to identify the King.
+Action 1: Search[Newcastle Civic Centre]
+Observation 1: Newcastle Civic Centre is a municipal building in the Haymarket area of Newcastle upon Tyne, England.[1] Designed by George Kenyon,[2] the centre was built for Newcastle City Council in 1967 and formally opened by King Olav V of Norway on 14 November 1968.[3] It is a Grade II* listed building[4] and is the joint eighth-tallest building in the city, standing at 200 feet (61 m).[5]. The civic centre was commissioned to replace a Victorian Town Hall which stood in St Nicholas Square (between the Bigg Market and the Cloth Market).[6] Plans to build a new city hall[7] on the site at Barras Bridge had been proposed prior to the outbreak of the Second World War, to the point of holding an architectural competition, although these were halted by the war;[8] and due to post-war restrictions on capital expenditure, it was not until August 1956 that authorisation to begin construction was granted. During the interim period, the demolition of houses and a former Eye Hospital on the intended site was implemented.[3] The building was designed by the city architect, George Kenyon.[2]. The construction work, which was undertaken by Sir Robert McAlpine,[9] commenced on the building in May 1960, and the foundation stone was laid by the Lord Mayor, Alderman Mrs Gladys Robson, on 30 November 1960. The total construction cost was £4,855,000.[3] The building was completed in 1967 and was formally opened by King Olav V of Norway on 14 November 1968.[10] On 6 May 1977, the Civic Centre was visited by the 39th President of the United States Jimmy Carter, who delivered a speech famously containing the Geordie phrase "Howay the lads!"[11] A stone commemorating the event was placed in the Civic Centre grounds.[12].
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to find who opened the Newcastle Civic Centre in 1968, then look up that King's birth year. I'll start by searching for the Newcastle Civic Centre page.
+Action 1: Search[Newcastle Civic Centre]
+Observation 1: The **Newcastle Civic Centre** is a Grade II* listed building in Newcastle upon Tyne, England. It serves as the administrative headquarters of Newcastle City Council and is a prominent landmark in the city.. **History and Architecture:**. The Civic Centre was designed by the architectural firm Sir Basil Spence, Glover & Ferguson and built between 1958 and 1967. It was officially opened by Queen Elizabeth II on 26 October 1967.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The king was identified as Olav V of Norway; now I need his birth year, so I’ll search his Wikipedia page.
+Action 2: Search[Olav V of Norway]
+Observation 2: Olav V (Norwegian: Olav den femte, Norwegian pronunciation: [ˈûːlɑːv dɛn ˈfɛ̂mtə];[1] born Prince Alexander of Denmark; 2 July 1903 – 17 January 1991) was King of Norway from 1957 until his death in 1991.. Olav was born at Sandringham House in England, the only child of Prince Carl of Denmark and Princess Maud of Wales. He became heir apparent to the Norwegian throne when his father was elected King Haakon VII of Norway in 1905. He was the first heir to the Norwegian throne to be brought up in Norway since Olav IV in the 14th century, and his parents made sure that he was given as Norwegian an upbringing as possible. In preparation for his future role, he attended both civilian and military schools.
+
+SIMULATION TRAJECTORY:
+ Thought 2: The page mentions a 1967 opening by Queen Elizabeth II; I should look for mentions of 1968 on the page to identify the king referenced.
+Action 2: Lookup[1968]
+Observation 2: **Olav V of Norway**. **Reign:** 21 September 1957 – 17 January 1991. **Born:** 2 July 1903, Sandringham, Norfolk, England. **Died:** 17 January 1991 (aged 87), Oslo, Norway. **Predecessor:** Haakon VII.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: The page for Olav V states he was born on 2 July 1903, so the answer is 1903.
+Action 3: Finish[1903]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Olav V of Norway was born on 2 July 1903, so the birth year is 1903.
+Action 3: Finish[1903]
+Observation 3: **Olav V of Norway**. **Reign:** 21 September 1957 – 17 January 1991. **Born:** 2 July 1903, Sandringham, Norfolk, England. **Died:** 17 January 1991 (aged 87), Oslo, Norway. **Predecessor:** Haakon VII.
+
+
+
+INFO {'steps': 5, 'answer': '1903', 'gt_answer': '1903', 'question_idx': 6765, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 1 
+Number of steps: 1 
+Average reward: 1.0 
+Average time 74.41204714775085
+
+-------------------------------------------------------
+

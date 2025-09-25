@@ -1,0 +1,98 @@
+INFO 1248 Question: How many records did the singer who sang "Four Seasons of Love" sell worldwide?
+
+STEP: 1
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+NORMAL TRAJECTORY:
+ Thought 1:  
+        Action 1: Search[Four Seasons of Love]
+        Observation 1: Four Seasons of Love is the fourth studio album by American singer-songwriter Donna Summer. Released on October 11, 1976, this  concept album became her third consecutive successful album to be certified gold in the US. It peaked at #29 on the Billboard 200. In addition, all the cuts on this album went to number one on the disco chart.[5]. This was the third concept album Summer had made, though unlike the previous two which had contained one long track on side one and a small selection of slightly shorter ones on side two, Four Seasons of Love was more equally balanced."
+
+SIMULATION TRAJECTORY:
+ Thought 1: Thought: Identify the singer of "Four Seasons of Love" (likely Donna Summer) and then find her worldwide record sales.
+
+Action 1: Search[Four Seasons of Love], Search[Donna Summer], Search[Four Seasons of Love (album 
+        Action 1: ['Search[Four Seasons of Love]', 'Search[Donna Summer]']
+        Observation 1: **Four Seasons of Love** is a 1976 album by the German singer Donna Summer. It is her second studio album and her first released on the Casablanca Records label. The album is a concept album, with each side of the LP dedicated to a season of the year, exploring themes of love and romance through the changing seasons.. **Background and Recording:**. Following the success of her debut album *Lady of the Night*, Donna Summer signed with Casablanca Records, a label known for."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The singer is Donna Summer; I should search her page to find her worldwide record sales.
+Action 2: Search[Donna Summer] 
+        Action 2: Search[Donna Summer]
+        Observation 2: Donna Adrian Gaines (December 31, 1948 – May 17, 2012),[2] known professionally as Donna Summer, was an American singer and songwriter. She gained prominence during the disco era of the 1970s and became known as the "Queen of Disco", while her music gained a global following.[3][4]. Born and raised in Boston, Summer dropped out of high school before graduating and began her career as the lead singer of a blues rock band named Crow and moved to New York City. In 1968, she joined the German adaptation of the musical Hair in Munich, where she spent several years living, acting, and singing.[5] There, she met music producers Giorgio Moroder and Pete Bellotte, and released her first album, the European market-only Lady of the Night in 1974. Following the recording and European release of the groundbreaking disco anthem, "Love to Love You Baby", she signed with Casablanca Records in 1975, where it was released in North America."
+
+SIMULATION TRAJECTORY:
+ Thought 2: The singer is Donna Summer; to find her worldwide record sales, I should check her main page or look for sales keywords in the current passage.
+Action 2: Search[Donna Summer], Lookup[worldwide], Lookup[sold] 
+        Action 2: ['Search[Donna Summer]', 'Lookup[worldwide]', 'Lookup[sold]']
+        Observation 2: **Donna Summer** (born **LaDonna Adrian Gaines**; December 31, 1948 – May 17, 2012) was an American singer, songwriter, and actress. She was one of the most popular and influential music artists of the 1970s and 1980s, and is widely regarded as the "Queen of Disco.". **Early Life and Career:**. Born in Boston, Massachusetts, Summer began her."
+
+
+
+STEP: 3
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+NORMAL TRAJECTORY:
+ Thought 3:  
+        Action 3: Lookup[worldwide]
+        Observation 3: No more results.
+"
+
+SIMULATION TRAJECTORY:
+ Thought 3: We need Donna Summer’s worldwide sales figure from her page; use Lookup to find a sentence mentioning it.
+Action 3: Lookup[worldwide], Lookup[million], Lookup 
+        Action 3: ['Lookup[worldwide]', 'Lookup[million]']
+        Observation 3: **Donna Summer** (born **LaDonna Adrian Gaines**; December 31, 1948 – May 17, 2012) was an American singer, songwriter, and actress. She was one of the most popular and influential music artists of the 1970s and 1980s, and is widely regarded as the "Queen of Disco.". **Early Life and Career:**. Born in Boston, Massachusetts, Summer began her."
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: The Donna Summer page likely states her worldwide sales; try finding a sentence with "records".
+Action 4: [Lookup[records]] 
+        Action 4: Lookup[records]
+        Observation 4: No more results.
+"
+
+SIMULATION TRAJECTORY:
+ Thought 4: We need the sentence on Donna Summer’s page that states her worldwide record sales; a targeted lookup for keywords like “sold,” “records,” or “worldwide” should find it quickly.
+
+Action 4: Lookup[sold], Lookup[records], Lookup[worldwide] 
+        Action 4: ['Lookup[sold]', 'Lookup[records]', 'Lookup[worldwide]']
+        Observation 4: **Donna Summer** (born **LaDonna Adrian Gaines**; December 31, 1948 – May 17, 2012) was an American singer, songwriter, and actress. She was one of the most popular and influential music artists of the 1970s and 1980s, and is widely regarded as the "Queen of Disco.". **Early Life and Career:**. Born in Boston, Massachusetts, Summer began her."
+
+
+
+STEP: 5
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+STEP: 6
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+STEP: 7
+
+ERROR Actions not found in  
+Retrying to get actions...
+
+INFO {'steps': 9, 'answer': '', 'gt_answer': '140 million', 'question_idx': 1502, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 0 
+Number of steps: 2 
+Average reward: 0.0 
+Average time 138.593327999115
+
+--------------------------------------------------
+

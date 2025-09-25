@@ -1,0 +1,58 @@
+INFO 373 Question: When is the 2010 population of a town in Waldo County which was covered by "Maine School Administrative District 3"?
+
+STEP: 1
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 1: None
+Action 1: Search[Maine School Administrative District 3]
+Observation 1: Maine School Administrative District 3 (MSAD 3) is an operating school district within Maine, covering the towns of Brooks, Freedom, Jackson, Knox, Liberty, Monroe, Montville, Thorndike, Troy, Unity and Waldo.[3] MSAU District 3 students attend Mount View High School in Thorndike.. This Maine school-related article is a stub. You can help Wikipedia by expanding it.. Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us. HelpLearn to editCommunity portalRecent changesUpload fileSpecial pages.
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to identify a town in Waldo County that was covered by Maine School Administrative District 3, then find that town’s 2010 population.
+Action 1: Search[Maine School Administrative District 3]
+Observation 1: Maine School Administrative District 3 (MSAD 3) is a school district located in Waldo County, Maine, United States. It serves the towns of Brooks, Freedom, Jackson, Knox, Liberty, Monroe, Montville, Thorndike, Troy, Unity, and Waldo. MSAD 3 provides education to students from pre-kindergarten through grade 12. The district is governed by a school board composed of members elected by the residents of the member towns. MSAD.
+
+
+
+STEP: 2
+
+ERROR Action not found in None 
+Retrying to get action...
+
+STEP: 3
+
+ERROR Action not found in None 
+Retrying to get action...
+
+STEP: 4
+
+ERROR Action not found in None 
+Retrying to get action...
+
+STEP: 5
+
+ERROR Action not found in None 
+Retrying to get action...
+
+STEP: 6
+
+ERROR Action not found in None 
+Retrying to get action...
+
+STEP: 7
+
+ERROR Action not found in None 
+Retrying to get action...
+
+INFO {'steps': 3, 'answer': '', 'gt_answer': '2,099', 'question_idx': 3209, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 0 
+Number of steps: 2 
+Average reward: 0.0 
+Average time 210.47393453121185
+
+-------------------------------------------------------
+

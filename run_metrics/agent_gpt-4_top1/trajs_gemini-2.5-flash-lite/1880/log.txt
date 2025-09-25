@@ -1,0 +1,53 @@
+INFO 1880 Question: Which jazz singer has a 2003 album entitled The Boy Next Door?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[The Boy Next Door album]
+Action 1: Search[The Boy Next Door album]
+Observation 1: Could not find The Boy Next Door album. Similar: ['BoyNextDoor', 'Boy Next Door', 'The Boy Next Door (album)', 'Not the Boy Next Door', 'Who! (single album)'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[The Boy Next Door jazz album 2003]
+Action 1: Search[The Boy Next Door jazz album 2003]
+Observation 1: I cannot provide information about "The Boy Next Door" album as it does not appear to be a widely recognized or documented musical release. Wikipedia does not have an entry for an album with this title.. It's possible that:. *   **The album title is slightly different.**. *   **It's a very niche or independent release** that hasn't yet gained widespread recognition or documentation on platforms like Wikipedia..
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[The Boy Next Door (album)]
+Action 2: Search[The Boy Next Door (album)]
+Observation 2: The Boy Next Door is a 2003 album by jazz singer Stacey Kent. The songs were chosen to reflect male singers that Kent admires.[1]. David Jeffries, reviewed the album for AllMusic and wrote that "With a gentle conviction akin to early Blossom Dearie without the cheeky flair, the album makes for breezy listening. ...individual moments of warm openhearted excellence make it worthwhile.". Jeffries highlighted Kent's performances on "Bookends" and "'Tis Autumn", and reserved praise for drummer Matt Home.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[The Boy Next Door jazz album]
+Action 2: Search[The Boy Next Door jazz album]
+Observation 2: I am unable to find any information about an album titled "The Boy Next Door." It's possible that this is a lesser-known release, a private project, or perhaps the title is slightly different.. If you have any more details about the album, such as the artist's name, a release year, or any specific songs you remember, I might be able to find the information you're looking for..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Stacey Kent]
+Action 3: Finish[Stacey Kent]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[The Boy Next Door 2003 album]
+Action 3: Search[The Boy Next Door 2003 album]
+Observation 3: I am unable to find any information about an album titled "The Boy Next Door." It's possible that this is a lesser-known release, a private project, or perhaps the title is slightly different.. If you have any more details about the album, such as the artist's name, a release year, or any specific songs you remember, I might be able to find the information you're looking for..
+
+
+
+INFO {'steps': 5, 'answer': 'Stacey Kent', 'gt_answer': 'Stacey Kent', 'question_idx': 491, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 16 
+Number of steps: 43 
+Average reward: 0.37209302325581395 
+Average time 26.64191746711731
+
+-------------------------------------------------------
+

@@ -1,0 +1,53 @@
+INFO 5977 Question: What is the name of the detective novelist parent of the author of '"Q" Is for Quarry'?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search["Q" Is for Quarry]
+Action 1: Search["Q" Is for Quarry]
+Observation 1: "Q" Is for Quarry is the 17th novel in Sue Grafton's "Alphabet" series of mystery novels[1][2][3] and features Kinsey Millhone, a private eye based in Santa Teresa, California.[4]. While moving into her new office, Kinsey Millhone receives a visit from Lt. Con Dolan of the Santa Teresa Sheriff's Department. Dolan comes bearing bad news: retired STSD Detective Stacey Oliphant is dying of cancer. Oliphant is haunted by a cold case from 1969, a murder investigation wherein he and Dolan discovered the body of a teenage Jane Doe in a quarry outside Lompoc.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search["Q" Is for Quarry]
+Action 1: Search["Q" Is for Quarry]
+Observation 1: **"Q" Is for Quarry**. "Q" Is for Quarry is the 17th novel in Sue Grafton's "Alphabet Mystery" series, featuring private investigator Kinsey Millhone. Published in 2002, the novel continues Millhone's adventures in the fictional California city of Santa Teresa (a stand-in for Santa Barbara).. **Plot Summary**. The story begins with Kinsey Millhone being approached by a man named Johnnie Lee, who is.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Sue Grafton]
+Action 2: Search[Sue Grafton]
+Observation 2: Sue Taylor Grafton (April 24, 1940 – December 28, 2017) was an American author of detective novels. She is best known as the author of the "alphabet series" ("A" Is for Alibi, etc.) featuring private investigator Kinsey Millhone in the fictional city of Santa Teresa, California. The daughter of detective novelist C. W. Grafton, she said the strongest influence on her crime novels was author Ross Macdonald.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Sue Grafton]
+Action 2: Search[Sue Grafton]
+Observation 2: **Sue Grafton (1940–2017)** was an American author best known for her "alphabet series" of mystery novels, which feature private investigator Kinsey Millhone. Her work is celebrated for its strong female protagonist, intricate plots, and realistic portrayal of California in the 1980s.. **Early Life and Education:**. Sue Taylor Grafton was born on April 24, 1940, in Louisville, Kentucky. Her father, C.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[C. W. Grafton]
+Action 3: Finish[C. W. Grafton]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[father]
+Action 3: Lookup[father]
+Observation 3: **Sue Grafton (1940–2017)** was an American author best known for her "alphabet series" of mystery novels, which feature private investigator Kinsey Millhone. Her work is celebrated for its strong female protagonist, intricate plots, and realistic portrayal of California in the 1980s.. **Early Life and Education:**. Sue Taylor Grafton was born on April 24, 1940, in Louisville, Kentucky. Her father, C.
+
+
+
+INFO {'steps': 5, 'answer': 'C. W. Grafton', 'gt_answer': 'C. W. Grafton', 'question_idx': 170, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 3 
+Number of steps: 6 
+Average reward: 0.5 
+Average time 12.164325515429178
+
+-------------------------------------------------------
+

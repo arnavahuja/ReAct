@@ -1,0 +1,53 @@
+INFO 1486 Question: Are both Alabama Slammer and Yorsh non alcoholic drinks?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Alabama Slammer]
+Action 1: Search[Alabama Slammer]
+Observation 1: An Alabama slammer is a cocktail made with amaretto, Southern Comfort, sloe gin, and orange juice. It is served in a Collins glass. It is also sometimes known as a southern slammer. It is claimed to have been made famous by quarterback Brett Favre; however, this drink was popular with college crowds as early as the 1980s, when it was served as a shaker shot in many bars and was also available by the pitcher in T.G.I. Friday's and other chain restaurants.[1].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Alabama Slammer]
+Action 1: Search[Alabama Slammer]
+Observation 1: The Alabama Slammer is a cocktail that is typically made with equal parts amaretto, Southern Comfort, sloe gin, and orange juice. It is known for its sweet and fruity flavor profile, making it a popular choice among cocktail enthusiasts. The drink is often served over ice in a highball glass and garnished with a cherry or orange slice. The origins of the Alabama Slammer are unclear, but it is believed to have been created in the 1970s or 1980s.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Yorsh]
+Action 2: Search[Yorsh]
+Observation 2: Yorsh (Russian: Ёрш, lit. ruffe, a little spiky fish) is a Russian mixed drink consisting of beer thoroughly mixed with an ample quantity of vodka.[2][3] The term is colloquially used similarly to the "jungle juice" in English[4] to designate an alcoholic mix of incompatible ingredients.[5]. Vodka is a neutral spirit which does not greatly alter the flavor of the beer, but does greatly increase its alcohol content.. The origins of the drink and the etymology of its name are disputed. Pseudonymous author Alkofan suggests that the cocktail was discovered by Russian merchants who, after a meal, poured all the leftover alcohol into a single vessel called "yoursh".[1].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Yorsh]
+Action 2: Search[Yorsh]
+Observation 2: I'm sorry, but there is no specific information available about "Yorsh" in a Wikipedia style format. If you have any other questions or need assistance with something else, feel free to ask..
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[No]
+Action 3: Finish[No]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Yorsh (drink)]
+Action 3: Search[Yorsh (drink)]
+Observation 3: I'm sorry, but there is no specific information available about "Yorsh" in a Wikipedia style format. If you have any other questions or need assistance with something else, feel free to ask..
+
+
+
+INFO {'steps': 5, 'answer': 'No', 'gt_answer': 'no', 'question_idx': 3894, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 7 
+Number of steps: 21 
+Average reward: 0.3333333333333333 
+Average time 17.832792906534102
+
+-------------------------------------------------------
+

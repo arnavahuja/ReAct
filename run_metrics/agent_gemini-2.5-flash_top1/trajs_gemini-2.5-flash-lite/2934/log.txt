@@ -1,0 +1,121 @@
+INFO 2934 Question: Which song that John Kirby scored  is often the final piece of music played during an evening of revelry?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[John Kirby]
+Action 1: Search[John Kirby]
+Observation 1: Could not find [John Kirby]. Similar: ['John Kirby (admiral)', 'John Kirby (attorney)', 'John Kirby', 'John Kirby Allen', 'John Kirby (musician)'].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[John Kirby]
+Action 1: Search[John Kirby]
+Observation 1: **John F. Kirby** (born April 28, 1963) is an American attorney and former naval officer who currently serves as the **National Security Council Coordinator for Strategic Communications** at the White House. In this role, he is the principal spokesperson for the U.S. government on national security and foreign policy matters.. **Early Life and Education:**.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[John Kirby (musician)]
+Action 2: Search[John Kirby (musician)]
+Observation 2: John Kirby (December 31, 1908 – June 14, 1952),[1] was an American jazz double-bassist and bandleader.[2] In addition to sideman work (prominently with Benny Goodman), Kirby is remembered for leading a successful chamber jazz sextet in the late 1930s and early 1940s, which scored several hit songs including "Loch Lomond" and the debut recording of "Undecided", a jazz standard. He is perhaps the first musician in the chamber jazz genre.[3] Earlier in his career he also played trombone and tuba.. Kirby was born John Kirk in Winchester, Virginia, United States, on 31 December 1908. His mother, Dolly Kirk (died October 1925) gave him up for adoption in 1908 and he was raised by Reverend Washington Johnson and his wife, Nancy, at 442 North Kent Street in Winchester.[4] (Kirby is listed as a household member in the 1920 United States Federal Census, but not in the 1910 census.) Kirby was a student at the Winchester Colored School, renamed Douglass School in 1916. He took piano lessons from Nancy and valve trombone lessons around 1917 under the guidance of Professor Powell Gibson, the principal of Douglass School, as well as a math, drama, and music teacher.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[John Kirby (musician)]
+Action 2: Search[John Kirby (musician)]
+Observation 2: John Kirby (born December 31, 1908, Baltimore, Maryland – died June 14, 1952, Hollywood, California) was an American jazz bassist, bandleader, and composer.. Kirby was a prominent figure in the swing era, known for his innovative bass playing and his highly regarded small jazz ensembles. He began his musical career playing trombone before switching to the double bass. He gained significant experience playing with various orchestras and bands in the.
+
+
+
+STEP: 3
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 3: None
+Action 3: Lookup[final piece of music]
+Observation 3: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Lookup[scored]
+Action 3: Lookup[scored]
+Observation 3: John Kirby (born December 31, 1908, Baltimore, Maryland – died June 14, 1952, Hollywood, California) was an American jazz bassist, bandleader, and composer.. Kirby was a prominent figure in the swing era, known for his innovative bass playing and his highly regarded small jazz ensembles. He began his musical career playing trombone before switching to the double bass. He gained significant experience playing with various orchestras and bands in the.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[John Kirby scored songs]
+Action 4: Search[John Kirby scored songs]
+Observation 4: Could not find John Kirby scored songs. Similar: ['Kirby Air Ride', 'John Kirby (musician)', 'John Carroll Kirby', 'Kirby: Right Back at Ya!', 'Kathy Kirby'].
+
+SIMULATION TRAJECTORY:
+ Thought 4: The previous lookup did not return the information I need. I need to find a song that John Kirby scored that is often the final piece of music played during an evening of revelry. I will try to find information about his compositions or hit songs.
+Action 4: Lookup[scored]
+Observation 4: John Kirby (born 1970) is an American songwriter and producer. He has written and produced songs for a variety of artists across multiple genres, including pop, R&B, and country.. Kirby's career began in the late 1990s, and he quickly gained recognition for his ability to craft catchy melodies and relatable lyrics. He has worked with numerous established artists as well as emerging talent.. Some of the notable artists John Kirby has collaborated with include.
+
+
+
+STEP: 5
+
+ERROR Action not found in The previous searches for "John Kirby" and "John Kirby (musician)" did not directly mention a song that is often the final piece of music played during an evening of revelry. I need to find a song associated with John Kirby that fits this description. Since the initial search for "John Kirby (musician)" mentioned "several hit songs including 'Loch Lomond' and the debut recording of 'Undecided'", I will try searching for "Loch Lomond" 
+Retrying to get action...
+
+ERROR Action not found in The previous search for "John Kirby (musician)" did not mention a specific song that is often the final piece of music played during an evening of revelry. The new search for "John Kirby scored songs" seems to be about a different John Kirby, a songwriter and producer, not the jazz musician. I need to find a song associated with the jazz musician John Kirby that fits the description. I will try to look for "final piece of music" or "revel 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 5: The previous searches for "John Kirby" and "John Kirby (musician)" did not directly mention a song that is often the final piece of music played during an evening of revelry. I need to find a song associated with John Kirby that fits this description. Since the initial search for "John Kirby (musician)" mentioned "several hit songs including 'Loch Lomond' and the debut recording of 'Undecided'", I will try searching for "Loch Lomond"
+Action 5: Search[Loch Lomond]
+Observation 5: Loch Lomond (/ˈlɒx ˈloʊmənd/; Scottish Gaelic: Loch Laomainn) is a freshwater Scottish loch which crosses the Highland Boundary Fault (HBF), often considered the boundary between the lowlands of Central Scotland and the Highlands.[1] Traditionally forming part of the boundary between the counties of Stirlingshire and Dunbartonshire, Loch Lomond is split between the council areas of Stirling, Argyll and Bute and West Dunbartonshire. Its southern shores are about 23 kilometres (14 mi) northwest of the centre of Glasgow, Scotland's largest city.[2] The Loch forms part of the Loch Lomond and The Trossachs National Park which was established in 2002. From a limnological perspective, Loch Lomond is classified as a dimictic lake, meaning it typically undergoes two mixing periods each year. This occurs in the spring and autumn when the water column becomes uniformly mixed due to temperature-driven density changes[6]. Loch Lomond is 36.4 kilometres (22.6 mi) long[1] and between one and eight kilometres (1⁄2–5 miles) wide,[2] with a surface area of 71 km2 (27.5 sq mi).[1] It is the largest lake in Great Britain by surface area;[7] in the United Kingdom, it is surpassed only by Lough Neagh and Lough Erne in Northern Ireland.[8] In the British Isles as a whole there are several larger loughs in the Republic of Ireland.
+
+SIMULATION TRAJECTORY:
+ Thought 5: The previous search for "John Kirby (musician)" did not mention a specific song that is often the final piece of music played during an evening of revelry. The new search for "John Kirby scored songs" seems to be about a different John Kirby, a songwriter and producer, not the jazz musician. I need to find a song associated with the jazz musician John Kirby that fits the description. I will try to look for "final piece of music" or "revel
+Action 5: Lookup[final piece of music]
+Observation 5: Loch Lomond is a freshwater loch in the Scottish Highlands. It is the largest loch by surface area in Great Britain, covering 71 square miles (184 square km). The loch is situated on the Highland Boundary Fault, which separates the Scottish Highlands from the Lowlands.. **Geography:**. Loch Lomond is approximately 24 miles (39 km) long and 2.5 miles (4 km) wide at its widest point.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Search[Loch Lomond (song)]
+Action 6: Search[Loch Lomond (song)]
+Observation 6: "The Bonnie Banks o' Loch Lomond" (or "Loch Lomond") is a traditional Scottish folk song (Roud No. 9598).[1][2] Its origins are thought to date to the Jacobite rising of 1745.. Loch Lomond is the largest Scottish loch. In Scots, "bonnie" means "fair" or "beautiful".[3]. By yon bonnie banks and by yon bonnie braes,.
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Search[Loch Lomond (song)]
+Action 6: Search[Loch Lomond (song)]
+Observation 6: "Loch Lomond" is a traditional Scottish folk song, the lyrics of which are often attributed to **Lady John Scott** (born Alicia Anne Spottiswoode) in the 19th century. However, the melody is much older, dating back to at least the 17th century.. The song is deeply associated with the **Jacobite risings**, particularly the failed rebellion of 1745. The lyrics tell the story of a Jacobite prisoner, captured.
+
+
+
+STEP: 7
+
+ERROR Action not found in None 
+Retrying to get action...
+
+NORMAL TRAJECTORY:
+ Thought 7: None
+Action 7: Lookup[final piece of music]
+Observation 7: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 7: Let me do the action Lookup[final
+Action 7: Lookup[final
+Observation 7: "Loch Lomond" is a traditional Scottish folk song, the lyrics of which are often attributed to **Lady John Scott** (born Alicia Anne Spottiswoode) in the 19th century. However, the melody is much older, dating back to at least the 17th century.. The song is deeply associated with the **Jacobite risings**, particularly the failed rebellion of 1745. The lyrics tell the story of a Jacobite prisoner, captured.
+
+
+
+INFO {'steps': 15, 'answer': '', 'gt_answer': '"Loch Lomond"', 'question_idx': 3454, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 8 
+Number of steps: 22 
+Average reward: 0.36363636363636365 
+Average time 10.316500533710826
+
+-------------------------------------------------------
+

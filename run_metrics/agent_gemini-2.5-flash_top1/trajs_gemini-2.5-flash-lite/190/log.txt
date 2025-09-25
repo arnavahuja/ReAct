@@ -1,0 +1,53 @@
+INFO 190 Question: ElvenQuest is a comic fantasy broadcast that stars what English actress who is the wife of Lord Frederick Windsor, and who is formally referred to as what?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[ElvenQuest]
+Action 1: Search[ElvenQuest]
+Observation 1: ElvenQuest is a comic fantasy broadcast on BBC Radio 4 by Anil Gupta and Richard Pinto, and starring Stephen Mangan, Alistair McGowan, Darren Boyd, Kevin Eldon, Sophie Winkleman and Dave Lamb.[1] The series takes place in the world of Lower Earth, a parody of Middle-earth from The Lord of the Rings by J. R. R. Tolkien. In Lower Earth, a band of warriors go forth to search for a mythical sword to save Lower Earth from the evil Lord Darkness (played by McGowan).
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[ElvenQuest]
+Action 1: Search[ElvenQuest]
+Observation 1: **ElvenQuest** is a fantasy role-playing game (RPG) created by **Dave Arneson** and **Ray Hawes**, first published in **1974** by **TSR, Inc.** (Tactical Studies Rules). It is considered one of the earliest commercially produced RPGs, predating the more widely known *Dungeons & Dragons* by a few months.. **Premise and Gameplay:**. ElvenQuest is set in the fictional world of **A.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The question asks about an English actress in ElvenQuest, who is the wife of Lord Frederick Windsor, and her formal title. The search result for ElvenQuest mentions Sophie Winkleman. I will search for Sophie Winkleman to confirm she is the correct person and find her husband and formal title.
+Action 2: Search[Sophie Winkleman]
+Observation 2: Sophie Lara Winkleman[1] (born 5 August 1980), styled as Lady Frederick Windsor, is a British actress. She is married to Lord Frederick Windsor, the son of Prince Michael of Kent and second cousin of King Charles III.. Sophie Lara Winkleman was born on 5 August 1980 in Primrose Hill, London.[2] Her father, Barry Winkleman, published the Times Atlas of World History,[3]  and her mother is the children's author Cindy Black. The television presenter Claudia Winkleman is her half-sister from her father's first marriage to Eve Pollard.. Sophie Winkleman was educated at the City of London School for Girls and at Trinity Hall, Cambridge, where she studied English literature.[4] She joined the Cambridge Footlights and wrote and performed in the comic revue Far Too Happy, which toured Britain for three months and gained the troupe's first Perrier Award nomination in 20 years.[5] She joined the National Youth Theatre of Great Britain in 1997.[4][6] She is a soprano, reprising her singing in the First Love series for Sky Arts.[7].
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[ElvenQuest (radio series)]
+Action 2: Search[ElvenQuest (radio series)]
+Observation 2: Sophie Winkleman (born 20 August 1980) is an English actress. She is known for her roles in the television series "Peep Show" and "The Sandman.". Winkleman was born in London, England. She studied drama at Cambridge University, where she was a member of the Footlights comedy troupe.. Her acting career began in the early 2000s with roles in television shows such as "Wives and Daughters" and.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[Sophie Winkleman, Lady Frederick Windsor]
+Action 3: Finish[Sophie Winkleman, Lady Frederick Windsor]
+Observation 3: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Search[Sophie Winkleman husband]
+Action 3: Search[Sophie Winkleman husband]
+Observation 3: Sophie Winkleman (born 20 August 1980) is an English actress. She is known for her roles in the television series "Peep Show" and "The Sandman.". Winkleman was born in London, England. She studied drama at Cambridge University, where she was a member of the Footlights comedy troupe.. Her acting career began in the early 2000s with roles in television shows such as "Wives and Daughters" and.
+
+
+
+INFO {'steps': 5, 'answer': 'Sophie Winkleman, Lady Frederick Windsor', 'gt_answer': 'Lady Frederick Windsor', 'question_idx': 5349, 'reward': False, 'em': False, 'f1': 0.7499999999999999}
+
+INFO Sum of rewards: 18 
+Number of steps: 46 
+Average reward: 0.391304347826087 
+Average time 11.946582239607107
+
+-------------------------------------------------------
+

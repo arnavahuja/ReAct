@@ -1,0 +1,39 @@
+INFO 4975 Question: Bill Nelson flew as a Payload Specialist on a Space Shuttle launched for the first time in what year?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Bill Nelson]
+Action 1: Search[Bill Nelson]
+Observation 1: Clarence William Nelson II (born September 29, 1942) is an American politician, attorney, and former astronaut who served from 2001 to 2019 as a United States senator from Florida and from 2021 to 2025 as the administrator of the National Aeronautics and Space Administration (NASA). A member of the Democratic Party, Nelson served from 1979 to 1991 as a U.S. representative from Florida's Space Coast, and from 1972 to 1978 as a member of the Florida House of Representatives. In January 1986, he became the second sitting member of Congress to fly in space, after Senator Jake Garn, when he served as a payload specialist on mission STS-61-C aboard the Space Shuttle Columbia. Before entering politics, he served in the United States Army Reserve during the Vietnam War.[1].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Bill Nelson]
+Action 1: Search[Bill Nelson]
+Observation 1: **Bill Nelson**. **William "Bill" Nelson** (born September 29, 1942) is an American politician and attorney who served as a United States Senator from Florida from 2001 to 2019. A member of the Democratic Party, he previously served in the U.S. House of Representatives from 1987 to 1991 and as Florida Treasurer, Insurance Commissioner, and Fire Marshal from 199.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Finish[1986]
+Action 2: Finish[1986]
+Observation 2: Episode finished, reward = 0
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[Payload Specialist]
+Action 2: Lookup[Payload Specialist]
+Observation 2: **Bill Nelson**. **William "Bill" Nelson** (born September 29, 1942) is an American politician and attorney who served as a United States Senator from Florida from 2001 to 2019. A member of the Democratic Party, he previously served in the U.S. House of Representatives from 1987 to 1991 and as Florida Treasurer, Insurance Commissioner, and Fire Marshal from 199.
+
+
+
+INFO {'steps': 3, 'answer': '1986', 'gt_answer': '1981', 'question_idx': 7219, 'reward': False, 'em': False, 'f1': 0}
+
+INFO Sum of rewards: 7 
+Number of steps: 23 
+Average reward: 0.30434782608695654 
+Average time 13.504666090011597
+
+-------------------------------------------------------
+

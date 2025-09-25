@@ -1,0 +1,60 @@
+INFO 6904 Question: In the 1973 NFL season, the Pro Bowl took place at what football stadium that is part of the Truman Sports Complex, along with what other stadium?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: I need to identify two stadiums: the one where the Pro Bowl was played in 1973, and another stadium that is part of the Truman Sports Complex. I will start by searching for "Truman Sports Complex".
+Action 1: Search[Truman Sports Complex] 
+        Action 1: Search[Truman Sports Complex]
+        Observation 1: The Truman Sports Complex is a sports and entertainment facility in Kansas City, Missouri. It includes two major league sports venues: GEHA Field at Arrowhead Stadium, which is home to the National Football League's Kansas City Chiefs, and Kauffman Stadium, which hosts Major League Baseball's Kansas City Royals. The complex also hosts various other events during the rest of the year.. The Truman Sports Complex, built during the early 1970s,  is owned by the government of Jackson County and managed by the Jackson County Sports Complex Authority, which is a State of Missouri agency.[1] The current complex design, created by Charles Deaton, was arrived at when Deaton caught the ear of Kansas City Chiefs General Manager Jack Steadman and suggested building side-by-side stadiums for the two sports with each stadium customized to its needs.[2] The original plan called for separate side-by-side stadiums[3] with a mutual rolling roof. However, the roof was never built due to cost.[2] The complex was revolutionary in an age when new stadiums tended to be built as multiuse venues for planning and cost purposes.."
+
+SIMULATION TRAJECTORY:
+ Thought 1: I need to find the football stadium where the 1973 NFL Pro Bowl took place, which is part of the Truman Sports Complex, and identify the other stadium in that complex. I will start by searching for "1973 NFL Pro Bowl" to see if the stadium information is included there.
+Action 1: Search[1973 NFL season Pro Bowl],Search[Truman Sports Complex],Lookup[Pro Bowl] 
+        Action 1: ['Search[1973 NFL season Pro Bowl]', 'Search[Truman Sports Complex]', 'Lookup[Pro Bowl]']
+        Observation 1: Truman Sports Complex is a stadium complex located in Kansas City, Missouri. It is home to two major professional sports teams: the Kansas City Chiefs of the National Football League (NFL) and Sporting Kansas City of Major League Soccer (MLS).. **History:**. The complex was built in the early 1970s and opened in 1972. It was originally known as the Multiple Use Sports Complex."
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: The Truman Sports Complex contains GEHA Field at Arrowhead Stadium and Kauffman Stadium. I need to find which of these hosted the 1973 Pro Bowl. I should search for "1973 NFL Pro Bowl".
+Action 2: Search[1973 NFL Pro Bowl] 
+        Action 2: Search[1973 NFL Pro Bowl]
+        Observation 2: The 1973 Pro Bowl was the NFL's 23rd annual all-star game, which featured the outstanding performers from the 1972 season. The game was played on Sunday, January 21, 1973, at Texas Stadium in Irving, Texas. It was the first Pro Bowl not to be played at the Los Angeles Memorial Coliseum.. The final score was AFC 33, NFC 28. Running back O."
+
+SIMULATION TRAJECTORY:
+ Thought 2: The Truman Sports Complex is home to two major professional sports teams. I need to specifically identify the football stadium and then find out exactly which stadiums are part of the complex. I also need to confirm if the 1973 Pro Bowl took place there.
+Action 2: [Lookup[stadiums], Search[Kansas City Chiefs stadium], Search[1973 NFL Pro Bowl]] 
+        Action 2: ['Search[Kansas City Chiefs stadium]', 'Search[1973 NFL Pro Bowl]', 'Lookup[stadiums]']
+        Observation 2: The 1973 NFL Pro Bowl was the 23rd annual exhibition game of the National Football League, played on January 21, 1973, at Aloha Stadium in Honolulu, Hawaii. The game featured the top players from the 1972 NFL season, divided into two conferences: the National Football Conference (NFC) and the American Football Conference (AFC).. **Result:**. *   **AFC 23, NFC 13**."
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: The 1973 Pro Bowl was played at Texas Stadium, which is not part of the Truman Sports Complex. This means my initial assumption was incorrect, and the question is likely asking for a stadium within the Truman Sports Complex that *could have* hosted such an event, even if it didn't in 1973. Or more likely, the question intends to say that the Pro Bowl took place at what stadium that *is now* part of the Truman Sports Complex or the wording is poorly constructed. Given the question asks "what football stadium ... that is part of the Truman Sports Complex", I need to find the football stadium in the Truman Sports Complex. And also what other stadium is part of the complex. The previous search of Truman Sports Complex identified GEHA Field at Arrowhead Stadium as the football stadium and Kauffman Stadium as the other stadium. So the football stadium is GEHA Field at Arrowhead Stadium. The other stadium is Kauffman Stadium.
+Action 3: Finish[GEHA Field at Arrowhead Stadium, Kauffman Stadium] 
+        Action 3: Finish[GEHA Field at Arrowhead Stadium, Kauffman Stadium]
+        Observation 3: Episode finished, reward = 0
+"
+
+SIMULATION TRAJECTORY:
+ Thought 3: The 1973 NFL Pro Bowl was played at Aloha Stadium, which is not part of the Truman Sports Complex. This means I need to re-evaluate my search strategy. The question asks about the 1973 *NFL season*, but the Pro Bowl for that season would have been played in *early 1974*. I should search for "1973 Pro Bowl" again, or "Pro Bowl at Truman Sports Complex 1973" to see if there's a different event being referenced.
+Action 3: Search[Pro Bowl 1974], Search[Pro Bowl 1973 Truman Sports Complex], Search[Arrowhead Stadium Pro Bowl] 
+        Action 3: ['Search[Pro Bowl 1974]', 'Search[Pro Bowl 1973 Truman Sports Complex]', 'Search[Arrowhead Stadium Pro Bowl]']
+        Observation 3: The 1973 NFL Pro Bowl was the 23rd annual exhibition game of the National Football League, played on January 21, 1973, at Aloha Stadium in Honolulu, Hawaii. The game featured the top players from the 1972 NFL season, divided into two conferences: the National Football Conference (NFC) and the American Football Conference (AFC).. **Result:**. *   **AFC 23, NFC 13**."
+
+
+
+INFO {'steps': 5, 'answer': 'GEHA Field at Arrowhead Stadium, Kauffman Stadium', 'gt_answer': 'Kauffman Stadium', 'question_idx': 6966, 'reward': False, 'em': False, 'f1': 0.4444444444444445}
+
+INFO Sum of rewards: 1 
+Number of steps: 4 
+Average reward: 0.25 
+Average time 10.787517786026001
+
+--------------------------------------------------
+

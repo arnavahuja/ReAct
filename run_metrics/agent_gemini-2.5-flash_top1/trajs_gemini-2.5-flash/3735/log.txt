@@ -1,0 +1,95 @@
+INFO 3735 Question: What year was the Leeds football club, which Arthur Hydes played, formed?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Arthur Hydes]
+Action 1: Search[Arthur Hydes]
+Observation 1: Arthur Hydes (24 November 1911 – 1990) was an English football player born in Barnsley. He played for Leeds United and Newport County. He scored almost 100 goals in his career with over 80 of them at Leeds. This included three consecutive years as Leeds' leading scorer.. Profile at leeds-fans.org.uk.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Leeds football club]
+Action 1: Search[Leeds football club]
+Observation 1: **Arthur Hydes (1911-1990)**. Arthur Hydes was an English professional footballer who played as a forward. He is best known for his time with Leeds United, where he became a prolific goalscorer in the 1930s.. **Early Life and Career:**. Born in Barnsley, England, Hydes began his football career with his local club, Barnsley, signing as a professional in 1929.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Leeds United]
+Action 2: Search[Leeds United]
+Observation 2: Leeds United Football Club is a professional football club based in Leeds, West Yorkshire, England. The club competes in the Premier League, the top tier of English football.. Leeds United have won the League Championship three times, five Second Division titles, the FA Cup once, the League Cup once, the Charity Shield twice and the Inter-Cities Fairs Cup twice. The club had their most successful period under the management of Don Revie in the 1960s and 1970s, when they won the League title twice, the FA Cup once, the League Cup once and the Inter-Cities Fairs Cup twice. The club have also been runners-up five times in the League Championship, three times in the FA Cup, once each in the League Cup, the Charity Shield, the Inter-Cities Fairs Cup, the Cup Winners' Cup and the European Cup, and lost the play-off to keep the Inter-City Fairs Cup trophy..
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Leeds United]
+Action 2: Search[Leeds United]
+Observation 2: **Leeds United Football Club** is a professional football club based in Leeds, West Yorkshire, England. The club was founded in 1919 and plays its home matches at Elland Road.. **History:**. Leeds United's history is marked by periods of great success and significant challenges. The club rose to prominence under manager Don Revie in the 1960s and 1970s, winning the First Division title twice, the FA Cup once, and.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Lookup[formed]
+Action 3: Lookup[formed]
+Observation 3: No more results.
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[1919]
+Action 3: Finish[1919]
+Observation 3: **Leeds United Football Club** is a professional football club based in Leeds, West Yorkshire, England. The club was founded in 1919 and plays its home matches at Elland Road.. **History:**. Leeds United's history is marked by periods of great success and significant challenges. The club rose to prominence under manager Don Revie in the 1960s and 1970s, winning the First Division title twice, the FA Cup once, and.
+
+
+
+STEP: 4
+
+NORMAL TRAJECTORY:
+ Thought 4: Let me do the action Search[Leeds United F.C. History]
+Action 4: Search[Leeds United F.C. History]
+Observation 4: Could not find Leeds United F.C. History. Similar: ['History of Leeds United F.C.', 'Leeds United F.C.', 'List of Leeds United F.C. seasons', 'Leeds United F.C. in European football', 'List of Leeds United F.C. players'].
+
+SIMULATION TRAJECTORY:
+ Thought 4: Let me do the action Finish[1919]
+Action 4: Finish[1919]
+Observation 4: ## Leeds United Football Club: A History. Leeds United Football Club, based in Leeds, West Yorkshire, England, boasts a rich and often tumultuous history, marked by periods of immense success, dramatic decline, and passionate support. Founded in 1919 following the disbanding of Leeds City, the club quickly established itself as a prominent force in English football.. ### Early Years and Foundation (1919-1960s). Leeds United was formed in 19.
+
+
+
+STEP: 5
+
+NORMAL TRAJECTORY:
+ Thought 5: Let me do the action Search[History of Leeds United F.C.]
+Action 5: Search[History of Leeds United F.C.]
+Observation 5: The history of Leeds United Football Club, a professional association football club based in the city of Leeds, West Yorkshire, England, dates back to 1919, when the club was established following the demise of Leeds City F.C.. Leeds had their most successful period under the management of Don Revie in the 1960s and 1970s. The club won the English league title twice, the FA Cup once, the League Cup once and the Inter-Cities Fairs Cup twice and Charity Shield in 1969. They  were also finalists in the European Cup Winners Cup in 1973 and the European Cup in 1975. Leeds later won another league title in 1991–92 under manager Howard Wilkinson followed by the Charity Shield also in 1992..
+
+SIMULATION TRAJECTORY:
+ Thought 5: The text mentions "Founded in 1919" and "Leeds United was formed in 19". This confirms the founding year.
+Action 5: Finish[1919]
+Observation 5: The history of Leeds United Football Club, an English professional football club based in Leeds, West Yorkshire, dates back to 1919. The club was formed following the disbanding of its predecessor, Leeds City, due to financial irregularities.. ## Early Years and Formation (1919-1961). **Formation and Early League Football:** Leeds United were founded in 1919 and immediately joined the Football League. They inherited Leeds City's Elland Road.
+
+
+
+STEP: 6
+
+NORMAL TRAJECTORY:
+ Thought 6: Let me do the action Finish[1919]
+Action 6: Finish[1919]
+Observation 6: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 6: Let me do the action Finish[1919]
+Action 6: Finish[1919]
+Observation 6: The history of Leeds United Football Club, an English professional football club based in Leeds, West Yorkshire, dates back to 1919. The club was formed following the disbanding of its predecessor, Leeds City, due to financial irregularities.. ## Early Years and Formation (1919-1961). **Formation and Early League Football:** Leeds United were founded in 1919 and immediately joined the Football League. They inherited Leeds City's Elland Road.
+
+
+
+INFO {'steps': 11, 'answer': '1919', 'gt_answer': '1919', 'question_idx': 7188, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 22 
+Number of steps: 47 
+Average reward: 0.46808510638297873 
+Average time 12.333279234297732
+
+-------------------------------------------------------
+

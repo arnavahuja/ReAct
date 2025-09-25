@@ -1,0 +1,53 @@
+INFO 191 Question: Are Joe Walsh and Chester Bennington both guitarists?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Joe Walsh]
+Action 1: Search[Joe Walsh]
+Observation 1: Joseph Fidler Walsh (born Joseph Woodward Fidler; November 20, 1947)[2][3] is an American guitarist, singer, and songwriter. Best known as a member of the rock band the Eagles, his five-decade career includes solo work and stints in other bands: the James Gang, Ringo Starr & His All-Starr Band, and New Zealand's Herbs. He was part of the supergroup The Best and had success as a solo artist and prolific session musician, appearing on other artists' recordings. In 2011, Rolling Stone ranked him No. 54 on its list of "100 Greatest Guitarists of All Time".[4].
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Joe Walsh]
+Action 1: Search[Joe Walsh]
+Observation 1: **Joseph Fidler Walsh (born November 20, 1947)** is an American rock guitarist, singer, and songwriter. He has been a member of three commercially successful rock bands: the James Gang, Eagles, and Ringo Starr & His All-Starr Band. He has also had a successful solo career and has been a session musician for a variety of other artists.. **Early Life and Career:**. Walsh was born in Wichita, Kansas, and grew up.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Chester Bennington]
+Action 2: Search[Chester Bennington]
+Observation 2: Chester Charles Bennington (March 20, 1976 – July 20, 2017) was an American singer who was the lead vocalist of the rock band Linkin Park. He was also the lead vocalist of Grey Daze, Dead by Sunrise, and Stone Temple Pilots at various points in his career.. Bennington first gained prominence as a vocalist following the release of Linkin Park's debut album, Hybrid Theory (2000), which was a worldwide commercial success. The album was certified Diamond by the Recording Industry Association of America in 2005, making it the bestselling debut album of the decade, as well as one of the few albums ever to achieve that many sales.[2] He continued as the band's lead vocalist for their next six studio albums, from Meteora (2003) to One More Light (2017), with each charting within the top three spots of the Billboard 200.[3][4]. Bennington formed his own band, Dead by Sunrise, as a side project in 2005.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Search[Chester Bennington]
+Action 2: Search[Chester Bennington]
+Observation 2: **Chester Charles Bennington** (March 20, 1976 – July 20, 2017) was an American singer, songwriter, and occasional actor. He was best known as the lead vocalist of the rock band Linkin Park. He was also the lead vocalist for Dead by Sunrise and Stone Temple Pilots.. **Early Life and Career:**. Bennington was born in Phoenix, Arizona.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[No]
+Action 3: Finish[No]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[No]
+Action 3: Finish[No]
+Observation 3: **Chester Charles Bennington** (March 20, 1976 – July 20, 2017) was an American singer, songwriter, and occasional actor. He was best known as the lead vocalist of the rock band Linkin Park. He was also the lead vocalist for Dead by Sunrise and Stone Temple Pilots.. **Early Life and Career:**. Bennington was born in Phoenix, Arizona.
+
+
+
+INFO {'steps': 5, 'answer': 'No', 'gt_answer': 'no', 'question_idx': 7162, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 16 
+Number of steps: 29 
+Average reward: 0.5517241379310345 
+Average time 11.354407524240427
+
+-------------------------------------------------------
+

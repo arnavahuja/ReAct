@@ -1,0 +1,53 @@
+INFO 1102 Question: Live Wire Radio will possibly be considered as a replacement for a variety show created in what year?
+
+STEP: 1
+
+NORMAL TRAJECTORY:
+ Thought 1: Let me do the action Search[Live Wire Radio]
+Action 1: Search[Live Wire Radio]
+Observation 1: Live Wire Radio is a radio variety show that was launched in 2004 in Portland, Oregon, United States.. Live Wire was initially hosted by Rob Sample, followed by Courtenay Hameister, with current hosting duties covered by Luke Burbank.[1][2] Burbank has a podcast called Too Beautiful to Live and is an occasional guest-host on the nationally syndicated NPR quiz show Wait Wait... Don't Tell Me!.[3]. Live Wire is built on various elements such as standup comedy, guest interviews, and musical performances.[4][5] Its emphasis is on the quirky local character of Portland.[4] Each show is recorded in front of a live audience, every other week, which is then edited into material for two weekly shows.[6]. In February 2003,[7] Kate Sokoloff approached Robyn Tenenbaum with the idea for Live Wire, a younger, "hipper" version of Prairie Home Companion,[8] in a format similar to West Coast Live.[8] Tenenbaum had worked on rock concerts with Bill Graham Presents,[9] and for four years had helped produce West Coast Live for NPR in San Francisco.
+
+SIMULATION TRAJECTORY:
+ Thought 1: Let me do the action Search[Live Wire Radio]
+Action 1: Search[Live Wire Radio]
+Observation 1: Live Wire Radio is a comedy and variety radio show based in Portland, Oregon. It was created in 2004 by Luke Burbank and Luke Thill as a live stage event before transitioning to a radio format. The show features a mix of comedy, storytelling, interviews, and musical performances, often incorporating audience participation. Live Wire Radio is known for its humorous and engaging approach to contemporary topics, as well as its collaborations with notable comedians, writers, and performers. The program is broadcast on public.
+
+
+
+STEP: 2
+
+NORMAL TRAJECTORY:
+ Thought 2: Let me do the action Search[Prairie Home Companion]
+Action 2: Search[Prairie Home Companion]
+Observation 2: A Prairie Home Companion was a weekly radio variety show created and hosted by Garrison Keillor that aired live from 1974 to 2016. In 2016, musician Chris Thile took over as host, and the successor show was eventually renamed Live from Here and ran until 2020. A Prairie Home Companion aired on Saturdays from the Fitzgerald Theater in Saint Paul, Minnesota; it was also frequently heard on tours to New York City and other U.S. cities. The show is known for its musical guests, especially folk and traditional musicians, tongue-in-cheek radio drama, and relaxed humor.
+
+SIMULATION TRAJECTORY:
+ Thought 2: Let me do the action Lookup[replacement]
+Action 2: Lookup[replacement]
+Observation 2: Prairie Home Companion is a live radio variety show created and hosted by American singer-songwriter Garrison Keillor. The show first aired in 1974 and was produced by American Public Media. It features a mix of comedy, music, and storytelling, often set in the fictional town of Lake Wobegon, Minnesota, which Keillor famously described as "the little town that time forgot and the town that forgot itself." The program is known for its warm, nostalgic tone and its eclectic mix of.
+
+
+
+STEP: 3
+
+NORMAL TRAJECTORY:
+ Thought 3: Let me do the action Finish[1974]
+Action 3: Finish[1974]
+Observation 3: Episode finished, reward = 1
+
+SIMULATION TRAJECTORY:
+ Thought 3: Let me do the action Finish[1974]
+Action 3: Finish[1974]
+Observation 3: Prairie Home Companion is a live radio variety show created and hosted by American singer-songwriter Garrison Keillor. The show first aired in 1974 and was produced by American Public Media. It features a mix of comedy, music, and storytelling, often set in the fictional town of Lake Wobegon, Minnesota, which Keillor famously described as "the little town that time forgot and the town that forgot itself." The program is known for its warm, nostalgic tone and its eclectic mix of.
+
+
+
+INFO {'steps': 5, 'answer': '1974', 'gt_answer': '1974', 'question_idx': 2910, 'reward': True, 'em': True, 'f1': 1.0}
+
+INFO Sum of rewards: 2 
+Number of steps: 4 
+Average reward: 0.5 
+Average time 19.942468285560608
+
+-------------------------------------------------------
+
